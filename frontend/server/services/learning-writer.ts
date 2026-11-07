@@ -61,7 +61,7 @@ export async function validateCompleteExam(examNumber: number, db: Database, con
   if (missing.length) fail(422, 'validation_error', `模擬試験${examNumber}を公開するには問1〜${questionCount}の登録が必要です。不足：${missing.map(number => `問${number}`).join('、')}`, { base: ['公開する試験セットの問題数が不足しています'] })
 }
 
-type SaveOptions = { id?: number, db?: Database, requireCompleteExam?: boolean, config?: ExamConfiguration }
+type SaveOptions = { id?: number, db?: Database, requireCompleteExam?: boolean, config?: ExamConfiguration, preserveHistory?: boolean }
 
 /** Shared writer for the admin API and explicit empty-database content import. */
 export async function saveQuestion(raw: QuestionInput, options: SaveOptions = {}): Promise<QuestionRecord> {
@@ -118,7 +118,7 @@ export async function saveQuestion(raw: QuestionInput, options: SaveOptions = {}
           await db.question.update({ where: { id: before.id }, data: { ...data, updated_at: new Date(), lock_version: { increment: 1 }, ...((changed || leadChanged) ? { content_version: { increment: 1 } } : {}) } })
         }
         id = before.id
-        if (changed) await db.answerHistory.deleteMany({ where: { question_id: id } })
+        if (changed && options.preserveHistory !== true) await db.answerHistory.deleteMany({ where: { question_id: id } })
       } else {
         const saved = record(await db.question.create({ data: { ...data, created_at: new Date(), updated_at: new Date() }, select: { id: true } }))
         id = saved.id

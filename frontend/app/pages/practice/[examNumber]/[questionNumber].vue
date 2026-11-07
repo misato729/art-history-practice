@@ -557,6 +557,13 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleFavoriteModalK
         <span>同じ問題群の設問</span>
         <NuxtLink v-for="number in relatedApplicationNumbers" :key="number" :to="{ path: `/practice/${examNumber}/${number}`, query: practiceNavigationQuery }" :aria-current="number === questionNumber ? 'page' : undefined">問{{ number }}</NuxtLink>
       </nav>
+      <PracticeMaterials
+        v-if="applicationQuestion && question.shared_passages?.length"
+        :passages="question.shared_passages"
+        :references="question.passage_references || []"
+        :scope-key="`application-${examNumber}-${question.group?.id}`"
+        shared
+      />
       <section class="question-panel">
         <div class="question-text">
           <QuestionContentBlocks :blocks="question.content_blocks" />

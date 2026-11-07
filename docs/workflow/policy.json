@@ -3,7 +3,8 @@
   "local_only": {
     "directory_names": [
       "local-only",
-      "past-exam"
+      "past-exam",
+      "textbook"
     ],
     "filename_prefixes": [
       "textbook."

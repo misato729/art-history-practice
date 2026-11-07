@@ -29,3 +29,6 @@
 
 # Supplied official textbook remains local.
 **/[tT][eE][xX][tT][bB][oO][oO][kK].*
+
+# User-supplied textbook volumes remain local.
+**/[Tt][Ee][Xx][Tt][Bb][Oo][Oo][Kk]/

@@ -83,7 +83,9 @@ jobs:
           for mock_number in 01 02 03 04 05; do
             node --experimental-strip-types scripts/check-mock-exam.mjs "content/mock-exams/mock-$mock_number"
           done
+          node --experimental-strip-types scripts/check-mock-exam.mjs content/revisions/mock02-textbook-v2/baseline-artifacts
           node --experimental-strip-types scripts/check-mock-series.mjs
+          node --experimental-strip-types --test scripts/mock02-revision/tests/*.test.mjs
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Generate Prisma Client and validate database schema

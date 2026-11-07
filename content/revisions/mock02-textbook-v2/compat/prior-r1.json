@@ -1,0 +1,6461 @@
+{
+  "format": "art-lab-exam-revision",
+  "version": 1,
+  "revision_id": "mock02-r1-20261107",
+  "exam_number": 2,
+  "baseline_commit": "c86890999262edaf1c873d9c2565fb516c9413f7",
+  "baseline_seed_path": "content/mock-exams/mock-02/questions.json",
+  "baseline_seed_git_blob": "c105fd6ea40ac8284f1b25a23ed40e3b6565b45f",
+  "questions": [
+    {
+      "exam_number": 2,
+      "question_number": 1,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "古代の文字と、その文字が発達した地域の組合せとして正しいものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "古代美術を学ぶ際は、造形の特徴だけでなく、文字・記録・地域の対応も押さえます。メソポタミアのくさび形文字と、エジプトのヒエログリフを区別してください。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：エトルリアはイタリア半島の文化で、この文字の発達した中心地域ではありません。\nイ：ラテン文字は古代ローマなどと関わり、エジプトの代表的な文字との対応ではありません。\nウ：ティグリス川・ユーフラテス川流域で発達した文字文化に対応します。\nエ：ヒエログリフは古代エジプトの文字です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問1（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "くさび形文字 ― エトルリア"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ラテン文字 ― 古代エジプト"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "くさび形文字 ― メソポタミア"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ヒエログリフ ― メソポタミア"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 2,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ギリシア彫刻の様式を古い順に並べたものはどれですか。A：自然な重心移動と身体の均衡を重んじる。B：正面性と定型的な微笑がみられる。C：強いねじれや劇的な感情を表す作例が増える。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "Bはアルカイック、Aはクラシック、Cはヘレニズムの代表的傾向です。実際の作品には多様性がありますが、時期の順序と身体表現の変化を関連付けると整理できます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：ヘレニズムをクラシックより前に置いています。\nイ：アルカイックとクラシックの前後が逆です。\nウ：最も後のヘレニズムを先に、アルカイックを最後に置いています。\nエ：アルカイック、クラシック、ヘレニズムの順です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問2（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "B → C → A"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A → B → C"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "C → A → B"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "B → A → C"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 3,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ロマネスクとゴシックの教会建築を比較した説明として最も適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "様式名だけでなく、壁・アーチ・外部の支持構造がどのように力を受けるかを考えることが重要です。ゴシックの高い身廊やステンドグラスの大窓は、構造の工夫と切り離せません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：様式の特徴を構造と開口部の関係から捉えています。\nイ：両様式の代表的特徴を逆にしています。\nウ：構造上の違いを無視し、装飾の有無だけに還元しています。\nエ：ドームの大きさによる区分ではありません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問3（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ロマネスクでは厚い壁と半円アーチが目立ち、ゴシックでは尖頭アーチや飛梁が高い空間・大きな窓を支えた。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ロマネスクでは尖頭アーチと飛梁が発達し、ゴシックでは厚い壁と小さな窓を基本とした。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ロマネスクとゴシックは同じ構造を用い、壁面に彫刻があるかどうかで区別される。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ロマネスクとゴシックはともにドームを中心とし、その直径だけによって区別される。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 4,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《イザヤとエゼキエルを伴うキリスト降誕》を描いた、シエナ派の画家は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-01.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "図版はドゥッチョによる1308〜1311年の作品です。金地、細やかな線、聖なる物語の表現を、シエナ派の作家と結び付けて確認しましょう。母子が見えるというだけでなく、作品と作者の対応を問う問題です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：15世紀のフィレンツェで活動した画家で、この作品の作者ではありません。\nイ：同時代の重要な画家ですが、このシエナの祭壇画断片の作者ではありません。\nウ：所蔵館が作者として記録している画家です。\nエ：初期ルネサンスの画家であり、この作品の作者ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ドゥッチョ《The Nativity with the Prophets Isaiah and Ezekiel》、1308–1311。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問4（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：The Nativity with the Prophets Isaiah and Ezekiel | https://www.nga.gov/artworks/10-nativity-prophets-isaiah-and-ezekiel",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "フラ・アンジェリコ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ジョット"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ドゥッチョ"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "マザッチョ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 5,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "初期ルネサンス期のフィレンツェの芸術支援について正しい説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "ルネサンスの芸術は作家の才能だけで成立したのではなく、注文主と都市の経済・社会に支えられました。フィレンツェ、ローマ、ヴェネツィアの違いを整理してください。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：都市の経済活動と芸術の注文を関連付けています。\nイ：富裕な家や市の注文を含むフィレンツェの状況に合いません。\nウ：ローマの背景との混同で、注文主を教皇だけに限定する点も誤りです。\nエ：ヴェネツィアに対応する都市の背景です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問5（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "商工業による富を背景に、富裕な家や都市から芸術への注文が行われた。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "宮廷の軍事的な注文のみを認め、市民による芸術支援を排除した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "教皇庁の恒常的な所在地であり、教皇の注文だけが芸術制作を支えた。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "潟の海洋交易都市として、東方との海上交易を芸術支援の基盤とした。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 6,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図はフラ・アンジェリコが聖コスマスと聖ダミアヌスの物語を描いた作品です。光輪をもつ人物と寝台の人物との関係から、主題として最も適切なものを選んでください。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-02.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "宗教画の主題は、光輪の有無だけでは決まりません。寝台の成人、治癒する聖人、感謝を示す女性という人物の役割を読み、キリストの生涯の場面と聖人伝の場面を区別します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：聖人たちは病人に働きかけており、殉教後の遺品分配ではありません。\nイ：左の病床への働きかけと、右の感謝のやり取りを同じ物語として読めます。\nウ：寝台の人物は成人であり、幼児と博士たちの場面ではありません。\nエ：起き上がる寝台の人物や、入口での贈り物を説明できません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：フラ・アンジェリコ《The Healing of Palladia by Saint Cosmas and Saint Damian》、1438/1440年頃。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問6（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：The Healing of Palladia by Saint Cosmas and Saint Damian | https://www.nga.gov/artworks/41613-healing-palladia-saint-cosmas-and-saint-damian",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "聖人が殉教した後、遺品を信者へ分ける儀式"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "聖人による病人の治癒と、癒やされた女性の感謝"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "聖母による幼児キリストの出産と、東方三博士の礼拝"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "キリストの死後、遺体を墓へ運ぶ埋葬"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 7,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図のボッティチェリの作品で、幼児に贈り物を捧げる人々の姿から読み取れる主題はどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-03.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "聖母子画のなかでも、誰が、何を持ち、どのような行為をしているかによって主題を識別します。この図では中心の幼児へ向かう礼拝と贈り物が重要です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：天使が聖母へ受胎を告げる場面であり、幼児への礼拝ではありません。\nイ：聖母が天へ上げられる主題で、この地上の礼拝場面とは異なります。\nウ：博士たちが幼児キリストを礼拝し、贈り物を捧げる主題です。\nエ：幼児を祭司へ差し出す儀礼を中心とする主題です。"
+        },
+        {
+          "type": "text",
+          "text": "図版：サンドロ・ボッティチェリ《The Adoration of the Magi》、1478/1482年頃。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問7（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：The Adoration of the Magi | https://www.nga.gov/artworks/24-adoration-magi",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "受胎告知"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "聖母被昇天"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "東方三博士の礼拝"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "神殿奉献"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 8,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《鏡を見るヴィーナス》の作者と、その活動を代表する都市の組合せはどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-04.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "鏡と翼のある幼児はヴィーナスの図像を読む手掛かりです。そのうえで、色彩や絵具の扱いに特色をもつヴェネツィア派のティツィアーノと結び付けます。一般に正しい作家と都市の組でも、掲載作品に合うとは限りません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：作者は合いますが、代表的な活動都市を取り違えています。\nイ：ラファエロの作品ではありません。\nウ：図の作者はティツィアーノで、ヴェネツィア派を代表します。\nエ：都市と作家の対応自体は妥当でも、図の作者ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ティツィアーノ《Venus with a Mirror》、1555年頃。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問8（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Venus with a Mirror | https://www.nga.gov/artworks/41-venus-mirror",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ティツィアーノ ― フィレンツェ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ラファエロ ― ヴェネツィア"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ティツィアーノ ― ヴェネツィア"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ボッティチェリ ― フィレンツェ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 9,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《受胎告知》を描き、15世紀ネーデルラントの油彩表現を代表する画家は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-05.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "豪華な衣服、建築、床面を細密に描く表現を、北方の油彩と作者に結び付ける問題です。本作は1434〜1436年頃の15世紀の作品です。油彩をこの画家が単独で発明した、とまでは説明しません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：同じ初期ネーデルラント絵画の画家ですが、この作品の作者ではありません。\nイ：NGA所蔵の本作はファン・エイクによる1434〜1436年頃の作品です。\nウ：同じ地域の宗教画で知られますが、この図の作者ではありません。\nエ：同じネーデルラントの画家ですが、本作とは作者が異なります。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ヤン・ファン・エイク《The Annunciation》、1434/1436年頃。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問9（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：The Annunciation | https://www.nga.gov/artworks/46-annunciation",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ロヒール・ファン・デル・ウェイデン"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ヤン・ファン・エイク"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ハンス・メムリンク"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ヒエロニムス・ボス"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 10,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ルネサンスの画家の修業について、二つの師弟関係がともに正しい組合せはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "工房は技術の伝承だけでなく、注文への共同制作や分業を学ぶ場でした。レオナルドとヴェロッキオ、ラファエロとペルジーノを、作家名の似通った印象ではなく関係として覚えます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：両方の師弟関係を取り違えています。\nイ：両方とも、それぞれの画家の修業に関わる師弟関係です。\nウ：レオナルドの修業した工房を取り違えています。\nエ：後半の師弟関係が誤りです。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問10（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ギルランダイオ → ラファエロ／ペルジーノ → レオナルド"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ヴェロッキオ → レオナルド／ペルジーノ → ラファエロ"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ギルランダイオ → レオナルド／ペルジーノ → ラファエロ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ヴェロッキオ → レオナルド／ペルジーノ → ティツィアーノ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 11,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《ライオンの穴のダニエル》を描いた、フランドルのバロック画家は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-06.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "旧約聖書のダニエルの救済を描いた本作は、ルーベンスの作品です。ライオンがいるという確認だけでなく、作品の主題・作者・地域を結び付けて学習します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：オランダの画家で、本作の作者ではありません。\nイ：スペインの画家で、本作の作者ではありません。\nウ：本作の作者で、動勢のある人体や群像表現でも知られます。\nエ：フランス出身の画家で、本作の作者ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ピーテル・パウル・ルーベンス《Daniel in the Lions’ Den》、1614/1616年頃。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問11（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Daniel in the Lions’ Den | https://www.nga.gov/artworks/50298-daniel-lions-den",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "レンブラント"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ディエゴ・ベラスケス"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ピーテル・パウル・ルーベンス"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ニコラ・プッサン"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 12,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の自画像を描いた画家は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-07.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "図はレンブラントの1659年の自画像です。顔を際立たせる光、暗い衣服や背景、顔の絵具の筆触を手掛かりに、作家と作品を対応させます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：1659年の自画像です。明暗と厚みのある絵具の扱いに注目します。\nイ：オランダの風景画で知られますが、本作の作者ではありません。\nウ：同時代の肖像画家ですが、この自画像の作者ではありません。\nエ：同時代のオランダの画家ですが、この自画像の作者ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：レンブラント《Self-Portrait》、1659。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問12（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Self-Portrait | https://www.nga.gov/artworks/79-self-portrait",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "レンブラント"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ヤーコプ・ファン・ロイスダール"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "フランス・ハルス"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ヨハネス・フェルメール"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 13,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《天秤を持つ女》について、背後の絵中画と前景の行為を関連付ける解釈として最も適切なものはどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-08.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "絵中画は単なる背景装飾とは限りません。ただし、象徴を読むことと、描かれた人物の職業や身分を断定することは分けます。本問では天秤と審判との関連から節度や自己省察を読む解釈を選びます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：所蔵館の解釈にも対応する、絵中画と行為の関連です。\nイ：象徴的関連と、人物の現実の職業の断定は異なります。\nウ：絵中画の主題を取り違えています。\nエ：絵中画の主題も、女性の役割の断定も妥当ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ヨハネス・フェルメール《Woman Holding a Balance》、1664年頃。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問13（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Woman Holding a Balance | https://www.nga.gov/artworks/1236-woman-holding-balance",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "《最後の審判》の判断と、天秤で量る行為を結び付け、節度や内省を考える。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "《最後の審判》と結び付け、女性を裁判所の判事と断定する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "《東方三博士の礼拝》と結び付け、天秤を幼児への贈り物とみなす。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "《受胎告知》と結び付け、女性を告知を受ける聖母と断定する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 14,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "対抗宗教改革期のカトリック美術で、劇的な明暗や身ぶりが重視された理由として最も適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "バロック美術の劇性は、単なる装飾的な好みとしてだけでは説明できません。カトリックの宗教美術では、観者の信仰に働きかける役割と表現の方法を結び付けて捉えます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：カトリック教会の注文と美術の役割を逆にしています。\nイ：教会が求めた宗教的な説得力と表現を結び付けています。\nウ：宗教美術を用いる対抗宗教改革の目的に合いません。\nエ：感覚や感情に働きかける表現の目的と逆です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問14（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "教会の注文をなくし、制作を市民の美術市場だけへ移すため。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "聖書や聖人の物語を感覚に訴えて示し、信仰を喚起するため。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "宗教的な主題を廃止し、生活の道具だけを独立した主題にするため。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "感情的な反応を避け、見る者と宗教的主題の距離を広げるため。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 15,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図のシャルダンの作品に描かれたシャボン玉が、ヨーロッパ美術で伝統的に結び付けられる意味はどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-09.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "シャボン玉ははかなさを表すモティーフとして使われます。ただし本作の意味をそれ一つに固定する必要はなく、行為に集中する人物の表現も重要です。図像の伝統と個別作品の解釈を分けましょう。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：壊れやすい泡の性質が、移ろいやすい生を連想させます。\nイ：オリーブの枝などと関連する意味です。\nウ：錨などと関連する意味で、泡の壊れやすさとは異なります。\nエ：月桂冠などと結び付けられる意味で、泡の伝統的な意味とは異なります。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ジャン＝シメオン・シャルダン《Soap Bubbles》、1733/1734年頃。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問15（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Soap Bubbles | https://www.nga.gov/artworks/994-soap-bubbles",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "生命や幸福のはかなさ"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "争いの終結と平和"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "困難のなかでも失われない希望"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "戦いで得た勝利と名誉"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 16,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《読書する少女》の作者は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-10.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "読書しているという行為の確認ではなく、作品と作者の対応を問います。黄色い衣服や軽やかな筆触を、フラゴナールの作品の特徴として確認します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：同じ18世紀フランスの画家ですが、本作の作者ではありません。\nイ：NGA所蔵の本作の作者です。\nウ：同時代の日常生活や静物の画家ですが、本作の作者ではありません。\nエ：同じ18世紀フランスの画家ですが、本作の作者ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ジャン＝オノレ・フラゴナール《Young Girl Reading》、1769年頃。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問16（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Young Girl Reading | https://www.nga.gov/artworks/46303-young-girl-reading",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "フランソワ・ブーシェ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ジャン＝オノレ・フラゴナール"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ジャン＝バティスト＝シメオン・シャルダン"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "アントワーヌ・ヴァトー"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 17,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ジョシュア・レノルズの活動について正しいものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "英国絵画では、肖像・風刺・科学的関心・風景など多様な領域が展開しました。レノルズについては肖像画と王立美術アカデミーでの役割を関連付けて押さえます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：画家としての分野と制度上の役割がともに一致します。\nイ：コンスタブルの活動に対応する説明です。\nウ：主にホガースの活動に対応する説明です。\nエ：ジョゼフ・ライトの活動に対応する説明です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問17（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "肖像画で知られ、イギリス王立美術アカデミーの初代院長を務めた。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "農村の風景を追究し、ソールズベリー大聖堂を繰り返し描いた。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "風刺的な連作を中心に制作し、王立美術アカデミーの初代院長には就かなかった。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "科学実験の場面を描き、実験の光を人物群の中心に据えた。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 18,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "古代の人物の行為を、理性・節度・市民的な義務の模範として描こうとする傾向に最も近いものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "ここで問うのは、古代の題材があるかどうかだけではなく、その題材にどのような価値を担わせるかです。新古典主義では、古代の行為を理性や義務の模範として取り上げる傾向がみられます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：宮廷の遊戯や優雅な親密さなどを重んじる傾向と区別します。\nイ：近代生活や移ろう光の表現を重視する傾向と区別します。\nウ：内面や夢、象徴的な主題を重んじる方向と区別します。\nエ：古代の物語に倫理的・市民的規範を求める傾向に対応します。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問18（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ロココ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "印象主義"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "象徴主義"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "新古典主義"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 19,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図のナポレオン像の作者と、時計・ろうそく・書類によって強調される人物像の組合せはどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-11.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "ダヴィッドの1812年の作品です。軍服だけで戦場の場面と判断せず、早朝を示す時計や短くなった灯火、書類が勤勉な統治者のイメージをつくっていることを読み取ります。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：作者と、執務の道具がつくる政治的な人物像の両方が合います。\nイ：解釈は近いですが、本作の作者はダヴィッドです。\nウ：作者は合いますが、描かれているのは戦場ではなく執務室です。\nエ：作者も、室内の道具から読み取る役割も異なります。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ジャック＝ルイ・ダヴィッド《The Emperor Napoleon in His Study at the Tuileries》、1812。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問19（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：The Emperor Napoleon in His Study at the Tuileries | https://www.nga.gov/artworks/46114-emperor-napoleon-his-study-tuileries",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ダヴィッド ― 夜を徹して執務する勤勉な統治者"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ドラクロワ ― 夜を徹して執務する勤勉な統治者"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ダヴィッド ― 戦場で軍を直接指揮する将軍"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ドラクロワ ― 収集した古典作品を鑑定する愛好家"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 20,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《ヴェネツィアへの接近》を描いた画家は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-12.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "本作はターナーによる1844年の作品です。光と色のなかで建物や舟の輪郭が柔らかくなる表現を、作者の識別に結び付けます。単に「柔らかい輪郭」と言い換えるだけでなく、作品と時代の位置を確認しましょう。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：同時代のイギリスの風景画家ですが、本作の作者ではありません。\nイ：フランスの風景画家ですが、本作の作者ではありません。\nウ：ドイツ・ロマン主義の画家ですが、本作の作者ではありません。\nエ：空と水面を光や色の広がりとして描いた本作の作者です。"
+        },
+        {
+          "type": "text",
+          "text": "図版：J. M. W. ターナー《Approach to Venice》、1844。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問20（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Approach to Venice | https://www.nga.gov/artworks/117-approach-venice",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ジョン・コンスタブル"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ジャン＝バティスト＝カミーユ・コロー"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "カスパー・ダーヴィト・フリードリヒ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ジョゼフ・マロード・ウィリアム・ターナー"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 21,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "19世紀の建築における「歴史主義」を説明するものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "建物の用途、構造・材料、外観の様式は別の観点です。歴史主義は過去の様式を参照する態度であり、必ずしも古い用途の建物だけをつくることではありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：用途が新しくても、外観などに歴史的様式を採用する態度です。\nイ：20世紀の合理主義的建築に近い方向です。\nウ：主にアール・ヌーヴォーなどの特徴に対応します。\nエ：材料・生産方法と様式の参照を混同しています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問21（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "近代の新しい用途にも、ゴシックなど過去の建築様式を選び直して用いる。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "過去の様式を排し、構造と機能に基づく普遍的な形式だけを追求する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "自然の植物を思わせる曲線を、構造や室内装飾まで一体的に展開する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "鉄とガラスによる部材の規格化そのものを、歴史上の様式の名称とする。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 22,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《若い画家への助言》を描いた画家は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-13.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "図版はドーミエの1865〜1868年頃の作品です。身ぶりや視線の観察を、作者の識別へつなげる問題です。特定の人物の実名まで図だけから断定する必要はありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：19世紀フランスの画家ですが、本作の作者ではありません。\nイ：同時代の画家ですが、本作の作者ではありません。\nウ：同時代の画家ですが、本作の作者ではありません。\nエ：年長者と若者が作品を検討する場面を描いた本作の作者です。"
+        },
+        {
+          "type": "text",
+          "text": "図版：オノレ・ドーミエ《Advice to a Young Artist》、1865/1868。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問22（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Advice to a Young Artist | https://www.nga.gov/artworks/895-advice-young-artist",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ギュスターヴ・クールベ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "エドゥアール・マネ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ジャン＝フランソワ・ミレー"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "オノレ・ドーミエ"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 23,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の舞台袖の踊り手を描いた画家と、その構図の特徴の組合せはどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-14.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "ドガの《舞台裏の踊り手たち》です。題材がバレエというだけでなく、近景の切取り、奥の舞台との重なり、非対称な視点を作品の特徴として確認します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：作者と構図の両方が異なります。\nイ：作者と、舞台側方からの切取りの特徴が合います。\nウ：作者は合いますが、構図の説明が実画像と異なります。\nエ：観察は合いますが、作者はドガです。"
+        },
+        {
+          "type": "text",
+          "text": "図版：エドガー・ドガ《Dancers Backstage》、1876/1883。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問23（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Dancers Backstage | https://www.nga.gov/artworks/52169-dancers-backstage",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ルノワール ― 踊り手を同じ大きさで並べ、左右対称の正面像にする。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ドガ ― 近い人物を画面端で切り、舞台の奥と非対称に重ねる。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ドガ ― 踊り手を同じ大きさで並べ、左右対称の正面像にする。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ルノワール ― 近い人物を画面端で切り、舞台の奥と非対称に重ねる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 24,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図のロダンの彫刻の作品名はどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-15.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "部分の有無や姿勢を観察し、それを同じ彫刻家の具体的な作品名と対応させます。所蔵品の鋳造年と、作品の原型が制作された年は区別してください。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：座って考える人体像で、図の立像とは異なります。\nイ：複数の人物からなる記念群像で、図の単独の裸体像とは異なります。\nウ：頭部と四肢を備え、片腕を頭部へ上げる裸体立像です。\nエ：頭部や腕を欠く歩行する人体として知られ、本作の姿と異なります。"
+        },
+        {
+          "type": "text",
+          "text": "図版：オーギュスト・ロダン《The Age of Bronze (L’Age d’Airain)》、原型1875–1876・鋳造1903–1904。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問24（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：The Age of Bronze | https://www.nga.gov/artworks/1003-age-bronze-lage-dairain",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "《考える人》"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "《カレーの市民》"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "《青銅時代》"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "《歩く男》"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 25,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ラファエル前派の姿勢と関心を説明したものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "ラファエル前派では、自然の精細な観察と、文学・中世への関心が結び付きます。「過去を扱う」からといって、アカデミーの定型を無条件に支持したのではありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：印象主義や新印象主義との混同です。\nイ：美術教育との関係と題材への関心が合います。\nウ：レディ・メイドなどの後の実践と混同しています。\nエ：既存の定型への反発を取り違えています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問25（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "都市の余暇を対象に、移ろう光を色の小点へ分割する方法を統一した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "アカデミーの定型に反発し、自然の細部や中世・文学の主題を重んじた。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "古典や文学の主題を排し、工業製品をそのまま作品として提示した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "アカデミーの定型に従い、古典的な人体比例だけを制作の目的とした。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 26,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の海景の作者と、色の扱いを支える考え方の組合せはどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-16.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "図はスーラの《ポール＝アン＝ベッサンの海景、ノルマンディー》です。細かな色の置き方を実際に見て、新印象主義の考え方と作者を対応させます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：作者と新印象主義の分割された色の方法が対応します。\nイ：本作の作者と制作方法の中心を取り違えています。\nウ：作者は合いますが、色を分割して置く方法と逆です。\nエ：別の作家の方向に近い説明であり、掲載図版には対応しません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ジョルジュ・スーラ《Seascape at Port-en-Bessin, Normandy》、1888。National Gallery of Art, Washington。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問26（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nNGA：Seascape at Port-en-Bessin, Normandy | https://www.nga.gov/artworks/53139-seascape-port-en-bessin-normandy",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "スーラ ― 色を分割して置き、離れて見ると混ざる視覚的効果を利用する。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ゴーギャン ― 色を分割して置き、離れて見ると混ざる視覚的効果を利用する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "スーラ ― 色を十分に練り混ぜ、筆触を消して滑らかな面にする。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ゴーギャン ― 輪郭で囲んだ広い色面を、平たく均一に配置する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 27,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ガウディについて最も適切な説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "同じ世紀末の建築でも、活動地と造形の課題は異なります。ガウディ、オルタ、オルブリヒ、シカゴの高層建築を一つの説明に混ぜないことが重要です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：オルタの活動に近い説明です。\nイ：サリヴァンらの活動に対応します。\nウ：オルブリヒの活動に対応します。\nエ：活動地と造形上の傾向が合います。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問27（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ブリュッセルで活動し、鉄とガラスを曲線的に用いた住宅を設計した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "シカゴで活動し、高層建築の用途に応じた外観を追求した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ウィーンで活動し、分離派の展示館を設計した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "スペインで活動し、自然を思わせる有機的な形を独自の建築へ展開した。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 28,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "1905年、強烈な色彩の作品群が「フォーヴ」と評される契機となった展覧会はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "展覧会名は似ていますが、前衛の発表の場、審査制度、命名の契機は別々に確認します。単に「新しい美術が出たサロン」という理解では区別できません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：前衛作家の発表の場でしたが、問われた命名の契機とは異なります。\nイ：公式サロンの系譜と、1905年の命名の場を混同しています。\nウ：象徴主義に関わる展覧会と混同しています。\nエ：1905年のこの展覧会をめぐる批評が呼称の契機です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問28（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "サロン・デ・ザンデパンダン"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "フランス芸術家協会のサロン"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "サロン・ド・ラ・ローズ・クロワ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "サロン・ドートンヌ"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 29,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "分析的キュビスムの方法を、印象主義や未来派と区別して述べたものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "「分解して描く」という大まかな印象だけでは不十分です。対象の見方を組み直すこと、時間の連続を示すこと、光や色を分析することを区別します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：複数の視点と面への分解に焦点があります。\nイ：印象主義の関心に近い説明です。\nウ：新印象主義の色の扱いに対応します。\nエ：未来派の運動への関心に近い説明です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問29（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "対象を小さな面へ分解し、異なる方向から捉えた形を一画面へ組み込む。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "外光による一瞬の色の変化を、小さな筆触で捉える。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "規則的に色点を並べ、離れて見る際の光学的混色を目指す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "同じ身体の動きを連続する形として重ね、速度と時間の経過を強調する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 30,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "カンディンスキーが音楽に見いだした、抽象絵画を考えるうえでの手掛かりはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "音楽との関係は、楽器を描くことや、色を機械的に音へ置き換えることではありません。色と形そのものの関係が表現として働くという視点が、抽象を理解する鍵です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：音楽と同じように、対象の模写に依存しない表現を考える手掛かりです。\nイ：音源の配置を記録する仕組みではありません。\nウ：模写から離れる可能性を考えた点と逆です。\nエ：固定した記号対応による同一の反応の保証ではありません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問30（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "具体的な対象を再現しなくても、色や形の関係が感情へ働きかけうること。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "楽器の位置を正確に描けば、画面から実際の音が再生されること。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "対象の固有色を忠実に再現するほど、音楽に近い表現になること。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "作品ごとに色と音を一対一で固定すれば、鑑賞者の感情を同一にできること。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 31,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "モンドリアンの新造形主義における線・色・配置の関係として正しいものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "新造形主義の均衡は、同じ形を左右に複製することではありません。水平・垂直や限られた色による要素の関係を、非対称でも成立させる点が重要です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：線と色の基本的な原則が異なります。\nイ：均衡を左右対称だけに限定している点が誤りです。\nウ：限られた要素の関係によって均衡を探る方法です。\nエ：対象の写実的な量感を目的とする説明ではありません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問31（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "放射する曲線と自然の固有色を用い、中心から回転する構成をつくる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "水平・垂直の線と三原色を用い、左右同じ大きさの色面を必ず対称に置く。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "水平・垂直の線と三原色、白・黒などの関係を、非対称の配置のなかで調整する。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "水平・垂直の線を用い、細かな陰影によって対象の立体感を再現する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 32,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "1916年、チューリヒでダダの発祥の場となった拠点はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "戦時下の中立国スイスに集まった芸術家たちが、詩・音・身体的な行為を交差させました。後のギャラリー・ダダと、最初のキャバレーを区別してください。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：同じ都市の活動拠点ですが、1917年の開設であり最初の場ではありません。\nイ：ドイツの造形学校で、チューリヒ・ダダの発祥の場ではありません。\nウ：ウィーンの工芸・デザインの活動で、当該拠点とは異なります。\nエ：詩の朗読などの催しを行った、1916年の拠点です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問32（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ギャラリー・ダダ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "バウハウス"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ウィーン工房"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "キャバレー・ヴォルテール"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 33,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "横たわる人体を、骨・貝・風景にも通じる有機的な量塊として展開した彫刻家は誰ですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "人体を扱うことと、解剖学的な再現を目指すことは同じではありません。ムーアは人体の量塊そのものを、自然物や風景を連想させる形へ展開しました。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：鋼材などを用いた床上へ開く構成と区別します。\nイ：人体と自然物を思わせる有機的な形の関係が、問われた特徴に合います。\nウ：工業的な単位の反復による方法と区別します。\nエ：空気などによって動くモビールの方法と区別します。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問33（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "アンソニー・カーロ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ヘンリー・ムーア"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ドナルド・ジャッド"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "アレクサンダー・カルダー"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 34,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "柱と梁が主要な荷重を担う架構について、近代建築の空間構成との関係を述べたものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "構造と仕切りの役割を区別することが、近代建築の空間の自由を理解する基礎になります。本問は美術史上の概念を問うもので、実際の建物の改修可否を判断するための指示ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：柱梁の架構を生かした自由とは逆の説明です。\nイ：架構の存在だけで、全ての壁の撤去を判断することはできません。\nウ：荷重の受け方を逆に説明しています。\nエ：構造を担う要素と、空間を区切る要素を分けて考えています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問34（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "壁の位置を自由にするためには、柱をなくして仕切壁へ主要荷重を集める。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "柱と梁があれば、耐力・耐震上の役割を調べずに全ての壁を撤去できる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "柱と梁を設けると主要荷重が壁へ移るため、連続した厚い壁が必須になる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "壁を主要な支持から切り離せるため、壁の配置や開口を比較的自由に計画できる。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 35,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "デュビュッフェが「アール・ブリュット」として価値を見いだした表現はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "アール・ブリュットは、単に「荒い絵肌」を意味する造形の分類ではありません。正規の教育や美術界の規範と、表現の価値との関係を問い直す視点に注目します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：ポップ・アートの関心と混同しています。\nイ：ミニマリズムの方向と混同しています。\nウ：オプ・アートの方法と混同しています。\nエ：美術界の制度的な評価の外にある表現を重視した点が合います。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問35（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "広告や漫画のイメージを作品へ取り込む表現"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "工業的な同一単位を反復して配置する表現"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "幾何学模様の規則的な配置で錯視を生む表現"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "職業的な美術教育や美術界の規範の外で生まれた表現"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 36,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "抽象表現主義のデ・クーニングについて、他の作家の方法と区別した説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "抽象表現主義という名称から、全ての作品が人物像を排していると考えないでください。デ・クーニングでは、具象的な人物と激しい筆触・変形が結び付きます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：フランケンサーラーの方法に対応します。\nイ：ロスコなどの方向に近い説明です。\nウ：ステラのシェイプト・キャンヴァスなどと混同しています。\nエ：身ぶり的な表現と具象像が併存する点が重要です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問36（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "未下塗りの布へ薄い絵具を染み込ませ、支持体と色を一体化した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "輪郭の柔らかな大きな矩形の色面を重ね、静かな広がりをつくった。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "キャンヴァスの外形を変え、規則的な縞の構成と対応させた。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "激しい筆触や変形した画面のなかに、女性などの具象的な人物像を残した。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 37,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ラウシェンバーグの「コンバイン」を、ほかの実物を用いる方法と区別した説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "実物を使うという共通点だけで、制作の方法を同一視してはいけません。選ぶ、貼る、圧縮する、描いた面と立体を結合するという違いを確認します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：セザールなどの圧縮による制作と区別します。\nイ：平面と立体の交差がコンバインの要点です。\nウ：レディ・メイドの方法に近い説明です。\nエ：平面のコラージュに範囲を限定しすぎています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問37（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "廃車を圧縮し、工業製品を密集した量塊へ変える。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "描かれた面と日用品などの実物を結び付け、絵画と彫刻の境界を横断する。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "既製の用具を選び、形を変えずに作品として提示する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "切り抜いた写真や新聞だけを貼り、二次元の画面内で完結させる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 38,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "フレイヴィンの蛍光灯による作品で、作品の範囲を考える際に重要なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "フレイヴィンは、既製の灯具と発光を用いて、物体とそれを取り巻く空間の関係を作品化しました。素材の名前だけでなく、光がどこまで作用するかも考えます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：実際の光を用いる方法ではありません。\nイ：周囲の空間へ作用する光を切り離している点が不適切です。\nウ：物体の輪郭を越えて作用する光と空間の関係を捉えています。\nエ：灯具と光自体を用いる制作を、単なる展示照明へ置き換えています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問38（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "管の輪郭を壁へ描き写し、発光しない線だけを完成作とする。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "灯具を作品とし、壁に広がる光は作品とは無関係な副作用とみなす。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "灯具の配置だけでなく、発した光が壁や周囲の空間へ及ぶ関係も含めて見る。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "蛍光灯を見えない裏方に隠し、別の彫刻を照らすことだけを目的とする。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 39,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ドナルド・ジャッドの作品を理解するうえで最も適切な観点はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "ミニマリズムを単に「小さい」「装飾が少ない」と捉えるだけでは不十分です。反復する単位と空間の関係が、鑑賞者の経験をどう組み立てるかに注目します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：フォトモンタージュなど別の方法に近い説明です。\nイ：抽象表現主義の一部に近い観点です。\nウ：作家の筆跡より、単位・配置・空間の関係を重視します。\nエ：出来事・行為中心の方法と、ジャッドの立体の構成を混同しています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問39（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "雑誌の人物を切り合わせ、夢のような不意の物語をつくること。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "強い筆跡を作家の身体的な身ぶりとして読み、内面の感情を追うこと。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "単純化された工業的な単位の反復と、それが置かれる空間との関係。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "一回限りの街頭行為で、観客の応答だけを作品の中心とすること。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 40,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "マチューナスらのフルクサスにおけるイベント、指示、小出版物、マルティプルの関係として最も適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "フルクサスでは、上演の瞬間だけでなく、指示や小さな出版物、複製された品なども活動に関わりました。一つの完成品へ全てを還元しない視点が必要です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：出来事や指示を含む実践を、既存絵画の販売へ限定しています。\nイ：マルティプルや小出版物の役割と逆です。\nウ：複数の媒体を横断する活動を捉えています。\nエ：指示と出来事の実行との関係を断ち切っています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問40（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "イベントは完成した油彩画を鑑賞する儀式で、出版物は作品の価格表だけを担った。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "出版物は全て一品制作に限られ、複製や流通は活動から排除された。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "出来事の実行と複製物の流通を結び付け、芸術に接する場や方法を広げた。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "指示は記録として保存するだけで、他者による実行は認められなかった。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 41,
+      "major_category_code": "western",
+      "category_code": "western_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ルウィットのウォール・ドローイング第289番を別の壁へ再制作します。指示で定められた始点と線の本数を守ったうえで、未指定の長さや終点を担当者が決める場合、適切な説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "第289番では、指示で固定される条件と実行者の判断に委ねられる部分があります。壁の条件が変われば見かけも変わりえますが、それをただちに作者の交代や指示の違反とみなすわけではありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：未指定部分の裁量を、明記された条件の変更へ広げています。\nイ：指示より特定の完成写真を唯一の規準にしています。\nウ：実行の判断と、構想上の作者の交代を混同しています。\nエ：構想と実行者の裁量を両立させて考えています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問41（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "長さを決められるので、指定された始点や本数も自由に変更してよい。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "前回の完成写真と見かけを一致させなければ、指示を守っていても必ず別作品になる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "担当者が長さを決めた時点で、構想上の作者も担当者へ交代する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ルウィットの構想を実行しているので、前回と見かけが異なっても同じ計画の実現となりうる。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 42,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "火焔型土器にみられる大きな口縁の突起について、時代と制作方法の組合せが適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "表面へ線を刻むことと、粘土を貼り付けて立体的な突起をつくることを区別します。火焔型土器は縄文時代の造形であり、古墳の埴輪などと混同しないようにします。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：時代と、器面へ立体を付加する方法が対応します。\nイ：時代と、土器を成形する方法の両方が異なります。\nウ：方法は近いですが、火焔型土器の時代を取り違えています。\nエ：焼成後の彫刻によって大きな突起をつくる説明は適切ではありません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問42（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "縄文時代 ― 粘土の紐や塊を貼り付け、立体的な突起をつくる。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "古墳時代 ― 金属の型へ溶けた材料を流して、口縁を鋳造する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "古墳時代 ― 粘土の紐や塊を貼り付け、立体的な突起をつくる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "縄文時代 ― 焼成後の器面を彫り抜き、細い突起を残す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 43,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "作品と主題の対応がともに正しいものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "仏教に関係する作品でも、前世説話、浄土の表象、祖師の伝記は別の主題です。媒体や名称だけでなく、何を表すために制作されたかを確認しましょう。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：釈迦の前世説話と、堂内に表される仏の世界を区別しています。\nイ：両方の作品と主題の対応が異なります。\nウ：高松塚古墳壁画の人物や四神の主題と混同しています。\nエ：一遍の事績は後世の一遍聖絵などの主題です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問43（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\n法隆寺：大宝蔵院 | https://www.horyuji.or.jp/garan/daihozoin/",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "玉虫厨子 ― 釈迦の前世の捨身飼虎／法隆寺金堂壁画 ― 諸仏の浄土"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "天寿国繡帳 ― 釈迦の前世の捨身飼虎／高松塚古墳壁画 ― 諸仏の浄土"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "玉虫厨子 ― 釈迦の前世の捨身飼虎／高松塚古墳壁画 ― 諸仏の浄土"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "玉虫厨子 ― 一遍の遊行／法隆寺金堂壁画 ― 諸仏の浄土"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 44,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "仏像の一木造について正しい説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "一木造は頭部と体幹の主要部を一材から彫る方法です。名称から、指先まで例外なく一つの木材だと誤解しないことが重要です。寄木造、脱活乾漆造、木心乾漆造と工程を比較します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：主要部を一材から彫ることが基本で、全ての部分が必ず一材とは限りません。\nイ：「全て」「一つでも」という限定が過剰です。\nウ：木心乾漆造の説明です。\nエ：脱活乾漆造の説明です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問44（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "頭部と体幹の主要部を一材から彫り出す。手先などを別材で補う場合もある。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "像の全ての部分を一材から彫り出し、別材を一つでも用いれば一木造ではない。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "木の芯へ漆を用いて肉付けし、表面の形をつくる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "心土の上へ麻布と漆を重ね、完成後に心土を取り除く。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 45,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の像にみられる、一方の足を他方の膝上に置き、手を顔へ寄せる形式の名称はどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-17.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "名称と観察した姿勢を対応させる問題です。図の所蔵館記録は弥勒菩薩像ですが、一般に半跏思惟という姿勢だけから、全ての像の尊名を一律に決める必要はありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：両足を組み、足裏を上へ向ける座り方です。\nイ：脚の組み方と考えにふける身ぶりの両方が対応します。\nウ：両足首を交差させて下へ垂らす形式です。\nエ：両足を下ろして椅子などに腰掛ける形式です。"
+        },
+        {
+          "type": "text",
+          "text": "図版：制作者不詳《Buddha of the Future (Miroku Bosatsu)》、7世紀後半。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問45（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Buddha of the Future (Miroku Bosatsu) | https://www.clevelandart.org/art/1950.86",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "結跏趺坐像"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "半跏思惟像"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "交脚像"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "倚像"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 46,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "平安時代の物語絵巻にみられる「引目鉤鼻」について最も適切な説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "引目鉤鼻を「顔がない」「感情を表せない」と理解するのは不適切です。顔貌を簡略化しても、姿勢・衣装・周囲の場面が人物の情趣を伝える役割を担います。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：引目鉤鼻の簡略な線の表現とは異なります。\nイ：異なる時点を一画面に組む方法で、目鼻の表現とは異なります。\nウ：簡略な顔貌と、人物・場面全体の表現を結び付けています。\nエ：吹抜屋台の説明で、顔の表現技法ではありません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問46（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "目鼻の凹凸を細かな陰影で描き分け、個人の容貌を写実的に記録する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "同じ人物を一画面に繰り返し描くことで、時間の経過を表す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "目鼻を簡略な線で表し、人物の姿勢や衣装、場面の関係も含めて情趣を読ませる。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "屋根を省いて斜め上から室内を見せることで、建物の中を表す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 47,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "A「動物を人のように描く墨の戯画」、B「命蓮の霊験を、空を飛ぶ倉などの場面で伝える絵巻」に当たる組合せはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "同じ絵巻でも、戯画、霊験、宗祖の伝記、六道の主題は異なります。作品名の「絵巻」「絵伝」という共通部分だけでまとめず、描かれる内容を区別してください。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：一遍聖絵は一遍の遊行・事績を描く作品です。\nイ：戯画と霊験譚、それぞれの作品に対応します。\nウ：地獄の主題、華厳の祖師の物語をそれぞれ取り違えています。\nエ：餓鬼草紙は餓鬼の苦しみを扱い、動物の戯画ではありません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問47（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\n奈良国立博物館：国宝 信貴山縁起絵巻 | https://www.narahaku.go.jp/exhibition/special/201604_shigisan/",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A：鳥獣人物戯画甲巻／B：一遍聖絵"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A：鳥獣人物戯画甲巻／B：信貴山縁起絵巻"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A：地獄草紙／B：華厳宗祖師絵伝"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A：餓鬼草紙／B：信貴山縁起絵巻"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 48,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "禅宗様と大仏様の代表的な特徴の組合せとして適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "花頭窓は窓の意匠、貫は柱を横方向に結ぶ構造材です。別の観点を対照しています。なお、ある部材がその様式に特徴的であることと、他の様式には一切使われないことは同じではありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：貫の説明は合いますが、禅宗様の代表的な窓の意匠を取り違えています。\nイ：大仏様における貫の役割を失っています。\nウ：開口部の意匠と構造材の特徴を、それぞれ正しく対応させています。\nエ：両方の代表的特徴の対応が異なります。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問48（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "禅宗様：蔀戸／大仏様：柱を貫く貫を活用した構造"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "禅宗様：花頭窓／大仏様：長押だけで柱をつなぐ構造"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "禅宗様：花頭窓／大仏様：柱を貫く貫を活用した構造"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "禅宗様：蔀戸／大仏様：長押だけで柱をつなぐ構造"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 49,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の尊像と持物の意味が合う説明はどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-18.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "持物の名称だけでなく、尊像の姿と象徴的な意味を対応させます。一般的に正しい護法神の説明でも、この像の持物と一致しなければ正答にはなりません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：本作で見える剣と羂索に対応しません。\nイ：尊像も持物も本作に合いません。\nウ：回数を数える道具は数珠であり、羂索の説明ではありません。\nエ：忿怒の姿、剣、縄状の羂索を一緒に確認できます。"
+        },
+        {
+          "type": "text",
+          "text": "図版：制作者不詳《Fudō Myōō》、14世紀初頭。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問49（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Fudō Myōō | https://www.clevelandart.org/art/1989.267\n成田山新勝寺：お不動さまの御教え | https://www.naritasan.or.jp/about/mioshie/",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "毘沙門天。宝塔と戟によって仏法を守る姿を表している。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "金剛力士。両手の数珠によって経を唱える姿を表している。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "不動明王。剣は煩悩を断つ智慧、羂索は念誦の回数を数える道具を表す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "不動明王。剣は煩悩を断つ智慧、羂索は迷う人を正しい道へ導く働きと結び付く。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 50,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "慈照寺東求堂の同仁斎について、適切な説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "同仁斎は四畳半の室で、付書院と違棚が重要です。「書院造」という名称から、後世の床の間や帳台構まで全て備えていたと推測しないでください。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：広さ・設備・建築史上の位置付けが合います。\nイ：後世の完成した構成を同仁斎へそのまま遡らせています。\nウ：設備と位置付けは合いますが、広さが異なります。\nエ：広さ・設備は合いますが、建築形式の捉え方が異なります。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問50（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\n銀閣寺：銀閣寺について | https://www.shokoku-ji.jp/ginkakuji/about/",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "四畳半に付書院と違棚を備える、初期の書院造の遺構である。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "四畳半に床の間と帳台構を備える、完成した書院の構成を示す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "六畳に付書院と違棚を備える、初期の書院造の遺構である。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "四畳半に付書院と違棚を備える、寝殿造の主屋の形式である。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 51,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図は装飾された経典の表紙です。濃い地と金色の文字を用いることの宗教的な意味として最も適切なものはどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-19.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "経典の装飾は、単に見栄えをよくする行為だけではなく、経典を尊ぶ荘厳と結び付きます。掲載画像は表紙なので、写っていない巻内の経文や界線まで観察したと説明しません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：装飾を内容や読誦の廃止と同一視することはできません。\nイ：経典の荘厳を個人の肖像表現へ取り違えています。\nウ：装飾が経典への信仰・尊重と結び付きます。\nエ：図の資料の性格と荘厳の意味を捉えていません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：制作者不詳《Volume from the Great Perfection of Wisdom Sutra》、12世紀後半。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問51（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Volume from the Great Perfection of Wisdom Sutra | https://www.clevelandart.org/art/1969.130.2.a",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "金色の文字によって経文の内容を省き、読む機能を廃止する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "作者の署名を最も目立たせ、経典を個人の自画像として提示する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "尊い経典を荘厳するため、材料や装飾に意を尽くす。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "文字の形を均一に刷ることだけを目的とし、宗教的な意味を持たない。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 52,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図のように京都の寺社や町並み、人々の活動を俯瞰的に描き、金雲で異なる地点をつなぐ屏風を何と呼びますか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-20.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "洛中洛外図では、京都の名所と人々の活動を一つの大きな画面へ組み込みます。金雲は景物を遮りながら異なる地点をつなぐ働きを担い、地形の標高を機械的に示す記号ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：源氏物語を主題とする絵画で、この都市景観の名称ではありません。\nイ：京都の市中とその周辺を題材とする図の名称です。\nウ：農作業と季節の展開を主題とし、この京都の都市景観とは異なります。\nエ：特定の社寺や参詣の様子を中心とする図で、この京都全体を扱う名称とは異なります。"
+        },
+        {
+          "type": "text",
+          "text": "図版：制作者不詳《Views of Kyoto》、17世紀。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問52（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Views of Kyoto | https://www.clevelandart.org/art/1997.119",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "源氏絵"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "洛中洛外図"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "四季耕作図"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "社寺参詣曼荼羅"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 53,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《遊楽図》を描いた、江戸時代の画家は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-21.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "図は宮川長春による遊楽の場面です。風俗画の場面を見分けるだけでなく、作品と作者を対応させます。奏楽する人物や客の存在は、絵画の題材を理解する手掛かりにもなります。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：多色木版画などで知られますが、この作品の作者ではありません。\nイ：美人画の代表的な作家ですが、この作品の作者ではありません。\nウ：役者絵で知られますが、この作品の作者ではありません。\nエ：所蔵館記録が本作の作者として示す画家です。"
+        },
+        {
+          "type": "text",
+          "text": "図版：宮川長春《Entertainment Scene》、1710–1753年頃。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問53（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Entertainment Scene | https://www.clevelandart.org/art/1985.17",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "鈴木春信"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "喜多川歌麿"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "東洲斎写楽"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "宮川長春"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 54,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "草庵茶室の「にじり口」と「貴人口」を区別した説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "にじり口は小さく、客が姿勢を低くして入る入口です。立って出入りできる貴人口と区別します。付書院や違棚は室内の設備であり、入口の名称ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：書院の設備と茶室の出入口を混同しています。\nイ：入口と室内設備を取り違えています。\nウ：二つの入口を、大きさと通り方によって区別しています。\nエ：両者を逆にしています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問54（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "にじり口は付書院の別名、貴人口は違棚の別名である。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "にじり口は窓の名称、貴人口は床の間の名称である。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "にじり口は体をかがめて入る小さな入口、貴人口は立った姿勢で出入りできる入口である。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "にじり口は立って入る大きな入口、貴人口は体をかがめる小さな入口である。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 55,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《夏夜図・冬景図》の作者は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-22.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "円山応挙による1784年の一対の屏風です。上の月夜と下の雪景を比べ、墨の濃淡と明るい部分が季節や時間を伝えることを確認し、それを作家と結び付けます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：本作の作者ではありません。\nイ：本作の作者で、月夜と雪景の濃淡や余白が重要です。\nウ：本作の作者ではありません。\nエ：本作の作者ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：円山応挙《Summer Night; Winter Day》、1784。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問55（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Summer Night; Winter Day | https://www.clevelandart.org/art/1973.156",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "与謝蕪村"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "円山応挙"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "池大雅"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "尾形光琳"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 56,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "円山応挙の眼鏡絵と、亜欧堂田善の腐食銅版について正しい組合せはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "「西洋風の表現」と一括りにせず、視覚装置を用いる鑑賞と、銅版の凹部から刷る印刷技法を分けて考えます。遠近法と凹版は同じ種類の用語ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：後半は合いますが、眼鏡絵の鑑賞と遠近表現を捉えていません。\nイ：鑑賞装置と表現、版の構造と刷り方がそれぞれ合います。\nウ：後半は凸版の刷り方で、腐食銅版に合いません。\nエ：両方の対応が異なります。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問56（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "眼鏡絵：等角図法による正面鑑賞のみ／腐食銅版：凹部のインクを紙へ写す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "眼鏡絵：レンズによる鑑賞と遠近表現／腐食銅版：凹部のインクを紙へ写す。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "眼鏡絵：レンズによる鑑賞と遠近表現／腐食銅版：凸部だけにインクを付ける。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "眼鏡絵：等角図法による正面鑑賞のみ／腐食銅版：凸部だけにインクを付ける。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 57,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の版本挿絵を「墨摺絵」と呼ぶ場合、分類の根拠として最も適切なものはどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-23.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "墨摺絵、紅摺絵、合羽摺絵、錦絵は、色と制作方法を整理するための区別です。図の黒い線や面を実際に見て、技法の言葉と結び付けます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：紅摺絵などの説明と混同しています。\nイ：型紙による彩色は合羽摺絵の特徴です。\nウ：色数と刷りの方法の分類に対応します。\nエ：年代だけで技法名を入れ替える説明は誤りです。"
+        },
+        {
+          "type": "text",
+          "text": "図版：奥村政信《Three Courtesans with a Client》、18世紀初頭。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問57（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Three Courtesans with a Client | https://www.clevelandart.org/art/1985.337",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "紅や緑など複数の色版を重ねているため、墨摺絵に分類される。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "型紙で色を補うことを墨摺絵の必須条件とする。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "墨一色の線や面を版から刷り、人物の衣装や動きを表している。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "多くの色版を重ねた錦絵を、作品が古い場合に限って墨摺絵と呼ぶ。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 58,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の《江戸名所新選 隅田堤微雨之図》を制作した浮世絵師は誰ですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-24.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "広重の作品です。縦方向の雨線や傘を差す人物を、天候と日常の行為を組み合わせる名所絵の表現として読み、作者の知識へつなげます。本作を別の広重作品の斜めの雨線と混同しないでください。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：美人画などで知られますが、本作の作者ではありません。\nイ：役者絵で知られますが、本作の作者ではありません。\nウ：名所・風景の版画も手掛けますが、本作の作者ではありません。\nエ：所蔵館記録が本作の作者として示します。"
+        },
+        {
+          "type": "text",
+          "text": "図版：歌川広重《Picture of Light Rain on the Embankment of the Sumida River》、1830年代後半または1840年代初頭。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問58（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Picture of Light Rain on the Embankment of the Sumida River | https://www.clevelandart.org/art/1940.988",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "喜多川歌麿"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "東洲斎写楽"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "葛飾北斎"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "歌川広重"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 59,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "フェノロサ、岡倉天心、橋本雅邦の活動について、対応が適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "近代の日本美術の再評価は、議論だけでなく学校や美術団体の設立・運営とも結び付きました。理論・組織・制作実技という役割の違いを整理します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：三者の役割を区別した対応です。\nイ：白馬会の中心は黒田清輝や久米桂一郎らです。\nウ：日本画の実技と再評価・調査の役割を入れ替えています。\nエ：フェノロサと雅邦の役割を取り違えています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問59（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "フェノロサ：日本美術の再評価／岡倉：教育・組織の運営／雅邦：日本画の制作と指導"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "フェノロサ：日本美術の再評価／岡倉：白馬会の創設／雅邦：日本画の制作と指導"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "フェノロサ：日本画の実技制作／岡倉：美術学校の運営／雅邦：日本美術の調査講義の中心"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "フェノロサ：洋画科の実技指導／岡倉：日本美術院の運営／雅邦：明治美術会の洋画指導"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 60,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "浅井忠の《春畝》に見られる表現を、明治洋画の他の傾向と区別したものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "《春畝》は農村の労働を、土色を基調とする写実的な画面で表します。明治の洋画を一つの画風にまとめず、浅井忠と黒田清輝らの外光表現の違いを押さえます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：大正期の自由な変形などに近い説明です。\nイ：本作の時代・方法と異なる説明です。\nウ：浅井忠の《春畝》の表現に対応します。\nエ：白馬会系の外光表現との混同です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問60（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "強い原色と大きな変形によって、個人的な感情を前面に出す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "都市の広告を貼り合わせ、農作業の姿を消費社会の記号へ変える。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "土色を基調とした色調と写実によって、農作業と農村の人々を描く。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "明るい外光と軽い筆触によって、屋外の色を鮮やかに描く。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 61,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "次の出来事を古い順に並べたものはどれですか。A：日本美術院の創立、B：龍池会から日本美術協会への改称、C：岡倉天心の没後の日本美術院再興。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "日本美術協会と日本美術院は同一団体の改称ではありません。龍池会は1887年に日本美術協会へ改称。日本美術院は1898年に別に創立され、岡倉が1913年に没した翌年に再興されました。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：創立と再興の順序を逆にしています。\nイ：再興を最初とすることはできません。\nウ：改称1887年、創立1898年、再興1914年の順です。\nエ：日本美術協会への改称は日本美術院創立より先です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問61（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "B → C → A"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "C → A → B"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "B → A → C"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A → B → C"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 62,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "1896年、黒田清輝や久米桂一郎らを中心に結成され、明るい外光表現を広めた団体はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "明治の洋画を支えた複数の団体を区別します。白馬会は黒田清輝らの外光表現と結び付き、浅井忠らが参加した先行の明治美術会とは別の団体です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：人物・年代・画風の三つの手掛かりに対応します。\nイ：浅井忠らが参加した、白馬会に先行する洋画団体です。\nウ：岸田劉生らによる大正期の活動です。\nエ：里見勝蔵や林武らによる昭和初期の団体です。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問62（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "白馬会"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "明治美術会"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "草土社"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "独立美術協会"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 63,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "1912年に結成されたフュウザン会の志向として最も適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "結成時の志向と、参加作家が後に展開した画風は分けて考えます。岸田劉生が関係したというだけで、フュウザン会を後の草土社と同じ団体・同じ画風とすることはできません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：参加者の重なりと、別の時期・団体の活動を混同しています。\nイ：活動の時代的背景と方法が合いません。\nウ：結成時の個性的で自由な表現への志向に対応します。\nエ：洋画の自由な表現を目指す活動の説明ではありません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問63（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "対象の細部を緻密に描き、岸田劉生らの草土社と同じ団体として発足した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "幕末の洋風銅版画を復興し、腐食銅版だけを共通の制作方法とした。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "官展の規範に収まらず、強い色彩や自由な変形で個性を表そうとした。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "日本画の古典的図様を統一し、西洋の新しい表現を一切退けた。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 64,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "読売アンデパンダン展とネオ・ダダイズム・オルガナイザーズについて、両者を区別した説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "戦後の美術では、作品を発表できる場と、新しい実践を進める集団が関係しながら展開しました。展覧会の制度と、作家集団の制作方法を区別する問題です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：展覧会と集団の性格を入れ替えています。\nイ：出品制度をもつ展覧会と、制作・行為を行う集団を区別しています。\nウ：無審査展と前衛集団の関係として不適切です。\nエ：改称による同一組織ではありません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問64（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "前者は前衛集団、後者はその集団が主催した官設の審査展である。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "前者は無審査の発表の場、後者は廃物や行為などを用いた前衛集団である。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "前者への入選を資格として、後者が日本画の研究団体として設立された。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "前者が後者へ改称され、両者は同一の展覧会制度を指す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 65,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ロープにつかまりながら、床に置いた画面の絵具を足で動かす制作で知られる、具体美術協会の作家は誰ですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "「身体を使う」「新しい素材を使う」という共通点だけで作家をまとめず、それぞれの制作方法を区別します。白髪一雄では身体の運動と絵具の粘り・厚みが結び付きます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：足の運動を絵具の痕跡へ変える制作で知られます。\nイ：紙を身体で突き破る行為などで知られます。\nウ：色水を透明な袋やチューブへ入れた作品などで知られます。\nエ：電球とコードを衣服にした作品などで知られます。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問65（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "白髪一雄"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "村上三郎"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "元永定正"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "田中敦子"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 66,
+      "major_category_code": "japanese",
+      "category_code": "japanese_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "1970年の大阪万博について、《太陽の塔》の作者とシンボルゾーンの建築・会場計画を担った人物の組合せはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "一つの大規模事業には異なる分野の制作者が参加します。会場の建築計画と、その中の造形作品の作者を混同しないようにします。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：太陽の塔の作者と、シンボルゾーンの計画の担当を取り違えています。\nイ：美術家と建築家の役割を正しく対応させています。\nウ：両者の役割を逆にしています。\nエ：太陽の塔の作者を取り違えています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問66（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "太陽の塔：丹下健三／建築・会場計画：イサム・ノグチ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "太陽の塔：岡本太郎／建築・会場計画：丹下健三"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "太陽の塔：丹下健三／建築・会場計画：岡本太郎"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "太陽の塔：イサム・ノグチ／建築・会場計画：丹下健三"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 67,
+      "major_category_code": "contemporary",
+      "category_code": "contemporary_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "《トゥルーイズムズ》などの短い言葉をポスターや電光表示へ置き、公共空間で言葉が持つ権威を問い直してきた作家は誰ですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "現代美術では、写真、既存の像、文書、言葉などがそれぞれ異なる問いに用いられます。ホルツァーの場合は、日常の表示媒体に置かれた言葉の受け取られ方が重要です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：自ら役柄を演じる写真などで知られます。\nイ：短文を公共的な表示媒体へ置く実践に対応します。\nウ：美術館や資金を支える制度を調べる実践などで知られます。\nエ：先行する写真などの像を取り込むアプロプリエーションで知られます。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問67（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "シンディ・シャーマン"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ジェニー・ホルツァー"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ハンス・ハーケ"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "シェリー・レヴィーン"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 68,
+      "major_category_code": "contemporary",
+      "category_code": "contemporary_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "シンディ・シャーマンの《アンタイトルド・フィルム・スティル》について正しい説明はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "題名に「フィルム・スティル」とあっても、実在の映画からの抜粋ではありません。作家の演技によって、映像文化のなかで共有される女性像や役割を浮かび上がらせます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：作家による演技と演出という制作方法に合いません。\nイ：映画にありそうな女性像を、衣装や姿勢、場面の演出によってつくります。\nウ：実際の映画の静止画を抜き出したシリーズではありません。\nエ：フォトモンタージュの説明で、このシリーズの方法とは異なります。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問68（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "通行人を長期間追跡し、演出を避けた同一人物の生活記録とした。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "作家自身が役柄を演じ、実在の映画からの抜粋ではない写真を制作した。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "実在する映画の一場面を複写し、元の配役を調べる資料集とした。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "既存の複数の映画写真を切り貼りし、一枚の場面に合成した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 69,
+      "major_category_code": "contemporary",
+      "category_code": "contemporary_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ハンス・ハーケが美術館理事の職業などを一覧として提示する実践を「制度批判」と捉える理由はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "既存の資料を使うという方法だけで、全てをアプロプリエーションと分類することはできません。この実践では、美術館の活動を支える主体と経済的関係が問いの中心です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：資料の使用を作者性の問題に限定し、作品の焦点を外しています。\nイ：制度と経済活動の関係の検討を、個人の道徳的格付けへ置き換えています。\nウ：場所を扱うことと、物理的な形状だけを問題にすることを混同しています。\nエ：美術を支える制度そのものを問うという焦点に対応します。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問69（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "元資料の文字を借用し、最初の文章の著者が誰かだけを問うから。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "理事個人の善悪を採点し、道徳的な順位表を作ることを目的とするから。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "展示室の寸法に一覧表を合わせ、建築の形だけを作品の主題にするから。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "作品の外部事情とされがちな、館の運営と経済的背景の関係を検討対象へ含めるから。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 70,
+      "major_category_code": "contemporary",
+      "category_code": "contemporary_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "紙上のドローイングと屋外の大規模な出来事の双方に火薬を用いてきた作家は誰ですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "素材の名前と作家を対応させる問題です。蔡國強では火薬の作用が描画の痕跡にも一時的な出来事にも用いられます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：糸を張り巡らす空間作品などで知られます。\nイ：スーパーフラットなどの概念と結び付く作家です。\nウ：火薬による描画や爆発イベントで知られます。\nエ：漢字に似た創作文字を用いる《天書》などで知られます。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問70（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "塩田千春"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "村上隆"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "蔡國強"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "徐冰"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 71,
+      "major_category_code": "contemporary",
+      "category_code": "contemporary_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "草間彌生の絵画と空間作品を結び付ける説明として適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "特定の一作品の題名だけでなく、絵画・立体・空間にわたる制作を結ぶ特徴を整理します。草間彌生の場合は網や水玉などの反復と、鏡が広げる空間が手掛かりになります。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：村上隆の活動との混同です。\nイ：草間の網・水玉・鏡の反復という特徴と一致しません。\nウ：作家も制作範囲も取り違えています。\nエ：異なる媒体の制作を、反復という関心で結び付けています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問71（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "漫画やアニメの図像をもとに、スーパーフラットを提唱した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "既存の報道写真を再撮影し、最初の撮影者の作者性だけを問う制作を続けた。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "糸を展示室へ張り巡らせる方法だけに限定し、絵画は制作しなかった。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "網や水玉などの反復を、平面だけでなく鏡を用いた空間へも展開した。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 72,
+      "major_category_code": "asian",
+      "category_code": "asian_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ガンダーラの仏教彫刻にみられる身体の量感や深い衣文を、文化交流から説明したものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "ある地域の表現を受け入れても、主題まで同じになるとは限りません。ガンダーラでは、仏教の主題とギリシア・ローマ系の人物造形との関係を併せて捉えます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：設問が問う代表的な造形上の関係と異なります。\nイ：造形上の関係から主題まで置き換えることはできません。\nウ：宗教の主題と造形の交流を排他的なものと捉えています。\nエ：主題の宗教的背景と、形の表現に関わる交流を分けています。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問72（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "身体の量感は漢代の画像石だけを直接の基礎として成立した。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "深い衣文があるため、像の主題は仏教ではなくローマの神々に限られる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "主題が仏教であるため、他地域の人物造形との交流は認められない。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "仏教の尊像表現に、古代ギリシア・ローマ系の人物造形との関係がみられる。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 73,
+      "major_category_code": "asian",
+      "category_code": "asian_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図の馬は中国・唐代の唐三彩です。このような作例の用途と特徴を述べたものはどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-25.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "唐三彩を色の見分けだけで覚えるのではなく、墓へ納める明器の文化と結び付けます。本作は馬をかたどった陶製の副葬品です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：副葬品としての用途と色釉の表現が対応します。\nイ：材料・用途ともに本作と異なります。\nウ：用途も、染付に近い技法の説明も本作に合いません。\nエ：用途は合いますが、有線七宝の技法へ取り違えています。"
+        },
+        {
+          "type": "text",
+          "text": "図版：制作者不詳《Horse》、7世紀後半–8世紀。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問73（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Horse | https://www.clevelandart.org/art/1955.295",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "墓へ納める明器として作られ、複数色の釉が立体の表面を彩る。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "神殿の石造柱頭として作られ、大理石そのものの白さを生かす。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "宮廷の食卓の食器として作られ、白磁の上に青だけで文様を描く。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "墓へ納める明器として作られ、金属線で区画した七宝の色で飾る。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 74,
+      "major_category_code": "asian",
+      "category_code": "asian_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "《蘭亭序》を東アジアの書の歴史のなかで説明したものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "書家の名と作品、書体を一組にして確認します。王羲之と王献之、東晋と唐、行書と楷書・篆書を区別してください。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：作者・時代・書体の対応が異なります。\nイ：作者は合いますが、書体を取り違えています。\nウ：行書は合いますが、作者は王羲之です。\nエ：作者・時代・書体が一致します。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問74（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "唐の顔真卿による、楷書の名跡として知られる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "東晋の王羲之による、篆書の名跡として知られる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "東晋の王献之による、行書の名跡として知られる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "東晋の王羲之による、行書の名跡として知られる。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 75,
+      "major_category_code": "design",
+      "category_code": "design_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "A「金粉を蒔いた文様を漆で塗り込み、研いで現す」、B「下地で盛り上げた文様へ金粉を蒔く」。A・Bの名称が合うものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "金粉を用いる点が共通していても、仕上げ方や文様の高さによって技法を区別します。螺鈿は貝の真珠層を用いる装飾で、蒔絵の種類とは異なります。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：Bは貝を用いる螺鈿ではなく、盛り上げた蒔絵です。\nイ：Bは合いますが、Aの塗り込みと研出しの工程を捉えていません。\nウ：工程と技法名を逆にしています。\nエ：研ぎ出す工程と、文様を高くする工程が対応します。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問75（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\n文化遺産オンライン：蒔絵 | https://online.bunka.go.jp/heritages/detail/204253",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A：研出蒔絵／B：螺鈿"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A：平蒔絵／B：高蒔絵"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A：高蒔絵／B：研出蒔絵"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A：研出蒔絵／B：高蒔絵"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 76,
+      "major_category_code": "design",
+      "category_code": "design_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "釉薬の色ではなく、焼き上がった素地に注目した磁器と炻器の典型的な違いはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "見えている色が釉によるものか、素地の性質によるものかを区別します。典型的には、磁器は白色・緻密で薄手では透光性を示し、炻器は焼き締まった緻密な素地で一般に不透明です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：両者の素地の性質を比べています。\nイ：磁器の性質は合いますが、炻器の焼き締まった素地を取り違えています。\nウ：釉と素地を混同しています。\nエ：典型的な焼き締まりや透光性の対応が異なります。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問76（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "磁器は白く緻密で薄手では透光性があり、炻器は緻密だが一般に不透明である。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "磁器は白く緻密で薄手では透光性があるが、炻器は低温で焼いた多孔質の素地である。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "磁器の白さは白い釉だけによるもので、素地の性質とは無関係である。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "磁器は低温で焼いた多孔質の素地、炻器は白く透明な素地である。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 77,
+      "major_category_code": "design",
+      "category_code": "design_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "ウィリアム・モリスが関わった工芸改革の運動と、自ら設けた出版工房の組合せはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "モリスの関心は家具や布などに限られず、文字・装飾・紙を統合する本の造形にも及びました。似た目的をもつ出版工房でも、設立者を区別する必要があります。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：出版工房は合いますが、運動は異なります。\nイ：工芸改革と本の造形を結ぶ活動に対応します。\nウ：運動と工房の両方を取り違えています。\nエ：ダヴズ・プレスはモリスの出版工房ではありません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問77（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ドイツ工作連盟／ケルムスコット・プレス"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "アーツ・アンド・クラフツ／ケルムスコット・プレス"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ドイツ工作連盟／ダヴズ・プレス"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "アーツ・アンド・クラフツ／ダヴズ・プレス"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 78,
+      "major_category_code": "design",
+      "category_code": "design_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "図のウェッジウッド《ポートランドの壺》について、材質と装飾の説明が合うものはどれですか。"
+        },
+        {
+          "type": "image",
+          "src": "/images/artworks/mock02-img-26.jpg",
+          "alt": "図：この設問の参照図版。拡大して確認できます。",
+          "label": "図"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "古代の器を参照した作品でも、原作と同じ材質とは限りません。本作はウェッジウッドのジャスパーウェアで、白い別付けの浮彫が暗い器体と対照をなします。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：螺鈿の説明で、本作の材質と異なります。\nイ：器体と浮彫の関係に対応します。\nウ：本作のジャスパーウェアを、参照した古代ガラスの原作と混同しています。\nエ：有線七宝の説明で、本作に合いません。"
+        },
+        {
+          "type": "text",
+          "text": "図版：ジョサイア・ウェッジウッド工房《Portland Vase》、1790年頃。Cleveland Museum of Art。既存リポジトリに登録された図版を使用。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問78（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md\nCMA：Portland Vase | https://www.clevelandart.org/art/1918.823",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "木製の漆器で、貝の薄片を文様に沿って嵌める。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "陶磁器のジャスパーウェアで、暗い地に別につくった白い浮彫を付ける。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ガラスの原作そのもので、白いガラス層を削り残して浮彫をつくる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "金属器で、線の区画に色釉を入れて焼き付ける。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 79,
+      "major_category_code": "museum",
+      "category_code": "museum_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "王室の収集品を基礎に、フランス革命期の1793年に美術館として一般公開された施設はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "所在都市が同じであることだけでは選べません。王室の収集から公共の美術館への転換という、政治的・社会的背景と施設を結び付けます。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：1900年の万国博覧会に関係する施設で、条件が異なります。\nイ：王室の収集と革命期の公開という二つの条件に対応します。\nウ：20世紀の文化施設で、革命期の公開ではありません。\nエ：パリの美術館ですが、この1793年の公開に対応しません。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問79（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "プティ・パレ美術館"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ルーヴル美術館"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "ポンピドゥー・センター"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "オルセー美術館"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 80,
+      "major_category_code": "museum",
+      "category_code": "museum_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "パリのアンデパンダン展の開始年と基本方針の組合せはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "アンデパンダン展は1884年に始まり、無審査・無褒賞を掲げました。官展とは異なる発表の場でも、1863年の落選展と同一ではありません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：年と方針の両方が異なります。\nイ：開始年は合いますが、基本方針が異なります。\nウ：1863年の落選展と混同しています。\nエ：開始年と運営方針が一致します。"
+        }
+      ],
+      "source_text": "改稿の基礎：提供された模試2・旧解答解説 問80（元のテキストの参照記録は未再検証） | https://github.com/misato729/art-history-practice/blob/c86890999262edaf1c873d9c2565fb516c9413f7/content/mock-exams/mock-02/answers.md",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "1863年／審査で出品作を選び、褒賞を与える"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "1884年／審査で出品作を選び、褒賞を与える"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "1863年／無審査・無褒賞"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "1884年／無審査・無褒賞"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 81,
+      "major_category_code": "application",
+      "category_code": "application_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "共通資料の四作品を「版から紙へ写す表現」と「紙へ直接描く表現」に分けます。目録と図版に照らして、直接描く表現に分類すべき作品はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "四作品が全て紙を支持体とすることと、同じ制作方法であることは別です。A・C・Dは版画、Bは紙にパステルによる描画です。色数や画面の明るさだけで版画かどうかを決めません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：目録にある紙にパステルは、紙へ描画材を直接付ける方法です。\nイ：複数の凹版技法による色刷りの作品です。\nウ：多色木版による摺物です。\nエ：エッチング・ドライポイントなどの凹版による作品です。"
+        },
+        {
+          "type": "text",
+          "text": "共通図版：A レンブラント《The Three Trees》（1643）、B ドガ《Madame Dietz-Monnin》（1879）、C 葛飾北斎《Basket of Peonies》（1810または1814）、D キャサット《The Letter》（1890–1891）。A・B・D：NGA、C：CMA。"
+        }
+      ],
+      "source_text": "NGA：The Three Trees | https://www.nga.gov/artworks/11628-three-trees\nNGA：Madame Dietz-Monnin | https://www.nga.gov/artworks/39742-madame-dietz-monnin\nCMA：Basket of Peonies | https://www.clevelandart.org/art/1943.5\nNGA：The Letter | https://www.nga.gov/artworks/5938-letter\nThe Met：The Letter（初期の刷り・日本版画展との関係） | https://www.metmuseum.org/art/collection/search/352204",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "B"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "D"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "C"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "A"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 82,
+      "major_category_code": "application",
+      "category_code": "application_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "AとCを比べる展示解説を作ります。両者の版の構造を説明しつつ、単色・多色という見え方だけで技法を決めない文はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "版の凹部から刷るか、凸部から刷るかが基本的な区別です。図のAには密な線の重なり、Cには色面と線が見えますが、外観だけでなく記録された制作方法を照合します。Dのような色刷りの凹版もあるため、「多色なら木版」という一般化はできません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：目録の技法と版の基本構造を対応させています。\nイ：両作とも版を用いて刷っています。\nウ：版上の線と、紙へ写された線を混同しています。\nエ：色数と凹凸の方式を取り違えています。"
+        },
+        {
+          "type": "text",
+          "text": "共通図版：A レンブラント《The Three Trees》（1643）、B ドガ《Madame Dietz-Monnin》（1879）、C 葛飾北斎《Basket of Peonies》（1810または1814）、D キャサット《The Letter》（1890–1891）。A・B・D：NGA、C：CMA。"
+        }
+      ],
+      "source_text": "NGA：The Three Trees | https://www.nga.gov/artworks/11628-three-trees\nNGA：Madame Dietz-Monnin | https://www.nga.gov/artworks/39742-madame-dietz-monnin\nCMA：Basket of Peonies | https://www.clevelandart.org/art/1943.5\nNGA：The Letter | https://www.nga.gov/artworks/5938-letter\nThe Met：The Letter（初期の刷り・日本版画展との関係） | https://www.metmuseum.org/art/collection/search/352204",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "Aは凹部のインクを写す凹版、Cは凸部から刷る木版である。色数だけで凹版・凸版を分類しない。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "AもCも紙へ線を直接描く方法であり、違いは使った描画材の色数だけである。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "Aは凹版、Cは木版であるが、Aの線は必ず一本ずつ紙へ直接刻んでつくられる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "Aは単色なので木版、Cは多色なので銅版である。色数で版の構造を分類できる。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 83,
+      "major_category_code": "application",
+      "category_code": "application_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "企画会議で「Cは版画だから、当初から不特定多数へ大量販売するための作品だ」と意見が出ました。資料2に基づく修正として適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "複数枚を刷れることは、全ての版画が大量販売されたことを意味しません。摺物には私的な注文や贈答などのために作られたものがあります。作品の流通、描かれた物、技法の三つを区別します。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：用途と制作技法は両立します。\nイ：画像と言葉が組み合わされた資料を一方に限定する根拠がありません。\nウ：摺物の用途を、版画一般についての思い込みで上書きしません。\nエ：画中の物と、版画そのものの用途を混同しています。"
+        },
+        {
+          "type": "text",
+          "text": "共通図版：A レンブラント《The Three Trees》（1643）、B ドガ《Madame Dietz-Monnin》（1879）、C 葛飾北斎《Basket of Peonies》（1810または1814）、D キャサット《The Letter》（1890–1891）。A・B・D：NGA、C：CMA。"
+        }
+      ],
+      "source_text": "CMA：Basket of Peonies | https://www.clevelandart.org/art/1943.5",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "私的な贈答用なら版は使えないため、目録の多色木版を肉筆画へ修正する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "詩歌があるなら絵画ではないため、展覧会では画像を伏せて文字だけ紹介する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "版画でも私的な注文・贈答のための制作がある。複製できる技法と、実際の受け手や用途は分けて調べる。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "花籠が描かれているため、図が記録する花籠の贈呈式だけを作品の用途とする。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 84,
+      "major_category_code": "application",
+      "category_code": "application_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "資料3と目録を踏まえ、Dと日本の版画との関係を説明する見出しとして最も適切なものはどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "キャサットは1890年の日本版画展から刺激を受け、1890〜91年に色刷り版画を制作しました。掲載されたDはNGA所蔵の色刷り凹版です。日本版画の受容を、同じ版木・同じ工程の使用と同一視しないことが重要です。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：技法が違えば影響関係がないとする、逆方向の誤りです。\nイ：影響関係から制作方法まで同一だと決めつけています。\nウ：視覚表現への刺激と、実際に用いた凹版技法の違いを併せて捉えています。\nエ：資料に同一の版木を使用したとの記載はなく、目録の技法とも異なります。"
+        },
+        {
+          "type": "text",
+          "text": "共通図版：A レンブラント《The Three Trees》（1643）、B ドガ《Madame Dietz-Monnin》（1879）、C 葛飾北斎《Basket of Peonies》（1810または1814）、D キャサット《The Letter》（1890–1891）。A・B・D：NGA、C：CMA。"
+        }
+      ],
+      "source_text": "NGA：The Letter | https://www.nga.gov/artworks/5938-letter\nThe Met：The Letter（初期の刷り・日本版画展との関係） | https://www.metmuseum.org/art/collection/search/352204",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "Dが凹版である以上、日本の版画との視覚的な関係は成立しない。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "日本文化の影響を受けた以上、Dの版も必ず木版と分類する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "日本の版画から刺激を受け、別の版の技法で日常の場面を再構成する。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "日本の木版をそのまま借り、同じ絵柄を同じ木版で刷り直す。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 4
+        }
+      ]
+    },
+    {
+      "exam_number": 2,
+      "question_number": 85,
+      "major_category_code": "application",
+      "category_code": "application_study",
+      "publication_status": "published",
+      "content_blocks": [
+        {
+          "type": "text",
+          "text": "CとDを「紙がつなぐ日常と交流」の章に並べます。図版から観察できることと、資料で確認することを区別した解説はどれですか。"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "type": "text",
+          "text": "この章では、画像の観察と、作品の記録・受容史を相互に補うことが目標です。見えない制作意図や流通を画像だけから断定せず、逆に資料の知識があるから画像を見なくてよいとも考えません。"
+        },
+        {
+          "type": "text",
+          "text": "各選択肢の確認：\nア：資料の知識で画面の観察を置き換えています。\nイ：モティーフから描かれた出来事や人物の属性を根拠なく決めています。\nウ：用途と技法の両方を外観のみから誤って一般化しています。\nエ：画面で見える要素と、制作・流通に関する記録を区別しています。"
+        },
+        {
+          "type": "text",
+          "text": "共通図版：A レンブラント《The Three Trees》（1643）、B ドガ《Madame Dietz-Monnin》（1879）、C 葛飾北斎《Basket of Peonies》（1810または1814）、D キャサット《The Letter》（1890–1891）。A・B・D：NGA、C：CMA。"
+        }
+      ],
+      "source_text": "CMA：Basket of Peonies | https://www.clevelandart.org/art/1943.5\nNGA：The Letter | https://www.nga.gov/artworks/5938-letter\nThe Met：The Letter（初期の刷り・日本版画展との関係） | https://www.metmuseum.org/art/collection/search/352204",
+      "choices": [
+        {
+          "choice_label": "ア",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "Cが贈答用なら花は観察する必要がなく、Dが日本版画を受容したなら画中の行為も説明しなくてよい。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 1
+        },
+        {
+          "choice_label": "イ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "Cには花籠が見えるので贈呈式を直接記録したと断定し、Dは衣服の柄だけから日本人の生活を写したと断定する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 2
+        },
+        {
+          "choice_label": "ウ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "Cの文字が見えるので大量販売用と判断し、Dの色面が見えるので木版と断定する。"
+            }
+          ],
+          "is_correct": false,
+          "display_order": 3
+        },
+        {
+          "choice_label": "エ",
+          "content_blocks": [
+            {
+              "type": "text",
+              "text": "Cには花籠と文字、Dには封へ口を近づける女性が見える。Cの贈答用途とDの日本版画受容は、資料によって補って説明する。"
+            }
+          ],
+          "is_correct": true,
+          "display_order": 4
+        }
+      ]
+    }
+  ],
+  "normal_group_ranges": [
+    {
+      "group_number": 1,
+      "first": 1,
+      "last": 4
+    },
+    {
+      "group_number": 2,
+      "first": 5,
+      "last": 8
+    },
+    {
+      "group_number": 3,
+      "first": 9,
+      "last": 10
+    },
+    {
+      "group_number": 4,
+      "first": 11,
+      "last": 14
+    },
+    {
+      "group_number": 5,
+      "first": 15,
+      "last": 17
+    },
+    {
+      "group_number": 6,
+      "first": 18,
+      "last": 21
+    },
+    {
+      "group_number": 7,
+      "first": 22,
+      "last": 24
+    },
+    {
+      "group_number": 8,
+      "first": 25,
+      "last": 27
+    },
+    {
+      "group_number": 9,
+      "first": 28,
+      "last": 31
+    },
+    {
+      "group_number": 10,
+      "first": 32,
+      "last": 34
+    },
+    {
+      "group_number": 11,
+      "first": 35,
+      "last": 38
+    },
+    {
+      "group_number": 12,
+      "first": 39,
+      "last": 41
+    },
+    {
+      "group_number": 13,
+      "first": 42,
+      "last": 44
+    },
+    {
+      "group_number": 14,
+      "first": 45,
+      "last": 47
+    },
+    {
+      "group_number": 15,
+      "first": 48,
+      "last": 52
+    },
+    {
+      "group_number": 16,
+      "first": 53,
+      "last": 54
+    },
+    {
+      "group_number": 17,
+      "first": 55,
+      "last": 58
+    },
+    {
+      "group_number": 18,
+      "first": 59,
+      "last": 63
+    },
+    {
+      "group_number": 19,
+      "first": 64,
+      "last": 66
+    },
+    {
+      "group_number": 20,
+      "first": 67,
+      "last": 69
+    },
+    {
+      "group_number": 21,
+      "first": 70,
+      "last": 70
+    },
+    {
+      "group_number": 22,
+      "first": 71,
+      "last": 71
+    },
+    {
+      "group_number": 23,
+      "first": 72,
+      "last": 74
+    },
+    {
+      "group_number": 24,
+      "first": 75,
+      "last": 78
+    },
+    {
+      "group_number": 25,
+      "first": 79,
+      "last": 79
+    },
+    {
+      "group_number": 26,
+      "first": 80,
+      "last": 80
+    }
+  ],
+  "group_title_overrides": {
+    "3": "15世紀の北方絵画とルネサンスの工房"
+  },
+  "application_group": {
+    "group_number": 27,
+    "title": "紙がつなぐ日常と交流",
+    "first": 81,
+    "last": 85,
+    "passage_label": "改稿R1・紙がつなぐ日常と交流",
+    "content_blocks": [
+      {
+        "type": "text",
+        "text": "【企画】紙がつなぐ日常と交流\n四点の作品で小さなオンライン展示を企画します。「何を描いたか」だけでなく、紙へ像をつくる方法、作品の受け手、他文化の表現との関係を伝える方針です。次の図A〜Dと資料1〜3を参照し、問81〜85に答えてください。企画・設問は本教材のために作成したもので、実在の展示会議の記録ではありません。"
+      },
+      {
+        "type": "image",
+        "src": "/images/artworks/mock02-img-27.jpg",
+        "alt": "図A：この設問の参照図版。拡大して確認できます。",
+        "label": "図A"
+      },
+      {
+        "type": "image",
+        "src": "/images/artworks/mock02-img-28.jpg",
+        "alt": "図B：この設問の参照図版。拡大して確認できます。",
+        "label": "図B"
+      },
+      {
+        "type": "image",
+        "src": "/images/artworks/mock02-img-35.jpg",
+        "alt": "図C：この設問の参照図版。拡大して確認できます。",
+        "label": "図C"
+      },
+      {
+        "type": "image",
+        "src": "/images/artworks/mock02-img-36.jpg",
+        "alt": "図D：この設問の参照図版。拡大して確認できます。",
+        "label": "図D"
+      },
+      {
+        "type": "text",
+        "text": "【資料1】所蔵館の作品記録をもとに作成した目録（抄）"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "図",
+          "制作年",
+          "技法・媒体の記録"
+        ],
+        "rows": [
+          [
+            "A",
+            "1643年",
+            "紙にエッチング。ドライポイントとエングレーヴィングも併用。"
+          ],
+          [
+            "B",
+            "1879年",
+            "紙にパステル。"
+          ],
+          [
+            "C",
+            "1810年または1814年",
+            "紙に多色木版。摺物。"
+          ],
+          [
+            "D",
+            "1890–1891年",
+            "紙に色刷りのドライポイント、ソフトグラウンド・エッチング、アクアチント。"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "【資料2】Cについての調査メモ\n摺物は私的な注文で制作され、特別な機会の記念や贈答などに用いられました。Cでは花籠の図と詩歌が一つの紙面に組み合わされています。作品そのものの用途と、画面に描かれた行為は区別して説明する必要があります。"
+      },
+      {
+        "type": "text",
+        "text": "【資料3】Dについての調査メモ\nこの作品の作者は、1890年春にパリで開かれた日本の浮世絵版画の展覧会から刺激を受け、1890〜1891年に一連の色刷り版画を制作しました。どのような技法で自作を制作したかは、影響を受けた作品の技法と自動的に同一とせず、目録に照らして確認します。"
+      }
+    ]
+  },
+  "retired_group_numbers": [
+    28,
+    29,
+    30,
+    31
+  ]
+}

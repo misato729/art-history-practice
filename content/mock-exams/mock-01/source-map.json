@@ -1,0 +1,2454 @@
+[
+  {
+    "question_number": 1,
+    "topic": "古代エジプトの人物表現",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.51（1.pdf：PDF 41ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          51
+        ],
+        "pdf_pages": [
+          41
+        ],
+        "supports": "人物の各部を特徴的な向きで表すエジプト美術の規則。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 2,
+    "topic": "クレタとミケーネの遺構",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.52・54（1.pdf：PDF 42・44ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          52,
+          54
+        ],
+        "pdf_pages": [
+          42,
+          44
+        ],
+        "supports": "クノッソス宮殿、ミケーネの獅子の門、ギリシアのパルテノン神殿の所属。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 3,
+    "topic": "ギリシア彫刻の年代順",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.53・54・114（1.pdf：PDF 43・44・104ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          53,
+          54,
+          114
+        ],
+        "pdf_pages": [
+          43,
+          44,
+          104
+        ],
+        "supports": "アルカイック・クラシック・ヘレニズムの代表作と時期。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 4,
+    "topic": "古代ギリシアの柱頭",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.115（1.pdf：PDF 105ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          115
+        ],
+        "pdf_pages": [
+          105
+        ],
+        "supports": "ドーリア・イオニア・コリントの柱頭比較。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 5,
+    "topic": "ローマ美術と公共的な役割",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.55・115（1.pdf：PDF 45・105ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          55,
+          115
+        ],
+        "pdf_pages": [
+          45,
+          105
+        ],
+        "supports": "水道橋・円形闘技場・壁画・記念柱の用途。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 6,
+    "topic": "モザイクとフレスコ",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.57（1.pdf：PDF 47ページ）\n『改訂版 西洋・日本美術史の基本』p.259・261（3.pdf：PDF 5・7ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          57
+        ],
+        "pdf_pages": [
+          47
+        ],
+        "supports": "モザイクの材料と制作。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          259,
+          261
+        ],
+        "pdf_pages": [
+          5,
+          7
+        ],
+        "supports": "フレスコ・卵テンペラ・油彩の材料と技法。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 7,
+    "topic": "聖像と聖像破壊",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.116（1.pdf：PDF 106ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          116
+        ],
+        "pdf_pages": [
+          106
+        ],
+        "supports": "イコン、イコノグラフィー、イコノクラスムの区別。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 8,
+    "topic": "ゴシックの構造と採光",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.118・119（1.pdf：PDF 108・109ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          118,
+          119
+        ],
+        "pdf_pages": [
+          108,
+          109
+        ],
+        "supports": "ロマネスクとゴシックの壁、天井、飛梁、窓の比較。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 9,
+    "topic": "ジョットの歴史的位置",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.19・20・61・62・63（1.pdf：PDF 9・10・51・52・53ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          19,
+          20,
+          61,
+          62,
+          63
+        ],
+        "pdf_pages": [
+          9,
+          10,
+          51,
+          52,
+          53
+        ],
+        "supports": "中世末イタリアの諸作家と、ジョットの礼拝堂壁画。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 10,
+    "topic": "初期ルネサンスの建築と彫刻",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.20・62（1.pdf：PDF 10・52ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          20,
+          62
+        ],
+        "pdf_pages": [
+          10,
+          52
+        ],
+        "supports": "大円蓋・天国の門・初期ルネサンスの主要作家。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 11,
+    "topic": "奥行きの二つの表現",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.64（1.pdf：PDF 54ページ）\n『改訂版 西洋・日本美術史の基本』p.261・267（3.pdf：PDF 7・13ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          64
+        ],
+        "pdf_pages": [
+          54
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          261,
+          267
+        ],
+        "pdf_pages": [
+          7,
+          13
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock03-img-02",
+      "mock03-img-36"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 12,
+    "topic": "聖書の主題の識別",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.20・123（1.pdf：PDF 10・113ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          20,
+          123
+        ],
+        "pdf_pages": [
+          10,
+          113
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock02-img-05"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 13,
+    "topic": "ルネサンスの工房",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.63・64・121（1.pdf：PDF 53・54・111ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          63,
+          64,
+          121
+        ],
+        "pdf_pages": [
+          53,
+          54,
+          111
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 14,
+    "topic": "ヴェネツィア絵画の色彩",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.65・121・123（1.pdf：PDF 55・111・113ページ）\n『改訂版 西洋・日本美術史の基本』p.259（3.pdf：PDF 5ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          65,
+          121,
+          123
+        ],
+        "pdf_pages": [
+          55,
+          111,
+          113
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          259
+        ],
+        "pdf_pages": [
+          5
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock02-img-04"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 15,
+    "topic": "北方ルネサンスの肖像画",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.22・65・66（1.pdf：PDF 12・55・56ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          22,
+          65,
+          66
+        ],
+        "pdf_pages": [
+          12,
+          55,
+          56
+        ],
+        "supports": "ファン・エイクの夫妻像と、北方の主要作家・代表作。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 16,
+    "topic": "マニエリスムを読む",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.66・122（1.pdf：PDF 56・112ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          66,
+          122
+        ],
+        "pdf_pages": [
+          56,
+          112
+        ],
+        "supports": "マニエリスムの人体の比例、ねじれ、構成。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 17,
+    "topic": "バロックの人物表現",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.69・70・124・125（1.pdf：PDF 59・60・114・115ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          69,
+          70,
+          124,
+          125
+        ],
+        "pdf_pages": [
+          59,
+          60,
+          114,
+          115
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock02-img-06",
+      "mock03-img-08"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 18,
+    "topic": "17世紀の注文主と主題",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.124・125・126（1.pdf：PDF 114・115・116ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          124,
+          125,
+          126
+        ],
+        "pdf_pages": [
+          114,
+          115,
+          116
+        ],
+        "supports": "17世紀各国の社会背景と、18世紀ロココとの違い。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 19,
+    "topic": "オランダの室内画",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.70・124・125（1.pdf：PDF 60・114・115ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          70,
+          124,
+          125
+        ],
+        "pdf_pages": [
+          60,
+          114,
+          115
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock02-img-08"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 20,
+    "topic": "ロココの室内装飾",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.118・124・126・140（1.pdf：PDF 108・114・116・130ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          118,
+          124,
+          126,
+          140
+        ],
+        "pdf_pages": [
+          108,
+          114,
+          116,
+          130
+        ],
+        "supports": "ロマネスク、王権のバロック、ロココ、バウハウスの違い。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 21,
+    "topic": "市民生活と風俗画",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.72・126（1.pdf：PDF 62・116ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          72,
+          126
+        ],
+        "pdf_pages": [
+          62,
+          116
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock02-img-09"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 22,
+    "topic": "都市景観画と旅行者",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.72・73・127（1.pdf：PDF 62・63・117ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          72,
+          73,
+          127
+        ],
+        "pdf_pages": [
+          62,
+          63,
+          117
+        ],
+        "supports": "カナレット・ティエポロ・レノルズ・ホガースとグランド・ツアー。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 23,
+    "topic": "ゴヤの複数の側面",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.73・127（1.pdf：PDF 63・117ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          73,
+          127
+        ],
+        "pdf_pages": [
+          63,
+          117
+        ],
+        "supports": "ゴヤの宮廷画家としての仕事と戦争・社会を扱う制作。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 24,
+    "topic": "肖像と歴史の場面",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.75・77・128（1.pdf：PDF 65・67・118ページ）\n『改訂版 西洋・日本美術史の基本』p.261（3.pdf：PDF 7ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          75,
+          77,
+          128
+        ],
+        "pdf_pages": [
+          65,
+          67,
+          118
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          261
+        ],
+        "pdf_pages": [
+          7
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock02-img-11",
+      "mock03-img-12"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 25,
+    "topic": "バルビゾン派",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.130・133（1.pdf：PDF 120・123ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          130,
+          133
+        ],
+        "pdf_pages": [
+          120,
+          123
+        ],
+        "supports": "バルビゾン派とナビ派の主要作家・活動。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 26,
+    "topic": "クールベと歴史画の大きさ",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.30・130（1.pdf：PDF 20・120ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          30,
+          130
+        ],
+        "pdf_pages": [
+          20,
+          120
+        ],
+        "supports": "《オルナンの埋葬》と、クールベの現実への態度。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 27,
+    "topic": "ナビ派とポン＝タヴェン派",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.132・133・134・136（1.pdf：PDF 122・123・124・126ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          132,
+          133,
+          134,
+          136
+        ],
+        "pdf_pages": [
+          122,
+          123,
+          124,
+          126
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 28,
+    "topic": "ドガの画面の切取り",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.84・131（1.pdf：PDF 74・121ページ）\n『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          84,
+          131
+        ],
+        "pdf_pages": [
+          74,
+          121
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262
+        ],
+        "pdf_pages": [
+          8
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock02-img-14"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 29,
+    "topic": "色を分けて置く方法",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.132（1.pdf：PDF 122ページ）\n『改訂版 西洋・日本美術史の基本』p.256・257（3.pdf：PDF 2・3ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          132
+        ],
+        "pdf_pages": [
+          122
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          256,
+          257
+        ],
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock02-img-16"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 30,
+    "topic": "セザンヌの静物",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.132（1.pdf：PDF 122ページ）\n『改訂版 西洋・日本美術史の基本』p.259（3.pdf：PDF 5ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          132
+        ],
+        "pdf_pages": [
+          122
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          259
+        ],
+        "pdf_pages": [
+          5
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock03-img-35"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 31,
+    "topic": "ナビ派とゴーガンの影響",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.133（1.pdf：PDF 123ページ）\n『改訂版 西洋・日本美術史の基本』p.130・134・136（1.pdf：PDF 120・124・126ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          133
+        ],
+        "pdf_pages": [
+          123
+        ],
+        "supports": "セリュジエとナビ派。"
+      },
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          130,
+          134,
+          136
+        ],
+        "pdf_pages": [
+          120,
+          124,
+          126
+        ],
+        "supports": "他の画家集団の時代・地域。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 32,
+    "topic": "象徴主義とサロメ",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.34・134（1.pdf：PDF 24・124ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          34,
+          134
+        ],
+        "pdf_pages": [
+          24,
+          124
+        ],
+        "supports": "サロメをめぐる絵画・戯曲・挿絵の展開。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 33,
+    "topic": "ラファエル前派の作家",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.134（1.pdf：PDF 124ページ）\n『改訂版 西洋・日本美術史の基本』p.131・132（1.pdf：PDF 121・122ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          134
+        ],
+        "pdf_pages": [
+          124
+        ],
+        "supports": "ラファエル前派の主要作家。"
+      },
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          131,
+          132
+        ],
+        "pdf_pages": [
+          121,
+          122
+        ],
+        "supports": "印象主義・新印象主義の主要作家。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 34,
+    "topic": "ウィーンの分離派と工房",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.135・140（1.pdf：PDF 125・130ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          135,
+          140
+        ],
+        "pdf_pages": [
+          125,
+          130
+        ],
+        "supports": "ウィーン分離派・工房、モリス、グロピウスの活動。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 35,
+    "topic": "フォーヴィスム以後の展開",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.136・137（1.pdf：PDF 126・127ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          136,
+          137
+        ],
+        "pdf_pages": [
+          126,
+          127
+        ],
+        "supports": "フォーヴィスムの各作家の後の展開。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 36,
+    "topic": "二つのドイツ表現主義グループ",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.136（1.pdf：PDF 126ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          136
+        ],
+        "pdf_pages": [
+          126
+        ],
+        "supports": "ブリュッケと青騎士の拠点・主要作家。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 37,
+    "topic": "パピエ・コレと造形",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.262・263（3.pdf：PDF 8・9ページ）",
+    "sources": [
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262,
+          263
+        ],
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "supports": "パピエ・コレ、ドリッピング、フロッタージュ、デカルコマニー。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 38,
+    "topic": "未来派の関心",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.137（1.pdf：PDF 127ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          137
+        ],
+        "pdf_pages": [
+          127
+        ],
+        "supports": "未来派の地域、主要作家、機械文明と動的表現。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 39,
+    "topic": "デ・ステイルの造形原理",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.135・138・139（1.pdf：PDF 125・128・129ページ）\n『改訂版 西洋・日本美術史の基本』p.263（3.pdf：PDF 9ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          135,
+          138,
+          139
+        ],
+        "pdf_pages": [
+          125,
+          128,
+          129
+        ],
+        "supports": "アール・ヌーヴォー、デ・ステイル、シュルレアリスムの違い。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          263
+        ],
+        "pdf_pages": [
+          9
+        ],
+        "supports": "デペイズマンの操作。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 40,
+    "topic": "ダダとシュルレアリスム",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.136・138・139（1.pdf：PDF 126・128・129ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          136,
+          138,
+          139
+        ],
+        "pdf_pages": [
+          126,
+          128,
+          129
+        ],
+        "supports": "青騎士・新造形主義・ダダ・シュルレアリスムの成立。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 41,
+    "topic": "戦前の彫刻の複数の方向",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.33・41・133・137・141（1.pdf：PDF 23・31・123・127・131ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          33,
+          41,
+          133,
+          137,
+          141
+        ],
+        "pdf_pages": [
+          23,
+          31,
+          123,
+          127,
+          131
+        ],
+        "supports": "ロダン、未来派、ブランクーシ、ムーアの造形の違い。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 42,
+    "topic": "土偶と埴輪の区別",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.172・173・175（2.pdf：PDF 26・27・29ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          172,
+          173,
+          175
+        ],
+        "pdf_pages": [
+          26,
+          27,
+          29
+        ],
+        "supports": "縄文の土偶と古墳の埴輪。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 43,
+    "topic": "土師器と須恵器",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.175（2.pdf：PDF 29ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          175
+        ],
+        "pdf_pages": [
+          29
+        ],
+        "supports": "土師器と須恵器の製法・色・大陸との関係。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 44,
+    "topic": "菩薩像の姿",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.178・187（2.pdf：PDF 32・41ページ）\n『改訂版 西洋・日本美術史の基本』p.268・269（3.pdf：PDF 14・15ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          178,
+          187
+        ],
+        "pdf_pages": [
+          32,
+          41
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          268,
+          269
+        ],
+        "pdf_pages": [
+          14,
+          15
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock03-img-17"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 45,
+    "topic": "天平彫刻の素材と技法",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.181・182（2.pdf：PDF 35・36ページ）\n『改訂版 西洋・日本美術史の基本』p.269（3.pdf：PDF 15ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          181,
+          182
+        ],
+        "pdf_pages": [
+          35,
+          36
+        ],
+        "supports": "天平彫刻における乾漆造と塑造の代表例。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          269
+        ],
+        "pdf_pages": [
+          15
+        ],
+        "supports": "塑像、乾漆像、金銅仏、寄木造の構造。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 46,
+    "topic": "寺院の建立と人物",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.235（2.pdf：PDF 89ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          235
+        ],
+        "pdf_pages": [
+          89
+        ],
+        "supports": "主要寺院の建立に関わる人物の一覧。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 47,
+    "topic": "正倉院宝物と文化交流",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.183・184（2.pdf：PDF 37・38ページ）\n『改訂版 西洋・日本美術史の基本』p.248・249（2.pdf：PDF 102・103ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          183,
+          184
+        ],
+        "pdf_pages": [
+          37,
+          38
+        ],
+        "supports": "正倉院宝物、五絃琵琶、唐を通じた国際的な文化交流。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          248,
+          249
+        ],
+        "pdf_pages": [
+          102,
+          103
+        ],
+        "supports": "錦絵や洋風画の時代。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 48,
+    "topic": "両界曼荼羅",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.184・185・187・239（2.pdf：PDF 38・39・41・93ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          184,
+          185,
+          187,
+          239
+        ],
+        "pdf_pages": [
+          38,
+          39,
+          41,
+          93
+        ],
+        "supports": "両界曼荼羅と、浄土・六道を扱う美術の区別。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 49,
+    "topic": "平等院と定朝",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.187（2.pdf：PDF 41ページ）\n『改訂版 西洋・日本美術史の基本』p.176（2.pdf：PDF 30ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          187
+        ],
+        "pdf_pages": [
+          41
+        ],
+        "supports": "平等院鳳凰堂・定朝・阿弥陀・寄木造。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          176
+        ],
+        "pdf_pages": [
+          30
+        ],
+        "supports": "止利仏師の飛鳥の造像。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 50,
+    "topic": "引目鉤鼻と吹抜屋台",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.267（3.pdf：PDF 13ページ）",
+    "sources": [
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          267
+        ],
+        "pdf_pages": [
+          13
+        ],
+        "supports": "引目鉤鼻・吹抜屋台・たらしこみ・雲母摺。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 51,
+    "topic": "絵巻の絵と言葉",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.188・189・237（2.pdf：PDF 42・43・91ページ）\n『改訂版 西洋・日本美術史の基本』p.265・266（3.pdf：PDF 11・12ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          188,
+          189,
+          237
+        ],
+        "pdf_pages": [
+          42,
+          43,
+          91
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          265,
+          266
+        ],
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock03-img-31"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 52,
+    "topic": "運慶と鎌倉彫刻",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.176・187・191・248（2.pdf：PDF 30・41・45・102ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          176,
+          187,
+          191,
+          248
+        ],
+        "pdf_pages": [
+          30,
+          41,
+          45,
+          102
+        ],
+        "supports": "止利・定朝・運慶・円空の作例と時代。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 53,
+    "topic": "来迎図の主題",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.239（2.pdf：PDF 93ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          239
+        ],
+        "pdf_pages": [
+          93
+        ],
+        "supports": "来迎図の主題と動き、六道絵・絵巻のジャンル。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 54,
+    "topic": "大仏様の建築と部材",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.190・238（2.pdf：PDF 44・92ページ）\n『改訂版 西洋・日本美術史の基本』p.119（1.pdf：PDF 109ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          190,
+          238
+        ],
+        "pdf_pages": [
+          44,
+          92
+        ],
+        "supports": "東大寺復興、大仏様、和様、挿肘木の図。"
+      },
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          119
+        ],
+        "pdf_pages": [
+          109
+        ],
+        "supports": "ゴシックの飛梁。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 55,
+    "topic": "北山文化と東山文化",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.240（2.pdf：PDF 94ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          240
+        ],
+        "pdf_pages": [
+          94
+        ],
+        "supports": "北山文化・東山文化の人物、時期、建築。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 56,
+    "topic": "同朋衆の役割",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.242（2.pdf：PDF 96ページ）\n『改訂版 西洋・日本美術史の基本』p.250（2.pdf：PDF 104ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          242
+        ],
+        "pdf_pages": [
+          96
+        ],
+        "supports": "同朋衆の将軍への奉仕と唐物・座敷飾りへの関与。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          250
+        ],
+        "pdf_pages": [
+          104
+        ],
+        "supports": "白馬会の時代と位置づけ。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 57,
+    "topic": "雪舟の作品",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.157・158・243（2.pdf：PDF 11・12・97ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          157,
+          158,
+          243
+        ],
+        "pdf_pages": [
+          11,
+          12,
+          97
+        ],
+        "supports": "雪舟の渡明と作品、如拙・周文・土佐派との関係。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 58,
+    "topic": "土佐派と狩野派",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.243（2.pdf：PDF 97ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          243
+        ],
+        "pdf_pages": [
+          97
+        ],
+        "supports": "土佐派・狩野派の系譜、人物、画風の比較。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 59,
+    "topic": "屏風の形式と主題",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.244（2.pdf：PDF 98ページ）\n『改訂版 西洋・日本美術史の基本』p.265・266（3.pdf：PDF 11・12ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          244
+        ],
+        "pdf_pages": [
+          98
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          265,
+          266
+        ],
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock03-img-21"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 60,
+    "topic": "琳派の継承",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.246（2.pdf：PDF 100ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          246
+        ],
+        "pdf_pages": [
+          100
+        ],
+        "supports": "琳派の系譜と、家系だけによらない継承。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 61,
+    "topic": "文人画の理想と日本の画家",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.246・247（2.pdf：PDF 100・101ページ）\n『改訂版 西洋・日本美術史の基本』p.244・248・250（2.pdf：PDF 98・102・104ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          246,
+          247
+        ],
+        "pdf_pages": [
+          100,
+          101
+        ],
+        "supports": "文人画の理想と代表作家。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          244,
+          248,
+          250
+        ],
+        "pdf_pages": [
+          98,
+          102,
+          104
+        ],
+        "supports": "比較対象となる障壁画・浮世絵・洋画の作家。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 62,
+    "topic": "錦絵と名所絵",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.210・211・248（2.pdf：PDF 64・65・102ページ）\n『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          210,
+          211,
+          248
+        ],
+        "pdf_pages": [
+          64,
+          65,
+          102
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262
+        ],
+        "pdf_pages": [
+          8
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock03-img-23",
+      "mock02-img-24"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 63,
+    "topic": "明治洋画の作家",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.166・167・212・213（2.pdf：PDF 20・21・66・67ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          166,
+          167,
+          212,
+          213
+        ],
+        "pdf_pages": [
+          20,
+          21,
+          66,
+          67
+        ],
+        "supports": "明治洋画の作家と《鮭》《春畝》《浦島図》《湖畔》。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 64,
+    "topic": "明治の洋画団体",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.215・216・250（2.pdf：PDF 69・70・104ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          215,
+          216,
+          250
+        ],
+        "pdf_pages": [
+          69,
+          70,
+          104
+        ],
+        "supports": "明治の洋画・日本画団体と主要作家。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 65,
+    "topic": "二つの美術教育機関",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.214・215・250（2.pdf：PDF 68・69・104ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          214,
+          215,
+          250
+        ],
+        "pdf_pages": [
+          68,
+          69,
+          104
+        ],
+        "supports": "工部美術学校と東京美術学校の設立・教師・学科。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 66,
+    "topic": "戦後日本の美術グループ",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.250・252（2.pdf：PDF 104・106ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          250,
+          252
+        ],
+        "pdf_pages": [
+          104,
+          106
+        ],
+        "supports": "明治の団体と、戦後の具体・もの派の主要作家。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 67,
+    "topic": "抽象表現主義の二つの方向",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.42・43・142（1.pdf：PDF 32・33・132ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          42,
+          43,
+          142
+        ],
+        "pdf_pages": [
+          32,
+          33,
+          132
+        ],
+        "supports": "ポロック、ロスコ、フレイヴィン、ポップの代表作と特徴。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 68,
+    "topic": "アール・ブリュットの評価",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.143（1.pdf：PDF 133ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          143
+        ],
+        "pdf_pages": [
+          133
+        ],
+        "supports": "デュビュッフェとアール・ブリュット。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 69,
+    "topic": "ネオ・ダダとポップの作家",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.42・43・142（1.pdf：PDF 32・33・132ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          42,
+          43,
+          142
+        ],
+        "pdf_pages": [
+          32,
+          33,
+          132
+        ],
+        "supports": "ジョーンズの旗、リキテンスタインの漫画、ロスコの色面。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 70,
+    "topic": "フルクサスの分野横断",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.143・144・145（1.pdf：PDF 133・134・135ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          143,
+          144,
+          145
+        ],
+        "pdf_pages": [
+          133,
+          134,
+          135
+        ],
+        "supports": "フルクサス、ミニマル・アート、オプ・アート、フォト・リアリズムの比較。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 71,
+    "topic": "ランド・アートとキネティック・アート",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.44・45・145（1.pdf：PDF 34・35・135ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          44,
+          45,
+          145
+        ],
+        "pdf_pages": [
+          34,
+          35,
+          135
+        ],
+        "supports": "ランド・アート、モビール、戦後の彫刻の広がり。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 72,
+    "topic": "唐物という呼称",
+    "correct_label": "エ",
+    "source_text": "『美術検定2級 公式問題集（提供PDF）』p.124・125・127（2級公式問題集.pdf：PDF 126・127・129ページ）\n『改訂版 西洋・日本美術史の基本』p.240・242（2.pdf：PDF 94・96ページ）",
+    "sources": [
+      {
+        "source_id": "P",
+        "title": "美術検定2級 公式問題集（提供PDF）",
+        "file": "2級公式問題集.pdf",
+        "printed_pages": [
+          124,
+          125,
+          127
+        ],
+        "pdf_pages": [
+          126,
+          127,
+          129
+        ],
+        "supports": "唐物の尊重、中国絵画・陶磁の受容。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          240,
+          242
+        ],
+        "pdf_pages": [
+          94,
+          96
+        ],
+        "supports": "唐物を扱う座敷文化と同朋衆。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 73,
+    "topic": "中国水墨画の伝来と作者",
+    "correct_label": "イ",
+    "source_text": "『美術検定2級 公式問題集（提供PDF）』p.124・125（2級公式問題集.pdf：PDF 126・127ページ）\n『改訂版 西洋・日本美術史の基本』p.157・158・243（2.pdf：PDF 11・12・97ページ）",
+    "sources": [
+      {
+        "source_id": "P",
+        "title": "美術検定2級 公式問題集（提供PDF）",
+        "file": "2級公式問題集.pdf",
+        "printed_pages": [
+          124,
+          125
+        ],
+        "pdf_pages": [
+          126,
+          127
+        ],
+        "supports": "牧谿《観音猿鶴図》の作例・正答・伝来の説明。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          157,
+          158,
+          243
+        ],
+        "pdf_pages": [
+          11,
+          12,
+          97
+        ],
+        "supports": "如拙・周文・雪舟の作例との区別。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 74,
+    "topic": "曜変天目の制作地と時期",
+    "correct_label": "ア",
+    "source_text": "『美術検定2級 公式問題集（提供PDF）』p.126・127（2級公式問題集.pdf：PDF 128・129ページ）",
+    "sources": [
+      {
+        "source_id": "P",
+        "title": "美術検定2級 公式問題集（提供PDF）",
+        "file": "2級公式問題集.pdf",
+        "printed_pages": [
+          126,
+          127
+        ],
+        "pdf_pages": [
+          128,
+          129
+        ],
+        "supports": "曜変天目茶碗の作例、建窯・南宋の記録。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 75,
+    "topic": "生活のための装飾",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.134・135（1.pdf：PDF 124・125ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          134,
+          135
+        ],
+        "pdf_pages": [
+          124,
+          125
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock03-img-26"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 76,
+    "topic": "支持体・顔料・媒材",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.258・259（3.pdf：PDF 4・5ページ）",
+    "sources": [
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          258,
+          259
+        ],
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "supports": "西洋絵画の支持体、顔料、媒材、油絵具。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 77,
+    "topic": "版画の線と工程",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+    "sources": [
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262
+        ],
+        "pdf_pages": [
+          8
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [
+      "mock02-img-27"
+    ],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 78,
+    "topic": "バウハウスの教育と人物",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.131・135・140（1.pdf：PDF 121・125・130ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          131,
+          135,
+          140
+        ],
+        "pdf_pages": [
+          121,
+          125,
+          130
+        ],
+        "supports": "印象主義、モリス・クリムト、バウハウスの教師。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 79,
+    "topic": "アカデミーと歴史画",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.129（1.pdf：PDF 119ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          129
+        ],
+        "pdf_pages": [
+          119
+        ],
+        "supports": "アカデミー、サロン、歴史画などのジャンル序列。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 80,
+    "topic": "日本の官設美術展の順序",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.251（2.pdf：PDF 105ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          251
+        ],
+        "pdf_pages": [
+          105
+        ],
+        "supports": "文展・帝展・新文展の制度の変遷。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": null
+  },
+  {
+    "question_number": 81,
+    "topic": "共通図版の主題",
+    "correct_label": "エ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.20・64・123（1.pdf：PDF 10・54・113ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          20,
+          64,
+          123
+        ],
+        "pdf_pages": [
+          10,
+          54,
+          113
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": "mock01-shared-space"
+  },
+  {
+    "question_number": 82,
+    "topic": "人物の構成の比較",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.64・120・121（1.pdf：PDF 54・110・111ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          64,
+          120,
+          121
+        ],
+        "pdf_pages": [
+          54,
+          110,
+          111
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": "mock01-shared-space"
+  },
+  {
+    "question_number": 83,
+    "topic": "奥行きを説明するパネル",
+    "correct_label": "ウ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.261・267（3.pdf：PDF 7・13ページ）\n『改訂版 西洋・日本美術史の基本』p.248（2.pdf：PDF 102ページ）",
+    "sources": [
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          261,
+          267
+        ],
+        "pdf_pages": [
+          7,
+          13
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          248
+        ],
+        "pdf_pages": [
+          102
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": "mock01-shared-space"
+  },
+  {
+    "question_number": 84,
+    "topic": "描画と多色木版",
+    "correct_label": "ア",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.248（2.pdf：PDF 102ページ）\n『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          248
+        ],
+        "pdf_pages": [
+          102
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262
+        ],
+        "pdf_pages": [
+          8
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": "mock01-shared-space"
+  },
+  {
+    "question_number": 85,
+    "topic": "比較展示の構成",
+    "correct_label": "イ",
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.123・124・125（1.pdf：PDF 113・114・115ページ）\n『改訂版 西洋・日本美術史の基本』p.248（2.pdf：PDF 102ページ）\n『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          123,
+          124,
+          125
+        ],
+        "pdf_pages": [
+          113,
+          114,
+          115
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          248
+        ],
+        "pdf_pages": [
+          102
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262
+        ],
+        "pdf_pages": [
+          8
+        ],
+        "supports": "設問の論点、正答と誤答を区別するための知識。"
+      }
+    ],
+    "image_assets": [],
+    "shared_material_id": "mock01-shared-space"
+  }
+]

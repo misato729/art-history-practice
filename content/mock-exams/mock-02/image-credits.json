@@ -1,0 +1,74 @@
+[
+  {
+    "src": "/images/artworks/mock02-img-04.jpg",
+    "artist": "ティツィアーノ",
+    "title": "Venus with a Mirror",
+    "date": "1555年頃",
+    "museum": "NGA",
+    "rights_basis": "提供済み旧模試2およびリポジトリ image-manifest.json のCC0記録を引継ぎ。この改稿で新しい画像の取得・権利判定はしない。",
+    "usage": "図版提供元の記録であって、出題する知識の出典ではない。テキスト非掲載の作品名・制作年は採点対象にしない。"
+  },
+  {
+    "src": "/images/artworks/mock02-img-05.jpg",
+    "artist": "ヤン・ファン・エイク",
+    "title": "The Annunciation",
+    "date": "1434/1436年頃",
+    "museum": "NGA",
+    "rights_basis": "提供済み旧模試2およびリポジトリ image-manifest.json のCC0記録を引継ぎ。この改稿で新しい画像の取得・権利判定はしない。",
+    "usage": "図版提供元の記録であって、出題する知識の出典ではない。テキスト非掲載の作品名・制作年は採点対象にしない。"
+  },
+  {
+    "src": "/images/artworks/mock02-img-06.jpg",
+    "artist": "ピーテル・パウル・ルーベンス",
+    "title": "Daniel in the Lions’ Den",
+    "date": "1614/1616年頃",
+    "museum": "NGA",
+    "rights_basis": "提供済み旧模試2およびリポジトリ image-manifest.json のCC0記録を引継ぎ。この改稿で新しい画像の取得・権利判定はしない。",
+    "usage": "図版提供元の記録であって、出題する知識の出典ではない。テキスト非掲載の作品名・制作年は採点対象にしない。"
+  },
+  {
+    "src": "/images/artworks/mock02-img-12.jpg",
+    "artist": "J. M. W. ターナー",
+    "title": "Approach to Venice",
+    "date": "1844",
+    "museum": "NGA",
+    "rights_basis": "提供済み旧模試2およびリポジトリ image-manifest.json のCC0記録を引継ぎ。この改稿で新しい画像の取得・権利判定はしない。",
+    "usage": "図版提供元の記録であって、出題する知識の出典ではない。テキスト非掲載の作品名・制作年は採点対象にしない。"
+  },
+  {
+    "src": "/images/artworks/mock02-img-14.jpg",
+    "artist": "エドガー・ドガ",
+    "title": "Dancers Backstage",
+    "date": "1876/1883",
+    "museum": "NGA",
+    "rights_basis": "提供済み旧模試2およびリポジトリ image-manifest.json のCC0記録を引継ぎ。この改稿で新しい画像の取得・権利判定はしない。",
+    "usage": "図版提供元の記録であって、出題する知識の出典ではない。テキスト非掲載の作品名・制作年は採点対象にしない。"
+  },
+  {
+    "src": "/images/artworks/mock02-img-16.jpg",
+    "artist": "ジョルジュ・スーラ",
+    "title": "Seascape at Port-en-Bessin, Normandy",
+    "date": "1888",
+    "museum": "NGA",
+    "rights_basis": "提供済み旧模試2およびリポジトリ image-manifest.json のCC0記録を引継ぎ。この改稿で新しい画像の取得・権利判定はしない。",
+    "usage": "図版提供元の記録であって、出題する知識の出典ではない。テキスト非掲載の作品名・制作年は採点対象にしない。"
+  },
+  {
+    "src": "/images/artworks/mock02-img-22.jpg",
+    "artist": "円山応挙",
+    "title": "Summer Night; Winter Day",
+    "date": "1784",
+    "museum": "CMA",
+    "rights_basis": "提供済み旧模試2およびリポジトリ image-manifest.json のCC0記録を引継ぎ。この改稿で新しい画像の取得・権利判定はしない。",
+    "usage": "図版提供元の記録であって、出題する知識の出典ではない。テキスト非掲載の作品名・制作年は採点対象にしない。"
+  },
+  {
+    "src": "/images/artworks/mock02-img-24.jpg",
+    "artist": "歌川広重",
+    "title": "Picture of Light Rain on the Embankment of the Sumida River",
+    "date": "1830年代後半または1840年代初頭",
+    "museum": "CMA",
+    "rights_basis": "提供済み旧模試2およびリポジトリ image-manifest.json のCC0記録を引継ぎ。この改稿で新しい画像の取得・権利判定はしない。",
+    "usage": "図版提供元の記録であって、出題する知識の出典ではない。テキスト非掲載の作品名・制作年は採点対象にしない。"
+  }
+]

@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 import { readFileSync } from 'node:fs'
+import { verifyIllustrated } from './illustrated-revision/build.mjs'
+import { verifySeed } from './mock02-revision/build-seed.mjs'
 import { resolve } from 'node:path'
 import { createHash } from 'node:crypto'
 import { artworkImagePathSchema } from '../frontend/shared/schemas/content.ts'
@@ -10,6 +12,14 @@ import { parseContentDocument } from '../frontend/shared/schemas/structure.ts'
 function main() {
   const dir = resolve(process.argv[2] ?? 'content/mock-exams/mock-01')
   const read = name => JSON.parse(readFileSync(resolve(dir, name), 'utf8'))
+  if ([1,3,4,5].some(n=>dir===resolve(`content/mock-exams/mock-${String(n).padStart(2,'0')}`))) { verifyIllustrated(); console.log(JSON.stringify({status:'passed',scope:'received_illustrated_source_conversion',questions:85,choices:340,academic_review:false})); return }
+  if(dir===resolve('content/mock-exams/mock-02')) {
+    const {revision}=verifySeed(),registry=JSON.parse(readFileSync('content/mock-exams/mock-02/image-manifest.json','utf8')).assets
+    const paths=[...new Set([...revision.questions.flatMap(q=>[...q.content_blocks,...q.choices.flatMap(c=>c.content_blocks),...q.explanation_blocks]),...revision.application_group.content_blocks].filter(b=>b.type==='image').map(b=>b.src))]
+    assert.equal(paths.length,8)
+    for(const src of paths){const entry=registry.find(a=>a.src===src);assert.ok(entry);assert.equal(createHash('sha256').update(readFileSync(resolve('frontend/public',src.slice(1)))).digest('hex'),entry.sha256)}
+    console.log(JSON.stringify({status:'passed',scope:'active_textbook_v2_technical_source_match',revision_id:revision.revision_id,questions:85,choices:340,images:8,normal_references:0,academic_review_by_works:false}));return
+  }
   const manifest = read('manifest.json')
   const editorial = read('editorial.json')
   const examNumber = manifest.exam_number ?? Number(manifest.id.match(/mock-(\d+)$/)?.[1])

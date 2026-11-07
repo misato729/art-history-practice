@@ -1,2584 +1,409 @@
 {
-  "schema_version": 1,
-  "exam": "模擬試験4",
-  "checked_on": "2026-11-06",
-  "rights_note": "原作の日本での保護期間と、所蔵館のCC0画像の利用条件を別々に確認。没年70年＋12年の確認は保守的な上限評価であり、実際の法的満了日を主張しない。",
   "assets": [
     {
-      "candidate_id": "nga-1",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Saint Paul and a Group of Worshippers",
-      "author": "Bernardo Daddi",
-      "creators": [
-        {
-          "name": "Daddi, Bernardo",
-          "birth_year": 1320,
-          "death_year": 1348,
-          "nationality": "Italian",
-          "display_date": "Florentine, active by 1320, died probably 1348",
-          "role": "painter",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1204"
-        }
-      ],
-      "date": "1333",
-      "medium": "tempera on panel",
-      "dimensions": "painted surface: 224.8 × 77 cm (88 1/2 × 30 5/16 in.)\noverall: 233.53 × 88.8 × 5.3 cm (91 15/16 × 34 15/16 × 2 1/16 in.)",
-      "accession_number": "1937.1.3",
-      "credit_line": "Andrew W. Mellon Collection",
-      "image_url": "https://api.nga.gov/iiif/7bbcfd01-e774-46e7-96d1-a3b03598cd8a/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-01",
+      "credit": "Duccio di Buoninsegna《The Nativity with the Prophets Isaiah and Ezekiel》、1308-1311。National Gallery of Art, Washington、1937.1.8。CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/10-nativity-prophets-isaiah-and-ezekiel",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Daddi, Bernardo",
-            "death_year": 1348,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/1-saint-paul-and-group-worshippers",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Daddi, Bernardo",
-              "death_year": 1348,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/1-saint-paul-and-group-worshippers",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-01",
-      "src": "/images/artworks/mock04-img-01.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 695,
-      "height": 1800,
-      "sha256": "ae876cdd5cf678e1b3a474f4e3fe97b07d38f75e4885c0b101c86bfbe6a87afe",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        4
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-01.jpg",
+      "width": 1600,
+      "height": 892,
+      "sha256": "18409967663865cbeca7bb20f731812a6a00dd113e85c51018bb66e2b71026f9",
+      "original_sha256": "e35bdace312ebffbf02ebcec10b5d524028b10185d6d19274ed91b95cc128e8a",
+      "source_pdf_page": 3,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-01.jpg"
     },
     {
-      "candidate_id": "nga-5",
-      "provider": "National Gallery of Art, Washington",
-      "title": "The Madonna of Humility",
-      "author": "Fra Angelico",
-      "creators": [
-        {
-          "name": "Angelico, Fra",
-          "birth_year": 1395,
-          "death_year": 1455,
-          "nationality": "Italian",
-          "display_date": "Florentine, c. 1395 - 1455",
-          "role": "painter",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "99"
-        }
-      ],
-      "date": "c. 1430",
-      "medium": "tempera on panel",
-      "dimensions": "painted surface: 60.7 x 45.2 cm (23 7/8 x 17 13/16 in.)\nsupport: 62.8 x 47.2 cm (24 3/4 x 18 9/16 in.)",
-      "accession_number": "1937.1.5",
-      "credit_line": "Andrew W. Mellon Collection",
-      "image_url": "https://api.nga.gov/iiif/e64daf38-38e8-4d0c-acb2-8ff370cc188c/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-04",
+      "credit": "Titian《Venus with a Mirror》、c. 1555。National Gallery of Art, Washington、1937.1.34。CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/41-venus-mirror",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Angelico, Fra",
-            "death_year": 1455,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/5-madonna-humility",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Angelico, Fra",
-              "death_year": 1455,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/5-madonna-humility",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-02",
-      "src": "/images/artworks/mock04-img-02.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1342,
-      "height": 1800,
-      "sha256": "deb3a82c7c0fbecbed271f627fdede9a03f5cdd617f5b0ee396dcc760621efb2",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        6
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-04.jpg",
+      "width": 1350,
+      "height": 1600,
+      "sha256": "1767a1db61cbf5416c24a5de79cd0ba28e606624f53a68e7f29eaf5ad95f88a3",
+      "original_sha256": "66f303b35079a3e0bc640a6a4ad05483f6cf6365f8df7d2384ab87aadc801dee",
+      "source_pdf_page": 6,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-04.jpg"
     },
     {
-      "candidate_id": "nga-21",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Portrait of a Youth",
-      "author": "Sandro Botticelli",
-      "creators": [
-        {
-          "name": "Botticelli, Sandro",
-          "birth_year": 1446,
-          "death_year": 1510,
-          "nationality": "Italian",
-          "display_date": "Florentine, 1446 - 1510",
-          "role": "painter",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "989"
-        }
-      ],
-      "date": "c. 1482/1485",
-      "medium": "tempera on poplar panel",
-      "dimensions": "overall: 43.5 x 46.2 cm (17 1/8 x 18 3/16 in.)\nframed: 60.3 x 50.5 x 4.4 cm (23 3/4 x 19 7/8 x 1 3/4 in.)",
-      "accession_number": "1937.1.19",
-      "credit_line": "Andrew W. Mellon Collection",
-      "image_url": "https://api.nga.gov/iiif/fb441731-b7ea-4972-a1f4-51184adaddc9/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-06",
+      "credit": "Sir Peter Paul Rubens《Daniel in the Lions' Den》、c. 1614/1616。National Gallery of Art, Washington、 1965.13.1。CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/50298-daniel-lions-den",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Botticelli, Sandro",
-            "death_year": 1510,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/21-portrait-youth",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Botticelli, Sandro",
-              "death_year": 1510,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/21-portrait-youth",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-03",
-      "src": "/images/artworks/mock04-img-03.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1348,
-      "height": 1800,
-      "sha256": "623221ac6c88ba671f30b875dfdd5ab4056ba28f5e2d32ff0eb2929a92366f2d",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        7
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-06.jpg",
+      "width": 1600,
+      "height": 1082,
+      "sha256": "4a2c3e565d18f8f6ca7354da91166218378905e181f98cf08a15cb2a7bda6f4e",
+      "original_sha256": "d4a6789e207bd10aec35989d3a29e9f7d30453b22d59737a21e6fddbfd9c667d",
+      "source_pdf_page": 8,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-06.jpg"
     },
     {
-      "candidate_id": "nga-12131",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Bindo Altoviti",
-      "author": "Raphael",
-      "creators": [
-        {
-          "name": "Raphael",
-          "birth_year": 1483,
-          "death_year": 1520,
-          "nationality": "Italian",
-          "display_date": "Marchigian, 1483 - 1520",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1818"
-        }
-      ],
-      "date": "c. 1515",
-      "medium": "oil on panel",
-      "dimensions": "overall: 59.7 x 43.8 cm (23 1/2 x 17 1/4 in.)\nframed: 86.2 x 70.8 x 8.4 cm (33 15/16 x 27 7/8 x 3 5/16 in.)",
-      "accession_number": "1943.4.33",
-      "credit_line": "Samuel H. Kress Collection",
-      "image_url": "https://api.nga.gov/iiif/b567bff1-506c-4c08-9689-c801fc55a35e/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-07",
+      "credit": "Rembrandt van Rijn《Self-Portrait》、1659。National Gallery of Art, Washington、1937.1.72。CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/79-self-portrait",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Raphael",
-            "death_year": 1520,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/12131-bindo-altoviti",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Raphael",
-              "death_year": 1520,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/12131-bindo-altoviti",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-04",
-      "src": "/images/artworks/mock04-img-04.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1310,
-      "height": 1800,
-      "sha256": "188c24fc812a7fce003b2ac37d9ed89afb73ce15eb91e1088a595ffc3ccdd84f",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        8
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-07.jpg",
+      "width": 1251,
+      "height": 1600,
+      "sha256": "347277ba82cb4e2dae4a9372b2b8da279b4f0a945735de6fcfdb542c2349283a",
+      "original_sha256": "90acd5682beb9107c7556dfa15d9d4e41eeb1cbd44aa04c6a91864e35c6ed713",
+      "source_pdf_page": 9,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-07.jpg"
     },
     {
-      "candidate_id": "nga-33750",
-      "provider": "National Gallery of Art, Washington",
-      "title": "A Prince of Saxony",
-      "author": "Lucas Cranach the Elder",
-      "creators": [
-        {
-          "name": "Cranach the Elder, Lucas",
-          "birth_year": 1472,
-          "death_year": 1553,
-          "nationality": "German",
-          "display_date": "German, 1472 - 1553",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1179"
-        }
-      ],
-      "date": "c. 1517",
-      "medium": "oil on panel",
-      "dimensions": "overall: 43.7 x 34.4 cm (17 3/16 x 13 9/16 in.)\nframed: 58.4 x 48.9 x 4.7 cm (23 x 19 1/4 x 1 7/8 in.)",
-      "accession_number": "1947.6.1",
-      "credit_line": "Ralph and Mary Booth Collection",
-      "image_url": "https://api.nga.gov/iiif/c13d83bf-6bcf-49d2-ab42-642ff754cae1/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-08",
+      "credit": "Johannes Vermeer《Woman Holding a Balance》、c. 1664。National Gallery of Art, Washington、1942.9.97。 CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/1236-woman-holding-balance",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Cranach the Elder, Lucas",
-            "death_year": 1553,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/33750-prince-saxony",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Cranach the Elder, Lucas",
-              "death_year": 1553,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/33750-prince-saxony",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-05",
-      "src": "/images/artworks/mock04-img-05.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1295,
-      "height": 1800,
-      "sha256": "4261111865576e0aad42748b488b797c1ba0c699b7702f6e88491974327cfa6e",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        9
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-08.jpg",
+      "width": 1414,
+      "height": 1600,
+      "sha256": "8e847e89920c7e3055db4204873f830bc3615ae9fddb6c6cde0bdee011bcaf10",
+      "original_sha256": "f7bab6bfd49019f7753bb0502d97f20f3be80315c4f1eb7b86508611aa2162b5",
+      "source_pdf_page": 10,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-08.jpg"
     },
     {
-      "candidate_id": "nga-46470",
-      "provider": "National Gallery of Art, Washington",
-      "title": "The Assumption of the Virgin",
-      "author": "Nicolas Poussin",
-      "creators": [
-        {
-          "name": "Poussin, Nicolas",
-          "birth_year": 1594,
-          "death_year": 1665,
-          "nationality": "French",
-          "display_date": "French, 1594 - 1665",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1798"
-        }
-      ],
-      "date": "c. 1630/1632",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 134.4 x 98.1 cm (52 15/16 x 38 5/8 in.)\nframed: 171.8 x 135.3 x 13.7 cm (67 5/8 x 53 1/4 x 5 3/8 in.)",
-      "accession_number": "1963.5.1",
-      "credit_line": "Ailsa Mellon Bruce Fund",
-      "image_url": "https://api.nga.gov/iiif/c77f8b64-98a2-4b3c-b270-1863ece147c5/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-09",
+      "credit": "Jean Siméon Chardin《Soap Bubbles》、probably 1733/1734。National Gallery of Art, Washington、1942.5.1。 CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/994-soap-bubbles",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Poussin, Nicolas",
-            "death_year": 1665,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/46470-assumption-virgin",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Poussin, Nicolas",
-              "death_year": 1665,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/46470-assumption-virgin",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-06",
-      "src": "/images/artworks/mock04-img-06.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1315,
-      "height": 1800,
-      "sha256": "25fdf1578c9eb7c1fccd5f9c4936a88567bd6a8696a6bfe3b4d290f0cc5273a8",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        11
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-09.jpg",
+      "width": 1296,
+      "height": 1600,
+      "sha256": "7dc923ff25930183bbabfb13bb8d5930cdb022756fed0cecb7df3ce21abd2404",
+      "original_sha256": "1f66fee07da39ea07ce3e1ef7c5f662c35044e73c870efb0b935e906c03919a8",
+      "source_pdf_page": 11,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-09.jpg"
     },
     {
-      "candidate_id": "nga-56",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Marchesa Balbi",
-      "author": "Sir Anthony van Dyck",
-      "creators": [
-        {
-          "name": "Dyck, Anthony van, Sir",
-          "birth_year": 1599,
-          "death_year": 1641,
-          "nationality": "Flemish",
-          "display_date": "Flemish, 1599 - 1641",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1259"
-        }
-      ],
-      "date": "c. 1623",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 196.5 x 133.8 cm (77 3/8 x 52 11/16 in.)",
-      "accession_number": "1937.1.49",
-      "credit_line": "Andrew W. Mellon Collection",
-      "image_url": "https://api.nga.gov/iiif/f653625c-5432-44df-82da-65a966d350db/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-10",
+      "credit": "Jean Honoré Fragonard《Young Girl Reading》、c. 1769。National Gallery of Art, Washington、1961.16.1。 CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/46303-young-girl-reading",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Dyck, Anthony van, Sir",
-            "death_year": 1641,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/56-marchesa-balbi",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Dyck, Anthony van, Sir",
-              "death_year": 1641,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/56-marchesa-balbi",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-07",
-      "src": "/images/artworks/mock04-img-07.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1207,
-      "height": 1800,
-      "sha256": "b7c741e719172c30c209ac6d622065d1139f279930ca387e51d32bf55ffc0c7d",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        12
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-10.jpg",
+      "width": 1273,
+      "height": 1600,
+      "sha256": "dbf5e2fa49756ddb3ec6d42e2444f6a31769adc319609c83ecac6d9f285281ef",
+      "original_sha256": "06f3f3d43f18351946820bf140c385859d0cfa7251b55f64be88667bc0b4c738",
+      "source_pdf_page": 12,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-10.jpg"
     },
     {
-      "candidate_id": "nga-46005",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Country House in a Park",
-      "author": "Jacob van Ruisdael",
-      "creators": [
-        {
-          "name": "Ruisdael, Jacob van",
-          "birth_year": 1628,
-          "death_year": 1682,
-          "nationality": "Dutch",
-          "display_date": "Dutch, c. 1628/1629 - 1682",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1850"
-        }
-      ],
-      "date": "c. 1675",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 76.3 x 97.5 cm (30 1/16 x 38 3/8 in.)\nframed: 98.4 x 118.4 x 6.7 cm (38 3/4 x 46 5/8 x 2 5/8 in.)",
-      "accession_number": "1960.2.1",
-      "credit_line": "Gift of Rupert L. Joseph",
-      "image_url": "https://api.nga.gov/iiif/00209fb1-64a2-4961-9ccc-8c6c06117df2/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-11",
+      "credit": "Jacques-Louis David《The Emperor Napoleon in His Study at the Tuileries》、1812。National Gallery of Art, Washington、1961.9.15。CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/46114-emperor-napoleon-his-study-tuileries",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Ruisdael, Jacob van",
-            "death_year": 1682,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/46005-country-house-park",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Ruisdael, Jacob van",
-              "death_year": 1682,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/46005-country-house-park",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-08",
-      "src": "/images/artworks/mock04-img-08.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 1404,
-      "sha256": "ce8f5ebfc67448785c883f43ccd5dedec608202d8a507914231c92ce8b383bf7",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        13
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-11.jpg",
+      "width": 976,
+      "height": 1600,
+      "sha256": "4408580e10d522130074b179e3c7cf49da9d4765b9904fc847bd5d123b0b0555",
+      "original_sha256": "e59edc2fbd9fca1d58537d9b82acaafc3454560a4f66522c803d6f98c6b7c7ad",
+      "source_pdf_page": 13,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-11.jpg"
     },
     {
-      "candidate_id": "nga-12200",
-      "provider": "National Gallery of Art, Washington",
-      "title": "The Bath of Venus",
-      "author": "François Boucher",
-      "creators": [
-        {
-          "name": "Boucher, François",
-          "birth_year": 1703,
-          "death_year": 1770,
-          "nationality": "French",
-          "display_date": "French, 1703 - 1770",
-          "role": "painter",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "996"
-        }
-      ],
-      "date": "1751",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 107 x 84.8 cm (42 1/8 x 33 3/8 in.)\nframed: 132.1 x 110.2 x 7.6 cm (52 x 43 3/8 x 3 in.)",
-      "accession_number": "1943.7.2",
-      "credit_line": "Chester Dale Collection",
-      "image_url": "https://api.nga.gov/iiif/768f990b-b74c-4c92-87a6-851d6124eca8/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-14",
+      "credit": "Edgar Degas《Dancers Backstage》、1876/1883。National Gallery of Art, Washington、1970.17.25。CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/52169-dancers-backstage",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Boucher, François",
-            "death_year": 1770,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/12200-bath-venus",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Boucher, François",
-              "death_year": 1770,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/12200-bath-venus",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-09",
-      "src": "/images/artworks/mock04-img-09.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1408,
-      "height": 1800,
-      "sha256": "21849637da8dd9541d6ed5ab16a26a24928d84297dbaa9862cd753bc0aa41227",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        15
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-14.jpg",
+      "width": 1217,
+      "height": 1600,
+      "sha256": "bdd932ef4128f90b511c89e7d69541785a20056783f3234a5bcb1c303f73573f",
+      "original_sha256": "c3e27400e6499bb5f3b7b5737ed2bbed2eeaae01e65feda46f96b57ac4fa2b39",
+      "source_pdf_page": 16,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-14.jpg"
     },
     {
-      "candidate_id": "nga-99",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Mrs. Richard Brinsley Sheridan",
-      "author": "Thomas Gainsborough",
-      "creators": [
-        {
-          "name": "Gainsborough, Thomas",
-          "birth_year": 1727,
-          "death_year": 1788,
-          "nationality": "British",
-          "display_date": "British, 1727 - 1788",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1329"
-        }
-      ],
-      "date": "1785-1787",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 219.7 × 153.7 cm (86 1/2 × 60 1/2 in.)\nframed: 251.46 × 185.42 × 13.97 cm (99 × 73 × 5 1/2 in.)\nframed weight: 147 lb. (66.679 kg)",
-      "accession_number": "1937.1.92",
-      "credit_line": "Andrew W. Mellon Collection",
-      "image_url": "https://api.nga.gov/iiif/9f1dfa05-09b7-4730-9529-a7953130ac65/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock02-img-16",
+      "credit": "Georges Seurat《Seascape at Port-en-Bessin, Normandy》、1888。National Gallery of Art, Washington、 1972.9.21。CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/53139-seascape-port-en-bessin-normandy",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Gainsborough, Thomas",
-            "death_year": 1788,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/99-mrs-richard-brinsley-sheridan",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Gainsborough, Thomas",
-              "death_year": 1788,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/99-mrs-richard-brinsley-sheridan",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-10",
-      "src": "/images/artworks/mock04-img-10.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1270,
-      "height": 1800,
-      "sha256": "72c1a88efe8825976a809134f11b65ed0e233aec2066ab275bd70d259cf40824",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        16
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-16.jpg",
+      "width": 1600,
+      "height": 1288,
+      "sha256": "cfeedf2c9b24ba3769fb7730d4e2aa55d66d9f44171a59648259f1bb7201881c",
+      "original_sha256": "8ff75b51e21cfa165d78285e52e645edbed59121988fbbb397ce40b645a4ae7d",
+      "source_pdf_page": 18,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-16.jpg"
     },
     {
-      "candidate_id": "nga-130555",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Northern Landscape, Spring",
-      "author": "Caspar David Friedrich",
-      "creators": [
-        {
-          "name": "Friedrich, Caspar David",
-          "birth_year": 1774,
-          "death_year": 1840,
-          "nationality": "German",
-          "display_date": "German, 1774 - 1840",
-          "role": "painter",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "6885"
-        }
-      ],
-      "date": "c. 1825",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 35.3 × 49.1 cm (13 7/8 × 19 5/16 in.)\nframed: 53.98 × 67.63 × 7.62 cm (21 1/4 × 26 5/8 × 3 in.)",
-      "accession_number": "2004.113.1",
-      "credit_line": "Patrons' Permanent Fund",
-      "image_url": "https://api.nga.gov/iiif/40bb6453-0326-4377-8ffd-872226a0e5d8/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Friedrich, Caspar David",
-            "death_year": 1840,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/130555-northern-landscape-spring",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Friedrich, Caspar David",
-              "death_year": 1840,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/130555-northern-landscape-spring",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-11",
-      "src": "/images/artworks/mock04-img-11.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 1296,
-      "sha256": "86037911fdd84a1f9ad37121bf6ed3ffa6b34ee26f27001197a1973ad0ff4363",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        19
-      ]
-    },
-    {
-      "candidate_id": "nga-53161",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Mounted Trumpeters of Napoleon's Imperial Guard",
-      "author": "Théodore Gericault",
-      "creators": [
-        {
-          "name": "Gericault, Théodore",
-          "birth_year": 1791,
-          "death_year": 1824,
-          "nationality": "French",
-          "display_date": "French, 1791 - 1824",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1334"
-        }
-      ],
-      "date": "1813/1814",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 60.4 x 49.6 cm (23 3/4 x 19 1/2 in.)\nframed: 76.8 x 66 cm (30 1/4 x 26 in.)",
-      "accession_number": "1972.25.1",
-      "credit_line": "Chester Dale Fund",
-      "image_url": "https://api.nga.gov/iiif/a85ccd40-d8e0-46ee-b1ec-9ec665cf5d23/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Gericault, Théodore",
-            "death_year": 1824,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/53161-mounted-trumpeters-napoleons-imperial-guard",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Gericault, Théodore",
-              "death_year": 1824,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/53161-mounted-trumpeters-napoleons-imperial-guard",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-12",
-      "src": "/images/artworks/mock04-img-12.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1487,
-      "height": 1800,
-      "sha256": "901e219b448d09f488cfae6cb83865286c4f68ea2121e62a22c9f9f11ef016e5",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        20
-      ]
-    },
-    {
-      "candidate_id": "nga-66408",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Calm Sea",
-      "author": "Gustave Courbet",
-      "creators": [
-        {
-          "name": "Courbet, Gustave",
-          "birth_year": 1819,
-          "death_year": 1877,
-          "nationality": "French",
-          "display_date": "French, 1819 - 1877",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1174"
-        }
-      ],
-      "date": "1866",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 54.1 x 63.9 cm (21 5/16 x 25 3/16 in.)\nframed: 69.9 x 80.3 x 5.1 cm (27 1/2 x 31 5/8 x 2 in.)",
-      "accession_number": "1985.64.10",
-      "credit_line": "Collection of Mr. and Mrs. Paul Mellon",
-      "image_url": "https://api.nga.gov/iiif/c790c1ba-9b5f-4275-9f7d-7f501e30992c/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Courbet, Gustave",
-            "death_year": 1877,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/66408-calm-sea",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Courbet, Gustave",
-              "death_year": 1877,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/66408-calm-sea",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-13",
-      "src": "/images/artworks/mock04-img-13.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 1516,
-      "sha256": "dbc374d62af8fcf6466267e6f55471a5390b13695bc9dfc44e8b29573e8bf114",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        22
-      ]
-    },
-    {
-      "candidate_id": "nga-52192",
-      "provider": "National Gallery of Art, Washington",
-      "title": "The Harbor at Lorient",
-      "author": "Berthe Morisot",
-      "creators": [
-        {
-          "name": "Morisot, Berthe",
-          "birth_year": 1841,
-          "death_year": 1895,
-          "nationality": "French",
-          "display_date": "French, 1841 - 1895",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1733"
-        }
-      ],
-      "date": "1869",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 43.5 x 73 cm (17 1/8 x 28 3/4 in.)\nframed: 64.7 x 95.2 x 7.6 cm (25 1/2 x 37 1/2 x 3 in.)",
-      "accession_number": "1970.17.48",
-      "credit_line": "Ailsa Mellon Bruce Collection",
-      "image_url": "https://api.nga.gov/iiif/bf6c7c73-82e8-4ef7-8ac8-71920c8eb2b9/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Morisot, Berthe",
-            "death_year": 1895,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/52192-harbor-lorient",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Morisot, Berthe",
-              "death_year": 1895,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/52192-harbor-lorient",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-14",
-      "src": "/images/artworks/mock04-img-14.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 1067,
-      "sha256": "df91ebae6390f31655aa416df3e289e946fb88e52ec328b7e4ad3da93067db75",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        23
-      ]
-    },
-    {
-      "candidate_id": "nga-110292",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Little Dancer Aged Fourteen",
-      "author": "Edgar Degas",
-      "creators": [
-        {
-          "name": "Degas, Edgar",
-          "birth_year": 1834,
-          "death_year": 1917,
-          "nationality": "French",
-          "display_date": "French, 1834 - 1917",
-          "role": "sculptor",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1219"
-        }
-      ],
-      "date": "1878-1881",
-      "medium": "pigmented beeswax, clay, metal armature, rope, paintbrushes, human hair, silk and linen ribbon, cotton faille bodice, cotton and silk tutu, linen slippers, on wooden base",
-      "dimensions": "overall without base: 98.9 x 34.7 x 35.2 cm (38 15/16 x 13 11/16 x 13 7/8 in)\nweight:  49 lb. (22.226 kg)",
-      "accession_number": "1999.80.28",
-      "credit_line": "Collection of Mr. and Mrs. Paul Mellon",
-      "image_url": "https://api.nga.gov/iiif/7653abc0-4ae1-4f47-a10c-e58182106c4a/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Degas, Edgar",
-            "death_year": 1917,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/110292-little-dancer-aged-fourteen",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Degas, Edgar",
-              "death_year": 1917,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/110292-little-dancer-aged-fourteen",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-15",
-      "src": "/images/artworks/mock04-img-15.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1270,
-      "height": 1800,
-      "sha256": "24270f6da6cab0a87e74cf21f0e5e0e0c60d3b6c939db62f3edab732dd6f9b64",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        24
-      ]
-    },
-    {
-      "candidate_id": "nga-46624",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Fatata te Miti (By the Sea)",
-      "author": "Paul Gauguin",
-      "creators": [
-        {
-          "name": "Gauguin, Paul",
-          "birth_year": 1848,
-          "death_year": 1903,
-          "nationality": "French",
-          "display_date": "French, 1848 - 1903",
-          "role": "painter",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1330"
-        }
-      ],
-      "date": "1892",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 67.9 x 91.5 cm (26 3/4 x 36 in.)\nframed: 92.4 x 114.9 x 10.1 cm (36 3/8 x 45 1/4 x 4 in.)",
-      "accession_number": "1963.10.149",
-      "credit_line": "Chester Dale Collection",
-      "image_url": "https://api.nga.gov/iiif/4f9268d4-c250-4dd8-9bee-d08d8942b8d1/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Gauguin, Paul",
-            "death_year": 1903,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/46624-fatata-te-miti-sea",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Gauguin, Paul",
-              "death_year": 1903,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/46624-fatata-te-miti-sea",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-16",
-      "src": "/images/artworks/mock04-img-16.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 1332,
-      "sha256": "6f838b91c4e4289feacf27c7ab25471f16d380d4b896481b759d320272ee1f28",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        26
-      ]
-    },
-    {
-      "candidate_id": "cma-145205",
-      "provider": "Cleveland Museum of Art",
-      "title": "Head of Ni-o with Open Mouth",
-      "author": "制作者不詳",
-      "creators": [],
-      "date": "1200s",
-      "medium": "wood",
-      "dimensions": "Overall: 76.2 x 37.8 cm (30 x 14 7/8 in.)",
-      "accession_number": "1970.4.2",
-      "credit_line": "Andrew R. and Martha Holden Jennings Fund",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1970.4.2/1970.4.2_print.jpg",
+      "asset_id": "mock02-img-17",
+      "credit": "制作者不詳《Buddha of the Future (Miroku Bosatsu)》、late 600s。Cleveland Museum of Art、1950.86。CC0。",
+      "museum": "Cleveland Museum of Art",
+      "source_page": "https://www.clevelandart.org/art/1950.86",
       "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "demonstrably_old_original",
-        "museum_date": "1200s",
-        "latest_creation_year": 1299,
-        "assessment": "Museum dates this historic original to before 1800 (ancient/medieval works, not modern copies). Unknown maker or historically incomplete creator identity is preserved. Original work term has elapsed; museum photography separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1970.4.2",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "demonstrably_old_original",
-          "museum_date": "1200s",
-          "latest_creation_year": 1299,
-          "assessment": "Museum dates this historic original to before 1800 (ancient/medieval works, not modern copies). Unknown maker or historically incomplete creator identity is preserved. Original work term has elapsed; museum photography separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1970.4.2",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-17",
-      "src": "/images/artworks/mock04-img-17.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1323,
-      "height": 1800,
-      "sha256": "1a32a8962db423af65fb279ecc4a67edaa2b68f133ec94449d4526bac450dd57",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        45
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-17.jpg",
+      "width": 1228,
+      "height": 1600,
+      "sha256": "d661fe530670cb438cebf1ab1d80df154067dda08f92e01bb587f2578994c3ad",
+      "original_sha256": "d08792c26473ec5a73ed023be9e4342bba3d073cac56145ec0399adf030e2920",
+      "source_pdf_page": 23,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "material_checked": "cast bronze, incised, with traces of gilding",
+      "material_check_source": "https://www.clevelandart.org/art/1950.86",
+      "material_checked_on": "2026-11-08",
+      "src": "/images/artworks/illustrated-mock02-img-17.jpg"
     },
     {
-      "candidate_id": "cma-145412",
-      "provider": "Cleveland Museum of Art",
-      "title": "Portrait of Hottō Enmyō Kokushi",
-      "author": "制作者不詳",
-      "creators": [],
-      "date": "c. 1295–1315",
-      "medium": "Hinoki cypress wood with lacquer, metal staples and fittings",
-      "dimensions": "Overall: 91.4 cm (36 in.)",
-      "accession_number": "1970.67",
-      "credit_line": "Leonard C. Hanna Jr. Fund",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1970.67/1970.67_print.jpg",
+      "asset_id": "mock02-img-18",
+      "credit": "制作者不詳《Fudō Myōō》、early 1300s。Cleveland Museum of Art、1989.267。CC0。",
+      "museum": "Cleveland Museum of Art",
+      "source_page": "https://www.clevelandart.org/art/1989.267",
       "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "demonstrably_old_original",
-        "museum_date": "c. 1295–1315",
-        "latest_creation_year": 1315,
-        "assessment": "Museum dates this historic original to before 1800 (ancient/medieval works, not modern copies). Unknown maker or historically incomplete creator identity is preserved. Original work term has elapsed; museum photography separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1970.67",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "demonstrably_old_original",
-          "museum_date": "c. 1295–1315",
-          "latest_creation_year": 1315,
-          "assessment": "Museum dates this historic original to before 1800 (ancient/medieval works, not modern copies). Unknown maker or historically incomplete creator identity is preserved. Original work term has elapsed; museum photography separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1970.67",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-18",
-      "src": "/images/artworks/mock04-img-18.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1356,
-      "height": 1800,
-      "sha256": "b241c6cd8f4f7f2eeb605790225ed08abc8382777b2f89ca015cfbd6db348e11",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        49
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-18.jpg",
+      "width": 1083,
+      "height": 1600,
+      "sha256": "9deeff289f36545a89b6588e7e8a54afcf7e1eceb4fee8084276e368d1f1de69",
+      "original_sha256": "37cc366754d0b94b7e1ab19539f97bde5558fed628364d4174ea9119143d47a7",
+      "source_pdf_page": 25,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "material_checked": "bronze with wire attachments",
+      "material_check_source": "https://www.clevelandart.org/art/1989.267",
+      "material_checked_on": "2026-11-08",
+      "src": "/images/artworks/illustrated-mock02-img-18.jpg"
     },
     {
-      "candidate_id": "cma-79574",
-      "provider": "Cleveland Museum of Art",
-      "title": "Fish Basket Kannon (Gyoran Kannon)",
-      "author": "attributed to Bokkei Saiyo (Japanese, 1415–1473) [artist]; Ikkyū Sōjun (Japanese, 1394–1481) [calligraphy by]",
-      "creators": [
-        {
-          "id": 36778,
-          "description": "Bokkei Saiyo (Japanese, 1415–1473)",
-          "extent": null,
-          "qualifier": "attributed to",
-          "role": "artist",
-          "biography": null,
-          "name_in_original_language": "墨渓 采誉",
-          "birth_year": "1415",
-          "death_year": "1473",
-          "use_in_caption": true,
-          "include_extent": false,
-          "weight": 1
-        },
-        {
-          "id": 282172,
-          "description": "Ikkyū Sōjun (Japanese, 1394–1481)",
-          "extent": null,
-          "qualifier": null,
-          "role": "calligraphy by",
-          "biography": null,
-          "name_in_original_language": "一休 宗純",
-          "birth_year": "1394",
-          "death_year": "1481",
-          "use_in_caption": true,
-          "include_extent": false,
-          "weight": 1
-        }
-      ],
-      "date": "1400s",
-      "medium": "hanging scroll, ink and color on paper",
-      "dimensions": "Mounted: 197.2 x 37.8 cm (77 5/8 x 14 7/8 in.); Painting: 118.8 x 36 cm (46 3/4 x 14 3/16 in.)",
-      "accession_number": "2015.465",
-      "credit_line": "Gift from the Collection of George Gund III",
-      "image_url": "https://openaccess-cdn.clevelandart.org/2015.465/2015.465_print.jpg",
+      "asset_id": "mock02-img-19",
+      "credit": "制作者不詳《Volume from the Great Perfection of Wisdom Sutra》、late 1100s。Cleveland Museum of Art、 1969.130.2.a。CC0。",
+      "museum": "Cleveland Museum of Art",
+      "source_page": "https://www.clevelandart.org/art/1969.130.2.a",
       "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Bokkei Saiyo (Japanese, 1415–1473)",
-            "qualifier": "attributed to",
-            "death_year": "1473"
-          },
-          {
-            "name": "Ikkyū Sōjun (Japanese, 1394–1481)",
-            "qualifier": null,
-            "death_year": "1481"
-          }
-        ],
-        "assessment": "All named creative contributors died before 1927; even the conservative 70-year plus 12-year wartime bound has elapsed. Photography separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/2015.465",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Bokkei Saiyo (Japanese, 1415–1473)",
-              "qualifier": "attributed to",
-              "death_year": "1473"
-            },
-            {
-              "name": "Ikkyū Sōjun (Japanese, 1394–1481)",
-              "qualifier": null,
-              "death_year": "1481"
-            }
-          ],
-          "assessment": "All named creative contributors died before 1927; even the conservative 70-year plus 12-year wartime bound has elapsed. Photography separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/2015.465",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-19",
-      "src": "/images/artworks/mock04-img-19.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 605,
-      "height": 1800,
-      "sha256": "322d68ff9460c0146824df1fe51823065f9b8f6013627c1f86565f2b7ba20217",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        51
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-19.jpg",
+      "width": 671,
+      "height": 1600,
+      "sha256": "df7f6cccab87967d074d33b1bff7b7a009f0633060d35d2880fa9f91b03d03c3",
+      "original_sha256": "0314e7ffb77b0750e4e146efcc9ff223fafe10477bdc42d545428afe41f1ccd3",
+      "source_pdf_page": 26,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-19.jpg"
     },
     {
-      "candidate_id": "cma-153796",
-      "provider": "Cleveland Museum of Art",
-      "title": "Wild Geese",
-      "author": "Kano Sanraku (Japanese, 1559–1635) [artist]",
-      "creators": [
-        {
-          "id": 35749,
-          "description": "Kano Sanraku (Japanese, 1559–1635)",
-          "extent": null,
-          "qualifier": null,
-          "role": "artist",
-          "biography": null,
-          "name_in_original_language": "狩野山楽",
-          "birth_year": "1559",
-          "death_year": "1635",
-          "use_in_caption": true,
-          "include_extent": false,
-          "weight": 1
-        }
-      ],
-      "date": "late 1500s-early 1600s",
-      "medium": "pair of six-fold screens; ink on paper",
-      "dimensions": "Overall: 170.2 x 371.8 cm (67 x 146 3/8 in.)",
-      "accession_number": "1987.9",
-      "credit_line": "Leonard C. Hanna Jr. Fund",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1987.9/1987.9_print.jpg",
+      "asset_id": "mock02-img-21",
+      "credit": "Miyagawa Chōshun (Japanese, 1683–1753) [artist]《Entertainment Scene》、c. 1710–53。Cleveland Museum of Art、1985.17。CC0。",
+      "museum": "Cleveland Museum of Art",
+      "source_page": "https://www.clevelandart.org/art/1985.17",
       "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Kano Sanraku (Japanese, 1559–1635)",
-            "qualifier": null,
-            "death_year": "1635"
-          }
-        ],
-        "assessment": "All named creative contributors died before 1927; even the conservative 70-year plus 12-year wartime bound has elapsed. Photography separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1987.9",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Kano Sanraku (Japanese, 1559–1635)",
-              "qualifier": null,
-              "death_year": "1635"
-            }
-          ],
-          "assessment": "All named creative contributors died before 1927; even the conservative 70-year plus 12-year wartime bound has elapsed. Photography separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1987.9",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-20",
-      "src": "/images/artworks/mock04-img-20.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 1663,
-      "sha256": "95c50d7b3b7edad149a62d1f4611aa9964416da7b0eea0663e7babc3965b16be",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        52
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-21.jpg",
+      "width": 1600,
+      "height": 581,
+      "sha256": "c64ebdcf1c37e13584d51cd08d126716d17287fcf68c9f12afb17a1012712272",
+      "original_sha256": "0925e7531a706f0fcf31497efcae95fd1a6f987a31e1ea717d33acee2cc6784b",
+      "source_pdf_page": 28,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-21.jpg"
     },
     {
-      "candidate_id": "cma-148857",
-      "provider": "Cleveland Museum of Art",
-      "title": "Horse Race at the Kamo Shrine",
-      "author": "制作者不詳",
-      "creators": [],
-      "date": "early to mid-1600s",
-      "medium": "Pair of six-panel folding screens; ink and color on gilded paper",
-      "dimensions": "Image: 161 x 362 cm (63 3/8 x 142 1/2 in.)",
-      "accession_number": "1976.95",
-      "credit_line": "Purchase from the J. H. Wade Fund",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1976.95/1976.95_print.jpg",
+      "asset_id": "mock02-img-23",
+      "credit": "Okumura Masanobu (Japanese, 1686–1764) [artist]《Three Courtesans with a Client》、early 1700s。 Cleveland Museum of Art、1985.337。CC0。",
+      "museum": "Cleveland Museum of Art",
+      "source_page": "https://www.clevelandart.org/art/1985.337",
       "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "demonstrably_old_original",
-        "museum_date": "early to mid-1600s",
-        "latest_creation_year": 1650,
-        "assessment": "Museum dates this historic original to before 1800 (ancient/medieval works, not modern copies). Unknown maker or historically incomplete creator identity is preserved. Original work term has elapsed; museum photography separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1976.95",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "demonstrably_old_original",
-          "museum_date": "early to mid-1600s",
-          "latest_creation_year": 1650,
-          "assessment": "Museum dates this historic original to before 1800 (ancient/medieval works, not modern copies). Unknown maker or historically incomplete creator identity is preserved. Original work term has elapsed; museum photography separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1976.95",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-21",
-      "src": "/images/artworks/mock04-img-21.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 1705,
-      "sha256": "07b18d9b8a3aa793ef603653592371746ae9214c5d1418f4a66954eb4a065ecb",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        53
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-23.jpg",
+      "width": 1600,
+      "height": 1137,
+      "sha256": "3f8ff94fe044e3c261271698de87725c8d7b6a88b39df1fc7c2c2acc4ea8545b",
+      "original_sha256": "13d8998d080181d32191af141d577ec834e95fa52f2e83a66f7f67aa51154b24",
+      "source_pdf_page": 30,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-23.jpg"
     },
     {
-      "candidate_id": "cma-145420",
-      "provider": "Cleveland Museum of Art",
-      "title": "Puppies, Sparrows, and Chrysanthemums",
-      "author": "Nagasawa Rosetsu (Japanese, 1754–1799) [artist]",
-      "creators": [
-        {
-          "id": 381102,
-          "description": "Nagasawa Rosetsu (Japanese, 1754–1799)",
-          "extent": null,
-          "qualifier": null,
-          "role": "artist",
-          "biography": "Japanese painter, 1754-1799",
-          "name_in_original_language": null,
-          "birth_year": "1754",
-          "death_year": "1799",
-          "use_in_caption": true,
-          "include_extent": false,
-          "weight": 1
-        }
-      ],
-      "date": "c. 1792–94",
-      "medium": "Fusuma panels remounted as hanging scrolls; ink and slight color on paper",
-      "dimensions": "Each panel: 211.4 x 94 cm (83 1/4 x 37 in.); Each painting: 167.6 x 91.5 cm (66 x 36 in.)",
-      "accession_number": "1970.71",
-      "credit_line": "John L. Severance Fund",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1970.71/1970.71_print.jpg",
+      "asset_id": "mock02-img-24",
+      "credit": "Utagawa Hiroshige (Japanese, 1797–1858) [artist]《Picture of Light Rain on the Embankment of the Sumida River, from the series A New Selection of Famous Places in Edo》、late 1830s or early 1840s。Cleveland Museum of Art、1940.988。 CC0。",
+      "museum": "Cleveland Museum of Art",
+      "source_page": "https://www.clevelandart.org/art/1940.988",
       "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Nagasawa Rosetsu (Japanese, 1754–1799)",
-            "qualifier": null,
-            "death_year": "1799"
-          }
-        ],
-        "assessment": "All named creative contributors died before 1927; even the conservative 70-year plus 12-year wartime bound has elapsed. Photography separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1970.71",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Nagasawa Rosetsu (Japanese, 1754–1799)",
-              "qualifier": null,
-              "death_year": "1799"
-            }
-          ],
-          "assessment": "All named creative contributors died before 1927; even the conservative 70-year plus 12-year wartime bound has elapsed. Photography separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1970.71",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-22",
-      "src": "/images/artworks/mock04-img-22.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 818,
-      "sha256": "27fb745576fca2f07c9ae11ba394de57fbf0e52561869048ff786549a755ecae",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        55
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-24.jpg",
+      "width": 1600,
+      "height": 989,
+      "sha256": "a2533354d78eb830e79095bb318847d9afc79ead5a5c7c2a88596a9ae4820383",
+      "original_sha256": "f306cf16a34adb074442928898644121a6b497735c6a9c16091110e3438ae772",
+      "source_pdf_page": 31,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-24.jpg"
     },
     {
-      "candidate_id": "cma-150169",
-      "provider": "Cleveland Museum of Art",
-      "title": "Rori Hakucho Chojun (from the series 108 Heroes of the Novel Shui Hu Chuan)",
-      "author": "Utagawa Kuniyoshi (Japanese, 1797–1861) [artist]",
-      "creators": [
-        {
-          "id": 23331,
-          "description": "Utagawa Kuniyoshi (Japanese, 1797–1861)",
-          "extent": null,
-          "qualifier": null,
-          "role": "artist",
-          "biography": "One of the principal Ukiyo-e artists of the late Edo period.",
-          "name_in_original_language": "歌川 国芳",
-          "birth_year": "1797",
-          "death_year": "1861",
-          "use_in_caption": true,
-          "include_extent": false,
-          "weight": 1
-        }
-      ],
-      "date": "late 1820s",
-      "medium": "color woodblock print",
-      "dimensions": "Sheet: 38 x 25.7 cm (14 15/16 x 10 1/8 in.)",
-      "accession_number": "1980.85",
-      "credit_line": "Edward L. Whittemore Fund",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1980.85/1980.85_print.jpg",
+      "asset_id": "mock02-img-26",
+      "credit": "Josiah Wedgwood and Sons (Britain, Staffordshire, est. 1759) [artist]《Portland Vase》、c.1790。Cleveland Museum of Art、1918.823。CC0。",
+      "museum": "Cleveland Museum of Art",
+      "source_page": "https://www.clevelandart.org/art/1918.823",
       "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Utagawa Kuniyoshi (Japanese, 1797–1861)",
-            "qualifier": null,
-            "death_year": "1861"
-          }
-        ],
-        "assessment": "All named creative contributors died before 1927; even the conservative 70-year plus 12-year wartime bound has elapsed. Photography separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1980.85",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Utagawa Kuniyoshi (Japanese, 1797–1861)",
-              "qualifier": null,
-              "death_year": "1861"
-            }
-          ],
-          "assessment": "All named creative contributors died before 1927; even the conservative 70-year plus 12-year wartime bound has elapsed. Photography separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1980.85",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-23",
-      "src": "/images/artworks/mock04-img-23.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1230,
-      "height": 1800,
-      "sha256": "d6c1b26fa4699316dc1cb34de5cf3f8fbba341834fd3fb851419bed0f1ebea37",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        57
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-02-questions.pdf",
+      "credit_from": "art-grade2-mock-02-answers.pdf",
+      "file": "assets/mock02-img-26.jpg",
+      "width": 1280,
+      "height": 1600,
+      "sha256": "6c4f1a1c201c800a5634d4f2d94ed406ccfdf7b72d2e02663aebc3c1515e2207",
+      "original_sha256": "c63a58277063ea22e89cc58dece1b91f5ba338b57ec9a1a1ab7f1410966d5aa6",
+      "source_pdf_page": 37,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock02-img-26.jpg"
     },
     {
-      "candidate_id": "cma-111675",
-      "provider": "Cleveland Museum of Art",
-      "title": "Ichikawa Ebizō IV (Danjurō) as Takemura Sadanoshin in The Loving Wife's Parti-Colored Reins",
-      "author": "Tōshūsai Sharaku (Japanese, active 1794–95) [artist]",
-      "creators": [
-        {
-          "id": 32774,
-          "description": "Tōshūsai Sharaku (Japanese, active 1794–95)",
-          "extent": null,
-          "qualifier": null,
-          "role": "artist",
-          "biography": null,
-          "name_in_original_language": "東洲斎 写楽",
-          "use_in_caption": true,
-          "include_extent": false,
-          "weight": 1
-        }
-      ],
-      "date": "1794",
-      "medium": "color woodblock print",
-      "dimensions": "36 x 23.6 cm (14 3/16 x 9 5/16 in.)",
-      "accession_number": "1930.205",
-      "credit_line": "Bequest of Edward L. Whittemore",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1930.205/1930.205_print.jpg",
+      "asset_id": "mock03-img-23",
+      "credit": "Suzuki Harunobu (Japanese, 1724–1770) [artist]《Young Woman Standing Under an Umbrella in the Snow》、 1767–68。Cleveland Museum of Art、1985.305。CC0。",
+      "museum": "Cleveland Museum of Art",
+      "source_page": "https://www.clevelandart.org/art/1985.305",
       "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "historical_pseudonymous_print",
-        "museum_date": "1794",
-        "creator_identity": "Toshusai Sharaku; museum documents active 1794-95, does not publish a death date",
-        "assessment": "Original commercial print was published in 1794. The pseudonymous/publication term elapsed long before 2026. No death date or identification with an actor is invented; separately CC0 museum photograph.",
-        "legal_source": "https://www.bunka.go.jp/seisaku/chosakuken/hokaisei/kantaiheiyo_chosakuken/1411890.html"
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1930.205",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "historical_pseudonymous_print",
-          "museum_date": "1794",
-          "creator_identity": "Toshusai Sharaku; museum documents active 1794-95, does not publish a death date",
-          "assessment": "Original commercial print was published in 1794. The pseudonymous/publication term elapsed long before 2026. No death date or identification with an actor is invented; separately CC0 museum photograph.",
-          "legal_source": "https://www.bunka.go.jp/seisaku/chosakuken/hokaisei/kantaiheiyo_chosakuken/1411890.html"
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1930.205",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-24",
-      "src": "/images/artworks/mock04-img-24.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1205,
-      "height": 1800,
-      "sha256": "84b67f25eeca5ddc3b1eb67382c56a3da89f592736dad7d88284b8d586439d8d",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        58
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-03-questions.pdf",
+      "credit_from": "art-grade2-mock-03-answers.pdf",
+      "file": "assets/mock03-img-23.jpg",
+      "width": 321,
+      "height": 1600,
+      "sha256": "87af1962b89d56ebd5de9c2bef724b31e6ee7b4f8fffef22c93d1b8e536edb8d",
+      "original_sha256": "aeea934b8c4868e623b30db2dc92a56f24fa755f5727d09b85ea9e23f142145b",
+      "source_pdf_page": 30,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock03-img-23.jpg"
     },
     {
-      "candidate_id": "cma-112196",
-      "provider": "Cleveland Museum of Art",
-      "title": "Dish with Bats and Peaches",
-      "author": "制作者不詳",
-      "creators": [],
-      "date": "1723–35",
-      "medium": "porcelain with famille rose overglaze enamel decoration",
-      "dimensions": "Diameter: 20.6 cm (8 1/8 in.)",
-      "accession_number": "1930.639",
-      "credit_line": "Worcester R. Warner Collection",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1930.639/1930.639_print.jpg",
+      "asset_id": "mock03-img-26",
+      "credit": "William Morris (British, 1834–1896) [designed by]《Tulip 》、1875。Cleveland Museum of Art、1937.579。CC0。",
+      "museum": "Cleveland Museum of Art",
+      "source_page": "https://www.clevelandart.org/art/1937.579",
       "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "demonstrably_old_original",
-        "museum_date": "1723–35",
-        "latest_creation_year": 1735,
-        "assessment": "Original object is securely dated by the museum to before 1800, not a later replica. Unknown maker or historic factory attribution is preserved; no founder lifespan is substituted. The original work term has elapsed; the museum photograph is separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1930.639",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "demonstrably_old_original",
-          "museum_date": "1723–35",
-          "latest_creation_year": 1735,
-          "assessment": "Original object is securely dated by the museum to before 1800, not a later replica. Unknown maker or historic factory attribution is preserved; no founder lifespan is substituted. The original work term has elapsed; the museum photograph is separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1930.639",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-25",
-      "src": "/images/artworks/mock04-img-25.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1797,
-      "height": 1800,
-      "sha256": "a0b82140e034aa961898532cdb029a7f45278ac4422bc428cd74fc53334747cd",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        73
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-03-questions.pdf",
+      "credit_from": "art-grade2-mock-03-answers.pdf",
+      "file": "assets/mock03-img-26.jpg",
+      "width": 1600,
+      "height": 1274,
+      "sha256": "88007bd4ab88e1a6cf1a087760eb02237d4fa7245b686c6156b2225bc3094189",
+      "original_sha256": "8e9b5dcaf98752a524ad0051235b3dfceebb84c3922b4d606aeb4e1be36910ca",
+      "source_pdf_page": 37,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock03-img-26.jpg"
     },
     {
-      "candidate_id": "cma-149466",
-      "provider": "Cleveland Museum of Art",
-      "title": "Vase",
-      "author": "Emile Gallé (French, 1846–1904) [artist]",
-      "creators": [
-        {
-          "id": 13622,
-          "description": "Emile Gallé (French, 1846–1904)",
-          "extent": null,
-          "qualifier": null,
-          "role": "artist",
-          "biography": null,
-          "name_in_original_language": null,
-          "birth_year": "1846",
-          "death_year": "1904",
-          "use_in_caption": true,
-          "include_extent": false,
-          "weight": 1
-        }
-      ],
-      "date": "c. 1900",
-      "medium": "glass with pink and green inclusions, cameo cut",
-      "dimensions": "Overall: 13.5 x 8.6 x 4.7 cm (5 5/16 x 3 3/8 x 1 7/8 in.)",
-      "accession_number": "1979.10",
-      "credit_line": "Andrew R. and Martha Holden Jennings Fund",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1979.10/1979.10_print.jpg",
-      "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Emile Gallé (French, 1846–1904)",
-            "qualifier": null,
-            "death_year": "1904"
-          }
-        ],
-        "assessment": "Named creators died before 1927, so even the conservative 70-year plus 12-year wartime bound has elapsed. Museum image is separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1979.10",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Emile Gallé (French, 1846–1904)",
-              "qualifier": null,
-              "death_year": "1904"
-            }
-          ],
-          "assessment": "Named creators died before 1927, so even the conservative 70-year plus 12-year wartime bound has elapsed. Museum image is separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1979.10",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-26",
-      "src": "/images/artworks/mock04-img-26.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 1782,
-      "sha256": "d281623b3fb8f02b12b1dc489db3c95408895dba92bd52fe218e77cccf87fdcf",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        78
-      ]
-    },
-    {
-      "candidate_id": "nga-1008",
-      "provider": "National Gallery of Art, Washington",
-      "title": "The Kiss (Le Baiser)",
-      "author": "Auguste Rodin",
-      "creators": [
-        {
-          "name": "Rodin, Auguste",
-          "birth_year": 1840,
-          "death_year": 1917,
-          "nationality": "French",
-          "display_date": "French, 1840 - 1917",
-          "role": "sculptor",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "2251"
-        }
-      ],
-      "date": "model 1880-1887, cast c. 1898/1902",
-      "medium": "bronze",
-      "dimensions": "overall: 24.7 x 15.8 x 17.4 cm (9 3/4 x 6 1/4 x 6 7/8 in.)",
-      "accession_number": "1942.5.15",
-      "credit_line": "Gift of Mrs. John W. Simpson",
-      "image_url": "https://api.nga.gov/iiif/0fa34c3a-f8df-434d-a6e4-3249556ff09a/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock03-img-27",
+      "credit": "Auguste Rodin《Head of Balzac》、model 1897, cast probably early 20th century。National Gallery of Art, Washington、1942.5.14。CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/1007-head-balzac",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Rodin, Auguste",
-            "death_year": 1917,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/1008-kiss-le-baiser",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Rodin, Auguste",
-              "death_year": 1917,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/1008-kiss-le-baiser",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-27",
-      "src": "/images/artworks/mock04-img-27.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1339,
-      "height": 1800,
-      "sha256": "d8ad7848227e13c7ad980d0800b97ad287637bbbaa8a31ee64b85866819cd59f",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        81
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-03-questions.pdf",
+      "credit_from": "art-grade2-mock-03-answers.pdf",
+      "file": "assets/mock03-img-27.jpg",
+      "width": 1600,
+      "height": 1280,
+      "sha256": "1cd3352b090c407fcc5d1ac44774b16e6a49b4984036ea48fcdf31b2009d05da",
+      "original_sha256": "b57ce5271b1a98e4eff9b19cfd1500ad4ac601e8c7dab76776714cda7c728c53",
+      "source_pdf_page": 39,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock03-img-27.jpg"
     },
     {
-      "candidate_id": "nga-127590",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Dancer with Finger on Chin",
-      "author": "Antonio Canova",
-      "creators": [
-        {
-          "name": "Canova, Antonio",
-          "birth_year": 1757,
-          "death_year": 1822,
-          "nationality": "Italian",
-          "display_date": "Italian, 1757 - 1822",
-          "role": "sculptor",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "2052"
-        }
-      ],
-      "date": "model 1809/1814, carved 1819/1823",
-      "medium": "marble",
-      "dimensions": "overall (approximate height): 177 cm (69 11/16 in.)\nweight, with attached base: 724 lbs",
-      "accession_number": "2003.62.1",
-      "credit_line": "Gift of Lillian Rojtman Berkman",
-      "image_url": "https://api.nga.gov/iiif/f73de8dd-02af-4c52-a231-a547cae7a9ec/full/!1800,1800/0/default.jpg",
+      "asset_id": "mock03-img-36",
+      "credit": "Joseph Mallord William Turner《A Packet Boat off Dover》、c. 1836。National Gallery of Art, Washington、 1986.72.18。CC0。",
+      "museum": "National Gallery of Art, Washington",
+      "source_page": "https://www.nga.gov/artworks/69409-packet-boat-dover",
       "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Canova, Antonio",
-            "death_year": 1822,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/127590-dancer-finger-chin",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Canova, Antonio",
-              "death_year": 1822,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/127590-dancer-finger-chin",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-28",
-      "src": "/images/artworks/mock04-img-28.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1139,
-      "height": 1800,
-      "sha256": "15aed69c4fd418f50fbc2ae42b443bd9492e978832e9f7403f4b4f5321f6c3ee",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        81
-      ]
-    },
-    {
-      "candidate_id": "nga-136749",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Tewkesbury Abbey No. 2",
-      "author": "Joseph Mallord William Turner",
-      "creators": [
-        {
-          "name": "Turner, Joseph Mallord William",
-          "birth_year": 1775,
-          "death_year": 1851,
-          "nationality": "British",
-          "display_date": "British, 1775 - 1851",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1939"
-        }
-      ],
-      "date": "1793",
-      "medium": "graphite on wove paper",
-      "dimensions": "sheet: 26.7 × 20.3 cm (10 1/2 × 8 in.)",
-      "accession_number": "2022.40.15",
-      "credit_line": "Gift of Donald Stone",
-      "image_url": "https://api.nga.gov/iiif/c4c3f77d-bdd4-4164-9765-22db5a09e150/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Turner, Joseph Mallord William",
-            "death_year": 1851,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/136749-tewkesbury-abbey-no-2",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Turner, Joseph Mallord William",
-              "death_year": 1851,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/136749-tewkesbury-abbey-no-2",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-29",
-      "src": "/images/artworks/mock04-img-29.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1379,
-      "height": 1800,
-      "sha256": "4960e91f9ac6ba9d2e963730dd25c23deb9f27ee575c82780cb15713c00a7be1",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        82
-      ]
-    },
-    {
-      "candidate_id": "nga-52313",
-      "provider": "National Gallery of Art, Washington",
-      "title": "A Bridge and Campanile, Venice",
-      "author": "John Singer Sargent",
-      "creators": [
-        {
-          "name": "Sargent, John Singer",
-          "birth_year": 1856,
-          "death_year": 1925,
-          "nationality": "American",
-          "display_date": "American, 1856 - 1925",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1858"
-        }
-      ],
-      "date": "1902/1904",
-      "medium": "watercolor over black chalk on thick wove paper",
-      "dimensions": "sheet: 49.5 × 35.2 cm (19 1/2 × 13 7/8 in.)",
-      "accession_number": "1970.17.169",
-      "credit_line": "Ailsa Mellon Bruce Collection",
-      "image_url": "https://api.nga.gov/iiif/21b72d1f-0364-4222-ac6e-147f87afac31/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Sargent, John Singer",
-            "death_year": 1925,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/52313-bridge-and-campanile-venice",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Sargent, John Singer",
-              "death_year": 1925,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/52313-bridge-and-campanile-venice",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-30",
-      "src": "/images/artworks/mock04-img-30.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1278,
-      "height": 1800,
-      "sha256": "1e327ad20e344739e02a684fe948bafde6d2dcd1437c87f7c4c3be743b764d8d",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        82
-      ]
-    },
-    {
-      "candidate_id": "cma-147046",
-      "provider": "Cleveland Museum of Art",
-      "title": "Noh Mask: Waka-onna",
-      "author": "制作者不詳",
-      "creators": [],
-      "date": "1400s",
-      "medium": "wood with polychromy",
-      "dimensions": "Overall: 19.8 cm (7 13/16 in.)",
-      "accession_number": "1972.69",
-      "credit_line": "John L. Severance Fund",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1972.69/1972.69_print.jpg",
-      "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "demonstrably_old_original",
-        "museum_date": "1400s",
-        "latest_creation_year": 1573,
-        "assessment": "Original object is securely dated by the museum to before 1800, not a later replica. Unknown maker or historic factory attribution is preserved; no founder lifespan is substituted. The original work term has elapsed; the museum photograph is separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1972.69",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "demonstrably_old_original",
-          "museum_date": "1400s",
-          "latest_creation_year": 1573,
-          "assessment": "Original object is securely dated by the museum to before 1800, not a later replica. Unknown maker or historic factory attribution is preserved; no founder lifespan is substituted. The original work term has elapsed; the museum photograph is separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1972.69",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-31",
-      "src": "/images/artworks/mock04-img-31.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1267,
-      "height": 1800,
-      "sha256": "d7cc1d537d3afd9f02e2a001ba812d9cd48888882a0b47c4694296fed42ffd4a",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        83
-      ]
-    },
-    {
-      "candidate_id": "cma-95598",
-      "provider": "Cleveland Museum of Art",
-      "title": "Noh Costume (Karaori) with Dragon and Rice with Dew Roundels",
-      "author": "制作者不詳",
-      "creators": [],
-      "date": "early 1700s",
-      "medium": "silk, brocaded metal thread",
-      "dimensions": "Overall: 139.7 x 133.3 cm (55 x 52 1/2 in.)",
-      "accession_number": "1916.1318",
-      "credit_line": "Gift of Mr. and Mrs. J. H. Wade",
-      "image_url": "https://openaccess-cdn.clevelandart.org/1916.1318/1916.1318_print.jpg",
-      "policy_url": "https://www.clevelandart.org/open-access",
-      "japan_expiry_basis": {
-        "kind": "demonstrably_old_original",
-        "museum_date": "early 1700s",
-        "latest_creation_year": 1720,
-        "assessment": "Original object is securely dated by the museum to before 1800, not a later replica. Unknown maker or historic factory attribution is preserved; no founder lifespan is substituted. The original work term has elapsed; the museum photograph is separately CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.clevelandart.org/art/1916.1318",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "demonstrably_old_original",
-          "museum_date": "early 1700s",
-          "latest_creation_year": 1720,
-          "assessment": "Original object is securely dated by the museum to before 1800, not a later replica. Unknown maker or historic factory attribution is preserved; no founder lifespan is substituted. The original work term has elapsed; the museum photograph is separately CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0",
-          "individual_page": "https://www.clevelandart.org/art/1916.1318",
-          "policy_url": "https://www.clevelandart.org/open-access",
-          "official_api_license": "CC0",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-32",
-      "src": "/images/artworks/mock04-img-32.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1576,
-      "height": 1800,
-      "sha256": "4be307645241f5e29b56387630844af7ffbd535cc1f04744bc3c1d6e3dc15866",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        83
-      ]
-    },
-    {
-      "candidate_id": "nga-46502",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Madame Alexandre Kohler",
-      "author": "Paul Gauguin",
-      "creators": [
-        {
-          "name": "Gauguin, Paul",
-          "birth_year": 1848,
-          "death_year": 1903,
-          "nationality": "French",
-          "display_date": "French, 1848 - 1903",
-          "role": "painter",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1330"
-        }
-      ],
-      "date": "1887/1888",
-      "medium": "oil on linen",
-      "dimensions": "overall: 46.3 x 38 cm (18 1/4 x 14 15/16 in.)\nframed: 61.6 x 52.7 cm (24 1/4 x 20 3/4 in.)",
-      "accession_number": "1963.10.27",
-      "credit_line": "Chester Dale Collection",
-      "image_url": "https://api.nga.gov/iiif/659b932c-1ffb-4b6b-806e-c095d9ff10f4/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Gauguin, Paul",
-            "death_year": 1903,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/46502-madame-alexandre-kohler",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Gauguin, Paul",
-              "death_year": 1903,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/46502-madame-alexandre-kohler",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-33",
-      "src": "/images/artworks/mock04-img-33.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1424,
-      "height": 1800,
-      "sha256": "0cf154b25902ea8ed3e9a688cd8fe83a2d78098a49c54827723792b7c48d30b9",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        84
-      ]
-    },
-    {
-      "candidate_id": "nga-45867",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Vase of Flowers",
-      "author": "Paul Cezanne",
-      "creators": [
-        {
-          "name": "Cezanne, Paul",
-          "birth_year": 1839,
-          "death_year": 1906,
-          "nationality": "French",
-          "display_date": "French, 1839 - 1906",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1115"
-        }
-      ],
-      "date": "1900/1903",
-      "medium": "oil on canvas",
-      "dimensions": "overall: 101 x 81.9 cm (39 3/4 x 32 1/4 in.)\nframed: 125.1 x 106.4 x 5.1 cm (49 1/4 x 41 7/8 x 2 in.)",
-      "accession_number": "1958.10.2",
-      "credit_line": "Gift of Eugene and Agnes E. Meyer",
-      "image_url": "https://api.nga.gov/iiif/f60130f2-2549-4593-ac6e-fb8809b47c28/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Cezanne, Paul",
-            "death_year": 1906,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/45867-vase-flowers",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Cezanne, Paul",
-              "death_year": 1906,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/45867-vase-flowers",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-34",
-      "src": "/images/artworks/mock04-img-34.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1456,
-      "height": 1800,
-      "sha256": "45db12e82be09986ed211f6e3683815d8e5f20b1f14d8e010171d9d7ed88819c",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        84
-      ]
-    },
-    {
-      "candidate_id": "nga-7502",
-      "provider": "National Gallery of Art, Washington",
-      "title": "El sueño de la razon produce monstruos (The Sleep of Reason Produces Monsters)",
-      "author": "Francisco Goya",
-      "creators": [
-        {
-          "name": "Goya, Francisco",
-          "birth_year": 1746,
-          "death_year": 1828,
-          "nationality": "Spanish",
-          "display_date": "Spanish, 1746 - 1828",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1353"
-        }
-      ],
-      "date": "published 1799",
-      "medium": "etching and aquatint on laid paper",
-      "dimensions": "plate: 21.4 x 15.1 cm (8 7/16 x 5 15/16 in.)\npage size: 30.7 x 19.5 cm (12 1/16 x 7 11/16 in.)",
-      "accession_number": "1943.3.4711.qq",
-      "credit_line": "Rosenwald Collection",
-      "image_url": "https://api.nga.gov/iiif/f44b3d3d-d3a5-4cd2-b7f2-30b4479c6741/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Goya, Francisco",
-            "death_year": 1828,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/7502-el-sueno-de-la-razon-produce-monstruos-sleep-reason-produces-monsters",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Goya, Francisco",
-              "death_year": 1828,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/7502-el-sueno-de-la-razon-produce-monstruos-sleep-reason-produces-monsters",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-35",
-      "src": "/images/artworks/mock04-img-35.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1275,
-      "height": 1800,
-      "sha256": "872ed0bcf1dcaf75ee2eccfcef1f994712bb480ef582bb90a702bba66ec8d0fb",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        85
-      ]
-    },
-    {
-      "candidate_id": "nga-11160",
-      "provider": "National Gallery of Art, Washington",
-      "title": "Nocturne",
-      "author": "James McNeill Whistler",
-      "creators": [
-        {
-          "name": "Whistler, James McNeill",
-          "birth_year": 1834,
-          "death_year": 1903,
-          "nationality": "American",
-          "display_date": "American, 1834 - 1903",
-          "role": "artist",
-          "prefix": "",
-          "suffix": "",
-          "constituent_id": "1974"
-        }
-      ],
-      "date": "1878",
-      "medium": "lithotint in black on wove paper",
-      "dimensions": "image: 17.3 × 26.5 cm (6 13/16 × 10 7/16 in.)\nsheet: 19.3 × 27.9 cm (7 5/8 × 11 in.)",
-      "accession_number": "1943.3.8663",
-      "credit_line": "Rosenwald Collection",
-      "image_url": "https://api.nga.gov/iiif/1879fe08-2335-4c62-ad0f-d717f4a87351/full/!1800,1800/0/default.jpg",
-      "policy_url": "https://www.nga.gov/terms-and-notices",
-      "japan_expiry_basis": {
-        "kind": "named_creators",
-        "creators": [
-          {
-            "name": "Whistler, James McNeill",
-            "death_year": 1903,
-            "primary_source": "National Gallery of Art official open-data constituent records"
-          }
-        ],
-        "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-      },
-      "review_status": "rights_verified",
-      "source_page": "https://www.nga.gov/artworks/11160-nocturne",
-      "rights_review": {
-        "japan_term_expired": true,
-        "original_work": {
-          "kind": "named_creators",
-          "creators": [
-            {
-              "name": "Whistler, James McNeill",
-              "death_year": 1903,
-              "primary_source": "National Gallery of Art official open-data constituent records"
-            }
-          ],
-          "assessment": "All named creative contributors died by 1926; even the conservative 70-year plus 12-year wartime bound has elapsed by 2026. Museum image is separately released as CC0."
-        },
-        "digital_image": {
-          "designation": "CC0-1.0 / free public-domain downloadable media",
-          "individual_page": "https://www.nga.gov/artworks/11160-nocturne",
-          "policy_url": "https://www.nga.gov/terms-and-notices",
-          "checked_on": "2026-11-06"
-        },
-        "individual_page_checked": true,
-        "official_problem_book_different_work": true
-      },
-      "id": "mock04-img-36",
-      "src": "/images/artworks/mock04-img-36.jpg",
-      "license": "CC0-1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 1800,
-      "height": 1225,
-      "sha256": "a4bacf3adcc839d1b04b430a5910d2601843c154fbd77275a99c6f721f2dacb3",
-      "checked_on": "2026-11-06",
-      "official_problem_book_reuse": false,
-      "processing": "忠実な縮小・JPEG再圧縮・付随メタデータ除去のみ。切抜き・生成補完・署名削除なし。",
-      "question_numbers": [
-        85
-      ]
+      "license_record": "CC0（提供された旧模試の画像クレジット記録）",
+      "license_review": "一般的な所蔵館のオープンアクセス方針を確認。全52点の個別ページを今回再監査したという意味ではない。",
+      "extracted_from": "art-grade2-mock-03-questions.pdf",
+      "credit_from": "art-grade2-mock-03-answers.pdf",
+      "file": "assets/mock03-img-36.jpg",
+      "width": 1600,
+      "height": 1095,
+      "sha256": "0a083b8f502a91ffc03889d762cea7b4c5e58cc81d4a4fcffd8f82b515b34969",
+      "original_sha256": "19974a925033e2a2eab96943463f76f7551f4ceda32f638d72ba3a51133e1046",
+      "source_pdf_page": 43,
+      "processing": "元PDF内の画像を抽出。縦横比を保持して最大1600pxへ縮小、JPEG再圧縮。切り抜き・描き足し・生成補完なし。",
+      "src": "/images/artworks/illustrated-mock03-img-36.jpg"
     }
   ]
 }

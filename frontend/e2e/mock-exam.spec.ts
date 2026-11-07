@@ -99,10 +99,10 @@ async function showQuestion(page: Page, question: QuestionInput, action: () => P
     const expected = expectedPassages[index]
     return Boolean(expected && passage.label === expected.label && passage.display_order === expected.display_order && sameData(passage.content_blocks, expected.content_blocks))
   }), 'API shared passages match the fixture without relying on remapped database IDs').toBe(true)
-  await expect(page.locator('.shared-reading')).toHaveCount(expectedPassages.length ? 1 : 0)
+  await expect(page.locator('.practice-materials.is-shared')).toHaveCount(expectedPassages.length ? 1 : 0)
   for (const [index, passage] of expectedPassages.entries()) {
-    const renderedPassage = page.locator('.shared-reading > div').nth(index)
-    expect(compact(await renderedPassage.locator('h3').innerText()) === compact(`【${passage.label}】`), 'shared passage label matches the fixture').toBe(true)
+    const renderedPassage = page.locator('.practice-materials.is-shared details').nth(index)
+    expect(compact(await renderedPassage.locator('summary').innerText()) === compact(`【${passage.label}】`), 'shared passage label matches the fixture').toBe(true)
     await assertBlockTextShown(renderedPassage.locator('.content-blocks'), passage.content_blocks)
   }
   await assertBlockTextShown(page.locator('.question-text'), question.content_blocks)
@@ -135,7 +135,7 @@ async function answerCorrectly(page: Page, question: QuestionInput, payload: Pub
   await expect(page.getByText('正解です', { exact: true })).toBeVisible()
   await expect(page.getByRole('heading', { name: '解答解説', exact: true })).toBeVisible()
   await assertBlockTextShown(page.locator('.answer-result'), question.explanation_blocks)
-  await expect(page.locator('.source-section a')).toHaveCount((question.source_text ?? '').split('\n').filter(Boolean).length)
+  await expect(page.locator('.source-section li')).toHaveCount((question.source_text ?? '').split('\n').filter(Boolean).length)
   await assertFitsViewport(page)
 }
 
@@ -339,17 +339,15 @@ function firstFigureQuestion() {
   })
 }
 
-for (const scope of ['original', 'new-tall-pair'] as const) {
+for (const scope of ['original', 'application-shared'] as const) {
 test(`artwork figures (${scope}) load, enlarge by keyboard, show full detail and restore focus without submitting`, async ({ page }, testInfo) => {
   const question = scope === 'original' ? firstFigureQuestion() : questions.find(question => question.exam_number === 2 && question.question_number === 83)
   expect(Boolean(question), 'the authored mock includes artwork figures').toBe(true)
   await showQuestion(page, question!, () => page.goto(`/practice/${question!.exam_number}/${question!.question_number}`))
-  const figures = page.locator('.question-text img.artwork-thumbnail')
+  const figures = page.locator('.question-text img.artwork-thumbnail, .practice-materials img.artwork-thumbnail')
   let figureIndex = 0
-  if (scope === 'new-tall-pair') {
-    await expect(figures).toHaveCount(2)
-    figureIndex = await figures.evaluateAll(nodes => nodes.findIndex(node => { const image = node as HTMLImageElement; return image.naturalHeight > 4 * image.naturalWidth }))
-    expect(figureIndex >= 0, 'the new pair retains its uncropped narrow hanging scroll').toBe(true)
+  if (scope === 'application-shared') {
+    await expect(figures).toHaveCount(4)
   }
   const trigger = page.locator('.artwork-enlarge').nth(figureIndex)
   await trigger.focus()
@@ -363,7 +361,7 @@ test(`artwork figures (${scope}) load, enlarge by keyboard, show full detail and
   await expect(dialog.getByRole('button', { name: '細部を拡大', exact: true })).toHaveAttribute('aria-pressed', 'true')
   expect(await enlarged.evaluate(element => { const image = element as HTMLImageElement; return Math.abs(image.getBoundingClientRect().width - image.naturalWidth) < 1 }), 'detail mode preserves the full image dimensions').toBe(true)
   await assertFitsViewport(page)
-  if (scope === 'new-tall-pair') {
+  if (await enlarged.evaluate(element => (element as HTMLImageElement).naturalHeight > innerHeight)) {
     const scrolling = await dialog.evaluate(element => [...element.querySelectorAll('*')].some(node => { const item = node as HTMLElement; return item.scrollHeight > item.clientHeight + 10 && ['auto','scroll'].includes(getComputedStyle(item).overflowY) }))
     expect(scrolling, 'tall-image detail mode permits vertical scrolling').toBe(true)
   }
@@ -406,10 +404,10 @@ test('new mock cards and their final group links open the requested set on deskt
   for (const exam of [2, 3, 4, 5]) {
     await page.goto('/')
     const sidebar = page.getByRole('complementary', { name: '模擬試験一覧' })
-    if (isMobile) await page.getByRole('button', { name: '模擬試験を開く', exact: true }).click()
-    await sidebar.getByRole('button', { name: `模擬試験${exam}の大問を開く`, exact: true }).click()
-    const links = sidebar.getByRole('navigation', { name: `模擬試験${exam}の大問一覧` }).getByRole('link')
-    await expect(links).toHaveCount(31)
+    if (isMobile) await page.getByRole('button', { name: '試験セットを開く', exact: true }).click()
+    await sidebar.getByRole('button', { name: `模擬試験${exam}の問題一覧を開く`, exact: true }).click()
+    const links = sidebar.getByRole('navigation', { name: `模擬試験${exam}の問題一覧` }).getByRole('link')
+    await expect(links).toHaveCount(85)
     await links.last().click()
     await expect(page).toHaveURL(new RegExp(`/practice/${exam}/85$`))
     await expect(page.getByRole('heading', { name: '問85', exact: true })).toBeVisible()

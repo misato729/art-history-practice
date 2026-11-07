@@ -268,40 +268,12 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 27,
       "group_number": 27,
-      "title": "同じ主題の作品を比較する",
+      "title": "視線と空間をつくる",
       "question_numbers": [
-        81
-      ]
-    },
-    {
-      "id": 28,
-      "group_number": 28,
-      "title": "連作にみる光と色彩を読み取る",
-      "question_numbers": [
-        82
-      ]
-    },
-    {
-      "id": 29,
-      "group_number": 29,
-      "title": "画面の形と表装の記録を照合する",
-      "question_numbers": [
-        83
-      ]
-    },
-    {
-      "id": 30,
-      "group_number": 30,
-      "title": "構図の比較と影響関係の推論",
-      "question_numbers": [
-        84
-      ]
-    },
-    {
-      "id": 31,
-      "group_number": 31,
-      "title": "人物の手元と暮らしの場面を読む",
-      "question_numbers": [
+        81,
+        82,
+        83,
+        84,
         85
       ]
     }
@@ -310,7 +282,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 32,
       "group_number": 1,
-      "title": "古代と中世の造形・役割",
+      "title": "古代の造形と中世建築",
       "question_numbers": [
         1,
         2,
@@ -321,7 +293,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 33,
       "group_number": 2,
-      "title": "ルネサンスの素材と表現",
+      "title": "ルネサンスの地域・主題・技法",
       "question_numbers": [
         5,
         6,
@@ -332,7 +304,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 34,
       "group_number": 3,
-      "title": "16世紀の技法と活動",
+      "title": "北方の画家と工房の系譜",
       "question_numbers": [
         9,
         10
@@ -341,7 +313,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 35,
       "group_number": 4,
-      "title": "17世紀の主題と制作",
+      "title": "17世紀の作品と社会",
       "question_numbers": [
         11,
         12,
@@ -352,7 +324,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 36,
       "group_number": 5,
-      "title": "18世紀の社会と表現",
+      "title": "18世紀の絵画と制度",
       "question_numbers": [
         15,
         16,
@@ -362,7 +334,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 37,
       "group_number": 6,
-      "title": "19世紀前半の美術",
+      "title": "近代前半の絵画と主題",
       "question_numbers": [
         18,
         19,
@@ -373,7 +345,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 38,
       "group_number": 7,
-      "title": "近代の都市と鑑賞",
+      "title": "近代の主題・写真・彫刻",
       "question_numbers": [
         22,
         23,
@@ -383,7 +355,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 39,
       "group_number": 8,
-      "title": "世紀末の多様な制作",
+      "title": "世紀末の絵画と建築",
       "question_numbers": [
         25,
         26,
@@ -393,7 +365,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 40,
       "group_number": 9,
-      "title": "20世紀初頭の変化",
+      "title": "20世紀初頭の運動",
       "question_numbers": [
         28,
         29,
@@ -404,7 +376,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 41,
       "group_number": 10,
-      "title": "制作と教育の試み",
+      "title": "前衛・彫刻・教育",
       "question_numbers": [
         32,
         33,
@@ -414,7 +386,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 42,
       "group_number": 11,
-      "title": "戦後美術の展開",
+      "title": "戦後の絵画と制作",
       "question_numbers": [
         35,
         36,
@@ -425,7 +397,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 43,
       "group_number": 12,
-      "title": "作品と鑑賞の関係",
+      "title": "戦後美術の多様な方法",
       "question_numbers": [
         39,
         40,
@@ -435,7 +407,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 44,
       "group_number": 13,
-      "title": "古代日本の素材と形",
+      "title": "古代日本の造形と仏教美術",
       "question_numbers": [
         42,
         43,
@@ -445,7 +417,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 45,
       "group_number": 14,
-      "title": "信仰と物語の造形",
+      "title": "平安の信仰・技法・絵巻",
       "question_numbers": [
         45,
         46,
@@ -455,7 +427,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 46,
       "group_number": 15,
-      "title": "中世から近世への表現",
+      "title": "中世の建築と絵画",
       "question_numbers": [
         48,
         49,
@@ -467,7 +439,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 47,
       "group_number": 16,
-      "title": "近世の制作と生活",
+      "title": "桃山・琳派の作品",
       "question_numbers": [
         53,
         54
@@ -476,7 +448,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 48,
       "group_number": 17,
-      "title": "江戸時代の絵画と出版",
+      "title": "江戸絵画と版画",
       "question_numbers": [
         55,
         56,
@@ -487,7 +459,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 49,
       "group_number": 18,
-      "title": "近代日本の制度と制作",
+      "title": "近代日本の教育・作品・表現",
       "question_numbers": [
         59,
         60,
@@ -499,7 +471,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 50,
       "group_number": 19,
-      "title": "戦後日本の美術活動",
+      "title": "戦後日本のグループと社会",
       "question_numbers": [
         64,
         65,
@@ -509,7 +481,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 51,
       "group_number": 20,
-      "title": "現代美術の媒体と批評",
+      "title": "動き・行為・映像",
       "question_numbers": [
         67,
         68,
@@ -519,7 +491,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 52,
       "group_number": 21,
-      "title": "日本とアジアの表現活動",
+      "title": "概念を問う表現",
       "question_numbers": [
         70
       ]
@@ -527,7 +499,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 53,
       "group_number": 22,
-      "title": "作品と社会の関係",
+      "title": "展示室の外の美術",
       "question_numbers": [
         71
       ]
@@ -535,7 +507,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 54,
       "group_number": 23,
-      "title": "アジアの書画と工芸",
+      "title": "中国美術と日本への受容",
       "question_numbers": [
         72,
         73,
@@ -545,7 +517,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 55,
       "group_number": 24,
-      "title": "工芸の技法とデザイン",
+      "title": "色彩・工芸・版画の原理",
       "question_numbers": [
         75,
         76,
@@ -556,7 +528,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 56,
       "group_number": 25,
-      "title": "美術館の成立と収集",
+      "title": "西洋の教育と展覧会",
       "question_numbers": [
         79
       ]
@@ -564,7 +536,7 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 57,
       "group_number": 26,
-      "title": "展覧会とコレクションの制度",
+      "title": "日本の官設展",
       "question_numbers": [
         80
       ]
@@ -572,40 +544,12 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 58,
       "group_number": 27,
-      "title": "線の版画と粉の描画",
+      "title": "色・視点・媒体をつなぐ小さな展覧会",
       "question_numbers": [
-        81
-      ]
-    },
-    {
-      "id": 59,
-      "group_number": 28,
-      "title": "航海の場面と寓意の人物",
-      "question_numbers": [
-        82
-      ]
-    },
-    {
-      "id": 60,
-      "group_number": 29,
-      "title": "夢に描かれた二つの時間",
-      "question_numbers": [
-        83
-      ]
-    },
-    {
-      "id": 61,
-      "group_number": 30,
-      "title": "現在と当初の支持体",
-      "question_numbers": [
-        84
-      ]
-    },
-    {
-      "id": 62,
-      "group_number": 31,
-      "title": "作品の用途と描かれた行為",
-      "question_numbers": [
+        81,
+        82,
+        83,
+        84,
         85
       ]
     }
@@ -876,40 +820,12 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 89,
       "group_number": 27,
-      "title": "図録の実物寸法と掲載計画を照合する",
+      "title": "自然を捉える—場所・空気・色と形",
       "question_numbers": [
-        81
-      ]
-    },
-    {
-      "id": 90,
-      "group_number": 28,
-      "title": "動物の動きと切り取られた瞬間",
-      "question_numbers": [
-        82
-      ]
-    },
-    {
-      "id": 91,
-      "group_number": 29,
-      "title": "配置と全体寸法・掲載範囲の照合",
-      "question_numbers": [
-        83
-      ]
-    },
-    {
-      "id": 92,
-      "group_number": 30,
-      "title": "主題の時代と制作の時代",
-      "question_numbers": [
-        84
-      ]
-    },
-    {
-      "id": 93,
-      "group_number": 31,
-      "title": "物の輪郭と水面の描写",
-      "question_numbers": [
+        81,
+        82,
+        83,
+        84,
         85
       ]
     }
@@ -1180,40 +1096,12 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 120,
       "group_number": 27,
-      "title": "身体の接触と立体構成",
+      "title": "暮らしの中の人・物・模様",
       "question_numbers": [
-        81
-      ]
-    },
-    {
-      "id": 121,
-      "group_number": 28,
-      "title": "建物をとらえる線と色",
-      "question_numbers": [
-        82
-      ]
-    },
-    {
-      "id": 122,
-      "group_number": 29,
-      "title": "能の面と装束の資料",
-      "question_numbers": [
-        83
-      ]
-    },
-    {
-      "id": 123,
-      "group_number": 30,
-      "title": "物の重なりと推定制作年の編集判断",
-      "question_numbers": [
-        84
-      ]
-    },
-    {
-      "id": 124,
-      "group_number": 31,
-      "title": "黒い調子と二つの版種",
-      "question_numbers": [
+        81,
+        82,
+        83,
+        84,
         85
       ]
     }
@@ -1484,40 +1372,12 @@ export const STATIC_EXAM_GROUPS: Record<number, ExamCatalogGroup[]> = {
     {
       "id": 151,
       "group_number": 27,
-      "title": "有色紙の地と白い描画材",
+      "title": "祈りをかたちにする",
       "question_numbers": [
-        81
-      ]
-    },
-    {
-      "id": 152,
-      "group_number": 28,
-      "title": "河岸の建物と水面の構成",
-      "question_numbers": [
-        82
-      ]
-    },
-    {
-      "id": 153,
-      "group_number": 29,
-      "title": "小箱の形と道具の用途",
-      "question_numbers": [
-        83
-      ]
-    },
-    {
-      "id": 154,
-      "group_number": 30,
-      "title": "象徴と伝聞にもとづく図像",
-      "question_numbers": [
-        84
-      ]
-    },
-    {
-      "id": 155,
-      "group_number": 31,
-      "title": "室内の人物と鑑賞の記述",
-      "question_numbers": [
+        81,
+        82,
+        83,
+        84,
         85
       ]
     }

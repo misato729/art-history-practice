@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 142,
-  "updated_at": "2026-11-06T02:40:21.742Z",
+  "revision": 146,
+  "updated_at": "2026-11-07T21:14:39.205Z",
   "workspace_relative_to_repo": ".",
   "active_context": "operations",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-06T02-40-21-742Z-r142.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-07T21-14-39-205Z-r146.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2290,6 +2290,100 @@
             "failed_criteria": []
           }
         ]
+      }
+    },
+    {
+      "id": "art_mock02_textbook_v2_technical",
+      "context": "operations",
+      "title": "模試2V2の更新ツール診断・原稿保持の検証DB反映と復元検証",
+      "status": "done",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-07 ユーザーの技術引継ぎ依頼とworks-handoff-art-history.zip。作問内容は変更せず検証DBで更新/採点/履歴/復元を確認し、本番は変更範囲とbackup提示後に別途了承を得る。",
+      "next_action": "ユーザーの本番更新とGit配信の了承を待つ",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "既存模試2の85問だけ。原稿6772db...維持。他模試/履歴/お気に入り保全、静的sidebar/通常導入非表示/活用資料維持。本番書込/配信/commitpushはこのタスクの完了に含めず了承前に実施しない。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "秘密値を出さず原因再現/入力一致/検証DB更新採点履歴復元/再実行/他模試保護/PCSPを実証し本番差分backup計画を用意",
+          "verification": "限定診断情報、原稿指紋、共有schemaと実DB・API・PCSP検証",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "別担当が変更範囲/原稿保持/履歴と復元/実証を独立確認",
+          "verification": "実装と結果の独立レビュー",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "delivery_audit"
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "原稿保持・実DB更新採点履歴復元・PCSP・独立レビューを確認。詳細はdocs/verification.md。",
+            "at": "2026-11-07T15:26:27.034Z",
+            "failed_criteria": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "art_illustrated_five_release",
+      "context": "operations",
+      "title": "受領図版原稿1・3・4・5と模試2V2の承認済本番反映",
+      "status": "doing",
+      "depends_on": [
+        "art_mock02_textbook_v2_technical"
+      ],
+      "authorization": "requested",
+      "request_ref": "2026-11-08 ユーザーがcommit/pushと全5回本番反映を承認、確認は必要最小限と指定",
+      "next_action": "検証DB結果確認後にcommit/pushと本番配信",
+      "evidence": [],
+      "last_verified_at": null,
+      "verification_scope": "受領340問の原稿保持と既確認Mock2V2を合計425問反映。ID/旧履歴/お気に入り保護。最低限の形式/採点/画像確認。詳細学術QAは未実施。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "原稿一致と425問構造、履歴ID保持、バックアップ、Gitと本番の反映結果を確認",
+          "verification": "限定構造検査と検証DB適用、実配信HTTP確認",
+          "status": "pending",
+          "evidence": [],
+          "checked_at": null
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "変換と更新ツールの重大な保全問題を独立確認",
+          "verification": "delivery_auditによる限定レビュー",
+          "status": "pending",
+          "evidence": [],
+          "checked_at": null,
+          "reviewer": null
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": []
       }
     }
   ]

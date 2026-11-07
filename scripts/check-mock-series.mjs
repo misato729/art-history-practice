@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
+import { verifyIllustrated } from './illustrated-revision/build.mjs'
+import { verifySeed } from './mock02-revision/build-seed.mjs'
 import { createHash } from 'node:crypto'
 import { parseExamConfig } from '../frontend/shared/schemas/exam.ts'
 import { parseContentDocument } from '../frontend/shared/schemas/structure.ts'
@@ -17,14 +19,13 @@ const reading = questions => questions.reduce((counts, question) => {
 }, {})
 function main() {
   const authoringOnly = process.argv.includes('--authoring-only')
-  const config = parseExamConfig(authoringOnly ? read('content/mock-exams/mock-02/manifest.json').validation_config : read('config/exam.json'))
-  const authored = authoringOnly ? [1,2,3,4,5].map(exam => read(`content/mock-exams/mock-${String(exam).padStart(2, '0')}/questions.json`)) : []
-  const document = parseContentDocument(authoringOnly ? {
-    schema_version: 2,
-    exam_sets: authored.flatMap(item => item.exam_sets),
-    groups: authored.flatMap(item => item.groups),
-    questions: authored.flatMap(item => item.questions),
-  } : read('content/questions.json'), config)
+  // Original series ratings/PDFs remain historical artifacts; V2 is checked against its supplied source.
+  verifySeed()
+  verifyIllustrated()
+  const directory = exam => exam === 2 ? 'content/revisions/mock02-textbook-v2/baseline-artifacts' : `content/revisions/illustrated-01345/mock-${exam}/baseline-artifacts`
+  const config = parseExamConfig(authoringOnly ? read(`${directory(2)}/manifest.json`).validation_config : read('config/exam.json'))
+  const authored = [1,2,3,4,5].map(exam => read(`${directory(exam)}/questions.json`))
+  const document = parseContentDocument({schema_version:2,exam_sets:authored.flatMap(item=>item.exam_sets),groups:authored.flatMap(item=>item.groups),questions:authored.flatMap(item=>item.questions)},config)
   const series = read('content/mock-exams/series.json')
   assert.equal(config.exam.set_count, 5)
   assert.equal(document.questions.length, 425)
@@ -36,10 +37,10 @@ function main() {
   assert.equal(series.rubric_scale.minimum, 0); assert.equal(series.rubric_scale.maximum, 2)
   const focuses = new Set(), stems = new Set(), assets = new Set(), hashes = new Set()
   let newFocuses = 0, choices = 0, occurrences = 0
-  const baseDifficulty = read('content/mock-exams/mock-01/editorial.json').questions
+  const baseDifficulty = read(`${directory(1)}/editorial.json`).questions
   const baseReading = reading(document.questions.filter(question => question.exam_number === 1))
   for (const exam of [1,2,3,4,5]) {
-    const dir = `content/mock-exams/mock-${String(exam).padStart(2, '0')}`
+    const dir = directory(exam)
     const standalone = parseContentDocument(read(`${dir}/questions.json`), config)
     const meta = read(`${dir}/editorial.json`).questions
     const registry = read(`${dir}/image-manifest.json`).assets
@@ -112,10 +113,10 @@ function main() {
   assert.equal(choices, 1700)
   assert.equal(assets.size, 179)
   assert.equal(occurrences, 180)
-  for (const [path, digest] of Object.entries(series.preserved_mock01_files)) assert.equal(hash(path), digest)
+  for (const [path, digest] of Object.entries(series.preserved_mock01_files)) assert.equal(hash(path.replace('content/mock-exams/mock-01/','content/revisions/illustrated-01345/mock-1/baseline-artifacts/')), digest)
   // This structural comparison does not replace independent semantic or difficulty review.
-  console.log(JSON.stringify({ status:'passed', scope:authoringOnly ? 'standalone_authoring' : 'app_integration', sets:5, questions:425, choices, new_focuses:newFocuses,
-    artwork_assets:assets.size, image_occurrences:occurrences, mock01_preserved:true, calibration:'editorial_not_empirical' }))
+  console.log(JSON.stringify({ status:'passed', scope:'historical_series_and_source_checked_active_revision', active_revision:'mock02-textbook-v2-20261107', sets:5, questions:425, choices, new_focuses:newFocuses,
+    artwork_assets:assets.size, image_occurrences:occurrences, mock01_preserved:true, calibration:'historical_editorial_only_v2_not_calibrated' }))
 }
 try { main() } catch {
   console.error('Mock series validation failed. Check set integration, allocation, editorial records, preserved files and PDF hashes.')

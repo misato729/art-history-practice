@@ -188,6 +188,21 @@ test('audit reports aggregate anomalies and pending checkout expiration uses the
   assert.deepEqual(await expirePendingForUser(owner.email, { db, client }), { status: 'ok', expired_count: 0 })
 }))
 
+function archiveMeaning(value: ReturnType<typeof createArchive>) {
+  const groups = value.groups ?? []
+  const groupKeys = new Map(groups.map(group => [group.id, JSON.stringify([group.exam_number, group.group_number])]))
+  const passageKeys = new Map(groups.flatMap(group => group.passages.map(passage => [passage.id, JSON.stringify([group.exam_number, group.group_number, passage.label])] as const)))
+  for (const question of value.questions) {
+    if (question.group_id != null) assert(groupKeys.has(question.group_id))
+    for (const ref of question.passage_references ?? []) assert(passageKeys.has(ref.passage_id))
+  }
+  return {
+    questions: value.questions.map(question => ({ ...question, group_id: question.group_id == null ? question.group_id : groupKeys.get(question.group_id),
+      passage_references: question.passage_references?.map(ref => ({ ...ref, passage_id: passageKeys.get(ref.passage_id) })) })),
+    groups: groups.map(group => ({ ...group, id: groupKeys.get(group.id), passages: group.passages.map(passage => ({ ...passage, id: passageKeys.get(passage.id) })) })),
+  }
+}
+
 test('grouped archive round-trip preserves every child, lead and relation in a fresh question domain', integration, () => isolated(async db => {
   const initial = archive()
   assert.equal(initial.version, 2)
@@ -206,8 +221,8 @@ test('grouped archive round-trip preserves every child, lead and relation in a f
     const exported = validateArchive(JSON.parse(await readFile(file, 'utf8')))
     assert.equal(exported.version, 2)
     assert.equal(exported.groups!.length, initial.groups!.length)
-    assert.equal(digest(exported.questions), digest(initial.questions), 'exported questions match without logging their content')
-    assert.equal(digest(exported.groups), digest(initial.groups), 'exported groups match without logging their content')
+    assert.equal(digest(archiveMeaning(exported).questions), digest(archiveMeaning(initial).questions), 'exported questions match without logging their content')
+    assert.equal(digest(archiveMeaning(exported).groups), digest(archiveMeaning(initial).groups), 'exported groups match without logging their content')
     assert.deepEqual(exported.exam_sets, initial.exam_sets)
   } finally { await rm(directory, { recursive: true, force: true }) }
 }))

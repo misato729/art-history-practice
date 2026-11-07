@@ -18,12 +18,12 @@ test('all normal-random entry points use the same versioned material-aware shuff
   assert.match(page, /query.random_unit = MATERIAL_RANDOM_UNIT/)
   assert.match(page, /: shufflePracticeSequence\(basePracticeSequence.value, practiceSeed.value!\)/)
 })
-test('ordinary and application questions both keep all returned passage blocks', () => {
-  assert.equal(page.match(/<PracticeMaterials\b/g)?.length, 2)
+test('application shared passages remain visible while ordinary generic introductions stay hidden', () => {
+  assert.equal(page.match(/<PracticeMaterials\b/g)?.length, 1)
   assert.match(page, /v-if="applicationQuestion && question.shared_passages\?\.length"/)
-  assert.match(page, /v-if="!applicationQuestion && question.shared_passages\?\.length"/)
-  assert.equal(page.match(/:passages="question.shared_passages"/g)?.length, 2)
-  assert.equal(page.match(/:references="question.passage_references"/g)?.length, 2)
+  assert.doesNotMatch(page, /v-if="!applicationQuestion && question.shared_passages\?\.length"/)
+  assert.equal(page.match(/:passages="question.shared_passages"/g)?.length, 1)
+  assert.equal(page.match(/:references="question.passage_references \|\| \[\]"/g)?.length, 1)
   assert.match(materials, /:blocks="passage.content_blocks"/)
 })
 test('passage anchors use namespaced IDs, keyboard focus and reopen before jumping', () => {

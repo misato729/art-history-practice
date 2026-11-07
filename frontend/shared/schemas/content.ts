@@ -121,6 +121,8 @@ export function blocksSchema(context: BlockContext, published = false, preserveO
 }
 
 export function validSource(line: string): boolean {
+  // Printed references retain their original title and page citation without invented URLs.
+  if (/^『[^』]+』p\.\d[^\r\n]*（[^（）]+\.pdf：PDF [^（）]+ページ）$/.test(line)) return true
   const match = /^.+\s\|\s(https:\/\/\S+)$/.exec(line)
   if (!match?.[1]) return false
   try {
@@ -184,7 +186,7 @@ export function questionInputSchema(config: ExamConfiguration, options: Question
       if (!choice.content_blocks.length || !choice.content_blocks.every(completeBlock)) add(publicBlockMessage, ['choices', index, 'content_blocks'])
     })
     const sources = (question.source_text ?? '').split(/\r?\n/).map(line => line.trim()).filter(Boolean)
-    if (!sources.length || sources.some(line => !validSource(line))) add('公開する問題には「資料名 | https://...」形式の出典が必要です', ['source_text'])
+    if (!sources.length || sources.some(line => !validSource(line))) add('公開する問題には資料名とHTTPS URL、または書名・印刷ページ・PDFページの出典が必要です', ['source_text'])
     const blanks = [...new Set(question.content_blocks.flatMap(block => [...(block.text ?? '').matchAll(/\{\{([^}]+)\}\}/g)].map(match => match[1]!)))].sort()
     const fills = question.choices.map(choice => choice.content_blocks.filter(block => block.type === 'fill_in_choice'))
     if (blanks.length || fills.some(blocks => blocks.length)) {

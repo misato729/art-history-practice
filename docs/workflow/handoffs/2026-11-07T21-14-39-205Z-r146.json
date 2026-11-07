@@ -1,0 +1,1089 @@
+{
+  "schema_version": 1,
+  "revision": 146,
+  "state_hash": "9b95f9053b198591251cc16ac7fbc3214ce271cf87ac0c36418b6665c9a2aa91",
+  "recorded_at": "2026-11-07T21:14:39.205Z",
+  "timezone": "UTC",
+  "context": "operations",
+  "task": "art_illustrated_five_release",
+  "summary": "全5模試本番反映の承認を受領。必要最小限の検査で進行。",
+  "next_action": "検証DB結果確認後にcommit/pushと本番配信",
+  "missing_local_files": [],
+  "git": {
+    "available": true,
+    "head": "175f51ab89ee6fea62f24473df94558f3176e5f2",
+    "changes": [
+      {
+        "status": " M",
+        "path": ".dockerignore"
+      },
+      {
+        "status": " M",
+        "path": ".github/workflows/ci.yml"
+      },
+      {
+        "status": " M",
+        "path": ".gitignore"
+      },
+      {
+        "status": " M",
+        "path": "config/exam.json"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-01/questions.json"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-02/README.md"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-02/answers.md"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-02/editorial.json"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-02/manifest.json"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-02/questions.json"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-02/questions.md"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-03/questions.json"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-04/questions.json"
+      },
+      {
+        "status": " M",
+        "path": "content/mock-exams/mock-05/questions.json"
+      },
+      {
+        "status": " M",
+        "path": "content/questions.json"
+      },
+      {
+        "status": " M",
+        "path": "docs/verification.md"
+      },
+      {
+        "status": " M",
+        "path": "docs/workflow/policy.json"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/pages/practice/[examNumber]/[questionNumber].vue"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/utils/staticExamGroups.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/e2e/mock-exam.spec.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/e2e/world-ui-review.spec.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/server-tests/learning.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/server-tests/operations.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/server/services/learning-writer.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/shared/schemas/content.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/tests/artPracticeWiring.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/tests/sidebarCatalog.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "scripts/check-mock-exam.mjs"
+      },
+      {
+        "status": " M",
+        "path": "scripts/check-mock-series.mjs"
+      },
+      {
+        "status": "??",
+        "path": "content/mock-exams/mock-02/image-credits.json"
+      },
+      {
+        "status": "??",
+        "path": "content/mock-exams/mock-02/source-map.csv"
+      },
+      {
+        "status": "??",
+        "path": "content/mock-exams/mock-02/source-map.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/ARTWORK-CREDITS-ja.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/QA-ja.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/SOURCE-POLICY-ja.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/accepted-live-material-sha256.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/asset-manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/answers.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/README.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/answer-sheet.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/answers.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/editorial.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/image-manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/japanese.sources.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/other.sources.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/questions.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/questions.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline-artifacts/western.sources.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/baseline.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/exam.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/questions.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/source-map.csv"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-1/source-map.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/answers.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/baseline-artifacts/README.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/baseline-artifacts/answer-sheet.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/baseline-artifacts/answers.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/baseline-artifacts/editorial.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/baseline-artifacts/image-manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/baseline-artifacts/manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/baseline-artifacts/questions.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/baseline-artifacts/questions.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/baseline.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/exam.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/questions.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/source-map.csv"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-3/source-map.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/answers.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/baseline-artifacts/README.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/baseline-artifacts/answer-sheet.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/baseline-artifacts/answers.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/baseline-artifacts/editorial.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/baseline-artifacts/image-manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/baseline-artifacts/manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/baseline-artifacts/questions.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/baseline-artifacts/questions.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/baseline.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/exam.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/questions.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/source-map.csv"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-4/source-map.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/answers.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/baseline-artifacts/README.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/baseline-artifacts/answer-sheet.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/baseline-artifacts/answers.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/baseline-artifacts/editorial.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/baseline-artifacts/image-manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/baseline-artifacts/manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/baseline-artifacts/questions.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/baseline-artifacts/questions.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/baseline.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/exam.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/questions.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/source-map.csv"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/mock-5/source-map.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-01345/received-sha256.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/baseline-artifacts/README.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/baseline-artifacts/answer-sheet.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/baseline-artifacts/answers.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/baseline-artifacts/editorial.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/baseline-artifacts/image-manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/baseline-artifacts/manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/baseline-artifacts/questions.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/baseline-artifacts/questions.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/baseline-original.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/compat/prior-r1.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/image-credits.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/received-sha256.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/revision.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/mock02-textbook-v2/source-map.json"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/agent-safety.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/complete.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/db-execute.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/db-pull.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/db-push.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/db-seed.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/debug.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/dev.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/format.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/generate.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/init.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/mcp.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/migrate-deploy.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/migrate-dev.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/migrate-diff.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/migrate-reset.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/migrate-resolve.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/migrate-status.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/studio.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-cli/references/validate.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-client-api/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-client-api/references/client-methods.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-client-api/references/constructor.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-client-api/references/filters.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-client-api/references/model-queries.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-client-api/references/query-options.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-client-api/references/raw-queries.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-client-api/references/relations.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-client-api/references/transactions.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/app-composer-setup.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/app-framework-builds.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/automation-create-prisma.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/automation-rest-api.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/cli-command-map.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/debug-deploy-failures.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/deploy-cli-and-ci.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/deploy-on-push.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/ops-services-and-config.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-compute/references/runtime-requirements.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-database-setup/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-driver-adapter-implementation/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-mongodb-upgrade/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-mongodb-upgrade/references/client-api-mapping.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-mongodb-upgrade/references/decision-stay-or-migrate.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-mongodb-upgrade/references/migrations-mapping.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-mongodb-upgrade/references/schema-contract-mapping.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-mongodb-upgrade/references/verify-cutover-checklist.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-orm-setup/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-orm-setup/references/v6-mongodb.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-orm-setup/references/v7-client-setup.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-orm-setup/references/v7-cockroachdb.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-orm-setup/references/v7-mysql.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-orm-setup/references/v7-postgresql.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-orm-setup/references/v7-prisma-postgres.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-orm-setup/references/v7-sqlite.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-orm-setup/references/v7-sqlserver.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-postgres-setup/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-postgres-setup/references/operations.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-postgres-setup/references/provisioning.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-postgres-setup/references/vercel-marketplace.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-postgres/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-upgrade-v7/SKILL.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-upgrade-v7/references/accelerate-users.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-upgrade-v7/references/driver-adapters.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-upgrade-v7/references/env-variables.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-upgrade-v7/references/esm-support.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-upgrade-v7/references/prisma-config.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-upgrade-v7/references/removed-features.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.agents/skills/prisma-upgrade-v7/references/schema-changes.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-cli"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-client-api"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-compute"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-database-setup"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-driver-adapter-implementation"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-mongodb-upgrade"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-orm-setup"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-postgres"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-postgres-setup"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.claude/skills/prisma-upgrade-v7"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-cli"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-client-api"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-compute"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-database-setup"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-driver-adapter-implementation"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-mongodb-upgrade"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-orm-setup"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-postgres"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-postgres-setup"
+      },
+      {
+        "status": "??",
+        "path": "frontend/.windsurf/skills/prisma-upgrade-v7"
+      },
+      {
+        "status": "??",
+        "path": "frontend/e2e/mock02-revision.spec.ts"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-01.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-03.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-04.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-05.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-06.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-07.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-08.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-09.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-10.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-11.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-12.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-14.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-16.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-17.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-18.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-19.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-20.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-21.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-22.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-23.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-24.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-26.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-27.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-31.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-33.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock02-img-35.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-01.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-02.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-03.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-04.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-05.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-07.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-08.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-10.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-11.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-12.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-13.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-14.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-16.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-17.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-18.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-19.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-20.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-21.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-23.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-25.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-26.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-27.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-31.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-34.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-35.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/public/images/artworks/illustrated-mock03-img-36.jpg"
+      },
+      {
+        "status": "??",
+        "path": "frontend/skills-lock.json"
+      },
+      {
+        "status": "??",
+        "path": "scripts/illustrated-revision/build.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/illustrated-revision/release.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/mock02-revision/build-seed.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/mock02-revision/db-revision.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/mock02-revision/revision-core.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/mock02-revision/tests/seed.test.mjs"
+      }
+    ]
+  },
+  "file_hashes": {
+    "AGENTS.md": "4824b8c34a5ce59d3076123deb93f2343040d81ad34238759505160ff6ec66f9",
+    "README.md": "caa83598df2beeb3db09db6abf9912d962832a096e7193e07f1fc9e3fbb790b5",
+    "docs/testing.md": "2bb0b62cc15880a914a45d66ec2fec7f2bed099a9afbca5122a96632ee5a04f8",
+    "docs/workflow/README.md": "ce35c134e34be8261e2478091460df30cd2a2546fba658ba38f25e8411a9f8f8",
+    "docs/workflow/policy.json": "556e6f58a9fade468bc7469bea95863324542e58e9b3e6dad475f8c13c516a48",
+    "docs/workflow/task.example.json": "4bf161efce99b7d0a26798e3445d1f142505e512eedd591ea11cfb194d67da9f",
+    "docs/workflow/contexts/product.md": "42ca7998b93f5016e4e5884be805f7814ac156853e8d6983aee4c591ca107dd5",
+    "docs/workflow/contexts/development.md": "ab9b7cafdd26a6f143c08c122ffd801ff06759eaef769ac2f368448010a33247",
+    "docs/workflow/contexts/operations.md": "d02de6eb127496e226953dc031aad39fb129c2a09e64bc3dcb4b91b0ab9c1efb",
+    "scripts/context.mjs": "3828c41d1cc5a6977b8444035e094e61e1c9895fcaa9451ecb1919e799ecaffc",
+    "scripts/context.test.mjs": "125f184ecd2d34b8a4dc93a8d1edd2b6c527c0de8a46f39c8c92de265ebccc66",
+    "scripts/workflow-policy.mjs": "60535f2c9bf42203c059ca39a0b254c168b7cfb2468904a3842725fe3797141e",
+    "scripts/workflow-policy.test.mjs": "394287e7d1e84756a3ac8833918f964ee66f0ef2c34934d121d055fb37af4782",
+    "scripts/workspace-policy.mjs": "cd575bdc0a83e37ed28f4004c311c2415d895ce9d63b8fe8552ad674269cd219",
+    "scripts/workspace-policy.test.mjs": "22c2dce0ba9006d3266c2628a61e19acae48eb851c34f5a2fdd1d600cfb7944f",
+    "scripts/check-private-sources.mjs": "1d28447b51b39591d42151f236b837b33d695662168ee5c71500205aa0de96af",
+    "scripts/check-private-sources.test.mjs": "db6afd47e6f6e6de3405437960721f037068da4181eb7a81d7ba11477c7d69fb",
+    ".gitignore": "decd5d43989e6dd6419e109d57e215660223383455eb38cdd7cf15b1a1054773",
+    ".dockerignore": "eeb4ab511084ecbc7e3224ea001faa60ebbef8be020385bd6c89a4751e2a6b9c",
+    ".githooks/pre-push": "3529b300f7a655102ad899ab31fa8b2c404ec37479d1195aa9bcd3efa97bf90c"
+  },
+  "verification_note": "ハッシュ・Git・記録済み完了条件の確認であり、テストや出典照合の自動再実行ではない。依頼・権限は最新のユーザー指示とAGENTS.mdに従う。"
+}

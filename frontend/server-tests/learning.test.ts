@@ -268,6 +268,34 @@ test('no-op and visibility-only saves preserve histories, identities and favorit
   assert.equal((await query('SELECT id FROM favorites WHERE user_id=$1 AND question_id=$2', [owner.id, question.id], db)).length, 1)
 }))
 
+test('internal revision preservation retains exact historical rows, timestamps and stale-version boundaries', integration, async () => isolated(async (db, exam) => {
+  const owner=await user(db),initial=input({exam_number:exam}),question=await saveQuestion(initial,{db})
+  const answer=await answerQuestion(question.id,question.choices[1]!.id,owner,db)
+  await putFavorite(question.id,owner,db)
+  await query("UPDATE answer_histories SET created_at='2026-11-01 01:02:03.123456'::timestamp,updated_at='2026-11-01 01:02:03.654321'::timestamp WHERE id=$1",[answer.data.answer_history_id],db)
+  const snapshot=()=>query('SELECT id,user_id,question_id,selected_choice_id,question_version,is_correct,created_at::text,updated_at::text FROM answer_histories WHERE id=$1',[answer.data.answer_history_id],db)
+  const before=await snapshot()
+  const changed=await saveQuestion({...initial,content_blocks:[{type:'text',text:'Revised synthetic content'}]},{id:question.id,db,preserveHistory:true})
+  assert.deepEqual(await snapshot(),before)
+  assert.deepEqual(changed.choices.map(c=>c.id),question.choices.map(c=>c.id))
+  assert(changed.content_version>question.content_version)
+  assert.equal(await db.favorite.count({where:{user_id:owner.id,question_id:question.id}}),1)
+  const history=(await listHistory(owner,{},db)).data.find(h=>h.id===answer.data.answer_history_id)!
+  assert.equal(history.is_outdated,true)
+  assert.equal('selected_choice' in history,false)
+  assert.equal('is_correct' in history,false)
+  await assert.rejects(getHistory(answer.data.answer_history_id!,owner,db),apiError(409))
+  await assert.rejects(answerQuestion(question.id,changed.choices[1]!.id,owner,db,question.content_version),apiError(409))
+  assert.deepEqual(await snapshot(),before)
+}))
+
+test('raw question input cannot enable internal history preservation',integration,async()=>isolated(async(db,exam)=>{
+  const owner=await user(db),initial=input({exam_number:exam}),question=await saveQuestion(initial,{db})
+  const answer=await answerQuestion(question.id,question.choices[1]!.id,owner,db)
+  await saveQuestion({...initial,content_blocks:[{type:'text',text:'Injected synthetic content'}],preserveHistory:true} as QuestionInput,{id:question.id,db})
+  assert.equal(await db.answerHistory.count({where:{id:answer.data.answer_history_id!}}),0)
+}))
+
 test('publication requires all configured positions and invalid input cannot partially save', integration, async () => isolated(async (db, exam) => {
   await assert.rejects(saveQuestion(input({ exam_number: exam }), { db, requireCompleteExam: true }), apiError(422))
   assert.equal((await query('SELECT id FROM questions WHERE exam_number=$1', [exam], db)).length, 0)

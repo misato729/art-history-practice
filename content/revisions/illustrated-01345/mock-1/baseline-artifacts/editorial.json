@@ -1,0 +1,2183 @@
+{
+  "schema_version": 1,
+  "questions": {
+    "1": {
+      "topic": "エジプトの墓と死生観",
+      "difficulty": "basic",
+      "group": {
+        "title": "古代から中世へ、作品と役割",
+        "passage": "古代から中世の造形は、信仰や社会のあり方を映している。制作の目的、作品の時代、表現の媒体をそれぞれ区別して考える。"
+      },
+      "group_number": 1,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 52,
+          "printed_page": 50,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 53,
+          "printed_page": 51,
+          "role": "fact"
+        }
+      ]
+    },
+    "2": {
+      "topic": "ギリシア建築の柱頭",
+      "difficulty": "advanced",
+      "group": {
+        "title": "古代から中世へ、作品と役割",
+        "passage": "古代から中世の造形は、信仰や社会のあり方を映している。制作の目的、作品の時代、表現の媒体をそれぞれ区別して考える。"
+      },
+      "group_number": 1,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 117,
+          "printed_page": 115,
+          "role": "fact"
+        }
+      ]
+    },
+    "3": {
+      "topic": "モザイクの制作方法",
+      "difficulty": "basic",
+      "group": {
+        "title": "古代から中世へ、作品と役割",
+        "passage": "古代から中世の造形は、信仰や社会のあり方を映している。制作の目的、作品の時代、表現の媒体をそれぞれ区別して考える。"
+      },
+      "group_number": 1,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 58,
+          "printed_page": 56,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 59,
+          "printed_page": 57,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 261,
+          "printed_page": 259,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 263,
+          "printed_page": 261,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 264,
+          "printed_page": 262,
+          "role": "fact"
+        }
+      ]
+    },
+    "4": {
+      "topic": "中世末期の聖母子像と自然な表現",
+      "difficulty": "standard",
+      "group": {
+        "title": "古代から中世へ、作品と役割",
+        "passage": "古代から中世の造形は、信仰や社会のあり方を映している。制作の目的、作品の時代、表現の媒体をそれぞれ区別して考える。"
+      },
+      "group_number": 1,
+      "group_question_number": 4,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-01"
+      ]
+    },
+    "5": {
+      "topic": "ブルネレスキの大円蓋",
+      "difficulty": "basic",
+      "group": {
+        "title": "ルネサンスの仕事場",
+        "passage": "建築家・彫刻家・画家たちは、都市や注文主の要望に応えながら新しい表現を探った。作者、作品、地域の特徴を関連付けて答える。"
+      },
+      "group_number": 2,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 64,
+          "printed_page": 62,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 122,
+          "printed_page": 120,
+          "role": "fact"
+        }
+      ]
+    },
+    "6": {
+      "topic": "ルネサンス絵画の聖人の図像",
+      "difficulty": "standard",
+      "group": {
+        "title": "ルネサンスの仕事場",
+        "passage": "建築家・彫刻家・画家たちは、都市や注文主の要望に応えながら新しい表現を探った。作者、作品、地域の特徴を関連付けて答える。"
+      },
+      "group_number": 2,
+      "group_question_number": 2,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-02"
+      ]
+    },
+    "7": {
+      "topic": "フィレンツェの肖像画とボッティチェリ",
+      "difficulty": "advanced",
+      "group": {
+        "title": "ルネサンスの仕事場",
+        "passage": "建築家・彫刻家・画家たちは、都市や注文主の要望に応えながら新しい表現を探った。作者、作品、地域の特徴を関連付けて答える。"
+      },
+      "group_number": 2,
+      "group_question_number": 3,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-03"
+      ]
+    },
+    "8": {
+      "topic": "ルネサンスの肖像画にみる色彩と質感",
+      "difficulty": "standard",
+      "group": {
+        "title": "ルネサンスの仕事場",
+        "passage": "建築家・彫刻家・画家たちは、都市や注文主の要望に応えながら新しい表現を探った。作者、作品、地域の特徴を関連付けて答える。"
+      },
+      "group_number": 2,
+      "group_question_number": 4,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-04"
+      ]
+    },
+    "9": {
+      "topic": "北方ルネサンスの肖像画",
+      "difficulty": "standard",
+      "group": {
+        "title": "16世紀の異なる表現",
+        "passage": "同じ16世紀にも、知識人の肖像と、複雑な人体表現を追う彫刻が並んで生まれた。題材や鑑賞の仕方から、作品の特徴を読み取る。"
+      },
+      "group_number": 3,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-05"
+      ]
+    },
+    "10": {
+      "topic": "ジャンボローニャと多視点",
+      "difficulty": "advanced",
+      "group": {
+        "title": "16世紀の異なる表現",
+        "passage": "同じ16世紀にも、知識人の肖像と、複雑な人体表現を追う彫刻が並んで生まれた。題材や鑑賞の仕方から、作品の特徴を読み取る。"
+      },
+      "group_number": 3,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 68,
+          "printed_page": 66,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 69,
+          "printed_page": 67,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 124,
+          "printed_page": 122,
+          "role": "fact"
+        }
+      ]
+    },
+    "11": {
+      "topic": "風景画の奥行きと空気遠近法",
+      "difficulty": "standard",
+      "group": {
+        "title": "近世の風景と暮らし",
+        "passage": "近世のヨーロッパでは、風景、宗教的な物語、室内の日常などがさまざまに描かれた。作品の主題、空間の組み立て方、制作や鑑賞の場に注目して考えなさい。"
+      },
+      "group_number": 4,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-06"
+      ]
+    },
+    "12": {
+      "topic": "歴史画とキリスト教の主題",
+      "difficulty": "standard",
+      "group": {
+        "title": "近世の風景と暮らし",
+        "passage": "近世のヨーロッパでは、風景、宗教的な物語、室内の日常などがさまざまに描かれた。作品の主題、空間の組み立て方、制作や鑑賞の場に注目して考えなさい。"
+      },
+      "group_number": 4,
+      "group_question_number": 2,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-07"
+      ]
+    },
+    "13": {
+      "topic": "オランダ絵画の室内と光",
+      "difficulty": "standard",
+      "group": {
+        "title": "近世の風景と暮らし",
+        "passage": "近世のヨーロッパでは、風景、宗教的な物語、室内の日常などがさまざまに描かれた。作品の主題、空間の組み立て方、制作や鑑賞の場に注目して考えなさい。"
+      },
+      "group_number": 4,
+      "group_question_number": 3,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-08"
+      ]
+    },
+    "14": {
+      "topic": "ベラスケスの活動地域と作品",
+      "difficulty": "standard",
+      "group": {
+        "title": "近世の風景と暮らし",
+        "passage": "近世のヨーロッパでは、風景、宗教的な物語、室内の日常などがさまざまに描かれた。作品の主題、空間の組み立て方、制作や鑑賞の場に注目して考えなさい。"
+      },
+      "group_number": 4,
+      "group_question_number": 4,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 71,
+          "printed_page": 69,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 72,
+          "printed_page": 70,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 73,
+          "printed_page": 71,
+          "role": "fact"
+        }
+      ]
+    },
+    "15": {
+      "topic": "18世紀の風俗画と日常の行為",
+      "difficulty": "basic",
+      "group": {
+        "title": "18世紀の主題と都市",
+        "passage": "画家の活動は、宮廷の装飾から市民の生活、旅行者が求める都市景観へと広がった。主題と作者、表現の媒体を対応させる。"
+      },
+      "group_number": 5,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-09"
+      ]
+    },
+    "16": {
+      "topic": "18世紀の都市景観画",
+      "difficulty": "standard",
+      "group": {
+        "title": "18世紀の主題と都市",
+        "passage": "画家の活動は、宮廷の装飾から市民の生活、旅行者が求める都市景観へと広がった。主題と作者、表現の媒体を対応させる。"
+      },
+      "group_number": 5,
+      "group_question_number": 2,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-10"
+      ]
+    },
+    "17": {
+      "topic": "ホガースとイギリスの風刺",
+      "difficulty": "standard",
+      "group": {
+        "title": "18世紀の主題と都市",
+        "passage": "画家の活動は、宮廷の装飾から市民の生活、旅行者が求める都市景観へと広がった。主題と作者、表現の媒体を対応させる。"
+      },
+      "group_number": 5,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 74,
+          "printed_page": 72,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 75,
+          "printed_page": 73,
+          "role": "fact"
+        }
+      ]
+    },
+    "18": {
+      "topic": "新古典主義と古代発掘",
+      "difficulty": "basic",
+      "group": {
+        "title": "19世紀の美術と社会の変化",
+        "passage": "古代の再評価、市民社会の成立、産業と交通の発達は、美術の題材や制作環境にも変化をもたらした。"
+      },
+      "group_number": 6,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 76,
+          "printed_page": 74,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 77,
+          "printed_page": 75,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 87,
+          "printed_page": 85,
+          "role": "fact"
+        }
+      ]
+    },
+    "19": {
+      "topic": "19世紀の肖像画と線の表現",
+      "difficulty": "standard",
+      "group": {
+        "title": "19世紀の美術と社会の変化",
+        "passage": "古代の再評価、市民社会の成立、産業と交通の発達は、美術の題材や制作環境にも変化をもたらした。"
+      },
+      "group_number": 6,
+      "group_question_number": 2,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-11"
+      ]
+    },
+    "20": {
+      "topic": "ターナーと光の表現",
+      "difficulty": "standard",
+      "group": {
+        "title": "19世紀の美術と社会の変化",
+        "passage": "古代の再評価、市民社会の成立、産業と交通の発達は、美術の題材や制作環境にも変化をもたらした。"
+      },
+      "group_number": 6,
+      "group_question_number": 3,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-12"
+      ]
+    },
+    "21": {
+      "topic": "水晶宮と産業技術",
+      "difficulty": "basic",
+      "group": {
+        "title": "19世紀の美術と社会の変化",
+        "passage": "古代の再評価、市民社会の成立、産業と交通の発達は、美術の題材や制作環境にも変化をもたらした。"
+      },
+      "group_number": 6,
+      "group_question_number": 4,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 81,
+          "printed_page": 79,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 87,
+          "printed_page": 85,
+          "role": "fact"
+        }
+      ]
+    },
+    "22": {
+      "topic": "ドーミエと身近な人物の表現",
+      "difficulty": "standard",
+      "group": {
+        "title": "新しい都市と美術家たち",
+        "passage": "19世紀後半の美術家たちは、自然や都市生活、身近な人物をそれぞれの方法で表した。集団に共通する傾向と個々の作家の違いを区別する。"
+      },
+      "group_number": 7,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-13"
+      ]
+    },
+    "23": {
+      "topic": "マネの都市風景と画面構成",
+      "difficulty": "standard",
+      "group": {
+        "title": "新しい都市と美術家たち",
+        "passage": "19世紀後半の美術家たちは、自然や都市生活、身近な人物をそれぞれの方法で表した。集団に共通する傾向と個々の作家の違いを区別する。"
+      },
+      "group_number": 7,
+      "group_question_number": 2,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-14"
+      ]
+    },
+    "24": {
+      "topic": "近代彫刻と人体の動き",
+      "difficulty": "standard",
+      "group": {
+        "title": "新しい都市と美術家たち",
+        "passage": "19世紀後半の美術家たちは、自然や都市生活、身近な人物をそれぞれの方法で表した。集団に共通する傾向と個々の作家の違いを区別する。"
+      },
+      "group_number": 7,
+      "group_question_number": 3,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-15"
+      ]
+    },
+    "25": {
+      "topic": "ナビ派の絵画観",
+      "difficulty": "advanced",
+      "group": {
+        "title": "世紀末の表現の分岐",
+        "passage": "対象を写すことに加え、画面の構成や内面の世界が意識されるようになった。似た時期の運動でも、重視した目的や方法は同じではない。"
+      },
+      "group_number": 8,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 89,
+          "printed_page": 87,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 91,
+          "printed_page": 89,
+          "role": "fact"
+        }
+      ]
+    },
+    "26": {
+      "topic": "ルドンの花の絵と色彩",
+      "difficulty": "standard",
+      "group": {
+        "title": "世紀末の表現の分岐",
+        "passage": "対象を写すことに加え、画面の構成や内面の世界が意識されるようになった。似た時期の運動でも、重視した目的や方法は同じではない。"
+      },
+      "group_number": 8,
+      "group_question_number": 2,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-16"
+      ]
+    },
+    "27": {
+      "topic": "アール・ヌーヴォーとギマール",
+      "difficulty": "standard",
+      "group": {
+        "title": "世紀末の表現の分岐",
+        "passage": "対象を写すことに加え、画面の構成や内面の世界が意識されるようになった。似た時期の運動でも、重視した目的や方法は同じではない。"
+      },
+      "group_number": 8,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 76,
+          "printed_page": 74,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 92,
+          "printed_page": 90,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 101,
+          "printed_page": 99,
+          "role": "fact"
+        }
+      ]
+    },
+    "28": {
+      "topic": "ルオーとフォーヴィスム",
+      "difficulty": "basic",
+      "group": {
+        "title": "20世紀初頭の前衛美術",
+        "passage": "色彩、形、空間の表し方をめぐり、複数の運動が同時期に展開した。運動名だけでなく、参加した作家や制作方法も手掛かりにする。"
+      },
+      "group_number": 9,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 94,
+          "printed_page": 92,
+          "role": "fact"
+        }
+      ]
+    },
+    "29": {
+      "topic": "キュビスムとパピエ・コレ",
+      "difficulty": "standard",
+      "group": {
+        "title": "20世紀初頭の前衛美術",
+        "passage": "色彩、形、空間の表し方をめぐり、複数の運動が同時期に展開した。運動名だけでなく、参加した作家や制作方法も手掛かりにする。"
+      },
+      "group_number": 9,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 95,
+          "printed_page": 93,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 96,
+          "printed_page": 94,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 264,
+          "printed_page": 262,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 265,
+          "printed_page": 263,
+          "role": "fact"
+        }
+      ]
+    },
+    "30": {
+      "topic": "ブリュッケと青騎士",
+      "difficulty": "standard",
+      "group": {
+        "title": "20世紀初頭の前衛美術",
+        "passage": "色彩、形、空間の表し方をめぐり、複数の運動が同時期に展開した。運動名だけでなく、参加した作家や制作方法も手掛かりにする。"
+      },
+      "group_number": 9,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 91,
+          "printed_page": 89,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 96,
+          "printed_page": 94,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 97,
+          "printed_page": 95,
+          "role": "fact"
+        }
+      ]
+    },
+    "31": {
+      "topic": "ロシア前衛の二つの動向",
+      "difficulty": "standard",
+      "group": {
+        "title": "20世紀初頭の前衛美術",
+        "passage": "色彩、形、空間の表し方をめぐり、複数の運動が同時期に展開した。運動名だけでなく、参加した作家や制作方法も手掛かりにする。"
+      },
+      "group_number": 9,
+      "group_question_number": 4,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 97,
+          "printed_page": 95,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 100,
+          "printed_page": 98,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 101,
+          "printed_page": 99,
+          "role": "fact"
+        }
+      ]
+    },
+    "32": {
+      "topic": "シュヴィッタースのメルツ",
+      "difficulty": "standard",
+      "group": {
+        "title": "美術を作り、学ぶ方法の更新",
+        "passage": "20世紀前半には、制作の材料や手順、彫刻の形、美術教育のあり方まで問い直された。各試みの具体的な内容から考える。"
+      },
+      "group_number": 10,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 99,
+          "printed_page": 97,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 265,
+          "printed_page": 263,
+          "role": "fact"
+        }
+      ]
+    },
+    "33": {
+      "topic": "ブランクーシの形の単純化",
+      "difficulty": "standard",
+      "group": {
+        "title": "美術を作り、学ぶ方法の更新",
+        "passage": "20世紀前半には、制作の材料や手順、彫刻の形、美術教育のあり方まで問い直された。各試みの具体的な内容から考える。"
+      },
+      "group_number": 10,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 98,
+          "printed_page": 96,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 103,
+          "printed_page": 101,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 110,
+          "printed_page": 108,
+          "role": "fact"
+        }
+      ]
+    },
+    "34": {
+      "topic": "バウハウスの教育理念",
+      "difficulty": "advanced",
+      "group": {
+        "title": "美術を作り、学ぶ方法の更新",
+        "passage": "20世紀前半には、制作の材料や手順、彫刻の形、美術教育のあり方まで問い直された。各試みの具体的な内容から考える。"
+      },
+      "group_number": 10,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 104,
+          "printed_page": 102,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 105,
+          "printed_page": 103,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 142,
+          "printed_page": 140,
+          "role": "fact"
+        }
+      ]
+    },
+    "35": {
+      "topic": "アンフォルメルとフォートリエ",
+      "difficulty": "basic",
+      "group": {
+        "title": "戦後美術の素材とイメージ",
+        "passage": "第二次世界大戦後、ヨーロッパとアメリカで異なる表現が展開した。絵具の扱い、画面に選ぶ像、日常の物との関係を比較する。"
+      },
+      "group_number": 11,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 89,
+          "printed_page": 87,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 90,
+          "printed_page": 88,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 97,
+          "printed_page": 95,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 106,
+          "printed_page": 104,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 107,
+          "printed_page": 105,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 147,
+          "printed_page": 145,
+          "role": "fact"
+        }
+      ]
+    },
+    "36": {
+      "topic": "ロスコとカラーフィールド",
+      "difficulty": "standard",
+      "group": {
+        "title": "戦後美術の素材とイメージ",
+        "passage": "第二次世界大戦後、ヨーロッパとアメリカで異なる表現が展開した。絵具の扱い、画面に選ぶ像、日常の物との関係を比較する。"
+      },
+      "group_number": 11,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 89,
+          "printed_page": 87,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 107,
+          "printed_page": 105,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 108,
+          "printed_page": 106,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 109,
+          "printed_page": 107,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 144,
+          "printed_page": 142,
+          "role": "fact"
+        }
+      ]
+    },
+    "37": {
+      "topic": "ジャスパー・ジョーンズとネオ・ダダ",
+      "difficulty": "standard",
+      "group": {
+        "title": "戦後美術の素材とイメージ",
+        "passage": "第二次世界大戦後、ヨーロッパとアメリカで異なる表現が展開した。絵具の扱い、画面に選ぶ像、日常の物との関係を比較する。"
+      },
+      "group_number": 11,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 107,
+          "printed_page": 105,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 108,
+          "printed_page": 106,
+          "role": "fact"
+        }
+      ]
+    },
+    "38": {
+      "topic": "ヌーヴォー・レアリスムの方法",
+      "difficulty": "standard",
+      "group": {
+        "title": "戦後美術の素材とイメージ",
+        "passage": "第二次世界大戦後、ヨーロッパとアメリカで異なる表現が展開した。絵具の扱い、画面に選ぶ像、日常の物との関係を比較する。"
+      },
+      "group_number": 11,
+      "group_question_number": 4,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 108,
+          "printed_page": 106,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 109,
+          "printed_page": 107,
+          "role": "fact"
+        }
+      ]
+    },
+    "39": {
+      "topic": "オプ・アートと視覚効果",
+      "difficulty": "basic",
+      "group": {
+        "title": "見ること・動くこと・考えること",
+        "passage": "1960年代前後には、視覚的な効果や運動、場所、概念に着目した作品が増えた。作品の具体的な仕組みから、異なる動向を区別する。"
+      },
+      "group_number": 12,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 106,
+          "printed_page": 104,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 109,
+          "printed_page": 107,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 110,
+          "printed_page": 108,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 111,
+          "printed_page": 109,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 147,
+          "printed_page": 145,
+          "role": "fact"
+        }
+      ]
+    },
+    "40": {
+      "topic": "カルダーとティンゲリー",
+      "difficulty": "standard",
+      "group": {
+        "title": "見ること・動くこと・考えること",
+        "passage": "1960年代前後には、視覚的な効果や運動、場所、概念に着目した作品が増えた。作品の具体的な仕組みから、異なる動向を区別する。"
+      },
+      "group_number": 12,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 109,
+          "printed_page": 107,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 110,
+          "printed_page": 108,
+          "role": "fact"
+        }
+      ]
+    },
+    "41": {
+      "topic": "概念と場所を重視する美術",
+      "difficulty": "advanced",
+      "group": {
+        "title": "見ること・動くこと・考えること",
+        "passage": "1960年代前後には、視覚的な効果や運動、場所、概念に着目した作品が増えた。作品の具体的な仕組みから、異なる動向を区別する。"
+      },
+      "group_number": 12,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 109,
+          "printed_page": 107,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 111,
+          "printed_page": 109,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 146,
+          "printed_page": 144,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 147,
+          "printed_page": 145,
+          "role": "fact"
+        }
+      ]
+    },
+    "42": {
+      "topic": "弥生の祭器と材料",
+      "difficulty": "basic",
+      "group": {
+        "title": "古代の素材と造形",
+        "passage": "日本の古代美術を考える手がかりには、形や文様だけでなく、材料や制作の工程もある。農耕社会の祭器から寺院の仏像へと対象を広げ、それぞれの造形を支えた技術を確かめよう。"
+      },
+      "group_number": 13,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 175,
+          "printed_page": 173,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 176,
+          "printed_page": 174,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 177,
+          "printed_page": 175,
+          "role": "fact"
+        }
+      ]
+    },
+    "43": {
+      "topic": "白鳳の仏像と造像技法",
+      "difficulty": "standard",
+      "group": {
+        "title": "古代の素材と造形",
+        "passage": "日本の古代美術を考える手がかりには、形や文様だけでなく、材料や制作の工程もある。農耕社会の祭器から寺院の仏像へと対象を広げ、それぞれの造形を支えた技術を確かめよう。"
+      },
+      "group_number": 13,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 181,
+          "printed_page": 179,
+          "role": "fact"
+        }
+      ]
+    },
+    "44": {
+      "topic": "天平彫刻の脱活乾漆造",
+      "difficulty": "basic",
+      "group": {
+        "title": "古代の素材と造形",
+        "passage": "日本の古代美術を考える手がかりには、形や文様だけでなく、材料や制作の工程もある。農耕社会の祭器から寺院の仏像へと対象を広げ、それぞれの造形を支えた技術を確かめよう。"
+      },
+      "group_number": 13,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 183,
+          "printed_page": 181,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 184,
+          "printed_page": 182,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 271,
+          "printed_page": 269,
+          "role": "fact"
+        }
+      ]
+    },
+    "45": {
+      "topic": "仏像の姿と尊格",
+      "difficulty": "basic",
+      "group": {
+        "title": "仏像と物語絵画",
+        "passage": "日本の仏教美術と物語絵画を取り上げる。仏像の姿と信仰上の役割、物語を描くための画面や場面の構成に注目して考えなさい。"
+      },
+      "group_number": 14,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 270,
+          "printed_page": 268,
+          "role": "fact"
+        }
+      ],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-17"
+      ]
+    },
+    "46": {
+      "topic": "絵巻の時間表現",
+      "difficulty": "standard",
+      "group": {
+        "title": "仏像と物語絵画",
+        "passage": "日本の仏教美術と物語絵画を取り上げる。仏像の姿と信仰上の役割、物語を描くための画面や場面の構成に注目して考えなさい。"
+      },
+      "group_number": 14,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 191,
+          "printed_page": 189,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 269,
+          "printed_page": 267,
+          "role": "fact"
+        }
+      ]
+    },
+    "47": {
+      "topic": "平安絵巻の叙情と説話",
+      "difficulty": "advanced",
+      "group": {
+        "title": "仏像と物語絵画",
+        "passage": "日本の仏教美術と物語絵画を取り上げる。仏像の姿と信仰上の役割、物語を描くための画面や場面の構成に注目して考えなさい。"
+      },
+      "group_number": 14,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 190,
+          "printed_page": 188,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 191,
+          "printed_page": 189,
+          "role": "fact"
+        }
+      ]
+    },
+    "48": {
+      "topic": "南都復興と建築様式",
+      "difficulty": "standard",
+      "group": {
+        "title": "中世の信仰と表現",
+        "passage": "鎌倉時代から室町時代にかけて、寺院の再建、中国文化の受容、武家の支援などが美術の展開に関わった。建築や絵画を、宗教と社会の両面から見直してみよう。"
+      },
+      "group_number": 15,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 192,
+          "printed_page": 190,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 196,
+          "printed_page": 194,
+          "role": "fact"
+        }
+      ]
+    },
+    "49": {
+      "topic": "印相と阿弥陀信仰",
+      "difficulty": "standard",
+      "group": {
+        "title": "中世の信仰と表現",
+        "passage": "鎌倉時代から室町時代にかけて、寺院の再建、中国文化の受容、武家の支援などが美術の展開に関わった。建築や絵画を、宗教と社会の両面から見直してみよう。"
+      },
+      "group_number": 15,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 271,
+          "printed_page": 269,
+          "role": "fact"
+        }
+      ],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-18"
+      ]
+    },
+    "50": {
+      "topic": "金閣の建築と和漢の統合",
+      "difficulty": "advanced",
+      "group": {
+        "title": "中世の信仰と表現",
+        "passage": "鎌倉時代から室町時代にかけて、寺院の再建、中国文化の受容、武家の支援などが美術の展開に関わった。建築や絵画を、宗教と社会の両面から見直してみよう。"
+      },
+      "group_number": 15,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 198,
+          "printed_page": 196,
+          "role": "fact"
+        }
+      ]
+    },
+    "51": {
+      "topic": "中世絵画の筆墨と水の表現",
+      "difficulty": "basic",
+      "group": {
+        "title": "中世の信仰と表現",
+        "passage": "鎌倉時代から室町時代にかけて、寺院の再建、中国文化の受容、武家の支援などが美術の展開に関わった。建築や絵画を、宗教と社会の両面から見直してみよう。"
+      },
+      "group_number": 15,
+      "group_question_number": 4,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-19"
+      ]
+    },
+    "52": {
+      "topic": "花鳥画と建築空間",
+      "difficulty": "standard",
+      "group": {
+        "title": "中世の信仰と表現",
+        "passage": "鎌倉時代から室町時代にかけて、寺院の再建、中国文化の受容、武家の支援などが美術の展開に関わった。建築や絵画を、宗教と社会の両面から見直してみよう。"
+      },
+      "group_number": 15,
+      "group_question_number": 5,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-20"
+      ]
+    },
+    "53": {
+      "topic": "古典文学と装飾的絵画",
+      "difficulty": "standard",
+      "group": {
+        "title": "近世初期の都市と住まい",
+        "passage": "桃山時代から江戸時代前期には、城郭や別邸の整備とともに、都市や人々の暮らしを描く絵画も発達した。建築の意匠と絵画の画題を比べ、異なる使い方や関心が造形にどう表れたかを考えてみよう。"
+      },
+      "group_number": 16,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-21"
+      ]
+    },
+    "54": {
+      "topic": "数寄屋建築",
+      "difficulty": "basic",
+      "group": {
+        "title": "近世初期の都市と住まい",
+        "passage": "桃山時代から江戸時代前期には、城郭や別邸の整備とともに、都市や人々の暮らしを描く絵画も発達した。建築の意匠と絵画の画題を比べ、異なる使い方や関心が造形にどう表れたかを考えてみよう。"
+      },
+      "group_number": 16,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 192,
+          "printed_page": 190,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 196,
+          "printed_page": 194,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 206,
+          "printed_page": 204,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 207,
+          "printed_page": 205,
+          "role": "fact"
+        }
+      ]
+    },
+    "55": {
+      "topic": "筆墨と文人画",
+      "difficulty": "standard",
+      "group": {
+        "title": "江戸時代の学びと出版",
+        "passage": "江戸時代の絵画は、国内の伝統を受け継ぐだけでなく、中国や西洋の表現を学びながら多様化した。出版の発達によって、絵を作る人、技術を支える人、作品を手にする人の関係も広がった。"
+      },
+      "group_number": 17,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-22"
+      ]
+    },
+    "56": {
+      "topic": "洋風画と蘭学",
+      "difficulty": "advanced",
+      "group": {
+        "title": "江戸時代の学びと出版",
+        "passage": "江戸時代の絵画は、国内の伝統を受け継ぐだけでなく、中国や西洋の表現を学びながら多様化した。出版の発達によって、絵を作る人、技術を支える人、作品を手にする人の関係も広がった。"
+      },
+      "group_number": 17,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 211,
+          "printed_page": 209,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 214,
+          "printed_page": 212,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 215,
+          "printed_page": 213,
+          "role": "fact"
+        }
+      ]
+    },
+    "57": {
+      "topic": "浮世絵の画面形式",
+      "difficulty": "basic",
+      "group": {
+        "title": "江戸時代の学びと出版",
+        "passage": "江戸時代の絵画は、国内の伝統を受け継ぐだけでなく、中国や西洋の表現を学びながら多様化した。出版の発達によって、絵を作る人、技術を支える人、作品を手にする人の関係も広がった。"
+      },
+      "group_number": 17,
+      "group_question_number": 3,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-23"
+      ]
+    },
+    "58": {
+      "topic": "風景版画の構図と名所絵",
+      "difficulty": "standard",
+      "group": {
+        "title": "江戸時代の学びと出版",
+        "passage": "江戸時代の絵画は、国内の伝統を受け継ぐだけでなく、中国や西洋の表現を学びながら多様化した。出版の発達によって、絵を作る人、技術を支える人、作品を手にする人の関係も広がった。"
+      },
+      "group_number": 17,
+      "group_question_number": 4,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-24"
+      ]
+    },
+    "59": {
+      "topic": "工部美術学校と指導分野",
+      "difficulty": "standard",
+      "group": {
+        "title": "近代の教育と美術家",
+        "passage": "明治以降には、美術教育や展覧会の制度が整えられる一方、既存の枠に収まりきらない試みも現れた。学校、美術団体、作品の表現を関連付けると、近代美術の変化を捉えやすくなる。"
+      },
+      "group_number": 18,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 216,
+          "printed_page": 214,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 252,
+          "printed_page": 250,
+          "role": "fact"
+        }
+      ]
+    },
+    "60": {
+      "topic": "朦朧体と日本画の革新",
+      "difficulty": "standard",
+      "group": {
+        "title": "近代の教育と美術家",
+        "passage": "明治以降には、美術教育や展覧会の制度が整えられる一方、既存の枠に収まりきらない試みも現れた。学校、美術団体、作品の表現を関連付けると、近代美術の変化を捉えやすくなる。"
+      },
+      "group_number": 18,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 217,
+          "printed_page": 215,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 253,
+          "printed_page": 251,
+          "role": "fact"
+        }
+      ]
+    },
+    "61": {
+      "topic": "近代美術制度の年代",
+      "difficulty": "advanced",
+      "group": {
+        "title": "近代の教育と美術家",
+        "passage": "明治以降には、美術教育や展覧会の制度が整えられる一方、既存の枠に収まりきらない試みも現れた。学校、美術団体、作品の表現を関連付けると、近代美術の変化を捉えやすくなる。"
+      },
+      "group_number": 18,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 216,
+          "printed_page": 214,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 217,
+          "printed_page": 215,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 219,
+          "printed_page": 217,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 252,
+          "printed_page": 250,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 253,
+          "printed_page": 251,
+          "role": "fact"
+        }
+      ]
+    },
+    "62": {
+      "topic": "国画創作協会",
+      "difficulty": "basic",
+      "group": {
+        "title": "近代の教育と美術家",
+        "passage": "明治以降には、美術教育や展覧会の制度が整えられる一方、既存の枠に収まりきらない試みも現れた。学校、美術団体、作品の表現を関連付けると、近代美術の変化を捉えやすくなる。"
+      },
+      "group_number": 18,
+      "group_question_number": 4,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 218,
+          "printed_page": 216,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 220,
+          "printed_page": 218,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 221,
+          "printed_page": 219,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 225,
+          "printed_page": 223,
+          "role": "fact"
+        }
+      ]
+    },
+    "63": {
+      "topic": "マヴォと大正期の前衛",
+      "difficulty": "standard",
+      "group": {
+        "title": "近代の教育と美術家",
+        "passage": "明治以降には、美術教育や展覧会の制度が整えられる一方、既存の枠に収まりきらない試みも現れた。学校、美術団体、作品の表現を関連付けると、近代美術の変化を捉えやすくなる。"
+      },
+      "group_number": 18,
+      "group_question_number": 5,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 221,
+          "printed_page": 219,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 222,
+          "printed_page": 220,
+          "role": "fact"
+        }
+      ]
+    },
+    "64": {
+      "topic": "実験工房と具体美術協会",
+      "difficulty": "standard",
+      "group": {
+        "title": "戦後の新しい制作",
+        "passage": "第二次世界大戦後の日本では、分野を横断する活動や、完成した物体だけに価値を置かない制作が広がった。各運動が何を共通の関心としていたかを考え、その違いを整理しよう。"
+      },
+      "group_number": 19,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 227,
+          "printed_page": 225,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 228,
+          "printed_page": 226,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 254,
+          "printed_page": 252,
+          "role": "fact"
+        }
+      ]
+    },
+    "65": {
+      "topic": "もの派と素材・状況",
+      "difficulty": "standard",
+      "group": {
+        "title": "戦後の新しい制作",
+        "passage": "第二次世界大戦後の日本では、分野を横断する活動や、完成した物体だけに価値を置かない制作が広がった。各運動が何を共通の関心としていたかを考え、その違いを整理しよう。"
+      },
+      "group_number": 19,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 228,
+          "printed_page": 226,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 231,
+          "printed_page": 229,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 265,
+          "printed_page": 263,
+          "role": "fact"
+        },
+        {
+          "source": "problems",
+          "pdf_page": 169,
+          "printed_page": 167,
+          "role": "fact"
+        }
+      ]
+    },
+    "66": {
+      "topic": "河原温とコンセプチュアル・アート",
+      "difficulty": "basic",
+      "group": {
+        "title": "戦後の新しい制作",
+        "passage": "第二次世界大戦後の日本では、分野を横断する活動や、完成した物体だけに価値を置かない制作が広がった。各運動が何を共通の関心としていたかを考え、その違いを整理しよう。"
+      },
+      "group_number": 19,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 230,
+          "printed_page": 228,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 231,
+          "printed_page": 229,
+          "role": "fact"
+        }
+      ]
+    },
+    "67": {
+      "topic": "記憶と匿名の人々をめぐる表現",
+      "difficulty": "standard",
+      "group": {
+        "title": "1980年代以降の表現と批評",
+        "passage": "1980年代以降、絵画の再評価、記憶の問題、展示の場に生まれる人間関係など、美術の焦点は多方向へ広がった。表現の外見だけでなく、作品が扱う問題や批評上の概念にも注目して答えなさい。"
+      },
+      "group_number": 20,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 169,
+          "printed_page": 167,
+          "role": "fact"
+        },
+        {
+          "source": "problems",
+          "pdf_page": 171,
+          "printed_page": 169,
+          "role": "fact"
+        }
+      ]
+    },
+    "68": {
+      "topic": "絵画の復権と新表現主義",
+      "difficulty": "standard",
+      "group": {
+        "title": "1980年代以降の表現と批評",
+        "passage": "1980年代以降、絵画の再評価、記憶の問題、展示の場に生まれる人間関係など、美術の焦点は多方向へ広がった。表現の外見だけでなく、作品が扱う問題や批評上の概念にも注目して答えなさい。"
+      },
+      "group_number": 20,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 171,
+          "printed_page": 169,
+          "role": "fact"
+        }
+      ]
+    },
+    "69": {
+      "topic": "リレーショナル・アートの論点",
+      "difficulty": "advanced",
+      "group": {
+        "title": "1980年代以降の表現と批評",
+        "passage": "1980年代以降、絵画の再評価、記憶の問題、展示の場に生まれる人間関係など、美術の焦点は多方向へ広がった。表現の外見だけでなく、作品が扱う問題や批評上の概念にも注目して答えなさい。"
+      },
+      "group_number": 20,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 175,
+          "printed_page": 173,
+          "role": "fact"
+        }
+      ]
+    },
+    "70": {
+      "topic": "中国の1990年代の美術動向",
+      "difficulty": "standard",
+      "group": null,
+      "group_number": 21,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 173,
+          "printed_page": 171,
+          "role": "fact"
+        }
+      ]
+    },
+    "71": {
+      "topic": "多文化主義と国際展の視点",
+      "difficulty": "basic",
+      "group": null,
+      "group_number": 22,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 173,
+          "printed_page": 171,
+          "role": "fact"
+        },
+        {
+          "source": "problems",
+          "pdf_page": 177,
+          "printed_page": 175,
+          "role": "fact"
+        }
+      ]
+    },
+    "72": {
+      "topic": "叙事詩と美術の主題",
+      "difficulty": "basic",
+      "group": {
+        "title": "アジアの物語・山水・交流",
+        "passage": "アジアの美術では、物語が図像の主題となり、山水の表現が理論としてまとめられ、王朝や交易の変化が造形に表れた。異なる文化圏の事物を一つの時代にまとめず、それぞれの背景と対応させなさい。"
+      },
+      "group_number": 23,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 181,
+          "printed_page": 179,
+          "role": "fact"
+        }
+      ]
+    },
+    "73": {
+      "topic": "南宋の馬遠と余白の構成",
+      "difficulty": "standard",
+      "group": {
+        "title": "アジアの物語・山水・交流",
+        "passage": "アジアの美術では、物語が図像の主題となり、山水の表現が理論としてまとめられ、王朝や交易の変化が造形に表れた。異なる文化圏の事物を一つの時代にまとめず、それぞれの背景と対応させなさい。"
+      },
+      "group_number": 23,
+      "group_question_number": 2,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-25"
+      ]
+    },
+    "74": {
+      "topic": "朝鮮半島の王朝と造形",
+      "difficulty": "standard",
+      "group": {
+        "title": "アジアの物語・山水・交流",
+        "passage": "アジアの美術では、物語が図像の主題となり、山水の表現が理論としてまとめられ、王朝や交易の変化が造形に表れた。異なる文化圏の事物を一つの時代にまとめず、それぞれの背景と対応させなさい。"
+      },
+      "group_number": 23,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 183,
+          "printed_page": 181,
+          "role": "fact"
+        },
+        {
+          "source": "problems",
+          "pdf_page": 185,
+          "printed_page": 183,
+          "role": "fact"
+        }
+      ]
+    },
+    "75": {
+      "topic": "明治の輸出陶磁と宮川香山",
+      "difficulty": "standard",
+      "group": {
+        "title": "工芸の制作と近代デザイン",
+        "passage": "工芸の特徴は装飾の見た目だけで決まらない。技法、工房と産業の関係、輸出や生活環境との結び付きにも注目し、制作と社会の関係を整理しなさい。"
+      },
+      "group_number": 24,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 187,
+          "printed_page": 185,
+          "role": "fact"
+        },
+        {
+          "source": "problems",
+          "pdf_page": 189,
+          "printed_page": 187,
+          "role": "fact"
+        }
+      ]
+    },
+    "76": {
+      "topic": "型染と友禅染の制作方法",
+      "difficulty": "standard",
+      "group": {
+        "title": "工芸の制作と近代デザイン",
+        "passage": "工芸の特徴は装飾の見た目だけで決まらない。技法、工房と産業の関係、輸出や生活環境との結び付きにも注目し、制作と社会の関係を整理しなさい。"
+      },
+      "group_number": 24,
+      "group_question_number": 2,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 189,
+          "printed_page": 187,
+          "role": "fact"
+        }
+      ]
+    },
+    "77": {
+      "topic": "ドイツ工作連盟の理念",
+      "difficulty": "standard",
+      "group": {
+        "title": "工芸の制作と近代デザイン",
+        "passage": "工芸の特徴は装飾の見た目だけで決まらない。技法、工房と産業の関係、輸出や生活環境との結び付きにも注目し、制作と社会の関係を整理しなさい。"
+      },
+      "group_number": 24,
+      "group_question_number": 3,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 191,
+          "printed_page": 189,
+          "role": "fact"
+        },
+        {
+          "source": "problems",
+          "pdf_page": 193,
+          "printed_page": 191,
+          "role": "fact"
+        }
+      ]
+    },
+    "78": {
+      "topic": "ポスターの色面・文字とリトグラフ",
+      "difficulty": "standard",
+      "group": {
+        "title": "工芸の制作と近代デザイン",
+        "passage": "工芸の特徴は装飾の見た目だけで決まらない。技法、工房と産業の関係、輸出や生活環境との結び付きにも注目し、制作と社会の関係を整理しなさい。"
+      },
+      "group_number": 24,
+      "group_question_number": 4,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-26"
+      ]
+    },
+    "79": {
+      "topic": "産業施設を転用した美術の場",
+      "difficulty": "standard",
+      "group": null,
+      "group_number": 25,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 195,
+          "printed_page": 193,
+          "role": "fact"
+        }
+      ]
+    },
+    "80": {
+      "topic": "日本の展覧会と公立美術館の歩み",
+      "difficulty": "advanced",
+      "group": null,
+      "group_number": 26,
+      "group_question_number": 1,
+      "source_refs": [
+        {
+          "source": "problems",
+          "pdf_page": 195,
+          "printed_page": 193,
+          "role": "fact"
+        },
+        {
+          "source": "problems",
+          "pdf_page": 197,
+          "printed_page": 195,
+          "role": "fact"
+        }
+      ]
+    },
+    "81": {
+      "topic": "同じ主題の作品を比較する",
+      "difficulty": "standard",
+      "group": null,
+      "group_number": 27,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-27",
+        "mock01-img-28"
+      ]
+    },
+    "82": {
+      "topic": "連作にみる光と色彩を読み取る",
+      "difficulty": "standard",
+      "group": null,
+      "group_number": 28,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-29",
+        "mock01-img-30"
+      ]
+    },
+    "83": {
+      "topic": "画面の形と表装の記録を照合する",
+      "difficulty": "standard",
+      "group": null,
+      "group_number": 29,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-22",
+        "mock01-img-31"
+      ]
+    },
+    "84": {
+      "topic": "構図の比較と影響関係の推論",
+      "difficulty": "advanced",
+      "group": null,
+      "group_number": 30,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-32",
+        "mock01-img-33"
+      ]
+    },
+    "85": {
+      "topic": "人物の手元と暮らしの場面を読む",
+      "difficulty": "standard",
+      "group": null,
+      "group_number": 31,
+      "group_question_number": 1,
+      "source_refs": [],
+      "image_required": true,
+      "image_ids": [
+        "mock01-img-34",
+        "mock01-img-35"
+      ]
+    }
+  },
+  "hierarchy": {
+    "group_count": 31,
+    "shared_passage_count": 22,
+    "groups": [
+      {
+        "group_number": 1,
+        "first_question_number": 1,
+        "last_question_number": 4,
+        "title": "古代から中世へ、作品と役割",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 2,
+        "first_question_number": 5,
+        "last_question_number": 8,
+        "title": "ルネサンスの仕事場",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 3,
+        "first_question_number": 9,
+        "last_question_number": 10,
+        "title": "16世紀の異なる表現",
+        "question_count": 2,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 4,
+        "first_question_number": 11,
+        "last_question_number": 14,
+        "title": "近世の風景と暮らし",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 5,
+        "first_question_number": 15,
+        "last_question_number": 17,
+        "title": "18世紀の主題と都市",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 6,
+        "first_question_number": 18,
+        "last_question_number": 21,
+        "title": "19世紀の美術と社会の変化",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 7,
+        "first_question_number": 22,
+        "last_question_number": 24,
+        "title": "新しい都市と美術家たち",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 8,
+        "first_question_number": 25,
+        "last_question_number": 27,
+        "title": "世紀末の表現の分岐",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 9,
+        "first_question_number": 28,
+        "last_question_number": 31,
+        "title": "20世紀初頭の前衛美術",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 10,
+        "first_question_number": 32,
+        "last_question_number": 34,
+        "title": "美術を作り、学ぶ方法の更新",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 11,
+        "first_question_number": 35,
+        "last_question_number": 38,
+        "title": "戦後美術の素材とイメージ",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 12,
+        "first_question_number": 39,
+        "last_question_number": 41,
+        "title": "見ること・動くこと・考えること",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 13,
+        "first_question_number": 42,
+        "last_question_number": 44,
+        "title": "古代の素材と造形",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 14,
+        "first_question_number": 45,
+        "last_question_number": 47,
+        "title": "仏像と物語絵画",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 15,
+        "first_question_number": 48,
+        "last_question_number": 52,
+        "title": "中世の信仰と表現",
+        "question_count": 5,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 16,
+        "first_question_number": 53,
+        "last_question_number": 54,
+        "title": "近世初期の都市と住まい",
+        "question_count": 2,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 17,
+        "first_question_number": 55,
+        "last_question_number": 58,
+        "title": "江戸時代の学びと出版",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 18,
+        "first_question_number": 59,
+        "last_question_number": 63,
+        "title": "近代の教育と美術家",
+        "question_count": 5,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 19,
+        "first_question_number": 64,
+        "last_question_number": 66,
+        "title": "戦後の新しい制作",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 20,
+        "first_question_number": 67,
+        "last_question_number": 69,
+        "title": "1980年代以降の表現と批評",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 21,
+        "first_question_number": 70,
+        "last_question_number": 70,
+        "title": "中国の1990年代の美術動向",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 22,
+        "first_question_number": 71,
+        "last_question_number": 71,
+        "title": "多文化主義と国際展の視点",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 23,
+        "first_question_number": 72,
+        "last_question_number": 74,
+        "title": "アジアの物語・山水・交流",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 24,
+        "first_question_number": 75,
+        "last_question_number": 78,
+        "title": "工芸の制作と近代デザイン",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 25,
+        "first_question_number": 79,
+        "last_question_number": 79,
+        "title": "産業施設を転用した美術の場",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 26,
+        "first_question_number": 80,
+        "last_question_number": 80,
+        "title": "日本の展覧会と公立美術館の歩み",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 27,
+        "first_question_number": 81,
+        "last_question_number": 81,
+        "title": "同じ主題の作品を比較する",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 28,
+        "first_question_number": 82,
+        "last_question_number": 82,
+        "title": "連作にみる光と色彩を読み取る",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 29,
+        "first_question_number": 83,
+        "last_question_number": 83,
+        "title": "画面の形と表装の記録を照合する",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 30,
+        "first_question_number": 84,
+        "last_question_number": 84,
+        "title": "構図の比較と影響関係の推論",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 31,
+        "first_question_number": 85,
+        "last_question_number": 85,
+        "title": "人物の手元と暮らしの場面を読む",
+        "question_count": 1,
+        "shared_passage_count": 0
+      }
+    ]
+  },
+  "revision": "cleared-figures-20261106",
+  "source_refs_note": "printed_page is book pagination; pdf_page is 1-based page index in supplied scanned file. fact and format are separate reference roles.",
+  "image_review_note": "図版31問を追加。source_refsの書籍ページ参照と、採用図版・新設問の根拠となる所蔵館記録は別管理。image-manifest.jsonで日本の保護期間・画像利用条件・原問題集との作品不一致を確認。"
+}

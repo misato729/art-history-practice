@@ -1,0 +1,3342 @@
+{
+  "schema_version": 1,
+  "revision": "series-20261106-v3",
+  "questions": {
+    "1": {
+      "topic": "クレタ文明の宮殿",
+      "difficulty": "basic",
+      "focus_key": "crete.knossos-palace",
+      "focus_claim": "海洋交易で栄えたクレタ文明とクノッソス宮殿の対応",
+      "task_type": "fundamental_fact",
+      "rubric": {
+        "knowledge_specificity": 0,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、基本事項一つまたは明瞭な観察一つで解く。細かな年号や稀な用語の暗記で難しくしない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 52,
+          "pdf_page": 54,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 112,
+          "pdf_page": 114,
+          "role": "fact"
+        }
+      ],
+      "group_number": 1,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "クノッソス宮殿はクレタ文明を代表する遺跡である。",
+        "イ": "ペルセポリスはペルシアの王宮であり、クレタ島の宮殿とは異なる。",
+        "ウ": "パルテノンはアテネの神殿であり、クレタの宮殿ではない。",
+        "エ": "パンテオンはローマの建築であり、クレタ文明の遺跡ではない。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "古代と中世の造形・役割",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "2": {
+      "topic": "ギリシア陶器の黒絵式",
+      "difficulty": "advanced",
+      "focus_key": "greece.black-figure.incised-detail",
+      "focus_claim": "黒く表した人物と刻線による細部の技法をほかの陶器技法と照合",
+      "task_type": "two_step_comparison",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、二つの手掛かりの比較・照合を必要とする。稀な固有名や年号の数当てを難しさの根拠にしない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 53,
+          "pdf_page": 55,
+          "role": "context"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 114,
+          "pdf_page": 116,
+          "role": "context"
+        }
+      ],
+      "group_number": 1,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "黒くする部分は合うが、赤く残す人物へ筆で線を描く方法は赤絵式の細部表現である。",
+        "イ": "刻線は合うが、背景を黒くし人物を素地の色で残す方法は赤絵式に対応する。",
+        "ウ": "黒い背景と赤い人物の筆線は、赤絵式を説明した組合せである。",
+        "エ": "黒い人物のシルエットに刻線で細部を入れる黒絵式の組合せである。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "古代と中世の造形・役割",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "3": {
+      "topic": "ビザンティンのイコン",
+      "difficulty": "basic",
+      "focus_key": "byzantine.icon.devotion",
+      "focus_claim": "イコンは礼拝に用いる聖像画の一般名である。特定の主題や写本の挿絵を指す語と、聖像画の総称を区別する。",
+      "task_type": "fundamental_fact",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 116,
+          "pdf_page": 118,
+          "role": "fact"
+        }
+      ],
+      "group_number": 1,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "イコンはキリスト・聖母・聖人などを表し、礼拝の対象とされた聖像画の一般名である。",
+        "イ": "パントクラトールは全能者としてのキリストという特定の図像を指し、聖母や聖人を含む聖像画全般の名称ではない。",
+        "ウ": "デイシスはキリストに聖母や洗礼者ヨハネが執り成す特定の図像で、聖像画全般の名称ではない。",
+        "エ": "ミニアチュールは主に写本などの小さな挿絵を指し、当該聖像画全般の名称ではない。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "古代と中世の造形・役割",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "4": {
+      "topic": "聖人と礼拝者の大きさ",
+      "difficulty": "standard",
+      "focus_key": "daddi.paul.hierarchical-scale",
+      "focus_claim": "ダッディは聖人と礼拝者の尺度を変え、意味上の序列を示す。大きさを実際の身長や光学的な遠近だけへ読み替えない。",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 116,
+          "pdf_page": 118,
+          "role": "context"
+        }
+      ],
+      "group_number": 1,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "図は実際の身長の差を自然に記録するのでなく、意味の序列を示す。",
+        "イ": "礼拝者が奥へ続く一列として聖人と連続するのではなく、足元の小群と聖人の尺度が分かれる。",
+        "ウ": "聖人と礼拝者の大きな尺度差は、光学的な距離より宗教的な重要さを示す。",
+        "エ": "同じ地面の自然な遠近の距離差だけでこの尺度差は説明できない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-01"
+      ],
+      "group": {
+        "title": "古代と中世の造形・役割",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "5": {
+      "topic": "フレスコの基礎",
+      "difficulty": "basic",
+      "focus_key": "fresco.wet-plaster",
+      "focus_claim": "生乾きの漆喰へ水溶き顔料で描くフレスコの方法",
+      "task_type": "fundamental_fact",
+      "rubric": {
+        "knowledge_specificity": 0,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、基本事項一つまたは明瞭な観察一つで解く。細かな年号や稀な用語の暗記で難しくしない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 123,
+          "pdf_page": 125,
+          "role": "fact"
+        }
+      ],
+      "group_number": 2,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "卵などの媒材で顔料を練る方法はテンペラと区別する。",
+        "イ": "乾性油を媒材にする方法は油彩と区別する。",
+        "ウ": "生乾きの漆喰へ水溶きの顔料で描く方法がフレスコである。",
+        "エ": "蝋を媒材に用いる方法はエンコースティックと区別する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "ルネサンスの素材と表現",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "6": {
+      "topic": "低い座の聖母像",
+      "difficulty": "standard",
+      "focus_key": "angelico.humility.low-seat",
+      "focus_claim": "玉座ではなく低い位置に座る聖母の姿と謙譲の主題を照合",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、観察・基本事項から一つの関係を判断する。近い時代・媒体のもっともらしい誤答肢を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 123,
+          "pdf_page": 125,
+          "role": "context"
+        }
+      ],
+      "group_number": 2,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "聖母は幼児を抱いて低い位置に座り、空へ上昇していない。",
+        "イ": "玉座の高さではなく、低い座にいる聖母が謙譲の図像と対応する。",
+        "ウ": "この図は高い玉座に座って冠をかぶる構成ではない。",
+        "エ": "抱かれているのは幼児であり、亡くなった成人のキリストではない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-02"
+      ],
+      "group": {
+        "title": "ルネサンスの素材と表現",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "7": {
+      "topic": "青年肖像の視線と画面形式",
+      "difficulty": "standard",
+      "focus_key": "botticelli.youth.viewer-relation",
+      "focus_claim": "頭部の方向と眼差しは同一ではない。頭を画面の左へ傾けながら、眼差しを画面の右へずらし、胸の前の手も画面に収める。完全な横顔か両眼が見えるかという大きな違いに頼らず、実図の顔と手を見比べる。",
+      "task_type": "visual-relationship-reading",
+      "rubric": {
+        "knowledge_specificity": 0,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "同じ斜め向きの肖像に全肢を揃え、頭部の軸と眼差しのずれ、胸に置く手を実図から区別する標準的な観察。元の具体焦点の範囲で発展相当とは断定しない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 121,
+          "pdf_page": 123,
+          "role": "context"
+        }
+      ],
+      "group_number": 2,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "頭部と眼差しのずれは合うが、手は胸に接しており、鑑賞者へ差し出していない。",
+        "イ": "眼差しを頭部の向きにそろえる点と、手を差し出す点がともに実図に合わない。",
+        "ウ": "頭部は画面の左へ傾き、眼差しは画面の右へずれる。右手は胸に置かれており、鑑賞者へ差し出してはいない。",
+        "エ": "胸の手は合うが、眼差しは頭部の向きに沿って画面の左へ向かうのでなく、画面の右へずれている。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-03"
+      ],
+      "group": {
+        "title": "ルネサンスの素材と表現",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "8": {
+      "topic": "振り向く肖像",
+      "difficulty": "standard",
+      "focus_key": "raphael.bindo.turning-gaze",
+      "focus_claim": "ラファエロの《ビンド・アルトヴィティ》では、肩と背の方向に対して頭部が振り返り、鑑賞者への視線をつくる。同じ肖像の身体軸と顔の関係を比べる。",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 120,
+          "pdf_page": 122,
+          "role": "context"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 121,
+          "pdf_page": 123,
+          "role": "context"
+        }
+      ],
+      "group_number": 2,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "頭部は身体の方向とそろわず、肩越しにこちらへ振り返る。",
+        "イ": "身体は斜め後方へ向く一方、顔は肩越しに振り返り、鑑賞者へ視線を返す。",
+        "ウ": "身体と顔がともに横を向いて目だけを返すのでなく、頭部自体が回転する。",
+        "エ": "胸を正面へそろえる姿勢ではなく、肩や背を斜めに見せる。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-04"
+      ],
+      "group": {
+        "title": "ルネサンスの素材と表現",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "9": {
+      "topic": "子どもの宮廷肖像の衣装",
+      "difficulty": "standard",
+      "focus_key": "cranach.prince.ceremonial-dress",
+      "focus_claim": "クラーナハは、幼い人物へ豪華な衣装と宝飾を組み合わせ、公的な地位を提示する。子どもか成人かの大差だけでなく、顔と装いの役割を結ぶ。",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 122,
+          "pdf_page": 124,
+          "role": "context"
+        }
+      ],
+      "group_number": 3,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "子どもの顔と豪華な衣装・冠状の宝飾が結びつき、家柄や公的地位を示す。",
+        "イ": "手は衣装の縁へ関わり、職業の道具を示すものではない。",
+        "ウ": "衣装は軽い普段着ではなく、金装飾や宝飾を伴う格式ある装いである。",
+        "エ": "成人を模した演劇的な仮装の記録ではなく、人物の身分を示す肖像である。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-05"
+      ],
+      "group": {
+        "title": "16世紀の技法と活動",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "10": {
+      "topic": "デューラーとイタリアの交流",
+      "difficulty": "advanced",
+      "focus_key": "durer.italy.proportion.print-influence",
+      "focus_claim": "デューラーはイタリアで人体比例や遠近法、ルネサンスの思想を学び、一方で彼の版画は北方からイタリアへも影響した。研究の内容と図像の流通という双方向を区別する。",
+      "task_type": "two_step_comparison",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 66,
+          "pdf_page": 68,
+          "role": "fact"
+        }
+      ],
+      "group_number": 3,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "研究内容を中世教会入口の正面性へ替え、版画による図像の広がりも油彩連作へ替えている。",
+        "イ": "版画の広がりは合うが、イタリアでの研究は人体比例や遠近法に関わる。",
+        "ウ": "イタリアでの比例や遠近法の研究は合うが、北方の図像がイタリアにも影響した主な媒介として教科書が述べるのはデューラーの版画である。",
+        "エ": "デューラーはイタリアで比例や遠近法を学び、その版画はイタリア側にも影響を与えた。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "16世紀の技法と活動",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "11": {
+      "topic": "聖母の被昇天の構成",
+      "difficulty": "standard",
+      "focus_key": "poussin.assumption.earth-heaven",
+      "focus_claim": "地上と天上の二領域と聖母の上昇から被昇天の主題を読む",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、観察・基本事項から一つの関係を判断する。近い時代・媒体のもっともらしい誤答肢を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 124,
+          "pdf_page": 126,
+          "role": "context"
+        }
+      ],
+      "group_number": 4,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "空の墓と天使に伴われて上昇する聖母が、被昇天の主題に合う。",
+        "イ": "幼児の誕生の場面ではなく、成人の女性が天上へ運ばれる。",
+        "ウ": "川で洗礼を受けるキリストは描かれず、墓と聖母の上昇が中心である。",
+        "エ": "一人で悔悛する女性ではなく、天使に囲まれ上昇する聖母の場面である。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-06"
+      ],
+      "group": {
+        "title": "17世紀の主題と制作",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "12": {
+      "topic": "貴族の全身肖像",
+      "difficulty": "advanced",
+      "focus_key": "vandyck.balbi.aristocratic-format",
+      "focus_claim": "《マルケーザ・バルビ》はヴァン・ダイクの肖像である。壮麗な貴族肖像の形式は、先行してジェノヴァで活動したルーベンスに学んだものだが、衣装の大きな広がりに対して手を自然に置き、人物を親しく見せる。格式と親しみのどちらか一方に還元せず、その併存を図の具体的な描写から確かめる。",
+      "task_type": "visual-attribution-and-historical-comparison",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "同時代の肖像画家四人を近接候補に揃え、全身形式の壮麗さだけでは区別できないルーベンスとヴァン・ダイクの関係、衣装と手・表情の違い、顔と手の絵具の扱いを結びつけて帰属を判断する。図の大きな物の有無、二軸各二候補という肢の数から発展とするものではない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 124,
+          "pdf_page": 126,
+          "role": "context"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 125,
+          "pdf_page": 127,
+          "role": "context"
+        }
+      ],
+      "group_number": 4,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "衣装の広がりや自然な手という画面の説明には近い部分があるが、作者と継承関係が逆である。ルーベンスは1606年にジェノヴァで壮麗な貴族肖像を制作し、1621年に当地へ来たヴァン・ダイクが先行作を見て自らの肖像へ展開した。この図はヴァン・ダイクの作品である。",
+        "イ": "ハルスも表情や姿勢を生き生きと示す同時代の肖像画家だが、作者ではない。図の衣装の細かな装飾と、なだらかに整えられた顔・手を、同じ短く切れた筆触による瞬間的な活気へ一括する読みは合わない。親しみは、格式ある全身形式の中の自然な手と表情との関係から生まれる。",
+        "ウ": "作者はヴァン・ダイク。画面を満たす金装飾の衣服や椅子・帳が格式を保つ一方、手は左右を固くそろえず、一方を力を抜いて垂らし、他方を腰の前へ自然に置く。顔と鑑賞者への視線も、壮麗な形式の中に個人的な親しみを加える。所蔵館はルーベンスの先行する肖像の影響と、この親しみの両方を明記する。",
+        "エ": "同時代の肖像における顔・手と明暗の関係という点では近い候補だが、作者はレンブラントではない。図では大きく広がる衣服の金装飾や輪郭、椅子と帳による全身の格式も重要であり、顔と手の盛り上がる厚塗りを中心とする読みは実際の画面に合わない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-07"
+      ],
+      "group": {
+        "title": "17世紀の主題と制作",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "13": {
+      "topic": "高い樹木と小さな邸宅",
+      "difficulty": "standard",
+      "focus_key": "ruisdael.country-house.tree-scale",
+      "focus_claim": "ルイスダールは高い樹木を縦の軸とし、右奥の邸宅や手前の人々との尺度の差で公園の広がりを示す。樹木と邸宅を同じ風景内で比べる。",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 125,
+          "pdf_page": 127,
+          "role": "context"
+        }
+      ],
+      "group_number": 4,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "邸宅は画面中央を大きく占めず、樹木も左右対称の列ではない。",
+        "イ": "構図の軸は中央近くの高い樹木で、邸宅の正面を中央に据えるのではない。",
+        "ウ": "中央近くの高い樹木に対し、邸宅は奥の右側へ小さく置かれ、左右同じ樹木の囲みでもない。",
+        "エ": "高い樹木の縦の軸と右側の邸宅、手前の人物の配置が画面に合う。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-08"
+      ],
+      "group": {
+        "title": "17世紀の主題と制作",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "14": {
+      "topic": "ベルサイユと総合芸術",
+      "difficulty": "standard",
+      "focus_key": "versailles.absolute-monarchy.total-art",
+      "focus_claim": "ヴェルサイユでは、建築・庭園・装飾を統合する空間の秩序が、絶対王政の権威を可視化する。同じ宮殿内でも、個別収集や親密な娯楽へ還元しない。",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 124,
+          "pdf_page": 126,
+          "role": "fact"
+        }
+      ],
+      "group_number": 4,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "個々の好みを独立させるのでなく、公的な儀礼と空間の秩序を統合する。",
+        "イ": "親密な娯楽だけが主眼でなく、大規模な公的権威の可視化が重要である。",
+        "ウ": "庭園と建築は別々の貴族の居所を示すのでなく、王権の秩序へ結びつく。",
+        "エ": "建築、庭園、装飾の統合は、諸芸術を王権の大きな秩序へ結びつける。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "17世紀の主題と制作",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "15": {
+      "topic": "神話画の装飾的な人物群",
+      "difficulty": "basic",
+      "focus_key": "boucher.venus.mythological-genre",
+      "focus_claim": "ブーシェの場面は、裸婦に愛の神などを組み合わせた神話画である。優雅な屋外場面であっても、実際の王族儀礼や風俗場面とは区別する。",
+      "task_type": "visual_observation",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 126,
+          "pdf_page": 128,
+          "role": "context"
+        }
+      ],
+      "group_number": 5,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "裸の女性と翼のある幼児などが、ヴィーナスに関わる神話的な場面を示す。",
+        "イ": "図の裸婦と愛の神の組合せは神話を示し、実際の貴族の狩猟儀礼の記録ではない。",
+        "ウ": "現実の王族の儀礼を記録する場面ではない。",
+        "エ": "市民の仕事を具体的に描く日常の場面ではなく、神話上の人物が中心となる。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-09"
+      ],
+      "group": {
+        "title": "18世紀の社会と表現",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "16": {
+      "topic": "肖像画と風景の連続",
+      "difficulty": "standard",
+      "focus_key": "gainsborough.sheridan.portrait-landscape",
+      "focus_claim": "ゲインズバラは人物の髪や衣服、樹木や雲へ流れる曲線と筆触を与え、肖像と風景を響き合わせた。",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 72,
+          "pdf_page": 74,
+          "role": "context"
+        }
+      ],
+      "group_number": 5,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "髪衣服が背景から消えるのでなく、曲線が風景と響き、顔も焦点を保つ。",
+        "イ": "人物は直立した軸を反復するのでなく、柔らかな曲線で風景と結びつく。",
+        "ウ": "流れる髪や衣服と、風景の樹木や雲に共通する曲線と筆触があり、人物と自然が呼応する。",
+        "エ": "人物の線は硬く閉じられず、背後も静かな水平線だけへそろわない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-10"
+      ],
+      "group": {
+        "title": "18世紀の社会と表現",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "17": {
+      "topic": "ロココのロカイユ装飾",
+      "difficulty": "standard",
+      "focus_key": "rococo.rocaille.interior",
+      "focus_claim": "ロカイユは貝殻や岩を思わせる曲線から生まれ、複雑で非対称なロココ装飾へつながる。装飾の形を、古典的対称や架構の表現と区別する。",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 72,
+          "pdf_page": 74,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 126,
+          "pdf_page": 128,
+          "role": "fact"
+        }
+      ],
+      "group_number": 5,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "自然の標本を正確に記録するのでなく、形を室内の装飾へ展開する。",
+        "イ": "装飾を構造線へ置き換えるのでなく、曲線の華やかな意匠として用いる。",
+        "ウ": "左右同形と古典建築の区画への従属より、非対称で自由な曲線が特徴となる。",
+        "エ": "ロカイユは貝殻や岩に由来する複雑な非対称の曲線的装飾と結びつく。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "18世紀の社会と表現",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "18": {
+      "topic": "カノーヴァの新古典主義彫刻",
+      "difficulty": "basic",
+      "focus_key": "canova.neoclassical-ideal",
+      "focus_claim": "カノーヴァの新古典主義彫刻は古代の理想美に学び、均衡と静けさをもつ神話的な人体をつくる。動勢や不均衡を主眼にする人体とは方向が異なる。",
+      "task_type": "fundamental_fact",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 129,
+          "pdf_page": 131,
+          "role": "fact"
+        }
+      ],
+      "group_number": 6,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "カノーヴァの新古典主義では、古代に学ぶ均衡と静かな理想美が重要で、不安な不均衡を主眼にしない。",
+        "イ": "カノーヴァは古代の理想を参照し、均衡ある神話的人体を制作した。",
+        "ウ": "断片や表面による動きの強調はロダンなどの方法と区別する。",
+        "エ": "法悦の瞬間の激しい動勢はベルニーニなどのバロック彫刻と区別する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "19世紀前半の美術",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "19": {
+      "topic": "自然に対する人物の小ささ",
+      "difficulty": "standard",
+      "focus_key": "friedrich.northern-landscape.figures-nature",
+      "focus_claim": "広大な雪の自然とごく小さな人物の比を読み、自然の精神性や人間を超える広がりを示すロマン主義の自然観と照合する",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、観察・基本事項から一つの関係を判断する。近い時代・媒体のもっともらしい誤答肢を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 128,
+          "pdf_page": 130,
+          "role": "context"
+        }
+      ],
+      "group_number": 6,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "広い雪景と小さな人物の比が、自然の大きな広がりや精神性へ結び付く。",
+        "イ": "修道院の廃墟や森が中心ではなく、雪の地形のなかに小さな人物が見える。",
+        "ウ": "船や荒波ではなく、広がる雪の自然と人物の関係である。",
+        "エ": "この画面の人物はごく小さく、大きな後ろ姿が前景を占める構成ではない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-11"
+      ],
+      "group": {
+        "title": "19世紀前半の美術",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "20": {
+      "topic": "騎乗者とロマン主義の動き",
+      "difficulty": "standard",
+      "focus_key": "gericault.trumpeters.equestrian-dynamics",
+      "focus_claim": "ジェリコーは騎兵の斜めの向き、重なり、端での切断を結び、集団の動勢を示す。同じ騎兵場面内の構成を比べる。",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 128,
+          "pdf_page": 130,
+          "role": "context"
+        }
+      ],
+      "group_number": 6,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "斜めの軸と重なる騎兵、端で切れる人物により、軍隊の動勢が凝縮される。",
+        "イ": "向きを均等な横一列へそろえず、前後の重なりと斜めの軸が働く。",
+        "ウ": "前景の馬や人物は正面の対称的記念像に整えられていない。",
+        "エ": "端の人物は切れ、前後の尺度差もあり、全身を同じ大きさへそろえない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-12"
+      ],
+      "group": {
+        "title": "19世紀前半の美術",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "21": {
+      "topic": "チューブ絵具と戸外制作",
+      "difficulty": "basic",
+      "focus_key": "oil-paint.tube.outdoor-work",
+      "focus_claim": "携帯しやすい絵具・折畳みイーゼルと戸外での油彩制作",
+      "task_type": "fundamental_fact",
+      "rubric": {
+        "knowledge_specificity": 0,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、基本事項一つまたは明瞭な観察一つで解く。細かな年号や稀な用語の暗記で難しくしない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 84,
+          "pdf_page": 86,
+          "role": "fact"
+        }
+      ],
+      "group_number": 6,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "絵具とイーゼルの携帯性が、戸外の油彩制作を助けた。",
+        "イ": "パステルの描画道具であり、油絵具とその支持台の組合せとは違う。",
+        "ウ": "水彩の道具であり、戸外で使えるが、油彩の携帯性を直接支える組合せではない。",
+        "エ": "戸外の写真撮影に関わる設備であり、油彩制作の道具ではない。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "19世紀前半の美術",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "22": {
+      "topic": "海景の地平線と大きな空",
+      "difficulty": "standard",
+      "focus_key": "courbet.calm-sea.horizon",
+      "focus_claim": "クールベの海景は、低い水平線と大きな空の面積によって静かな広がりを示す。同じ海景の面積と密度の違いで判断する。",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 130,
+          "pdf_page": 132,
+          "role": "context"
+        }
+      ],
+      "group_number": 7,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "低い水平線の上へ大きな空が広がり、静かな水平方向の空間をつくる。",
+        "イ": "水平線は中央より低く、空と海の面積は同じではない。",
+        "ウ": "海面の密な波頭の反復で画面を満たすのでなく、大きな空と穏やかな水平線が働く。",
+        "エ": "海面を主な面積にする高い水平線ではない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-13"
+      ],
+      "group": {
+        "title": "近代の都市と鑑賞",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "23": {
+      "topic": "港と手前の人物",
+      "difficulty": "standard",
+      "focus_key": "morisot.lorient.harbor-figure",
+      "focus_claim": "モリゾは、石の縁の人物を近景に置き、舟と水面を挟んだ対岸へ奥行きを広げる。同じ港内での前後の関係を比較する。",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 85,
+          "pdf_page": 87,
+          "role": "context"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 131,
+          "pdf_page": 133,
+          "role": "context"
+        }
+      ],
+      "group_number": 7,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "近い人物と石の縁、途中の舟と水面、対岸の建物が奥へつながる。",
+        "イ": "人物は舟と同じ水面上でなく、手前の石の縁に座る。",
+        "ウ": "人物は石の縁の手前側に位置し、舟と対岸にも距離の差がある。",
+        "エ": "建物は水面を隔てた対岸にあり、舟より手前へ大きく張り出さない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-14"
+      ],
+      "group": {
+        "title": "近代の都市と鑑賞",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "24": {
+      "topic": "彫刻の実素材と衣装",
+      "difficulty": "standard",
+      "focus_key": "degas.little-dancer.materials",
+      "focus_claim": "ドガの蝋の《14歳の小さな踊り子》は実物の布の衣装を組み合わせている。とくに腰から広がるスカートの薄い質感は、蝋が表面を覆う身体や胴衣などと異なる。",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 133,
+          "pdf_page": 135,
+          "role": "context"
+        }
+      ],
+      "group_number": 7,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "胴衣は身体に沿い、腰から広がるスカートとは異なる。胴衣や髪、靴には蝋が重ねられている。",
+        "イ": "実物の布によるスカートは腰から広がり、蝋の身体と異なる軽い質感を見せる。",
+        "ウ": "頭にはリボンがあるが、肩を広く包むヴェールではない。",
+        "エ": "布が左右へ広がるのは腰のスカートで、足元に広がる布ではない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-15"
+      ],
+      "group": {
+        "title": "近代の都市と鑑賞",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "25": {
+      "topic": "ブールデルとマイヨールの方向差",
+      "difficulty": "advanced",
+      "focus_key": "bourdelle.maillol.sculptural-comparison",
+      "focus_claim": "動的な力強さと静的な豊かな量感という近代彫刻の二方向",
+      "task_type": "two_step_comparison",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、二つの手掛かりの比較・照合を必要とする。稀な固有名や年号の数当てを難しさの根拠にしない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 101,
+          "pdf_page": 103,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 133,
+          "pdf_page": 135,
+          "role": "fact"
+        }
+      ],
+      "group_number": 8,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "ブールデルの力強い動勢と、マイヨールの静的な肉体の豊かな量感が対応する。",
+        "イ": "マイヨールは合うが、前者は細長い人体などで知られるジャコメッティではなくブールデルである。",
+        "ウ": "二人とも設問の対応とは異なり、動勢はブールデル、静的な肉体の量感はマイヨールに対応する。",
+        "エ": "ブールデルは合うが、後者は素材の量感を保ちながら形を純化するブランクーシではなくマイヨールである。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "世紀末の多様な制作",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "26": {
+      "topic": "タヒチの海辺と大きな色面",
+      "difficulty": "standard",
+      "focus_key": "gauguin.fatata.flat-color",
+      "focus_claim": "輪郭と平坦な色面、人物と背景の構成から総合主義の方法を読む",
+      "task_type": "visual_observation_plus_knowledge",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、観察・基本事項から一つの関係を判断する。近い時代・媒体のもっともらしい誤答肢を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 132,
+          "pdf_page": 134,
+          "role": "context"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 133,
+          "pdf_page": 135,
+          "role": "context"
+        }
+      ],
+      "group_number": 8,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "セザンヌの小さな色面の構築より、広い面と強い輪郭で場面をまとめている。",
+        "イ": "ゴッホの方向性の強い厚い筆触より、広い平坦な色面と輪郭が目立つ。",
+        "ウ": "スーラなどの点の規則的な並置ではなく、大きな色の面が中心となる。",
+        "エ": "大きく平坦な色面と輪郭、紫の地面などの非自然主義的な色が見られる。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-16"
+      ],
+      "group": {
+        "title": "世紀末の多様な制作",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "27": {
+      "topic": "象徴主義の内面的世界",
+      "difficulty": "standard",
+      "focus_key": "symbolism.dream.inner-world",
+      "focus_claim": "現実の再現より夢・不安・文学的イメージを扱う象徴主義",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、観察・基本事項から一つの関係を判断する。近い時代・媒体のもっともらしい誤答肢を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 134,
+          "pdf_page": 136,
+          "role": "fact"
+        }
+      ],
+      "group_number": 8,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "科学的な色彩分割は新印象主義の方法と区別する。",
+        "イ": "内面や暗示的なイメージを重視する方向が象徴主義に対応する。",
+        "ウ": "理性や義務の古典的な模範は新古典主義の方向と区別する。",
+        "エ": "戸外の一瞬の光は印象主義の関心と区別する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "世紀末の多様な制作",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "28": {
+      "topic": "ヴラマンクの後年の風景",
+      "difficulty": "basic",
+      "focus_key": "vlaminck.post-fauve.landscape",
+      "focus_claim": "フォーヴ時代から後年の抑制された色彩の風景へという変化",
+      "task_type": "fundamental_fact",
+      "rubric": {
+        "knowledge_specificity": 0,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、基本事項一つまたは明瞭な観察一つで解く。細かな年号や稀な用語の暗記で難しくしない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 136,
+          "pdf_page": 138,
+          "role": "fact"
+        }
+      ],
+      "group_number": 9,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "ドランは古典的な構成や伝統の研究へ向かった方向と区別する。",
+        "イ": "デュフィは明るい色や軽快な線で知られ、この後年の風景の傾向とは異なる。",
+        "ウ": "ヴラマンクは後年、抑制された暗い色の風景を展開した。",
+        "エ": "ルオーは太い輪郭をもつ人物や宗教的主題の方向と区別する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "20世紀初頭の変化",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "29": {
+      "topic": "未来派の速度と運動",
+      "difficulty": "standard",
+      "focus_key": "futurism.speed.dynamism",
+      "focus_claim": "機械文明と連続運動を肯定する未来派の表現の目的",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、観察・基本事項から一つの関係を判断する。近い時代・媒体のもっともらしい誤答肢を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 95,
+          "pdf_page": 97,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 96,
+          "pdf_page": 98,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 137,
+          "pdf_page": 139,
+          "role": "fact"
+        }
+      ],
+      "group_number": 9,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "穏やかな田園生活の写生ではなく、近代的な運動や速度へ関心を向けた。",
+        "イ": "未来派は機械文明や都市の速度、連続運動を積極的に扱った。",
+        "ウ": "古代の静的な理想を規範とする態度は、未来派の速度の重視と異なる。",
+        "エ": "夢と無意識の不意な関係はシュルレアリスムなどと区別する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "20世紀初頭の変化",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "30": {
+      "topic": "パリ派の二つの個性",
+      "difficulty": "standard",
+      "focus_key": "ecole-de-paris.modigliani.utrillo",
+      "focus_claim": "モディリアーニは人物、とりわけ肖像や裸体、ユトリロはパリの街路風景で知られる。同じエコール・ド・パリでも、各人の主な題材は異なる。",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 100,
+          "pdf_page": 102,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 101,
+          "pdf_page": 103,
+          "role": "fact"
+        }
+      ],
+      "group_number": 9,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "ユトリロは合うが、モディリアーニの主な画題は静物でなく人物・裸体である。",
+        "イ": "モディリアーニの人物・裸体とユトリロのパリ街路がそれぞれの主な画題に対応する。",
+        "ウ": "モディリアーニは合うが、ユトリロの代表的画題は静物でなく街路風景である。",
+        "エ": "二人の主な画題を逆にしている。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "20世紀初頭の変化",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "31": {
+      "topic": "ドローネーと色彩のキュビスム",
+      "difficulty": "standard",
+      "focus_key": "delaunay.color-cubism",
+      "focus_claim": "ドローネーの円形の連作では、太陽や月は写実的な天体の描写ではなく、色面の相互作用を通じて光やリズムを組織する手掛かりとなる。原色・幾何学・リズムだけならレジェにも通じるため、それらの一般的な特徴だけで両者を区別してはならない。",
+      "task_type": "historical-method-discrimination",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同時代の抽象・キュビスムの画家四人を揃え、円形の連作における太陽・月と光の色彩という具体的な探究で区別する標準問題。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 94,
+          "pdf_page": 96,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 138,
+          "pdf_page": 140,
+          "role": "context"
+        }
+      ],
+      "group_number": 9,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "モンドリアンは水平垂直と原色の関係による均衡を探究するが、ここで示した太陽・月の円形の連作とは異なる。",
+        "イ": "カンディンスキーにも色形と音楽的な響きの探究があるが、ここで示した太陽・月の円形の連作はドローネーの探究である。",
+        "ウ": "レジェには原色・円筒形・リズムの探究があるが、太陽や月を手掛かりにした円形の連作と同時対比による光の探究は、ここではドローネーに対応する。",
+        "エ": "ドローネーは太陽と月を手掛かりとする円形の連作を制作し、色面の相互作用そのものによって光と運動感を組織した。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "20世紀初頭の変化",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "32": {
+      "topic": "ブルトンとシュルレアリスム",
+      "difficulty": "standard",
+      "focus_key": "breton.surrealism.unconscious",
+      "focus_claim": "夢や無意識を重視するシュルレアリスムと1924年宣言の関係",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、観察・基本事項から一つの関係を判断する。近い時代・媒体のもっともらしい誤答肢を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 139,
+          "pdf_page": 141,
+          "role": "fact"
+        }
+      ],
+      "group_number": 10,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "ツァラはダダの活動で知られ、1924年のこの宣言の対応とは異なる。",
+        "イ": "ブルトンはシュルレアリスム宣言と、夢や無意識を重視する運動に関わる。",
+        "ウ": "マリネッティは未来派の宣言と結び付く。",
+        "エ": "ファン・ドゥースブルフはデ・ステイルの活動と区別する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "制作と教育の試み",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "33": {
+      "topic": "ジャコメッティの戦前のオブジェ",
+      "difficulty": "standard",
+      "focus_key": "giacometti.surrealist.objects.disjunction",
+      "focus_claim": "ジャコメッティの戦前のオブジェは、通常の意味や用途を切り離された形の関係に心理的な緊張を与える。単なる幾何学的秩序や自然な身体への統合とは異なる。",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 141,
+          "pdf_page": 143
+        }
+      ],
+      "group_number": 10,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "戦前のシュルレアリスム期には、切り離されたオブジェの非合理な関係が心理的な緊張をつくる。",
+        "イ": "組合せを使いやすい道具の用途へ戻すのでなく、通常の意味をずらす。",
+        "ウ": "断片の不連続や非合理な関係が重要で、自然な身体の外形へ統合して解消するのではない。",
+        "エ": "幾何学的な形があっても、客観的な比率や測定への還元を主眼としない。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "制作と教育の試み",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "34": {
+      "topic": "インターナショナル・スタイル",
+      "difficulty": "advanced",
+      "focus_key": "international-style.universal-rationalism",
+      "focus_claim": "国際様式の普遍性は、同じ左右対称の形を全ての土地へ強制することではない。規則的な反復と柔軟な非対称、面で囲む空間、装飾の抑制という原理から形式を考える。",
+      "task_type": "architectural-principles-case",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "普遍性を画一的な対称形と取り違えた展示判断を、具体的な造形原理へ照らして修正する。非対称と規則性、面と量塊、構造と付加装飾の関係を区別する発展的な適用課題。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 102,
+          "pdf_page": 104,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 141,
+          "pdf_page": 143,
+          "role": "fact"
+        }
+      ],
+      "group_number": 10,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "厚い壁の量塊や重量感より、薄い面で囲む空間としてのヴォリュームを重視する。",
+        "イ": "共通する秩序を左右対称だけへ限定し、非対称を地域的例外にする理解が誤りである。",
+        "ウ": "地域の歴史装飾を構造の反復の代わりにするのでなく、装飾の付加を抑える。",
+        "エ": "国際様式は左右対称を秩序の必須条件とせず、構造の規則的な反復と柔軟な非対称を認める。面で囲まれた空間や付加装飾の抑制も、地域を越える原理へ関わる。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "制作と教育の試み",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "35": {
+      "topic": "美術の中心と亡命",
+      "difficulty": "basic",
+      "focus_key": "postwar.new-york.exile",
+      "focus_claim": "戦争や弾圧を避けた亡命と戦後の美術の中心の移動",
+      "task_type": "fundamental_fact",
+      "rubric": {
+        "knowledge_specificity": 0,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、基本事項一つまたは明瞭な観察一つで解く。細かな年号や稀な用語の暗記で難しくしない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 104,
+          "pdf_page": 106,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 142,
+          "pdf_page": 144,
+          "role": "fact"
+        }
+      ],
+      "group_number": 11,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "アメリカへの移住は合うが、中心の移動の方向を逆にしている。",
+        "イ": "大戦前後の中心の移動と、作家の移住の背景のどちらも逆にしている。",
+        "ウ": "方向は合うが、その背景をアメリカからパリへの移住とするのは異なる。",
+        "エ": "ヨーロッパの作家の移住も背景に、戦後はニューヨークが大きな中心になった。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "戦後美術の展開",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "36": {
+      "topic": "ウォーホルの写真イメージ反復",
+      "difficulty": "standard",
+      "focus_key": "warhol.silkscreen.repetition",
+      "focus_claim": "シルクスクリーンによって写真イメージを反復する方法",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、観察・基本事項から一つの関係を判断する。近い時代・媒体のもっともらしい誤答肢を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 142,
+          "pdf_page": 144,
+          "role": "fact"
+        }
+      ],
+      "group_number": 11,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "平版のリトグラフではなく、ウォーホルの代表的な反復にはシルクスクリーンが用いられた。",
+        "イ": "写真イメージを版へ利用しやすいシルクスクリーンが、反復する制作に用いられた。",
+        "ウ": "木の凸部へインクを付けて刷る木版ではなく、写真を用いやすい孔版の方法が対応する。",
+        "エ": "金属板を腐食して溝から刷るエッチングは、この代表的な写真イメージ反復の方法とは異なる。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "戦後美術の展開",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "37": {
+      "topic": "オルデンバーグの日用品",
+      "difficulty": "standard",
+      "focus_key": "oldenburg.soft-and-enlarged-objects",
+      "focus_claim": "日用品を柔らかな素材や巨大な尺度へ変える表現",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、観察・基本事項から一つの関係を判断する。近い時代・媒体のもっともらしい誤答肢を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 106,
+          "pdf_page": 108,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 143,
+          "pdf_page": 145,
+          "role": "fact"
+        }
+      ],
+      "group_number": 11,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "絵画と実物の結合はラウシェンバーグのコンバインと区別する。",
+        "イ": "柔らかさや拡大によって日用品のあり方を変える点がオルデンバーグに合う。",
+        "ウ": "蛍光灯の光を使う方法はフレイヴィンなどと区別する。",
+        "エ": "写真のような精緻な絵画はフォト・リアリズムなどの方向と区別する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "戦後美術の展開",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "38": {
+      "topic": "アルテ・ポーヴェラ",
+      "difficulty": "standard",
+      "focus_key": "arte-povera.everyday-poor-materials",
+      "focus_claim": "アルテ・ポーヴェラは、日常の粗末な素材と、その配置・状態を作品へ取り入れる。素材を高価な外観や規格単位へ変えることを主眼とするのではない。",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 145,
+          "pdf_page": 147,
+          "role": "fact"
+        }
+      ],
+      "group_number": 11,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "素材の違いを共通の規格単位へ均すミニマルな反復とは区別する。",
+        "イ": "身近な粗末な素材を用い、配置や素材の状態自体も作品へ取り入れる。",
+        "ウ": "完成した耐久的な外観への仕上げと変化の分離が主眼ではない。",
+        "エ": "既存の道具の実用的な使いやすさに価値を戻すのでなく、芸術との関係を問い直す。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "戦後美術の展開",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "39": {
+      "topic": "パイクと映像の媒体",
+      "difficulty": "basic",
+      "focus_key": "paik.video-art.television",
+      "focus_claim": "テレビ受像機や映像を美術の媒体として用いる試み",
+      "task_type": "fundamental_fact",
+      "rubric": {
+        "knowledge_specificity": 0,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "同じ設問番号の模擬試験1を基準に、基本事項一つまたは明瞭な観察一つで解く。細かな年号や稀な用語の暗記で難しくしない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 144,
+          "pdf_page": 146,
+          "role": "fact"
+        }
+      ],
+      "group_number": 12,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "蛍光灯の光はフレイヴィンの媒体と区別する。",
+        "イ": "釣合いによる金属片の動きはカルダーのモビールなどと区別する。",
+        "ウ": "パイクはテレビ受像機や映像を美術の表現へ用いた。",
+        "エ": "商品の写真の反復印刷はウォーホルなどの方法と区別する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "作品と鑑賞の関係",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "40": {
+      "topic": "キーンホルツと生活場面",
+      "difficulty": "standard",
+      "focus_key": "kienholz.assemblage.social-scene",
+      "focus_claim": "キーンホルツのアサンブラージュは、古びた物と人の像を生活場面へ組み、社会の矛盾や不安を表す。物の分類や過去の習慣の復元だけへ還元しない。",
+      "task_type": "relationship",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元の具体焦点と難度枠を保ち、同じ主題・媒体・時期の近い説明を区別する。図版問では本文に観察結果を先渡しせず、実図の該当部分で判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 110,
+          "pdf_page": 112,
+          "role": "fact"
+        }
+      ],
+      "group_number": 12,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "規格単位へそろえた客観的反復より、生活の痕跡と社会的な意味が働く。",
+        "イ": "人の像と物の配置による場面が重要で、人体を除いた素材分類ではない。",
+        "ウ": "単なる民俗資料の正確な復元ではなく、生活場面に社会的な批判が関わる。",
+        "エ": "古い物と人体像の生活場面は、社会的な矛盾を伴う環境的な作品へ展開する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "作品と鑑賞の関係",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "41": {
+      "topic": "ロングと自然素材",
+      "difficulty": "advanced",
+      "focus_key": "long.local-materials.comparison",
+      "focus_claim": "ロングは歩行そのものを彫刻的な行為へ取り入れ、現地の自然素材を配置する。残る物の大きさだけでなく、行為・場所・時間の関係から、土地への介入を考える。",
+      "task_type": "artist-practice-case",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "作品を残る物体へ限定した解説を、ロングの歩行と現地素材の扱いから批判的に修正する。準備と制作、自然の記録と人の介入、野外と室内という近い関係を区別する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "printed_page": 109,
+          "pdf_page": 111,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "printed_page": 110,
+          "pdf_page": 112,
+          "role": "fact"
+        }
+      ],
+      "group_number": 12,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "ロングでは歩行が彫刻的行為となり、現地の素材の選択・配置も場所や時間に応答する。一時的で小さな介入も作品を成立させる。",
+        "イ": "歩行を準備に縮め、恒久的な記念物の完成形を中心とする理解が合わない。",
+        "ウ": "石を並べる人の行為や歩行を、自然の変化の記録へ置き換えている。",
+        "エ": "室内作もあるが、ここで扱う野外制作を素材搬出の準備へ還元し、現地との関係を退けるのは誤りである。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "作品と鑑賞の関係",
+        "passage": "作品や活動の記録を読み、時代、素材、主題、表現の方法を対応させて考えなさい。図版がある問いは、その画面も確かめなさい。"
+      }
+    },
+    "42": {
+      "topic": "古墳の鏡と副葬",
+      "difficulty": "basic",
+      "focus_key": "jp_bronze_mirror_burial",
+      "focus_claim": "古墳の銅鏡を鏡面と裏面文様を持つ副葬品として捉える。銅鐸の農耕祭器とは分ける。",
+      "task_type": "identify_feature",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "公式テキスト水準の基本的な形式・名称・役割を一つ識別する。図版がある場合は、はっきり確認できる特徴を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 176,
+          "printed_page": 174,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 177,
+          "printed_page": 175,
+          "role": "fact"
+        }
+      ],
+      "group_number": 13,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "銅鏡は金属製の鏡で、背面に神獣や幾何学文様を表す例がある。",
+        "イ": "鏡は甲冑の部品ではなく、反射面と装飾された背面を持つ器物である。",
+        "ウ": "これは円筒埴輪の制作と配置に近い説明で、銅鏡とは異なる。",
+        "エ": "経典の埋納という用途と木の容器を、古墳の銅鏡に取り違えている。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "古代日本の素材と形",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "43": {
+      "topic": "飛鳥から白鳳への造形の変化",
+      "difficulty": "standard",
+      "focus_key": "jp_asuka_hakuho_sculpture_facial_forms",
+      "focus_claim": "飛鳥と白鳳の金銅仏二作の正面性・対称性と、丸み・人間的表情の違いを区別する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "江戸・鎌倉等の遠い時代を消去する肢を除き、同じ古代彫刻の材料と造形・様式の対応を比べる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 178,
+          "printed_page": 176,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 181,
+          "printed_page": 179,
+          "role": "fact"
+        }
+      ],
+      "group_number": 13,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "二つの造形の特徴を逆にしている。",
+        "イ": "釈迦三尊の正面性・左右対称・古式の衣文と、白鳳の山田寺仏頭の丸みや人間的な表情が対応する。",
+        "ウ": "飛鳥の釈迦三尊と、白鳳の山田寺仏頭の様式の対応が逆。",
+        "エ": "両作は金銅仏であり、塑造と乾漆の材料の性質を当てはめた説明ではない。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "古代日本の素材と形",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "44": {
+      "topic": "木心乾漆造の構造",
+      "difficulty": "basic",
+      "focus_key": "jp_mokushin_kanshitsu_core_retained",
+      "focus_claim": "木の芯を残し、その表面へ木屎漆などを盛り上げる木心乾漆造を、心土を除く脱活乾漆造と区別する。",
+      "task_type": "identify_feature",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "公式テキスト水準の基本的な形式・名称・役割を一つ識別する。図版がある場合は、はっきり確認できる特徴を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 187,
+          "printed_page": 185,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 188,
+          "printed_page": 186,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 271,
+          "printed_page": 269,
+          "role": "fact"
+        }
+      ],
+      "group_number": 13,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "一木造は主材を彫る方法で、漆を盛って形を仕上げる点を示す名称ではない。",
+        "イ": "寄木造は複数の木材を接合する構造を示す名称である。",
+        "ウ": "脱活乾漆造は土の心を取り除く方法であり、木の心を用いる説明とは異なる。",
+        "エ": "木の心に漆の層を加えて造形を整える方法は木心乾漆造である。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "古代日本の素材と形",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "45": {
+      "topic": "仁王の阿形",
+      "difficulty": "basic",
+      "focus_key": "jp_nio_agyo_open_mouth",
+      "focus_claim": "原画像の開口を観察して、阿形・吽形という口元の形式へ結び付ける。",
+      "task_type": "visual_identify_feature",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 0,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "開口という観察を本文から削除し、同じ口元の形式の組合せから選ぶ基礎図版問題。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 193,
+          "printed_page": 191,
+          "role": "fact"
+        }
+      ],
+      "group_number": 14,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "実画像は閉口ではなく、名称も閉口に対応する吽形とは違う。",
+        "イ": "口を開く観察は合うが、開口は阿形であり、吽形ではない。",
+        "ウ": "吽形と閉口の対応は合うが、実画像の像は口を開く。",
+        "エ": "実画像は口を開き、阿形と呼ばれる形に対応する。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-17"
+      ],
+      "group": {
+        "title": "信仰と物語の造形",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "46": {
+      "topic": "作り絵の工程",
+      "difficulty": "standard",
+      "focus_key": "jp_tsukuri_e_drawing_coloring_reoutline",
+      "focus_claim": "やまと絵の作り絵の下描き・彩色層・描き起こしの線という工程と役割を区別する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "完成後に構図を決める等の不自然な工程を除き、表裏の彩色や下描き／仕上げの線という近接する制作工程を比べる標準の下限。",
+      "source_refs": [],
+      "group_number": 14,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "彩色で覆われる下描きと、仕上げに描き起こす線の役割を区別できていない。",
+        "イ": "墨のにじみや墨の濃淡だけで仕上げる方法ではなく、彩色面と描き起こす線が関わる。",
+        "ウ": "裏から透かす彩色ではなく、表の彩色と線の描き起こしによる方法。裏彩色とは区別する。",
+        "エ": "作り絵では下描きに彩色を重ね、最後に輪郭や衣文などを描き起こして画面を仕上げる。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "信仰と物語の造形",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "47": {
+      "topic": "合戦絵巻の視点と目的",
+      "difficulty": "advanced",
+      "focus_key": "jp_heiji_moko_battle_narrative_viewpoints",
+      "focus_claim": "平治の事件と後代の絵巻制作の隔たり、および蒙古襲来絵詞の竹崎季長を中心とする視点を具体的に比較する。",
+      "task_type": "integrate_or_match",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "当日実況という極端な肢を除き、事件と制作時代の関係と、同絵詞に関わる近い実在人名の違いを判断する。基準1-47の弱さに合わせた過度な難化は避ける。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 194,
+          "printed_page": 192,
+          "role": "fact"
+        }
+      ],
+      "group_number": 14,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "蒙古襲来絵詞は合うが、平治物語絵巻は1159の事件と同じ時代の制作ではなく、後の鎌倉期に絵巻化された。",
+        "イ": "平治物語絵巻の制作時期と、蒙古襲来絵詞の中心人物の両方が違う。",
+        "ウ": "平治の時期は合うが、蒙古襲来絵詞の中心は肥後の御家人・竹崎季長。安達泰盛は季長との関わりで登場する。",
+        "エ": "過去の乱を後代に物語化する平治物語絵巻と、竹崎季長の戦いと事績を伝える蒙古襲来絵詞の違いに合う。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "信仰と物語の造形",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "48": {
+      "topic": "浄土を表す阿弥陀堂",
+      "difficulty": "standard",
+      "focus_key": "jp_byodoin_chusonji_space_and_devotion",
+      "focus_claim": "鳳凰堂の池・堂と来迎、金色堂の金・螺鈿の荘厳という平安阿弥陀堂の異なる空間表現を比較する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "無装飾の禅堂や崖の洞穴という遠い肢を除き、実在する寺院・仏堂の構成と宗教表現の近接する取り違えへ改める。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 189,
+          "printed_page": 187,
+          "role": "fact"
+        }
+      ],
+      "group_number": 15,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "鳳凰堂は阿字池に臨み、堂内の来迎の絵も浄土への願いを表す。金色堂は金や螺鈿等を用いる華麗な荘厳が特徴。",
+        "イ": "金色堂の堂内荘厳と、鳳凰堂の池・翼廊の構成を入れ替えている。",
+        "ウ": "鳳凰堂は合うが、金色堂を九体阿弥陀堂のような横長の構成とする点が違う。",
+        "エ": "金色堂は合うが、門・仏殿・法堂の軸線は禅宗伽藍の説明で、鳳凰堂の阿弥陀堂の構成とは異なる。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "中世から近世への表現",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "49": {
+      "topic": "禅僧の肖像彫刻",
+      "difficulty": "standard",
+      "focus_key": "jp_hotto_enmyo_chinso_individual_likeness",
+      "focus_claim": "顔貌の個性と抑えた衣体を原画で比較し、禅僧肖像の師を伝える役割へ結び付ける。",
+      "task_type": "visual_relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "師の名は資料情報として与えるが、顔・衣体の観察結果は与えない。個別の面貌と抑えた衣体、実在の師を伝える肖像を、同じ僧像の近い説明から照合する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 196,
+          "printed_page": 194,
+          "role": "fact"
+        }
+      ],
+      "group_number": 15,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "顔のしわや骨格の個性に力点を置き、衣体を抑えて、実在の禅僧の面影を伝える肖像となる。",
+        "イ": "衣体と役割は合うが、顔は若く左右対称な理想像ではなく、老いた個別の面貌が強い。",
+        "ウ": "顔と衣体の観察は近いが、実在の鎌倉期の法燈円明国師の肖像で、伝説の祖師の想像像ではない。",
+        "エ": "顔の個性は合うが、衣体は顔と同じ密度の細密な描写ではなく、抑えた表現。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-18"
+      ],
+      "group": {
+        "title": "中世から近世への表現",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "50": {
+      "topic": "城郭御殿の室用途と障壁画の対応",
+      "difficulty": "advanced",
+      "focus_key": "jp_nijo_palace_audience_private_rooms_tanyu",
+      "focus_claim": "城郭の御殿における公的な対面と私的な生活の役割を、二条城二の丸御殿の大広間・白書院の具体例と、大広間の障壁画を担当した狩野探幽に対応させる。",
+      "task_type": "integrate_or_match",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "天守／御殿／城下町という一般語の分類から、特定の御殿の室用途と絵画の作者の照合へ改めた。大広間と黒書院はいずれも対面に用いられるため、最も公的な対面所という階層を知る必要がある。白書院の私的用途と、大広間の探幽／黒書院の尚信という近い作者の区別も必要で、本文は部屋名と作者の答えを与えない。模試1-50の特定建築の各部分の性格に関する知識負荷を基準とする。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 206,
+          "printed_page": 204,
+          "role": "fact"
+        }
+      ],
+      "group_number": 15,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "大広間の一の間・二の間は御殿で最も公的な対面所で、障壁画は狩野探幽の筆。白書院は御座の間と呼ばれ、居間・寝室としての私的用途に対応する。",
+        "イ": "A・Bの対応は正しいが、大広間の障壁画を描いたのは狩野探幽。尚信はその弟で、黒書院の襖絵を担当したとされる。",
+        "ウ": "黒書院も公式の対面に用いられたが、大広間に次ぐ場である。Aの最も公的な対面所は大広間を指す。白書院と探幽の対応は正しい。",
+        "エ": "黒書院は大広間に次ぐ公式の対面の場であり、居間・寝室とされた御座の間は白書院を指す。Aと絵師の対応は正しい。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "中世から近世への表現",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "51": {
+      "topic": "詩画軸の画面の分担",
+      "difficulty": "basic",
+      "focus_key": "jp_shigajiku_pictorial_lower_poetic_upper",
+      "focus_claim": "上部の文字と下部の観音像の配置、および観音が持つ籠を読み取る。",
+      "task_type": "visual_identify_feature",
+      "rubric": {
+        "knowledge_specificity": 0,
+        "inference_steps": 1,
+        "distractor_proximity": 1,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "構成名を本文で与えず、上下配置と持物の二つの基礎的な観察を求める。名称や作者の追加暗記は必要としない。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 199,
+          "printed_page": 197,
+          "role": "fact"
+        }
+      ],
+      "group_number": 15,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "上部は文字の賛、下部は籠を手に立つ魚籃観音である。",
+        "イ": "上下の配置は合うが、手に持つのは開いた巻物ではなく籠である。",
+        "ウ": "上下の配置と持物の両方が異なる。",
+        "エ": "持物は合うが、人物と文字の上下が逆である。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-19"
+      ],
+      "group": {
+        "title": "中世から近世への表現",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "52": {
+      "topic": "山楽の墨画と古典継承",
+      "difficulty": "standard",
+      "focus_key": "jp_sanraku_waterfowl_zen_ink_tradition",
+      "focus_claim": "水鳥・芦・水辺と墨の線や濃淡を原画から読み、狩野派の漢画花鳥の障壁画への展開へ結び付ける。",
+      "task_type": "visual_relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "水墨・水鳥という観察を本文から外し、近世の紙の屏風・障壁画の近い描写法の候補へそろえる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 209,
+          "printed_page": 207,
+          "role": "fact"
+        }
+      ],
+      "group_number": 15,
+      "group_question_number": 5,
+      "choice_reasons": {
+        "ア": "彩色の細密な羽や左右対称の充填ではなく、墨の濃淡と疎密をもつ画面である。",
+        "イ": "芦や水鳥を墨の線・濃淡で描く屏風で、狩野山楽による漢画の花鳥画の継承に対応する。",
+        "ウ": "図は金地の彩色文様を反復する画面ではなく、水墨で芦や鴈を描く。",
+        "エ": "図は上半を大きな漢詩で占める構成ではなく、芦・水鳥・水辺の連続する屏風の画面。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-20"
+      ],
+      "group": {
+        "title": "中世から近世への表現",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "53": {
+      "topic": "祭礼と年中行事の絵画",
+      "difficulty": "standard",
+      "focus_key": "jp_kamo_racing_annual_event_movements",
+      "focus_claim": "賀茂競馬の走る馬・観客・社の配置を実見し、同じ近世の馬や人々を描く行事から区別する。",
+      "task_type": "visual_relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "行事名と観客を本文で先に教えず、馬と観客の動作・空間の使い方を図版から判断する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 205,
+          "printed_page": 203,
+          "role": "fact"
+        }
+      ],
+      "group_number": 16,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "一列の行列ではなく、走る馬とその周囲に集まった観客が描かれる。",
+        "イ": "馬上の射手が道沿いの的へ弓を構える構成ではなく、競馬と見物の場面。",
+        "ウ": "賀茂の競馬の場面で、走る馬と周囲の観客、社の建物の配置が一致する。",
+        "エ": "鹿を追う山野ではなく、社の建物と観客に囲まれた競馬の場。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-21"
+      ],
+      "group": {
+        "title": "近世の制作と生活",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "54": {
+      "topic": "蔀戸の建具",
+      "difficulty": "basic",
+      "focus_key": "jp_shitomido_lifting_panel",
+      "focus_claim": "上方へ跳ね上げる格子の戸を蔀戸として見分ける。",
+      "task_type": "identify_feature",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "公式テキスト水準の基本的な形式・名称・役割を一つ識別する。図版がある場合は、はっきり確認できる特徴を用いる。",
+      "source_refs": [],
+      "group_number": 16,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "蔀戸は上から吊り、跳ね上げて開閉する建具である。",
+        "イ": "襖は溝に沿って引く建具で、跳ね上げる方式ではない。",
+        "ウ": "舞良戸は板に横桟を付けた戸で、通常は引戸として用いる。",
+        "エ": "障子は引違いなどで開閉する建具で、この跳ね上げ式の説明とは異なる。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "近世の制作と生活",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "55": {
+      "topic": "芦雪の動物と余白・視線",
+      "difficulty": "standard",
+      "focus_key": "jp_rosetsu_animal_attention_space_narrative",
+      "focus_claim": "仔犬・菊・雀を下部寄りにまとめる余白の構成と、蘆雪が応挙に学んだ具体的な師弟関係を組み合わせる。",
+      "task_type": "visual_relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "配置一属性だけでは、同じ観察で師を変えた肢を除けない。作者名は与え、画面の観察と江戸絵画の師弟関係を結ぶ標準負荷とする。",
+      "source_refs": [],
+      "group_number": 17,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "師の対応は合うが、画面を上端まで密に埋める構成ではない。",
+        "イ": "配置と師の対応の両方が異なる。",
+        "ウ": "仔犬や菊・雀を下部寄りにまとめ、上方に広い空間を残す。蘆雪は円山応挙の弟子である。",
+        "エ": "配置の観察は合うが、蘆雪の師として対応させるのは円山応挙である。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-22"
+      ],
+      "group": {
+        "title": "江戸時代の絵画と出版",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "56": {
+      "topic": "人物観察と実景写生",
+      "difficulty": "advanced",
+      "focus_key": "jp_kazan_buncho_portrait_vs_travel_sketch",
+      "focus_claim": "崋山の個人肖像と文晁の海岸巡視の実景記録を、実在人・実景の観察と制作の具体的な契機から比較する。",
+      "task_type": "integrate_or_match",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "実在／架空だけの区分をやめ、近世の肖像・真景・中国文学の画題の差と、定信の巡視という固有の制作契機を照合する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 211,
+          "printed_page": 209,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 215,
+          "printed_page": 213,
+          "role": "fact"
+        }
+      ],
+      "group_number": 17,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "崋山は合うが、公余探勝図は中国文学の赤壁の画題ではなく、巡視に同行した具体的な土地の記録。",
+        "イ": "二作品の制作の背景と主題を逆にしている。",
+        "ウ": "鷹見泉石という実在人を観察した崋山の肖像と、定信の相模・伊豆沿岸巡視に同行した文晁の実景記録が対応する。",
+        "エ": "文晁は合うが、鷹見泉石像は型の高士を示す図ではなく、実在の人物の面貌と個性を捉える肖像。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "江戸時代の絵画と出版",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "57": {
+      "topic": "武者絵の主題",
+      "difficulty": "basic",
+      "focus_key": "jp_mushae_warriors_heroic_tales",
+      "focus_claim": "武器を構え刺青を見せる人物の動きと記名を観察し、水滸伝の英雄を描く武者絵として識別する。甲冑を着ているとは読まない。",
+      "task_type": "visual_identify_feature",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 1
+      },
+      "difficulty_reason": "公式テキスト水準の基本的な形式・名称・役割を一つ識別する。図版がある場合は、はっきり確認できる特徴を用いる。",
+      "source_refs": [],
+      "group_number": 17,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "舞台上の特定の役者を描いたものではなく、物語の英雄そのものを主題としている。",
+        "イ": "特定の土地の景観を紹介することが中心ではない。",
+        "ウ": "歴史や物語の武人・英雄を主題とする武者絵に分類できる。",
+        "エ": "花や鳥を中心とする主題ではない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-23"
+      ],
+      "group": {
+        "title": "江戸時代の絵画と出版",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "58": {
+      "topic": "役者の表情と指の誇張",
+      "difficulty": "standard",
+      "focus_key": "jp_sharaku_actor_expression_hands_psychology",
+      "focus_claim": "役者の眼・口元・手の具体的な強調を実見して、個性的な顔と緊張した身振りへ結び付ける。",
+      "task_type": "visual_relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "作者名だけで極端な誤答を消す構成から、顔・手・線と面の近い観察記述を比較する構成へ改める。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 212,
+          "printed_page": 210,
+          "role": "fact"
+        }
+      ],
+      "group_number": 17,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "滑らかな連続陰影の肉付けより、線と面の強い形が印象を作る。",
+        "イ": "小さく左右対称の穏やかな面貌ではなく、眼・口元に強い特徴がある。",
+        "ウ": "両手と顔の表現が目立ち、手を袖の中へ隠してはいない。",
+        "エ": "眼、口元、手の強い形が、写楽の役者の個性と身振りを伝える。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-24"
+      ],
+      "group": {
+        "title": "江戸時代の絵画と出版",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "59": {
+      "topic": "藤田の画肌と安井・小出の代表作",
+      "difficulty": "standard",
+      "focus_key": "jp_foujita_surface_yasui_koide_specific_works",
+      "focus_claim": "藤田の乳白色の下地と細い墨線、安井の金蓉、小出のNの家族を対応させる",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "近接する作家・技法・主題や活動を比較し、単なる時代の一致だけでなく具体的な特徴を対応させる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 220,
+          "printed_page": 218,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 225,
+          "printed_page": 223,
+          "role": "fact"
+        }
+      ],
+      "group_number": 18,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "藤田の技法も、安井と小出の代表作の対応も誤る。",
+        "イ": "代表作は合うが、藤田を浅井忠のような土色の農村画で説明するのは異なる。",
+        "ウ": "藤田の技法と、安井・小出の代表作を正しく対応させる。",
+        "エ": "藤田は合うが、金蓉は安井、Nの家族は小出であり逆になっている。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "近代日本の制度と制作",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "60": {
+      "topic": "速水御舟の写実と装飾",
+      "difficulty": "standard",
+      "focus_key": "jp_gyoshu_observation_decorative_transformation",
+      "focus_claim": "御舟《名樹散椿》の対象観察と装飾的な再構成を、近代の近い制作姿勢から区別する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "観察と装飾という答えを本文から除き、実在する筆墨・ぼかし・色の分割等の近接表現と比較する。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 224,
+          "printed_page": 222,
+          "role": "fact"
+        }
+      ],
+      "group_number": 18,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "色を小さな筆触へ分ける印象派・新印象派的な方向で、当作の日本画の処理ではない。",
+        "イ": "御舟は対象の観察と、形・配置や金地等による画面の装飾的な再構成を結び付けた。",
+        "ウ": "文人画・水墨の筆墨と古典の型を中心とする説明で、名樹散椿の制作姿勢とは違う。",
+        "エ": "輪郭をぼかして大気へ溶かす朦朧体の説明に近く、名樹散椿の観察と装飾的な構成とは違う。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "近代日本の制度と制作",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "61": {
+      "topic": "団体の部門と継承を読む",
+      "difficulty": "advanced",
+      "focus_key": "jp_records_kokuga_japanese_oil_branch_split",
+      "focus_claim": "国画創作協会の日本画第1部・洋画第2部と、第1部解散後の第2部の国画会への存続を区別する。",
+      "task_type": "integrate_or_match",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "年表を本文で全て与える形式をやめ、部門の媒体と解散／存続の具体的な制度史を判断する。基準1-62の1918団体名同定は主たる正答にしない。",
+      "source_refs": [],
+      "group_number": 18,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "解散した部と存続した部が逆。日本画の第1部が解散し、洋画の第2部が国画会となった。",
+        "イ": "両部を統合したのではなく、第1部解散後の第2部の存続による。",
+        "ウ": "1918創立の日本画の第1部へ1925に洋画の第2部が加わり、1928に第1部が解散、第2部が国画会として存続した。",
+        "エ": "第1部と第2部の媒体を逆にしている。第1部が日本画、第2部が洋画。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "近代日本の制度と制作",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "62": {
+      "topic": "独立美術協会の結成",
+      "difficulty": "basic",
+      "focus_key": "jp_dokuritsu_modern_color_association",
+      "focus_claim": "里見勝蔵や林武らの活動から独立美術協会を見分ける。",
+      "task_type": "identify_feature",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "公式テキスト水準の基本的な形式・名称・役割を一つ識別する。図版がある場合は、はっきり確認できる特徴を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 225,
+          "printed_page": 223,
+          "role": "fact"
+        }
+      ],
+      "group_number": 18,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "白馬会は明治期の黒田清輝らの団体。",
+        "イ": "青龍社は川端龍子の日本画の団体。",
+        "ウ": "国画創作協会は1918年に京都の日本画家たちが創立した団体。",
+        "エ": "里見勝蔵や林武らが結成した独立美術協会に対応する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "近代日本の制度と制作",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "63": {
+      "topic": "自由美術家協会と抽象",
+      "difficulty": "standard",
+      "focus_key": "jp_jiyu_bijutsuka_prewar_abstraction",
+      "focus_claim": "自由美術家協会を、長谷川三郎や村井正誠らが抽象を展開した戦前の活動として理解する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "近接する作家・技法・主題や活動を比較し、単なる時代の一致だけでなく具体的な特徴を対応させる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 223,
+          "printed_page": 221,
+          "role": "fact"
+        },
+        {
+          "source": "textbook",
+          "pdf_page": 224,
+          "printed_page": 222,
+          "role": "fact"
+        }
+      ],
+      "group_number": 18,
+      "group_question_number": 5,
+      "choice_reasons": {
+        "ア": "国画創作協会の創立に関わる説明である。",
+        "イ": "青龍社の活動に関わる説明である。",
+        "ウ": "初期の自由美術家協会は抽象表現を追求する画家たちの活動と関わる。",
+        "エ": "白馬会の説明で、自由美術家協会の初期とは異なる。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "近代日本の制度と制作",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "64": {
+      "topic": "戦後の日本画革新と個人制作",
+      "difficulty": "standard",
+      "focus_key": "jp_panreal_demokrato_medium_independence",
+      "focus_claim": "パンリアルの日本画の素材・表現の刷新と、デモクラートの審査制度に拠らぬ自由な活動を区別する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "古画模写だけ等の極端な制限を除き、在野活動の媒体と制度への姿勢を実在する近接運動と比べる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 227,
+          "printed_page": 225,
+          "role": "fact"
+        }
+      ],
+      "group_number": 19,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "パンリアルは日本画の素材・表現の刷新、デモクラートは既成公募展の審査等に拠らない民主的で自由な活動を志向した。",
+        "イ": "パンリアルは合うが、デモクラートを陶芸の走泥社に近い活動へ取り違えている。",
+        "ウ": "デモクラートは合うが、陶芸を器から解放する方向は走泥社等に近く、パンリアルの日本画刷新とは異なる。",
+        "エ": "パンリアルを陶芸の活動へ取り違え、デモクラートを日本画の素材刷新に限定している。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "戦後日本の美術活動",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "65": {
+      "topic": "高松次郎と描かれた影",
+      "difficulty": "standard",
+      "focus_key": "jp_takamatsu_shadow_absence_representation",
+      "focus_claim": "高松の描かれた影と主の不在という具体的な仕組みを、実際の影や実物の並置とは異なる存在・認識の問題へ結び付ける。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "不在と描かれた影という答えを本文から除き、同時代の表象・実物・光・素材を扱う近い仕組みと比較する。",
+      "source_refs": [],
+      "group_number": 19,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "写真と同じ実在人物を並置する仕組みではない。",
+        "イ": "影形の板の重量・接地を示す立体作品ではなく、描かれた影の表象を通して存在を問う。",
+        "ウ": "高松の《影》は描かれた影であり、その主の不在と、残る像から存在・認識を問い直す。",
+        "エ": "会場の光で毎回生成する実際の影の記録ではなく、主がいない描かれた影。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "戦後日本の美術活動",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "66": {
+      "topic": "東山魁夷と戦後の風景",
+      "difficulty": "basic",
+      "focus_key": "jp_higashiyama_postwar_quiet_landscape",
+      "focus_claim": "東山魁夷を、静かな風景を主題とする戦後日本画の画家として見分ける。",
+      "task_type": "identify_feature",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "公式テキスト水準の基本的な形式・名称・役割を一つ識別する。図版がある場合は、はっきり確認できる特徴を用いる。",
+      "source_refs": [
+        {
+          "source": "textbook",
+          "pdf_page": 231,
+          "printed_page": 229,
+          "role": "fact"
+        }
+      ],
+      "group_number": 19,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "川端龍子は会場芸術の大画面で知られるが、この障壁画の作者ではない。",
+        "イ": "横山大観は近代日本画の革新を担ったが、この障壁画の作者ではない。",
+        "ウ": "棟方志功は主に板画で知られ、この障壁画の作者ではない。",
+        "エ": "東山魁夷は静かな風景画を追求し、唐招提寺御影堂の障壁画を制作した。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "戦後日本の美術活動",
+        "passage": "日本の作品と美術の活動を取り上げる。作品の形や材料、制作と受容の記録を、問われた事項へ対応させて考えなさい。"
+      }
+    },
+    "67": {
+      "topic": "消して描くアニメーション",
+      "difficulty": "standard",
+      "focus_key": "kentridge_charcoal_erasure_v2",
+      "focus_claim": "ケントリッジの同じ紙の木炭画を描き消す過程と残像を、別コマ・切り紙・完成画反復と区別する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "制作過程を本文で説明してから換言させる形をやめ、同分野のアニメーション技法を区別する知識にする。",
+      "source_refs": [],
+      "group_number": 20,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "セルを使う方式への置換である。",
+        "イ": "同じ紙を描き消す反復が、消し跡を含む変化としてアニメーションに残る。",
+        "ウ": "切り紙を動かす方式への置換である。",
+        "エ": "独立した完成素描の反復と、同じ紙での変化の記録を混同している。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "現代美術の媒体と批評",
+        "passage": "現代美術の実践と批評について、媒体、制作の過程、鑑賞や社会との関係に注目して考えなさい。"
+      }
+    },
+    "68": {
+      "topic": "標本を用いる彫刻",
+      "difficulty": "standard",
+      "focus_key": "hirst_formaldehyde_tank",
+      "focus_claim": "ハーストは生物標本とホルマリンを用いて生と死を扱う",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "図版または資料の特徴と近接する用語を照合する。",
+      "source_refs": [],
+      "group_number": 20,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "解剖した骨を分類する比較標本という提示方法ではない。",
+        "イ": "樹脂の複製ではなく保存液に入れた生物の身体を提示するため、素材・主題の対応が異なる。",
+        "ウ": "保存された生物の実物を鑑賞の対象へ置き、生と死の関係を扱う。",
+        "エ": "生きた個体の飼育や行動観察を継続する展示ではない。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "現代美術の媒体と批評",
+        "passage": "現代美術の実践と批評について、媒体、制作の過程、鑑賞や社会との関係に注目して考えなさい。"
+      }
+    },
+    "69": {
+      "topic": "入力に応じて変わる作品",
+      "difficulty": "advanced",
+      "focus_key": "interactive_feedback_v2",
+      "focus_claim": "ショー《レジブル・シティ》の文字の仮想都市と自転車入力を、上映・共同編集・現実の歩行から区別する。",
+      "task_type": "integrate_or_match",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "仕組みを本文で教えず、作品固有の知識とインタラクティヴな表現の理解を要する。装置・参加・都市という近い要素を共有する誤答を置く。",
+      "source_refs": [],
+      "group_number": 20,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "現実の都市で行う歩行と、操作される仮想環境を混同している。",
+        "イ": "自転車という装置は近いが、操作が表示の経路・速さへ影響する点を外す。",
+        "ウ": "文字の都市を参加者の共同編集ネットワークへ置き換えている。",
+        "エ": "《レジブル・シティ》では自転車の方向・速さの操作で文字の都市を移動し、入力と表示が連動する。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "現代美術の媒体と批評",
+        "passage": "現代美術の実践と批評について、媒体、制作の過程、鑑賞や社会との関係に注目して考えなさい。"
+      }
+    },
+    "70": {
+      "topic": "デザインから絵画への展開",
+      "difficulty": "standard",
+      "focus_key": "yokoo_painter_turn",
+      "focus_claim": "横尾忠則の1980年代初頭の画家への転身を活動領域の変化として整理する",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "図版または資料の特徴と近接する用語を照合する。",
+      "source_refs": [],
+      "group_number": 21,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "大竹伸朗はスクラップブックや絵画などで知られるが、この経歴の人物ではない。",
+        "イ": "横尾忠則はグラフィックデザインでの活動を経て、1980年代初頭に画家宣言を行い絵画を展開した。",
+        "ウ": "田名網敬一はデザインと美術を横断したが、問われた画家宣言の経歴は横尾忠則である。",
+        "エ": "岡本太郎にも多様な表現活動があるが、問われた画家宣言の経歴には対応しない。"
+      },
+      "image_required": false,
+      "image_ids": []
+    },
+    "71": {
+      "topic": "子どもの像と視線",
+      "difficulty": "basic",
+      "focus_key": "nara_defiant_children",
+      "focus_claim": "奈良美智の子どもや動物の像に親しさと反抗的な視線が同居する",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 0,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "分野の基本となる一つの関係を識別する。",
+      "source_refs": [],
+      "group_number": 22,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "大竹伸朗はスクラップブックなど多様な集積的制作を行う。",
+        "イ": "子どもや動物の像と、その複雑な表情が奈良美智に対応する。",
+        "ウ": "舟越桂は木彫の半身像などで知られる。",
+        "エ": "宮島達男は数字のカウンターなどを用いる。"
+      },
+      "image_required": false,
+      "image_ids": []
+    },
+    "72": {
+      "topic": "凹凸を紙へ写す資料",
+      "difficulty": "basic",
+      "focus_key": "rubbing_relief_transfer",
+      "focus_claim": "拓本は版や石などの凹凸を紙と墨を用いて写し取る資料である",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 0,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "分野の基本となる一つの関係を識別する。",
+      "source_refs": [],
+      "group_number": 23,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "模刻は原本をもとに文字などを別の面へ彫る方法で、紙上へ写し取った資料の名ではない。",
+        "イ": "臨書は手本を見て書くことであり、石面の凹凸を直接紙へ写し取る方法ではない。",
+        "ウ": "双鉤填墨は文字の輪郭を写して内部を墨で埋める方法で、石面の凹凸を摺り取る拓本とは異なる。",
+        "エ": "拓本は刻まれた面の形を、紙と墨などを使って写し取る資料である。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "アジアの書画と工芸",
+        "passage": "アジアの造形と文化の交流について、材料、主題、表現や資料の役割を照合して考えなさい。"
+      }
+    },
+    "73": {
+      "topic": "粉彩の上絵と柔らかな色",
+      "difficulty": "standard",
+      "focus_key": "famille_rose_overglaze_v2",
+      "focus_claim": "雍正期の粉彩上絵と桃・花の実際の色の階調を対応させる。",
+      "task_type": "visual_relate_features",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "本文の上絵・階調という答えの定義を削り、図の観察と青花・粉彩の技法知識を必要にする。",
+      "source_refs": [],
+      "group_number": 23,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "粉彩は合うが、桃色は輪郭線だけでなく実の面へ広がり、花弁にも彩色がある。",
+        "イ": "粉彩の上絵具により桃に桃色と淡緑の移り変わりがあり、花にも柔らかな色の濃淡が見える。",
+        "ウ": "実・花の彩色の観察と技法分類の両方を誤る。",
+        "エ": "観察は合うが、桃色等の上絵をコバルトの青い釉下彩である青花へ取り違える。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-25"
+      ],
+      "group": {
+        "title": "アジアの書画と工芸",
+        "passage": "アジアの造形と文化の交流について、材料、主題、表現や資料の役割を照合して考えなさい。"
+      }
+    },
+    "74": {
+      "topic": "長崎に伝わる花鳥表現",
+      "difficulty": "standard",
+      "focus_key": "shen_nanpin_nagasaki_v2",
+      "focus_claim": "沈南蘋の1731年来日と花鳥画の伝播を、同じ来航画人の中から識別する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "元・唐等の遠い時代の人物をやめ、近世の交流に関わる画人に肢をそろえる。",
+      "source_refs": [
+        {
+          "source": "2級公式問題集",
+          "printed_page": 183,
+          "pdf_page": 185,
+          "role": "分野・基礎事項の確認（問題本文は新規作成）"
+        }
+      ],
+      "group_number": 23,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "伊孚九も来航画人だが、この年と花鳥画の伝播に該当する人物ではない。",
+        "イ": "費漢源も中国画を伝えた画人だが、本文に対応するのは沈南蘋である。",
+        "ウ": "沈南蘋は1731年に長崎へ来航し、精緻な花鳥画の画法を伝えた。",
+        "エ": "張秋穀も長崎との交流に関わる画人だが、本文の人物ではない。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "アジアの書画と工芸",
+        "passage": "アジアの造形と文化の交流について、材料、主題、表現や資料の役割を照合して考えなさい。"
+      }
+    },
+    "75": {
+      "topic": "金属に嵌める文様",
+      "difficulty": "standard",
+      "focus_key": "metal_inlay_v2",
+      "focus_claim": "金属象嵌の嵌入を、鍍金の表面被覆と区別し、成形と加飾の工程も整理する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "単一の動詞と用語だけの対応から、同じ金属を使う二つの加飾を近い工程で区別する。",
+      "source_refs": [],
+      "group_number": 24,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "嵌入と表面の被覆を逆にしている。",
+        "イ": "Bは溶融金属を型へ流して器体をつくる工程ではない。",
+        "ウ": "異金属を溝へ嵌めるのが象嵌で、表面を金で覆うのが鍍金である。",
+        "エ": "彫る工程を含んでもAの加飾は嵌入が決め手で、Bも打ち延ばす成形ではない。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "工芸の技法とデザイン",
+        "passage": "工芸とデザインを取り上げる。制作の工程、材料、形や文様を、資料の記録と区別しながら考えなさい。"
+      }
+    },
+    "76": {
+      "topic": "括って防ぐ染色",
+      "difficulty": "standard",
+      "focus_key": "kanoko_nuishime_shibori_methods",
+      "focus_claim": "鹿の子絞の折って括る工程と縫締絞の縫い糸を締める工程を、板締絞と区別する。",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "布を締めると染まりにくいという一般推論だけにせず、同じ絞りの中の具体的な技法名と工程を対応させる。",
+      "source_refs": [],
+      "group_number": 24,
+      "group_question_number": 2,
+      "choice_reasons": {
+        "ア": "括る点の模様と、縫い目を利用する線の模様の技法名を逆にしている。",
+        "イ": "Bは合うが、Aは板で挟む工程でなく、四つ折りの角を括る工程である。",
+        "ウ": "鹿の子絞は点の部分を折って括り、縫締絞は縫い糸で布を締めて模様をつくる。",
+        "エ": "Aは合うが、Bは板で挟む防染ではなく縫い糸を締める方法である。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "工芸の技法とデザイン",
+        "passage": "工芸とデザインを取り上げる。制作の工程、材料、形や文様を、資料の記録と区別しながら考えなさい。"
+      }
+    },
+    "77": {
+      "topic": "生活全体を設計する工房",
+      "difficulty": "standard",
+      "focus_key": "wiener_werkstatte1903",
+      "focus_claim": "ホフマンとモーザーらのウィーン工房が生活を統一的に設計する",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 1,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "図版または資料の特徴と近接する用語を照合する。",
+      "source_refs": [],
+      "group_number": 24,
+      "group_question_number": 3,
+      "choice_reasons": {
+        "ア": "工作連盟の設立は1907年で、設問の組織とは異なる。",
+        "イ": "設立年と創設者、生活全体へのデザインが対応する。",
+        "ウ": "バウハウスは1919年の設立である。",
+        "エ": "グラスゴー派はマッキントッシュらを中心とする。"
+      },
+      "image_required": false,
+      "image_ids": [],
+      "group": {
+        "title": "工芸の技法とデザイン",
+        "passage": "工芸とデザインを取り上げる。制作の工程、材料、形や文様を、資料の記録と区別しながら考えなさい。"
+      }
+    },
+    "78": {
+      "topic": "被せガラスを彫る装飾",
+      "difficulty": "standard",
+      "focus_key": "galle_cameo_glass_v2",
+      "focus_claim": "ガレの地の緑系の筋とピンクの文様の実際の色関係を、色層を彫り分けるカメオガラスの知識と結合する。",
+      "task_type": "visual_relate_features",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "カメオという技法名を本文で与えて定義を選ばせず、実際の地と文様の色の観察、層を彫る装飾の知識を独立に照合する。",
+      "source_refs": [],
+      "group_number": 24,
+      "group_question_number": 4,
+      "choice_reasons": {
+        "ア": "色の関係と装飾工程の両方を取り違える。",
+        "イ": "彫り分ける工程は合うが、地の筋と文様の色を逆にしている。",
+        "ウ": "色の観察は合うが、表面の段差を平らな絵具の重なりへ取り違える。",
+        "エ": "緑系の筋のある地と淡いピンクの有翼の姿・花が見え、色層を彫り分けるカメオ装飾に対応する。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-26"
+      ],
+      "group": {
+        "title": "工芸の技法とデザイン",
+        "passage": "工芸とデザインを取り上げる。制作の工程、材料、形や文様を、資料の記録と区別しながら考えなさい。"
+      }
+    },
+    "79": {
+      "topic": "近代美術館と多様な媒体",
+      "difficulty": "standard",
+      "focus_key": "moma1929_media_collection",
+      "focus_claim": "MoMAは1929年に開館し絵画彫刻以外の媒体も近代美術として扱う",
+      "task_type": "relate_features",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "図版または資料の特徴と近接する用語を照合する。",
+      "source_refs": [
+        {
+          "source": "2級公式問題集",
+          "printed_page": 191,
+          "pdf_page": 193,
+          "role": "分野・基礎事項の確認（問題本文は新規作成）"
+        }
+      ],
+      "group_number": 25,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "これは総合博物館の形成に近く、1929年開館のMoMAの性格には対応しない。",
+        "イ": "MoMAは写真・映画・建築・デザインなどへ領域を広げ、近現代の表現を収集・研究してきた。",
+        "ウ": "これはオルセーなどの収集方針に近く、MoMAの媒体を横断する近現代美術の説明ではない。",
+        "エ": "これはV&Aなど装飾美術・デザインの歴史を扱う館に近く、問われたMoMAの展開とは異なる。"
+      },
+      "image_required": false,
+      "image_ids": []
+    },
+    "80": {
+      "topic": "戦後の国際展の出発点",
+      "difficulty": "advanced",
+      "focus_key": "documenta1955_postwar_v2",
+      "focus_claim": "ドクメンタの戦後カッセルでの近代美術再評価と、1972年以来の5年周期を結合する。",
+      "task_type": "integrate_or_match",
+      "rubric": {
+        "knowledge_specificity": 2,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 0
+      },
+      "difficulty_reason": "成立史と周期の実知識を要し、ヴェネツィアという地名との機械的交換をやめる。参照は公式問題集印刷195頁/PDF197頁へ修正する。",
+      "source_refs": [
+        {
+          "source": "2級公式問題集",
+          "printed_page": 195,
+          "pdf_page": 197,
+          "role": "分野・基礎事項の確認（問題本文は新規作成）"
+        }
+      ],
+      "group_number": 26,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "国別館方式を中心に発展したヴェネツィア等の制度と、ドクメンタの初回企画を取り違える。",
+        "イ": "成立背景と周期の両方を取り違える。",
+        "ウ": "ドクメンタは1955年の戦後ドイツで近代美術を再紹介する背景をもち、1972年から5年周期が定着した。",
+        "エ": "成立背景は合うが周期は4年でなく5年である。"
+      },
+      "image_required": false,
+      "image_ids": []
+    },
+    "81": {
+      "topic": "身体の接触と立体構成",
+      "difficulty": "standard",
+      "focus_key": "sculpture_contact_and_pose_v2",
+      "focus_claim": "ロダン《接吻》の腕と首の接触、カノーヴァの踊り手の頬に寄せた手と頭の傾きを比較する。",
+      "task_type": "visual_record_comparison",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "人数・立位の大分類を全肢でそろえ、腕が通る位置と頭の傾きの近い取り違えを問う。",
+      "source_refs": [],
+      "group_number": 27,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "Bの頭の傾きと手の側の関係が逆である。",
+        "イ": "両図の腕・頭の関係を取り違える。",
+        "ウ": "Aの上方の腕は相手の首の後ろへ回り、Bの頭は頬に近い手の方向へ傾く。",
+        "エ": "Aの上方の腕を胸の前に通る腕へ取り違える。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-27",
+        "mock04-img-28"
+      ]
+    },
+    "82": {
+      "topic": "建物をとらえる線と色",
+      "difficulty": "standard",
+      "focus_key": "architectural_graphite_vs_watercolor_v2",
+      "focus_claim": "ターナーの塔の内部描線と、サージェントの橋下の水面に残る紙の明部を目録の媒体と照合する。",
+      "task_type": "visual_record_comparison",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "色が有る／無いだけを誤答の決め手にせず、窓の描線と水面の明部のつくり方に寄せる。",
+      "source_refs": [],
+      "group_number": 28,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "技法記録と図の対応が逆である。",
+        "イ": "Aの建築は内部の窓等も細線で描かれ、Bの水面は彩色と明るい紙の部分の交替で見える。",
+        "ウ": "Aには窓の開口等の線が細かくあり、外周への集約という観察は合わない。",
+        "エ": "Bの水面の明るさは黒い線の密集ではなく、彩色の間の明るい部分が働く。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-29",
+        "mock04-img-30"
+      ]
+    },
+    "83": {
+      "topic": "能の面と装束の資料",
+      "difficulty": "standard",
+      "focus_key": "noh_mask_costume_records_v2",
+      "focus_claim": "能面の目・口の立体的な開口と、唐織の地の小文と大文様の配置を材質記録へ照合する。",
+      "task_type": "visual_record_comparison",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "本文で織ると教えたものを刺繍へ変えるだけの肢をやめ、実図の開口と文様の範囲を確認する。",
+      "source_refs": [],
+      "group_number": 29,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "Aでは目・口の開口を木彫の立体として読み、Bでは地全体の小文と大きい文様が重なる。",
+        "イ": "目は表面に黒く描いただけでなく、立体的な開口をもつ。",
+        "ウ": "Bの小文は袖口だけに集まらず、袖・身頃の地に反復する。",
+        "エ": "木彫と織物の目録の対応が逆である。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-31",
+        "mock04-img-32"
+      ]
+    },
+    "84": {
+      "topic": "物の重なりと推定制作年の編集判断",
+      "difficulty": "advanced",
+      "focus_key": "vase_overlap_uncertain_dates_indexing",
+      "focus_claim": "両図の人物・立体物・器・布の重なりを見て、推定年幅が重ならない先後関係、世紀別の候補登録、実制作の継続期間を別々に判断する。",
+      "task_type": "visual_record_and_inference_limit",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 2,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "肖像と静物の大分類で終わらず、人物・立体物・器・布の重なりを観察する。推定年幅の比較から先後は確定できること、Bの候補世紀と実制作期間は同じでないことを別々に検討する。外部暗記を増やさず、模試1-84の観察と推論限界の負荷へ近づける。",
+      "source_refs": [],
+      "group_number": 30,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "年代に関する判断は合うが、Aでは右側の立体物が人物を遮るのではなく、人物の肩の輪郭がその立体物の左下部を遮る。実図で重なりを確かめる必要がある。",
+        "イ": "年に幅があっても二つの範囲は重ならず、①の終わりが②の始まりより早いので先後は判断できる。推定年があるという理由だけで、年に関するすべての判断を不可能としない。",
+        "ウ": "図の前後関係と先後は合うが、推定された制作年の候補範囲を、複数年にわたる実際の制作継続の証拠へ変えている。両世紀への候補登録と、両世紀に作業したとの断定は異なる。",
+        "エ": "Aでは人物の肩が右側の立体物の左下部を遮り、Bでは器が背後の文様布を遮る。①の最も遅い1888年でも②の最も早い1900年より早い。②は1900年なら19世紀、1901年以後なら20世紀が候補だが、年幅は連続した制作期間の記録ではない。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-33",
+        "mock04-img-34"
+      ]
+    },
+    "85": {
+      "topic": "黒い調子と二つの版種",
+      "difficulty": "standard",
+      "focus_key": "aquatint_vs_lithotint",
+      "focus_claim": "ゴヤの凹版の調子とホイッスラーの平版の調子を画面と用語説明から対応させる",
+      "task_type": "visual_record_comparison",
+      "rubric": {
+        "knowledge_specificity": 1,
+        "inference_steps": 1,
+        "distractor_proximity": 2,
+        "visual_demand": 2
+      },
+      "difficulty_reason": "図版または資料の特徴と近接する用語を照合する。",
+      "source_refs": [],
+      "group_number": 31,
+      "group_question_number": 1,
+      "choice_reasons": {
+        "ア": "Aは眠る人物と鳥獣の凹版、Bは夜の川を描く石版系の平版である。黒白の印象だけで版種を同一にしない。",
+        "イ": "図と目録を逆に対応させ、その逆の対応に沿って版種を記している。",
+        "ウ": "目録の対応は合うが、エッチング・アクアチントの凹版と、石版系の平版を逆にしている。",
+        "エ": "図と目録の対応が逆で、図Aの凹版・図Bの平版という分類だけが合う。"
+      },
+      "image_required": true,
+      "image_ids": [
+        "mock04-img-35",
+        "mock04-img-36"
+      ]
+    }
+  },
+  "hierarchy": {
+    "group_count": 31,
+    "shared_passage_count": 22,
+    "groups": [
+      {
+        "group_number": 1,
+        "first_question_number": 1,
+        "last_question_number": 4,
+        "title": "古代と中世の造形・役割",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 2,
+        "first_question_number": 5,
+        "last_question_number": 8,
+        "title": "ルネサンスの素材と表現",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 3,
+        "first_question_number": 9,
+        "last_question_number": 10,
+        "title": "16世紀の技法と活動",
+        "question_count": 2,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 4,
+        "first_question_number": 11,
+        "last_question_number": 14,
+        "title": "17世紀の主題と制作",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 5,
+        "first_question_number": 15,
+        "last_question_number": 17,
+        "title": "18世紀の社会と表現",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 6,
+        "first_question_number": 18,
+        "last_question_number": 21,
+        "title": "19世紀前半の美術",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 7,
+        "first_question_number": 22,
+        "last_question_number": 24,
+        "title": "近代の都市と鑑賞",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 8,
+        "first_question_number": 25,
+        "last_question_number": 27,
+        "title": "世紀末の多様な制作",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 9,
+        "first_question_number": 28,
+        "last_question_number": 31,
+        "title": "20世紀初頭の変化",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 10,
+        "first_question_number": 32,
+        "last_question_number": 34,
+        "title": "制作と教育の試み",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 11,
+        "first_question_number": 35,
+        "last_question_number": 38,
+        "title": "戦後美術の展開",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 12,
+        "first_question_number": 39,
+        "last_question_number": 41,
+        "title": "作品と鑑賞の関係",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 13,
+        "first_question_number": 42,
+        "last_question_number": 44,
+        "title": "古代日本の素材と形",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 14,
+        "first_question_number": 45,
+        "last_question_number": 47,
+        "title": "信仰と物語の造形",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 15,
+        "first_question_number": 48,
+        "last_question_number": 52,
+        "title": "中世から近世への表現",
+        "question_count": 5,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 16,
+        "first_question_number": 53,
+        "last_question_number": 54,
+        "title": "近世の制作と生活",
+        "question_count": 2,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 17,
+        "first_question_number": 55,
+        "last_question_number": 58,
+        "title": "江戸時代の絵画と出版",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 18,
+        "first_question_number": 59,
+        "last_question_number": 63,
+        "title": "近代日本の制度と制作",
+        "question_count": 5,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 19,
+        "first_question_number": 64,
+        "last_question_number": 66,
+        "title": "戦後日本の美術活動",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 20,
+        "first_question_number": 67,
+        "last_question_number": 69,
+        "title": "現代美術の媒体と批評",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 21,
+        "first_question_number": 70,
+        "last_question_number": 70,
+        "title": "日本とアジアの表現活動",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 22,
+        "first_question_number": 71,
+        "last_question_number": 71,
+        "title": "作品と社会の関係",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 23,
+        "first_question_number": 72,
+        "last_question_number": 74,
+        "title": "アジアの書画と工芸",
+        "question_count": 3,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 24,
+        "first_question_number": 75,
+        "last_question_number": 78,
+        "title": "工芸の技法とデザイン",
+        "question_count": 4,
+        "shared_passage_count": 1
+      },
+      {
+        "group_number": 25,
+        "first_question_number": 79,
+        "last_question_number": 79,
+        "title": "美術館の成立と収集",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 26,
+        "first_question_number": 80,
+        "last_question_number": 80,
+        "title": "展覧会とコレクションの制度",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 27,
+        "first_question_number": 81,
+        "last_question_number": 81,
+        "title": "身体の接触と立体構成",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 28,
+        "first_question_number": 82,
+        "last_question_number": 82,
+        "title": "建物をとらえる線と色",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 29,
+        "first_question_number": 83,
+        "last_question_number": 83,
+        "title": "能の面と装束の資料",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 30,
+        "first_question_number": 84,
+        "last_question_number": 84,
+        "title": "物の重なりと推定制作年の編集判断",
+        "question_count": 1,
+        "shared_passage_count": 0
+      },
+      {
+        "group_number": 31,
+        "first_question_number": 85,
+        "last_question_number": 85,
+        "title": "黒い調子と二つの版種",
+        "question_count": 1,
+        "shared_passage_count": 0
+      }
+    ]
+  },
+  "source_refs_note": "提供書籍の参照ページと所蔵館・公式機関の資料を、確認した事実の根拠として区別する。",
+  "image_review_note": "図版31問・36点。現代作品の保護期間と画像条件により現代美術は文章で出題。",
+  "rubric_scale": {
+    "minimum": 0,
+    "maximum": 2,
+    "interpretation": "低・中・高の順序尺度。段階数の実測値ではない。"
+  },
+  "rubric_normalizations": {}
+}
