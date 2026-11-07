@@ -764,3 +764,20 @@ push後の公開Netlifyはdeploy6aed37cc260745bcba14c2aa ready/publishedを保�
 検証DBの模試1は従来静的seedと異なる既存版だったため、実DBのmaterial指紋を固定して本番との差も確認する。既存問題/選択肢IDと履歴/お気に入りは維持し、不足の内部グループだけを追加する。共通writerと外側transaction内で更新、backup保存、全425問の事後原稿一致・ID・全履歴/お気に入りの完全照合を行う。失敗した試行はtransaction rollbackし、本番には未適用。独立delivery_auditが保全上の重大問題なしと確認。
 
 単体209/209、型検査、静的生成、原稿・seed4/4、全425問の共有schemaと歴史版資料検査、資料保護・diffチェックが成功。配信物は348files、図版追加52、source map0、dotenv0。詳細な学術査読・新版4回分の全問ブラウザ再検証・全復元演習は今回省略する。旧版大問ナビゲーションを期待していたブラウザ検査は、維持すべき静的85問と共通資料表示へ整合した。
+
+
+### 反映完了（2026-11-08）
+
+検証DB・本番DBとも全5回425問/1700選択肢へ更新完了。全425問の原稿由来データ・参照と、既存question/choice ID・全履歴12件・お気に入り0件の保持をtransaction内で照合して確定。本番READ ONLY再照合も成功。検証DBの代表10問・正誤20採点で4択/共通図版4点/履歴非変更を確認。失敗・中断した試行は未確定のtransactionでrollbackされ、最後に成功した記録のみを反映済みとする。
+
+更新前backup（Git/Docker除外・private権限）：
+- 検証DB：local-only/backups/illustrated-five/2026-11-07T21-32-56-159Z
+- 本番DB：local-only/backups/illustrated-five/2026-11-07T21-54-30-665Z
+
+各backupはbefore.json・receipt.json・commit-confirmed.jsonを保持。新4回分の復元実行演習は最小確認指定により未実施（Mock2単独の復元実行は前段で成功）。復元ツールは対象DB/backup指紋/新版の一致と新しい解答の有無を検査し、後続履歴があれば自動復元を止める。
+
+Gitの原稿・実装はcd88baef4d167f9b12155b83442495226484a500、現在の画面契約へ古い検査を揃えたa9aa8371ff1c9ca28db46ac41c7d3f199512c672までmainへpush済み。[CI 42416191528](https://github.com/misato729/art-history-practice/actions/runs/42416191528)はharness/verify/browser全3job成功。新版全件の自動ブラウザ検査もこのCIで成功している。手動の細部・学術内容の再査読は追加していない。
+
+APIは既存Flyアプリart-history-practiceへ配信成功。画面と図版は既存Netlifyへ配信し、deploy 6aef98aadaefd7d21693329f ready/publishedを確認。既存stop_builds=falseは前後不変。公開 https://art-history-practice.netlify.app のhealth/catalog、全5回から通常/活用各1問の代表10問・匿名正誤20採点と受領画像52点のHTTP200を確認。個人の解答履歴は追加していない。
+
+公開確認の後、記録と運用CLIだけの改善（transaction内の構造準備一括化・不要な再読取削減）をskip ci/skip netlifyで同期する。アプリ機能・原稿・図版は成功済みCI/配信から変更しない。詳細根拠はlocal-only/verification/illustrated-five-20261108/。既存のユーザー用未追跡ファイルは保持。残課題は詳細な学術・表示レビュー、新4回分の復元実行演習。

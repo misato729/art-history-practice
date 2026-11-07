@@ -25,7 +25,8 @@ function match(state,target){
  }
 }
 async function writeAll(db,before,target){
- for(const old of before.groups){await api.saveQuestionGroup(old.id,{lock_version:old.lock_version,publication_status:'draft',planned_question_count:85},{db})}
+ // Atomic structural preparation; final publication still uses the canonical validator.
+ await db.questionGroup.updateMany({data:{publication_status:'draft',planned_question_count:85,lock_version:{increment:1},updated_at:new Date()}})
  console.log(JSON.stringify({phase:'groups_prepared',groups:before.groups.length}))
  // Map archive identities to existing DB identities; preserve old passages and append only new labels.
  const groupMap=new Map(),passageMap=new Map()
@@ -41,9 +42,9 @@ async function writeAll(db,before,target){
   const old=before.questions.find(x=>x.exam_number===n&&x.question_number===q.question_number),live=await api.loadQuestion(old.id,db)
   await api.saveQuestion({...q,publication_status:'draft',lock_version:live.lock_version,group_id:groupMap.get(q.group_id),passage_references:q.passage_references.map(r=>({...r,passage_id:passageMap.get(r.passage_id)})),choices:q.choices.map(c=>({...c,id:live.choices.find(x=>x.choice_label===c.choice_label).id}))},{id:old.id,db,preserveHistory:true})
  }console.log(JSON.stringify({phase:'saved',exam:n,questions:85}))}
- for(const group of target.groups){const id=groupMap.get(group.id),live=await api.loadQuestionGroup(id,db);await api.saveQuestionGroup(id,{lock_version:live.lock_version,title:group.title,planned_question_count:group.planned_question_count,publication_status:group.publication_status==='private'?'private':'draft'},{db})}
+ for(const group of target.groups){const id=groupMap.get(group.id);await db.questionGroup.update({where:{id},data:{title:group.title,planned_question_count:group.planned_question_count,publication_status:group.publication_status==='private'?'private':'draft',lock_version:{increment:1},updated_at:new Date()}})}
  for(const g of existingGroups.filter(g=>!target.groups.some(t=>t.exam_number===g.exam_number&&t.group_number===g.group_number))){const live=await api.loadQuestionGroup(g.id,db);await api.saveQuestionGroup(g.id,{lock_version:live.lock_version,publication_status:'private'},{db})}
- for(const n of [1,2,3,4,5]){const set=await api.loadExamSet(n,db);await api.publishExamSet(n,set.lock_version,{db})}
+ for(const n of [1,2,3,4,5]){const set=await db.examSet.findUniqueOrThrow({where:{exam_number:n}});await api.publishExamSet(n,set.lock_version,{db})}
 }
 try{
  if(mode==='verify'){await client.$transaction(async db=>{await db.$executeRawUnsafe('SET TRANSACTION READ ONLY');const s=await snapshot(db);match(s,desired);console.log(JSON.stringify({status:'verified',questions:425,choices:1700,histories:s.history.length,favorites:s.favorites.length}))},{timeout:180000});}

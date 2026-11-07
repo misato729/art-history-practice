@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 146,
-  "updated_at": "2026-11-07T21:14:39.205Z",
+  "revision": 148,
+  "updated_at": "2026-11-07T22:18:33.915Z",
   "workspace_relative_to_repo": ".",
   "active_context": "operations",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-07T21-14-39-205Z-r146.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-07T22-18-33-915Z-r148.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2349,15 +2349,17 @@
       "id": "art_illustrated_five_release",
       "context": "operations",
       "title": "受領図版原稿1・3・4・5と模試2V2の承認済本番反映",
-      "status": "doing",
+      "status": "done",
       "depends_on": [
         "art_mock02_textbook_v2_technical"
       ],
       "authorization": "requested",
       "request_ref": "2026-11-08 ユーザーがcommit/pushと全5回本番反映を承認、確認は必要最小限と指定",
-      "next_action": "検証DB結果確認後にcommit/pushと本番配信",
-      "evidence": [],
-      "last_verified_at": null,
+      "next_action": "追加依頼があるまで細部レビューを行わない",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
       "verification_scope": "受領340問の原稿保持と既確認Mock2V2を合計425問反映。ID/旧履歴/お気に入り保護。最低限の形式/採点/画像確認。詳細学術QAは未実施。",
       "acceptance": [
         {
@@ -2365,25 +2367,37 @@
           "kind": "automated",
           "description": "原稿一致と425問構造、履歴ID保持、バックアップ、Gitと本番の反映結果を確認",
           "verification": "限定構造検査と検証DB適用、実配信HTTP確認",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
         },
         {
           "id": "review",
           "kind": "review",
           "description": "変換と更新ツールの重大な保全問題を独立確認",
           "verification": "delivery_auditによる限定レビュー",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null,
-          "reviewer": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "delivery_audit"
         }
       ],
       "execution": {
         "worker": "root",
         "max_attempts": 3,
-        "attempts": []
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "全425問の検証/本番更新・ID履歴保持・CI・公開代表採点/画像確認成功。詳細はdocs/verification.md。",
+            "at": "2026-11-07T22:18:11.464Z",
+            "failed_criteria": []
+          }
+        ]
       }
     }
   ]
