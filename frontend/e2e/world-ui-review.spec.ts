@@ -31,7 +31,7 @@ test('static home, desktop collapse, mobile accordion and group navigation match
   await page.getByRole('tab', { name: '間違えた問題', exact: true }).click()
   await expect(page.getByRole('heading', { name: 'ログインして復習する', exact: true })).toBeVisible()
   await page.getByRole('tab', { name: '模試を選ぶ', exact: true }).click()
-  await expect(page.locator('.exam-card[href="/practice/start?exams=1"]')).toHaveAttribute('href', '/practice/start?exams=1')
+  await expect(page.locator('.exam-card[href="/practice/1/1"]')).toHaveAttribute('href', '/practice/1/1')
   const sidebar = page.getByRole('complementary', { name: '模擬試験一覧' })
   if (isMobile) {
     await page.getByRole('button', { name: '試験セットを開く', exact: true }).click()
@@ -55,8 +55,8 @@ test('static home, desktop collapse, mobile accordion and group navigation match
   await mkdir(screenshotDir, { recursive: true })
   await page.screenshot({ path: `${screenshotDir}sidebar-${info.project.name}.png` })
   await page.goto('/')
-  await page.locator('.exam-card[href="/practice/start?exams=1"]').click()
-  await expect(page).toHaveURL(/\/practice\/1\/1\?exams=1$/)
+  await page.locator('.exam-card[href="/practice/1/1"]').click()
+  await expect(page).toHaveURL(/\/practice\/1\/1$/)
   await expect(page.getByRole('heading', { name: '問1', exact: true })).toBeVisible()
 })
 

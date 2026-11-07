@@ -26,6 +26,7 @@ function match(state,target){
 }
 async function writeAll(db,before,target){
  for(const old of before.groups){await api.saveQuestionGroup(old.id,{lock_version:old.lock_version,publication_status:'draft',planned_question_count:85},{db})}
+ console.log(JSON.stringify({phase:'groups_prepared',groups:before.groups.length}))
  // Map archive identities to existing DB identities; preserve old passages and append only new labels.
  const groupMap=new Map(),passageMap=new Map()
  const existingGroups=[...before.groups]
@@ -61,6 +62,6 @@ try{
   const after=await snapshot(db);match(after,target);assert.equal(hash(after.history),hash(before.history));assert.equal(hash(after.favorites),hash(before.favorites));for(const q of before.questions){const a=after.questions.find(x=>x.id===q.id);assert.ok(a);assert.deepEqual(a.choices.map(c=>c.id),q.choices.map(c=>c.id))}
   if(mode==='restore'){for(const q of after.questions){const original=target.questions.find(x=>x.id===q.id);await db.answerHistory.updateMany({where:{question_id:q.id,question_version:original.content_version},data:{question_version:q.content_version}})}}
   privateWrite(resolve(out,'receipt.json'),{database_key:dbkey,status:mode==='apply'?'updated':'restored',questions:425,choices:1700,histories:after.history.length,favorites:after.favorites.length,after_material_sha256:hash(after.questions.map(material))})
- },{timeout:1200000,maxWait:15000});privateWrite(resolve(out,'commit-confirmed.json'),{status:'committed'});console.log(JSON.stringify({status:'committed',directory:out}))
+ },{timeout:3600000,maxWait:15000});privateWrite(resolve(out,'commit-confirmed.json'),{status:'committed'});console.log(JSON.stringify({status:'committed',directory:out}))
  }
 }catch(e){console.error(JSON.stringify({status:'failed',name:e.name,code:e.code,frames:e.stack?.split('\n').filter(l=>l.trim().startsWith('at ')).slice(0,2),reason:e.code==='ERR_ASSERTION'?String(e.message).split('\n')[0].slice(0,160):undefined}));process.exitCode=1}finally{await client.$disconnect()}

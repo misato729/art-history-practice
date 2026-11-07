@@ -4,7 +4,7 @@ import { loadE2EFixture } from '../scripts/e2e-fixture.mjs'
 
 const { config } = loadE2EFixture()
 const publicBlockMessage = '公開する問題の本文・解説・選択肢に空または不正な表示ブロックがあります'
-const sourceMessage = '公開する問題には「資料名 | https://...」形式の出典が必要です'
+const sourceMessage = '公開する問題には資料名とHTTPS URL、または書名・印刷ページ・PDFページの出典が必要です'
 
 async function assertFitsViewport(page: Page) {
   const dimensions = await page.evaluate(() => ({ width: document.documentElement.scrollWidth, viewport: window.innerWidth }))

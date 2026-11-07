@@ -169,7 +169,7 @@ for (const exam of [1,2,3,4,5]) {
     await page.goto('/')
     await expect(page.locator('.exam-card')).toHaveCount(5)
     await expect(page.locator('.exam-card strong')).toHaveText([1,2,3,4,5].map(number => `模擬試験${number}`))
-    await expect(page.locator('.exam-grid-heading')).toContainText('大問の順に演習')
+    await expect(page.locator('.exam-grid-heading')).toContainText('1問ずつ演習')
     await assertExamCatalog(page)
     if (exam === 1) {
       await screenshot(page, testInfo, 'mock-home.png')
@@ -196,7 +196,7 @@ for (const exam of [1,2,3,4,5]) {
 async function chooseAllQuestions(page: Page) {
   await page.goto('/')
   await expect(page.locator('.exam-card')).toHaveCount(5)
-  await expect(page.locator('.exam-card[href="/practice/start?exams=1"]')).toBeVisible()
+  await expect(page.locator('.exam-card[href="/practice/1/1"]')).toBeVisible()
   await expect(page.locator('.exam-card strong')).toHaveText([1,2,3,4,5].map(exam => `模擬試験${exam}`))
   await page.getByRole('tab', { name: '条件を指定', exact: true }).click()
   await expect(page.locator('.condition-submit strong')).toHaveText('全425問')
@@ -414,8 +414,8 @@ test('new mock cards and their final group links open the requested set on deskt
     await expect(page.locator('.practice-head .exam-label')).toHaveText(`模擬試験 ${exam}`)
     await assertFitsViewport(page)
     await page.goto('/')
-    await page.locator(`.exam-card[href="/practice/start?exams=${exam}"]`).click()
-    await expect(page).toHaveURL(new RegExp(`/practice/${exam}/1\\?exams=${exam}$`))
+    await page.locator(`.exam-card[href="/practice/${exam}/1"]`).click()
+    await expect(page).toHaveURL(new RegExp(`/practice/${exam}/1$`))
     await expect(page.getByRole('heading', { name: '問1', exact: true })).toBeVisible()
   }
 })
