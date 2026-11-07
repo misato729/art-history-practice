@@ -1,0 +1,331 @@
+{
+  "created_on": "2026-11-08",
+  "structural_checks": {
+    "checks_total": 2635,
+    "passed": 2635,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 60,
+    "failed": 0,
+    "browser": "Chromium / Playwright / offline context",
+    "checks": [
+      {
+        "check": "mock6:85 rendered questions",
+        "pass": true
+      },
+      {
+        "check": "mock6:340 radio choices",
+        "pass": true
+      },
+      {
+        "check": "mock6:all embedded illustrations decoded",
+        "pass": true,
+        "count": 27
+      },
+      {
+        "check": "mock6:no external HTTP requests",
+        "pass": true
+      },
+      {
+        "check": "mock6:unanswered score",
+        "pass": true
+      },
+      {
+        "check": "mock6:all correct score",
+        "pass": true
+      },
+      {
+        "check": "mock6:all correct highlights",
+        "pass": true
+      },
+      {
+        "check": "mock6:all wrong score",
+        "pass": true
+      },
+      {
+        "check": "mock6:wrong highlights",
+        "pass": true
+      },
+      {
+        "check": "mock6:reset",
+        "pass": true
+      },
+      {
+        "check": "mock6:reveal answers",
+        "pass": true
+      },
+      {
+        "check": "mock6:hide answers",
+        "pass": true
+      },
+      {
+        "check": "mock6:image modal opens",
+        "pass": true
+      },
+      {
+        "check": "mock6:modal image decoded",
+        "pass": true
+      },
+      {
+        "check": "mock6:modal Escape close",
+        "pass": true
+      },
+      {
+        "check": "mock6:mobile 375px no overflow",
+        "pass": true,
+        "sw": 375,
+        "w": 375
+      },
+      {
+        "check": "mock6:mobile 390px no overflow",
+        "pass": true,
+        "sw": 390,
+        "w": 390
+      },
+      {
+        "check": "mock6:keyboard image open",
+        "pass": true
+      },
+      {
+        "check": "mock6:modal close button",
+        "pass": true
+      },
+      {
+        "check": "mock6:no JavaScript page errors",
+        "pass": true,
+        "errors": []
+      },
+      {
+        "check": "mock7:85 rendered questions",
+        "pass": true
+      },
+      {
+        "check": "mock7:340 radio choices",
+        "pass": true
+      },
+      {
+        "check": "mock7:all embedded illustrations decoded",
+        "pass": true,
+        "count": 30
+      },
+      {
+        "check": "mock7:no external HTTP requests",
+        "pass": true
+      },
+      {
+        "check": "mock7:unanswered score",
+        "pass": true
+      },
+      {
+        "check": "mock7:all correct score",
+        "pass": true
+      },
+      {
+        "check": "mock7:all correct highlights",
+        "pass": true
+      },
+      {
+        "check": "mock7:all wrong score",
+        "pass": true
+      },
+      {
+        "check": "mock7:wrong highlights",
+        "pass": true
+      },
+      {
+        "check": "mock7:reset",
+        "pass": true
+      },
+      {
+        "check": "mock7:reveal answers",
+        "pass": true
+      },
+      {
+        "check": "mock7:hide answers",
+        "pass": true
+      },
+      {
+        "check": "mock7:image modal opens",
+        "pass": true
+      },
+      {
+        "check": "mock7:modal image decoded",
+        "pass": true
+      },
+      {
+        "check": "mock7:modal Escape close",
+        "pass": true
+      },
+      {
+        "check": "mock7:mobile 375px no overflow",
+        "pass": true,
+        "sw": 375,
+        "w": 375
+      },
+      {
+        "check": "mock7:mobile 390px no overflow",
+        "pass": true,
+        "sw": 390,
+        "w": 390
+      },
+      {
+        "check": "mock7:keyboard image open",
+        "pass": true
+      },
+      {
+        "check": "mock7:modal close button",
+        "pass": true
+      },
+      {
+        "check": "mock7:no JavaScript page errors",
+        "pass": true,
+        "errors": []
+      },
+      {
+        "check": "mock8:85 rendered questions",
+        "pass": true
+      },
+      {
+        "check": "mock8:340 radio choices",
+        "pass": true
+      },
+      {
+        "check": "mock8:all embedded illustrations decoded",
+        "pass": true,
+        "count": 33
+      },
+      {
+        "check": "mock8:no external HTTP requests",
+        "pass": true
+      },
+      {
+        "check": "mock8:unanswered score",
+        "pass": true
+      },
+      {
+        "check": "mock8:all correct score",
+        "pass": true
+      },
+      {
+        "check": "mock8:all correct highlights",
+        "pass": true
+      },
+      {
+        "check": "mock8:all wrong score",
+        "pass": true
+      },
+      {
+        "check": "mock8:wrong highlights",
+        "pass": true
+      },
+      {
+        "check": "mock8:reset",
+        "pass": true
+      },
+      {
+        "check": "mock8:reveal answers",
+        "pass": true
+      },
+      {
+        "check": "mock8:hide answers",
+        "pass": true
+      },
+      {
+        "check": "mock8:image modal opens",
+        "pass": true
+      },
+      {
+        "check": "mock8:modal image decoded",
+        "pass": true
+      },
+      {
+        "check": "mock8:modal Escape close",
+        "pass": true
+      },
+      {
+        "check": "mock8:mobile 375px no overflow",
+        "pass": true,
+        "sw": 375,
+        "w": 375
+      },
+      {
+        "check": "mock8:mobile 390px no overflow",
+        "pass": true,
+        "sw": 390,
+        "w": 390
+      },
+      {
+        "check": "mock8:keyboard image open",
+        "pass": true
+      },
+      {
+        "check": "mock8:modal close button",
+        "pass": true
+      },
+      {
+        "check": "mock8:no JavaScript page errors",
+        "pass": true,
+        "errors": []
+      }
+    ]
+  },
+  "pdfs": [
+    {
+      "exam_number": 6,
+      "document": "questions",
+      "pages": 37,
+      "bytes": 15587279,
+      "image_objects": 962
+    },
+    {
+      "exam_number": 6,
+      "document": "answers",
+      "pages": 43,
+      "bytes": 577020,
+      "image_objects": 0
+    },
+    {
+      "exam_number": 7,
+      "document": "questions",
+      "pages": 38,
+      "bytes": 16130138,
+      "image_objects": 1102
+    },
+    {
+      "exam_number": 7,
+      "document": "answers",
+      "pages": 47,
+      "bytes": 581538,
+      "image_objects": 0
+    },
+    {
+      "exam_number": 8,
+      "document": "questions",
+      "pages": 39,
+      "bytes": 15885193,
+      "image_objects": 1092
+    },
+    {
+      "exam_number": 8,
+      "document": "answers",
+      "pages": 45,
+      "bytes": 573139,
+      "image_objects": 0
+    }
+  ],
+  "answer_heading_to_json": {
+    "exam06": true,
+    "exam07": true,
+    "exam08": true
+  },
+  "visual_review": "全6PDFの全ページ縮小一覧と代表ページの拡大画像を目視。全ページを原寸で査読したものではない。",
+  "browser_environment_note": "file://の直接ナビゲーションが環境ポリシーで拒否されたため、生成HTMLの内容をPlaywrightのset_contentで読み込み、offline=TrueのChromiumで機能を確認した。",
+  "not_tested": [
+    "Safari/Firefox実機",
+    "本番API・DB・Nuxtアプリ",
+    "第三者による学術査読",
+    "受験者による難易度・所要時間測定",
+    "全画像の現時点での権利再監査"
+  ]
+}

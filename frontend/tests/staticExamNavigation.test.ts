@@ -101,7 +101,7 @@ const sidebar = readFileSync(new URL('../app/components/ExamSidebar.vue', import
 test('home enables its live catalog only after selecting conditions, not on login', () => {
   assert.match(home, /const catalogEnabled = computed\(\(\) => launcherMode.value === 'conditions'\)/)
   assert.doesNotMatch(home, /catalogEnabled = computed\(\(\) => isLoggedIn/)
-  assert.match(home, /const staticExams: readonly ExamCatalogEntry\[\] = EXAM_CATALOG/)
+  assert.match(home, /const staticExams: readonly ExamCatalogEntry\[\] = STATIC_EXAM_CATALOG/)
   assert.match(home, /v-for="exam in staticExams"/)
 })
 test('home exam cards go directly to question routes without prefetch', () => {
@@ -126,4 +126,20 @@ test('only navigation metadata enters the static model', () => {
   const source = readFileSync(new URL('../app/utils/staticExamNavigation.ts', import.meta.url), 'utf8')
   assert.doesNotMatch(source, /content_blocks|explanation_blocks|is_correct|source_text|fetch\(/)
   assert.doesNotMatch(source, /^import /m)
+})
+
+
+test('planned exams have a preparation destination for every membership state and no fabricated questions', () => {
+  const planned = [6, 7, 8].map(exam_number => ({ exam_number, title: `模擬試験${exam_number}`, comingSoon: true, question_numbers: [] }))
+  for (const fullAccess of [false, true]) {
+    const rows = createStaticExamNavigation([...catalog, ...planned], { paymentsEnabled: true, freeExamCount: 2, fullAccess })
+    assert.equal(rows.length, 8)
+    assert.equal(rows[1]!.to, '/practice/2/1')
+    assert.equal(rows[2]!.to, fullAccess ? '/practice/3/1' : '/premium')
+    for (const row of rows.slice(5)) {
+      assert.equal(row.to, `/mock-exams/${row.examNumber}`)
+      assert.equal(row.comingSoon, true)
+      assert.deepEqual(row.questions, [])
+    }
+  }
 })

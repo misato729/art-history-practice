@@ -8,12 +8,12 @@ import { parseQuestionInput, parseQuestionArchiveEntries, ContentValidationError
 
 const content = JSON.parse(readFileSync(new URL('../../content/questions.json', import.meta.url), 'utf8'))
 const mock = JSON.parse(readFileSync(new URL('../../content/mock-exams/mock-01/questions.json', import.meta.url), 'utf8'))
-test('five catalog sets retain Mock1 and contain the 425 authored four-choice questions', () => {
+test('eight catalog sets retain Mock1 and contain the 680 authored four-choice questions', () => {
   const parsed = parseQuestionArchiveEntries(content.questions, EXAM_CONFIG)
-  assert.equal(parsed.length, 425)
-  assert.equal(parsed.reduce((n,q)=>n+q.choices.length,0),1700)
-  assert.equal(EXAM_CONFIG.exam.set_count,5)
-  for (const exam of [1,2,3,4,5]) {
+  assert.equal(parsed.length, 680)
+  assert.equal(parsed.reduce((n,q)=>n+q.choices.length,0),2720)
+  assert.equal(EXAM_CONFIG.exam.set_count,8)
+  for (const exam of [1,2,3,4,5,6,7,8]) {
     const standalone = JSON.parse(readFileSync(new URL(`../../content/mock-exams/mock-${String(exam).padStart(2,'0')}/questions.json`, import.meta.url), 'utf8'))
     const integrated = parsed.filter(question => question.exam_number === exam)
     assert.equal(isDeepStrictEqual(integrated, standalone.questions), true)
@@ -21,10 +21,10 @@ test('five catalog sets retain Mock1 and contain the 425 authored four-choice qu
     for (const number of [1,9,80,81,85]) assert.equal(choiceLabelsForQuestion(EXAM_CONFIG,exam,number).length,4)
   }
   assert.equal(isDeepStrictEqual(parsed.filter(question => question.exam_number === 1),mock.questions),true)
-  assert.equal(questionCountForExam(EXAM_CONFIG,6),0)
+  assert.equal(questionCountForExam(EXAM_CONFIG,9),0)
 })
 test('question and choice boundaries follow the set and section on every shared input path', () => {
-  for (const [exam,number] of [[1,86],[6,1],[0,1],[5,86]]) {
+  for (const [exam,number] of [[1,86],[9,1],[0,1],[5,86]]) {
     assert.throws(()=>parseQuestionInput({...structuredClone(content.questions[0]),exam_number:exam,question_number:number},EXAM_CONFIG),ContentValidationError)
   }
   const application=structuredClone(content.questions.find((q:any)=>q.exam_number===1 && q.question_number===81))

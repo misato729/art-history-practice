@@ -29,7 +29,7 @@ export function convert(n){
 export function verifyIllustrated(){
  const received=read(resolve(dir,'received-sha256.json'))
  for(const [p,h] of Object.entries(received))assert.equal(sha(readFileSync(resolve(root,p))),h)
- const parts=[1,2,3,4,5].map(n=>n===2?read(resolve(root,'content/mock-exams/mock-02/questions.json')):convert(n))
+ const parts=Array.from({length:EXAM_CONFIG.exam.set_count},(_,i)=>i+1).map(n=>n===2?read(resolve(root,'content/mock-exams/mock-02/questions.json')):n<=5?convert(n):read(resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`)))
  for(const p of parts)assert.deepEqual(read(resolve(root,`content/mock-exams/mock-${String(p.exam_sets[0].exam_number).padStart(2,'0')}/questions.json`)),p)
  const combined={schema_version:2,exam_sets:parts.flatMap(x=>x.exam_sets),groups:parts.flatMap(x=>x.groups),questions:parts.flatMap(x=>x.questions)}
  parseContentDocument(combined,EXAM_CONFIG);assert.deepEqual(read(resolve(root,'content/questions.json')),combined)
@@ -37,6 +37,6 @@ export function verifyIllustrated(){
  return combined
 }
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
- if(process.argv.includes('--write')){for(const n of [1,3,4,5])writeFileSync(resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`),JSON.stringify(convert(n),null,2)+'\n');const parts=[1,2,3,4,5].map(n=>read(resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`)));writeFileSync(resolve(root,'content/questions.json'),JSON.stringify({schema_version:2,exam_sets:parts.flatMap(x=>x.exam_sets),groups:parts.flatMap(x=>x.groups),questions:parts.flatMap(x=>x.questions)},null,2)+'\n')}
+ if(process.argv.includes('--write')){for(const n of [1,3,4,5])writeFileSync(resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`),JSON.stringify(convert(n),null,2)+'\n');const parts=Array.from({length:EXAM_CONFIG.exam.set_count},(_,i)=>i+1).map(n=>read(resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`)));writeFileSync(resolve(root,'content/questions.json'),JSON.stringify({schema_version:2,exam_sets:parts.flatMap(x=>x.exam_sets),groups:parts.flatMap(x=>x.groups),questions:parts.flatMap(x=>x.questions)},null,2)+'\n')}
  const c=verifyIllustrated();console.log(JSON.stringify({status:'verified',questions:c.questions.length,choices:c.questions.flatMap(q=>q.choices).length,received_content_unchanged:true}))
 }

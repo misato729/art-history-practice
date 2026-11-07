@@ -781,3 +781,37 @@ Gitの原稿・実装はcd88baef4d167f9b12155b83442495226484a500、現在の画�
 APIは既存Flyアプリart-history-practiceへ配信成功。画面と図版は既存Netlifyへ配信し、deploy 6aef98aadaefd7d21693329f ready/publishedを確認。既存stop_builds=falseは前後不変。公開 https://art-history-practice.netlify.app のhealth/catalog、全5回から通常/活用各1問の代表10問・匿名正誤20採点と受領画像52点のHTTP200を確認。個人の解答履歴は追加していない。
 
 公開確認の後、記録と運用CLIだけの改善（transaction内の構造準備一括化・不要な再読取削減）をskip ci/skip netlifyで同期する。アプリ機能・原稿・図版は成功済みCI/配信から変更しない。詳細根拠はlocal-only/verification/illustrated-five-20261108/。既存のユーザー用未追跡ファイルは保持。残課題は詳細な学術・表示レビュー、新4回分の復元実行演習。
+
+
+## 模試6〜8の静的導線・模試3以降有料化とStripe準備（2026-11-08）
+
+公開5回425問を維持し、設定のupcoming_setsに準備中6〜8を追加。ホーム・静的サイドバーは8回分を表示し、準備中回は専用案内へ進み、問番号や未登録の問題を捏造しない。条件演習/API公開範囲は既存5回のまま。無料は1・2、有料は3以降。既存APIの会員認可を利用し、原稿・本番DB・既存ID/履歴/お気に入りは変更していない。
+
+有料直接URL検証で、匿名401のたびにセッション世代が更新されcatalogを再取得する循環を再現。既に匿名確定なら再無効化せず、実ユーザーの401/未解決状態/旧世代応答防御は維持した。catalogのlocked公開座標も正しい番号でAPI認可へ渡す。
+
+ユーザー確認事項：500円（税込）買い切り・自動更新なし、6〜8は準備中、本番Stripeアカウントmisatoの地歴ラボ、Stripe Tax自動計算、専用キー、公開world-history-practice.netlify.app/commercial-disclosureと同じ販売者情報/開示方針、税区分は実カタログ候補の自習型Web学習(txcd_20060058)。公開ページはブラウザで再確認し、取得先の公開APIから販売者情報を非公開設定へ対応付けた。キーの保存に余分な文字があったため一意のライブキーを表示せず検証し、正しい保存形式へ整えた。
+
+Stripeで専用商品prod_art_history_lab_premiumとPrice price_1UZIm24aKzZO4ferzRtylnwYを作成し、live/one_time/JPY500/inclusiveを確認。Tax設定active、日本の登録activeを既存設定から確認。日本向けinvoice previewはautomatic_tax complete、taxability_reason=standard_rated、本体455円＋税45円＝総額500円。実請求・請求書送信・カード決済は行っていない。既存の他商品、価格、キー、税登録、アカウント既定値は変更していない。
+
+専用Webhook we_1UZIud4aKzZO4ferORz4kLmXはFlyの/api/v1/webhooks/stripe宛、API version2026-09-30.endive、既存実装が対応する7イベントで作成。署名は私有ファイルへ直接保存し、endpointはdisabledとして販売開始を待つ。専用キーで本サービスのPriceを取得し、実Checkoutパラメータの未払いSessionを作成して直ちにexpireした。購入時の規約同意はサービス固有の/termsを参照する。Priceがtax_behavior=inclusiveでない場合は、総額超過を防ぐため決済開始前に拒否する。
+
+Flyへの12設定は--stageのみ。アプリ再起動・新API配信・画面配信・販売受付開始は未実施。PAID_MEMBERSHIP_ENABLED=false、Webhook disabled。既存のDB/認証等の秘密値digestは前後不変。私有値はGit・配信物・対話へ出していない。
+
+検証：単体211/211、隔離DBの決済/返金/資格22/22。PC/SPは静的導線2/2、有料直接URLは修正後2/2。全API初回130件は122成功/8失敗で、旧無料fixtureとupcoming metadataの不整合を修正後、影響する関連42件が42/42成功。最終版の全130件一括再実行は未実施として区別する。型検査・静的生成成功、配信用353files/secret match0/source map0/準備中3ページあり。別担当delivery_auditが導線・認可・401循環修正・税込Price/Tax・規約リンク・stageのみの範囲を限定確認し重大指摘なし。
+
+次の段階：commit/pushとCI、API・画面の本番反映、署名付き無害イベント/改ざん拒否のHTTP確認、新Webhook有効化、購入受付フラグ有効化、公開無料/有料境界確認。既存の世界史ラボ等の設定は変更しない。Stripe実カード決済・本番の支払完了/全額返金の実行はしていない。
+
+ブラウザでのAPIキー作成代行はユーザーが自分で完了したため中止し、タブ確認も自動承認審査で却下され実行していない。以後はユーザーが保存した設定ファイルだけで処理した。証拠はlocal-only/verification/paid-access-upcoming-20261108/とlocal-only/stripe-art-setup/。
+
+
+## 2026-11-08 提供された模試6〜8の技術組込（本番未反映）
+
+- 受領ZIP `art-mocks-06-07-08-illustrated.zip` のSHA256SUMS全項目を照合。3回×85問、4択1020肢、通常各21問と活用各5問に図版。原稿JSONと出典表を `content/revisions/illustrated-06-08` に受領時ハッシュ付きで保存した。原稿の問題文・選択肢・正答・解説・出典を改稿しない。原稿の分類コード eastern/craft_design は既存マスター asian/design に対応付けるだけとし、原稿自体は不変。原稿のeditorial_reviewは作問側の記録であり独立学術査読の証明とは扱わない。
+- `scripts/illustrated-678/build.mjs` は元原稿→既存表示ブロックへ変換し、6〜8各85問と統合680問を完全一致で検査する。活用81〜85は共通資料（導入文・図版4点・表・注記）を共有し、通常1〜80は共通資料枠を設けない。図版48点は既存ファイルとSHA一致し、追加・上書きなし。既存1〜5のstandalone JSONはGit HEADとバイト一致。
+- `config/exam.json` は8回、無料1・2/有料3〜8を維持。準備中6〜8を登録済みの静的導線へ切り替え、説明文と大問メタデータを更新した。将来の準備中機構は維持する。1〜5の原稿・IDは変えない。
+- 新しい追加専用 `scripts/illustrated-678/append.mjs` は6〜8だけを共通learning-writerと公開validatorで追加する。未知の部分登録は拒否。既存425問の本文/選択肢/ID/大問/資料と利用者・履歴・お気に入りの変更をハッシュで検出してtransactionをrollbackする。apply前にprivate backupを作る。dry-runは検証後にrollback。復元モードはローカルの `_test` DB限定で、新追加問題への履歴/お気に入りがあれば拒否する。
+- 合成専用 `art_678_fixture_test` で旧425問＋合成旧履歴1件・お気に入り1件を置いて検証。dry-run rollback、applyで255問追加、再applyはalready_applied。全255問に正答/誤答を各1回ずつ実採点し510件の履歴を保存。合成新履歴のみ削除後、restore-testで旧425問・旧履歴・お気に入りを含むbefore全体と完全一致。検証バックアップは `local-only/backups/illustrated-678/2026-11-07T23-51-44-128Z`、復元後のローカルDBは旧5回のみ。利用者の実データはこの試験に使用しない。
+- 自動検査：単体211/211、8回順序の更新後関連6/6、有料境界（3〜8）1/1、型検査、8回/161大問/680問/2720肢のtemplate、原稿変換・歴史的5回のseries、schema、private-source、diff検査が成功。最初のunit5失敗は追加時の静的大問カンマ欠落と5回前提fixtureで、修正後211件成功。過去全server130件の結果を今回の全件成功として繰り上げない。
+- Playwright PC/SP計4/4成功：8回カード、無料2回、有料3〜8のAPI401/本文非返却、直接URLの有料案内、トップ/サイドバー開閉時の問題一覧API非呼出。合成使い捨てDBは終了時削除。通常問題と活用資料の表示ブロックは原稿一致を検証済みだが、全255画面の目視や実受験難度は未確認。
+- 静的generate成功。公開生成物の秘密値一致0、sourcemap0、原稿/解説ファイル混入0。根拠は `local-only/verification/mocks-06-08-20261108/`。delivery_auditの独立レビュー3指摘（カンマ・統合照合・旧コピー）は修正後に解消確認済み、重大未解決指摘なし。
+- **未実施**：commit/push、Fly/Netlifyの今回分配信、本番6〜8のDB追加、本番Webhook有効化、販売フラグ有効化、実課金。Stripe側の専用商品説明に残る「6〜8準備中」は公開時に更新する。Webhook HTTP経路の正当/改竄署名検査を販売開始前に行う。金額/税込Tax区分/専用Priceは既に確認済み設定を維持する。公開操作は具体的な変更範囲の了承後とする。

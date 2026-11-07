@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { EXAM_CATALOG } from '~/utils/examCatalog'
+import { STATIC_EXAM_CATALOG } from '~/utils/examCatalog'
 import { EXAM_CONFIG, hasFullExamAccess } from '~/utils/examConfig'
 import { createStaticExamNavigation, staticPracticePosition } from '~/utils/staticExamNavigation'
 
@@ -14,7 +14,7 @@ const { user } = useAuth()
 
 // All configured questions are published together. Navigation must not wait for Fly.io.
 // No catalog request on mount, accordion expansion, hover or focus.
-const exams = computed(() => createStaticExamNavigation(EXAM_CATALOG, {
+const exams = computed(() => createStaticExamNavigation(STATIC_EXAM_CATALOG, {
   paymentsEnabled: EXAM_CONFIG.payments.enabled,
   freeExamCount: EXAM_CONFIG.payments.free_exam_count,
   fullAccess: hasFullExamAccess(user.value),
@@ -94,9 +94,11 @@ watch(() => currentPosition.value?.examNumber, exam => {
           <div class="exam-row" :class="{ current: currentPosition?.examNumber === exam.examNumber }">
             <NuxtLink class="exam-link" :to="exam.to" no-prefetch @click="closeMobileList">
               {{ exam.title }}
+              <span v-if="exam.comingSoon" class="coming-soon-label">準備中</span>
               <UIcon v-if="exam.locked" name="i-lucide-lock-keyhole" aria-label="プレミアム会員向け" />
             </NuxtLink>
             <button
+              v-if="!exam.comingSoon"
               type="button"
               :aria-expanded="openExam === exam.examNumber"
               :aria-controls="`exam-${exam.examNumber}-questions`"
@@ -136,6 +138,7 @@ watch(() => currentPosition.value?.examNumber, exam => {
 </template>
 
 <style scoped>
+.coming-soon-label { font-size: 12px; color: var(--muted); white-space: nowrap; }
 .exam-sidebar {
   width: var(--exam-sidebar-width, 260px);
   min-height: calc(100vh - var(--header-height));

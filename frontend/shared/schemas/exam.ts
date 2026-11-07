@@ -29,6 +29,7 @@ export const examConfigurationSchema = z.object({
     questions_per_exam: count,
     choice_labels: choiceLabels,
     sets: z.array(examSet).min(1).optional(),
+    upcoming_sets: z.array(z.strictObject({ exam_number: count, title: nonblank })).optional(),
   }).passthrough(),
   categories: z.object({
     major: z.array(category).min(1),
@@ -64,6 +65,11 @@ export const examConfigurationSchema = z.object({
       }
       if (next !== set.question_count + 1) ctx.addIssue({ code: 'custom', path: ['exam', 'sets', index, 'sections'], message: 'must cover every question in the set' })
     }
+  }
+  const upcoming = config.exam.upcoming_sets ?? []
+  unique(upcoming.map(item => String(item.exam_number)), ['exam', 'upcoming_sets'])
+  if (upcoming.some((item, index) => item.exam_number !== config.exam.set_count + index + 1)) {
+    ctx.addIssue({ code: 'custom', path: ['exam', 'upcoming_sets'], message: 'must continue after the configured sets without overlap or gaps' })
   }
   unique(config.categories.major.map(item => item.value), ['categories', 'major'])
   unique(config.categories.minor.map(item => item.value), ['categories', 'minor'])

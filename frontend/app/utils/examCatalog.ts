@@ -7,6 +7,7 @@ export type ExamCatalogGroup = { id: number; group_number: number; title: string
 export type ExamCatalogEntry = {
   exam_number: number
   title?: string
+  comingSoon?: boolean
   access?: 'available' | 'paid_membership_required'
   groups?: ExamCatalogGroup[]
   question_numbers: readonly number[]
@@ -25,6 +26,10 @@ export const createExamCatalog = (config: ExamConfiguration = EXAM_CONFIG): read
   })),
 )
 export const EXAM_CATALOG = createExamCatalog()
+// Planned sets are navigation only; they are never included in practice sequences or API publication.
+export const UPCOMING_EXAM_CATALOG: readonly ExamCatalogEntry[] = Object.freeze((EXAM_CONFIG.exam.upcoming_sets ?? []).map(exam => Object.freeze({ ...exam, comingSoon: true, question_numbers: Object.freeze([] as number[]) })))
+export const STATIC_EXAM_CATALOG: readonly ExamCatalogEntry[] = Object.freeze([...EXAM_CATALOG, ...UPCOMING_EXAM_CATALOG])
+export const comingSoonExamPath = (examNumber: number) => `/mock-exams/${examNumber}`
 export const FREE_EXAM_CATALOG = EXAM_CATALOG.filter(exam => exam.exam_number <= FREE_EXAM_MAX)
 export const examTitle = (examNumber: number): string => getExamSet(EXAM_CONFIG, examNumber)?.title ?? `試験セット ${examNumber}`
 

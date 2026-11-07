@@ -4,7 +4,7 @@ import { randomUUID } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { readFile } from 'node:fs/promises'
 import { after, test } from 'node:test'
-import { configuration } from '../server/core/config.ts'
+import { configuration, setConfigurationForTesting } from '../server/core/config.ts'
 import { closeDatabase, getDatabase, record, type Database } from '../server/core/db.ts'
 import type { User } from '../server/core/auth.ts'
 import { parseContentDocument } from '../shared/schemas/structure.ts'
@@ -23,6 +23,8 @@ const passages = new Map(document.groups.flatMap(group => group.passages.map(pas
 after(closeDatabase)
 
 async function legacyFixture(run: (db: Database, before: any[], owner: User) => Promise<void>) {
+  const originalConfiguration = structuredClone(configuration)
+  setConfigurationForTesting({ ...originalConfiguration, payments: { ...originalConfiguration.payments, enabled: false } })
   const rollback = new Error('structure fixture rollback')
   try { await getDatabase().$transaction(async db => {
     // Only the explicitly isolated test DB's rollback transaction is emptied.
@@ -40,7 +42,7 @@ async function legacyFixture(run: (db: Database, before: any[], owner: User) => 
     const before = record(await db.question.findMany({ orderBy: { question_number: 'asc' }, include: { choices: { orderBy: { display_order: 'asc' } }, passage_references: true } }))
     await run(db, before, { ...owner, id: Number(owner.id) } as unknown as User)
     throw rollback
-  }, { timeout: 180_000, maxWait: 10_000 }) } catch (error) { if (error !== rollback) throw error }
+  }, { timeout: 180_000, maxWait: 10_000 }) } catch (error) { if (error !== rollback) throw error } finally { setConfigurationForTesting(originalConfiguration) }
 }
 async function domainSnapshot(db: Database) {
   return digest(record({

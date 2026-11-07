@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
+import { verify678 } from './illustrated-678/build.mjs'
 import { verifyIllustrated } from './illustrated-revision/build.mjs'
 import { verifySeed } from './mock02-revision/build-seed.mjs'
 import { createHash } from 'node:crypto'
@@ -20,6 +21,7 @@ const reading = questions => questions.reduce((counts, question) => {
 function main() {
   const authoringOnly = process.argv.includes('--authoring-only')
   // Original series ratings/PDFs remain historical artifacts; V2 is checked against its supplied source.
+  verify678()
   verifySeed()
   verifyIllustrated()
   const directory = exam => exam === 2 ? 'content/revisions/mock02-textbook-v2/baseline-artifacts' : `content/revisions/illustrated-01345/mock-${exam}/baseline-artifacts`
@@ -27,7 +29,7 @@ function main() {
   const authored = [1,2,3,4,5].map(exam => read(`${directory(exam)}/questions.json`))
   const document = parseContentDocument({schema_version:2,exam_sets:authored.flatMap(item=>item.exam_sets),groups:authored.flatMap(item=>item.groups),questions:authored.flatMap(item=>item.questions)},config)
   const series = read('content/mock-exams/series.json')
-  assert.equal(config.exam.set_count, 5)
+  assert.equal(config.exam.set_count, authoringOnly ? 5 : 8)
   assert.equal(document.questions.length, 425)
   assert.equal(document.groups.length, 155)
   assert.equal(document.exam_sets.length, 5)

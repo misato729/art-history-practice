@@ -13,7 +13,7 @@ export function buildSeed(){
  const bytes=readFileSync(resolve(revisionDir,'revision.json'))
  assert.equal(createHash('sha256').update(bytes).digest('hex'),'6772db27010e8706eeb7af990694a54215c46d9fdcc764e5811c1e11321aa6c2')
  const revision=validatePackage(JSON.parse(bytes)),base=read(resolve(revisionDir,'baseline-original.json'))
- const parts=[1,2,3,4,5].map(n=>n===2?base:read(resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`)))
+ const parts=Array.from({length:EXAM_CONFIG.exam.set_count},(_,i)=>i+1).map(n=>n===2?base:read(resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`)))
  const next=structuredClone(base),newPassage=111
  const shared=next.groups.find(g=>g.group_number===27)
  shared.passages.push({id:newPassage,label:revision.application_group.passage_label,display_order:shared.passages.length+1,content_blocks:structuredClone(revision.application_group.content_blocks)})

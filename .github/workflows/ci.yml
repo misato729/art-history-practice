@@ -77,10 +77,10 @@ jobs:
           cache-dependency-path: frontend/package-lock.json
       - name: Install dependencies
         run: npm ci
-      - name: Validate all five mock datasets, artwork files and PDF fingerprints
+      - name: Validate all eight mock datasets, artwork files and PDF fingerprints
         working-directory: .
         run: |
-          for mock_number in 01 02 03 04 05; do
+          for mock_number in 01 02 03 04 05 06 07 08; do
             node --experimental-strip-types scripts/check-mock-exam.mjs "content/mock-exams/mock-$mock_number"
           done
           node --experimental-strip-types scripts/check-mock-exam.mjs content/revisions/mock02-textbook-v2/baseline-artifacts
@@ -93,7 +93,12 @@ jobs:
       - name: Check generated schema
         run: npm run schema:check
       - name: Check desktop and mobile browser flows
-        run: npm run test:e2e
+        run: |
+          if node --input-type=module -e "import c from '../config/exam.json' with {type:'json'}; process.exit(c.payments.enabled ? 0 : 1)"; then
+            npm run test:e2e -- e2e/paid-access.spec.ts
+          else
+            npm run test:e2e
+          fi
       - name: Save browser test diagnostics
         if: failure()
         uses: actions/upload-artifact@v4

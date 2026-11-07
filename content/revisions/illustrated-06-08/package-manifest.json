@@ -1,0 +1,105 @@
+{
+  "release": "art-mocks-06-07-08-illustrated-20261108-r1",
+  "exam_numbers": [
+    6,
+    7,
+    8
+  ],
+  "question_count": 255,
+  "choice_count": 1020,
+  "unique_artworks": 48,
+  "exams": [
+    {
+      "exam_number": 6,
+      "question_count": 85,
+      "normal_questions": 80,
+      "normal_illustrated_questions": 21,
+      "application_questions": 5,
+      "shared_artworks": 4,
+      "unique_artworks": 26,
+      "answers": {
+        "エ": 21,
+        "イ": 21,
+        "ア": 22,
+        "ウ": 21
+      }
+    },
+    {
+      "exam_number": 7,
+      "question_count": 85,
+      "normal_questions": 80,
+      "normal_illustrated_questions": 21,
+      "application_questions": 5,
+      "shared_artworks": 4,
+      "unique_artworks": 29,
+      "answers": {
+        "エ": 21,
+        "ア": 21,
+        "イ": 22,
+        "ウ": 21
+      }
+    },
+    {
+      "exam_number": 8,
+      "question_count": 85,
+      "normal_questions": 80,
+      "normal_illustrated_questions": 21,
+      "application_questions": 5,
+      "shared_artworks": 4,
+      "unique_artworks": 28,
+      "answers": {
+        "エ": 21,
+        "ウ": 22,
+        "イ": 21,
+        "ア": 21
+      }
+    }
+  ],
+  "pdfs": [
+    {
+      "exam_number": 6,
+      "document": "questions",
+      "pages": 37,
+      "bytes": 15587279,
+      "image_objects": 962
+    },
+    {
+      "exam_number": 6,
+      "document": "answers",
+      "pages": 43,
+      "bytes": 577020,
+      "image_objects": 0
+    },
+    {
+      "exam_number": 7,
+      "document": "questions",
+      "pages": 38,
+      "bytes": 16130138,
+      "image_objects": 1102
+    },
+    {
+      "exam_number": 7,
+      "document": "answers",
+      "pages": 47,
+      "bytes": 581538,
+      "image_objects": 0
+    },
+    {
+      "exam_number": 8,
+      "document": "questions",
+      "pages": 39,
+      "bytes": 15885193,
+      "image_objects": 1092
+    },
+    {
+      "exam_number": 8,
+      "document": "answers",
+      "pages": 45,
+      "bytes": 573139,
+      "image_objects": 0
+    }
+  ],
+  "manuscript_only": true,
+  "database_modified": false,
+  "third_party_review_completed": false
+}

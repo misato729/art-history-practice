@@ -164,7 +164,8 @@ const validPosition = computed(() => (
   && allExamNumbers.includes(examNumber.value)
   && Number.isInteger(questionNumber.value)
   && allQuestionNumbers.includes(questionNumber.value)
-  && currentPracticeIndex.value >= 0
+  // Locked published positions must reach API authorization rather than an invalid sentinel request.
+  && (currentPracticeIndex.value >= 0 || publicPracticeCatalog.value?.some(exam => exam.exam_number === examNumber.value && exam.access === 'paid_membership_required'))
 ))
 
 const requestQuery = computed(() => ({

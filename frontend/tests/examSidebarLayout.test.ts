@@ -34,7 +34,7 @@ test('navigation closes mobile menu, Escape restores focus, and no catalog is lo
 })
 
 test('sidebar renders number links and disables link prefetch', () => {
-  assert.match(sidebar, /createStaticExamNavigation\(EXAM_CATALOG,/)
+  assert.match(sidebar, /createStaticExamNavigation\(STATIC_EXAM_CATALOG,/)
   assert.match(sidebar, /v-for="entry in exam.questions"/)
   assert.match(sidebar, /問\{\{ entry.number \}\}/)
   assert.match(sidebar, /:to="entry.to"/)

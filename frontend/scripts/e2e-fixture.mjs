@@ -11,7 +11,7 @@ export function loadE2EFixture() {
     const document = parseContentDocument(JSON.parse(readFileSync(new URL('../../content/questions.json', import.meta.url), 'utf8')), config)
     questions = document.questions
   } catch { throw new Error('E2E fixture validation failed. Check the shared configuration and sample content.') }
-  const question = questions.find(item => item.publication_status === 'published')
-  if (!question || config.payments.enabled) throw new Error('Core browser journeys require a published sample question and payments.enabled=false in the isolated fixture.')
+  const question = questions.find(item => item.publication_status === 'published' && (!config.payments.enabled || item.exam_number <= config.payments.free_exam_count))
+  if (!question) throw new Error('Browser journeys require a published free sample question in the isolated fixture.')
   return { config, question }
 }

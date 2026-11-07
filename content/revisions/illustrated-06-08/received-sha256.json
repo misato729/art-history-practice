@@ -1,0 +1,13 @@
+{
+  "content/revisions/illustrated-06-08/asset-manifest.json": "1b3a1f40a8967d4098894d984b107dc64ba36aeea601020fb70d34b7f215f0af",
+  "content/revisions/illustrated-06-08/package-manifest.json": "6a383b17b952ad7a4e768f4712c8eccafbc1bfe792041a27cd52b18c18597975",
+  "content/revisions/illustrated-06-08/qa-results.json": "08fbe12fda54439f128da865f99eb7623f9b0c351fc17adfccaa82c69d5423fb",
+  "content/revisions/illustrated-06-08/SOURCE-POLICY-ja.md": "48cbb3a64383f108f735c25a3922653d10d72446d7c1a044fd8de37751c94499",
+  "content/revisions/illustrated-06-08/WORKS-CONTENT-NOTES-ja.md": "b6266a05eb20a510b5e6cc3e4d91a79b24625ae1abc95be99a85f37dc5f9b976",
+  "content/revisions/illustrated-06-08/mock-06/exam.json": "3256d41ed041746bd8681886e4b6b570dac6546acd0d84483b137a1a1214e630",
+  "content/revisions/illustrated-06-08/mock-06/source-map.json": "bef1b1c5a4824bb80cc9b9e4da083b3abf1c44b8f5e735e3f1bf4222506fb309",
+  "content/revisions/illustrated-06-08/mock-07/exam.json": "cb28a2c05ee0d9cb8b3a030a42ca44e54471a6f6743d89c41c4b33e0fb4a053a",
+  "content/revisions/illustrated-06-08/mock-07/source-map.json": "8325c3465c239ed856f99b03c97ac1bb39c001b3efb3e02d96d417b9b6d366d0",
+  "content/revisions/illustrated-06-08/mock-08/exam.json": "3fabd6c27cc491b46f83ab53162b68b98a74f62b7a49109b6c19203f073caaf6",
+  "content/revisions/illustrated-06-08/mock-08/source-map.json": "60350d15b6c2587ad0c690ff737df04917f58810d9a3d0877f0a2e37f9a72074"
+}

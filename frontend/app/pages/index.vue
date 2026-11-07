@@ -3,7 +3,7 @@ import { categoryLeafCodes, categorySelectionState, toggleCategoryCodes, presetC
 import type { StudyCategoryNode } from '../../shared/schemas/study-categories'
 import { EXAM_CONFIG } from '~/utils/examConfig'
 import { MATERIAL_RANDOM_UNIT, shuffleArtPracticeSequence } from '~/utils/artPracticeFormat'
-import { EXAM_CATALOG, FREE_EXAM_MAX, QUESTIONS_PER_EXAM, catalogExamLabel, catalogExamStartNumber, type ExamCatalogEntry } from '~/utils/examCatalog'
+import { EXAM_CATALOG, STATIC_EXAM_CATALOG, FREE_EXAM_MAX, QUESTIONS_PER_EXAM, catalogExamLabel, catalogExamStartNumber, type ExamCatalogEntry } from '~/utils/examCatalog'
 import {
   createPracticeSeed,
   createPracticeSequence,
@@ -32,8 +32,8 @@ watch(launcherMode, mode => { if (mode === 'conditions' && !studyCatalog.value) 
 // Only the explicit conditions tab needs the live catalog. Ordinary navigation is static.
 const catalogEnabled = computed(() => launcherMode.value === 'conditions')
 const { data: publicCatalog, status: catalogStatus, error: catalogError, refresh: refreshCatalog } = usePracticeCatalog(catalogEnabled)
-const staticExams: readonly ExamCatalogEntry[] = EXAM_CATALOG
-const catalogExams = computed(() => catalogEnabled.value ? publicCatalog.value ?? [] : staticExams)
+const staticExams: readonly ExamCatalogEntry[] = STATIC_EXAM_CATALOG
+const catalogExams = computed(() => catalogEnabled.value ? publicCatalog.value ?? [] : EXAM_CATALOG)
 const selectedCategories = ref<string[]>([])
 const parts = computed(() => studyCatalog.value?.data.study_outline ?? [])
 const hasStudyFilter = computed(() => selectedCategories.value.length > 0)
@@ -95,7 +95,7 @@ const hasConditionSelection = computed(() => Boolean(studyCatalog.value) && !stu
 
 const examIsLocked = (examNumber: number) => examNumber > FREE_EXAM_MAX && !hasFullAccess.value
 const examTarget = (exam: ExamCatalogEntry) => (
-  examIsLocked(exam.exam_number) ? '/premium' : `/practice/${exam.exam_number}/${catalogExamStartNumber(exam) ?? 1}`
+  exam.comingSoon ? `/mock-exams/${exam.exam_number}` : examIsLocked(exam.exam_number) ? '/premium' : `/practice/${exam.exam_number}/${catalogExamStartNumber(exam) ?? 1}`
 )
 const startConditionalPractice = (order: PracticeOrder) => {
   if (!hasConditionSelection.value) return
@@ -201,7 +201,7 @@ watch(availableExamNumbers, (examNumbers, previousExamNumbers) => {
         aria-labelledby="exam-mode-tab"
       >
         <div class="exam-grid-heading">
-          <p><strong>模擬試験 全{{ staticExams.length }}回</strong><span>1問ずつ演習</span></p>
+          <p><strong>模擬試験 公開{{ EXAM_CATALOG.length }}回</strong><span>模擬試験1・2は無料、3以降はプレミアム会員向け</span></p>
           <NuxtLink v-if="!hasFullAccess" class="premium-info-link" to="/premium">
             <UIcon name="i-lucide-lock-keyhole" />
             模擬試験{{ FREE_EXAM_MAX + 1 }}以降はプレミアム会員向けです
@@ -214,9 +214,9 @@ watch(availableExamNumbers, (examNumbers, previousExamNumbers) => {
             class="exam-card"
             :to="examTarget(exam)"
             no-prefetch
-            :aria-label="examIsLocked(exam.exam_number) ? `模擬試験${exam.exam_number}はプレミアム会員向けです` : `模擬試験${exam.exam_number}を始める`"
+            :aria-label="exam.comingSoon ? `${catalogExamLabel(exam.exam_number)}は準備中です` : examIsLocked(exam.exam_number) ? `模擬試験${exam.exam_number}はプレミアム会員向けです` : `模擬試験${exam.exam_number}を始める`"
           >
-            <span class="exam-card-copy"><strong>{{ catalogExamLabel(exam.exam_number) }}</strong><span>{{ exam.question_numbers.length }}問収録{{ examIsLocked(exam.exam_number) ? '・プレミアム会員向け' : '' }}</span></span>
+            <span class="exam-card-copy"><strong>{{ catalogExamLabel(exam.exam_number) }}</strong><span>{{ exam.comingSoon ? '準備中' : `${exam.question_numbers.length}問収録` }}{{ examIsLocked(exam.exam_number) ? '・プレミアム会員向け' : '' }}</span></span>
             <UIcon :name="examIsLocked(exam.exam_number) ? 'i-lucide-lock-keyhole' : 'i-lucide-arrow-right'" aria-hidden="true" />
           </NuxtLink>
         </div>

@@ -14,15 +14,15 @@ const unavailable = (settings: PaymentSettings): never => {
 }
 const inProgress = (): never => fail(409, 'checkout_session_in_progress', '未完了の決済があります')
 
-function checkoutParameters(user: User, settings: PaymentSettings): Stripe.Checkout.SessionCreateParams {
+export function checkoutParameters(user: User, settings: PaymentSettings): Stripe.Checkout.SessionCreateParams {
   const metadata = { user_id: String(user.id), purchase_type: 'paid_membership', stripe_price_id: settings.priceId }
   return {
     ui_mode: 'hosted_page', mode: 'payment', locale: 'ja', billing_address_collection: 'auto',
-    phone_number_collection: { enabled: false }, automatic_tax: { enabled: false }, allow_promotion_codes: false,
+    phone_number_collection: { enabled: false }, automatic_tax: { enabled: true }, allow_promotion_codes: false,
     allowed_payment_method_types: ['card'], submit_type: 'auto', integration_identifier: 'hosted_web_0001', origin_context: 'web',
     line_items: [{ price: settings.priceId, quantity: 1 }], client_reference_id: String(user.id), customer_email: user.email,
     consent_collection: { terms_of_service: 'required' },
-    custom_text: { submit: { message: `「${settings.siteName}の有料コンテンツ利用資格」を${settings.amount} ${settings.currency.toUpperCase()}で買い切る契約です。月額課金や自動更新はありません。決済完了後に利用資格を提供し、提供開始後の利用者都合による返金は原則として受け付けません。` } },
+    custom_text: { terms_of_service_acceptance: { message: `${settings.siteName}の[利用規約](${settings.frontendUrl}/terms)に同意します。` }, submit: { message: `「${settings.siteName}の有料コンテンツ利用資格」を${settings.amount} ${settings.currency.toUpperCase()}で買い切る契約です。月額課金や自動更新はありません。決済完了後に利用資格を提供し、提供開始後の利用者都合による返金は原則として受け付けません。` } },
     metadata, payment_intent_data: { metadata }, success_url: `${settings.frontendUrl}/premium/complete`, cancel_url: `${settings.frontendUrl}/premium?canceled=1`,
   }
 }
@@ -41,7 +41,7 @@ export async function createCheckoutSession(user: User, options: PaymentOptions 
       ])
       if (locked.role === 'admin' || membership || verification) fail(409, 'membership_already_active', 'すでに有料コンテンツを利用できます')
       const price = await client.prices.retrieve(settings.priceId)
-      if (!(price.active === true && price.currency === settings.currency && price.unit_amount === settings.amount && price.type === 'one_time' && price.livemode === settings.livemode)) unavailable(settings)
+      if (!(price.active === true && price.currency === settings.currency && price.unit_amount === settings.amount && price.type === 'one_time' && price.tax_behavior === 'inclusive' && price.livemode === settings.livemode)) unavailable(settings)
       const [pendingLock] = await query<{ id: number }>(`SELECT id FROM payments WHERE user_id=$1 AND status='pending' ORDER BY created_at DESC LIMIT 1 FOR UPDATE`, [user.id], db)
       const pending = pendingLock ? await db.payment.findUnique({ where: { id: BigInt(pendingLock.id) } }) : null
       if (pending) {

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 148,
-  "updated_at": "2026-11-07T22:18:33.915Z",
+  "revision": 155,
+  "updated_at": "2026-11-07T23:58:05.865Z",
   "workspace_relative_to_repo": ".",
   "active_context": "operations",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-07T22-18-33-915Z-r148.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-07T23-58-05-865Z-r155.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2398,6 +2398,204 @@
             "failed_criteria": []
           }
         ]
+      }
+    },
+    {
+      "id": "art_paid_access_upcoming",
+      "context": "development",
+      "title": "模試6〜8の静的準備中導線と模試3以降の有料アクセス制御",
+      "status": "doing",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-08 ユーザー依頼。6〜8はChatで作問中、静的導線と3以降有料化・Stripe設定。料金/販売者/Stripe接続を確認中。",
+      "next_action": "準備完了の状態を記録する",
+      "evidence": [
+        "docs/verification.md",
+        "docs/payments-art.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "当初の準備中導線と無料2/有料3+のローカル準備はr151で検証済み。今回原稿受領後は別タスクart_mocks_06_08_registrationへ継続。公開未実施。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "静的導線/準備中/無料境界とAPI有料制御を限定検証、型/ビルド/既存原稿保護を確認",
+          "verification": "共有schema・関連unit/API・PC/SP限定検査",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md",
+            "docs/payments-art.md"
+          ],
+          "checked_at": "2026-11-08"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "公開前準備中の扱いと有料認可の保全を別担当が確認",
+          "verification": "独立レビュー",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md",
+            "docs/payments-art.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "delivery_audit"
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "無料1〜2/有料3以降/準備中6〜8と401循環修正、関連検証と独立レビューを確認。",
+            "at": "2026-11-07T23:40:44.097Z",
+            "failed_criteria": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "art_stripe_setup",
+      "context": "operations",
+      "title": "美術史ラボ専用Stripe商品・税込500円・日本の自動税計算と決済通知設定",
+      "status": "doing",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-08 ユーザーがmisatoの地歴ラボ本番Stripeアカウント、税込500円買切り、Stripe Tax、専用キー、世界史ラボと同じ公開販売者情報を指定。税区分と専用キー保存は確認待ち。",
+      "next_action": "commit/push・配信・購入受付開始の了承を待つ",
+      "evidence": [
+        "docs/verification.md",
+        "docs/payments-art.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "美術史ラボ専用リソースのみ。既存商品/価格/税登録/他サイトのキーは変更しない。実際の課金や本番受付開始は未実施。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "専用商品/500JPY税込one_time Price/対応イベント/署名設定/キーの整合と日本の税計算を確認",
+          "verification": "Stripeのメタデータ・請求previewと非公開設定の安全な検査",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md",
+            "docs/payments-art.md"
+          ],
+          "checked_at": "2026-11-08"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "実施/未実施と販売開始条件を別担当が確認",
+          "verification": "独立レビュー",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md",
+            "docs/payments-art.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "delivery_audit"
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": []
+      }
+    },
+    {
+      "id": "art_mocks_06_08_registration",
+      "context": "development",
+      "title": "提供原稿を保持した模試6〜8の追加・静的導線更新と独立DB検証",
+      "status": "done",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-08 user: art-mocks-06-07-08-illustrated.zip / 模試6~8ができました",
+      "next_action": "本番書き込み前の了承に従い、Git送信/本番追加/配信/販売開始の確認を待つ",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "原稿一致・独立DB追加/再実行/510採点履歴/復元・PC/SP4件・生成物保護を実施。既存425不変。本番未反映。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "依頼された変更範囲の検査が成功する",
+          "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "実装担当以外が受入条件と成果物を確認する",
+          "verification": "別担当のレビューで未解決の問題がないことを確認する",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "delivery_audit"
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "原稿一致・既存425保護・独立DB追加/再実行/510採点履歴/復元・PC/SP4件・生成物保護と独立レビューを確認",
+            "at": "2026-11-07T23:56:24.960Z",
+            "failed_criteria": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "art_paid_eight_release",
+      "context": "operations",
+      "title": "承認済み全8回と税込500円買い切りの本番反映",
+      "status": "doing",
+      "depends_on": [
+        "art_mocks_06_08_registration"
+      ],
+      "authorization": "requested",
+      "request_ref": "2026-11-08 user: 進めてください（commit/push・本番登録/配信・販売開始への承認）",
+      "next_action": "本番dry-run/backups後に追加、Git/CIと配信、Webhook署名確認と販売有効化",
+      "evidence": [],
+      "last_verified_at": null,
+      "verification_scope": "未実施。例示ファイルは自動でタスクに登録されない。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "依頼された変更範囲の検査が成功する",
+          "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
+          "status": "pending",
+          "evidence": [],
+          "checked_at": null
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "実装担当以外が受入条件と成果物を確認する",
+          "verification": "別担当のレビューで未解決の問題がないことを確認する",
+          "status": "pending",
+          "evidence": [],
+          "checked_at": null,
+          "reviewer": null
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": []
       }
     }
   ]

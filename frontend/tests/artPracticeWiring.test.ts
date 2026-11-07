@@ -41,7 +41,7 @@ test('section entry validates publication and preserves a resolved subset', () =
   assert.match(start, /exam.access !== 'paid_membership_required'/)
 })
 test('sidebar uses static question links while practice still renders material-aware content', () => {
-  assert.match(sidebar, /createStaticExamNavigation\(EXAM_CATALOG,/)
+  assert.match(sidebar, /createStaticExamNavigation\(STATIC_EXAM_CATALOG,/)
   assert.match(sidebar, /v-for="entry in exam.questions"/)
   assert.doesNotMatch(sidebar, /usePracticeCatalog\(/)
   assert.doesNotMatch(sidebar, /v-for="entry in exam.groupLinks"/)

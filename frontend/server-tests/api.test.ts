@@ -41,6 +41,8 @@ before(async () => {
   }
 })
 beforeEach(async () => {
+  // Transport, identity and CSRF cases use an explicitly free fixture; paid cases opt in below.
+  setConfigurationForTesting({ ...original, payments: { ...original.payments, enabled: false } })
   if (databaseAvailable) await query('DELETE FROM rate_limiter_flexible')
 })
 
@@ -185,6 +187,7 @@ test('HTTP administrator checks read current roles while preserving the library 
   assert.equal((await request('/admin/questions', { cookie: session.cookie })).status, 200)
   const expanded = structuredClone(original)
   expanded.exam.set_count = original.exam.set_count + 1
+  expanded.exam.upcoming_sets = []
   delete expanded.exam.sets
   setConfigurationForTesting(expanded)
   try {

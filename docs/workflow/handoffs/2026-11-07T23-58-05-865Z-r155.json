@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "revision": 155,
+  "state_hash": "53b803673414a5992b5b06ae8b071045551e31e93b566afc951b88d3bb6d9013",
+  "recorded_at": "2026-11-07T23:58:05.865Z",
+  "timezone": "UTC",
+  "context": "operations",
+  "task": "art_paid_eight_release",
+  "summary": "ユーザーがGit送信・本番6〜8登録/配信・500円買い切り販売開始を承認",
+  "next_action": "本番dry-run/backups後に追加、Git/CIと配信、Webhook署名確認と販売有効化",
+  "missing_local_files": [],
+  "git": {
+    "available": true,
+    "head": "9fe8ab29fd83ef050218b13c97bf11ca41775181",
+    "changes": [
+      {
+        "status": " M",
+        "path": ".github/workflows/ci.yml"
+      },
+      {
+        "status": " M",
+        "path": "README.md"
+      },
+      {
+        "status": " M",
+        "path": "config/exam.json"
+      },
+      {
+        "status": " M",
+        "path": "config/exam.schema.json"
+      },
+      {
+        "status": " M",
+        "path": "content/questions.json"
+      },
+      {
+        "status": " M",
+        "path": "docs/testing.md"
+      },
+      {
+        "status": " M",
+        "path": "docs/verification.md"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/components/ExamSidebar.vue"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/pages/index.vue"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/pages/practice/[examNumber]/[questionNumber].vue"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/pages/premium/index.vue"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/plugins/api.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/utils/examCatalog.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/utils/staticExamGroups.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/app/utils/staticExamNavigation.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/scripts/e2e-fixture.mjs"
+      },
+      {
+        "status": " M",
+        "path": "frontend/server-tests/api.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/server-tests/grouped-learning.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/server-tests/payments.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/server-tests/structure-operation.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/server-tests/timezone.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/server/services/payment-checkout.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/shared/schemas/exam.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/tests/apiStatus.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/tests/artPracticeWiring.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/tests/examSidebarLayout.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/tests/mixedExamNavigation.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/tests/mixedExamValidation.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/tests/sidebarCatalog.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "frontend/tests/staticExamNavigation.test.ts"
+      },
+      {
+        "status": " M",
+        "path": "scripts/check-mock-exam.mjs"
+      },
+      {
+        "status": " M",
+        "path": "scripts/check-mock-series.mjs"
+      },
+      {
+        "status": " M",
+        "path": "scripts/illustrated-revision/build.mjs"
+      },
+      {
+        "status": " M",
+        "path": "scripts/mock02-revision/build-seed.mjs"
+      },
+      {
+        "status": "??",
+        "path": "content/mock-exams/mock-06/questions.json"
+      },
+      {
+        "status": "??",
+        "path": "content/mock-exams/mock-07/questions.json"
+      },
+      {
+        "status": "??",
+        "path": "content/mock-exams/mock-08/questions.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/SOURCE-POLICY-ja.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/WORKS-CONTENT-NOTES-ja.md"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/asset-manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/asset-paths.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/mock-06/exam.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/mock-06/source-map.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/mock-07/exam.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/mock-07/source-map.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/mock-08/exam.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/mock-08/source-map.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/package-manifest.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/qa-results.json"
+      },
+      {
+        "status": "??",
+        "path": "content/revisions/illustrated-06-08/received-sha256.json"
+      },
+      {
+        "status": "??",
+        "path": "docs/payments-art.md"
+      },
+      {
+        "status": "??",
+        "path": "frontend/app/pages/mock-exams/[examNumber].vue"
+      },
+      {
+        "status": "??",
+        "path": "frontend/e2e/paid-access.spec.ts"
+      },
+      {
+        "status": "??",
+        "path": "frontend/server-tests/paid-boundary.test.ts"
+      },
+      {
+        "status": "??",
+        "path": "scripts/illustrated-678/append.mjs"
+      },
+      {
+        "status": "??",
+        "path": "scripts/illustrated-678/build.mjs"
+      }
+    ]
+  },
+  "file_hashes": {
+    "AGENTS.md": "4824b8c34a5ce59d3076123deb93f2343040d81ad34238759505160ff6ec66f9",
+    "README.md": "6dfc5a1084fd54efcf249eb270514d86562da130d8544cf94f61847147508448",
+    "docs/testing.md": "7ee6bcc0f30e4f20e2f14513a74c6b17aad66f502f1b92e3fd81371169226c6b",
+    "docs/workflow/README.md": "ce35c134e34be8261e2478091460df30cd2a2546fba658ba38f25e8411a9f8f8",
+    "docs/workflow/policy.json": "556e6f58a9fade468bc7469bea95863324542e58e9b3e6dad475f8c13c516a48",
+    "docs/workflow/task.example.json": "4bf161efce99b7d0a26798e3445d1f142505e512eedd591ea11cfb194d67da9f",
+    "docs/workflow/contexts/product.md": "42ca7998b93f5016e4e5884be805f7814ac156853e8d6983aee4c591ca107dd5",
+    "docs/workflow/contexts/development.md": "ab9b7cafdd26a6f143c08c122ffd801ff06759eaef769ac2f368448010a33247",
+    "docs/workflow/contexts/operations.md": "d02de6eb127496e226953dc031aad39fb129c2a09e64bc3dcb4b91b0ab9c1efb",
+    "scripts/context.mjs": "3828c41d1cc5a6977b8444035e094e61e1c9895fcaa9451ecb1919e799ecaffc",
+    "scripts/context.test.mjs": "125f184ecd2d34b8a4dc93a8d1edd2b6c527c0de8a46f39c8c92de265ebccc66",
+    "scripts/workflow-policy.mjs": "60535f2c9bf42203c059ca39a0b254c168b7cfb2468904a3842725fe3797141e",
+    "scripts/workflow-policy.test.mjs": "394287e7d1e84756a3ac8833918f964ee66f0ef2c34934d121d055fb37af4782",
+    "scripts/workspace-policy.mjs": "cd575bdc0a83e37ed28f4004c311c2415d895ce9d63b8fe8552ad674269cd219",
+    "scripts/workspace-policy.test.mjs": "22c2dce0ba9006d3266c2628a61e19acae48eb851c34f5a2fdd1d600cfb7944f",
+    "scripts/check-private-sources.mjs": "1d28447b51b39591d42151f236b837b33d695662168ee5c71500205aa0de96af",
+    "scripts/check-private-sources.test.mjs": "db6afd47e6f6e6de3405437960721f037068da4181eb7a81d7ba11477c7d69fb",
+    ".gitignore": "decd5d43989e6dd6419e109d57e215660223383455eb38cdd7cf15b1a1054773",
+    ".dockerignore": "6d8ce5aeeddf65278d8ab1e7811d03b8e54607e4ff39dfd074afbaeffd969874",
+    ".githooks/pre-push": "3529b300f7a655102ad899ab31fa8b2c404ec37479d1195aa9bcd3efa97bf90c"
+  },
+  "verification_note": "ハッシュ・Git・記録済み完了条件の確認であり、テストや出典照合の自動再実行ではない。依頼・権限は最新のユーザー指示とAGENTS.mdに従う。"
+}

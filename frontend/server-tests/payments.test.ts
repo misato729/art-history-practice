@@ -8,6 +8,7 @@ import Stripe from 'stripe'
 import { EXAM_CONFIG } from '../app/utils/examConfig.ts'
 import type { User } from '../server/core/auth.ts'
 import { closeDatabase, isolatedTransaction, query, type Database } from '../server/core/db.ts'
+import { authorizeExam } from '../server/services/learning.ts'
 import { ApiError } from '../server/core/errors.ts'
 import { createCheckoutSession, expirePendingCheckouts } from '../server/services/payment-checkout.ts'
 import { verifyStripeWebhook, type PaymentStripeClient, type StripeObject } from '../server/services/payment-client.ts'
@@ -29,7 +30,7 @@ const settings = paymentSettings(env, config, 'test')
 test('sales require feature flag, launch flag, seller identity, disclosure readiness and matching execution mode', () => {
   assert.equal(settings.enabled, true)
   assert.equal(paymentSettings({ ...env, PAID_MEMBERSHIP_ENABLED: 'false' }, config, 'test').enabled, false)
-  assert.equal(paymentSettings(env, EXAM_CONFIG, 'test').enabled, false)
+  assert.equal(paymentSettings(env, { ...config, payments: { ...config.payments, enabled: false } }, 'test').enabled, false)
   for (const key of ['NUXT_PUBLIC_SELLER_NAME', 'NUXT_PUBLIC_SELLER_REPRESENTATIVE', 'NUXT_PUBLIC_SELLER_EMAIL', 'NUXT_PUBLIC_SELLER_ADDRESS', 'NUXT_PUBLIC_SELLER_PHONE']) {
     assert.equal(paymentSettings({ ...env, [key]: '' }, config, 'test').enabled, false)
   }
@@ -73,7 +74,7 @@ test('raw Stripe signature verification rejects whitespace changes, invalid JSON
 
 function fakeStripe() {
   const state = {
-    price: { active: true, currency: 'jpy', unit_amount: 500, type: 'one_time', livemode: false } as StripeObject,
+    price: { active: true, currency: 'jpy', unit_amount: 500, type: 'one_time', tax_behavior: 'inclusive', livemode: false } as StripeObject,
     session: { id: 'cs_existing', url: 'https://checkout.stripe.com/synthetic', status: 'open', livemode: false } as StripeObject,
     charge: { id: 'ch_synthetic', currency: 'jpy', amount: 500, amount_refunded: 500, payment_intent: 'pi_synthetic', disputed: false } as StripeObject,
     intent: { id: 'pi_synthetic', currency: 'jpy', amount: 500, metadata: { purchase_type: 'paid_membership', user_id: '1', stripe_price_id: 'price_synthetic' } } as StripeObject,
@@ -149,6 +150,8 @@ dbTest('Checkout creates a fixed one-time Price with consent, origin, metadata a
   assert.deepEqual(params.allowed_payment_method_types, ['card'])
   assert.deepEqual(params.line_items, [{ price: 'price_synthetic', quantity: 1 }])
   assert.equal(params.consent_collection.terms_of_service, 'required')
+  assert.deepEqual(params.automatic_tax, { enabled: true })
+  assert.match(params.custom_text.terms_of_service_acceptance.message, /https:\/\/example\.invalid\/terms/)
   assert.equal(params.metadata.user_id, String(f.user.id))
   assert.deepEqual(params.metadata, params.payment_intent_data.metadata)
   assert.equal(params.success_url, 'https://example.invalid/premium/complete')
@@ -170,6 +173,11 @@ dbTest('expired pending Checkout permits a new purchase; wrong Price and session
   f.stripe.state.price.unit_amount = 499
   await assert.rejects(createCheckoutSession(f.user, { db: f.db, settings, client: f.stripe.client }), ApiError)
   f.stripe.state.price.unit_amount = 500
+  for (const behavior of ['exclusive', 'unspecified']) {
+    f.stripe.state.price.tax_behavior = behavior
+    await assert.rejects(createCheckoutSession(f.user, { db: f.db, settings, client: f.stripe.client }), ApiError)
+  }
+  f.stripe.state.price.tax_behavior = 'inclusive'
   f.stripe.state.session.livemode = true
   await assert.rejects(createCheckoutSession(f.user, { db: f.db, settings, client: f.stripe.client }), ApiError)
   f.stripe.state.session.livemode = false; f.stripe.state.session.status = 'expired'
@@ -205,13 +213,17 @@ dbTest('amount, currency, owner, price, payment status and livemode mismatches d
 })
 
 dbTest('partial refunds keep access and full refunds revoke only their source membership', async f => {
+  await assert.rejects(authorizeExam(3, f.user, f.db), (e: unknown) => e instanceof ApiError && e.status === 403)
   await processEvent(f, checkout(f))
+  await authorizeExam(3, f.user, f.db)
   f.stripe.state.charge.amount_refunded = 100
   await processEvent(f, event('refund.updated', { status: 'succeeded', payment_intent: 'pi_synthetic', charge: 'ch_synthetic' }))
   assert.equal((await records(f)).payment.status, 'partially_refunded'); assert.equal((await records(f)).membership!.status, 'active')
+  await authorizeExam(3, f.user, f.db)
   f.stripe.state.charge.amount_refunded = 500
   await processEvent(f, event('refund.created', { status: 'succeeded', payment_intent: 'pi_synthetic', charge: 'ch_synthetic' }))
   assert.equal((await records(f)).payment.status, 'refunded'); assert.equal((await records(f)).membership!.revocation_reason, 'refund')
+  await assert.rejects(authorizeExam(3, f.user, f.db), (e: unknown) => e instanceof ApiError && e.status === 403)
 })
 
 dbTest('failed refund reconciles current charge amount and restores only refund-revoked access', async f => {

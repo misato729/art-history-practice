@@ -22,11 +22,12 @@ const createClient = (fetch: typeof globalThis.fetch) => {
   }
   const user = ref<{ id: number } | null>({ id: 1 })
   const sessionVersion = ref(0)
+  const authResolved = ref(true)
   let clearCalls = 0
-  globals.useAuth = () => ({ user, sessionVersion, clearCurrentUser: () => { user.value = null; sessionVersion.value += 1; clearCalls += 1 } })
+  globals.useAuth = () => ({ user, authResolved, sessionVersion, clearCurrentUser: () => { user.value = null; authResolved.value = true; sessionVersion.value += 1; clearCalls += 1 } })
   globals.$fetch = ofetch.create({}, { fetch })
   const result = (setupApi as any)({ runWithContext: (fn: () => unknown) => fn() })
-  return { api: result.provide.api, status: useApiStatus().apiStatus, user, sessionVersion, clearCalls: () => clearCalls }
+  return { api: result.provide.api, status: useApiStatus().apiStatus, user, authResolved, sessionVersion, clearCalls: () => clearCalls }
 }
 
 test('API state starts idle and counts simultaneous requests', async () => {
@@ -153,4 +154,13 @@ test('SSR forwards the incoming HttpOnly session cookie with each request-scoped
     { cookie: 'session-first', target: 'http://internal.example.invalid/api/v1/me' },
     { cookie: 'session-second', target: 'http://internal.example.invalid/api/v1/me' },
   ])
+})
+
+
+test('an anonymous paid-question 401 does not restart catalog ownership or create a refetch loop', async () => {
+  const client = createClient(async () => new Response('{}', { status: 401 }))
+  client.user.value = null
+  for (let i = 0; i < 2; i++) await assert.rejects(client.api('/api/v1/questions/next?exam_number=3&question_number=1', { retry: 0 }))
+  assert.equal(client.sessionVersion.value, 0)
+  assert.equal(client.clearCalls(), 0)
 })

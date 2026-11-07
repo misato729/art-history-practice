@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { readFileSync } from 'node:fs'
+import { verify678 } from './illustrated-678/build.mjs'
 import { verifyIllustrated } from './illustrated-revision/build.mjs'
 import { verifySeed } from './mock02-revision/build-seed.mjs'
 import { resolve } from 'node:path'
@@ -12,6 +13,7 @@ import { parseContentDocument } from '../frontend/shared/schemas/structure.ts'
 function main() {
   const dir = resolve(process.argv[2] ?? 'content/mock-exams/mock-01')
   const read = name => JSON.parse(readFileSync(resolve(dir, name), 'utf8'))
+  if ([6,7,8].some(n=>dir===resolve(`content/mock-exams/mock-${String(n).padStart(2,'0')}`))) { verify678(); console.log(JSON.stringify({status:'passed',scope:'received_illustrated_678_source_conversion',questions:85,choices:340,academic_review:false})); return }
   if ([1,3,4,5].some(n=>dir===resolve(`content/mock-exams/mock-${String(n).padStart(2,'0')}`))) { verifyIllustrated(); console.log(JSON.stringify({status:'passed',scope:'received_illustrated_source_conversion',questions:85,choices:340,academic_review:false})); return }
   if(dir===resolve('content/mock-exams/mock-02')) {
     const {revision}=verifySeed(),registry=JSON.parse(readFileSync('content/mock-exams/mock-02/image-manifest.json','utf8')).assets

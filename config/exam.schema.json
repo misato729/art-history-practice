@@ -172,6 +172,28 @@
             ],
             "additionalProperties": false
           }
+        },
+        "upcoming_sets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "exam_number": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 10000
+              },
+              "title": {
+                "type": "string",
+                "pattern": "\\S"
+              }
+            },
+            "required": [
+              "exam_number",
+              "title"
+            ],
+            "additionalProperties": false
+          }
         }
       },
       "required": [

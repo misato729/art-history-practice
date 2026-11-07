@@ -30,7 +30,7 @@ async function isolated(action: (db: Database) => Promise<void>) {
     await isolatedTransaction(async db => {
       // Use an otherwise unused configured exam slot in the migrated test DB.
       setConfigurationForTesting({ ...originalConfiguration, exam: { set_count: 10000,
-        questions_per_exam: originalConfiguration.exam.questions_per_exam, choice_labels: [...originalConfiguration.exam.choice_labels] } })
+        questions_per_exam: originalConfiguration.exam.questions_per_exam, choice_labels: [...originalConfiguration.exam.choice_labels] }, payments: { ...originalConfiguration.payments, enabled: false, free_exam_count: 10000 } })
       await query("SET LOCAL TIME ZONE 'UTC'", [], db)
       await query("SET LOCAL lock_timeout='10s'", [], db)
       await action(db)

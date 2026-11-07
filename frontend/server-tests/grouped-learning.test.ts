@@ -30,7 +30,7 @@ async function fixture(run: (db: Database, groups: number[], questions: number[]
   const sets = Array.from({ length: 10000 }, (_, i) => ({ exam_number: i + 1, title: `Synthetic ${i + 1}`, question_count: 6, sections: [
     { title: 'Four', first: 1, last: 4, choice_labels: labels }, { title: 'Six', first: 5, last: 6, choice_labels: [...labels, 'オ', 'カ'] },
   ] }))
-  setConfigurationForTesting({ ...original, exam: { ...original.exam, set_count: 10000, questions_per_exam: 6, sets }, payments: { ...original.payments, enabled: false, free_exam_count: 10000 } })
+  setConfigurationForTesting({ ...original, exam: { ...original.exam, upcoming_sets: [], set_count: 10000, questions_per_exam: 6, sets }, payments: { ...original.payments, enabled: false, free_exam_count: 10000 } })
   try { await isolatedTransaction(async db => {
     const owner = await db.user.create({ data: { name: 'Synthetic group member', email: `group-${randomUUID()}@example.invalid`, created_at: new Date(), updated_at: new Date() } })
     const groups = []

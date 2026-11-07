@@ -93,7 +93,7 @@ const startCheckout = async () => {
     <header class="page-intro premium-intro">
       <span class="premium-kicker">ONE-TIME PURCHASE</span>
       <h1>プレミアム会員</h1>
-      <p>{{ PRICE_LABEL }}（税込）の買い切りで、公開中の全模擬試験を利用できます。月額料金や自動更新はありません。</p>
+      <p>{{ PRICE_LABEL }}（税込）の買い切りで、模擬試験3以降の公開問題を利用できます。模擬試験1・2は無料です。月額料金や自動更新はありません。</p>
     </header>
 
     <div v-if="canceled" class="notice-panel" role="status">
@@ -113,6 +113,7 @@ const startCheckout = async () => {
           <li><UIcon name="i-lucide-circle-check" />模擬試験{{ EXAM_CONFIG.payments.free_exam_count + 1 }}以降の公開問題</li>
           <li><UIcon name="i-lucide-circle-check" />お気に入り登録とサイドバーでの目印表示</li>
         </ul>
+        <p class="scope-note">模擬試験3〜8の全6回・510問をご利用いただけます。</p>
         <p class="scope-note">資格はアカウント削除、全額返金、支払取消し、異議申立てによる取消し、またはサービス終了まで有効です。</p>
       </div>
     </section>

@@ -4,12 +4,12 @@ import test from 'node:test'
 import { STATIC_EXAM_GROUPS } from '../app/utils/staticExamGroups.ts'
 import { catalogGroupLinks, createSidebarExamCatalog, isCatalogGroupActive } from '../app/utils/examCatalog.ts'
 
-test('all five static sidebars match their own public groups and exact child positions', () => {
+test('all eight static sidebars match their own public groups and exact child positions', () => {
   const content = JSON.parse(readFileSync(new URL('../../content/questions.json', import.meta.url), 'utf8'))
   const staticRows = createSidebarExamCatalog(null, false, true)
-  assert.equal(staticRows.length, 5)
-  assert.equal(content.groups.length, 155)
-  for (const exam of [1, 2, 3, 4, 5]) {
+  assert.equal(staticRows.length, 8)
+  assert.equal(content.groups.length, 161)
+  for (const exam of [1, 2, 3, 4, 5, 6, 7, 8]) {
     const groups = content.groups.filter((group: any) => group.exam_number === exam && group.publication_status === 'published')
     assert.equal(STATIC_EXAM_GROUPS[exam]!.length, groups.length)
     assert.ok(groups.length > 0)

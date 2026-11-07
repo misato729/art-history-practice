@@ -1,7 +1,7 @@
 export default defineNuxtPlugin((nuxtApp) => {
   const config = useRuntimeConfig()
   const route = useRoute()
-  const { user, sessionVersion, clearCurrentUser } = useAuth()
+  const { user, authResolved, sessionVersion, clearCurrentUser } = useAuth()
   const { beginRequest, finishRequest } = useApiStatus()
   const requestVersions = new WeakMap<object, number>()
 
@@ -24,7 +24,7 @@ export default defineNuxtPlugin((nuxtApp) => {
       if (response.status !== 401 || !path.startsWith('/api/v1/') || requestVersions.get(options) !== sessionVersion.value) return
       const hadUser = user.value !== null
       // A failed session check invalidates local state; it must never call signOut.
-      clearCurrentUser()
+      if (hadUser || !authResolved.value) clearCurrentUser()
       if (path !== '/api/v1/me' && hadUser && import.meta.client && [route.meta.middleware].flat().includes('auth')) {
         await nuxtApp.runWithContext(() => navigateTo({ path: '/login', query: { redirect: route.fullPath } }))
       }

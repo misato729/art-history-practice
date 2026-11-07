@@ -1,0 +1,2819 @@
+[
+  {
+    "content_key": "mock08-q001",
+    "question_number": 1,
+    "topic": "先史と都市文明",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          48,
+          49,
+          50
+        ],
+        "pdf_pages": [
+          38,
+          39,
+          40
+        ],
+        "supports": "先史と都市文明。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.48・49・50（1.pdf：PDF 38・39・40ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q002",
+    "question_number": 2,
+    "topic": "メソポタミアとエジプト",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          49,
+          50,
+          112
+        ],
+        "pdf_pages": [
+          39,
+          40,
+          102
+        ],
+        "supports": "メソポタミアとエジプト。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.49・50・112（1.pdf：PDF 39・40・102ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q003",
+    "question_number": 3,
+    "topic": "ギリシアの神と人体",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          53,
+          54
+        ],
+        "pdf_pages": [
+          43,
+          44
+        ],
+        "supports": "ギリシアの神と人体。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.53・54（1.pdf：PDF 43・44ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q004",
+    "question_number": 4,
+    "topic": "ギリシアの時期区分",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          53,
+          54,
+          114
+        ],
+        "pdf_pages": [
+          43,
+          44,
+          104
+        ],
+        "supports": "ギリシアの時期区分。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.53・54・114（1.pdf：PDF 43・44・104ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q005",
+    "question_number": 5,
+    "topic": "記念柱の物語",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          50,
+          51,
+          53,
+          55,
+          115
+        ],
+        "pdf_pages": [
+          40,
+          41,
+          43,
+          45,
+          105
+        ],
+        "supports": "記念柱の物語。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.50・51・53・55・115（1.pdf：PDF 40・41・43・45・105ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q006",
+    "question_number": 6,
+    "topic": "イコンとイコノクラスム",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          57,
+          116
+        ],
+        "pdf_pages": [
+          47,
+          106
+        ],
+        "supports": "イコンとイコノクラスム。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.57・116（1.pdf：PDF 47・106ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q007",
+    "question_number": 7,
+    "topic": "背景と人物の関係",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          60,
+          61,
+          64
+        ],
+        "pdf_pages": [
+          50,
+          51,
+          54
+        ],
+        "supports": "背景と人物の関係。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          261
+        ],
+        "pdf_pages": [
+          7
+        ],
+        "supports": "背景と人物の関係。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.60・61・64（1.pdf：PDF 50・51・54ページ）\n『改訂版 西洋・日本美術史の基本』p.261（3.pdf：PDF 7ページ）",
+    "images": [
+      {
+        "asset_id": "mock03-img-01",
+        "label": "図A",
+        "alt": "設問で参照する作品図版A",
+        "file": "../assets/mock03-img-01.jpg"
+      },
+      {
+        "asset_id": "mock03-img-04",
+        "label": "図B",
+        "alt": "設問で参照する作品図版B",
+        "file": "../assets/mock03-img-04.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q008",
+    "question_number": 8,
+    "topic": "聖堂の光の役割",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          60,
+          118,
+          119
+        ],
+        "pdf_pages": [
+          50,
+          108,
+          109
+        ],
+        "supports": "聖堂の光の役割。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.60・118・119（1.pdf：PDF 50・108・109ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q009",
+    "question_number": 9,
+    "topic": "ルネサンスの彫刻と都市",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          21,
+          62,
+          121
+        ],
+        "pdf_pages": [
+          11,
+          52,
+          111
+        ],
+        "supports": "ルネサンスの彫刻と都市。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.21・62・121（1.pdf：PDF 11・52・111ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q010",
+    "question_number": 10,
+    "topic": "人物の方向と肖像形式",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          21,
+          64,
+          70,
+          124
+        ],
+        "pdf_pages": [
+          11,
+          54,
+          60,
+          114
+        ],
+        "supports": "人物の方向と肖像形式。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.21・64・70・124（1.pdf：PDF 11・54・60・114ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-33",
+        "label": "図A",
+        "alt": "設問で参照する作品図版A",
+        "file": "../assets/mock02-img-33.jpg"
+      },
+      {
+        "asset_id": "mock02-img-07",
+        "label": "図B",
+        "alt": "設問で参照する作品図版B",
+        "file": "../assets/mock02-img-07.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q011",
+    "question_number": 11,
+    "topic": "聖母と幼児の主題",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          64,
+          121,
+          123
+        ],
+        "pdf_pages": [
+          54,
+          111,
+          113
+        ],
+        "supports": "聖母と幼児の主題。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.64・121・123（1.pdf：PDF 54・111・113ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-01",
+        "label": "図A",
+        "alt": "設問で参照する作品図版A",
+        "file": "../assets/mock02-img-01.jpg"
+      },
+      {
+        "asset_id": "mock03-img-03",
+        "label": "図B",
+        "alt": "設問で参照する作品図版B",
+        "file": "../assets/mock03-img-03.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q012",
+    "question_number": 12,
+    "topic": "ヴェネツィアの色彩",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          65,
+          121
+        ],
+        "pdf_pages": [
+          55,
+          111
+        ],
+        "supports": "ヴェネツィアの色彩。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.65・121（1.pdf：PDF 55・111ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-04",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock02-img-04.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q013",
+    "question_number": 13,
+    "topic": "円形の画面と三角形の構図",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          64,
+          121
+        ],
+        "pdf_pages": [
+          54,
+          111
+        ],
+        "supports": "円形の画面と三角形の構図。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.64・121（1.pdf：PDF 54・111ページ）",
+    "images": [
+      {
+        "asset_id": "mock03-img-03",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock03-img-03.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q014",
+    "question_number": 14,
+    "topic": "宗教改革と肖像の広がり",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          22,
+          65,
+          66,
+          122
+        ],
+        "pdf_pages": [
+          12,
+          55,
+          56,
+          112
+        ],
+        "supports": "宗教改革と肖像の広がり。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.22・65・66・122（1.pdf：PDF 12・55・56・112ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q015",
+    "question_number": 15,
+    "topic": "マニエリスムの作家",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          23,
+          66,
+          67,
+          122
+        ],
+        "pdf_pages": [
+          13,
+          56,
+          57,
+          112
+        ],
+        "supports": "マニエリスムの作家。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.23・66・67・122（1.pdf：PDF 13・56・57・112ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q016",
+    "question_number": 16,
+    "topic": "バロックの主題と照明",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          24,
+          68,
+          69,
+          124
+        ],
+        "pdf_pages": [
+          14,
+          58,
+          59,
+          114
+        ],
+        "supports": "バロックの主題と照明。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.24・68・69・124（1.pdf：PDF 14・58・59・114ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q017",
+    "question_number": 17,
+    "topic": "ルーベンスとレンブラントの地域",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          69,
+          70,
+          124
+        ],
+        "pdf_pages": [
+          59,
+          60,
+          114
+        ],
+        "supports": "ルーベンスとレンブラントの地域。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.69・70・124（1.pdf：PDF 59・60・114ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-06",
+        "label": "図A",
+        "alt": "設問で参照する作品図版A",
+        "file": "../assets/mock02-img-06.jpg"
+      },
+      {
+        "asset_id": "mock02-img-07",
+        "label": "図B",
+        "alt": "設問で参照する作品図版B",
+        "file": "../assets/mock02-img-07.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q018",
+    "question_number": 18,
+    "topic": "室内画の複数の読み方",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          70,
+          124
+        ],
+        "pdf_pages": [
+          60,
+          114
+        ],
+        "supports": "室内画の複数の読み方。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.70・124（1.pdf：PDF 60・114ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-08",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock02-img-08.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q019",
+    "question_number": 19,
+    "topic": "フランスの古典的方向",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          70,
+          71,
+          72,
+          124
+        ],
+        "pdf_pages": [
+          60,
+          61,
+          62,
+          114
+        ],
+        "supports": "フランスの古典的方向。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.70・71・72・124（1.pdf：PDF 60・61・62・114ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q020",
+    "question_number": 20,
+    "topic": "人物の行為と風俗画",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          72,
+          126
+        ],
+        "pdf_pages": [
+          62,
+          116
+        ],
+        "supports": "人物の行為と風俗画。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.72・126（1.pdf：PDF 62・116ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-09",
+        "label": "図A",
+        "alt": "設問で参照する作品図版A",
+        "file": "../assets/mock02-img-09.jpg"
+      },
+      {
+        "asset_id": "mock02-img-10",
+        "label": "図B",
+        "alt": "設問で参照する作品図版B",
+        "file": "../assets/mock02-img-10.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q021",
+    "question_number": 21,
+    "topic": "雅宴画と画家の活動",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          26,
+          29,
+          72,
+          126
+        ],
+        "pdf_pages": [
+          16,
+          19,
+          62,
+          116
+        ],
+        "supports": "雅宴画と画家の活動。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.26・29・72・126（1.pdf：PDF 16・19・62・116ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q022",
+    "question_number": 22,
+    "topic": "グランド・ツアーと都市の像",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          72,
+          73,
+          127
+        ],
+        "pdf_pages": [
+          62,
+          63,
+          117
+        ],
+        "supports": "グランド・ツアーと都市の像。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.72・73・127（1.pdf：PDF 62・63・117ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q023",
+    "question_number": 23,
+    "topic": "近代の歴史的主題",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          128,
+          129
+        ],
+        "pdf_pages": [
+          118,
+          119
+        ],
+        "supports": "近代の歴史的主題。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.128・129（1.pdf：PDF 118・119ページ）",
+    "images": [
+      {
+        "asset_id": "mock03-img-12",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock03-img-12.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q024",
+    "question_number": 24,
+    "topic": "大気と水面の連動",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          28,
+          129
+        ],
+        "pdf_pages": [
+          18,
+          119
+        ],
+        "supports": "大気と水面の連動。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          261
+        ],
+        "pdf_pages": [
+          7
+        ],
+        "supports": "大気と水面の連動。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.28・129（1.pdf：PDF 18・119ページ）\n『改訂版 西洋・日本美術史の基本』p.261（3.pdf：PDF 7ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-12",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock02-img-12.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q025",
+    "question_number": 25,
+    "topic": "歴史主義と近代の用途",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          129
+        ],
+        "pdf_pages": [
+          119
+        ],
+        "supports": "歴史主義と近代の用途。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.129（1.pdf：PDF 119ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q026",
+    "question_number": 26,
+    "topic": "同じ自然の異なる探究",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          130,
+          132
+        ],
+        "pdf_pages": [
+          120,
+          122
+        ],
+        "supports": "同じ自然の異なる探究。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          257,
+          260
+        ],
+        "pdf_pages": [
+          3,
+          6
+        ],
+        "supports": "同じ自然の異なる探究。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.130・132（1.pdf：PDF 120・122ページ）\n『改訂版 西洋・日本美術史の基本』p.257・260（3.pdf：PDF 3・6ページ）",
+    "images": [
+      {
+        "asset_id": "mock03-img-13",
+        "label": "図A",
+        "alt": "設問で参照する作品図版A",
+        "file": "../assets/mock03-img-13.jpg"
+      },
+      {
+        "asset_id": "mock02-img-16",
+        "label": "図B",
+        "alt": "設問で参照する作品図版B",
+        "file": "../assets/mock02-img-16.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q027",
+    "question_number": 27,
+    "topic": "印象派の代表作",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          31,
+          82,
+          83,
+          131
+        ],
+        "pdf_pages": [
+          21,
+          72,
+          73,
+          121
+        ],
+        "supports": "印象派の代表作。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.31・82・83・131（1.pdf：PDF 21・72・73・121ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q028",
+    "question_number": 28,
+    "topic": "描かれた人物と画家の所属",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          31,
+          131
+        ],
+        "pdf_pages": [
+          21,
+          121
+        ],
+        "supports": "描かれた人物と画家の所属。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.31・131（1.pdf：PDF 21・121ページ）",
+    "images": [
+      {
+        "asset_id": "mock03-img-14",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock03-img-14.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q029",
+    "question_number": 29,
+    "topic": "ゴッホとゴーガン",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          32,
+          132
+        ],
+        "pdf_pages": [
+          22,
+          122
+        ],
+        "supports": "ゴッホとゴーガン。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.32・132（1.pdf：PDF 22・122ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q030",
+    "question_number": 30,
+    "topic": "彫刻の世代と作品",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          33,
+          133
+        ],
+        "pdf_pages": [
+          23,
+          123
+        ],
+        "supports": "彫刻の世代と作品。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.33・133（1.pdf：PDF 23・123ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q031",
+    "question_number": 31,
+    "topic": "象徴主義の主題",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          34,
+          134
+        ],
+        "pdf_pages": [
+          24,
+          124
+        ],
+        "supports": "象徴主義の主題。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.34・134（1.pdf：PDF 24・124ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q032",
+    "question_number": 32,
+    "topic": "ポスターと世紀末美術",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          34,
+          134,
+          135
+        ],
+        "pdf_pages": [
+          24,
+          124,
+          125
+        ],
+        "supports": "ポスターと世紀末美術。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.34・134・135（1.pdf：PDF 24・124・125ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q033",
+    "question_number": 33,
+    "topic": "フォーヴの色と呼称",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          132,
+          136,
+          137,
+          138
+        ],
+        "pdf_pages": [
+          122,
+          126,
+          127,
+          128
+        ],
+        "supports": "フォーヴの色と呼称。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.132・136・137・138（1.pdf：PDF 122・126・127・128ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q034",
+    "question_number": 34,
+    "topic": "キュビスムの二人",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          31,
+          134,
+          136,
+          137
+        ],
+        "pdf_pages": [
+          21,
+          124,
+          126,
+          127
+        ],
+        "supports": "キュビスムの二人。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.31・134・136・137（1.pdf：PDF 21・124・126・127ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q035",
+    "question_number": 35,
+    "topic": "多視点と連続運動",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          137
+        ],
+        "pdf_pages": [
+          127
+        ],
+        "supports": "多視点と連続運動。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          261
+        ],
+        "pdf_pages": [
+          7
+        ],
+        "supports": "多視点と連続運動。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.137（1.pdf：PDF 127ページ）\n『改訂版 西洋・日本美術史の基本』p.261（3.pdf：PDF 7ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q036",
+    "question_number": 36,
+    "topic": "抽象画の異なる原理",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          138,
+          142,
+          145
+        ],
+        "pdf_pages": [
+          128,
+          132,
+          135
+        ],
+        "supports": "抽象画の異なる原理。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.138・142・145（1.pdf：PDF 128・132・135ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q037",
+    "question_number": 37,
+    "topic": "ダダの切り貼り",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          39,
+          139
+        ],
+        "pdf_pages": [
+          29,
+          129
+        ],
+        "supports": "ダダの切り貼り。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262,
+          263
+        ],
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "supports": "ダダの切り貼り。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.39・139（1.pdf：PDF 29・129ページ）\n『改訂版 西洋・日本美術史の基本』p.262・263（3.pdf：PDF 8・9ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q038",
+    "question_number": 38,
+    "topic": "デペイズマンとフロッタージュ",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          263
+        ],
+        "pdf_pages": [
+          9
+        ],
+        "supports": "デペイズマンとフロッタージュ。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.263（3.pdf：PDF 9ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q039",
+    "question_number": 39,
+    "topic": "パリに集った画家",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          40,
+          133,
+          134,
+          136,
+          140
+        ],
+        "pdf_pages": [
+          30,
+          123,
+          124,
+          126,
+          130
+        ],
+        "supports": "パリに集った画家。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.40・133・134・136・140（1.pdf：PDF 30・123・124・126・130ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q040",
+    "question_number": 40,
+    "topic": "学校名と様式名",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          140
+        ],
+        "pdf_pages": [
+          130
+        ],
+        "supports": "学校名と様式名。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.140（1.pdf：PDF 130ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q041",
+    "question_number": 41,
+    "topic": "ロダンと後続の彫刻",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          133,
+          141
+        ],
+        "pdf_pages": [
+          123,
+          131
+        ],
+        "supports": "ロダンと後続の彫刻。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.133・141（1.pdf：PDF 123・131ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q042",
+    "question_number": 42,
+    "topic": "遺跡の時代の対応",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          148,
+          149,
+          232
+        ],
+        "pdf_pages": [
+          2,
+          3,
+          86
+        ],
+        "supports": "遺跡の時代の対応。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.148・149・232（2.pdf：PDF 2・3・86ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q043",
+    "question_number": 43,
+    "topic": "古墳と技術交流",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          175,
+          233
+        ],
+        "pdf_pages": [
+          29,
+          87
+        ],
+        "supports": "古墳と技術交流。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.175・233（2.pdf：PDF 29・87ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q044",
+    "question_number": 44,
+    "topic": "三尊像の関係",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          176
+        ],
+        "pdf_pages": [
+          30
+        ],
+        "supports": "三尊像の関係。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          268
+        ],
+        "pdf_pages": [
+          14
+        ],
+        "supports": "三尊像の関係。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.176（2.pdf：PDF 30ページ）\n『改訂版 西洋・日本美術史の基本』p.268（3.pdf：PDF 14ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q045",
+    "question_number": 45,
+    "topic": "菩薩の姿勢",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          150,
+          177,
+          234
+        ],
+        "pdf_pages": [
+          4,
+          31,
+          88
+        ],
+        "supports": "菩薩の姿勢。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          268,
+          269
+        ],
+        "pdf_pages": [
+          14,
+          15
+        ],
+        "supports": "菩薩の姿勢。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.150・177・234（2.pdf：PDF 4・31・88ページ）\n『改訂版 西洋・日本美術史の基本』p.268・269（3.pdf：PDF 14・15ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-17",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock02-img-17.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q046",
+    "question_number": 46,
+    "topic": "仏像制作の材料",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          179,
+          181,
+          182
+        ],
+        "pdf_pages": [
+          33,
+          35,
+          36
+        ],
+        "supports": "仏像制作の材料。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          269
+        ],
+        "pdf_pages": [
+          15
+        ],
+        "supports": "仏像制作の材料。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.179・181・182（2.pdf：PDF 33・35・36ページ）\n『改訂版 西洋・日本美術史の基本』p.269（3.pdf：PDF 15ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q047",
+    "question_number": 47,
+    "topic": "神と仏の関係",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          188,
+          194
+        ],
+        "pdf_pages": [
+          42,
+          48
+        ],
+        "supports": "神と仏の関係。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.188・194（2.pdf：PDF 42・48ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q048",
+    "question_number": 48,
+    "topic": "頭上の像と持物",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          178,
+          184,
+          185
+        ],
+        "pdf_pages": [
+          32,
+          38,
+          39
+        ],
+        "supports": "頭上の像と持物。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          268
+        ],
+        "pdf_pages": [
+          14
+        ],
+        "supports": "頭上の像と持物。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.178・184・185（2.pdf：PDF 32・38・39ページ）\n『改訂版 西洋・日本美術史の基本』p.268（3.pdf：PDF 14ページ）",
+    "images": [
+      {
+        "asset_id": "mock03-img-17",
+        "label": "図A",
+        "alt": "設問で参照する作品図版A",
+        "file": "../assets/mock03-img-17.jpg"
+      },
+      {
+        "asset_id": "mock02-img-18",
+        "label": "図B",
+        "alt": "設問で参照する作品図版B",
+        "file": "../assets/mock02-img-18.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q049",
+    "question_number": 49,
+    "topic": "来迎図の方向性",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          184,
+          193,
+          239
+        ],
+        "pdf_pages": [
+          38,
+          47,
+          93
+        ],
+        "supports": "来迎図の方向性。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.184・193・239（2.pdf：PDF 38・47・93ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q050",
+    "question_number": 50,
+    "topic": "絵巻の三つの主題",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          188,
+          189,
+          192,
+          237,
+          239
+        ],
+        "pdf_pages": [
+          42,
+          43,
+          46,
+          91,
+          93
+        ],
+        "supports": "絵巻の三つの主題。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.188・189・192・237・239（2.pdf：PDF 42・43・46・91・93ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q051",
+    "question_number": 51,
+    "topic": "肖像と書の区別",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          184,
+          194,
+          241
+        ],
+        "pdf_pages": [
+          38,
+          48,
+          95
+        ],
+        "supports": "肖像と書の区別。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          269
+        ],
+        "pdf_pages": [
+          15
+        ],
+        "supports": "肖像と書の区別。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.184・194・241（2.pdf：PDF 38・48・95ページ）\n『改訂版 西洋・日本美術史の基本』p.269（3.pdf：PDF 15ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q052",
+    "question_number": 52,
+    "topic": "書の線と版の線",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          194
+        ],
+        "pdf_pages": [
+          48
+        ],
+        "supports": "書の線と版の線。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262,
+          264
+        ],
+        "pdf_pages": [
+          8,
+          10
+        ],
+        "supports": "書の線と版の線。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.194（2.pdf：PDF 48ページ）\n『改訂版 西洋・日本美術史の基本』p.262・264（3.pdf：PDF 8・10ページ）",
+    "images": [
+      {
+        "asset_id": "mock03-img-19",
+        "label": "図A",
+        "alt": "設問で参照する作品図版A",
+        "file": "../assets/mock03-img-19.jpg"
+      },
+      {
+        "asset_id": "mock02-img-27",
+        "label": "図B",
+        "alt": "設問で参照する作品図版B",
+        "file": "../assets/mock02-img-27.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q053",
+    "question_number": 53,
+    "topic": "室町の水墨画の学習",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          157,
+          158,
+          242,
+          243
+        ],
+        "pdf_pages": [
+          11,
+          12,
+          96,
+          97
+        ],
+        "supports": "室町の水墨画の学習。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "P",
+        "title": "美術検定2級 公式問題集（提供PDF）",
+        "file": "2級公式問題集.pdf",
+        "printed_pages": [
+          125
+        ],
+        "pdf_pages": [
+          127
+        ],
+        "supports": "室町の水墨画の学習。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.157・158・242・243（2.pdf：PDF 11・12・96・97ページ）\n『美術検定2級 公式問題集（提供PDF）』p.125（2級公式問題集.pdf：PDF 127ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q054",
+    "question_number": 54,
+    "topic": "屏風の全体と部分",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          158,
+          244
+        ],
+        "pdf_pages": [
+          12,
+          98
+        ],
+        "supports": "屏風の全体と部分。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          266
+        ],
+        "pdf_pages": [
+          12
+        ],
+        "supports": "屏風の全体と部分。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.158・244（2.pdf：PDF 12・98ページ）\n『改訂版 西洋・日本美術史の基本』p.266（3.pdf：PDF 12ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-20",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock02-img-20.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q055",
+    "question_number": 55,
+    "topic": "たらしこみと定着",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262,
+          263,
+          267
+        ],
+        "pdf_pages": [
+          8,
+          9,
+          13
+        ],
+        "supports": "たらしこみと定着。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.262・263・267（3.pdf：PDF 8・9・13ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q056",
+    "question_number": 56,
+    "topic": "水墨の濃淡と画派",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          246,
+          247,
+          248
+        ],
+        "pdf_pages": [
+          100,
+          101,
+          102
+        ],
+        "supports": "水墨の濃淡と画派。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          264
+        ],
+        "pdf_pages": [
+          10
+        ],
+        "supports": "水墨の濃淡と画派。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.246・247・248（2.pdf：PDF 100・101・102ページ）\n『改訂版 西洋・日本美術史の基本』p.264（3.pdf：PDF 10ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-22",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock02-img-22.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q057",
+    "question_number": 57,
+    "topic": "琳派の継承の形",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          246
+        ],
+        "pdf_pages": [
+          100
+        ],
+        "supports": "琳派の継承の形。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.246（2.pdf：PDF 100ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q058",
+    "question_number": 58,
+    "topic": "肉筆の風俗と浮世絵",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          248
+        ],
+        "pdf_pages": [
+          102
+        ],
+        "supports": "肉筆の風俗と浮世絵。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262,
+          264
+        ],
+        "pdf_pages": [
+          8,
+          10
+        ],
+        "supports": "肉筆の風俗と浮世絵。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.248（2.pdf：PDF 102ページ）\n『改訂版 西洋・日本美術史の基本』p.262・264（3.pdf：PDF 8・10ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-21",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock02-img-21.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q059",
+    "question_number": 59,
+    "topic": "名所絵と作者の活動",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          164,
+          165,
+          248
+        ],
+        "pdf_pages": [
+          18,
+          19,
+          102
+        ],
+        "supports": "名所絵と作者の活動。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.164・165・248（2.pdf：PDF 18・19・102ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-24",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock02-img-24.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q060",
+    "question_number": 60,
+    "topic": "版画の近代的な制作",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          219,
+          248
+        ],
+        "pdf_pages": [
+          73,
+          102
+        ],
+        "supports": "版画の近代的な制作。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.219・248（2.pdf：PDF 73・102ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q061",
+    "question_number": 61,
+    "topic": "工部美術学校の外国人教師",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          214,
+          250
+        ],
+        "pdf_pages": [
+          68,
+          104
+        ],
+        "supports": "工部美術学校の外国人教師。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.214・250（2.pdf：PDF 68・104ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q062",
+    "question_number": 62,
+    "topic": "朦朧体と油彩の比較",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          251
+        ],
+        "pdf_pages": [
+          105
+        ],
+        "supports": "朦朧体と油彩の比較。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          259,
+          264
+        ],
+        "pdf_pages": [
+          5,
+          10
+        ],
+        "supports": "朦朧体と油彩の比較。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.251（2.pdf：PDF 105ページ）\n『改訂版 西洋・日本美術史の基本』p.259・264（3.pdf：PDF 5・10ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q063",
+    "question_number": 63,
+    "topic": "近代日本画の作例",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          166,
+          167,
+          215
+        ],
+        "pdf_pages": [
+          20,
+          21,
+          69
+        ],
+        "supports": "近代日本画の作例。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.166・167・215（2.pdf：PDF 20・21・69ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q064",
+    "question_number": 64,
+    "topic": "大正期の洋画",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          168,
+          217,
+          218
+        ],
+        "pdf_pages": [
+          22,
+          71,
+          72
+        ],
+        "supports": "大正期の洋画。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.168・217・218（2.pdf：PDF 22・71・72ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q065",
+    "question_number": 65,
+    "topic": "明治の建築家",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          167,
+          214,
+          215,
+          251,
+          253
+        ],
+        "pdf_pages": [
+          21,
+          68,
+          69,
+          105,
+          107
+        ],
+        "supports": "明治の建築家。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.167・214・215・251・253（2.pdf：PDF 21・68・69・105・107ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q066",
+    "question_number": 66,
+    "topic": "東京五輪と大阪万博",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          252
+        ],
+        "pdf_pages": [
+          106
+        ],
+        "supports": "東京五輪と大阪万博。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.252（2.pdf：PDF 106ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q067",
+    "question_number": 67,
+    "topic": "コンバインの平面と立体",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          43,
+          142
+        ],
+        "pdf_pages": [
+          33,
+          132
+        ],
+        "supports": "コンバインの平面と立体。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262,
+          263
+        ],
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "supports": "コンバインの平面と立体。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.43・142（1.pdf：PDF 33・132ページ）\n『改訂版 西洋・日本美術史の基本』p.262・263（3.pdf：PDF 8・9ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q068",
+    "question_number": 68,
+    "topic": "シェイプト・キャンヴァス",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          143
+        ],
+        "pdf_pages": [
+          133
+        ],
+        "supports": "シェイプト・キャンヴァス。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          263
+        ],
+        "pdf_pages": [
+          9
+        ],
+        "supports": "シェイプト・キャンヴァス。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.143（1.pdf：PDF 133ページ）\n『改訂版 西洋・日本美術史の基本』p.263（3.pdf：PDF 9ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q069",
+    "question_number": 69,
+    "topic": "フォト・リアリズムとポップ",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          142,
+          143,
+          145
+        ],
+        "pdf_pages": [
+          132,
+          133,
+          135
+        ],
+        "supports": "フォト・リアリズムとポップ。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.142・143・145（1.pdf：PDF 132・133・135ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q070",
+    "question_number": 70,
+    "topic": "アルテ・ポーヴェラの素材",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          144,
+          145
+        ],
+        "pdf_pages": [
+          134,
+          135
+        ],
+        "supports": "アルテ・ポーヴェラの素材。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.144・145（1.pdf：PDF 134・135ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q071",
+    "question_number": 71,
+    "topic": "記録と作品の関係",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          144
+        ],
+        "pdf_pages": [
+          134
+        ],
+        "supports": "記録と作品の関係。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.144（1.pdf：PDF 134ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q072",
+    "question_number": 72,
+    "topic": "中国画の受容と書斎",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "P",
+        "title": "美術検定2級 公式問題集（提供PDF）",
+        "file": "2級公式問題集.pdf",
+        "printed_pages": [
+          125,
+          127
+        ],
+        "pdf_pages": [
+          127,
+          129
+        ],
+        "supports": "中国画の受容と書斎。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          240,
+          241
+        ],
+        "pdf_pages": [
+          94,
+          95
+        ],
+        "supports": "中国画の受容と書斎。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『美術検定2級 公式問題集（提供PDF）』p.125・127（2級公式問題集.pdf：PDF 127・129ページ）\n『改訂版 西洋・日本美術史の基本』p.240・241（2.pdf：PDF 94・95ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q073",
+    "question_number": 73,
+    "topic": "中国山水と図の根拠",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "P",
+        "title": "美術検定2級 公式問題集（提供PDF）",
+        "file": "2級公式問題集.pdf",
+        "printed_pages": [
+          123,
+          125,
+          129
+        ],
+        "pdf_pages": [
+          125,
+          127,
+          131
+        ],
+        "supports": "中国山水と図の根拠。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          241,
+          242
+        ],
+        "pdf_pages": [
+          95,
+          96
+        ],
+        "supports": "中国山水と図の根拠。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『美術検定2級 公式問題集（提供PDF）』p.123・125・129（2級公式問題集.pdf：PDF 125・127・131ページ）\n『改訂版 西洋・日本美術史の基本』p.241・242（2.pdf：PDF 95・96ページ）",
+    "images": [
+      {
+        "asset_id": "mock03-img-25",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock03-img-25.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q074",
+    "question_number": 74,
+    "topic": "東洋美術の作者と制作地",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "P",
+        "title": "美術検定2級 公式問題集（提供PDF）",
+        "file": "2級公式問題集.pdf",
+        "printed_pages": [
+          124,
+          125
+        ],
+        "pdf_pages": [
+          126,
+          127
+        ],
+        "supports": "東洋美術の作者と制作地。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          242,
+          243
+        ],
+        "pdf_pages": [
+          96,
+          97
+        ],
+        "supports": "東洋美術の作者と制作地。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『美術検定2級 公式問題集（提供PDF）』p.124・125（2級公式問題集.pdf：PDF 126・127ページ）\n『改訂版 西洋・日本美術史の基本』p.242・243（2.pdf：PDF 96・97ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q075",
+    "question_number": 75,
+    "topic": "平版と孔版",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262
+        ],
+        "pdf_pages": [
+          8
+        ],
+        "supports": "平版と孔版。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q076",
+    "question_number": 76,
+    "topic": "画材の役割の分類",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          258,
+          259
+        ],
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "supports": "画材の役割の分類。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.258・259（3.pdf：PDF 4・5ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q077",
+    "question_number": 77,
+    "topic": "描画技法と支持体の区別",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          64
+        ],
+        "pdf_pages": [
+          54
+        ],
+        "supports": "描画技法と支持体の区別。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          261,
+          267
+        ],
+        "pdf_pages": [
+          7,
+          13
+        ],
+        "supports": "描画技法と支持体の区別。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.64（1.pdf：PDF 54ページ）\n『改訂版 西洋・日本美術史の基本』p.261・267（3.pdf：PDF 7・13ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q078",
+    "question_number": 78,
+    "topic": "古典趣味と器物",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          28,
+          128,
+          129
+        ],
+        "pdf_pages": [
+          18,
+          118,
+          119
+        ],
+        "supports": "古典趣味と器物。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.28・128・129（1.pdf：PDF 18・118・119ページ）",
+    "images": [
+      {
+        "asset_id": "mock02-img-26",
+        "label": "図1",
+        "alt": "設問で参照する作品図版",
+        "file": "../assets/mock02-img-26.jpg"
+      }
+    ],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q079",
+    "question_number": 79,
+    "topic": "審査と美術史の評価",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          129,
+          130,
+          131
+        ],
+        "pdf_pages": [
+          119,
+          120,
+          121
+        ],
+        "supports": "審査と美術史の評価。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.129・130・131（1.pdf：PDF 119・120・121ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q080",
+    "question_number": 80,
+    "topic": "官展の呼称の変化",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          251
+        ],
+        "pdf_pages": [
+          105
+        ],
+        "supports": "官展の呼称の変化。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.251（2.pdf：PDF 105ページ）",
+    "images": [],
+    "shared_material_id": null,
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q081",
+    "question_number": 81,
+    "topic": "共通資料・肖像と物語",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          129
+        ],
+        "pdf_pages": [
+          119
+        ],
+        "supports": "共通資料・肖像と物語。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          188,
+          192,
+          248
+        ],
+        "pdf_pages": [
+          42,
+          46,
+          102
+        ],
+        "supports": "共通資料・肖像と物語。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.129（1.pdf：PDF 119ページ）\n『改訂版 西洋・日本美術史の基本』p.188・192・248（2.pdf：PDF 42・46・102ページ）",
+    "images": [],
+    "shared_material_id": "mock08-material-figures",
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q082",
+    "question_number": 82,
+    "topic": "共通資料・輪郭と明暗",
+    "correct_label": "エ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          64,
+          70,
+          124
+        ],
+        "pdf_pages": [
+          54,
+          60,
+          114
+        ],
+        "supports": "共通資料・輪郭と明暗。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.64・70・124（1.pdf：PDF 54・60・114ページ）",
+    "images": [],
+    "shared_material_id": "mock08-material-figures",
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q083",
+    "question_number": 83,
+    "topic": "共通資料・自画像の根拠",
+    "correct_label": "ウ",
+    "sources": [
+      {
+        "source_id": "W",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "1.pdf",
+        "printed_pages": [
+          70,
+          124
+        ],
+        "pdf_pages": [
+          60,
+          114
+        ],
+        "supports": "共通資料・自画像の根拠。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.70・124（1.pdf：PDF 60・114ページ）",
+    "images": [],
+    "shared_material_id": "mock08-material-figures",
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q084",
+    "question_number": 84,
+    "topic": "共通資料・紙と版の区別",
+    "correct_label": "イ",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          248
+        ],
+        "pdf_pages": [
+          102
+        ],
+        "supports": "共通資料・紙と版の区別。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          262,
+          264
+        ],
+        "pdf_pages": [
+          8,
+          10
+        ],
+        "supports": "共通資料・紙と版の区別。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.248（2.pdf：PDF 102ページ）\n『改訂版 西洋・日本美術史の基本』p.262・264（3.pdf：PDF 8・10ページ）",
+    "images": [],
+    "shared_material_id": "mock08-material-figures",
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  },
+  {
+    "content_key": "mock08-q085",
+    "question_number": 85,
+    "topic": "共通資料・断簡の展示",
+    "correct_label": "ア",
+    "sources": [
+      {
+        "source_id": "J",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "2.pdf",
+        "printed_pages": [
+          188,
+          192
+        ],
+        "pdf_pages": [
+          42,
+          46
+        ],
+        "supports": "共通資料・断簡の展示。正答・誤答を比較するための教材上の根拠。"
+      },
+      {
+        "source_id": "T",
+        "title": "改訂版 西洋・日本美術史の基本",
+        "file": "3.pdf",
+        "printed_pages": [
+          265
+        ],
+        "pdf_pages": [
+          11
+        ],
+        "supports": "共通資料・断簡の展示。正答・誤答を比較するための教材上の根拠。"
+      }
+    ],
+    "source_text": "『改訂版 西洋・日本美術史の基本』p.188・192（2.pdf：PDF 42・46ページ）\n『改訂版 西洋・日本美術史の基本』p.265（3.pdf：PDF 11ページ）",
+    "images": [],
+    "shared_material_id": "mock08-material-figures",
+    "source_scope_note": "教材の知識を図版・設問に適用する。設問または共有資料で与える個別作品情報は図版記録に基づき、教材外の情報の暗記を要求しない。"
+  }
+]

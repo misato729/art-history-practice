@@ -5,7 +5,7 @@
     "name": "美術史ラボ",
     "short_name": "美術史ラボ",
     "exam_name": "美術検定2級・早慶歴史対策",
-    "description": "美術検定2級に向けて、各85問の模擬試験1〜5を、図版・解説・出典付きで学べます。",
+    "description": "美術検定2級の図版・解説・出典付き問題演習。模擬試験1・2は無料、3以降はプレミアム会員向けです。全8回・各85問を収録しています。",
     "tagline": "美術検定2級・早慶歴史対策",
     "logo_path": "/images/logo.svg",
     "primary_color": "#356f91",
@@ -17,7 +17,7 @@
       },
       {
         "title": "演習セット",
-        "body": "「模擬試験1」〜「模擬試験5」の5セット・計425問を掲載しています。各回とも美術史80問と知識・情報の活用5問で構成し、全時代・各分野を扱います。作品や問う知識の焦点を各回で変えています。1回60分は学習の目安で、別枠の実践問題は含みません。"
+        "body": "模擬試験1〜8の各85問・計680問を公開しています。模擬試験1・2は無料、模擬試験3以降はプレミアム会員向けです。各回は美術史80問と知識・情報の活用5問で構成します。1回60分は学習の目安で、別枠の実践問題は含みません。"
       },
       {
         "title": "学習方法",
@@ -30,7 +30,7 @@
     ]
   },
   "exam": {
-    "set_count": 5,
+    "set_count": 8,
     "questions_per_exam": 85,
     "choice_labels": [
       "ア",
@@ -183,8 +183,96 @@
             ]
           }
         ]
+      },
+      {
+        "exam_number": 6,
+        "title": "模擬試験6",
+        "question_count": 85,
+        "sections": [
+          {
+            "title": "美術史問題",
+            "first": 1,
+            "last": 80,
+            "choice_labels": [
+              "ア",
+              "イ",
+              "ウ",
+              "エ"
+            ]
+          },
+          {
+            "title": "知識・情報の活用問題",
+            "first": 81,
+            "last": 85,
+            "choice_labels": [
+              "ア",
+              "イ",
+              "ウ",
+              "エ"
+            ]
+          }
+        ]
+      },
+      {
+        "exam_number": 7,
+        "title": "模擬試験7",
+        "question_count": 85,
+        "sections": [
+          {
+            "title": "美術史問題",
+            "first": 1,
+            "last": 80,
+            "choice_labels": [
+              "ア",
+              "イ",
+              "ウ",
+              "エ"
+            ]
+          },
+          {
+            "title": "知識・情報の活用問題",
+            "first": 81,
+            "last": 85,
+            "choice_labels": [
+              "ア",
+              "イ",
+              "ウ",
+              "エ"
+            ]
+          }
+        ]
+      },
+      {
+        "exam_number": 8,
+        "title": "模擬試験8",
+        "question_count": 85,
+        "sections": [
+          {
+            "title": "美術史問題",
+            "first": 1,
+            "last": 80,
+            "choice_labels": [
+              "ア",
+              "イ",
+              "ウ",
+              "エ"
+            ]
+          },
+          {
+            "title": "知識・情報の活用問題",
+            "first": 81,
+            "last": 85,
+            "choice_labels": [
+              "ア",
+              "イ",
+              "ウ",
+              "エ"
+            ]
+          }
+        ]
       }
-    ]
+    ],
+    "upcoming_sets": []
   },
   "categories": {
     "major": [
@@ -256,8 +344,8 @@
     ]
   },
   "payments": {
-    "enabled": false,
-    "free_exam_count": 1,
+    "enabled": true,
+    "free_exam_count": 2,
     "amount": 500,
     "currency": "jpy"
   }

@@ -2,6 +2,7 @@
 export type StaticExamDefinition = {
   exam_number: number
   title?: string
+  comingSoon?: boolean
   question_numbers: readonly number[]
 }
 
@@ -15,6 +16,7 @@ export type StaticExamNavigationEntry = {
   examNumber: number
   title: string
   locked: boolean
+  comingSoon: boolean
   to: string
   questions: { number: number; to: string }[]
 }
@@ -27,17 +29,18 @@ export function createStaticExamNavigation(
   return catalog.map(exam => {
     const numbers = [...exam.question_numbers]
     if (!Number.isSafeInteger(exam.exam_number) || exam.exam_number < 1
-      || !numbers.length || numbers.some(number => !Number.isSafeInteger(number) || number < 1)
+      || (!exam.comingSoon && !numbers.length) || (exam.comingSoon && numbers.length > 0) || numbers.some(number => !Number.isSafeInteger(number) || number < 1)
       || new Set(numbers).size !== numbers.length) {
       throw new TypeError('静的な模試一覧の模試番号・問番号を確認してください')
     }
     const locked = access.paymentsEnabled && !access.fullAccess && exam.exam_number > access.freeExamCount
-    const target = (number: number) => locked ? '/premium' : `/practice/${exam.exam_number}/${number}`
+    const target = (number: number) => exam.comingSoon ? `/mock-exams/${exam.exam_number}` : locked ? '/premium' : `/practice/${exam.exam_number}/${number}`
     return {
       examNumber: exam.exam_number,
       title: exam.title?.trim() || `模擬試験${exam.exam_number}`,
       locked,
-      to: target(numbers[0]!),
+      comingSoon: exam.comingSoon === true,
+      to: target(numbers[0] ?? 1),
       questions: numbers.map(number => ({ number, to: target(number) })),
     }
   })
