@@ -7,7 +7,7 @@ const node = (code: string, children: StudyCategoryNode[] = []): StudyCategoryNo
 const tree = [node('part_01', [node('w1'), node('w2')]), node('part_02', [node('j1'), node('j2')]), node('part_03', [node('m1')]), node('part_04', [node('part_04_section_01'), node('design'), node('museum')]), node('part_05')]
 const sorted = (codes: string[]) => [...codes].sort()
 
-test('world preset selects all Western children plus only Eastern art, replacing unrelated manual extras', () => {
+test('world preset selects configured Western children plus only Eastern art, replacing unrelated manual extras', () => {
   assert.deepEqual(sorted(presetCategoryCodes(tree, 'world')), ['part_04_section_01', 'w1', 'w2'])
   const selected = toggleStudyPreset(tree, ['design', 'museum', 'm1', 'part_05'], 'world', true)
   assert.deepEqual(sorted(selected), ['part_04_section_01', 'w1', 'w2'])
@@ -36,4 +36,14 @@ test('manual groups preserve other groups, show partial selection, and missing p
   assert.deepEqual(presetCategoryCodes(tree.slice(0, 2), 'world'), [])
   assert.deepEqual(toggleStudyPreset(tree.slice(0, 2), ['j1'], 'world', true), ['j1'])
   assert.deepEqual(categoryLeafCodes(tree[4]!), ['part_05'])
+})
+
+
+test('world preset excludes Mannerism and twentieth-century modern art while keeping both manually available', () => {
+  const western = node('part_01', [node('part_01_section_04'), node('part_01_section_05'), node('part_01_section_06'), node('part_01_section_12')])
+  const actualTree = [western, tree[1]!, tree[3]!]
+  assert.deepEqual(presetCategoryCodes(actualTree, 'world'), ['part_01_section_04', 'part_01_section_06', 'part_04_section_01'])
+  assert.deepEqual(toggleStudyPreset(actualTree, ['part_01_section_05', 'part_01_section_12'], 'world', true), ['part_01_section_04', 'part_01_section_06', 'part_04_section_01'])
+  assert.deepEqual(toggleCategoryCodes([], ['part_01_section_05', 'part_01_section_12'], true), ['part_01_section_05', 'part_01_section_12'])
+  assert.deepEqual(presetCategoryCodes(actualTree, 'japanese'), ['j1', 'j2'])
 })

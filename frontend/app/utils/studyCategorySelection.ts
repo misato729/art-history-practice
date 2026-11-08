@@ -9,7 +9,8 @@ export function presetCategoryCodes(tree: StudyCategoryNode[], preset: StudyPres
   if (!primary?.children.length) return []
   if (preset === 'japanese') return categoryLeafCodes(primary)
   const eastern = tree.find(node => node.code === 'part_04')?.children.find(node => node.code === 'part_04_section_01')
-  return eastern ? [...categoryLeafCodes(primary), ...categoryLeafCodes(eastern)] : []
+  const western = categoryLeafCodes(primary).filter(code => !['part_01_section_05', 'part_01_section_12'].includes(code))
+  return eastern ? [...western, ...categoryLeafCodes(eastern)] : []
 }
 
 export function categorySelectionState(selected: readonly string[], codes: readonly string[]) {

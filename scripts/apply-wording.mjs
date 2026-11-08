@@ -9,10 +9,10 @@ import {classificationTarget} from '../frontend/server/operations/classification
 import {classificationFingerprint} from '../frontend/server/operations/question-classifications.ts'
 import {loadQuestionGroup,saveQuestionGroup} from '../frontend/server/services/learning-structure.ts'
 import {wordingPatches} from './editorial-wording.mjs'
-const {values:v,positionals:[mode]}=parseArgs({options:{env:{type:'string'},confirm:{type:'string'}},allowPositionals:true})
+const {values:v,positionals:[mode]}=parseArgs({options:{env:{type:'string'},confirm:{type:'string'},revision:{type:'string'}},allowPositionals:true})
 assert.ok(['plan','dry-run','apply','verify'].includes(mode));assert.ok(v.env)
 const env=parseEnv(readFileSync(v.env,'utf8')),target=classificationTarget(env.DATABASE_URL),db=createDatabase(target.connectionString)
-const patches=wordingPatches(),desired=JSON.parse(readFileSync('content/questions.json','utf8')),manifest=JSON.parse(readFileSync('content/question-study-classifications.json','utf8'))
+const patches=wordingPatches(v.revision),desired=JSON.parse(readFileSync('content/questions.json','utf8')),manifest=JSON.parse(readFileSync('content/question-study-classifications.json','utf8'))
 const dir=resolve('local-only/backups/standalone-wording',new Date().toISOString().replace(/[:.]/g,'-')),write=(name,x)=>{mkdirSync(dir,{recursive:true,mode:0o700});writeFileSync(resolve(dir,name),JSON.stringify(x,null,2)+'\n',{mode:0o600,flag:'wx'})}
 const canonical=x=>Array.isArray(x)?x.map(canonical):x&&typeof x==='object'?Object.fromEntries(Object.entries(x).sort(([a],[b])=>a.localeCompare(b)).map(([k,v])=>[k,canonical(v)])):x
 const hash=x=>createHash('sha256').update(JSON.stringify(canonical(x))).digest('hex');let rollback=false
