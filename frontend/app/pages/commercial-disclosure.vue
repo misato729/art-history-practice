@@ -39,7 +39,6 @@ useSeoMeta({
     </div>
 
     <article v-if="PAYMENTS_ENABLED" class="legal-document disclosure-table">
-      <p class="draft-notice">テンプレートの草案です。販売者情報と販売条件を実際のサービスに合わせて確認し、販売開始前に完成させてください。</p>
       <dl>
         <div><dt>販売事業者</dt><dd>{{ seller.name || '販売開始前に掲載' }}</dd></div>
         <div><dt>運営責任者</dt><dd>{{ seller.representative || '販売開始前に掲載' }}</dd></div>
