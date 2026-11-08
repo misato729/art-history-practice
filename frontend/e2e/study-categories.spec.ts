@@ -38,7 +38,7 @@ test('world preset excludes the two requested fields and manual selection remain
  await world.check()
  await expect(page.getByRole('checkbox',{name:'古代の美術',exact:true})).toBeChecked()
  const mannerism=page.getByRole('checkbox',{name:'マニエリスムの美術',exact:true})
- const modern=page.getByRole('checkbox',{name:'20世紀と現代の美術',exact:true})
+ const modern=page.getByRole('checkbox',{name:/^20世紀と現代の美術/})
  await expect(mannerism).not.toBeChecked();await expect(modern).not.toBeChecked()
  await mannerism.check();await modern.check()
  await expect(mannerism).toBeChecked();await expect(modern).toBeChecked()
