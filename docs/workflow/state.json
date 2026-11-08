@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 178,
-  "updated_at": "2026-11-08T03:36:19.501Z",
+  "revision": 180,
+  "updated_at": "2026-11-08T04:53:56.130Z",
   "workspace_relative_to_repo": ".",
   "active_context": "development",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T03-36-19-501Z-r178.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T04-53-56-130Z-r180.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2943,13 +2943,16 @@
       "id": "art_mock12_quality_revision",
       "context": "development",
       "title": "模試1/2の30問を公式型へ改稿し根拠資料の内部括弧を全8回非表示",
-      "status": "doing",
+      "status": "done",
       "depends_on": [],
       "authorization": "requested",
       "request_ref": "2026-11-08 user: 不整合3問/優先改善27問改稿・全8回の根拠資料括弧削除・検証後commit push本番反映。返信で他模試品質改稿は対象外と確定",
-      "next_action": "改稿案を独立評価し旧履歴保持の更新を検証",
-      "evidence": [],
-      "last_verified_at": null,
+      "next_action": "追加依頼を待つ",
+      "evidence": [
+        "docs/verification.md",
+        "local-only/quality-revision-20261108/revision-report-ja.md"
+      ],
+      "last_verified_at": "2026-11-08",
       "verification_scope": "対象30問の意図・正答一意性・誤肢/図版必須性・公式形式を再確認。旧版履歴とお気に入り/他650問保護、全8回source表示・ローカル/本番反映まで。",
       "acceptance": [
         {
@@ -2957,25 +2960,37 @@
           "kind": "automated",
           "description": "依頼された変更範囲の検査が成功する",
           "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
         },
         {
           "id": "review",
           "kind": "review",
           "description": "実装担当以外が受入条件と成果物を確認する",
           "verification": "別担当のレビューで未解決の問題がないことを確認する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null,
-          "reviewer": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "wording_editor (independent blind solving and code/CSS review)"
         }
       ],
       "execution": {
         "worker": "root",
         "max_attempts": 3,
-        "attempts": []
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "30問改稿・全680問source非表示、独立盲解、復元、本番DB/API/UI、最終CIと公開PC/SP検査を確認",
+            "at": "2026-11-08T04:53:55.638Z",
+            "failed_criteria": []
+          }
+        ]
       }
     }
   ]

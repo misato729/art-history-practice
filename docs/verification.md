@@ -947,3 +947,13 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 - 共通writerに実質改稿用saveQuestionRevisionを追加。元指紋/row・advisory lock/共有schema/メタデータと正答位置不変/追記だけの出典を確認し、問題と選択肢の内容を同じIDで更新。27問はcontent_versionを進め、古い履歴を削除せず既存の『更新前の回答』として扱う。3問の文言修正はversion維持。履歴/favorite/資料参照/分類の書込なし。既存のwording writerと実質revisionのserver test2/2で、古い履歴409・復習からの除外・新version採点・source非表示・再実行不変を確認。
 - 独立PG16で680問plan→30問dry-run rollback→30問apply→再apply0→全問verifyが成功。27version前進、3version維持、旧履歴/favorite/分類/選択肢ID保持。全30問の正答30/誤答90件を匿名採点し全一致、回答前の正答漏えいなし、学習7表の指紋不変。local _testに限定したchecksum付きbackupからの復元で7学習表の元fingerprint完全一致まで確認。型検査成功。代表4問をPC/SPで採点/source確認するE2Eを追加。
 - private証拠はlocal-only/quality-revision-20261108（作者案/初回・再盲解/最終比較/統合証明等）。実装準備時の出典validatorエラーは追記URLの区切り空白を正規の形式へ直して解消。元の書誌情報や出典validatorを緩めていない。この時点で本番30問更新と配信は未実施。必須CIと最終確認後に反映する。
+
+## 2026-11-08 模試1/2の30問改稿・全8回の根拠資料表示：本番反映
+
+- 87a5421で30問の改稿とsource共通整形を実装。初回CIでは既存image-blocksテストが出典リンク区切りの空白差を検出したため、公開APIの既存形式 `label | URL` を維持するe920d0aへ修正。[CI42446567936](https://github.com/misato729/art-history-practice/actions/runs/42446567936)のharness/verify/browser全成功。原稿検査・型・server・unit・PC/SP24ケースを含む。根拠資料は全680問のラベルだけ括弧除去し、リンク先/保存原文/管理者表示を保持する。
+- FlyへAPIを配信（deployment-01M6WPM21A5JW1B497W66VHGYW、機体healthy/health200）。本番planで680問・改稿対象30問を確認後applyを確定。backupはlocal-only/backups/standalone-wording/2026-11-08T04-32-27-513Z。直後verifyは680問一致/未修正0、分類verifyは680問/未分類0/1382関連一致。27問のversion前進、3解説参照修正のversion保持、履歴/favorite/選択肢ID保持をreceiptで確認。本番復元は行わず、復元は独立test DBで検証済み。
+- 代表4問の本番確認中、SP390pxで共通資料の長い英文captionだけが横にはみ出す既存表示を検出。表は332pxのwrapper内で正常にscrollしており原因ではなかった。7f21430で.content-textにoverflow-wrap:anywhereを加え、mobile E2E幅を390pxに固定。原稿・図版・表・資料参照は変更しない。wording_editorの独立レビューで重大懸念なし。Netlify最終deployは6aefff5abff3f83e1d5ceb7f。
+- 最終static出力347ファイル、秘密値一致0/source map0/authoring file0。模試3〜8の問題ファイルは作業前とbyte同一。匿名採点は学習履歴を書き込まず、購入・実ユーザー情報の更新・Stripe設定変更は行っていない。実受験者による難度/識別力/所要時間の実測、模試3〜8の総点検は対象外。
+- 配信CLIのsite指定漏れにより別の空サイトを新規作成した操作ミスが発生。作成時刻一致、過去deployなし、repo/build設定/独自domainなしを確認して当該新規サイトだけ削除済み。既存サイト/DBへの影響なし。正しい本番site IDを明示して配信し、今回生成された誤ったlocalリンク設定も除去。証拠と詳細改稿理由はlocal-only/quality-revision-20261108に保存する。
+- 最終公開ブラウザはPC1280px/SP390pxで模試1問14/82・模試2問8/85の計8回を成功。改稿本文一致、正答採点、根拠資料の内部括弧なし、リンク先完全維持、画面横はみ出しなし。有料問題の匿名アクセス401も保持。全680画面を個別目視した意味ではない。
+- 最終表示修正7f21430の[CI42448275877](https://github.com/misato729/art-history-practice/actions/runs/42448275877)もharness/verify/browserの全ジョブ成功（390pxの追加条件を含む）。
