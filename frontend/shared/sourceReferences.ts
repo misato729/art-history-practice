@@ -29,5 +29,5 @@ export function publicSourceReferences(source: string | null | undefined): Sourc
 
 /** Learner APIs omit provenance metadata as well; database/admin source text remains intact. */
 export function publicSourceText(source: string | null | undefined): string {
-  return publicSourceReferences(source).map(reference => reference.url ? `${reference.label}|${reference.url}` : reference.label).join('\n')
+  return publicSourceReferences(source).map(reference => reference.url ? `${reference.label} | ${reference.url}` : reference.label).join('\n')
 }
