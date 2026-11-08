@@ -4,7 +4,7 @@ export default defineNuxtPlugin({
   setup(nuxtApp) {
     // Mount the library subscription so its cross-tab and focus refreshes run.
     const session = nuxtApp.$authClient.useSession()
-    const { user, sessionVersion, authMutationPending, clearCurrentUser, ensureCurrentUser } = useAuth()
+    const { user, authResolved, sessionVersion, authMutationPending, clearCurrentUser, ensureCurrentUser } = useAuth()
     let observed = false
     let previousKey: string | null = null
 
@@ -21,7 +21,8 @@ export default defineNuxtPlugin({
       if (initial) {
         // The first native snapshot must not invalidate the application's
         // initial /me lookup that route guards may already be awaiting.
-        if (!sameUser) void ensureCurrentUser(true)
+        const sameAnonymous = identity == null && user.value === null && authResolved.value
+        if (!sameUser && !sameAnonymous) void ensureCurrentUser(true)
         return
       }
       // Hide another account's data before the asynchronous application fetch.

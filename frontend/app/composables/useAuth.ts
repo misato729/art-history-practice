@@ -72,7 +72,7 @@ export const useAuth = () => {
       authResolved.value = true
       return user.value
     }).catch((error: any) => {
-      if (sessionVersion.value === version && (error?.statusCode ?? error?.status) === 401) clearCurrentUser()
+      if (sessionVersion.value === version && (error?.statusCode ?? error?.status) === 401 && (!authResolved.value || user.value !== null)) clearCurrentUser()
       return null
     }).finally(() => {
       if (currentUserRequests.get(nuxtApp)?.promise === promise) currentUserRequests.delete(nuxtApp)

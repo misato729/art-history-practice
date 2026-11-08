@@ -8,6 +8,7 @@ useSeoMeta({ title: '演習を準備しています', robots: 'noindex' })
 const route = useRoute()
 const { $api: api } = useNuxtApp()
 const { sessionVersion, authHeaders, user } = useAuth()
+const { load: loadSharedCatalog } = usePracticeCatalog(computed(() => true), { immediate: false })
 const error = ref('')
 const owner = computed(() => JSON.stringify([sessionVersion.value, user.value?.id, user.value?.role, user.value?.paid_content_access]))
 let generation = 0
@@ -36,7 +37,10 @@ const prepare = async () => {
     const exams = [...new Set((query.exams ?? '').split(',').map(Number))].filter(value => Number.isSafeInteger(value) && value > 0)
     if (!exams.length) { error.value = '模擬試験を選択してください。'; return }
     const subjectQuery = Object.fromEntries(['study_category_codes', 'study_part_code', 'study_section_code', 'study_scope_codes'].flatMap(key => query[key] ? [[key, query[key]!]] : []))
-    const response = await api<{ data: ExamCatalogEntry[] }>('/api/v1/exams', { query: subjectQuery, headers: authHeaders.value })
+    const response = Object.keys(subjectQuery).length
+      ? await api<{ data: ExamCatalogEntry[] }>('/api/v1/exams', { query: subjectQuery, headers: authHeaders.value })
+      : { data: await loadSharedCatalog() }
+    if (!response.data) throw new Error('Catalog unavailable')
     if (!current()) return
     let available = response.data.filter(exam => exams.includes(exam.exam_number) && exam.access !== 'paid_membership_required')
     if (query.group) {

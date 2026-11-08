@@ -21,7 +21,7 @@ const sessionFor = (id: number | null, sessionId = 'session-one') => ({
   data: id === null ? null : { user: { id: String(id) }, session: { id: sessionId } },
   isPending: false, isRefetching: false, error: null as null | { status: number },
 })
-function harness(initial: AuthUser | null, fetchUser: () => Promise<unknown>, nativeIdentity = initial?.id ?? null) {
+function harness(initial: AuthUser | null, fetchUser: () => Promise<unknown>, nativeIdentity = initial?.id ?? null, resolvedAnonymous = false) {
   const native = ref(sessionFor(nativeIdentity))
   const states = new Map()
   const app = { $api: fetchUser, $authClient: {
@@ -37,7 +37,7 @@ function harness(initial: AuthUser | null, fetchUser: () => Promise<unknown>, na
   }
   const auth = useAuth()
   auth.user.value = initial
-  auth.authResolved.value = initial !== null
+  auth.authResolved.value = initial !== null || resolvedAnonymous
   ;(observeSession as any)(app)
   return { auth, native }
 }
@@ -136,5 +136,22 @@ test('a guard follows a newer native identity instead of returning an obsolete a
   await flush()
   responses[1]!({ data: member(2) })
   assert.equal(await navigation, undefined)
+  assert.equal(auth.user.value?.id, 2)
+})
+
+
+test('a delayed initial anonymous snapshot reuses an already resolved anonymous me', () => {
+  let reads = 0
+  const { auth } = harness(null, async () => { reads += 1; throw { status: 401 } }, null, true)
+  assert.equal(reads, 0)
+  assert.equal(auth.sessionVersion.value, 0)
+  assert.equal(auth.authResolved.value, true)
+})
+
+test('a resolved anonymous application still hydrates an initial native logged-in identity', async () => {
+  let reads = 0
+  const { auth } = harness(null, async () => { reads += 1; return { data: member(2) } }, 2, true)
+  await flush()
+  assert.equal(reads, 1)
   assert.equal(auth.user.value?.id, 2)
 })

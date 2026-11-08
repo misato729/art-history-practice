@@ -129,7 +129,7 @@ export const useIncorrectReview = () => {
     }
 
     const pending = pendingRequests.get(nuxtApp)
-    if (!options.force && pending?.sessionKey === requestedSession) return pending.promise
+    if (pending?.sessionKey === requestedSession) return pending.promise
     if (!options.force && loadedFor.value === requestedSession) return Promise.resolve(positions.value)
 
     const version = ++requestVersion.value

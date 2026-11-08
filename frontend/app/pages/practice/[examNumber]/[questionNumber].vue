@@ -179,17 +179,32 @@ const {
   status,
   error: questionError,
   refresh,
+  clear: clearQuestion,
 } = await useFetch<ApiResponse<Question>>('/api/v1/questions/next', {
   $fetch: api,
   query: requestQuery,
   headers: authHeaders,
+  immediate: false,
+  watch: false,
   server: false,
   // 画面遷移をAPIの応答待ちで止めず、起動待ち中も読み込み表示を出す。
   lazy: true,
 })
 
+// Do not issue a sentinel request while catalog/review positions are still resolving.
+// Include the auth generation so a changed session cannot reuse another user's question.
+const questionRequestKey = computed(() => (
+  practiceCatalogStatus.value === 'success' && (!isIncorrectReview.value || reviewReady.value)
+    ? JSON.stringify([requestQuery.value, sessionVersion.value])
+    : null
+))
+watch(questionRequestKey, key => {
+  if (key === null) { clearQuestion(); return }
+  void refresh()
+}, { immediate: true, flush: 'post' })
+
 const retryQuestion = async () => {
-  if (practiceCatalogStatus.value === 'error') await refreshPracticeCatalog()
+  if (practiceCatalogStatus.value === 'error') { await refreshPracticeCatalog(); return }
   if (practiceCatalogStatus.value === 'success') await refresh()
 }
 
@@ -500,7 +515,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleFavoriteModalK
       <p v-if="!reviewError" role="status">復習する問題を確認しています。</p>
       <template v-else><h1>復習を再開してください</h1><p role="alert">{{ reviewError }}</p><IncorrectReviewPanel /></template>
     </div>
-    <div v-else-if="status === 'idle' || status === 'pending' || (!isIncorrectReview && (practiceCatalogStatus === 'idle' || practiceCatalogStatus === 'pending'))" class="state-panel" role="status" aria-live="polite" aria-busy="true">
+    <div v-else-if="(status === 'idle' && practiceCatalogStatus !== 'error') || status === 'pending' || (!isIncorrectReview && (practiceCatalogStatus === 'idle' || practiceCatalogStatus === 'pending'))" class="state-panel" role="status" aria-live="polite" aria-busy="true">
       <UIcon class="spin" name="i-lucide-loader-circle" aria-hidden="true" />
       <p>問題を読み込んでいます</p>
     </div>
