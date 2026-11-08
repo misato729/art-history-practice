@@ -1,4 +1,4 @@
-import { validateStudyFilter } from './study-categories.ts'
+import { studyQuestionWhere, questionStudyCategories } from './study-categories.ts'
 import { hasPaidAccess, type User } from '../core/auth.ts'
 import { configuration, freeExamMax, paymentsEnabled } from '../core/config.ts'
 import { getDatabase, Prisma, query, record, transaction, type Database } from '../core/db.ts'
@@ -67,7 +67,7 @@ async function serializePublicQuestion(question: QuestionRecord, user: User | nu
   const payload: Record<string, unknown> = { id: question.id, exam_number: question.exam_number,
     question_number: question.question_number, content_blocks: question.content_blocks,
     major_category_code: question.major_category_code, category_code: question.category_code,
-    choices: question.choices.map(serializeChoice), ...(await publicHierarchy(question, db)) }
+    choices: question.choices.map(serializeChoice), ...(await publicHierarchy(question, db)), study_categories: await questionStudyCategories(question.id, db) }
   if (user) {
     const allowed = await hasPaidAccess(user, db)
     const favorite = allowed ? await db.favorite.findUnique({ where: { user_id_question_id: { user_id: user.id, question_id: question.id } }, select: { id: true } }) : null
@@ -94,8 +94,9 @@ export async function nextQuestion(params: Record<string, unknown>, user: User |
     if (present(params.after_question_number) || present(params.question_number)) fail(400, 'bad_request', 'exam_numberを指定してください')
     if (!await hasPaidAccess(user, db)) where.AND = [{ exam_number: { lte: freeExamMax } }]
   }
-  if (await validateStudyFilter(params, db)) return notFound()
-  const rows = record(await db.question.findMany({ where, include: { group: { select: { group_number: true } } } }))
+  const filter = await studyQuestionWhere(params, db)
+  const filteredWhere: Prisma.QuestionWhereInput = { AND: [where, filter] }
+  const rows = record(await db.question.findMany({ where: filteredWhere, include: { group: { select: { group_number: true } } } }))
   rows.sort((a, b) => a.exam_number - b.exam_number || (a.group?.group_number ?? 0) - (b.group?.group_number ?? 0) ||
     (a.group_question_number ?? a.question_number) - (b.group_question_number ?? b.question_number) || a.question_number - b.question_number)
   let candidates = rows
@@ -134,10 +135,9 @@ export async function answerQuestion(id: number, selectedChoiceId: unknown, user
 }
 
 export async function listExams(user: User | null, db: Database = getDatabase(), params: Record<string, unknown> = {}) {
-  // Taxonomy is master-only until questions are explicitly assigned to it.
-  if (await validateStudyFilter(params, db)) return { data: [] }
-  const published = record(await db.question.findMany({ where: await publicQuestionWhere(db),
-    include: { group: { select: { group_number: true } } } }))
+  const filter = await studyQuestionWhere(params, db)
+  const published = record(await db.question.findMany({ where: { AND: [await publicQuestionWhere(db), filter] },
+    include: { group: { select: { group_number: true } }, study_categories: { include: { category: { select: { parent_code: true } } } } } }))
   published.sort((a, b) => a.exam_number - b.exam_number || (a.group?.group_number ?? 0) - (b.group?.group_number ?? 0) ||
     (a.group_question_number ?? a.question_number) - (b.group_question_number ?? b.question_number) || a.question_number - b.question_number)
   const fullAccess = await hasPaidAccess(user, db)
@@ -147,6 +147,7 @@ export async function listExams(user: User | null, db: Database = getDatabase(),
     const set = await loadExamSet(exam, db)
     data.push({ exam_number: exam, title: set.title, question_numbers: questions.map(question => question.question_number),
       question_count: questions.length, published_question_count: questions.length,
+      question_study_codes: Object.fromEntries(questions.map(q=>[q.question_number,[...new Set(q.study_categories.flatMap(c=>[c.study_category_code,...(c.category.parent_code?[c.category.parent_code]:[])]))]])),
       groups: set.groups.filter(group => group.publication_status === 'published' && questions.some(question => question.group_id === group.id)).map(group => ({ id: group.id, group_number: group.group_number, title: group.title, question_numbers: questions.filter(question => question.group_id === group.id).map(question => question.question_number) })),
       access: !paymentsEnabled || exam <= freeExamMax || fullAccess ? 'available' : 'paid_membership_required' })
   }

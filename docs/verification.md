@@ -874,3 +874,13 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 - 最終公開PC/SP計8シナリオで、native応答を遅らせても初期/me1件・有効問題GET1件・大問開始exams1件・初期(0,-1)GET0件・模試1〜8開閉の追加API0件を確認。native get-sessionは別用途の必要な通信なので「全API1件」と合算して報告しない。復習の公開UIは合成ユーザー/データで2回表示し最新確認2件を維持。実登録・採点・問2への移動・回答後更新・履歴・別タブログアウトは隔離DBおよび最終CIで検証し、実利用者のアカウントにはログインしない。
 - 公開payments/configは販売enabled=true・総額500円を維持。問題データ/出典/図版/DB schema/APIサービス/料金・Stripe設定は変更せず、Fly API再配信や本番学習データ更新も行わない。347公開ファイルの秘密値一致0・sourcemap0・原稿混入0。証跡は `local-only/verification/api-request-reduction-20261108/`。
 - 限定事項：不正な問題URLは従来のAPI検証/エラー表示を維持し、全不正URLのGETをゼロにする変更ではない。実決済・実返金は未実施。公開の認証確認は未ログインと合成状態であり、実ユーザーの会員資格・実データの検証ではない。
+
+
+## 2026-11-08 全680問の分野関連付け：実装・検証
+
+- 既存の41件の分野マスターはあったが、問題との関連表がなく、条件指定は常に空/404を返し、UIも分野選択時に演習を止めるmaster-only段階だった。既存マスターと同じmetadataをconfig/study-categories.jsonへ同梱し、全680問にscopeとstudy_outlineの1382関連を割り当てる対応表をcontent/question-study-classifications.jsonへ追加。元原稿のtopic/source-mapに基づき、比較問題には複数の小分類を付けた。delivery_auditが680件を照合し、西洋近代8件の修正と比較2件の追加を反映済み。現代40問の中心は1945〜70年代なので、西洋の『20世紀と現代の美術』へ対応し、1980年代以降の章へ無理に割り当てない。
+- Prisma Migrateでquestion_study_categories表だけを追加する新規migrationを生成。既存Question/Choice/History/Favoriteの列・ID・version・制約は変更しない。関連付け操作は全問material_sha256一致、未知の既存分類の上書き拒否、7学習表のSQL fingerprint前後一致、transaction/既存question-write lockを維持する。バックアップに原稿や個人情報は出さず、関連行と不変確認の指紋を保存する。
+- APIは分野コード/親子関係を検証し、同一選択内OR・範囲/学習分野間ANDで実際に絞る。公開状態・paid認可は維持し、未知/不一致条件を捨てて無関係な問題を返さない。問題レスポンスに分野名、catalogには本文/解説を含まない分類コードmetadataだけを追加。ブラウザーはそのmetadataで件数と出題順を絞るので、checkboxごとの追加APIなし。問題画面に分野名を表示し、原稿本文・正答・解説は変更しない。
+- 新規空DBのdefault bundled importは同じ対応表を使う。任意のcustom archiveへ座標だけで分類を流用せず、既存DBは明示operations/分類CLIのみで更新する。復元CLIは接続前にhost/port/DB/schemaを正規化し、URI routing queryを拒否してlocal _test限定を守る。port/schemaを含むバックアップ対象鍵で取り違えを防ぎ、local検証で分類のみ復元済み。
+- ローカルPG16で680問のdry-run rollback/1382関連のapply/再apply created0/全680原稿・分類のverify/絞込交差/unknown・不一致拒否/paid401/採点・履歴/旧favorite不変を確認。分類だけをrestore-testで0関連へ戻しても、原稿と履歴を保持。サーバー132/132成功、単体218/218＋復元先unit2/2、型成功。Playwright初回は12成功・分野表示selector位置の2失敗で、実際には正しい分野名が表示されていた。selectorを実画面に合わせた限定再実行でPC/SP4/4成功。合計14対象の検証と同一実行の全14成功は区別する。
+- 本番は読み取り専用planで680問が原稿指紋に一致、既存履歴12・favorite0を確認して、private preflight backupを保存。現段階で本番関連付け・schema適用は未実施。以降は検査済みコードのCI・加算migration・原稿保持の割当・read-only全照合・画面公開を行う。出典PDFや原本画像はGitへ追加しない。

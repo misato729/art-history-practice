@@ -1,0 +1,6147 @@
+{
+  "schema_version": 1,
+  "questions": [
+    {
+      "exam_number": 1,
+      "question_number": 1,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "92bfeef035cbe928ba197217757d8e7338dd23996c7cfda8653e67c269d29831"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 2,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "19dd056473b173654a22cf55f15cc24650c1826615b53b0ea22ec0aaa434a51f"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 3,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "ecf10201276a6730ddd9c025151c66da70f425910e9476d20b3e68161dfc545b"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 4,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "3b64c818f1c106936d34d5880e523b0490ae46595a1d1a6e4df0132734e11e1f"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 5,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "99b61d6f2faab7510a9ae24842c2f59e257c1d681cb94bde41a47617800cb4d9"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 6,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "195dbc8f152bdbd4e0ec9e4e0c91dd8f8aa06452656e103100d38fe391e6df40"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 7,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "539270cc847c2b60b5269bb5becbea295cbaf3c5f28c040bd074d54679a62cf9"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 8,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "ab71a9e769eac5db5e11b6d87911b229081303b64debd3a9642ecaaec1d55187"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 9,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "5f248771a0fe20f8849197c4db07ed925206dd0c1b598517b0a2405980af75b1"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 10,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "59a4862ece31c014623540da503fcaa6d64150a67f68a511bfbfe3971202c87b"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 11,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "a6b34c91bc2486781f65c8feba8f89e36fca48f4aa96b262704dc952ebc96297"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 12,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "b955f0e2f2e98edcc5b76843d6f7b29ad71a06cb15d12e386d84d585e04e81be"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 13,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "09119b9ad284d46b05ac79f650501579b8b896ed168b2cf51680f4f250804a28"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 14,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "2c4dd2714fb941ac763c582d87f61f1c480ac7b536026b36564d7b8e08800196"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 15,
+      "codes": [
+        "scope_01",
+        "part_01_section_04"
+      ],
+      "material_sha256": "59741fe50bd9c1735c6c3031aba2bc64526a236f2a035746ad70bde2e5a974fd"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 16,
+      "codes": [
+        "scope_01",
+        "part_01_section_05"
+      ],
+      "material_sha256": "d4571ee7ccce612ea80680c24e1faca22017c07e4792e36e50c63eefbece60ea"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 17,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "7ceae4069d556c29ece8a64b7b4e56dea498813787d0a69c92bcd556ceaf34b9"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 18,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "17721a98a0edcc9275cdd812a0fb3f61119af2202e1b86b92550fdc8efea7156"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 19,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "d7ca58b036355e33049338f3d43c7c59bc43d27f46f41ecab3e7a397ee820c3d"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 20,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "911d8172564b0276f7ff1e83297a050a69f20d749a72bf5487d206b20d086b06"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 21,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "16cc93339c8cadd76e409f8ccf01190d57339024beff9d25d17b2ce1b54c29e8"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 22,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "178f2b479e1802f9c1cc7c9f975777044147ded3359b3cd4a298540c69aa670c"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 23,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "844ddc367c9ad1b97e972682a81be5f83b7ce838d38cef57a18b6d0bda2b878e"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 24,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "5eb5b4e78ed4f95ecbfb183f322002757a3ebd36ec55fcb7338f28ebc2a2aebb"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 25,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "6b2691b7b79e6bf81bbc55f803ee753d09138fb7d81801825689c962da9553f8"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 26,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "ef951bda55e5590d611e522334c0119b6da0d1bf1069ae1f53e47b52916f67e7"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 27,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "055fdfe55f664ed9d113481ceeea641ac7d471f79c0c24138139ac4b0f852c2f"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 28,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "ddd8f731b4e2b479213a14a6beaf24fafa9b2f2b15a070953d29868da781c2b4"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 29,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "fe03df701db55db5ec25e23f66a9508c6e2c2f91a41114f6acb382a8d2566b1f"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 30,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "81d066746aa63e4ddc91f141833b4aa977cbc7fb2ae4f19f9e1e39251f7d107b"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 31,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "8e950eea6f94a621b35d446d50d3e641bf27ffdc23a0df7cead0df0dcb6c7d6f"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 32,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "6d57dcc9afd499f01afb20a9c9547df7d01926a0dc5da061d762aed00381c280"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 33,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "de19ff2d136f94627636c3168606dedcfe851e673e4fc6f6ff10d82e65676372"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 34,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "f2c6f9c8fedd262dbfa431744c0397f3dca4c1ce593db8fe8ccb11b10f834aa1"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 35,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "bf14a315c01444a7dcc904478fbce92b1d0f9cb6fca8145edd4f882e56c03a66"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 36,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "4ae0ccf833951bf235429a78c0199ce1b6231b0bc4aa022838d111adf1ebb32a"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 37,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "cf2b65d8556ec3e5337756c8dda6eb0924ebd20e781ec6807d595240df20e678"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 38,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "3f56bff3b7047e3e3d139bc6ad8ac8e8997f5a9ec13603400b9b7c3210cf7d8c"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 39,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "fcfdc47bcb8db165571c5c507cd605bc0b500b023e72b14a9a04b1845b574c1b"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 40,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "a5d33343073a6f6f5258647917b51b58cb30b86964ad123930f14178339ba91d"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 41,
+      "codes": [
+        "scope_01",
+        "part_01_section_11",
+        "part_01_section_09"
+      ],
+      "material_sha256": "116122fb1dcb45ce8b905960d935ee293482e0c7bf6fdf4f6b62ff63d08b3aa5"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 42,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "0c8dabd92ee7404dde9bb9b879d5ceee754354b53bf23591efc50c87f7e84789"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 43,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "0bd8cf60c838c0c3d9e75110ab100aaa39bd467ed764dcf7f4380cd10d3a0f11"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 44,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "c8dba82408fce47e0dc929727c76bb5efef534f8a6f8a8bf9f8c4db803c05d72"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 45,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "72387163bd264922fd61aadf22599b92ba5b19fe4c8c12d66369e1c1e03c5ef7"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 46,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "127068df6b7941b3e345302a1b2d5518268da1571e915bcd109783b3326517a5"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 47,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "dfd2f8c87f57b4323f7572f9d0f291d453ce7e28b3ae9e08139e1d7ea04e4166"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 48,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "70b8a56035060b235f518636ed49207519626a224601598429bb752b2bdcb4bb"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 49,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "b8f73bba31476073c1cf7702c4c0c331da85c9734d8fe1821a74e3510a58e318"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 50,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "bd12e33452497b98f3dcd50cd216768eb123a09d9e1fd7efa990067d04bd7cdb"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 51,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "852d1eca6c2fd508a3a7292b24ecd8967401321fadb130d60313b038af00bd30"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 52,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "48338c56c751a3859b71ee79b20eee6e04cf5973e52de4c6be08b873fd429cf4"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 53,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "fcd728affe8ae4c000adcf366f641d6437e5bfbc7ff06d5445a23eb2eff4a69f"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 54,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "13e397c58e036f9a1ab6fc25e818af3d647eb10f3ef8d63e17ed9efd5e853835"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 55,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "236028fb13c68d07edc5fa2c079930a58eb454aad5a69b3cf3d35cdcfe441df5"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 56,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "9d5585c5f958d05be23fd034ab93a045bd2ddb7f44e8f93955215ac2ac0b551b"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 57,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "d1c50851079d4219165b9ba84271e4714aabbbfb879556027372016b375e167d"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 58,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "bd9f7a0076588b9c94ceb6cf5087eb7fe12a07b0e245fbd292a7aaaa445cd70c"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 59,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "895949cf4cfd3213db009b9bd70611fe0c5698ced56e9c24ed858d27bb1bbef1"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 60,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "da8242c7bfac9b1e9f470b937909af60bf22d79fa7c41e0a4f2ef82195631437"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 61,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "3a3b9fae4e3ea33df55acdc5118938e4e140eda5345a9a24791b8bd6914165bd"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 62,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "0eec08e49fecc58eb18a52804f00d8cc2c8f4d5cbeaa4b494211f7a538a4c153"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 63,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "7722deb6a5815920d07703b89b6a792b16239b55c2fe2ce6d7f583855e77f603"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 64,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "bb5ff73338bdba76fe54d9a7d5c62e00eb53a9b125fc46f48c21036046883766"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 65,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "232d3876c9d6ffc4ae5646481bf7176a133977818cace2c1f48f99b8957fa59a"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 66,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "fde35423efe8cd9ef187d144260ef7e69f106598b2746b9d7d5d4d1e87e535c6"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 67,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "c06f91586c2aa4a8a513227d41bc7a9c5fe2d44a6dc3f7cfcfcb0cede2e53fb7"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 68,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "a95232cf958db86c1191ed566a46ff32c92af5155482ab4bffc382c8b4272d29"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 69,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "ac11bbd1117702ebba974711d394191d3bdf1a9ae1326f66e3fa3c8fdc5389cd"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 70,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "bbcb3941121ea5f6636753d44463417e530d7b51c184ada184ee651ab50bcbe5"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 71,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "ee878f8d545126356ca16f850a90aa21ab0a7779a3317716663653051f98d191"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 72,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "c1ea810ffab187b72c6f3e06cee90f5a35fa482448b4a95ee4fadfd614d29a1c"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 73,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "c8a79d117388b2f43e6069f9d21067c4b3e3282d11de528463334a494e406618"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 74,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "4de137c6ff41d2614c2630e218c8edee8fa67e36b89d121971271b02e1d82216"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 75,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "653e9780bce54a7b5180f96f607fe98fcc1bee1cf309019ce3267775e1209fbb"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 76,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "841253f53eba53e9892a9fbd4c93803f124995655917973a955525eea3d5c7fe"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 77,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "aff3cc49cb997115fa5c51818d00a5d89bbfededbac31829dbaadea19e6a3dd2"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 78,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "ce4763bb366f8d956eeed6ecaf0fcf135d640a3a99a505e92760584774d13455"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 79,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "e28a89a42553ba9a6c4c43db5e659f024676834f370f8eebab64e8bcfe634fdc"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 80,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "169075f8984c0303eae4abc66efc276a9de8426c3291f419ed3ad4d4bafd7c94"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 81,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "e967124e40937ced7043fe48260261861a467d4a8551dc1eb822a0194215557e"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 82,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "88c9e27bdbb9f13988b506cc68772f04ef56c7081a1705957c32cff140e9f041"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 83,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "c78007e4ab2ea9a61ab1935443d2fc02e03c73fc4744652e9ea22abbe3553536"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 84,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "e688ab56c77c175a4bb6fa1e7c586ca5f077dac1c5d3ed05eb198e5bfdfbe80b"
+    },
+    {
+      "exam_number": 1,
+      "question_number": 85,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "62bf2632abe16995d60d06df54b8ccdb19be204380846bed3917bbc1afa4b2ff"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 1,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "1c0c2125b644971799a7363b998fab158242fd3eb33115116758640fb1ff497a"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 2,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "2a75c222af73d4dcd882c2e68ea1275998c44df3fc47e7e7a9f5a8c34c95569b"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 3,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "d493d4f6c101a5010a18683505447c25b7f6f3cd1153d536a146606b899d992d"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 4,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "dc10e605f68bdb44bf429adc85fbd3e475693f8737026a339dfcd61ae78bb8d1"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 5,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "0291ef67d2805f648faa8217ec895785c3ce24db3010f5b5da54c43125668a73"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 6,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "d7c425e906c7063627a6c3250baea3fa3437cbebfddaa4de1af048dbdba5a124"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 7,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "8055fb1edffdd95ee638c64ca7f91c1442698f8d58b8ab0605c29f7dc977ced0"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 8,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "8096076afb1535919eecec64d05ca2e28306cf2c673d47e49ad402b63f45f635"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 9,
+      "codes": [
+        "scope_01",
+        "part_01_section_04"
+      ],
+      "material_sha256": "7c183e458319d03cfd4f4b54d6cce6a22bf86e1ee51061dfbf7a09812292b0c7"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 10,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "519e96310332a852f657a918627dd8654afb58b966ec80522785cd93cb642924"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 11,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "54ecd33dc6c11c9cd73270069632e2885fd09a29c2f5c37326f121fc09ecb0f1"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 12,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "ee0b580f2e6c5888e7735c568e64caa53e8601e8a6729c77f547cc95f47f5e3e"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 13,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "d7066f75e07a91176090547813e507bd0945e24611ceeae7efc270f2dfd0ed95"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 14,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "45c63d62d77302027ebb89fb3af27418168de57bd46b4f3ad98ac29100c8cd3e"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 15,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "d73e45efa9d53ee99cc0745e62df5759b153f14d9ed2ddbd16ed5639284543ed"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 16,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "cb8f07f2256cd3394ba58090936db8f9762a7d56b0dd9fac43c425a314eef078"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 17,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "b82e9af6e8e34b4de3d065926d9bb4c17299637a35da7f26cc532120ff1a2579"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 18,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "301a9e8f3163e514d092f60f1a3cf8b762a6b3705d0de77a7400f1b7e0b94011"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 19,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "d5d616818b66081d94ffb54f2bee0bf3c4b0327f2375451b4d17e0fea941eb85"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 20,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "0130dedd882ca746531d567cdb0c0b1cbab9be2393e5d07c6e43440972cc549e"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 21,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "a76875f051ee0b59f4f1b97e4ff1ffaf414fef89f657b2c0559906f28c912318"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 22,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "a6f9188fd124fdd78be782d9613702442023c4502b62e491d20e9850f067a285"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 23,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "a4c01da8076a2262c6f5301f39bae074793ba9266b652f698604d1f9d339a51c"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 24,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "1f2423857c7aa21fa90f661f8004572a61427a06c3483facb97ae85ca9cf8394"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 25,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "b28b1ff1c64d7204cd23c993c8592f7087375b5d7972e9c19fae39fd7b85c2b8"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 26,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "6c664f04170a78e13a31792e806facbce5dd06c8c39249dbf29ecaa63f43297a"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 27,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "1846bcc585ebfc4034825f756a89ed976641216cba51384149f69ba58a211b66"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 28,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "10c51cdc3b11167319ccc1d37538484ecd80586ae4c306e9e4eaa8c9f6b437a9"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 29,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "de5eaee6f9949d2a8837212df6bc8acedee29688fed436c96beeca1b8bf2d316"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 30,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "68a58b0f7ad8d327cf0764ca018c771a8aa6b96e41c739b7d280636de357d36d"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 31,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "6bd63b1bf082c2b4144f606ab91b82a5e6462c65473bcb0e99686a3f5cc19f5a"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 32,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "b4b3a2993394f3ffabb522e853571aa02a2e16f4a0336f9993e6264a27ce861f"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 33,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "e7217772b7e116bb0cbf927233c024faf155bc193b91dd570677a4b5f68d9fc1"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 34,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "fe2765c000279de84b548aba1ad7ba48d9cce4460b0b21cbd155945197b02b88"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 35,
+      "codes": [
+        "scope_01",
+        "part_01_section_12"
+      ],
+      "material_sha256": "5790f2e676822ceb97a381be8c00fd26da85d290048d25132bb926eefbff1f49"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 36,
+      "codes": [
+        "scope_01",
+        "part_01_section_12"
+      ],
+      "material_sha256": "7de1e104722d7717b5761e240424e91fe9bb027555f0391ea5f23b935a43eba6"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 37,
+      "codes": [
+        "scope_01",
+        "part_01_section_12"
+      ],
+      "material_sha256": "bf6f52ccad407986c6a8519b3cb8ae72478fd963850fc87c20d37535d62db016"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 38,
+      "codes": [
+        "scope_01",
+        "part_01_section_12"
+      ],
+      "material_sha256": "7aa2adea977f0bd34cbd5ef01f40dc316ba0126efaef12c4420e096ad43d2e8a"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 39,
+      "codes": [
+        "scope_01",
+        "part_01_section_12"
+      ],
+      "material_sha256": "fa2898d80900a1e7de37e12f1128688a75334f057ee1fe5069c34bbccb6beaab"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 40,
+      "codes": [
+        "scope_01",
+        "part_01_section_12"
+      ],
+      "material_sha256": "5c4ad8485e41757df7c3beeb1406fe7ddfa5c24dac4ee6fbc0f28b8d710a56b1"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 41,
+      "codes": [
+        "scope_01",
+        "part_01_section_12"
+      ],
+      "material_sha256": "19154806799a3a0230272050d50f8d9213d1aca564f9fbff76216c4427cafc59"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 42,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "ffc9db303484a2d698908d58b64f6a61e9e53e149a1ff54d65d20f1d1df66540"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 43,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "201e62bdc1bda6b376e6b03d7bf50ea97c30a1ca92eaa779011818cd898477e9"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 44,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "2f4d3ea5ed6ed346a66242f0328bc879ef458d43c972d80ef2a0056b139fad3a"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 45,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "11132a93f0bc4229fcddec36be6bc8429c563064e762f5b3dd2d8fdf647e660a"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 46,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "18946d270a0ca72fa304eddb8f0d6a35cce8e58e5f8ee826931889630777cf5e"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 47,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "96be8d3468eef210f23014f270ffdb8530511fa8c5880382a513319eed77de71"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 48,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "169d9bfe07a45ae62cadd4a70c1a0bdc5107778ba874ba99a899f80934e0d5d3"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 49,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "1ba039959f60f0f99cb34f726046eba4a3d9e2be1eae644e9b94d4801af0fe9d"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 50,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "5735a63bfa748014dea9891be576fb1b9204ce46aed41d3e3ee06004277db90f"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 51,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "70c00ac15fd019b56a323049d00e94b7e93f565a89d1583ea51bcccedc793454"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 52,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "d1107d5b69b1be6571894d1f99b49ab325993b85440fdf945b221488a36f96ab"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 53,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "882365c41d7755d4c852aef825347b234312d9b9e4cbc5e5c8ad7432b562ebbf"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 54,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "a6abd60c3a6db321e5fb6b4c45e472006c0fbd13891a98ff051f2953daf00fdf"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 55,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "f6a415a85e39a41a99fe90e3dba223d602a46bc0bb82f0ea449fc89c3fc794b5"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 56,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "e552b6426ff7c6312fba0cf4cda3b7bcf27e3c0bc4572c8b63fae124cc7c7258"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 57,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "e5ee2289263838b2b72596f7c4e0df84bd59246a833f4483e89b3a96772a7c96"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 58,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "93bd6e983a12749820965516ee603bc4828801422416a7bab2474d3459cc55bb"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 59,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "2e98cb1ac306110fae3baec267e75636656edd0a80bf4d48fc44b8c35c6d9f72"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 60,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "b97dda9ba7eeb834b1a8b2f9302f890c8bd69b9973f54efb9b1ebab6a6afe3c5"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 61,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "6edf4757a69f9f74461884021f378a77d95bd8124bd1999bc6de1f78660b5f21"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 62,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "7ba7bf9da254f57dff9b084810d1edf54417958ee3de5ef2102c33ee0dc62fda"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 63,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "a6a42772fd2e49b67f0cf2428eed2c163e182be56c82a85308ba86ca35679ab8"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 64,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "7fdd3fd29dbce93999cb219f973cb15f74335fc77f73279836db4c5cf58ac5b6"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 65,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "805a96003f1787b0675b11c6fffeb08ddfbef296517859f9f7a170747b8c9e76"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 66,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "912b3222c4d576f73f43102152d190ca4dedd85d76dc4aa1bcea9483c9ebd92f"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 67,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "5e8956a520d5eaf797560ab5e0393b7b6d33dc8b401b35dcf976416c6f9402f5"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 68,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "281af7db8f90e63a1afea942caf5fcc64b9feefcfe0e323de7e904bb13d690f7"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 69,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "a80f243ca0f9419f64091f55ca4da57259b94a23ebbd99517a2da793388c473b"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 70,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "f1d084cbf74528bc8a20e1f7c4d59edd4b60eeff7099cb0d3a6680a57d6d00a9"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 71,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "5a1cfe421943ea92f4ad742cd48747e719ac0da331d3274815d419de5d16ae4e"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 72,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "bc5bbff2b3cf588612c37f4d1b3b250de8270c6c63631968f16eb0391bcd4ff1"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 73,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "1556f999c09d155c715701eae666176d2aba51919f2b6f32523b333df9c868e8"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 74,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "943b7d44c18d99d05bfbd3b5c50d1586a8ea6dafe751d9da0e5e9bad25877c12"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 75,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "786f12d1d4b6b376648a94bf2a8ac7e78cfa76d6103b54ceef62c10535e2c7a3"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 76,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "68a4dc8fba02ceca9a2d0487e1f8fa40b2d639a3886ca15b10e17c0f8afd6641"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 77,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "b55bb694ec171ff329fbb5ea4019fd72bcfd5e7a45cd360c8515493aa8909ce9"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 78,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "4ab054db048339cc966107823f1ef7ae8ae22631ea23c231935e2bc649b5a21d"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 79,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "e3df19aebd279e5ff6a8ebaa53dfb3fd5ee0ecbd2dceced48884638f5bdb7109"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 80,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "366d467bc58ce8d0532307049e61de9a4a669a61d984b546f1325ccc9c4b894a"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 81,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "bbee27c6adb9a651eec1f7926748f068e47555b1bcb6e11684f9aa3380f71181"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 82,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "07c0b1865fa8fa35ebf69ba8b83b2d6203144560ce63fe0180b85af29a889736"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 83,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "6c83d4ed19ec7997e0a3842ddfbb0d30e77b1041573ae321a4dd42cb305c10c7"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 84,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "fc34f29d9fdc8f28fb852ac42b779c471e311f85d7d7a64f7d15c95933cef0a7"
+    },
+    {
+      "exam_number": 2,
+      "question_number": 85,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "6b5628ca856a3906eb786048b16507eec830dcb9679c64fb121b81cce4d03423"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 1,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "de7a59e1606f7011e676226077c0dd6fd2bb6bf88663a911181d4e0898c80df9"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 2,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "e0be6f0f567115cb4f011bf81bd876aea9c2c2fa3153ce2afb53cb9bae24f532"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 3,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "23699d51709d364b36af795ff63870318f1e3f2f0fee333ff28e0cca76b9c3be"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 4,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "c6f7150b769360edbd527c29a5ac313288c3b680ca5c8ebd7962b40b1b76878b"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 5,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "eb9fb64511792593a9cad4c8b355308da1e77ad05d5d8288351538536028805f"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 6,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "d88911e4c826673d1c23463ba48518f900eecd626de8c469be9d89e437bc1fb1"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 7,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "a0c09e69eb8725cf6d6f2ffd57770a399e8a44875cf03e199e32bca0d58bd6f1"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 8,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "439d78be6678611f68295ff234d758d81cbc4bed743b7488a35a404ac985680f"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 9,
+      "codes": [
+        "scope_01",
+        "part_01_section_04"
+      ],
+      "material_sha256": "e3303b2ef29cffcaf055fcc6b20cc84835de2880e7116514b2a3397b506f7b35"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 10,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "47cbda2bb1bd7cc80d8c93eab96ca2ab8fcc15350508363d49f9ca3f80a8fd67"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 11,
+      "codes": [
+        "scope_01",
+        "part_01_section_05"
+      ],
+      "material_sha256": "c4976540ee86a3261e0e340392453c8296b702dc082ed9e97bb29d10b5970628"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 12,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "70ea5672d8cbdd30255aa1589b2b57c6dde6d965a5635fe66ad9d46c23a84e73"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 13,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "ee0bd1f8455b4f5baf4ea327bcd190bff536979a72b5ac333c6dc3242853f4a5"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 14,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "3e006c7f4b0b5d0f94aa3e25666f7d54c830e0f4f4cf7137bfa3c72fafe36cf2"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 15,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "8f596a5413fe5eee22d5ad9aed775794033c7c35f4fd2d54f42567affed425aa"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 16,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "9155796d1ca3a3599414323b195bae488372a23443225e31c9ab263046f37ee2"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 17,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "676937748b7b2611fa6d9d7b5101c266c1c1ed6bb4794cb57cec4ad38b150156"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 18,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "8ae84d7ecabce6e9ad2b00aa6ccbffb21b2de6efb4531d601f1e38c8cb3f5ef2"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 19,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "2729e51f9ad57d750f9c41813b725af1122cdee3a8cd5de937d221db28ea83aa"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 20,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "201f29963237ea3ebfd9ef9cf54e6dcbe292d72a02919de1f36b7cf556e5b2ad"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 21,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "0262ee20939c02a9452bc24c99eb33b57ae0cf389f9375ce07c56f04ce11e054"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 22,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "d7b59d2c49aee46c4debca77bc322f3569b6c19462462193bf202f60f21206cc"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 23,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "04608f4937dfe3beebff7fc602395a58e4e971e20dbc1a55b149051c76f31f28"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 24,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "3c2745b56802caee35da46283e853bb73a9ec36cd478ea7f15fba5b382715bf2"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 25,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "84911c95edd35ee8016047ac3e135f6ad7387387dd369a05606dda4e9c272e3c"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 26,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "df4a40207fc6b2fc9fd8250b4ef385fcb069d7a73c4e382e0aff2805759bee5b"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 27,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "0b8f3d8f74edd64a52d03f5ca014bb0370a1b778c1705b0c4cc1d9d21da57327"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 28,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "0f9113f1237ce253902716dc1212a2dbb9fd632eff4a4e8d97046371300f8bda"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 29,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "efc8526553554300349bf3b206e10d05a22c3c245ec08ec933c8aa2133483ae9"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 30,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "79eda05a49ed0bfc5415766a24bfc745394267f8984e0a65a1ab4d9c92365d96"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 31,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "af383c94c2e0ea6c7f854ccab2fbc10c3919855fd8913f041bea249e03c799dc"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 32,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "dbf0f6dec53b8965e37045153e9335b256cf7161e61d33376fe2534f4b799cac"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 33,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "aa12f38005d15fd71164bd75f87cb2126463f944e449955fc4fc31b1c915bbd1"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 34,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "b885c1b6d0d11e36bf5997cc2b19d3d2e39be38b8979a63d91300717f36dcc2a"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 35,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "0f4081595809671d7fb63fa89f9b60179ecdbd378449d48baf1f6048dfb2d102"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 36,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "61b1afd7546c95cbd5aacc911d4ece5b1ef52dbc4aa430656a95ca3004724714"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 37,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "bc1caa593c1c465d924505f7e697dfd261711a2003f7d76e7e7ccd71e63c3ca7"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 38,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "c3e0ea064e5dc7b45c2e3cabc87903f44a9b2e18eb4a58e6ba0d224f963a49ca"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 39,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "460fab5044c5784b63daef45ee67e00686107fbd4d26cc7d31f5c1f33519bc99"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 40,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "3e814449b9d09c9481579e167abc9170a8e1fbc6bb7763fd5a68a22a42f72645"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 41,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "0374fe0d1dc8e03e59e513dd7fbde2f24f613c1aa77a24cb759748316a9b5b3b"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 42,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "72363d2a3827f0259e3dd677f9e499794a81997186282eef5a4c936ee2d9e6ce"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 43,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "8a457a41cf935c16564e178900a5904fe0083a67ea9f6e4d25143978f13214d3"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 44,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "12c5c861e8a0b4efe2aaeb548a11f731195a9d7b58a9232ffd7fb9eb8a1dce7b"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 45,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "e6a45d68b3a0aad47603190d5c73d404ecb13c726c58aab8f90d84fd92c456a5"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 46,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "8b691f039a44a11a0281cb36a069be7eb166b577b5c6c3889d446acb6daf1bab"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 47,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "877ee87e861b6722a458efa2def0b0871e33fcdb7bfcc81e9884c2ee7c82b420"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 48,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "b3e892af3da880a442aecfa6444fc691d30f2c1c8a3db045cbf4700b9b221018"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 49,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "8ef916cd24208150036641077c54f015ad8bae3017e18d2c7834c45c58756824"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 50,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "f65e8806d22c8c079cf71e7e5d3aa784268a48e597d33771db976ec6a9d785fd"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 51,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "6584447228784bd22e5362a21a839d951d6a12e3a4f2a1a5e3e387c590f70f8a"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 52,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "68a1734cf388e653d30958f3f955ff275d205bfb92704f46ba9f280431f6e8da"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 53,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "70253692ebdca6c536e9983d595ac90a73d2bc5ab480a8a324f74997109360d8"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 54,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "323ba64c3e581b4802a69b54b6ce681c967f9ec093b6cdb0885befac6fb74d29"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 55,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "9032cbdd9508bd1ab4484efe68cf048e6c7baab2b800092147bc3943547ac42d"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 56,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "f18b8a5336abb7a413b661683bf12b0f309a984f2dafcf58c153583c794f0824"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 57,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "f364fa82c44db77be25338fece42d79835930f62ba40c9ab3acc1e5b99d9483e"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 58,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "f3c0c62ef1f0622bbb85ed2386616465a88ea569705340ba62a6f97d30f5db7b"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 59,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "bfcaed54f0dd541294c222f14f1daeae112c100faa8c616df795b7d2555c8216"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 60,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "76378f1446003808b673464913150a9bdd0eb613d0040dd71a6f4d6598a18ad5"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 61,
+      "codes": [
+        "scope_02",
+        "part_02_section_09"
+      ],
+      "material_sha256": "22e4177cbeff75f1f72085ff6a7f1b26348548f9f53a81ea1b355c91030ad79f"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 62,
+      "codes": [
+        "scope_02",
+        "part_02_section_08",
+        "part_02_section_09"
+      ],
+      "material_sha256": "ae5ff3628a2f42f654488ea6090bf85bae6b2172aac4d210fefed84a6b806d64"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 63,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "49a60b515f37418f3b1b4038a3dbe1e72d8f6d792776915cc9d622c71a93a62b"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 64,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "0d154e80f1a37763eb12834b5aa742f74080a0f192b5c13bedcd01ebaac1ae6e"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 65,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "90f02dbe0f02cce311cfc6b914ab3436cc65d668a038e2335de6f104488733ac"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 66,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "3a12496bdc0465afb44ac5b8adc233ee90290434b82ba0397d175c46706e70f7"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 67,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "f8c3af825e86be95c9e1ceffdd3a0673acac9dd7992aa23b70d287e92f0cf912"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 68,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "d404adea66aa50a60b3adec27977e099c610d17eda25d5aa6f48016a90ab7d5e"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 69,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "40736fac87ec7ca6dbc4b1932afd2429e285523274b11be7e55cb17c59616a63"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 70,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "03241f01137b47561f089e9abcce603260081eaacc280344333776260ddfe4b4"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 71,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "c9308887407120c34340652260c134b77476617c6369cf21f12b823b4c7d6a32"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 72,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "61d0eb83b4444c60726025b0cac897e236c3673da05c4fdc98cea0c6abd797fb"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 73,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "0b920e053bb903d0dfa413103477614cbe81f91e880ee75e021dbad2319ac6f4"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 74,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "8a92593c69f3f09a8bada7967e39aa13386aecc1ca67fced734467b61b7e67d1"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 75,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "9b63461d1bd90d4c7e19b34279d68eb5c0bfd97a6019e9f619c0d1f3cda5f9f7"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 76,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "4741ea1eb8b7df877226e7b28748e3ec2c917fa335f442257fbc698f1775b968"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 77,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "455fc56b4c81f4700a91368aec9ea0eac6fc8b23e79a0f87bb5373081dbcb87b"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 78,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "e090d94320fa7e188cf269cab8d477f30d8d841333813ac100a20a2344ac9c3e"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 79,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "94bf013a826e8527b2f16e9b8a127f36179cca3e929dd43d7375b50f47585fa3"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 80,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "b8d180edc60dd9a4ac27ed051290c518207a276d774620d58734b037f982abb5"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 81,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "2465c2f5bb7c40919ee4c6d842cecf5f56d3d7cb7f08af3d140710409628fb07"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 82,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "12bf3b9061fc6227082b1b084d7da163b8f2fadaaa738ddafbdea31433a0ed8d"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 83,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "7c742286dc7d2bc1b2898b48fc119f9b548621ffc0b611bc44751cfb7807487f"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 84,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "9aa275e2e01e434e99b3e00b0f1fddc0c88a0e98ed982789d54980fd10a58339"
+    },
+    {
+      "exam_number": 3,
+      "question_number": 85,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "b5d50bad057f30ed72f62e7a4c9cac93213ca759275e24d70f924014b3d3f24c"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 1,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "8cb3dc6fe726b4ab771c6a6a3a1ac6e3c0bebe084a2c215e47246a32749e9dde"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 2,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "8e338e0f09ef47432f4a899f9d72422318f7e33db535d8db8473cc4523cd44c5"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 3,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "62d3eb0fa5f587e5ab41f11a7d48d2c61b3179983eb28b4d20fa6d45cd21389a"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 4,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "1271e9b070f72c3992b4208b86b525285a910115fa21847a0ec673d962c5633a"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 5,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "ee53954c374ed3f028110e763e3c6cdb727d4f47a89e3998e430593b8178b885"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 6,
+      "codes": [
+        "scope_01",
+        "part_01_section_02",
+        "part_01_section_03"
+      ],
+      "material_sha256": "d10e6d446bddcb42ae0cc60b3839e99a57ed181e6c56ee8ddd7bf0dd0e375ae1"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 7,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "f357da10ebf6259e31fe37ede641198f9b4a9f4a0a6bc927daf3202593b14178"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 8,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "dba77f386d80ffb9f065dfad66366ea99f00f9768177d8c348c65d76f9500605"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 9,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "68405e491b837467a19010d14c968f955907b5f423a6d4250970e4aeb19f8cd5"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 10,
+      "codes": [
+        "scope_01",
+        "part_01_section_04"
+      ],
+      "material_sha256": "9362347da92b395bc2de925da983f738ab683677cdfe588ce0ab6ce5b8901ecc"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 11,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "c8bb96de5dec89fc9cbce92cb73e4d4981189b0d8cf9e5fc0fced5fdcc691350"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 12,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "f054cb25cd7a20a76b0d15f6b8d9de8190995c50ee7c2f307475553199944d3b"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 13,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "010b507b1e09c27ac74c92726bf14450debc5cf7eadab0607f9c78aefc8b7de1"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 14,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "0c9ace07a35dd3527fd2bb4061d4d3406d55ca657e3b3cf95e0ad3d2abfe9bfd"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 15,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "cc1b7c74f034a6b69a33f24a3923e7ab8f936c13347903e007b6f8820932dc50"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 16,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "b33194f00297558427e6147e99da805e962cf89deb45d1d5662b051e124b6830"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 17,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "0b857d90c934fd478950a0dfb2b552b49811c196e2d448ee96e51502ffdfb885"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 18,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "9a73df61c4fe2abf3bc5eff68ef2845606e5282c2a20410f1013f42bab4e59a1"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 19,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "fc3c2227985fc508f6c7eabf42aeca5be1682a0dd1f07f7f8881c6352a7856eb"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 20,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "03865df32e60bfcda06804bb42ffb94620f9959663896fd05ee62f595789c271"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 21,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "df127236ec98bc4ba5a648be6b26632451c7a065cb22660447a513df10946ffc"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 22,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "21a5f867e07b953e305a9adf4b2c1481cfa459d83eeef1be9666e2c82660f5b6"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 23,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "001620023f9a4dd100178e43a48138624df6a4e74606a3e7440a75a7f9e968c4"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 24,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "daac3df986288b6e89793574eea84c35bf313f23cde713969daacdd983e819e0"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 25,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "6f18ce7e63483c3acca54b97372f2c30f3de79744828e369c29c43c27e0e665c"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 26,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "589c73e8ca9b9b7c347e38f068e2d429b54796d5a4c7cfbb6baef588ecde373b"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 27,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "b3276f73f7d6434ec3e130e1a08c4a7fe803dafcf84be64a94b7aaf21617502d"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 28,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "a890f3826030ce34063d427378ee57bf86fedc7e3d472803f4f9e3ccef8e1da8"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 29,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "d848dbf8cece36c5052b6dffd1b31448f866543bbe87b629ea5685e518b1c16c"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 30,
+      "codes": [
+        "scope_01",
+        "part_01_section_10",
+        "part_01_section_11"
+      ],
+      "material_sha256": "9fc9c74423c7910c135edb96b6403531e39ac862e0f57534ba58b9be27a46959"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 31,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "2472ffd2382706998973cfe763b6e7f74acaa8588d49bc68e806cc80b72a763d"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 32,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "380665c5ed61b081a0b8e3e2095045a34d975529a63235ea66bff25524861197"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 33,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "e8461ee511788678b1f253001993b3d0a435ee29fa264ee813f5d8a679e7dfca"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 34,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "4a0fa7f3455d9c434c07657b365496a755d86e6ceb50a493cd093877b2dc2e4a"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 35,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "f1579825dc3de7b2e383bc2cfdcfcef03d9ac099fdf5b5a1d8c0f623617e60e6"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 36,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "3b27397bbda180f5f9761ceac6f037cdafc2ba0ef7d2d586e432654ad1398a4c"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 37,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "869de42f4bd068d6d8d5787b9c286a3fc584257e0cae9b1f01ddaa293bd155db"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 38,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "2fa5bb2b63fdf6c44ef8aa2ebd9d2e1982a572b1cb9aedd109691ff450c681cd"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 39,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "ca7091fa4054eb4b98c5053e2d7e3a79bf5c049e135a541fc5a586aeb4bd46dc"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 40,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "dd641088bfde7a0d5572c2c8ce80e12687dc09421c594874f9e67477131866e1"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 41,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "58b4af53808b06a4cd8e377cf6640c1ed1794643b4d7951f3125287ee1f8e109"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 42,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "7a451e6160a07caea2bf7b47172da63e034f2079487c405477ac89d3007837b3"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 43,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "e285f78ec660dd09e06ec3119688e7fd035a2ecac1ca5fafea548900fdbebb99"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 44,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "cc401818dcfe5feee706861041821c17c46aa2694a2030363c30825f21defc6a"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 45,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "264e5f5dd4c3ed7ce1428db09811583578c7f72709ff042ba44e0323d649eb70"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 46,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "5c4d774b19216d80567b8551c43ee03253bf308c5c4e338cb9229af82c8c5448"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 47,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "a7d1d98c471050888125c7a9cb85395917c1666c77f4037afd924fa4b5aaf911"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 48,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "1202568e9142094d0175a2487945770a1d628b4bb3a926d2f188446cf6b1a59b"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 49,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "62d9a31b4818bcd81dd6228b8db978856ed0a3232004ab8ef392ae27defc0dbf"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 50,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "f8932327030b5153f757665acddc89636c62d46b712fcdcbc06312695154cb8a"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 51,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "6a487d7d0a460331f388631b8f20f1de1ae1a5b6162bc36c5055ac98f9a0286a"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 52,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "32c3bba4ed780f732d64230efa171e12a2911502186e78cd1c9583666415529f"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 53,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "d9ecf778653f28ddfd1654b671e6d5a293f46fa0454be1ef9fc7e5a8780c8bfd"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 54,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "2c766d674cfb425fdaffefef49bdf43ac8afe8661c5b61f332ba790cebee8ce8"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 55,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "dcccb1944f1b7f13ac09a196b128baa49b9df1f17492df569c9581db344d3e3c"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 56,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "1264c64cf5df687aa769d493913dded9e537b03ed594521efcc8a68887f5ee9e"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 57,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "b804f2f4bce3df28c919137ca1bd3ed3e7b79b8ba015992ac37abf44f12c1ad7"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 58,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "a293a9c5d99f609f011f569eea9ff865d1176c897e07551564d59560e07f33eb"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 59,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "7fa261c2bd61c9045eb5ff7ec1de05e3427daaf9079afb733568efe0dca1b444"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 60,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "f0165c25b0b47b01c5d1636de6a9a9dc0e5a7a58d7d223ab9eeba8087cca1481"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 61,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "27bf52db7951fb90f5a813e20f65646b5292986ce1adb5c79cb96aed007eb35a"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 62,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "945e1777054b6a3d47945c2f0f62727f063e986e572e64ee5c7ef9fcbe6ce306"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 63,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "b098f46a96acbb37afdeb2bf855dc3fb5579dad1389f3a0a8f722d90268b9179"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 64,
+      "codes": [
+        "scope_02",
+        "part_02_section_09",
+        "part_02_section_10"
+      ],
+      "material_sha256": "754da0be9a71d2102b6498fefdc101915263f3a05571ddc0d90410dd573d9c75"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 65,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "29b72fd66455aed55ea92795f0defe4815039ea68871899ee7e12f9fc40d2cf8"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 66,
+      "codes": [
+        "scope_02",
+        "part_02_section_06",
+        "part_02_section_07",
+        "part_04_section_02"
+      ],
+      "material_sha256": "cb96e273ff34ad9e842135c0ce188751f2c714aa4c220c7287b13f4979ca657f"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 67,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "9ea1b2848612c07af2fde36f4934d453bb83e9fb712904f736ff96e864f234c9"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 68,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "5115f4b717d3e7e47b1f4de45ab2befe77bb26e7506acb5f39cf827d32ce192b"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 69,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "773b9b418dec44d98f96fae62756ea4dbfaaf8bbb47c990187a57409c643b13a"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 70,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "d789079834b76c9d8552daaa6ca0805f244e06cebf406c5f69d6547882f87e13"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 71,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "6374160d42d6329018664a5915bf3bb018392f5affe6daabfd92b3a742d81b83"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 72,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "cd47527030b7f2ad1aa5911f069b55d604cc1bd4299ac24e14def49fce5d7bbd"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 73,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "e1c636a9f8157ca179175aaeffe96ee5c6db0fd6651b3d8de313ff4528a252a1"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 74,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "6ed05fd6d847f52e874f46f460af5ea40edf8a856309a852ed0bd6cc70d10e48"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 75,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "b4bd472a41334354c40f23a5e4172c71ad0510904bb933e5556ebe34301ca0a3"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 76,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "81af914f2e1d57d0a7086436a1542d1f762c1219b14a8f702729b16b59ca9ee9"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 77,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "f11ad7f3601df1c657a25db5f6313e49e26bdd5f13409dcfe5145b848cdc4449"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 78,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "c3835b389a6be4aa2654de3f66b2b4e244571bcd93e1f951e414adc519e3b9f9"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 79,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "59c741294bdb630276312f92d89bcade8b7bcb36133c989e047d8c7e676847b8"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 80,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "882f6d323e7222ff69a5c1a1a66feda6d3f639225b6d4e60b0e42300d384bd71"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 81,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "3bbddfebf303bee65b8d5b073d5f4c05ad44010b0e916f01e13b8e72450d4bf4"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 82,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "d980c3575d3925adde42fea2d5383b6dfda6bfd449e3219a08936e4203bfd156"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 83,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "4825ecb39ab026e10f0996035c18cbc58dca635fd4ffea3b4ce32811531b95ec"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 84,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "8acb1004b8af02265e7af1c97d8974cc1853558701f8c8848cf342cde6e10138"
+    },
+    {
+      "exam_number": 4,
+      "question_number": 85,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "6432ba0eb941ede16dd8d1b6fbd0d0c165f6a1e29664269459cd52c451ceaa2d"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 1,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "6e70cf0ed21679f062b6763ed7293644ac845ef529c278c5bb76d26065bb9693"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 2,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "0acdd3f965dcc53df50974170c59ae3a136ce82011e6af1ac49d0e775d749588"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 3,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "83a240f1d3c4eff808c50cb996194dd79a3898793226462d54f5c7248f70a9b1"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 4,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "fea84fa16a90ef79ebec4a44ed370af5e4fa000216ab37442a7e1808884220cc"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 5,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "76badc9d26bd3375aabc6f2c1a7e8d6684c92d612009bf3954a0bd645088098f"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 6,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "d6646a2b4e69b351088f737f74a415a374aba2544495f629ff32d2e29baa95c4"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 7,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "ada33f347973e6602a9f6ab477ba144d471ea0d5648318cd809127120cb028a2"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 8,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "0601b9cda62d6edbefe348ccf9171a2db559ec5c19cfc8da1b2b3a882067d8a5"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 9,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "d1b1a07cb40f8f526169a92c404f3439d2e16826e745bfa90d127de946700186"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 10,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "faab845b360c9d298827ef0b02b62bb81b499688cddc163181d3ae72e25b96aa"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 11,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "1c5ed6e9a928a3c2f9cf524aa118860b9a92c781f6cad8db2b2dedd875980edd"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 12,
+      "codes": [
+        "scope_01",
+        "part_01_section_05"
+      ],
+      "material_sha256": "2d2497dc2687e3042d70e57afb1d24faad00c68c35980faaecdcc0f773921697"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 13,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "0bf1724c9da4ff89cd3769a45338207610259adb708f72d2beea51a820a7002f"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 14,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "21a15586cc5d939d0a4b1165b816bd05403de4dd0247f3bb8f59b3f9fc8c64b5"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 15,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "3a636d23a2cb6a1c5a755c9492207f4369a2579347c1fb7e5d675b89824c3b7b"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 16,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "8eea0198d36e5a312e0de60b278a85131c041e81ce14f38035d9357749ba9075"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 17,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "b5e63d851eac55687c738ce1c721c08327aa841bb401eb1f976411bb80411a56"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 18,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "e64ea6b79c7dafd308e54302f94bb36165dacaa1704198f17fbe25cf984d0a28"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 19,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "6eabba05a56cc181b915c32a080260d7ade35d379b1ba1a5a3f8688c846fc21f"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 20,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "f29c91557c70002078b4e8d3e85f67fe9f9915f8e45636a18c9e04a7f76d0c46"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 21,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "8cfe73f5808218fbcedff7d5ac4cabc6d67ec74c1ebcfd93a5241faa0ca17939"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 22,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "d80c3bdacd857eeb34d42fb1d1afe637f25a689e6333bb39369fa8c00a88cf0b"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 23,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "c84d6b197a7bcb42397188658e8a9c8ad4d2843fcad24fa1a2802b1d6c4c0d6f"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 24,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "b1f0bfb046e7c19882e856b1620fd25c676162670494b9cc656fff14056bc5d4"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 25,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "d489e33e12a3e417999260579785c0204322a92c037256667884661433d05b74"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 26,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "af15b41edf2b2923ee43a8e2a9a7c6ce1f8712db0aa46debee098cfe81773ef4"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 27,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "771e4605c24ece69b56e519a50fe6ed6ae54b558b43a45c95daf894ffc985b5e"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 28,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "eaf0c488c3d71a530b2d3c50a6382d4153b8e58f045a97a6d1ae3db9c7813fb9"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 29,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "a9eada3c1ec4f47644ad0419974f34412dd7fbcd85d4aa884b6fdfcf73592ef6"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 30,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "feb701e4e9a74a9d87a68bb0b27f82bb9da44a0ceb183f139db491aade50243c"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 31,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "f75b0df3c4e0bdb17933036df38d527426bf148d8090e874dd30391632c7a4a2"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 32,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "063bda9186061f4f5844f29a2ce74777ff97c80cec060e645f48872a9e9aa1ea"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 33,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "e4f98d4ef7b19d4086ef2c0340e06831c357671b87c0ea300dc00a929fe00cf8"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 34,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "64fe35ee1e71743f8a270a6e711e79389326a1ebf7f1efe88709325d1359f34b"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 35,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "3781006a3f2fd8dfd73dd79df5a3318ae483e4f8147a358ebff280bda6442d18"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 36,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "923808e1c3ca81c72329e8b9da957bf895030db54c1c4ab333de9bda0161ece8"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 37,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "c423314e393e4f4ca2bd55f202b5c61773cd168d034cc8015e86d8c6c049099e"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 38,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "316edc514cc684086e3140dc414bc38c89ea443acb382e3723a4844c9d59cc00"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 39,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "766d5a9ef32b252805576dd785891ea7426da4f72cec60902634ab2184b1792b"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 40,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "01d2bb3bea69d812f8764391a3359f8ebc1c71ac10b337280271d278c3cf195b"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 41,
+      "codes": [
+        "scope_01",
+        "part_01_section_11",
+        "part_01_section_09"
+      ],
+      "material_sha256": "778a717997c9cea60df2a8ebcd7e853227ea5fb15504aeee36fd406406051669"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 42,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "d9405d7df26d9ba18a530230ec5d0ddbd483201c76908f2bd61f6c34aa3fd26c"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 43,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "0e66ff63e25be08e6d5b888f6d35ead13392c0262ec667afe2b896ce5922f9d9"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 44,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "740bbe68fb135432f1ae21d4234755f9c05fc64d7d61b0a4b760ac3c593cf01e"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 45,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "deda40d514dfeca5e4c76770da80bf94fe483f8cf54be2158faee1a341a2ad4e"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 46,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "cd3de9edd06f0c57f3dbaf676f341445fb655cba3d9d99dc35145072ace2c784"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 47,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "db131f27b7fefd036e777438dc1962468d1227242c0b4f96b7b5f59e53bcb370"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 48,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "9d5513b7b741c6a2c06e3e4f98f60469256f06011807404b2fcb3088c8ced241"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 49,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "d6f0ea5b7188a784b47cf241e530a919066ec2d1e0f19bf2d8259639540c77ae"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 50,
+      "codes": [
+        "scope_02",
+        "part_02_section_03",
+        "part_02_section_02"
+      ],
+      "material_sha256": "0c8f5b2d8ee5df82b7ded5f13880abf9d14a3011e7eab007ae266c2865a21edb"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 51,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "88d20a55c215b54ff5deccc2e27d1c338568f984026af8080b1f44a103a91af8"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 52,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "226203d5f9f4cced88ac3212f0839031138c28961417ce2100d2da20aa90e952"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 53,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "d871dba1421786cebde64944601472c4884f5b89709d760e5ed77251d7ac7624"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 54,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "6bf5a269b78d41087769d32052bfe5a9e254493dc7f66228311a4c33b4d0bf04"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 55,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "20f86fb6a1fdc5f75de46323d295ab82969ce371d08fc3b5e2ac317d86189e08"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 56,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "b7e466dcd6e561691ee5531af434cebfb84d850e45b89e082417ced089207e7b"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 57,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "fddd724feb218f1a42f5115c0861c8a1436d3dc4e3d5298b0232347f6fa7d6ca"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 58,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "08673e32bcefb5f3dce5b9056e93055a0387fcb4fbb1dc4dc6fbad7a2e0f468f"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 59,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "3a26c31673d85dea9b99b0a6cb82447d964835c82795342d5f0649ac35fa4ea5"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 60,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "d0c7f04e4075623a063f76d83472722507a33daee63d9fcfa027b13342bb51f7"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 61,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "a9a2fa7e88dab7df73abba9ed94d5000cb13be6de6a3cac760e7253da1557b48"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 62,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "d124ff1c096f92390750181879cb764022d0f3ad067e20a60af04341e51c228a"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 63,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "456d0ad68858dd542a079fce76b3d951fa39b71bdeead1abf231a4a9a3b3386e"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 64,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "c258dac9679a443f139b46483d9ec4800d9925ecba30b0fa3881b3e1e4e50fdf"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 65,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "af75ade3804097efe9cdfe3cd631e83c39395a248cc454b6e87514a561ff0252"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 66,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "b75e3d9d4d4bf83e8574e235226b6872342dc3d4ce01cb73b0c55cb077fcb224"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 67,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "c2e28e42892bd076e73bf479439febec6a87ef2dbf65f534f72c02c9bcec4e56"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 68,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "0cc0af2421044a7194d1496dbd06ca39a87c2e4ed1dce38a8554b1b871174be0"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 69,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "b733a476a6247e6755d494f691f9770d352b6106e9ba356b3117157e92c966bb"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 70,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "c35b866e7fb086737bf4ecae2fb7452b2337a0d324fa5c7c6839130fa14c40d9"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 71,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "f7c9f34cd87d26292e1e7984a1536ef14f2bbd5d89c92c7f014dd433508a2c89"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 72,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "2b148505ff3297a937b26cbb00ac57cdb9e05fa827653c49f09379aa4cc7751d"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 73,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "6c9ea42a0bd28a16742895ede68fc5e268495cffc16b4a6336f2a0d6c8fefe5c"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 74,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "c3a5e7d1d0178ed48716f414419a884f09ed63ab66126648b40dc85c40dc08d2"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 75,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "a39fcabe67e1aaafa358acad273ed58664334544f0561a3fe9498ea8ff4422fc"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 76,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "773acd8f2267a751ba3bd682ffeeaf3092e3a43a4ad6e5425cb5f24ddc4128ab"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 77,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "2e6cf39a44fe0209311ab1b8521b896b1ad2e96f0ab8b13f863ef0f86a919448"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 78,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "cedf062b47ed70a76b56920a849af1f4c3929a716461ae338851fc7abefcad89"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 79,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "eda4d7491559204695583ef6ae57237116256a2016d8b3c6593ae8e4b7ecaa59"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 80,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "6c674b56a9247acd116ae15ea25ef38281c34533544131aa7dec4bbca86c4e0d"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 81,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "9d5e69f2bd925034626635bdc8247a097f95931ad7de03521a6ba5a3d749df21"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 82,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "fd0cc86dcbcee474b03867030f30332a4cc3e7ef4b456f1b03676730f372a63e"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 83,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "9b57da642b1d33fad1b3761a2c0bf2cdcd9ab634d4fd49bf7b1852c5cb210aaa"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 84,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "4ba331625174bd50c76926465a4db682a865686333cf34e53e8abf82b6e0afd2"
+    },
+    {
+      "exam_number": 5,
+      "question_number": 85,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "2a6acb02dce418ce4ef77b137d5a8f6e89ed517fa7504c72459ce3bbe218298f"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 1,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "ffd9b90316776a03a1e70e47e31656de5e1d68f8e10568fbebbb5ac6ac9e378a"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 2,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "155c58a5530cb22cf535ed435e64f421c48a10f9daf5d0ece3d05ce176f39156"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 3,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "55877564e5aa8aac67834faef2a40e5eb64878e22172888d912dc5631ffde40a"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 4,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "df6a71659bd969d097d8a1229fbb478334a00bb30b87981cc94d230e12e9cb7c"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 5,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "b837e8c738b41d1d94ccca7eddb6f9f149eae6c3133733b7973dbf2749d9231a"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 6,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "386478fa97435301c623ac73b114718748b763c435954ece565bbf3fb0453060"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 7,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "9fef07c065229a1da0197a6498c97fa7f7bf040335eb6dc6854badafdb467455"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 8,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "2fc99f35f5e22b7d1cfb7cd628c70850e92c9387fde3582dcaadc38e524c6aed"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 9,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "27bd74f198e2f8d481c7a250a611949645d5a1472084c918a6a5db7245aa8a9c"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 10,
+      "codes": [
+        "scope_01",
+        "part_01_section_03",
+        "part_01_section_04"
+      ],
+      "material_sha256": "8578f8eda6ff63f13375bb303856724f5d00d1fda16671d093e999801ae01d13"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 11,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "b05ef12158532e2df519cd5958d5c292fb4a5345b1a1bfa58d26d5340c8db525"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 12,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "0191ba2ab32d53e27e3af6f776d33518f122672ae819cceb13a11d2f0e811471"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 13,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "51646a9da6cafcaf4a46465e13666e72d5181d8a7bf5eadaa07fe7a3b057f48d"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 14,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "f8ce988c0661f4658307c84db102a82afb4ced01086e51ef87b3a4f5a8085c42"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 15,
+      "codes": [
+        "scope_01",
+        "part_01_section_05"
+      ],
+      "material_sha256": "bf3ed62d56e6762f27c100a793ebc73305267aa7494b730dea6fb93dbebfcacc"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 16,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "11a4979828dde8eaf80ccd3383a9664d0aefd21370437c790432857f54245ad3"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 17,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "2cce1819caa3a61185fb02c953e9236196259062b27429e4865131712d2b3b78"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 18,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "1920007bdd70dc5526fd5a5d2ed256ad0aaa56d2be0daa88270de2c80b197c04"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 19,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "b14582b244a156b3487dfa2790181fbc3deb757a4ed083cd40c37f49e3780392"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 20,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "08083981e7c6ee7b0392ab06fd6df25cf1b6f5539a0e22943681a6df0e23fd66"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 21,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "f1e663df44acf64c13db17b446a458f3dc8133734f5d48a50bd0aad92c49f192"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 22,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "309f93a69d608a473c96b269e0febc7e37007ca8325eb6eca57a842ea916da19"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 23,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "d11e6c98a59c354f69f6945068bea0c69ca51b50ba0731821b11eec5ad95800c"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 24,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "67e3337aabf94a085b3e429cfc3f23cb3caadfe2ea1f4e08b861224c2da8425a"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 25,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "f944efe4b87a7d8ec324abc3c878cd6b8668e20b5e5d120874b140e75e10767b"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 26,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "907fadbd85e686dffdc9fb81ca99a5d92b62e90b88f66472ec99e41a061e11cf"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 27,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "ac040b277fb2a8020ae0894f905942a05988d84e11a95823115bdf688ffb2aa5"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 28,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "addf6b851a19b264e713d4711ebd547002288e49bf9b7cf2518555ce2991cc4c"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 29,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "e4be2b0e4df865fab0d0756215c614506b69c1626613f039d1b9b12beeef36d8"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 30,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "fbe9c6ad5a63cfc5274b9c2bc2ae10620e7bd3182296ecc09d3e1522cef8ee8a"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 31,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "571934f2c9beda4cabce6aa9d50bac7851a55637bd7682f030c85cbcf4619000"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 32,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "d2e2f42b97cadfbd69dc926696c45034f86165960cb34f7e6f067eb26b549c4c"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 33,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "2e26cbbc98738a359123b43ecfb360bbe3a9b768bd1bbfb0d8486e81e24cd45a"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 34,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "22b68e805b6e23b97652e5ccfd1baea6d94099148caba8008d864630705d516b"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 35,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "2bd4a7a3df316adf2d9afa216f6ee54fcd1f42822d7a14f19c4e6e73ad73b802"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 36,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "1879a0447cb856e51de67c2f2070e216f16842f4f47bc591572fc18169b43418"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 37,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "2014ae3160667643279876f6d114411aca113726727da617786503dcf06de640"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 38,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "38e6d488556d3bbf8e5e3ea748b99ccaf960353eda7494f572ef7b11301c4ff9"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 39,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "6f39c09a73a3551dd9668b4d16ebdeee3f0aa9d1b0358f33d2f226b16e4bbf00"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 40,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "e8c10e6a6d48336618f5689dad4dadbb8686ba032e585de285e8910c7d4f0bb2"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 41,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "79e2f1fadf82f277c2f8ed7380d0b70eb9eb501ee6e1bd8ce5a8cc7b1f599428"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 42,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "810fdf19658e727e666e5c903407fc766f2368dce095ca6a3dcedb96c9215a16"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 43,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "eea7226d57c1d0420627303976de4b71fc0c59f93ef34e06510a8bc097e919c1"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 44,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "73feaf5f1b86bb2a873442335ecca22fb1421270551d3a3c28b009368314ba60"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 45,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "9707628eeb0be1383a440fdf2821949d6dfb1f27a64e736d3e936ca1edc35b79"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 46,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "da8c92831cdd0b7a0257de745f84524233038bdda960d684ed2f466228efa67f"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 47,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "380cb5d8de5be8a7e90cc7d3bba76912efb9726bf9f07dd90936587d2bdb5689"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 48,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "a474096830847156919341af8abddaf56323b714a22ac428c416605bf3eac44b"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 49,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "5f7e97f556a995d229542822dc2b2c2e597d920580b4af29b8792f9d78680cbb"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 50,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "dcb0835dbcac53568ea83ba862c67e4433d7c38b633a9c6287da570799ae417e"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 51,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "51065f40b5e39022985655923622ca51573a214ed3e5752a6f3169ef70dd0900"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 52,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "088a90cceb661e8f83216c235119a68d5bf9834d3bea2b69f7ae100e68ee8db1"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 53,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "1287d9a5485f0e98cb639367704e7d91ff8443a7c9b1f2fcf934c6fd429481a5"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 54,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "6726e13e2564af9d7375fd640d904a34721d7e9f519d135d2777d8044cae3529"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 55,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "72841f5e25460d6b0def1268588259033b03b66dcb06d7476ebd923ffe721474"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 56,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "92885bc9bd85c90852552846b8f4161be88b0fd5026b7740851a7bb98523f81c"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 57,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "d9e16d74ba1dab3b6a88423104dd4ce2220f3ad82088e251b606317333479b82"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 58,
+      "codes": [
+        "scope_02",
+        "part_02_section_05",
+        "part_02_section_06"
+      ],
+      "material_sha256": "5eb64aff803393434df80a89a6d652e0f323785c98484e218da9bc8c789c2380"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 59,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "f7b060dcaf8e733ffdb6403730a86bfa2d344b3d24c35c07ad41680ea71d1078"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 60,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "1370daf9452b9f641c046ed3e3468c68559c9d5adebe75994647f0d93d67fe5a"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 61,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "eddff7fa3294170e62eff8369afb5e3e7eaf7be281ea5a21154de7515dbcc4fd"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 62,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "48d664129e8b0f2d88df2681fae661662da659ebe34d1b173772d6ebbcbc2f79"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 63,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "00b610839924ce065faf664d208fe1dd997afafab82e99a9ad90fa8ed6444820"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 64,
+      "codes": [
+        "scope_02",
+        "part_02_section_09",
+        "part_02_section_10"
+      ],
+      "material_sha256": "341d1e2615e0c72155a99a2f2d0ca6bcbad6d204caf936f88ba9d425955b235d"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 65,
+      "codes": [
+        "scope_02",
+        "part_02_section_08",
+        "part_02_section_10"
+      ],
+      "material_sha256": "68f00f1273a86aa80028499c8f3f0fe8ad165151a819f82275853d71cc07888e"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 66,
+      "codes": [
+        "scope_02",
+        "part_02_section_08",
+        "part_02_section_09"
+      ],
+      "material_sha256": "85233af11b695882a61a3ed0f05561283fa44d1f25e3629afdc9f6eb353632dc"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 67,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "0306ce87adbce7b38ae1071c0ed2d3b559520211d4e4cb3d869d4553db70d70f"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 68,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "56028e5e09e8ef219a7f571668b6b4de25427d1497df4ce19b8ea3c1d3aa83f7"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 69,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "282855e93afcf92a852af78b150cdfed29e751615cc208efa8c57dde3e1e0529"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 70,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "34be33f41b8c2ac2a94bd7097e7b0e3511aa87d2c90facc68524c46e69dc19d5"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 71,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "2e7f3026a2a638de5e37de92353129faf6591c8e1a953bc4122b042244881c31"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 72,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "fa6ad2f46dae01020c5f0132a83a790d25fd99273cfb4417b782997a1152cf39"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 73,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "2dadc55d0e8c382544d3f3eabf0e570955a65eb03cdb0650f99cc327b105b730"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 74,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "89918f5aa848cb082243da5e81e50d83375a3247220d24e98c0cb975f69d70a2"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 75,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "9fbd1a59f1a09168591e16b6259b68d64c70b57890ffe66913a498b94d49a85e"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 76,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "69ba0ed5ffeb0b91bc27de614690a6a058033dec70bb4d9b45447852b4aee04e"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 77,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "edaeb3ca8008329db71de2fb9c61b7b15d36a673e7f966fcd1cb0e9664df3b76"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 78,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "e99e01b8b6ad8d191f075918b8b17d37c32e51e6f694b9f61e4dbedc5b463658"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 79,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "dbc130fbb5b7fc83eb1a6cfbdb8c804883e4c7644db37b27d19896a3248d8e6b"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 80,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "70eb46a537178d77f9440ac48d45ea1d75467f7ea1fe98219eb0e0ba39f8d18e"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 81,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "61867306bfe402d25d0fa11e140b65ef106ec2f78a0a2f01fda74e3c702b0c55"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 82,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "02932982fe18eba4b55a9bbbd94cc31ba61decf4dada050824141c34ebe6693e"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 83,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "cafae06201e28e488e79c00b9ff811c37f1d0297443adc499bef78667f3de5ac"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 84,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "d283cc59312b2a28b9163efa77ba2f645df93af3dc2f6a12d47f64a98863c09d"
+    },
+    {
+      "exam_number": 6,
+      "question_number": 85,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "46626b77c0a6f6256944e6ccc1fe2cb3acf47cb19287afdd2419ac74ae4dfc8e"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 1,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "0b7d273057130eb2eebad6908990b4b1a60db34c09f131ef83ab53c09aed7b7e"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 2,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "9de5f0fe1800e63f690812bd8a7d5e1c504c9276bc151ed59a41b8f3736f6038"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 3,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "502f44f9e448920f288766cd9e252e990b8d2a396516c23b6c68edc1b1c84925"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 4,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "34e7a5fea4a7eac2285c9a78907c4bedb8c4c3c1557a342082d0e242962d15f7"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 5,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "16a0a728f00423fa8b9d80c434bd6ae28609b7863e1a8c3d31f94532ebfde5f5"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 6,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "2224e99d265d66f54d45e11e4d83cf30170f7c6045a098e635008addde0dda47"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 7,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "92f3c37aeb8d6e26cb2bed3035d3f6286b5bd2ef8bff3d15991b9b7ab9e7e653"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 8,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "e4154d17f2637d0b02e199c8008d7432ded142eacb1deb5415b0a7522ea9283b"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 9,
+      "codes": [
+        "scope_01",
+        "part_01_section_03",
+        "part_01_section_02"
+      ],
+      "material_sha256": "9320dc24570c4fc7053a166b606160041ed38c24258b42001479ef691fc42330"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 10,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "2acf139710dd5d5aae88f7c458c9cd3dbf73aae46a7fc9336afb6a9a07f59a2b"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 11,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "ec254d71683f6745538f96312356702ce97092fd52433eebc220525f4374f2b4"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 12,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "9db9663f4716838f6c7df3fc57a1cb3bd8ed36c7a5daec4866acc82dc7d66250"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 13,
+      "codes": [
+        "scope_01",
+        "part_01_section_04"
+      ],
+      "material_sha256": "8a3b774152f351985319d6f656fc19566f59b481a70b801fb619e86241c079cb"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 14,
+      "codes": [
+        "scope_01",
+        "part_01_section_04"
+      ],
+      "material_sha256": "c21a0c68e7837de60a4729c5ef521f2fa9ae097aa455fb31dafea3721168cf78"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 15,
+      "codes": [
+        "scope_01",
+        "part_01_section_05"
+      ],
+      "material_sha256": "c65520a49d2fd0225e1be1517b1c3ed14f0fd21b0060218359b323bdc3d12684"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 16,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "3204d8c7ac10a7d08fc3310218f7d98502776d77d023080b15575dd6f34d98e4"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 17,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "d5ea0ad9c9b3f3b91069c99f039c90fd66c271c23a5f6d3c61d33c3f62473441"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 18,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "0b4aa6088ec51f56dd31b5e176d6e13f68442edd8a0e2445be13b7dc353c9ebb"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 19,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "7c326a26ddeacea5ac25e320f613d3128a4b67fb3235241203fd686e0597dd06"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 20,
+      "codes": [
+        "scope_01",
+        "part_01_section_07",
+        "part_01_section_06"
+      ],
+      "material_sha256": "5cad53000b07d5c9e754160228a3525f1cf97669b43f336d0423073fd6e6381b"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 21,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "d6374b69df37073c9558afa92f3738d05dec81065f0fd247a6479003ee78eccf"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 22,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "954579cb7c3dba49806fa39f26055d2344f7403780b67ffb98381946f2212e6e"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 23,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "f0542b59a67d72369e0415282ce6016939921eb6469c66070d4679a84ee6f02e"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 24,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "64d7e04d8b5e63061376a6bf02f79e3589cf1547b27bb8705a5b18e85201a4e4"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 25,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "ce7936a2aa2a52f77b31013a79b2a7c2b5ffd3f76d393093c7144c9d67b37c37"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 26,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "3c7256c004d42e6616c238ea6c80bfefff98bfaf8264d40ef9fec6130742c2c5"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 27,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "d313b0731d6f52e659b331abed2c9c1890334bfd45ca5306fa37b8fbd71eee15"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 28,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "eb277ea3dafd88d13b70e1aece231d7f3571c5e22ef0bb51b3d24cb9b2228436"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 29,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "5e6fd4b1925cf21d80716c66e4a3349d0c35f1d22bfa7348ffc16e7a05f4c1ec"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 30,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "99c974951a77a506d65fd061d823ffe335d828bdde2b3112d36e4ed600597907"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 31,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "7042238a72317e886afc8a4b5d8ab956722de23d34edc24b9aec617a8cfe8b70"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 32,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "0e0897d10cfcd5088d70cfd3f35fbab8f800fb7b1ea1534ab1252fe17164e492"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 33,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "645533e9de8034fda7a6738c45b9dcf940f9488651e0fd0f66ee038cfe2ca6a8"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 34,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "1766fea2e6d8364cb015108e2e681c953c73c1ea6a51171dd9af8e8f7151a00a"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 35,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "8c3d8cb78d9b3af57c40951c3e435f396e875b66364ebd8838bdc4a6da189fbf"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 36,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "6ea87a477b7e524b8ea2e175fd914c6ad3f3709cd59a7cfdf1a5fb15d87230b4"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 37,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "172f3e4da711e2bf1f075ddd72e4fbb8b5d6e0ab22debdf5f36a660c675f2e0f"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 38,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "293a80909e4ab6b31f8e60cb908b4c99263795f8cdddc26b50f3b7890a958ce9"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 39,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "ba3eef64ae3d12898d3f341959c9eb3ca973b6af31425c608a76263f0cf097d3"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 40,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "573207bceb2231e5c6490bd67536d81f00ecc3a7577290fd01ff09748dc91684"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 41,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "352b887317a75656c6f97f3538c429f1a555e66b383a36a05f52c86a0b16ebd9"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 42,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "57d0a000cc685e59265f8d4668c595164b14393ce0c7c7d1d04ccc98ef5d3f43"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 43,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "df93664ebd9ed04e648b90fa2df7eeca406cad99296c3dc603b3412e1c53a452"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 44,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "7db503e1ad4e65252e93bca74501e64591f59fb3093f5fc74a9b62833f3a8438"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 45,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "bf390747fa7cb11780232c810813a8d4be3c7458af9f467e2c095e53328f04a7"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 46,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "d6eaf9db35af7a5a458c683dbd544453cf30ab9081b8d9ba4f6eea57596ce64f"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 47,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "c77832c6abd8082095496331e8e1646abccf3515dafd02d003ee05b354cba055"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 48,
+      "codes": [
+        "scope_02",
+        "part_02_section_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "0104a55600b5a7ed6014450ae539b0f80cf7088fc66ef571b89fdd4a9ebc469c"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 49,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "6621cddb59f7d4a8aaab5cb5c3de201a480507f2817f2c46f48da83da8df864c"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 50,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "e07d0952c1f2dfbc927808b84c7d94095df1bbe10a81f1a2dd12f118001e791d"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 51,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "6c546c7ce7bde21b0a3d7d336613a2a69b399c76be0da54fcce585fad8084702"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 52,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "2dfa2001143a74f7a9f144dfbd6561791416e873c935f1d634cb214be25177f5"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 53,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "5c8cd6b2aab78783db166e8b00732ed4dc5bcfe082f26590336eb524d84f1458"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 54,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "24829e5a4f442ab9980c21e9c2d5f7fd0699842de837651e313a284468e15897"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 55,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "d171b7b982a683fe88b1d6ce2be19e14597a15491fb5da439d09aff0198275a1"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 56,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "0c1483f39548393ea2e0e23f9cad18cdae5017b5b120e5ef946ae3d4cb5ea869"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 57,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "b31a8db5a3c2d52b92682f54e7a48baaed4f03f105e951da33f18d87b678ded1"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 58,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "bf80d0e6eeb94260c05ff1e56ee8ef857204d52508e5af1aca9e1ef9752c2303"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 59,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "dcd4b7beb59199b4c612267c3c6247bf2ca1ce9e2152a100de26c3dd3dcb8d49"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 60,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "bcb6374cb559839a1cc12b82755ae4adbb24a336afc1fb65cd5b034e4fd1dfad"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 61,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "ff7f9fb452306a214f90b345bd4e3a819372fa82b2086b97076865561be77da1"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 62,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "785276d7f2a0ccab77a5251294d6fde73da1fe0d00c6cd262f0b628ab47740be"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 63,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "13c61c1db6cce82c54cb38ab54edc78c121e437cbf054062ae2fd389f7f495dd"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 64,
+      "codes": [
+        "scope_02",
+        "part_02_section_08",
+        "part_02_section_09"
+      ],
+      "material_sha256": "fe81227c25ac0e267b9e3f226c73dcc79d72589ddc76a6803cfa6c95f71e0baa"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 65,
+      "codes": [
+        "scope_02",
+        "part_02_section_09",
+        "part_02_section_10"
+      ],
+      "material_sha256": "11ab115339e756095f74d038a566002c2bbacd0cedd2f7fa4693171b15896329"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 66,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "14632bff19b812d149cd43b6ef75b10dc103da4d4587ba9fb7f6aff1f28989e5"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 67,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "9e73f14789d043a805785a3970aec671838035e4be04b777e1946a51b80a8bbd"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 68,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "70eb6c54600ba56af9fa134330328d7b7eb3beb40836552a06190e62df4c8859"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 69,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "3e9fe2f423174a9aabd4597bd756295653b5ae47a400f4ddc6626d165169e5d1"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 70,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "a609ea022d758d4d17b863222e9b349cc1183ac8b53a022c40a4119d81291d6f"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 71,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "461d93849bd19c1b6472ea2a36236dd12bb81c737c13799208b2c4dcbe7cbd16"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 72,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "ec70f2b92dfbfda9afc6b92f65f531645e4069ce6f7effb4370243533fc3db8f"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 73,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "38f23ae045464e265c5d9c39418588f2ca54f8d5ff2354a7996a8c0ea42f63e0"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 74,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "536e6ecc88c534088bb057a456740861cd618c45180e547efa21d309c4ce0a73"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 75,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "ba7d880e63d96effd4380a77c5b135d16656918462bbb6fcd19c217f0da29d42"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 76,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "743cb6ee1d5af14b35ff57a2421d6c67f2cbe72477ac3e27fce14b052dd19582"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 77,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "594f84e275cc4f4a6a7c88e672e6df3c078960590d23660b170bc6bcad261b64"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 78,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "9fcc5be4d3cb4effcffab0e3ae4895775994003b0cda8a0456bafc78659bd939"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 79,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "10ef59b3b19ee53c798dcd55ece24151f279086327823c4504ae99eeb9cb08f6"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 80,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "17254870cd6b9c3a1047c49e74b25c87704356f227cd127e1d3fbc5aed1662bd"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 81,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "3d3a246a0a15de3fca28e24fc196962d83186f16f77cd0495750d0fdc14bf8e4"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 82,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "4b9fbe222a418cb5984ac1612931af531f3c8aa10087fa0166ae9b4c16fb866a"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 83,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "19abb47118380d7664a4bffb985d076dfc2d860887dc0e4accb0185f38296660"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 84,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "cf5a1f458328fc76b97f3c6bd0fc79f9563c2b772dd6d5c4352f650ade596507"
+    },
+    {
+      "exam_number": 7,
+      "question_number": 85,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "3b7605b07ff83ab94ddc1880a42426706c65b5763ce2dceff658710d39d8572c"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 1,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "3e0a065323a3d37e2d13ab6fbbfae65ac78877caa2711eda36a07931e32ab976"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 2,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "9773d7ec6745407661264c4b5ed0bc5ea94c669b7036f785058e9cf1d87565e6"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 3,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "e34a2f8c5d64f1b4cf2ba167644e97f11706e07d3cb21df71ca446a6c673f400"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 4,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "c23b67e1f967fb07b332aca06adf95ce3536180f328c55889b76eec193dff3fe"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 5,
+      "codes": [
+        "scope_01",
+        "part_01_section_01"
+      ],
+      "material_sha256": "d58f7bf9221eea9db075d6fda41392a8dcb067f89460011316b8fd4abd3dabf0"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 6,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "d63aa6af14f27577c1b81539df7f5f37434bc5efc17f9e3a8121d12069d8cc1a"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 7,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "c0ecc925e7757658f663a34a19fcd4038976830439f0b4f63b94a3ccd3383664"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 8,
+      "codes": [
+        "scope_01",
+        "part_01_section_02"
+      ],
+      "material_sha256": "633880909da77192002777c4a22948d10685ab34ffbffa988f12a37d57050733"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 9,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "a77c6cf00bc23c000cc5b05bce0b263f761540a68c54a6d73b2c0f51a96d1304"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 10,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "49e22a8f527200fb3e0ed19282578b16ba524ca328b0125a9c1b4376ab88060d"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 11,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "848ff25d797f5563e8cdd1d4165680ed954ceb63da47ae7027a5fd473371f597"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 12,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "612e05bc86bc1ec25f64ab3e0ac2776b8e671c1e8ccea2d57bb6416f27cc0360"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 13,
+      "codes": [
+        "scope_01",
+        "part_01_section_03"
+      ],
+      "material_sha256": "f7851f7a8e23e0730fa54fb98a420a4160f54b8223568c6dcffec9d4076c0515"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 14,
+      "codes": [
+        "scope_01",
+        "part_01_section_04"
+      ],
+      "material_sha256": "b7211190d28afb4a95b7f31af98d13142d7a47bb4e14546b28555deea22afa57"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 15,
+      "codes": [
+        "scope_01",
+        "part_01_section_05"
+      ],
+      "material_sha256": "333e0eefb274e7f81a96e98f17a894857adc7c886e3461c61d120c7c80c3d7ec"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 16,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "b4a224fe024157a4b5c246b15218195ca0e32fdb86f16d960bcaaa2f670f9781"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 17,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "73e847f01e7eb08b8e0a950599980e5da20e527ded4b5ee79fdd956a4c7dda4a"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 18,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "53b4d98b7cda274d008b693038071295568e6ac9f508484a21ed0d299746f624"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 19,
+      "codes": [
+        "scope_01",
+        "part_01_section_06"
+      ],
+      "material_sha256": "f0533f7dd3bfa91d77baffb9dd7516c3209ff0f06dc0d1c19947813636cbd780"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 20,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "b51209e635f6a6822984e709a478a0ff96ed9ad1e1ecc38a58b68144db8ece7e"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 21,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "4caa5d4bd0faf2fc58c471e3a9b812de9ea375887680dea9acbbfed7e9fd1abb"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 22,
+      "codes": [
+        "scope_01",
+        "part_01_section_07"
+      ],
+      "material_sha256": "ba24fac4d6458bcd297d07e86c1778ddec45b96cb0146a1322ca846f6adc5569"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 23,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "bb56d4a29fe0ba614308bbf171a4b36ecfea1061e7693cd9ad079d21960ba71f"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 24,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "3e5e16585166c5ac204a9b25009b11f24d731c168f44f636ee458a9bb613f536"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 25,
+      "codes": [
+        "scope_01",
+        "part_01_section_08"
+      ],
+      "material_sha256": "085fdf777ab4c604822fe05fcd4256b2c20bd94e7804fc1612e44c3d3f4b83df"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 26,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "6d144f593906eb70d73deea8eaa660cefa0a1d25b943246bae69f7588b5b5b03"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 27,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "532381645a586c60f739807183d31960591e66bfecbef59ec62331ed004007c0"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 28,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "ad5c57593b70876405390e44a2027a2b7a55258a65f972241954fbeae3812416"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 29,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "68f1fb90050629d3048aead697a574cffe536063cd4076f0b2ff33e25fef3417"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 30,
+      "codes": [
+        "scope_01",
+        "part_01_section_09"
+      ],
+      "material_sha256": "720b4647eb351f9af6ef383511c170628112e4729436c97b824a314a59fd8c60"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 31,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "db90c10b08e25789d2eb4b886c156c068bbca4a24b9a961b8e10cfd88fd11ec5"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 32,
+      "codes": [
+        "scope_01",
+        "part_01_section_10"
+      ],
+      "material_sha256": "2fcf34b7563fbd4e24f2fe76c897277da1944926d02ebfff1f21fea69114342d"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 33,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "1edde6b10f6b4a52bf6a11f0bfabfda8533ba1b13e989a99161a7bae6c63edfa"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 34,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "ff022277cc03a8ad675bc80278413132f4541d4c67e7276739318026efd2f8cd"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 35,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "c5cabbdd4d64e15e9e3a93a447f4eb764816a0a4be645d7ccc60c35087ec70b4"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 36,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "d8d5dc92946d5a3e18b2fbe2b9585ddfa1009368bb3e0d6306a7c8030b1c6399"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 37,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "71d712a5a175768e54e688eb6a2755effa1ca8b2754d6746cd2fc2dc06325fda"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 38,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "fcf77b89f503cb780f2f8466125f6842449541cc13bf3b50bb9a8d645f22d667"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 39,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "13857026efd7404cd35dfbbbee96d974bb28afbb3d15fb63e8b11a968866a530"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 40,
+      "codes": [
+        "scope_01",
+        "part_01_section_11"
+      ],
+      "material_sha256": "ab3a43472a1108ef8b162440c9254d856ee893699601de515dafc21f458a3b8d"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 41,
+      "codes": [
+        "scope_01",
+        "part_01_section_11",
+        "part_01_section_09"
+      ],
+      "material_sha256": "0a002fd8d264628ae1b8fc45add7850774e405e74ad5bbc936a97c2831312da8"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 42,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "ac26c37fb42ca22c87ea95ecc77468fce19781a6128d7c8b3c0fe3a65902026d"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 43,
+      "codes": [
+        "scope_02",
+        "part_02_section_01"
+      ],
+      "material_sha256": "d20040c4738f1dae8d60dae3be6828fbf681d5246b7108f835a1c6389b823dd5"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 44,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "b8e2617aac5d2a01d97070ceea56005465bfbaad2078cb6fa3eddf35a3b5fa3f"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 45,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "6da57740cf2ff2100c1460feb5dda617788d2c00b346e8c99cde3c53c19b6bdd"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 46,
+      "codes": [
+        "scope_02",
+        "part_02_section_02"
+      ],
+      "material_sha256": "9235f86c0237d5434093e3fe79a0d564413a14314d3eb97cb421e8247613c55c"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 47,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "aa0d05a70444b17661eabc8f6fec0a068060873608e2eae0d5ffcfc871cf13ca"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 48,
+      "codes": [
+        "scope_02",
+        "part_02_section_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "40b9dfec78d35c893d96afd5a563cd270404c2966ea7295e17263aa446a5daf6"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 49,
+      "codes": [
+        "scope_02",
+        "part_02_section_03"
+      ],
+      "material_sha256": "2bea5c86a18c8a261bd93cdf687f07b03a724ec5cee2e17d227f1765ebd42968"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 50,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "561cd42ae2208938a75de7903b713839e368e4e2daaffda3aa10cd13008a86c8"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 51,
+      "codes": [
+        "scope_02",
+        "part_02_section_04",
+        "part_02_section_05"
+      ],
+      "material_sha256": "ace7f052301eb6addd1f5e7758e8a3ed5da414107672df834da2097c0dd4ea88"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 52,
+      "codes": [
+        "scope_02",
+        "part_02_section_04"
+      ],
+      "material_sha256": "063b7930f16bacd3285a824aba976ccef28c23d6c971e947869d2688d1a38009"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 53,
+      "codes": [
+        "scope_02",
+        "part_02_section_05"
+      ],
+      "material_sha256": "18b1185f3661cc14e28432ec6105aa6a576da19252504dd0f06b5ddf3917edc9"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 54,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "f53f30b10ce2b75654ddd9edf0a907351195a26c6921b6b2da1b0de779fb931c"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 55,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "35893ae57fc7f918f494c81393bd79b8d0f9772a6077911f3371a223ef402cc6"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 56,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "4fe2d15328142c6f62c74ef82d211bf8fccda66652725c1e4a4a174b5b111d85"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 57,
+      "codes": [
+        "scope_02",
+        "part_02_section_06"
+      ],
+      "material_sha256": "1a4a9bd7c3078d496de881379990a75706cb39e276eb3d1e64c24c54ebb94b29"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 58,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "b5408b03e01b83e55075124334855892c18549bf0d9c890962cdfeff3b609cdc"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 59,
+      "codes": [
+        "scope_02",
+        "part_02_section_07"
+      ],
+      "material_sha256": "bcf24b36907b565a3267e8cb841b0a0eaa9e703bbf56d0ff71baf2c55fafa207"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 60,
+      "codes": [
+        "scope_02",
+        "part_02_section_09"
+      ],
+      "material_sha256": "26a50a7fdee83427f9c78922b0042eddcc4cf420a21a8294d3cd6cf4be27a9dc"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 61,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "0b6c722e25f61d1f1d16bccaa3aa5f3274e1ae1969e499693bb70d1ab50efe0e"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 62,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "66bd4e8a23b275b80ddabf8045aa5d56e5dbb27fedbb644e62671bf7b83cf3b0"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 63,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "46c26439944a5f63680aaf3ec664bd00a0359684b114f7d17489545292e412a3"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 64,
+      "codes": [
+        "scope_02",
+        "part_02_section_09"
+      ],
+      "material_sha256": "9af7a5c2121b7af0f3d5a9ba80b0ae061d9a4b10ad7fe8c89ce57b61c26e097f"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 65,
+      "codes": [
+        "scope_02",
+        "part_02_section_08"
+      ],
+      "material_sha256": "596e2cd24c4cdd5c25062084d8341351e8d86e7f4642a21424dd718db82b8d99"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 66,
+      "codes": [
+        "scope_02",
+        "part_02_section_10"
+      ],
+      "material_sha256": "ad53fa778b949d041c1e40e1778073a7f3a61d870c59d498e92ee00d95cdaa7d"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 67,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "436c27db085e2c5546739bc6c4ece0aca8f6807c32de9807fa11baf45869b612"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 68,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "764e2ef68f4bf0ca92406c40268bb0d46e91a76278bf1d89a41fa72c5711ac22"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 69,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "aab2dbf5a523e6d0dc3935f0af6bf12436c69a7ca674c9d527660ed56bca2b43"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 70,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "e7ed0f5aa36e9fbd9108af55ed2830d9dd7b22ac7eac2e27a844cce5a67a94b5"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 71,
+      "codes": [
+        "scope_03",
+        "part_01_section_12"
+      ],
+      "material_sha256": "7220444b63910102e225423bcaf07422e9e6e26537d8ebfcb74b938b9df3a2b1"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 72,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "35f87f1e10216b62be1c7e559edeb5945e3b699a3a2bb8be8d64bb60fd31a26c"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 73,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "b9c70fb534b094c379a101d8333c4e9d8fa81488dc1f3c161ffc50e00a81bbac"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 74,
+      "codes": [
+        "scope_04",
+        "part_04_section_01"
+      ],
+      "material_sha256": "55fae35e2684437dc91fbc129dd2d9f347307bd051644600a6ff2202d4f02271"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 75,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "59de7afce7ac444de6383e6469704e57ca2bf9c412f82e42861c67ac4ae74544"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 76,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "6ca080e9249f6e11dc8ba3fa460ee7350c4ee13b225f5bc36f82c9d11678c7fe"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 77,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "9ebcb205ce648ae5bb6a9b32deeea597c0444135d2c6c16b3aefc69f10534b54"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 78,
+      "codes": [
+        "scope_05",
+        "part_04_section_02"
+      ],
+      "material_sha256": "c6ac8f50eac6ad1bf6ae12ced9a41cd84405fcb462e8564bc9036b2884984add"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 79,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "44ed392e00d881088ed495866db457c904ce6dd13f784b5048a284591113f01a"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 80,
+      "codes": [
+        "scope_06",
+        "part_04_section_03"
+      ],
+      "material_sha256": "b9073ed90a4e831859b40223c89ebc7dfc5bbb9d7e7eb07d58537f60c9294270"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 81,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "0eecf3b22b4640b56d352a1cf365cc02691306cd48d1234475173b42317b832c"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 82,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "a7ef26eea5ab01f37d0e4923aacd9512ac29ecbed7a87eb1ef52e942b2bbf4a7"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 83,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "54a27bf3626fcf6674fac534f2e053e82e303570085f549a8492656a29578c56"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 84,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "d76587088078b7fef44b751a2e5e25c78f2beefae024570c2a7b9c6c8fdbb45f"
+    },
+    {
+      "exam_number": 8,
+      "question_number": 85,
+      "codes": [
+        "scope_07",
+        "part_05"
+      ],
+      "material_sha256": "7ab3080ab3411390f7f0d4091581fbf56a9bb2a72fce207ffb62dda318855257"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { filterStudyQuestionCatalog } from '~/utils/studyQuestionCatalog'
 import { categoryLeafCodes, categorySelectionState, toggleCategoryCodes, presetCategoryCodes, presetSelectionState, toggleStudyPreset, type StudyPreset } from '~/utils/studyCategorySelection'
 import type { StudyCategoryNode } from '../../shared/schemas/study-categories'
 import { EXAM_CONFIG } from '~/utils/examConfig'
@@ -83,15 +84,14 @@ const sortedSelectedExamNumbers = computed(() => (
 const sortedSelectedQuestionNumbers = computed(() => (
   [...selectedQuestionNumbers.value].sort((left, right) => left - right)
 ))
-const selectedQuestionCount = computed(() => (
-  hasStudyFilter.value ? 0 : conditionSequence.value.length
-))
+const filteredCatalog = computed(() => filterStudyQuestionCatalog(publicCatalog.value ?? [], hasStudyFilter.value ? { study_category_codes: selectedCategories.value } : {}))
+const selectedQuestionCount = computed(() => conditionSequence.value.length)
 const conditionSequence = computed(() => createPracticeSequence(
   sortedSelectedExamNumbers.value,
   sortedSelectedQuestionNumbers.value,
-  publicCatalog.value ?? [],
+  filteredCatalog.value,
 ))
-const hasConditionSelection = computed(() => Boolean(studyCatalog.value) && !studyError.value && conditionSequence.value.length > 0 && !hasStudyFilter.value)
+const hasConditionSelection = computed(() => Boolean(studyCatalog.value) && !studyError.value && conditionSequence.value.length > 0)
 
 const examIsLocked = (examNumber: number) => examNumber > FREE_EXAM_MAX && !hasFullAccess.value
 const examTarget = (exam: ExamCatalogEntry) => (
@@ -104,11 +104,12 @@ const startConditionalPractice = (order: PracticeOrder) => {
     exams: sortedSelectedExamNumbers.value.join(','),
     questions: sortedSelectedQuestionNumbers.value.join(','),
   }
+  if (hasStudyFilter.value) query.study_category_codes = [...selectedCategories.value].sort().join(',')
   let sequence = conditionSequence.value
 
   if (order === 'random') {
     const seed = createPracticeSeed()
-    sequence = shuffleArtPracticeSequence(sequence, seed, publicCatalog.value ?? [], EXAM_CONFIG)
+    sequence = shuffleArtPracticeSequence(sequence, seed, filteredCatalog.value, EXAM_CONFIG)
     query.order = order
     query.seed = String(seed)
     query.random_unit = MATERIAL_RANDOM_UNIT

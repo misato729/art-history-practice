@@ -1,3 +1,4 @@
+import { assignBundledClassifications } from './question-classifications.ts'
 import { pathToFileURL } from 'node:url'
 import { closeDatabase } from '../core/db.ts'
 import { closeRateLimitStore } from '../core/rate-limit.ts'
@@ -10,12 +11,13 @@ import { restoreDrill } from './restore-drill.ts'
 import { importStudyCategories } from './study-categories.ts'
 import { applyContentStructure } from './structure.ts'
 
-export const commands = ['categories:import', 'db:migrate', 'db:baseline', 'db:seed', 'questions:import_content', 'questions:import', 'questions:export', 'questions:apply_structure',
+export const commands = ['questions:assign_categories', 'categories:import', 'db:migrate', 'db:baseline', 'db:seed', 'questions:import_content', 'questions:import', 'questions:export', 'questions:apply_structure',
   'admin:create', 'verification_access:grant', 'verification_access:revoke', 'payments:expire_pending_checkouts', 'operations:audit', 'operations:restore_drill'] as const
 
 /** Inputs arrive through environment variables so passwords never enter command arguments. */
 export async function runCommand(command: string | undefined, env: NodeJS.ProcessEnv = process.env) {
   switch (command) {
+    case 'questions:assign_categories': return assignBundledClassifications(env.CONFIRM)
     case 'categories:import': return importStudyCategories(env.INPUT, env.CONFIRM)
     case 'db:migrate': return { status: 'ok', ...await migrate() }
     case 'db:baseline': return { status: 'ok', ...await migrate({ baseline: true }) }

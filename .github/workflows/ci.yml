@@ -85,6 +85,7 @@ jobs:
           done
           node --experimental-strip-types scripts/check-mock-exam.mjs content/revisions/mock02-textbook-v2/baseline-artifacts
           node --experimental-strip-types scripts/check-mock-series.mjs
+          node --experimental-strip-types scripts/question-classifications.mjs check
           node --experimental-strip-types --test scripts/mock02-revision/tests/*.test.mjs
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
@@ -95,7 +96,7 @@ jobs:
       - name: Check desktop and mobile browser flows
         run: |
           if node --input-type=module -e "import c from '../config/exam.json' with {type:'json'}; process.exit(c.payments.enabled ? 0 : 1)"; then
-            npm run test:e2e -- e2e/paid-access.spec.ts
+            npm run test:e2e -- e2e/paid-access.spec.ts e2e/study-categories.spec.ts
           else
             npm run test:e2e
           fi

@@ -44,6 +44,7 @@ model Question {
   updated_at DateTime @db.Timestamp(6)
   group QuestionGroup? @relation(fields: [group_id, exam_number], references: [id, exam_number], onDelete: Restrict, onUpdate: NoAction, map: "questions_group_exam_fk")
   passage_references QuestionPassageReference[]
+  study_categories QuestionStudyCategory[]
   choices QuestionChoice[]
   histories AnswerHistory[]
   favorites Favorite[]
@@ -295,10 +296,21 @@ model StudyCategory {
   source_page Int?
   reference_page Int?
   parent StudyCategory? @relation("StudyCategoryTree", fields: [parent_code, scheme], references: [code, scheme], onDelete: Restrict, onUpdate: NoAction)
+  questions QuestionStudyCategory[]
   children StudyCategory[] @relation("StudyCategoryTree")
   @@unique([code, scheme])
   @@unique([scheme, parent_code, number])
   @@unique([scheme, parent_code, sort_order])
   @@index([scheme, parent_code, sort_order])
   @@map("study_categories")
+}
+
+model QuestionStudyCategory {
+  question_id BigInt
+  study_category_code String @db.VarChar(100)
+  question Question @relation(fields: [question_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  category StudyCategory @relation(fields: [study_category_code], references: [code], onDelete: Restrict, onUpdate: NoAction)
+  @@id([question_id, study_category_code])
+  @@index([study_category_code, question_id])
+  @@map("question_study_categories")
 }

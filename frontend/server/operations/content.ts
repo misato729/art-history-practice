@@ -1,3 +1,4 @@
+import { installBundledClassifications } from './question-classifications.ts'
 import { createHash } from 'node:crypto'
 import { lstat, readFile, mkdtemp, writeFile, link, rm } from 'node:fs/promises'
 import { dirname, join, resolve } from 'node:path'
@@ -125,7 +126,11 @@ export async function importContent(path = defaultContentPath, confirmation?: st
     if (error instanceof OperationError) throw error
     throw new OperationError('問題データの形式・大問・共通本文の参照を確認してください')
   }
-  return importArchive(createArchive(document.questions, document.schema_version === 2 ? document : undefined), confirmation, db)
+  return transaction(async connection => {
+    const report = await importArchive(createArchive(document.questions, document.schema_version === 2 ? document : undefined), confirmation, connection)
+    if (path === defaultContentPath) await installBundledClassifications(connection)
+    return report
+  }, db, { timeout: CONTENT_IMPORT_TIMEOUT_MS })
 }
 export async function importArchiveFile(path: string, confirmation?: string, db?: Database) {
   return importArchive(await readJson(path), confirmation, db)

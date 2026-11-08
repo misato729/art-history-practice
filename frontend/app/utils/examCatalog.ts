@@ -10,6 +10,7 @@ export type ExamCatalogEntry = {
   comingSoon?: boolean
   access?: 'available' | 'paid_membership_required'
   groups?: ExamCatalogGroup[]
+  question_study_codes?: Record<number, string[]>
   question_numbers: readonly number[]
 }
 

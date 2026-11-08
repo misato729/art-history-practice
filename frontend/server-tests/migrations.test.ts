@@ -11,7 +11,7 @@ import { migrate, migrationRunner, BASELINE_MIGRATION, MIGRATIONS_TABLE, BASELIN
 process.env.APP_ENV = 'test'
 const testUrl = process.env.TEST_DATABASE_URL
 const integration = { skip: !testUrl }
-const expectedMigrations = [BASELINE_MIGRATION, '20261024010000_library_rate_limits', '20261030020000_grouped_questions', '20261104010000_study_categories']
+const expectedMigrations = [BASELINE_MIGRATION, '20261024010000_library_rate_limits', '20261030020000_grouped_questions', '20261104010000_study_categories', '20261108020000_question_study_categories']
 const baselineSql = await readFile(new URL(`../prisma/migrations/${BASELINE_MIGRATION}/migration.sql`, import.meta.url), 'utf8')
 after(closeDatabase)
 const features = () => ({

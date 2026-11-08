@@ -1,4 +1,4 @@
-import { getDatabase, type Database } from '../core/db.ts'
+import { getDatabase, type Database, type Prisma } from '../core/db.ts'
 import { fail } from '../core/errors.ts'
 import { studyCategoryTree, studyCategoryFilterSchema, type StudyCategory } from '../../shared/schemas/study-categories.ts'
 
@@ -7,7 +7,7 @@ export async function listStudyCategories(db: Database = getDatabase()) {
   return { data: studyCategoryTree(rows as StudyCategory[]) }
 }
 
-/** Master-only phase: no question associations exist. Never broaden a requested filter. */
+/** Validate requested taxonomy codes without ever silently broadening a filter. */
 export async function validateStudyFilter(params: Record<string, unknown>, db: Database = getDatabase()) {
   const keys = ['study_category_codes', 'study_part_code', 'study_section_code', 'study_scope_codes'] as const
   if (!keys.some(key => params[key] !== undefined)) return false
@@ -28,4 +28,21 @@ export async function validateStudyFilter(params: Record<string, unknown>, db: D
     fail(400, 'bad_request', '分野の組み合わせを確認してください')
   }
   return true
+}
+
+
+export async function studyQuestionWhere(params: Record<string, unknown>, db: Database): Promise<Prisma.QuestionWhereInput> {
+  if (!await validateStudyFilter(params, db)) return {}
+  const rows = await db.studyCategory.findMany()
+  const list = (value: unknown): string[] => typeof value === 'string' ? value.split(',') : Array.isArray(value) ? value as string[] : []
+  const expand = (codes: string[]) => [...new Set(codes.flatMap(code => [code, ...rows.filter(row => row.parent_code === code).map(row => row.code)]))]
+  const groups: string[][] = []
+  if (params.study_category_codes !== undefined) groups.push(expand(list(params.study_category_codes)))
+  if (params.study_part_code !== undefined) groups.push(expand([String(params.study_section_code ?? params.study_part_code)]))
+  if (params.study_scope_codes !== undefined) groups.push(list(params.study_scope_codes))
+  return { AND: groups.map(codes => ({ study_categories: { some: { study_category_code: { in: codes } } } })) }
+}
+export async function questionStudyCategories(questionId: number, db: Database) {
+  const rows = await db.questionStudyCategory.findMany({ where: { question_id: questionId }, include: { category: { include: { parent: true } } }, orderBy: { study_category_code: 'asc' } })
+  return rows.map(({category}) => ({code:category.code, scheme:category.scheme, label:category.label, parent_code:category.parent_code, parent_label:category.parent?.label ?? null}))
 }

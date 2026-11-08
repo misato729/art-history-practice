@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { filterStudyQuestionCatalog } from '~/utils/studyQuestionCatalog'
 import type { LocationQueryRaw } from 'vue-router'
 import { EXAM_CONFIG } from '~/utils/examConfig'
 import { MATERIAL_RANDOM_UNIT, artQuestionSection, isApplicationQuestion, applicationPeerNumbers, shuffleArtPracticeSequence } from '~/utils/artPracticeFormat'
@@ -29,6 +30,7 @@ type Question = {
   exam_number: number
   question_number: number
   content_blocks: ContentBlock[]
+  study_categories?: { code: string; scheme: string; label: string; parent_label: string | null }[]
   major_category_code: string
   category_code: string
   choices: Choice[]
@@ -119,7 +121,7 @@ const selectedPracticeQuestionNumbers = computed(() => {
 const basePracticeSequence = computed<PracticePosition[]>(() => createPracticeSequence(
   selectedPracticeExamNumbers.value,
   selectedPracticeQuestionNumbers.value,
-  publicPracticeCatalog.value ?? [],
+  filterStudyQuestionCatalog(publicPracticeCatalog.value ?? [], studyRouteQuery.value),
 ))
 const isRandomPractice = computed(() => (
   hasConditionSelection.value
@@ -209,8 +211,6 @@ const retryQuestion = async () => {
 }
 
 const question = computed(() => {
-  // Master-only phase: classified questions have not been assigned yet.
-  if (Object.keys(studyRouteQuery.value).length) return null
   if (isIncorrectReview.value && (!reviewReady.value || !isLoggedIn.value)) return null
   const loaded = questionResponse.value?.data
   if (!loaded || loaded.exam_number !== examNumber.value || loaded.question_number !== questionNumber.value) return null
@@ -565,7 +565,8 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleFavoriteModalK
           >
             <FavoriteStarIcon :filled="questionIsFavorite" :size="34" />
           </button>
-          <p>{{ majorCategoryLabel }} / {{ categoryLabel }}</p>
+          <p v-if="question.study_categories?.length">{{ question.study_categories.filter(c => c.scheme === 'study_outline').map(c => [c.parent_label, c.label].filter(Boolean).join(' / ')).join('・') }}</p>
+          <p v-else>{{ majorCategoryLabel }} / {{ categoryLabel }}</p>
         </div>
       </header>
 

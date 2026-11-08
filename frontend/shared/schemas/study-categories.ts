@@ -50,3 +50,19 @@ export function studyCategoryTree(rows: StudyCategory[]): Record<'exam_scope' | 
     .map(row => ({ ...row, children: sorted.filter(child => child.parent_code === row.code).map(child => ({ ...child, children: [] })) }))
   return { exam_scope: roots('exam_scope'), study_outline: roots('study_outline') }
 }
+
+export const questionStudyClassificationsSchema = z.object({
+  schema_version: z.literal(1),
+  questions: z.array(z.object({
+    exam_number: z.number().int().positive(), question_number: z.number().int().positive(),
+    codes: z.array(studyCategorySchema.shape.code).min(2).max(50),
+    material_sha256: z.string().regex(/^[a-f0-9]{64}$/),
+  }).strict()).min(1).max(10000),
+}).strict().superRefine(({questions},ctx)=>{
+  const seen=new Set<string>()
+  for(const [i,q] of questions.entries()){
+    const key=`${q.exam_number}/${q.question_number}`
+    if(seen.has(key)||new Set(q.codes).size!==q.codes.length)ctx.addIssue({code:'custom',path:['questions',i],message:'duplicate question or category'})
+    seen.add(key)
+  }
+})
