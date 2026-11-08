@@ -290,6 +290,15 @@ dbTest('early refunds remain retryable while events for another product are safe
   assert.equal((await records(f)).payment.status, 'pending')
 })
 
+dbTest('another service sharing the membership purchase type is ignored by its different price', async f => {
+  const foreign = checkout(f, { id: 'cs_foreign_service', metadata: { purchase_type: 'paid_membership', stripe_price_id: 'price_foreign_service', user_id: String(f.user.id) } })
+  assert.equal(await processEvent(f, foreign), 'processed')
+  f.stripe.state.intent.metadata.stripe_price_id = 'price_foreign_service'
+  assert.equal(await processEvent(f, event('refund.updated', { status: 'succeeded', payment_intent: 'pi_synthetic', charge: 'ch_synthetic' })), 'processed')
+  assert.equal((await records(f)).payment.status, 'pending')
+  assert.equal((await records(f)).membership, undefined)
+})
+
 dbTest('refund verification mismatch or provider outage remains retryable with no membership changes', async f => {
   await processEvent(f, checkout(f))
   const e = event('refund.failed', { status: 'failed', payment_intent: 'pi_synthetic', charge: 'ch_synthetic' })

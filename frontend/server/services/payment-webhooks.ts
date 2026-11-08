@@ -37,7 +37,11 @@ class EventProcessor {
 
   private async complete(session: StripeObject, completedAt: Date) {
     const payment = await this.lockedPayment('stripe_checkout_session_id', session.id)
-    if (!payment) throw new PaymentNotReadyError('Checkout payment record is unavailable')
+    if (!payment) {
+      // Account-wide deliveries include other services; only retry this price's missing local purchase.
+      if (session.metadata?.stripe_price_id !== this.settings.priceId) return
+      throw new PaymentNotReadyError('Checkout payment record is unavailable')
+    }
     if (payment.status !== 'pending') return
     const intent = stripeId(session.payment_intent)
     const metadata = session.metadata || {}
@@ -69,7 +73,7 @@ class EventProcessor {
     if (!intentId) return null
     const intent = await this.client.paymentIntents.retrieve(intentId)
     const metadata = intent.metadata || {}
-    if (metadata.purchase_type !== 'paid_membership') return null
+    if (metadata.purchase_type !== 'paid_membership' || metadata.stripe_price_id !== this.settings.priceId) return null
     if (!(intent.currency === this.settings.currency && intent.amount === this.settings.amount && metadata.user_id && metadata.stripe_price_id)) mismatch()
     // Do not acknowledge a refund/dispute that arrived before the completion event.
     throw new PaymentNotReadyError('Awaiting Checkout completion notification')
