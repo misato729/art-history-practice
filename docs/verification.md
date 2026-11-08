@@ -884,3 +884,13 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 - 新規空DBのdefault bundled importは同じ対応表を使う。任意のcustom archiveへ座標だけで分類を流用せず、既存DBは明示operations/分類CLIのみで更新する。復元CLIは接続前にhost/port/DB/schemaを正規化し、URI routing queryを拒否してlocal _test限定を守る。port/schemaを含むバックアップ対象鍵で取り違えを防ぎ、local検証で分類のみ復元済み。
 - ローカルPG16で680問のdry-run rollback/1382関連のapply/再apply created0/全680原稿・分類のverify/絞込交差/unknown・不一致拒否/paid401/採点・履歴/旧favorite不変を確認。分類だけをrestore-testで0関連へ戻しても、原稿と履歴を保持。サーバー132/132成功、単体218/218＋復元先unit2/2、型成功。Playwright初回は12成功・分野表示selector位置の2失敗で、実際には正しい分野名が表示されていた。selectorを実画面に合わせた限定再実行でPC/SP4/4成功。合計14対象の検証と同一実行の全14成功は区別する。
 - 本番は読み取り専用planで680問が原稿指紋に一致、既存履歴12・favorite0を確認して、private preflight backupを保存。現段階で本番関連付け・schema適用は未実施。以降は検査済みコードのCI・加算migration・原稿保持の割当・read-only全照合・画面公開を行う。出典PDFや原本画像はGitへ追加しない。
+
+
+## 2026-11-08 全680問の分野関連付け：本番完了
+
+- 実装c6ec066をpushし、CI [42436662469](https://github.com/misato729/art-history-practice/actions/runs/42436662469) のharness/verify/browserが全成功。Fly新規加算migrationの適用と機体healthyを確認。旧migration・原稿・問題/選択肢IDは維持した。
+- 本番dry-runは1382関連を検証してrollback。本番applyは680問へ1382関連を作成しcommit-confirmedを保存。直後のverifyで全680問の原稿指紋一致・未分類0・1382関連の完全一致と分野master一致を確認。Question/Choice/Group/Passage/Reference/History/Favoriteの7表の前後fingerprintは同一。事前planの履歴12・favorite0も変更対象外。
+- privateバックアップはlocal-only/backups/question-classifications/2026-11-08T02-08-30-101Z（before.json/receipt.json/commit-confirmed.json）。分類前の関連と不変指紋を保存し、原稿や個人情報を転載しない。local独立DBで関連だけの復元済み。本番での復元は実行していない。
+- Netlify手動本番deploy 6aefd9bc8f8bcb1cabe1f1abのpublished/readyを確認。既存stop_builds=falseを維持。公開PC1280px/SP390pxで無料170問→古代8問→問1の分野名「西洋美術史 / 古代の美術」を確認。カテゴリ選択から開始までcatalogは1要求で共有し、横はみ出しなし。初期の公開検査はhydration待ち不足のため停止し、networkidle後に操作する最終手順で両画面成功。
+- 公開APIの古代条件は各模試5/3/3/3/4/5/5/5問を返す。静的出力347ファイルで秘密値一致0・source map0・authoring file0。採点/履歴/paid認可は合成データの独立DBとCIで検証し、本番では実ユーザーの回答追加・購入・会員更新を行っていない。全680問の画面を個別目視したという意味ではない。
+- private検証記録はlocal-only/verification/question-classifications-20261108。本文・選択肢・正答・解説・出典の作り直しなし。料金・Stripe・認証方式は変更なし。

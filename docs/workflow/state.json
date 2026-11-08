@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 167,
-  "updated_at": "2026-11-08T01:28:44.119Z",
+  "revision": 169,
+  "updated_at": "2026-11-08T02:12:36.350Z",
   "workspace_relative_to_repo": ".",
   "active_context": "development",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T01-28-44-119Z-r167.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T02-12-36-350Z-r169.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2731,39 +2731,53 @@
       "id": "art_question_classification",
       "context": "development",
       "title": "全680問を既存分野マスターへ関連付け表示・条件演習を有効化",
-      "status": "doing",
+      "status": "done",
       "depends_on": [],
       "authorization": "requested",
       "request_ref": "2026-11-08 user: すべての問題に分野名を割り当ててください",
-      "next_action": "分類の独立照合と関連付け/絞込/表示の実装・検証",
-      "evidence": [],
-      "last_verified_at": null,
-      "verification_scope": "実装準備中。未知の既存関連付けは上書きせず、検証とバックアップ後に反映する。",
+      "next_action": "追加依頼を待つ",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "全680問/1382関連・未分類0を本番DB照合。原稿と7表不変、独立DB復元、CI、公開PC/SP分野演習を確認。",
       "acceptance": [
         {
           "id": "checks",
           "kind": "automated",
           "description": "依頼された変更範囲の検査が成功する",
           "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
         },
         {
           "id": "review",
           "kind": "review",
           "description": "実装担当以外が受入条件と成果物を確認する",
           "verification": "別担当のレビューで未解決の問題がないことを確認する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null,
-          "reviewer": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "delivery_audit"
         }
       ],
       "execution": {
         "worker": "root",
         "max_attempts": 3,
-        "attempts": []
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "全680問分類・原稿と履歴保持・独立レビュー・CIと本番PC/SP確認成功",
+            "at": "2026-11-08T02:12:35.468Z",
+            "failed_criteria": []
+          }
+        ]
       }
     }
   ]
