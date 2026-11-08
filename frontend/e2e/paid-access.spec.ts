@@ -66,7 +66,7 @@ test('group start reuses its unfiltered catalog, and filtered starts do not popu
  expect(catalogs).toEqual(['?study_category_codes=synthetic_filter']);expect(questions).toEqual([])
 })
 
-test('review tab reuses unchanged results, refreshes after an answer and keeps real login/history/logout',async({page,context})=>{
+test('review tab refreshes latest results and keeps real login/history/logout',async({page,context})=>{
  const {randomBytes}=await import('node:crypto');const {loadE2EFixture}=await import('../scripts/e2e-fixture.mjs');const fixture=loadE2EFixture()
  const password='Synthetic-'+randomBytes(16).toString('hex'),email='api-reduction-'+randomBytes(8).toString('hex')+'@example.test'
  await page.goto('/signup')
@@ -78,13 +78,13 @@ test('review tab reuses unchanged results, refreshes after an answer and keeps r
  let reads=0;page.on('request',r=>{if(new URL(r.url()).pathname==='/api/v1/review_questions/incorrect')reads++})
  await page.getByRole('tab',{name:'間違えた問題',exact:true}).click();await expect(page.getByRole('heading',{name:'現在、復習する問題はありません',exact:true})).toBeVisible();expect(reads).toBe(1)
  await page.getByRole('tab',{name:'模試を選ぶ',exact:true}).click();await page.getByRole('tab',{name:'間違えた問題',exact:true}).click()
- await expect(page.getByRole('heading',{name:'現在、復習する問題はありません',exact:true})).toBeVisible();expect(reads).toBe(1)
+ await expect(page.getByRole('heading',{name:'現在、復習する問題はありません',exact:true})).toBeVisible();expect(reads).toBe(2)
  await page.getByRole('tab',{name:'模試を選ぶ',exact:true}).click();await page.locator('.exam-card').first().click()
  await expect(page.getByRole('heading',{name:'問1',exact:true})).toBeVisible()
  const wrong=fixture.question.choices.findIndex((c:{is_correct:boolean})=>!c.is_correct)
  await page.locator('.choices label').nth(wrong).click();await page.getByRole('button',{name:'回答する',exact:true}).click();await expect(page.getByRole('heading',{name:'解答解説',exact:true})).toBeVisible()
  await page.locator('.site-header a[href="/"]').first().click();await expect(page).toHaveURL('/')
- await page.getByRole('tab',{name:'間違えた問題',exact:true}).click();await expect(page.getByRole('heading',{name:'復習する問題が1問あります',exact:true})).toBeVisible();expect(reads).toBe(2)
+ await page.getByRole('tab',{name:'間違えた問題',exact:true}).click();await expect(page.getByRole('heading',{name:'復習する問題が1問あります',exact:true})).toBeVisible();expect(reads).toBe(3)
  await page.getByRole('button',{name:'ランダムに復習を始める',exact:true}).click();await expect(page.getByRole('heading',{name:'問1',exact:true})).toBeVisible()
  const correct=fixture.question.choices.findIndex((c:{is_correct:boolean})=>c.is_correct)
  await page.locator('.choices label').nth(correct).click();await page.getByRole('button',{name:'回答する',exact:true}).click();await expect(page.getByText('正解です',{exact:true})).toBeVisible()

@@ -16,6 +16,7 @@ const response=(n:number)=>({data:[{question_id:n,exam_number:1,question_number:
 test('review force joins an active request; unchanged tab loads reuse the result',async()=>{
  const h=harness();try{const first=h.review.load(),forced=h.review.load({force:true});assert.equal(h.reads,1);assert.equal(first,forced)
  h.responses[0]!(response(1));await first;assert.deepEqual(await h.review.load(),[{examNumber:1,questionNumber:1}]);assert.equal(h.reads,1)
+ const externalUpdate=h.review.load({force:true});assert.equal(h.reads,2);h.responses[1]!(response(2));await externalUpdate;assert.deepEqual(h.review.positions.value,[{examNumber:1,questionNumber:2}])
  }finally{h.scope.stop()}
 })
 test('answer invalidation bypasses the old request and cannot restore its stale review result',async()=>{

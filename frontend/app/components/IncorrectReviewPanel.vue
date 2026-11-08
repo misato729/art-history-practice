@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const { isLoggedIn } = useAuth()
 const { totalCount, loading, loaded, error, load, start, starting, sessionKey } = useIncorrectReview()
-onMounted(() => { if (isLoggedIn.value) void load() })
-watch(sessionKey, () => { if (isLoggedIn.value) void load() })
+onMounted(() => { if (isLoggedIn.value) void load({ force: true }) })
+watch(sessionKey, () => { if (isLoggedIn.value) void load({ force: true }) })
 </script>
 <template>
   <div class="incorrect-review-panel" aria-live="polite">
