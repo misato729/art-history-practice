@@ -114,7 +114,7 @@ export async function saveQuestion(raw: QuestionInput, options: SaveOptions = {}
         const leadChanged = JSON.stringify(canonical(before.passage_references)) !== JSON.stringify(canonical(references))
         const placementChanged = before.group_id !== groupId || before.group_question_number !== groupNumber
         if (changed || leadChanged || placementChanged || before.publication_status !== input.publication_status) {
-          if (leadChanged || before.group_id !== groupId) await db.questionPassageReference.deleteMany({ where: { question_id: before.id } })
+          await db.questionPassageReference.deleteMany({ where: { question_id: before.id } })
           await db.question.update({ where: { id: before.id }, data: { ...data, updated_at: new Date(), lock_version: { increment: 1 }, ...((changed || leadChanged) ? { content_version: { increment: 1 } } : {}) } })
         }
         id = before.id
@@ -210,8 +210,13 @@ export async function saveQuestionWording(id: number, expectedDigest: string, ra
       choices:q.choices.map(c=>({id:c.id,choice_label:c.choice_label,display_order:c.display_order,is_correct:c.is_correct,content_blocks:maskText(c.content_blocks)})),
     })
     if (JSON.stringify(canonical(protectedFields(before))) !== JSON.stringify(canonical(protectedFields(input)))) fail(422, 'validation_error', '文言以外の変更はこの操作で保存できません')
-    const saved = await saveQuestion({...input,lock_version:before.lock_version}, {id,db:connection,preserveHistory:true})
-    if (saved.content_version !== before.content_version) await connection.question.update({where:{id},data:{content_version:before.content_version}})
+    if (materialDigest(before) !== materialDigest(input)) {
+      await connection.question.update({where:{id},data:{content_blocks:json(input.content_blocks),explanation_blocks:json(input.explanation_blocks),lock_version:{increment:1},updated_at:new Date()}})
+      for (const choice of input.choices) {
+        const old = before.choices.find(c=>c.id===choice.id)!
+        if (JSON.stringify(canonical(old.content_blocks)) !== JSON.stringify(canonical(choice.content_blocks))) await connection.questionChoice.update({where:{id:old.id},data:{content_blocks:json(choice.content_blocks),updated_at:new Date()}})
+      }
+    }
     return loadQuestion(id, connection)
   }, db)
 }
