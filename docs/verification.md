@@ -815,3 +815,19 @@ Flyへの12設定は--stageのみ。アプリ再起動・新API配信・画面�
 - Playwright PC/SP計4/4成功：8回カード、無料2回、有料3〜8のAPI401/本文非返却、直接URLの有料案内、トップ/サイドバー開閉時の問題一覧API非呼出。合成使い捨てDBは終了時削除。通常問題と活用資料の表示ブロックは原稿一致を検証済みだが、全255画面の目視や実受験難度は未確認。
 - 静的generate成功。公開生成物の秘密値一致0、sourcemap0、原稿/解説ファイル混入0。根拠は `local-only/verification/mocks-06-08-20261108/`。delivery_auditの独立レビュー3指摘（カンマ・統合照合・旧コピー）は修正後に解消確認済み、重大未解決指摘なし。
 - **未実施**：commit/push、Fly/Netlifyの今回分配信、本番6〜8のDB追加、本番Webhook有効化、販売フラグ有効化、実課金。Stripe側の専用商品説明に残る「6〜8準備中」は公開時に更新する。Webhook HTTP経路の正当/改竄署名検査を販売開始前に行う。金額/税込Tax区分/専用Priceは既に確認済み設定を維持する。公開操作は具体的な変更範囲の了承後とする。
+
+
+## 2026-11-08 承認済み全8回・500円買い切りの本番反映完了
+
+- ユーザーの「進めてください」により、commit/push・6〜8本番追加/配信・販売開始を承認。Gitの実装は ecf6cd4、公開用の草案表示/問い合わせ導線は611e7c5、共有Stripeアカウントの通知分離はc861381。検査の旧5回/草案前提を4b8da78/a148618で整合した。最終コード a148618 をorigin/mainへ送信した。
+- 本番dry-runは255問をtransaction内で追加検証してrollback。正式apply前のバックアップは `local-only/backups/illustrated-678/2026-11-08T00-07-04-684Z`（before.json/receipt.json/commit-confirmed.json）。6〜8の255問・1020肢だけを追加し、既存425問/1700肢の内容/ID/日時/大問/資料と利用者・旧解答履歴12件・お気に入り0件のハッシュ一致を確認してcommitした。登録後の独立したread-only verifyも255問・合計680問一致。原稿は改稿していない。復元試験は前節のローカル合成DBのみで、本番では未実施。
+- Fly APIはc861381の通知分離を含む版を配信し、マイグレーションとhealthが成功。DB/認証等の無関係なsecret digestはセットアップ前と一致。既存の1GB/nrt/自動停止設定を変更していない。販売フラグを最後に有効にし、本番payments/configが enabled=true・JPY500・one_time・free_exam_max=2・販売者情報readyを返すことを確認。ローカル非公開設定のフラグもtrueへ整合した。
+- 本番Stripeは専用商品 `prod_art_history_lab_premium` の説明を3〜8の全6回・510問へ更新し、専用Price `price_1UZIm24aKzZO4ferzRtylnwY` は500JPY/税込inclusive/one_time/live/activeを再照合。Tax設定active・JP登録active・税区分txcd_20060058を維持し、他サービスの商品/価格/キー/税既定値は変更しない。専用Webhook `we_1UZIud4aKzZO4ferORz4kLmX` を署名経路確認後にenabledにした。
+- 本番HTTP署名確認：実鍵を表示せず安全な検証イベントを署名し、正当200・同一再送200（受領1件）・raw body改竄400を確認。検証用受領1件はID完全一致で削除し、決済/会員資格は変更しない。実決済や架空の支払済み通知は作成していない。無料2は200、有料3〜8は匿名401で本文非返却を確認。
+- 発見した通知分離の原因：共有Stripeアカウントでは世界史ラボもpurchase_type=paid_membershipを使用し、元実装は他Priceの未登録Checkout/早期返金を自サイトの未処理購入として再試行する余地があった。未登録分を専用Priceで区別し、他Priceは無変更で受領、自Priceは再試行、既存決済の金額/所有者/Price等の厳格照合は維持。合成DB決済22/22成功、delivery_auditレビューで重大指摘なし。
+- CIは [42428593482](https://github.com/misato729/art-history-practice/actions/runs/42428593482) のa148618でharness/verify/browser全成功。途中の失敗は旧425問期待値と「草案」表示を求めるテストで、アプリを旧状態へ戻さず検査を8回/公開表示に整合し、最終単体211/211・再生成4/4も成功。初回公開probeの価格期待値「500円」は実UIの「￥500」に合わせて修正し、最終PC/SPは成功。
+- Netlifyは検査済み347ファイルを手動で本番公開。deploy `6aefbf3560e66ff83881cfaa` がready/published、公開URL https://art-history-practice.netlify.app/ 。Git送信は今回のcommitメッセージにskip netlifyを付けて登録前の早期切替を避け、既存の自動ビルド設定stop_builds=falseは維持した。生成物の秘密値一致0・sourcemap0・原稿/解説ファイル混入0。
+- 公開サイトのPlaywright PC/SP両方で8カード/85リンクの静的サイドバー/横はみ出しなし/開閉時の問題一覧API0件/無料2・有料3〜8の導線/購入ログイン案内/500円表示/販売者開示完成を確認。スクリーンショットとsafe proofは `local-only/verification/paid-eight-release-20261108/`。旧Chrome管理画面の操作は再開していない。
+- 未実施：実カードでの支払・実返金。全255画面の目視、受験者による難度実測、作問内容の独立学術査読は今回の技術作業に含めない。Stripe Taxの日本税45円/総額500円は前段の請求previewで検証済み。配信・登録・販売開始に必要な残作業はない。
+
+最終根拠レビュー：delivery_auditが上記safe proof/CI/配信・販売状態を照合し、矛盾なし。件数12件とWebhook enabledのsafe metadataを `final-counts-and-webhook.json` に補足した。

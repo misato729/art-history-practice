@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 155,
-  "updated_at": "2026-11-07T23:58:05.865Z",
+  "revision": 160,
+  "updated_at": "2026-11-08T00:21:46.951Z",
   "workspace_relative_to_repo": ".",
   "active_context": "operations",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-07T23-58-05-865Z-r155.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T00-21-46-951Z-r160.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2404,17 +2404,17 @@
       "id": "art_paid_access_upcoming",
       "context": "development",
       "title": "模試6〜8の静的準備中導線と模試3以降の有料アクセス制御",
-      "status": "doing",
+      "status": "done",
       "depends_on": [],
       "authorization": "requested",
       "request_ref": "2026-11-08 ユーザー依頼。6〜8はChatで作問中、静的導線と3以降有料化・Stripe設定。料金/販売者/Stripe接続を確認中。",
-      "next_action": "準備完了の状態を記録する",
+      "next_action": "本番反映記録を同期する",
       "evidence": [
         "docs/verification.md",
         "docs/payments-art.md"
       ],
       "last_verified_at": "2026-11-08",
-      "verification_scope": "当初の準備中導線と無料2/有料3+のローカル準備はr151で検証済み。今回原稿受領後は別タスクart_mocks_06_08_registrationへ継続。公開未実施。",
+      "verification_scope": "無料1・2/有料3〜8、原稿255問追加と既存425/履歴12保持、本番Fly/Netlify/Stripe設定と販売受付、署名HTTP・PC/SP・CIを確認。実課金なし。",
       "acceptance": [
         {
           "id": "checks",
@@ -2460,17 +2460,17 @@
       "id": "art_stripe_setup",
       "context": "operations",
       "title": "美術史ラボ専用Stripe商品・税込500円・日本の自動税計算と決済通知設定",
-      "status": "doing",
+      "status": "done",
       "depends_on": [],
       "authorization": "requested",
       "request_ref": "2026-11-08 ユーザーがmisatoの地歴ラボ本番Stripeアカウント、税込500円買切り、Stripe Tax、専用キー、世界史ラボと同じ公開販売者情報を指定。税区分と専用キー保存は確認待ち。",
-      "next_action": "commit/push・配信・購入受付開始の了承を待つ",
+      "next_action": "本番反映の最終根拠レビューと記録同期",
       "evidence": [
         "docs/verification.md",
         "docs/payments-art.md"
       ],
       "last_verified_at": "2026-11-08",
-      "verification_scope": "美術史ラボ専用リソースのみ。既存商品/価格/税登録/他サイトのキーは変更しない。実際の課金や本番受付開始は未実施。",
+      "verification_scope": "無料1・2/有料3〜8、原稿255問追加と既存425/履歴12保持、本番Fly/Netlify/Stripe設定と販売受付、署名HTTP・PC/SP・CIを確認。実課金なし。",
       "acceptance": [
         {
           "id": "checks",
@@ -2501,7 +2501,15 @@
       "execution": {
         "worker": "root",
         "max_attempts": 3,
-        "attempts": []
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "専用500JPY税込Price/日本Tax/専用キー/署名HTTP/Webhook有効化と本番販売受付を確認。実課金なし",
+            "at": "2026-11-08T00:20:04.037Z",
+            "failed_criteria": []
+          }
+        ]
       }
     },
     {
@@ -2561,41 +2569,56 @@
       "id": "art_paid_eight_release",
       "context": "operations",
       "title": "承認済み全8回と税込500円買い切りの本番反映",
-      "status": "doing",
+      "status": "done",
       "depends_on": [
         "art_mocks_06_08_registration"
       ],
       "authorization": "requested",
       "request_ref": "2026-11-08 user: 進めてください（commit/push・本番登録/配信・販売開始への承認）",
-      "next_action": "本番dry-run/backups後に追加、Git/CIと配信、Webhook署名確認と販売有効化",
-      "evidence": [],
-      "last_verified_at": null,
-      "verification_scope": "未実施。例示ファイルは自動でタスクに登録されない。",
+      "next_action": "実施済みと実課金未実施を報告する",
+      "evidence": [
+        "docs/verification.md",
+        "docs/payments-art.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "無料1・2/有料3〜8、原稿255問追加と既存425/履歴12保持、本番Fly/Netlify/Stripe設定と販売受付、署名HTTP・PC/SP・CIを確認。実課金なし。",
       "acceptance": [
         {
           "id": "checks",
           "kind": "automated",
-          "description": "依頼された変更範囲の検査が成功する",
-          "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null
+          "description": "本番バックアップ・既存保持・680問照合・必須CI・本番署名/無料有料境界/PCSP/販売受付が成功",
+          "verification": "docs/verification.md の最新本番反映記録とprivate safe proofを照合",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
         },
         {
           "id": "review",
           "kind": "review",
-          "description": "実装担当以外が受入条件と成果物を確認する",
-          "verification": "別担当のレビューで未解決の問題がないことを確認する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null,
-          "reviewer": null
+          "description": "独立担当が本番反映の根拠と未実施範囲を確認",
+          "verification": "独立レビュー",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "delivery_audit"
         }
       ],
       "execution": {
         "worker": "root",
         "max_attempts": 3,
-        "attempts": []
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "本番680問・旧425/履歴12保持・CI全成功・Fly/Netlify公開・署名HTTP・販売受付・PCSPと独立レビューを確認。実課金なし",
+            "at": "2026-11-08T00:21:46.629Z",
+            "failed_criteria": []
+          }
+        ]
       }
     }
   ]
