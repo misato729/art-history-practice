@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 180,
-  "updated_at": "2026-11-08T04:53:56.130Z",
+  "revision": 184,
+  "updated_at": "2026-11-08T06:10:25.010Z",
   "workspace_relative_to_repo": ".",
   "active_context": "development",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T04-53-56-130Z-r180.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T06-10-25-010Z-r184.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2988,6 +2988,112 @@
             "outcome": "passed",
             "summary": "30問改稿・全680問source非表示、独立盲解、復元、本番DB/API/UI、最終CIと公開PC/SP検査を確認",
             "at": "2026-11-08T04:53:55.638Z",
+            "failed_criteria": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "art_adsense_head",
+      "context": "development",
+      "title": "指定AdSenseスクリプトを共通headへ追加し本番反映",
+      "status": "done",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-08 user: 指定scriptをheadタグ内へ貼り本番反映",
+      "next_action": "追加依頼を待つ",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "全生成HTMLのhead内に指定script1件、秘密/原稿非公開、本番HTML確認。広告配信審査/表示は対象外。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "生成と公開HTMLの指定script確認",
+          "verification": "HTML parserで属性/配置/件数確認",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "独立した設定差分レビュー",
+          "verification": "別担当がURL/属性/配置を確認",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "review_adsense"
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "指定scriptの生成全21HTMLと公開2URL、独立差分レビューと本番配信を確認",
+            "at": "2026-11-08T05:27:31.444Z",
+            "failed_criteria": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "art_disclosure_loading",
+      "context": "development",
+      "title": "販売者情報取得前の販売準備中フラッシュを修正",
+      "status": "done",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-08 user: commercial-disclosureで一瞬出る準備中画面を修正",
+      "next_action": "追加依頼を待つ",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "情報取得前に準備中と誤表示しない。未設定/失敗表示とAPI回数維持。PC/SP確認。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "生成と公開HTMLの指定script確認",
+          "verification": "HTML parserで属性/配置/件数確認",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "独立した設定差分レビュー",
+          "verification": "別担当がURL/属性/配置を確認",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "review_disclosure"
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "合成6ケースと公開PC/SPで取得前誤表示なし・正常表示・API回数保持を確認",
+            "at": "2026-11-08T06:10:24.540Z",
             "failed_criteria": []
           }
         ]

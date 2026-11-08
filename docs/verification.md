@@ -957,3 +957,17 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 - 配信CLIのsite指定漏れにより別の空サイトを新規作成した操作ミスが発生。作成時刻一致、過去deployなし、repo/build設定/独自domainなしを確認して当該新規サイトだけ削除済み。既存サイト/DBへの影響なし。正しい本番site IDを明示して配信し、今回生成された誤ったlocalリンク設定も除去。証拠と詳細改稿理由はlocal-only/quality-revision-20261108に保存する。
 - 最終公開ブラウザはPC1280px/SP390pxで模試1問14/82・模試2問8/85の計8回を成功。改稿本文一致、正答採点、根拠資料の内部括弧なし、リンク先完全維持、画面横はみ出しなし。有料問題の匿名アクセス401も保持。全680画面を個別目視した意味ではない。
 - 最終表示修正7f21430の[CI42448275877](https://github.com/misato729/art-history-practice/actions/runs/42448275877)もharness/verify/browserの全ジョブ成功（390pxの追加条件を含む）。
+
+## 2026-11-08 AdSense共通head追加
+
+- ユーザー指定のca-pub-2745326644447602スクリプトをnuxt.config.tsのapp.head.scriptへasync/crossorigin=anonymousで追加。独立review_adsenseがURL/属性/共通head配置と5行のみの設定差分を確認。
+- generate成功、全21生成HTMLのhead内に指定scriptが1件。static347ファイルの秘密値一致0/source map0/原稿混入0。Netlify指定siteへ手動本番deploy 6af008083a4fa6c49bc8027c。公開トップと演習URLのHTMLでもhead内のURL/async/crossorigin/件数を確認した。広告の実表示・審査は未確認。DB/API/Stripeは変更なし。
+- Python標準HTTPS確認はローカル証明書chain不足で停止し、証明書検証を有効にしたcurl取得とHTML parserで公開確認を完了。今回はcommit/pushの新規依頼なしのためローカル差分を保持し、生成物を手動配信した。
+
+## 2026-11-08 特商法ページの初期表示修正
+
+- 原因はclient-onlyのpayments/config取得前に空sellerへ完全性判定を行い、準備中警告と未設定tableを描画していたこと。useFetchのidle/pendingでは中立な読み込み案内、errorでは取得失敗案内、successの場合だけseller判定とtable表示へ分岐した。実際の未設定警告・API URL/回数・既存再試行を維持。review_disclosureの独立レビューで問題なし。
+- generate成功。遅延させた合成APIでPC1280/SP390の各ready/incomplete/error計6ケースを成功。取得待ちに準備中警告/未設定tableなし、正常/未設定はconfig1要求、500では既存の1回再試行を含む2要求。横はみ出しなし。静的347ファイルの秘密値一致0/source map0/原稿混入0。Netlify本番deploy 6af011f5e4fab586b4b143d5。先のAdSense追加を保持、DB/API/Stripe変更なし。
+- 公開ページもPC/SPでconfig要求を意図的に待たせ、読み込み中に準備中警告/未設定tableなし→実際の販売者情報へ表示、config1要求を確認。commit/pushは今回未依頼のため行わず、変更差分を保持した。
+
+- 追記: ユーザーの追加依頼により、AdSense追加と特商法ページ修正および対応する検証・完了記録をまとめてcommit/pushする。両変更は上記のとおり本番反映・公開確認済み。

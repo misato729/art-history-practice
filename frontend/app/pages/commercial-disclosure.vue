@@ -5,7 +5,7 @@ type PaymentConfig = { seller?: SellerInformation }
 type ApiResponse<T> = { data: T }
 
 const { $api: api } = useNuxtApp()
-const { data: paymentConfigResponse } = await useFetch<ApiResponse<PaymentConfig>>(
+const { data: paymentConfigResponse, status: paymentConfigStatus } = await useFetch<ApiResponse<PaymentConfig>>(
   '/api/v1/payments/config',
   { $fetch: api, server: false, immediate: PAYMENTS_ENABLED },
 )
@@ -34,11 +34,14 @@ useSeoMeta({
       <p>{{ PAYMENTS_ENABLED ? 'プレミアム会員の購入条件と販売事業者情報です。' : '現在、有料機能を提供していません。' }}</p>
     </header>
 
-    <div v-if="PAYMENTS_ENABLED && !sellerConfigured" class="legal-warning" role="status">
+    <p v-if="PAYMENTS_ENABLED && (paymentConfigStatus === 'idle' || paymentConfigStatus === 'pending')" role="status" aria-live="polite">販売者情報を読み込んでいます。</p>
+    <p v-else-if="PAYMENTS_ENABLED && paymentConfigStatus === 'error'" role="alert">販売者情報を読み込めませんでした。ページを再読み込みしてください。</p>
+
+    <div v-if="PAYMENTS_ENABLED && paymentConfigStatus === 'success' && !sellerConfigured" class="legal-warning" role="status">
       現在は販売準備中です。販売者情報と必要な対応体制を確認しています。
     </div>
 
-    <article v-if="PAYMENTS_ENABLED" class="legal-document disclosure-table">
+    <article v-if="PAYMENTS_ENABLED && paymentConfigStatus === 'success'" class="legal-document disclosure-table">
       <dl>
         <div><dt>販売事業者</dt><dd>{{ seller.name || '販売開始前に掲載' }}</dd></div>
         <div><dt>運営責任者</dt><dd>{{ seller.representative || '販売開始前に掲載' }}</dd></div>

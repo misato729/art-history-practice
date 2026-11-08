@@ -15,6 +15,11 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   app: {
     head: {
+      script: [{
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2745326644447602',
+        async: true,
+        crossorigin: 'anonymous',
+      }],
       link: [{ rel: 'icon', href: SITE.logo_path }],
       style: [{ innerHTML: themeVariables() }],
     },
