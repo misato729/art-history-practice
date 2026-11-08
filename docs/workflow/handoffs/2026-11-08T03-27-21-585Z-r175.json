@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "revision": 175,
+  "state_hash": "5299f472f6191335bb749bd74011cbd9cdf793e810f16812917dcd5e60c9d3e2",
+  "recorded_at": "2026-11-08T03:27:21.585Z",
+  "timezone": "UTC",
+  "context": "development",
+  "task": "art_q66_preset_fix",
+  "summary": "問66とpresetの修正を本番反映済み",
+  "next_action": "模試1/2の品質点検結果を記録",
+  "missing_local_files": [],
+  "git": {
+    "available": true,
+    "head": "c961663b052cf5e2ace41fb021a38d3545e9b6dc",
+    "changes": [
+      {
+        "status": " M",
+        "path": "docs/verification.md"
+      }
+    ]
+  },
+  "file_hashes": {
+    "AGENTS.md": "4824b8c34a5ce59d3076123deb93f2343040d81ad34238759505160ff6ec66f9",
+    "README.md": "6dfc5a1084fd54efcf249eb270514d86562da130d8544cf94f61847147508448",
+    "docs/testing.md": "7ee6bcc0f30e4f20e2f14513a74c6b17aad66f502f1b92e3fd81371169226c6b",
+    "docs/workflow/README.md": "ce35c134e34be8261e2478091460df30cd2a2546fba658ba38f25e8411a9f8f8",
+    "docs/workflow/policy.json": "556e6f58a9fade468bc7469bea95863324542e58e9b3e6dad475f8c13c516a48",
+    "docs/workflow/task.example.json": "4bf161efce99b7d0a26798e3445d1f142505e512eedd591ea11cfb194d67da9f",
+    "docs/workflow/contexts/product.md": "42ca7998b93f5016e4e5884be805f7814ac156853e8d6983aee4c591ca107dd5",
+    "docs/workflow/contexts/development.md": "ab9b7cafdd26a6f143c08c122ffd801ff06759eaef769ac2f368448010a33247",
+    "docs/workflow/contexts/operations.md": "d02de6eb127496e226953dc031aad39fb129c2a09e64bc3dcb4b91b0ab9c1efb",
+    "scripts/context.mjs": "3828c41d1cc5a6977b8444035e094e61e1c9895fcaa9451ecb1919e799ecaffc",
+    "scripts/context.test.mjs": "125f184ecd2d34b8a4dc93a8d1edd2b6c527c0de8a46f39c8c92de265ebccc66",
+    "scripts/workflow-policy.mjs": "60535f2c9bf42203c059ca39a0b254c168b7cfb2468904a3842725fe3797141e",
+    "scripts/workflow-policy.test.mjs": "394287e7d1e84756a3ac8833918f964ee66f0ef2c34934d121d055fb37af4782",
+    "scripts/workspace-policy.mjs": "cd575bdc0a83e37ed28f4004c311c2415d895ce9d63b8fe8552ad674269cd219",
+    "scripts/workspace-policy.test.mjs": "22c2dce0ba9006d3266c2628a61e19acae48eb851c34f5a2fdd1d600cfb7944f",
+    "scripts/check-private-sources.mjs": "1d28447b51b39591d42151f236b837b33d695662168ee5c71500205aa0de96af",
+    "scripts/check-private-sources.test.mjs": "db6afd47e6f6e6de3405437960721f037068da4181eb7a81d7ba11477c7d69fb",
+    ".gitignore": "decd5d43989e6dd6419e109d57e215660223383455eb38cdd7cf15b1a1054773",
+    ".dockerignore": "6d8ce5aeeddf65278d8ab1e7811d03b8e54607e4ff39dfd074afbaeffd969874",
+    ".githooks/pre-push": "3529b300f7a655102ad899ab31fa8b2c404ec37479d1195aa9bcd3efa97bf90c"
+  },
+  "verification_note": "ハッシュ・Git・記録済み完了条件の確認であり、テストや出典照合の自動再実行ではない。依頼・権限は最新のユーザー指示とAGENTS.mdに従う。"
+}

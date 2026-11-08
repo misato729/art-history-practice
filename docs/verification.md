@@ -924,3 +924,15 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 - sculpture-identificationという追加校正層を、前回standalone-wordingの後に適用する。各層の前後指紋を照合し、旧受領archiveを保持。明示CLIのrevision指定は許可した2種だけで任意ファイルを読ませない。独立PG16で全680問の旧状態確認→問66のdry-run/rollback→1問apply→再apply0→verifyを成功。履歴/favorite/分類/採点version/選択肢ID保持を確認。
 - 世界史presetはpart_01_section_05/12だけを自動選択から除外。手動選択と日本史presetは維持。対象unit4/4成功。PC/SPのpreset操作ケースを既存E2Eへ追加。wording_editorが一次資料・問66・段階適用・presetの独立レビューを実施し重大指摘なし。
 - 総点検はaudit_mock01/audit_mock02が各85問を現行データで個別評価。参照PDFはprivateの公式sample全5ページ/正答2ページ・公式問題集228ページ。空の既存OCRを流用せず、現物をPDFKit/Visionで新規OCRし、原図はPDFium画像で確認する。本文/原図/全文OCRはprivateに置き、公開資料へ転載しない。
+
+
+## 2026-11-08 模試6問66・世界史presetの本番完了／模試1・2全問品質点検完了
+
+- b4fb9d0で問66の作品特定とpreset除外を実装。最初のCIは新規browserケースの20世紀分類名がsubtitle込みのaccessible nameとなる点をtestが考慮せず、要素未検出の2ケースで失敗。他14ケース、API/型/build等は成功。副題を含めて照合するtestだけを修正したc961663の[CI42441835647](https://github.com/misato729/art-history-practice/actions/runs/42441835647)はharness/verify/browserすべて成功（PC/SPの既存動作と追加preset操作を含む）。
+- 本番で --revision sculpture-identification のplan/dry-run rollback後、問66だけをapplyしてcommit確認。backupはlocal-only/backups/standalone-wording/2026-11-08T03-19-12-455Z（before.json/receipt.json/committed.json）。全680問verifyで未修正0、分類verifyで680問・未分類0・1382関連一致。本文/解説のtextだけを変更し、正答・選択肢ID/順・source_text・採点version・履歴/favorite/分野関連は保持した。
+- Netlify手動本番deploy 6aefea5974e33aa2cdb66345。公開PC1280/SP390で世界史presetから指定2分野が外れ、手動選択でき、再preset適用で手動extrasを置換し、日本史との併用も維持することを確認。条件tabからpreset各操作までcatalog1要求、横はみ出しなし。公開問66匿名取得401で有料制限維持。static347ファイル、秘密値一致0/source map0/authoring file0。データとクライアント条件選択の変更なのでFly API再配信・Stripe変更なし。
+- audit_mock01/audit_mock02が現在の模試1/2各85問（計170問・680選択肢）を、本文・正答設定・全選択肢・解説・図版/共通資料・問い方・選択肢形式について個別評価。公式Websample全5頁・問題集228頁の新規OCR、関連する原図/問題/解説ページと比較。原資料/画像/OCRと詳細評価はlocal-only/quality-audit-20261108に保存し公開しない。元PDFshaとPDF頁対応を記録した。
+- 親が170行の欠番/重複なし・問い方/選択肢形式/参照の評価欄充足・現行模試別指紋を検証し、重点指摘を再照合。参照不整合は模試1問74、模試2問70/72の3問。質の優先改善は模試1の17問/模試2の10問、合計27問。その他140問にも任意改善候補を含み、完全保証ではない。明確な正答誤り/具体的な複数正答は今回検出なし。疑い段階の模試2問18は原文確認で撤回し不備へ含めない。
+- ユーザー追記の形式点検：通常80問の複数固定枠対応は模試1が44（境界問16を単一説明と数えるなら43）、模試2が48。通常図版設問は16/80、6/80、公式sampleは6/24。sample比率を本試験/公式問題集全体の必須割合としない。4択はユーザー指定と公式Websampleに整合し維持。欠けた問い方、露骨な時代/媒体違い・断定の誤肢、図版不要で解ける設問、共有資料の過剰な手掛かり、範囲の偏りを具体的に記録した。
+- 全文レポート report-ja.md、全170問表 all-170-review.md とJSON、模試別詳細、coverage-proof/provenanceを同privateフォルダへ保存。集約の独立レビューwording_editorで件数/境界例/撤回/4択方針/限界の整合を確認。模試1レビューのhashは全680問combined、集約版のhashは各模試standaloneで計算対象が異なることも明記した。
+- 模試1/2は今回点検のみで原稿/DB未変更。現行1/2のbyte指紋を保持している。参照不整合3問の最小修正と、優先改善27問の改稿は次の作業として残す。全史実の逐語的な一次資料再調査、受験者データでの難度/識別力/時間の実測、模試3〜8の全問点検、実購入/実ユーザー採点の追加は行っていない。

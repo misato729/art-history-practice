@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 173,
-  "updated_at": "2026-11-08T02:57:32.915Z",
+  "revision": 177,
+  "updated_at": "2026-11-08T03:27:22.099Z",
   "workspace_relative_to_repo": ".",
   "active_context": "development",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T02-57-32-915Z-r173.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T03-27-22-099Z-r177.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2837,78 +2837,106 @@
       "id": "art_q66_preset_fix",
       "context": "development",
       "title": "模試6問66の作品特定と受験世界史プリセットの2分野除外",
-      "status": "doing",
+      "status": "done",
       "depends_on": [],
       "authorization": "requested",
       "request_ref": "2026-11-08 user: 模試6問66修正・受験世界史2分野除外・模試1/2総点検",
-      "next_action": "作品と作者を一次資料で特定し正答一意を確認、プリセット対象以外と履歴を保持して検証する。",
-      "evidence": [],
-      "last_verified_at": null,
-      "verification_scope": "未実施。作品と作者を一次資料で特定し正答一意を確認、プリセット対象以外と履歴を保持して検証する。",
+      "next_action": "模試1/2の品質点検結果を記録",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "問66の作品特定・同一正答/採点記録保持、worldのみ2分類除外、unit4件/CI/本番680問照合/公開PCSP確認。",
       "acceptance": [
         {
           "id": "checks",
           "kind": "automated",
           "description": "依頼された変更範囲の検査が成功する",
           "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
         },
         {
           "id": "review",
           "kind": "review",
           "description": "実装担当以外が受入条件と成果物を確認する",
           "verification": "別担当のレビューで未解決の問題がないことを確認する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null,
-          "reviewer": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "wording_editor"
         }
       ],
       "execution": {
         "worker": "root",
         "max_attempts": 3,
-        "attempts": []
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "問66の作品特定と世界史2分類除外、履歴保持・CI・本番PCSPを確認",
+            "at": "2026-11-08T03:27:21.309Z",
+            "failed_criteria": []
+          }
+        ]
       }
     },
     {
       "id": "art_mock12_quality_audit",
       "context": "development",
       "title": "模試1・2の全170問を公式サンプルと問題集に照らして総点検",
-      "status": "doing",
+      "status": "done",
       "depends_on": [],
       "authorization": "requested",
       "request_ref": "2026-11-08 user: 模試6問66修正・受験世界史2分野除外・模試1/2総点検",
-      "next_action": "一次資料の確認と公式問題集OCR・個別評価",
-      "evidence": [],
-      "last_verified_at": null,
-      "verification_scope": "全170問について正答一意性・誤答肢・図版資料・史実・難度に加え、ユーザー追記の設問の問い方と選択肢形式も公式資料へ照合する。各問の評価と根拠を残し、発見事項の全面改稿は別作業。",
+      "next_action": "参照不整合3問と優先改善27問の改稿は追加依頼を待つ",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "模試1/2全170問を設問/選択肢形式含め個別点検。参照不整合3・優先改善27、coverage/provenanceと親照合、集約独立レビュー済。改稿は未実施。",
       "acceptance": [
         {
           "id": "checks",
           "kind": "automated",
           "description": "依頼された変更範囲の検査が成功する",
           "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
         },
         {
           "id": "review",
           "kind": "review",
           "description": "実装担当以外が受入条件と成果物を確認する",
           "verification": "別担当のレビューで未解決の問題がないことを確認する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null,
-          "reviewer": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "audit_mock01; audit_mock02; wording_editor (consolidation)"
         }
       ],
       "execution": {
         "worker": "root",
         "max_attempts": 3,
-        "attempts": []
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "全170問の形式を含む個別点検、参照不整合3・優先改善27の報告と独立照合完了",
+            "at": "2026-11-08T03:27:21.825Z",
+            "failed_criteria": []
+          }
+        ]
       }
     }
   ]
