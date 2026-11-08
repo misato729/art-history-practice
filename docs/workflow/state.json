@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 164,
-  "updated_at": "2026-11-08T00:52:30.013Z",
+  "revision": 166,
+  "updated_at": "2026-11-08T01:19:11.651Z",
   "workspace_relative_to_repo": ".",
   "active_context": "development",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T00-52-30-013Z-r164.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T01-19-11-651Z-r166.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2678,39 +2678,53 @@
       "id": "art_api_request_reduction",
       "context": "development",
       "title": "認証・出題を保って不要APIを削減し本番配信",
-      "status": "doing",
+      "status": "done",
       "depends_on": [],
       "authorization": "requested",
       "request_ref": "2026-11-08 user: 不要APIを削減、検証後commit/push/本番反映",
-      "next_action": "認証世代/遅延応答/有料直接URL/出題順を保つ関連検証",
-      "evidence": [],
-      "last_verified_at": null,
-      "verification_scope": "DB/問題/価格/資格判定は変更しない。既存調査記録を保持して修正する。",
+      "next_action": "実施結果を報告する",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "最終df19eb6のCI全項目/隔離DB PCSP10ケース/公開PCSP8シナリオ成功。me1・問題1・開始一覧1・初期400なし。復習は最新確認を残して同時重複を共有。Fly/DB/Stripe設定変更なし。",
       "acceptance": [
         {
           "id": "checks",
           "kind": "automated",
           "description": "依頼された変更範囲の検査が成功する",
           "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
         },
         {
           "id": "review",
           "kind": "review",
           "description": "実装担当以外が受入条件と成果物を確認する",
           "verification": "別担当のレビューで未解決の問題がないことを確認する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null,
-          "reviewer": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "delivery_audit"
         }
       ],
       "execution": {
         "worker": "root",
         "max_attempts": 3,
-        "attempts": []
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "最終df19eb6のCI/隔離DB PCSP/本番PCSPと独立レビューが成功。認証・採点・出題・復習最新性を維持し重複を削減",
+            "at": "2026-11-08T01:19:11.225Z",
+            "failed_criteria": []
+          }
+        ]
       }
     }
   ]

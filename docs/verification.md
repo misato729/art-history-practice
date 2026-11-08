@@ -864,3 +864,13 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 ローカル検査：単体215/215、追加した復習の共有/古い応答破棄2/2、型検査成功。Playwright隔離DBのPC/SPで、静的導線/無料2・有料3〜8/遅延nativeとcatalog下でも/me1件・有効問題GET1件/選択時追加GETなし/採点・問2へ移動/大問開始exams1件/filtered混在なしの8ケースが成功。復習ケースの初回2失敗は見出しの句点の期待違いで、見出しに合わせた後の限定再実行でPC/SP2/2成功（未変更タブ再表示のGETなし、回答後の再取得、復習完了、合成実登録・履歴2件、別タブログアウト）。合計10ケースの対象が成功したが、同一実行10/10の成功と混同しない。使い捨てDBはハーネスが削除済み。delivery_auditの独立ソースレビューで重大指摘なし。
 
 この時点で公開は未実施。以降、必須CI通過後にNetlifyへ配信して公開の通信件数を再確認する。今回の変更はクライアントのみなので、Fly API再配信・本番DB書込・Stripe再設定は不要。
+
+
+## 2026-11-08 API通信削減の本番反映完了（最終版df19eb6）
+
+- 最終仕様：通常の有効URLで初期の無効座標GETを抑止し、解決済み匿名の重複/meと、その世代変更に伴う/exams再取得を削減。フィルターなしの開始一覧は遷移先と共有する。復習のタブ再表示は別端末での回答や空→非空の変化を反映する必要があるため、従来のforceによる最新確認を残す。共有するのは同じ有効世代の処理中取得だけで、回答後invalidateは維持。前段の「復習タブ再表示GETなし」は初期案で、最終仕様ではない。
+- 実装84d7dc4のCI/初期公開確認後、復習の長期cacheによる鮮度低下を避けるdf19eb6をcommit/pushした。[最終CI42433023951](https://github.com/misato729/art-history-practice/actions/runs/42433023951) はharness/browser/verify全成功、隔離DB PC/SP10ケースが同一CI実行で成功。forceが新しい外部結果を反映するunit2件も成功。独立ソースレビューdelivery_auditで重大指摘なし。
+- Netlify最終deploy `6aefcd31feedd55d27bfd593` はready/published。公開URL https://art-history-practice.netlify.app/ 。初期版deployは6aefcb307d13cf6567b14489。skip netlifyで検査前の自動切替を避け、既存stop_builds=falseは維持した。
+- 最終公開PC/SP計8シナリオで、native応答を遅らせても初期/me1件・有効問題GET1件・大問開始exams1件・初期(0,-1)GET0件・模試1〜8開閉の追加API0件を確認。native get-sessionは別用途の必要な通信なので「全API1件」と合算して報告しない。復習の公開UIは合成ユーザー/データで2回表示し最新確認2件を維持。実登録・採点・問2への移動・回答後更新・履歴・別タブログアウトは隔離DBおよび最終CIで検証し、実利用者のアカウントにはログインしない。
+- 公開payments/configは販売enabled=true・総額500円を維持。問題データ/出典/図版/DB schema/APIサービス/料金・Stripe設定は変更せず、Fly API再配信や本番学習データ更新も行わない。347公開ファイルの秘密値一致0・sourcemap0・原稿混入0。証跡は `local-only/verification/api-request-reduction-20261108/`。
+- 限定事項：不正な問題URLは従来のAPI検証/エラー表示を維持し、全不正URLのGETをゼロにする変更ではない。実決済・実返金は未実施。公開の認証確認は未ログインと合成状態であり、実ユーザーの会員資格・実データの検証ではない。
