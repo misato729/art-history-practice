@@ -14,4 +14,3 @@ ALTER TABLE "question_study_categories" ADD CONSTRAINT "question_study_categorie
 
 -- AddForeignKey
 ALTER TABLE "question_study_categories" ADD CONSTRAINT "question_study_categories_study_category_code_fkey" FOREIGN KEY ("study_category_code") REFERENCES "study_categories"("code") ON DELETE RESTRICT ON UPDATE NO ACTION;
-
