@@ -2,7 +2,8 @@ import {test,expect} from '@playwright/test'
 import {readFileSync} from 'node:fs'
 const archive=JSON.parse(readFileSync(new URL('../../content/questions.json',import.meta.url),'utf8'))
 for(const [exam,number]of[[1,14],[1,82],[2,8],[2,85]] as const){
- test(`revised ${exam}-${number} renders, grades and shows public source information`,async({page})=>{
+ test(`revised ${exam}-${number} renders, grades and shows public source information`,async({page,isMobile})=>{
+  if(isMobile)await page.setViewportSize({width:390,height:844})
   const question=archive.questions.find((q:any)=>q.exam_number===exam&&q.question_number===number)
   await page.goto(`/practice/${exam}/${number}`)
   await expect(page.getByRole('heading',{name:`問${number}`,exact:true})).toBeVisible()

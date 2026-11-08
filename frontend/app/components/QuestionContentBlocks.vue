@@ -69,7 +69,7 @@ const blankLabels = ['①', '②', '③', '④', '⑤', '⑥']
 .content-blocks { display: grid; gap: 20px; min-width: 0; }
 .content-block { min-width: 0; scroll-margin-top: calc(var(--site-navigation-height, var(--header-height)) + 28px); outline-offset: 5px; }
 .content-block:focus { outline: 2px solid var(--teal); }
-.content-text { margin: 0; white-space: pre-wrap; }
+.content-text { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
 .content-quote { margin: 0; padding: 18px 20px; border: 1px solid var(--line); border-left: 4px solid var(--teal); background: #f7faf9; }
 .content-quote p { margin: 0; font-size: 18px; font-weight: 500; white-space: pre-wrap; }
 .content-quote cite { display: block; margin-top: 10px; color: var(--muted); font-size: 13px; font-style: normal; }
