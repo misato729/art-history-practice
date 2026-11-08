@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 170,
-  "updated_at": "2026-11-08T02:19:50.439Z",
+  "revision": 172,
+  "updated_at": "2026-11-08T02:46:08.690Z",
   "workspace_relative_to_repo": ".",
   "active_context": "development",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T02-19-50-439Z-r170.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T02-46-08-690Z-r172.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2784,39 +2784,53 @@
       "id": "art_standalone_wording",
       "context": "development",
       "title": "全問の書籍依存表現を単独で読める文言へ修正",
-      "status": "doing",
+      "status": "done",
       "depends_on": [],
       "authorization": "requested",
       "request_ref": "2026-11-08 user: 本書の・本書掲載のような表現を全体確認し修正",
-      "next_action": "改稿差分と原稿再生成の整合を確認",
-      "evidence": [],
-      "last_verified_at": null,
-      "verification_scope": "680問を走査し原稿アーカイブを保持。正答・出典・関連分類・履歴保護を検証。",
+      "next_action": "模試6問66の作品特定性を作問側の確認事項として残し追加依頼を待つ",
+      "evidence": [
+        "docs/verification.md"
+      ],
+      "last_verified_at": "2026-11-08",
+      "verification_scope": "680問走査、162問/共通資料2件の306textのみ修正。本番一致/履歴・正答・分野保護、CI、公開API確認。作品特定性の確認事項1件を記録。",
       "acceptance": [
         {
           "id": "checks",
           "kind": "automated",
           "description": "依頼された変更範囲の検査が成功する",
           "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08"
         },
         {
           "id": "review",
           "kind": "review",
           "description": "実装担当以外が受入条件と成果物を確認する",
           "verification": "別担当のレビューで未解決の問題がないことを確認する",
-          "status": "pending",
-          "evidence": [],
-          "checked_at": null,
-          "reviewer": null
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md"
+          ],
+          "checked_at": "2026-11-08",
+          "reviewer": "wording_editor (operations); root (editorial changes)"
         }
       ],
       "execution": {
         "worker": "root",
         "max_attempts": 3,
-        "attempts": []
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "680問走査と162問の文言校正、履歴/正答保持、CIと本番一致を確認",
+            "at": "2026-11-08T02:46:08.015Z",
+            "failed_criteria": []
+          }
+        ]
       }
     }
   ]

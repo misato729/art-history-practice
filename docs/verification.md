@@ -906,3 +906,12 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 
 - 最終実装では通常saveQuestionの動作変更は取り消した。saveQuestionWording自体を共通writerモジュール内の専用更新とし、共有schema検証・非text不変検査・元指紋・row/advisory lockを通した上で、問題の本文/解説textと変更がある選択肢textだけをPrismaで更新する。資料参照・採点versionを最初から触らない。通常の管理者編集への挙動変更なし。
 - 本番の最初のdry-runは通常saveQuestionを162問ごとに呼ぶ際の反復検証と接続往復により180秒上限P2028でrollback。直後のplanで全162問が元原稿のままと確認。上記最小更新へ変更し、独立レビュー再確認済み。CIの旧received passage完全一致testは意図した共通資料文言差を検出したため、受領版before指紋・レビュー済みafter指紋・図版4件/参照構造を照合するテストへ更新し4/4成功。
+
+
+## 2026-11-08 書籍依存表現の修正：本番完了
+
+- 実装6887b14のCIで旧原稿への完全一致テストが今回の意図した共通資料修正を検出。期待値を受領before/校正after指紋に分けたd441c1dの[CI42439268300](https://github.com/misato729/art-history-practice/actions/runs/42439268300)はharness/verify/browserすべて成功。最新writerの限定unit1/1、既存groupedとwriterの回帰6/6、原稿seed4/4、型検査、全シリーズと分類対応表検査が成功。最終DB処理では文言以外の変更を拒否する。
+- 最終local独立DBで旧文言へ戻してから162問のdry-run/rollbackを再確認。本番でも最小更新版のdry-runが162問・2共通資料の更新/旧履歴・favorite/分類/選択肢ID/採点version保持の全検査を通りrollbackした。通信往復の余裕として専用CLIの上限だけ180→300秒へ設定し、構文検査成功。検証済みロジック・保護条件は同一。
+- 本番applyは162問と共通資料2件を確定。privateバックアップはlocal-only/backups/standalone-wording/2026-11-08T02-41-52-914Z（before.json/receipt.json/committed.json）。verifyは680問一致・未修正0。分類verifyは680問・未分類0・1382関連完全一致。差分照合は原稿全体306箇所すべてtext leafだけで、出典・正答・ID・順番・分野コード・資料ラベルは同一。
+- 公開サイトの模試1問14/模試2問7/模試2問82を読み取り、修正後の本文・問82共通資料と配信内容の一致、分野表示用情報あり、解説の事前漏えいなしを確認。模試6問66の匿名取得401で有料制限維持。実ユーザーの回答追加・購入は行っていない。今回はDBの学習内容更新で公開画面へ即反映されるため、Netlify/Fly再配信・Stripe変更は不要で未実施。
+- 詳細記録はlocal-only/verification/standalone-wording-20261108。受領archive/PDFは改変せず、今回の校正はアプリの表示データへ適用。全680画面の個別目視や全史実の再調査をしたという意味ではない。模試6問66の一般的な作品名の特定性は作問側への確認事項として残る。

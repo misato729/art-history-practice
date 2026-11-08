@@ -46,5 +46,5 @@ try{await db.$transaction(async connection=>{
  write('receipt.json',{questions:680,changed,preserved_learning_records:true,preserved_classifications:true,preserved_answer_versions:true});console.log(JSON.stringify({status:'validated',changed,backup_directory:dir}))
  if(mode==='dry-run'){rollback=true;throw new Error('VALIDATED_ROLLBACK')}
  assert.equal(mode,'apply')
- },{timeout:180000,maxWait:15000});if(mode==='apply')write('committed.json',{status:'committed'})
+ },{timeout:300000,maxWait:15000});if(mode==='apply')write('committed.json',{status:'committed'})
 }catch(e){if(rollback&&e.message==='VALIDATED_ROLLBACK')console.log(JSON.stringify({status:'rolled_back'}));else{console.error(JSON.stringify({status:'failed',name:e.name,code:e.code,frames:e.stack?.split('\n').filter(x=>x.trim().startsWith('at ')).slice(0,2)}));process.exitCode=1}}finally{await db.$disconnect()}
