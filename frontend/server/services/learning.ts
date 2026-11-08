@@ -1,3 +1,4 @@
+import {publicSourceText} from '../../shared/sourceReferences.ts'
 import { studyQuestionWhere, questionStudyCategories } from './study-categories.ts'
 import { hasPaidAccess, type User } from '../core/auth.ts'
 import { configuration, freeExamMax, paymentsEnabled } from '../core/config.ts'
@@ -130,7 +131,7 @@ export async function answerQuestion(id: number, selectedChoiceId: unknown, user
       created_at: new Date(), updated_at: new Date() }, select: { id: true } })) : null
     return { data: { question_id: question.id, selected_choice_id: selected.id, is_correct: isCorrect,
       correct_choice: serializeChoice(correct), explanation_blocks: question.explanation_blocks,
-      source_text: question.source_text, question_version: question.content_version, answer_history_id: history?.id ?? null } }
+      source_text: publicSourceText(question.source_text), question_version: question.content_version, answer_history_id: history?.id ?? null } }
   }, db)
 }
 
@@ -195,7 +196,7 @@ export async function getHistory(id: number, user: User | null, db: Database = g
   const correct = await db.questionChoice.findFirst({ where: { question_id: row.question.id, is_correct: true } })
   if (!correct) return notFound()
   return { data: { ...serializeHistory(row, await hasPaidAccess(current, db)), correct_choice: serializeChoice(record(correct) as unknown as ChoiceRecord),
-    explanation_blocks: row.question.explanation_blocks, source_text: row.question.source_text } }
+    explanation_blocks: row.question.explanation_blocks, source_text: publicSourceText(row.question.source_text) } }
 }
 
 type FavoriteRow = { id: number, created_at: Date | string, question: Omit<QuestionRecord, 'choices'> }

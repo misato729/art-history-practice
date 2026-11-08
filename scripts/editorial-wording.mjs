@@ -3,12 +3,20 @@ import {readFileSync} from 'node:fs'
 import {materialDigest} from '../frontend/server/services/learning-writer.ts'
 import assert from 'node:assert/strict'
 export function wordingPatches(revision='standalone-wording'){
- assert.ok(['standalone-wording','sculpture-identification'].includes(revision),'Unknown editorial revision')
- return JSON.parse(readFileSync(new URL(`../content/editorial/${revision}.json`,import.meta.url),'utf8'))
+ assert.ok(['standalone-wording','sculpture-identification','quality-revision-12'].includes(revision),'Unknown editorial revision')
+ const document=JSON.parse(readFileSync(new URL(`../content/editorial/${revision}.json`,import.meta.url),'utf8'))
+ for(const patch of document.questions){assert.ok(!patch.change_kind||['substantive','wording'].includes(patch.change_kind),'Unknown revision kind');if(revision==='quality-revision-12')assert.ok(patch.change_kind,'A quality revision must declare its grading version policy')}
+ if(revision==='quality-revision-12'){
+  assert.equal(document.questions.length,30)
+  const cosmetic=new Set(['1:74','2:70','2:72'])
+  for(const patch of document.questions){const key=`${patch.exam_number}:${patch.question_number}`;assert.ok([1,2].includes(patch.exam_number));assert.equal(patch.change_kind,cosmetic.has(key)?'wording':'substantive');if(patch.change_kind==='wording')assert.deepEqual(Object.keys(patch.fields),['explanation_blocks'])}
+  assert.equal(document.questions.filter(p=>p.change_kind==='substantive').length,27)
+ }
+ return document
 }
 export function applyWording(document){
  const result=structuredClone(document)
- for(const revision of ['standalone-wording','sculpture-identification']){
+ for(const revision of ['standalone-wording','sculpture-identification','quality-revision-12']){
  const patches=wordingPatches(revision)
  for(const patch of patches.questions){
   const q=result.questions.find(q=>q.exam_number===patch.exam_number&&q.question_number===patch.question_number)

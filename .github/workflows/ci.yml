@@ -96,7 +96,7 @@ jobs:
       - name: Check desktop and mobile browser flows
         run: |
           if node --input-type=module -e "import c from '../config/exam.json' with {type:'json'}; process.exit(c.payments.enabled ? 0 : 1)"; then
-            npm run test:e2e -- e2e/paid-access.spec.ts e2e/study-categories.spec.ts
+            npm run test:e2e -- e2e/paid-access.spec.ts e2e/study-categories.spec.ts e2e/quality-revision.spec.ts
           else
             npm run test:e2e
           fi

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { publicSourceReferences } from '~/utils/sourceReferences'
 import { filterStudyQuestionCatalog } from '~/utils/studyQuestionCatalog'
 import type { LocationQueryRaw } from 'vue-router'
 import { EXAM_CONFIG } from '~/utils/examConfig'
@@ -245,22 +246,7 @@ const categoryLabel = computed(() => getCategoryLabel(question.value?.category_c
 const questionIsFavorite = computed(() => (
   isLoggedIn.value && question.value ? isFavorite(question.value.id) : false
 ))
-const sourceReferences = computed<SourceReference[]>(() => (
-  (answerResult.value?.source_text ?? '')
-    .split('\n')
-    .map(line => line.trim())
-    .filter(Boolean)
-    .map((line) => {
-      const separatorIndex = line.lastIndexOf('|')
-      if (separatorIndex === -1) return { label: line, url: null }
-
-      const label = line.slice(0, separatorIndex).trim()
-      const url = line.slice(separatorIndex + 1).trim()
-      if (!/^https:\/\/[^\s]+$/.test(url)) return { label: line, url: null }
-
-      return { label: label || url, url }
-    })
-))
+const sourceReferences = computed<SourceReference[]>(() => publicSourceReferences(answerResult.value?.source_text))
 
 const questionErrorStatus = computed(() => {
   const error = questionError.value as any
@@ -647,7 +633,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleFavoriteModalK
             <QuestionContentBlocks :blocks="answerResult.explanation_blocks" />
           </div>
 
-          <div v-if="answerResult.source_text" class="result-section source-section">
+          <div v-if="sourceReferences.length" class="result-section source-section">
             <h2>根拠資料</h2>
             <ul>
               <li v-for="(source, index) in sourceReferences" :key="`${source.url ?? source.label}-${index}`">

@@ -1,0 +1,2363 @@
+{
+  "schema_version": 1,
+  "questions": [
+    {
+      "exam_number": 1,
+      "question_number": 14,
+      "change_kind": "substantive",
+      "before_sha256": "e036250c55dd479fc9c236d086c460f1f27ede62ebd83ecee916c4fc0d0b0f20",
+      "after_sha256": "bf3e5655e083d1d9fb6c488c66acbb142993c17081b82ed72940d66f6ee74669",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図の作品を描いた画家は誰か。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock02-img-04.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図1"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "図はティツィアーノの《鏡を見るヴィーナス》である。肌の量感、赤い布の質感、暗い背景に浮かぶ身体を、作者と具体的な作品の対応として押さえる。選択肢はいずれもヴェネツィア絵画に関わる画家であり、地域名だけでは決められない。"
+          },
+          {
+            "type": "text",
+            "text": "ア：ヴェネツィアで活動した画家だが、この図の作品の作者ではない。"
+          },
+          {
+            "type": "text",
+            "text": "イ：図の《鏡を見るヴィーナス》の作者に対応する。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：ヴェネツィアの画家だが、この作品の作者ではない。"
+          },
+          {
+            "type": "text",
+            "text": "エ：ヴェネツィアの画家だが、この作品の作者ではない。"
+          },
+          {
+            "type": "text",
+            "text": "Titian《Venus with a Mirror》、c. 1555。National Gallery of Art, Washington、1937.1.34。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/41-venus-mirror\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ジョルジョーネ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ティツィアーノ"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ティントレット"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ヴェロネーゼ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 17,
+      "change_kind": "substantive",
+      "before_sha256": "7ceae4069d556c29ece8a64b7b4e56dea498813787d0a69c92bcd556ceaf34b9",
+      "after_sha256": "fe593ab81452b72c06f7278e72cc29eecff83ab7b7f631333663e28daf8594cd",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図A・Bを描いた画家の組合せとして、正しいものはどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock02-img-06.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図A"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock03-img-08.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図B"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "図Aはルーベンスの《ライオンの穴のダニエル》、図Bはハルスの《ウィレム・コイマンス》である。図Aの劇的な身体の動きと獣の群れ、図Bの身構えや軽快な筆触を、17世紀の作家と結び付けて識別する。主題の種類や媒体の違いだけを消去の根拠にしない。"
+          },
+          {
+            "type": "text",
+            "text": "ア：図Bの作者は合うが、図Aの作者はルーベンスである。"
+          },
+          {
+            "type": "text",
+            "text": "イ：二つの図と作者の対応が正しい。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：図Aの作者は合うが、図Bはレンブラントではない。"
+          },
+          {
+            "type": "text",
+            "text": "エ：図A・Bのどちらも作者が異なる。"
+          },
+          {
+            "type": "text",
+            "text": "Sir Peter Paul Rubens《Daniel in the Lions' Den》、c. 1614/1616。National Gallery of Art, Washington、 1965.13.1。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/50298-daniel-lions-den\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nFrans Hals《Willem Coymans》、1645。National Gallery of Art, Washington、1937.1.69。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/76-willem-coymans\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "A：ヴァン・ダイク／B：ハルス"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "A：ルーベンス／B：ハルス"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "A：ルーベンス／B：レンブラント"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "A：レンブラント／B：ヴァン・ダイク"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 19,
+      "change_kind": "substantive",
+      "before_sha256": "d7ca58b036355e33049338f3d43c7c59bc43d27f46f41ecab3e7a397ee820c3d",
+      "after_sha256": "68cdc2db710bc53651028ea9f0bb3f92093a5194eb57b32fb95467e7d12b0adf",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図の作品を描いた画家は誰か。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock02-img-08.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図1"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "図はフェルメールの《天秤を持つ女》である。窓辺からの光、手に天秤を持つ女性、背後の絵画を含む静かな室内の構成を具体的な作者と結び付ける。選択肢はいずれも17世紀オランダの風俗画・室内画に関わる画家である。"
+          },
+          {
+            "type": "text",
+            "text": "ア：図の《天秤を持つ女》の作者である。"
+          },
+          {
+            "type": "text",
+            "text": "イ：同時代のオランダの室内画を手掛けたが、この作品の作者ではない。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：同時代のオランダの風俗画に関わるが、この作品の作者ではない。"
+          },
+          {
+            "type": "text",
+            "text": "エ：同時代のオランダの風俗画に関わるが、この作品の作者ではない。"
+          },
+          {
+            "type": "text",
+            "text": "Johannes Vermeer《Woman Holding a Balance》、c. 1664。National Gallery of Art, Washington、1942.9.97。 CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/1236-woman-holding-balance\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "フェルメール"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ピーテル・デ・ホーホ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ヘラルト・テル・ボルフ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ハブリエル・メツー"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 21,
+      "change_kind": "substantive",
+      "before_sha256": "16cc93339c8cadd76e409f8ccf01190d57339024beff9d25d17b2ce1b54c29e8",
+      "after_sha256": "006adb702487c4e399da68ffcf0ddb32339fc78729c4265eb1926e09477b3582",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図のような日常生活の場面や静物を描いた、18世紀フランスの画家は誰か。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock02-img-09.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図1"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "図はシャルダンの《シャボン玉》である。身近な行為に集中する人物を落ち着いた構成で描く点を、シャルダンの風俗画や静物画と結び付ける。選択肢の画家はいずれも18世紀フランスで活動しており、年代だけで選べない。"
+          },
+          {
+            "type": "text",
+            "text": "ア：家庭や日常を扱う画家だが、図の《シャボン玉》の作者ではない。"
+          },
+          {
+            "type": "text",
+            "text": "イ：同時代のフランスの画家だが、この作品の作者ではない。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：図の作品と、日常画・静物画の活動に対応する。"
+          },
+          {
+            "type": "text",
+            "text": "エ：同時代のフランスの画家だが、この作品の作者ではない。"
+          },
+          {
+            "type": "text",
+            "text": "Jean Siméon Chardin《Soap Bubbles》、probably 1733/1734。National Gallery of Art, Washington、1942.5.1。 CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/994-soap-bubbles\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "グルーズ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ブーシェ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "シャルダン"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ヴァトー"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 23,
+      "change_kind": "substantive",
+      "before_sha256": "844ddc367c9ad1b97e972682a81be5f83b7ce838d38cef57a18b6d0bda2b878e",
+      "after_sha256": "70a12e884320262b25212728cdb664685b6ee2e7657b292f1b1a295765e09e46",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "ゴヤの版画集《戦争の惨禍》が扱う内容として、最も適切なものはどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "《戦争の惨禍》は、戦争の暴力と、それが人々にもたらす苦難を表す版画集である。戦闘の場面だけでなく、民衆の苦しみや飢えなどにも目を向ける。ゴヤの宮廷画家としての仕事と、社会や戦争に向けられた批判的な表現の双方を押さえる。"
+          },
+          {
+            "type": "text",
+            "text": "ア：民衆の受難を含む、版画集の主題に合う。"
+          },
+          {
+            "type": "text",
+            "text": "イ：戦勝の顕彰を中心とする説明で、この版画集の主題とは異なる。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：武器や軍服の分類図鑑ではない。"
+          },
+          {
+            "type": "text",
+            "text": "エ：古代の英雄譚による君主の賛美とは異なる。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "戦闘に加え、略奪や飢えなど、戦争によって民衆が被る苦難を表した。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "戦勝式典の行進や勲章授与を中心に、戦争の成果を記録した。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "各国の武器や軍服を分類し、軍事技術の違いを図解した。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "古代英雄の武勲を物語として描き、同時代の君主を称えた。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.73・127（1.pdf：PDF 63・117ページ）\nゴヤ美術館：版画集《戦争の惨禍》 | https://museogoya.fundacionibercaja.es/en/collections/goya-s-engravings/the-disasters-of-war/"
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 24,
+      "change_kind": "substantive",
+      "before_sha256": "5eb5b4e78ed4f95ecbfb183f322002757a3ebd36ec55fcb7338f28ebc2a2aebb",
+      "after_sha256": "ed1e48729d384571e10372e6df9c53167379251b7b3ebf2460e9a81526ae8445",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図A・Bを描いた画家の組合せとして、正しいものはどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock02-img-11.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図A"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock03-img-12.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図B"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "図Aはダヴィッドの《書斎のナポレオン》、図Bはドラクロワがコロンブスとその息子を描いた作品である。19世紀前半のフランスで活動した近接する画家の中から、具体的な作品の表現と作者を対応させる。新古典主義とロマン主義という区分に加え、実際の人物や空間の描き方を見て識別する。"
+          },
+          {
+            "type": "text",
+            "text": "ア：図Bの作者は合うが、図Aはアングルではなくダヴィッドである。"
+          },
+          {
+            "type": "text",
+            "text": "イ：図Aの作者は合うが、図Bはジェリコーではなくドラクロワである。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：二作品と作者の組合せが正しい。"
+          },
+          {
+            "type": "text",
+            "text": "エ：図A・Bのどちらも作者の対応が異なる。"
+          },
+          {
+            "type": "text",
+            "text": "Jacques-Louis David《The Emperor Napoleon in His Study at the Tuileries》、1812。National Gallery of Art, Washington、1961.9.15。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/46114-emperor-napoleon-his-study-tuileries\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nEugène Delacroix《Christopher Columbus and His Son at La Rábida》、1838。National Gallery of Art, Washington、1963.10.127。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/46602-christopher-columbus-and-his-son-la-rabida\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "A：アングル／B：ドラクロワ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "A：ダヴィッド／B：ジェリコー"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "A：ダヴィッド／B：ドラクロワ"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "A：アングル／B：ジェリコー"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 30,
+      "change_kind": "substantive",
+      "before_sha256": "81d066746aa63e4ddc91f141833b4aa977cbc7fb2ae4f19f9e1e39251f7d107b",
+      "after_sha256": "a39c106855541515c0672669cee2683946e88e3ca2aebbef7e6ebe4495231cff",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図の果物・器・台の関係を観察する。この画面の形と色の組み立て方として、最も適切なものはどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock03-img-35.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図1"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "図はセザンヌの静物画である。台や器には単一の方向へそろわない見え方が含まれ、色の面の関係が物の厚みと画面のつり合いを支える。瞬間の光の印象、規則的な点描、形を透かし合わせる分析的な分割は、それぞれ近代絵画の別の課題と区別する。"
+          },
+          {
+            "type": "text",
+            "text": "ア：光の瞬間的な印象より、色の面による形と画面の構成がこの図の重要な課題である。"
+          },
+          {
+            "type": "text",
+            "text": "イ：規則的な小色点を並べる点描の説明で、この図の筆触・色面とは異なる。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：方向のずれと色面の関係を通じて、物の厚みと構成を捉える。"
+          },
+          {
+            "type": "text",
+            "text": "エ：複数の形を鋭い断片へ分割して透かし合わせる画面ではない。"
+          },
+          {
+            "type": "text",
+            "text": "Paul Cezanne《Still Life with Apples and Peaches》、c. 1905。National Gallery of Art, Washington、1959.15.1。 CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/45986-still-life-apples-and-peaches\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "大気による色の移り変わりに合わせ、輪郭を弱めながら瞬間の光を捉えている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "対象を小さな色の点に分け、規則的な点の集まりによって形と陰影を示している。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "台や器の方向にずれを含め、色の面の関係で物の厚みと構成を作っている。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "物を鋭い面へ分割して透かし合わせ、複数の視点を示す断片へ変えている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 47,
+      "change_kind": "substantive",
+      "before_sha256": "b935115f0c5793c738d74ba7a39b038c5bcf7ed8c0eaa39a35ded8c2f287c4e0",
+      "after_sha256": "3eb041bd847210e0d99d92969b5de035c6230e6872e52ff101c6ebaf6f7a6494",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "正倉院宝物の器形や意匠に西アジアとの共通性が見られる背景として、最も適切なものはどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "奈良時代の正倉院宝物には、唐を通じた国際交流の広がりをうかがわせる器形や意匠が見られる。西方との共通性を、日本からの輸出や遣唐使の西アジア直航と結び付けて説明するのではなく、唐を媒介とする広い文化交流の中で捉える。"
+          },
+          {
+            "type": "text",
+            "text": "ア：唐を通じた国際性と、器形・意匠の伝来を結び付けている。"
+          },
+          {
+            "type": "text",
+            "text": "イ：日本の意匠が西アジアへ先に輸出されたという経路を、宝物一般の背景として示す根拠はない。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：遣唐使の派遣先と、唐を媒介とする交流の関係を取り違えている。"
+          },
+          {
+            "type": "text",
+            "text": "エ：日本の画工による西アジア向け受注品という説明は、正倉院宝物の国際性の根拠に合わない。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "唐を介する東西交流の中で、多様な器形や意匠が日本へ伝わった。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "日本の意匠が西アジアへ先に伝わり、唐を経て日本へ戻る形で宝物となった。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "遣唐使が唐を通らず西アジアへ赴き、奈良の宮廷へ直接もたらした。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "唐に来住した日本の画工が、西アジアの注文で作った器物を日本へ納めた。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 56,
+      "change_kind": "substantive",
+      "before_sha256": "9d5585c5f958d05be23fd034ab93a045bd2ddb7f44e8f93955215ac2ac0b551b",
+      "after_sha256": "b3edfba7744ff0c3ab3db826cd1a53011bf4768baab9e145270e2ae393bfb5ac",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "室町時代の同朋衆が担った役割として、最も適切なものはどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "同朋衆は将軍に近侍し、唐物の鑑定や管理、座敷飾りなどに関わった。作品を制作する画家だけでなく、作品を選び、評価し、取り合わせて見せる役割も美術文化を支えた。誤答も室町の制度や文化に近い役割として並べ、同朋衆の固有の働きを区別する。"
+          },
+          {
+            "type": "text",
+            "text": "ア：財政や所領の管理を中心とする役割で、同朋衆の文化的な役割とは異なる。"
+          },
+          {
+            "type": "text",
+            "text": "イ：禅寺を統括する住持の役割であり、同朋衆の説明ではない。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：唐物と座敷飾りをめぐる、同朋衆の文化的な役割に合う。"
+          },
+          {
+            "type": "text",
+            "text": "エ：宮中儀礼や装束を専門に扱う役割で、同朋衆の説明ではない。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "将軍家の財政を担当し、荘園の年貢や所領の収支を管理した。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "禅寺の住持として、寺の法要と僧侶の教育を統括した。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "唐物の鑑定・管理や座敷飾りなど、将軍の文化生活に関わった。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "朝廷の有職故実に基づき、天皇の装束や宮中儀礼を専門に管理した。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 59,
+      "change_kind": "substantive",
+      "before_sha256": "895949cf4cfd3213db009b9bd70611fe0c5698ced56e9c24ed858d27bb1bbef1",
+      "after_sha256": "8f380e953d619b93ecc3b020060673249efc5780be425b1f3f16c4539b5bd8b2",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図の作品と最も関係の深い、江戸時代の絵画の流派・系統を選びなさい。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock03-img-21.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図1"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "図は酒井抱一の《桐菊流水図屏風》で、琳派に関わる作品である。金地に樹木と草花を装飾的に配し、水流の曲線を生かした構成を、具体的な作品と系統の対応として押さえる。金地や植物画題だけは他派にも見られるので、それだけを唯一の判定規則にはしない。"
+          },
+          {
+            "type": "text",
+            "text": "ア：同時代の日本絵画に関わるが、この酒井抱一の作品の系統ではない。"
+          },
+          {
+            "type": "text",
+            "text": "イ：同時代の日本絵画に関わるが、この作品の系統ではない。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：江戸絵画の系統の一つだが、この作品は琳派に関わる。"
+          },
+          {
+            "type": "text",
+            "text": "エ：酒井抱一と図の装飾的な作品に対応する系統である。"
+          },
+          {
+            "type": "text",
+            "text": "Sakai Hōitsu (Japanese, 1761–1828) [artist]《Paulownias and Chrysanthemums》、early 1800s。Cleveland Museum of Art、1964.386。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1964.386\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "狩野派"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "土佐派"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "四条派"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "琳派"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 60,
+      "change_kind": "substantive",
+      "before_sha256": "da8242c7bfac9b1e9f470b937909af60bf22d79fa7c41e0a4f2ef82195631437",
+      "after_sha256": "16bfc250d989a952515fe796656f947c08eb2ec4e278334e8e0aabd6b29a1523",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "光琳は宗達の作品に学び、抱一は光琳の作品に学んだ。直接教えを受けない先人を敬い、その作品を通じて学ぶことを何というか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "直接の師弟関係を結ばず、先人の人柄や学問・芸術を敬って学ぶことを私淑という。琳派の継承は、同じ家に生まれることや同じ師から直接教えを受けることだけでは捉えられず、時代を隔てて先行する作品を学ぶ関係が重要である。"
+          },
+          {
+            "type": "text",
+            "text": "ア：地位や家業などを家の系統で受け継ぐことで、設問の学び方を指す語ではない。"
+          },
+          {
+            "type": "text",
+            "text": "イ：直接の教えを受けず、先人を敬って学ぶ関係を指す。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：先代の名を継ぐことで、設問の学び方の名称ではない。"
+          },
+          {
+            "type": "text",
+            "text": "エ：師について直接教えを受けることで、設問の条件とは異なる。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "世襲"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "私淑"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "襲名"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "師事"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 62,
+      "change_kind": "substantive",
+      "before_sha256": "0eec08e49fecc58eb18a52804f00d8cc2c8f4d5cbeaa4b494211f7a538a4c153",
+      "after_sha256": "551e721e1c720847db5478040dd2a285aeb598c496d2cf223456872b57508507",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図A・Bの作品が属する浮世絵の技法・形式として、最も適切なものはどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock03-img-23.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図A"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock02-img-24.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図B"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "図Aは春信、図Bは広重の多色木版画で、錦絵に属する。人物や風景という画題だけで技法を決めず、これらの具体的な作品と、多くの色版を用いる錦絵の展開を結び付ける。どの選択肢も浮世絵に関わる名称であり、木版画を油彩や仏画へ置き換えるだけの消去では選べない。"
+          },
+          {
+            "type": "text",
+            "text": "ア：春信や広重のこれらの多色木版画に対応する。"
+          },
+          {
+            "type": "text",
+            "text": "イ：紅・緑など少数の色を用いた初期の色摺版画で、図の多色表現の形式とは異なる。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：墨一色を基本とする版画で、両図の色の表現には合わない。"
+          },
+          {
+            "type": "text",
+            "text": "エ：筆で直接描く浮世絵であり、両図の木版画とは異なる。"
+          },
+          {
+            "type": "text",
+            "text": "Suzuki Harunobu (Japanese, 1724–1770) [artist]《Young Woman Standing Under an Umbrella in the Snow》、 1767–68。Cleveland Museum of Art、1985.305。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1985.305\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）\n\nUtagawa Hiroshige (Japanese, 1797–1858) [artist]《Picture of Light Rain on the Embankment of the Sumida River, from the series A New Selection of Famous Places in Edo》、late 1830s or early 1840s。Cleveland Museum of Art、1940.988。 CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1940.988\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "錦絵"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "紅摺絵"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "墨摺絵"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "肉筆浮世絵"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 68,
+      "change_kind": "substantive",
+      "before_sha256": "e72c2b17b600649a204fbffa4bbdbfeca76b998d668a8f585cff3ebcd0b73b2f",
+      "after_sha256": "9234bf9731270096e1107f00d6912de5d161078aa2f72b3fcd347e03ac2ee3e5",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "デュビュッフェが、美術教育や既成の文化の規範にとらわれない人々の制作を評価して用いた概念はどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "アール・ブリュットは、デュビュッフェが既存の美術教育や文化的な規範の外にある制作へ価値を認めた概念である。特定の装飾様式や、作品の見た目の素朴さだけを意味しない。ナイーヴ・アートと重なる面があっても、デュビュッフェが名づけた概念を特定するという設問の条件で区別できる。"
+          },
+          {
+            "type": "text",
+            "text": "ア：装飾・デザインの様式名で、デュビュッフェの概念名ではない。"
+          },
+          {
+            "type": "text",
+            "text": "イ：設問の概念に対応する名称である。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：近代美術における非西洋や古い文化の表現の受容などに関わる語で、設問の概念名とは異なる。"
+          },
+          {
+            "type": "text",
+            "text": "エ：専門的な教育を受けない作家の制作などに関わるが、設問が特定する概念名ではない。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "アール・デコ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "アール・ブリュット"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "プリミティヴィスム"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ナイーヴ・アート"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.143（1.pdf：PDF 133ページ）\nCollection de l’Art Brut：アール・ブリュットの概念 | https://artbrut.ch/en/what-is-raw-art"
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 74,
+      "change_kind": "wording",
+      "before_sha256": "b4924d0b133689b735fcf4002403c093ead5eddd24d2e21765233a4f74a7b834",
+      "after_sha256": "7e98b5ce4c8a70ee725b3828019990f080eff8bcc72b30c8787b4a10720295b1",
+      "fields": {
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "設問の《曜変天目茶碗》は、中国の建窯、12〜13世紀の作品である。室町時代の唐物受容の文脈で紹介されていても、そのことが日本の室町時代の制作を意味するわけではない。制作の記録と受容の文脈を分ける。"
+          },
+          {
+            "type": "text",
+            "text": "ア：中国の建窯で制作された12〜13世紀の作品という、産地と年代に合う。"
+          },
+          {
+            "type": "text",
+            "text": "イ：中国という制作地は合うが、作例は12〜13世紀の記録である。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：日本での鑑賞・受容と、制作された場所を取り違えている。"
+          },
+          {
+            "type": "text",
+            "text": "エ：中国の建窯で制作された作品の産地と年代の双方に合わない。"
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 75,
+      "change_kind": "substantive",
+      "before_sha256": "653e9780bce54a7b5180f96f607fe98fcc1bee1cf309019ce3267775e1209fbb",
+      "after_sha256": "5c9c070102e354b4c3d1d3a0f7ea8108a13d23582bc1999d19d176bd7aa64a5f",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図の織物に見られる文様の構成と、モリスの活動を結び付けた説明として、最も適切なものはどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/illustrated-mock03-img-26.jpg",
+            "alt": "設問で参照する作品図版",
+            "label": "図1"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "モリスの織物では、植物の形を観察し、花・葉・茎が連続する文様へ整える働きを見て取れる。自然をそのまま写すだけでなく、生活で用いる布の面に合わせて構成するという、アーツ・アンド・クラフツの関心と結び付ける。"
+          },
+          {
+            "type": "text",
+            "text": "ア：工業規格の統一を中心とする説明は、モリスの活動と図の植物文様の関係に合わない。"
+          },
+          {
+            "type": "text",
+            "text": "イ：花が遠くへ縮小する一点透視の空間ではなく、面全体へ文様が連続する。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：植物の形の整理と、使用する面の構成を結び付けている。"
+          },
+          {
+            "type": "text",
+            "text": "エ：図では複雑な植物の形が反復し、一つの紋章にまとめられてはいない。"
+          },
+          {
+            "type": "text",
+            "text": "William Morris (British, 1834–1896) [designed by]《Tulip 》、1875。Cleveland Museum of Art、1937.579。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1937.579\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "植物の各部を部品のように均一化し、工業規格の統一を意匠の中心にした。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "一点透視図法を布に移し、花が奥へ小さくなっていく空間を作った。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "自然の形を連続する文様に組み替え、生活の中で使う面として整えた。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "花や葉を単純な幾何形に還元し、左右対称の紋章として一つにまとめた。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 82,
+      "change_kind": "substantive",
+      "before_sha256": "88c9e27bdbb9f13988b506cc68772f04ef56c7081a1705957c32cff140e9f041",
+      "after_sha256": "125ffb2485f0c0c36f3466df76f6e974d7f1165368f30808974b2ee2fe018528",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "資料Cの画面形式を解説カードに記す。図版を確認し、用いる用語として最も適切なものを選びなさい。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "資料Cの《アルバの聖母》は、円形の画面に描かれたトンドである。資料表は作者・時代・観察の着眼点を示すが、画面形式の名称は示していない。図の輪郭を確認し、円形画面を指す語と結び付ける。"
+          },
+          {
+            "type": "text",
+            "text": "ア：ディプティックは二連画を指す。図Cは一つの円形画面なので該当しない。"
+          },
+          {
+            "type": "text",
+            "text": "イ：円形の絵画・浮彫等を指す語で、資料Cの画面形式に合う。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：祭壇画の下部に置かれる小画面などを指し、資料Cの画面形式の名称ではない。"
+          },
+          {
+            "type": "text",
+            "text": "エ：三連画を指し、資料Cの一つの円形画面とは異なる。"
+          },
+          {
+            "type": "text",
+            "text": "Andrea Mantegna《Portrait of a Man》、c. 1470。National Gallery of Art, Washington、1952.2.5。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/41584-portrait-man\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nFra Filippo Lippi《The Annunciation》、c. 1435/1440。National Gallery of Art, Washington、1943.4.35。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/12133-annunciation\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nRaphael《The Alba Madonna》、c. 1510。National Gallery of Art, Washington、1937.1.24。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/26-alba-madonna\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nUtagawa Hiroshige (Japanese, 1797–1858) [artist]《Picture of Light Rain on the Embankment of the Sumida River, from the series A New Selection of Famous Places in Edo》、late 1830s or early 1840s。Cleveland Museum of Art、1940.988。 CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1940.988\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ディプティック"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "トンド"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "プレデッラ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "トリプティック"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.64・120・121（1.pdf：PDF 54・110・111ページ）\nNational Gallery of Art：Raphael《The Alba Madonna》の円形画面（トンド） | https://www.nga.gov/artworks/26-alba-madonna"
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 83,
+      "change_kind": "substantive",
+      "before_sha256": "c78007e4ab2ea9a61ab1935443d2fc02e03c73fc4744652e9ea22abbe3553536",
+      "after_sha256": "f241180af010e3d41428747246799dc63743423bd87c3479aeac901503300372",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "資料Dの解説に、天候と人の行動の関係を加える。図版から確かめられる記述はどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "資料Dでは、雨具を用いながら川沿いの道を行く人々と、風景へ重なる細い雨の線を観察できる。ここでは近景・遠景の濃淡を一般論だけで当てはめず、どのような場所で人が何をしているかを、実際の図版から確かめて小見出しや解説へつなげる。"
+          },
+          {
+            "type": "text",
+            "text": "ア：川の舟を眺めて立ち止まる群像を中心とする場面ではない。"
+          },
+          {
+            "type": "text",
+            "text": "イ：軒下で雨宿りする人々を画面の中心に描いた場面ではない。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：雨具を用いる通行人と、細い雨の線を図版で確認できる。"
+          },
+          {
+            "type": "text",
+            "text": "エ：舟の出入りを見送る同じ色の雨具の群像ではない。"
+          },
+          {
+            "type": "text",
+            "text": "Andrea Mantegna《Portrait of a Man》、c. 1470。National Gallery of Art, Washington、1952.2.5。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/41584-portrait-man\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nFra Filippo Lippi《The Annunciation》、c. 1435/1440。National Gallery of Art, Washington、1943.4.35。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/12133-annunciation\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nRaphael《The Alba Madonna》、c. 1510。National Gallery of Art, Washington、1937.1.24。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/26-alba-madonna\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nUtagawa Hiroshige (Japanese, 1797–1858) [artist]《Picture of Light Rain on the Embankment of the Sumida River, from the series A New Selection of Famous Places in Edo》、late 1830s or early 1840s。Cleveland Museum of Art、1940.988。 CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1940.988\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "雨具を身につけた人々が川の舟を見つめ、立ち止まる姿を人物の動作の中心にしている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "人々が家屋の軒下へ身を寄せ、雨を避ける静止した姿を画面の中心にしている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "傘や笠を用いる人物が道を行き、細い雨の線がその姿や風景に重なる。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "岸辺の人々が舟の出入りを見送り、雨具の色をそろえた群像として並んでいる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 1,
+      "question_number": 85,
+      "change_kind": "substantive",
+      "before_sha256": "62bf2632abe16995d60d06df54b8ccdb19be204380846bed3917bbc1afa4b2ff",
+      "after_sha256": "9c3f8c1884d7b0c6931cc80d7075e280dc94df01604a7d3c78dbbfcdb0b85d5d",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "担当者が図版と資料表を比較し、次の解説案を作った。この情報だけでは根拠が足りず、公開前に追加調査を必要とするものはどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "四案はいずれも作品の比較から説明を導く形を取る。A・Cの人物表現、B・Cの宗教画の構成、A・Dの対象や画面の範囲は、図版と資料表で具体的に確かめられる。一方、BとDに空間表現の似た点があり、制作年代に前後があっても、先の作品から後の作者への直接の影響まで示すには、伝来・閲覧・学習などの記録を追加して調べる必要がある。"
+          },
+          {
+            "type": "text",
+            "text": "ア：人物の数・向き・関係など、図版に即して表現の違いを比較できる。"
+          },
+          {
+            "type": "text",
+            "text": "イ：表現の類似と年代順だけで直接の影響は証明できず、追加調査が必要である。"
+          },
+          {
+            "type": "text",
+            "text": "ウ：宗教画という資料表の情報と、実際の人物配置を対応させて比較できる。"
+          },
+          {
+            "type": "text",
+            "text": "エ：人物像と風景の対象・範囲・見せ方を、図版に即して比較できる。"
+          },
+          {
+            "type": "text",
+            "text": "Andrea Mantegna《Portrait of a Man》、c. 1470。National Gallery of Art, Washington、1952.2.5。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/41584-portrait-man\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nFra Filippo Lippi《The Annunciation》、c. 1435/1440。National Gallery of Art, Washington、1943.4.35。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/12133-annunciation\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nRaphael《The Alba Madonna》、c. 1510。National Gallery of Art, Washington、1937.1.24。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/26-alba-madonna\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nUtagawa Hiroshige (Japanese, 1797–1858) [artist]《Picture of Light Rain on the Embankment of the Sumida River, from the series A New Selection of Famous Places in Edo》、late 1830s or early 1840s。Cleveland Museum of Art、1940.988。 CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1940.988\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "AとCでは人物の示し方が違うため、人物像の表現が一つの型ではないことを比較して示せる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "BとDでは奥行きの表し方が似るため、先行作品から後の作者への直接の影響を比較して示せる。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "BとCは宗教的な人物を描く点が共通するため、人物配置の違いが主題の伝え方に関わることを比較して示せる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "AとDでは対象や画面の範囲が違うため、人物と場所で視線の導き方が変わることを比較して示せる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 7,
+      "change_kind": "substantive",
+      "before_sha256": "190007daf944d185319df375f37e2f8134816ba6ddda0b4543aab623ab2bfbf9",
+      "after_sha256": "7b828f5a0af17fc8027894aa2957e92c4e22dd686464ceb7a28cd5a3efca8c08",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図版に表されたキリスト教の主題はどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/mock02-img-05.jpg",
+            "alt": "教会内部で、翼のある人物と、書物の前に立つ女性が向かい合う絵画。",
+            "label": "図版"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "教会の室内で、翼のある大天使が、書物の前にいるマリアに向き合っている。ユリや鳩、天から差す光も、キリストの受肉を告げる《受胎告知》の図像として読み取れる。図版はヤン・ファン・エイクの《受胎告知》である。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：マリアがエリサベトを訪ねる場面で、二人の女性の出会いが中心となる。\nイ：聖母や使徒たちに聖霊が降る場面であり、この二人の対面の場面とは異なる。\nウ：大天使ガブリエルがマリアに受胎を告げる場面で、図版の人物と持物に対応する。\nエ：マリアが天へ上げられる場面であり、室内で知らせを受ける姿とは異なる。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "聖母訪問"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "聖霊降臨"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "受胎告知"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "聖母被昇天"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.123（1.pdf：113ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《受胎告知》作品情報 | https://www.nga.gov/artworks/46-annunciation"
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 8,
+      "change_kind": "substantive",
+      "before_sha256": "356c6e81f2cdcd5e63aff82319e64d1bbdf65158624d6bcb2e15c1012e5f2ccd",
+      "after_sha256": "91aac4187c552281f2e7210173431024ffad12d5aefb0de9a142574e9d703f8d",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図版に描かれた鏡の役割について、画面の観察に即した説明はどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/mock02-img-04.jpg",
+            "alt": "鏡を支える翼のある幼児と、赤い布や毛皮をまとう女性を描いた絵画。",
+            "label": "図版"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "鏡の中には女性の目や額など、顔の一部が見える。女性の姿を直接示すとともに、その顔の一部を鏡像としても画面に収めている。鏡に何が映っているかを確認し、直接見える人物との関係を捉えることが大切である。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：鏡には顔の一部が見え、後頭部や髪形の背面を示す像ではない。\nイ：鏡に見える顔は女性のものであり、鏡を支える幼児の顔ではない。\nウ：鏡には女性の顔の一部が描かれ、室内の窓や壁を奥へ広げる像ではない。\nエ：女性の直接見える姿と、鏡に映った顔の一部が同じ画面に示されている。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "鏡に女性の後頭部を映し、直接は見えない髪形の背面を見せている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "鏡に手前の幼児の顔を映し、その後ろ姿と正面の表情を同時に見せている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "鏡に人物の背後の室内を映し、奥へ続く窓や壁の空間を見せている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "鏡に女性の顔の一部を映し、直接見える姿と鏡像とを同時に見せている。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.65・121・132（1.pdf：55・111・122ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《鏡を見るヴィーナス》作品情報 | https://www.nga.gov/artworks/41-venus-mirror"
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 11,
+      "change_kind": "substantive",
+      "before_sha256": "86ca0b314a3a295b697239eecad4f5d07f27c43469f2d8516fbdbb74baa20522",
+      "after_sha256": "d542292bf66a54ab330834b16215c9e634943d9306ab4738aa2126f53731983d",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図版に描かれた主題はどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/mock02-img-06.jpg",
+            "alt": "岩場の中で多数のライオンに囲まれた男性が、両手を合わせて上方を仰ぐ絵画。",
+            "label": "図版"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "多数の獅子に囲まれながら、両手を合わせて上方を仰ぐ人物の姿が読み取れる。これは『旧約聖書』のダニエルが獅子の穴に投げ込まれる物語を表した場面である。図版はルーベンスの《獅子の穴のダニエル》である。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：サムソンは獅子と力で争う姿が表される。図版の人物は獅子と格闘していない。\nイ：洗礼者ヨハネの荒野での姿を示す図像とは、周囲の獅子と人物の行為が異なる。\nウ：多数の獅子の中で祈る人物が、ダニエルの物語に対応する。\nエ：ヒエロニムスには獅子を伴う作例もあるが、図版のような多数の獅子の穴で祈る物語の人物ではない。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "獅子と戦うサムソン"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "荒野の洗礼者ヨハネ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ダニエルと獅子"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "洞窟の聖ヒエロニムス"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.124・125（1.pdf：114・115ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《獅子の穴のダニエル》作品情報 | https://www.nga.gov/artworks/50298-daniel-lions-den"
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 20,
+      "change_kind": "substantive",
+      "before_sha256": "b7ee9ec65e5c69d7e6985eeeb90dd434ce9617a098546c09dcea93508ce4a906",
+      "after_sha256": "3c3e6556b6dfb550f2d317f6d2c2844e8b380952ac813615f793899928df9c46",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図版の作者は誰か。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/mock02-img-12.jpg",
+            "alt": "水面に舟が浮かび、遠くに都市の建物が見える風景画。",
+            "label": "図版"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "図版はターナーの《ヴェネツィアへの接近》である。舟や遠くの建物を光と大気の中に捉え、色の広がりと柔らかな輪郭で水辺の景を構成している。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：同時代のイギリスの風景画を代表するが、この作品の作者ではない。\nイ：フランスの風景画家で、イタリアの風景も描いたが、この作品の作者ではない。\nウ：National Gallery of Artは図版をターナーの《Approach to Venice》として記録している。\nエ：ドイツのロマン主義を代表する風景画家だが、この作品の作者ではない。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "コンスタブル"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "コロー"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "ターナー"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "フリードリヒ"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.28・128・129・132・133（1.pdf：18・118・119・122・123ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《ヴェネツィアへの接近》作品情報 | https://www.nga.gov/artworks/117-approach-venice"
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 23,
+      "change_kind": "substantive",
+      "before_sha256": "512ddb6bf9700595c97d1e949958ef5bd3e815f0d745b3278cc911d2f27e1244",
+      "after_sha256": "130a6d2a4536311688565a3cb450828cdde0d81ab636717885fdfee27df8c641",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図版の手前の人物と、左側の奥に見える人物との関係を説明したものとして、最も適切なものはどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/mock02-img-14.jpg",
+            "alt": "舞台上と舞台袖にいる踊り手たちを描いた絵画。",
+            "label": "図版"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "手前の大きな人物は身体の一部が画面の端で切られ、左側の奥には、こちらに背を向けた小さな人物が離れて置かれている。人物同士を密集させず、大きさの差、舞台装置との重なり、端での切断によって、舞台袖と舞台上との空間の隔たりが表されている。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：手前の人物が大きい点は合うが、足元まで収められておらず、身体の一部が画面端で切れている。\nイ：奥の人物が小さい点は合うが、手前の群像とは離れ、重なって密集する配置ではない。\nウ：人物と舞台装置が重なる点は合うが、左奥の人物はこちらに背を向けており、観客へ正面の視線を返していない。\nエ：手前と奥の人物の大きさと隔たり、画面端での切断が、実際の画面に対応する。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "手前の人物を大きく扱い、顔から足元までを画面内に収めて身体全体の動きを示している。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "奥の人物を小さく扱い、手前の人物と重ねることで一つの密集した群像にまとめている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "手前の人物と舞台装置を重ね、奥の人物も正面を向いて観客に視線を返すように配置している。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "手前の人物を画面端で切り、奥に小さく見える人物と離して置くことで空間の隔たりを示している。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.262（3.pdf：8ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\n『改訂版 西洋・日本美術史の基本』p.131・132（1.pdf：121・122ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《舞台袖の踊り子たち》作品情報 | https://www.nga.gov/artworks/52169-dancers-backstage"
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 26,
+      "change_kind": "substantive",
+      "before_sha256": "db0c97c4f7c5b7d6a8f7901e345584a63063b333cc48123720d25cc573ddd91d",
+      "after_sha256": "596adf19aa7bf6ef321bec6dedd74bf640f6aa8290571f2c9c9820c7a65d6203",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "図版を拡大して筆触を観察したとき、色彩表現の方法として適切なものはどれか。"
+          },
+          {
+            "type": "image",
+            "src": "/images/artworks/mock02-img-16.jpg",
+            "alt": "左側の岸辺と右側の海、遠くの空を描いた海岸風景。",
+            "label": "図版"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "画面を拡大すると、色の異なる小さな筆触が隣り合って、岸辺や海、空の色をつくっている。図版はスーラの《ポール＝アン＝ベッサンの海景、ノルマンディー》であり、新印象主義の色彩分割・点描と結び付く。画面上で分けて置かれた色と、見る距離による視覚上のまとまりを区別して理解する。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：図版で確認できる小さな色の筆触と、色を分けて配置する方法に対応する。\nイ：地形に沿う長い連続線を主とする筆触ではなく、小さな筆触の集積が見られる。\nウ：形を一様な濃い輪郭線で囲み、内側を平らに埋める構成ではない。\nエ：筆触を見えなくする方法ではなく、小さく分けた筆触が観察できる。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "青・橙・緑などの小さな筆触を並べ、色を分けたまま画面を組み立てている。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "地形の起伏に沿う長い線状の筆触を重ね、空と崖を滑らかにつないでいる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "濃い褐色の輪郭線で形を区切り、その内側をほぼ均一な色面で塗っている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "滑らかな明暗の移行で筆触を目立たなくし、色の境界をぼかしている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.132・138（1.pdf：122・128ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\n『改訂版 西洋・日本美術史の基本』p.257・262・263（3.pdf：3・8・9ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《ポール＝アン＝ベッサンの海景》作品情報 | https://www.nga.gov/artworks/53139-seascape-port-en-bessin-normandy"
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 70,
+      "change_kind": "wording",
+      "before_sha256": "f1d084cbf74528bc8a20e1f7c4d59edd4b60eeff7099cb0d3a6680a57d6d00a9",
+      "after_sha256": "0aded6affffa2ad2f206b5930602687ccf9a97bc462fc848706c24cc1c501a64",
+      "fields": {
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "作品を「よく作られた物」だけとして見るのではなく、物・像・言葉によって何が示されるかを考える。ここでは、実物・写真・言葉という三つの要素の関係と、コンセプチュアル・アートの概念重視を結び付ける。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：言葉の定義も提示するという特徴を落としている。\nイ：実物・写真・言葉の違いが作品の論点になる。\nウ：物・写真・定義の違いを、同じ種類の実物三つへ変えている。\nエ：作品を運動の計測に置き換えている。"
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 72,
+      "change_kind": "wording",
+      "before_sha256": "ea24b8da0440f4cf2aaf8a00e40fb060036128d44e22544164bd4c6de57cccd4",
+      "after_sha256": "abcece37aad3f720f5049abbc12956a022b1755dc57623ec1c8d5315518f911c",
+      "fields": {
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "日本に伝わった中国絵画は、日本の水墨画を考える手掛かりになる。作家と代表作を結び付けて押さえる。中国美術全体の通史を、この二人だけで代表させるものではない。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：因陀羅は合うが、《四季山水図巻》は雪舟の作例である。\nイ：雪舟の作例を因陀羅へ割り当て、牧谿の対応も異なる。\nウ：二つの作例を逆にしている。\nエ：因陀羅と牧谿を、それぞれの代表作に正しく対応させている。"
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 81,
+      "change_kind": "substantive",
+      "before_sha256": "9d836aefc927f4a49fd8a3df519c14851635ce9eaf8cd170fea41cf79f5ff87b",
+      "after_sha256": "23a7c3df8ec6e5da8d6de79ff05fb398628b02d9279834f9b05ab729f191062a",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "資料1の章Ⅰの体験で、作品Aの「近くで見える筆触」と「離れたときのまとまり」の関係を確かめたい。色点を並べた見本を使う際、比較の条件として最も適切なものはどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "章Ⅰが比較したいのは、同じ色点が見る距離によって別々に見えたり、まとまって見えたりする関係である。照明や色の組合せをそろえて距離を変えれば、その目的に沿った比較ができる。見る距離以外の条件を変えると、見え方の差が何によるものかを分けて考えにくくなる。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：章Ⅰの目的である観察距離の違いを比べ、ほかの条件をそろえている。\nイ：色の組合せによる違いの比較になり、観察距離によるまとまりの比較にはならない。\nウ：照明の色による違いの比較になり、章Ⅰで示された観察距離の比較とは異なる。\nエ：色点の大きさによる違いの比較になり、同じ見本を近くと遠くで見る比較とは異なる。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "見本の照明と並べた色をそろえ、観察する距離を変えて見え方を比べる。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "見本までの距離と照明をそろえ、並べる色の種類を変えて見え方を比べる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "見本までの距離と並べた色をそろえ、照明の色を変えて見え方を比べる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "見本の照明と観察する距離をそろえ、色点の大きさを変えて見え方を比べる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 83,
+      "change_kind": "substantive",
+      "before_sha256": "493045a1fb00e5abb3ecad9c42b6a41e2b846a4123df04354281236b0f6efa4f",
+      "after_sha256": "0f08cd119e6efe5ef26b992d102fe53b011baa48a9f6034576396991a1b2c7e1",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "資料3の模型で、作品Cのような木版画を刷る工程を示す。紙に刷られた像と版面の像の向きも観察できるようにする案として、適切なものはどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "資料3は「彫り残した面」に色を付けて紙へ転写する木版の模型を示している。紙を版面に当てて刷ると、版面と刷り上がった像は左右が反転する。版の凹凸、色が付く面、刷り上がりの向きを順に確かめると、実演の内容を整理できる。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：溝に色を入れる点が資料の木版の模型と合わず、刷った像を同じ向きとする点も合わない。\nイ：表側から輪郭を書き写す操作であり、色を版面から紙へ転写する実演にならない。\nウ：色の付く面、紙への転写、像の左右反転が資料の模型と凸版の刷り方に対応する。\nエ：像が反転する点は合うが、溝の色を紙へ移す説明は凹版の方法である。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "彫った溝に色を詰め、溝に残る色を紙へ移して版面と同じ向きの像を得る。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "彫り残した面に色を付け、版面を透かして紙の表側から像の輪郭を書き写す。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "彫り残した面に色を付け、紙を当ててこすり、版面と左右が反転した像を刷る。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "彫った溝に色を詰め、濡れた紙を押し当て、版面と左右が反転した像を刷る。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 84,
+      "change_kind": "substantive",
+      "before_sha256": "c4b55864df8a286c2e9c5f72a1f459e0f8d1c8f58bd91a42ff79bb6022815146",
+      "after_sha256": "7584b1559cd0533a443bd8b81bddc052744ce08d4aca133182079179446ca89b",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "資料1の章Ⅲに付ける、作品Dの上下二つの画面の表現を比較した説明として、最も適切なものはどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "上段では、左寄りの月の周囲に淡い横方向の雲が広がり、手前の木立との距離が感じられる。下段では、広く明るい雪の面と、樹木や枝の濃い描き込みとが対照をなしている。上下を見比べ、濃淡や描き込みの密度が自然の異なる表情をどう生むかを観察すると、章Ⅲのねらいに沿った説明になる。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：上段の月と淡い雲、下段の明るい雪と濃い樹木という、実際の観察点を結び付けている。\nイ：上段の説明は合うが、下段の樹木や枝には、雪の面よりも濃い描き込みが見られる。\nウ：下段の説明は合うが、上段の月は手前の木立に隠れず、左寄りの開けた空に見える。\nエ：上段の説明は合うが、下段の雪の広い面は、細かな斜線で埋める表現にはなっていない。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "上段は月の周りに淡い雲を広げ、下段は雪の明るい面に樹木の濃い線を重ね、濃淡の対比で景の違いを見せている。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "上段は月の周りに淡い雲を広げ、下段は樹木を雪と同じ淡さで描き、柔らかな調子をそろえて景の違いを見せている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "上段は月を手前の木立の後ろに隠し、下段は雪の明るい面に樹木の濃い線を重ね、濃淡の対比で景の違いを見せている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "上段は月の周りに淡い雲を広げ、下段は雪の面を細かい斜線で埋め、線の密度によって景の違いを見せている。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.162・246・247（2.pdf：16・100・101ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nCleveland Museum of Art《Summer Night; Winter Day》作品情報 | https://www.clevelandart.org/art/1973.156"
+      }
+    },
+    {
+      "exam_number": 2,
+      "question_number": 85,
+      "change_kind": "substantive",
+      "before_sha256": "b1ee2b02fea150ac359f9870e34ead8c69a536273557f9d0feee8450881eb9d6",
+      "after_sha256": "2612dc09e484a320011a0b5b972b19e478a08d33f89aa9e6887f3dd03b7dfdd3",
+      "fields": {
+        "content_blocks": [
+          {
+            "type": "text",
+            "text": "資料3のカード案を用いて、作品Dの技法・材質の解説も作ることになった。カードが学習用の例であることを踏まえた確認方法として、最も適切なものはどれか。"
+          }
+        ],
+        "explanation_blocks": [
+          {
+            "type": "text",
+            "text": "資料3は、カードが学習用の例であって、図版の実物を科学調査した記録ではないと明記している。色材・技法と支持体の用語を学ぶことと、特定の実作品の材質を確かめることを区別する必要がある。作品Dの所蔵館の記録では、紙に墨・金・銀を用いた屏風とされる。画像の色や例示カードだけで正式な材質表示を決めず、対象作品を管理する所蔵先の情報へ照合する。"
+          },
+          {
+            "type": "text",
+            "text": "各選択肢の確認：\nア：学習用の例を実作品の材質記録として扱っており、資料3が示すカードの範囲を超える。\nイ：表示や印刷の見え方だけでは、実際の色材・支持体を確定できない。\nウ：カードの役割と実作品の確認を分け、対象作品の所蔵先の情報に照合する方法である。\nエ：同じ画家でも作品ごとに用いる材料は異なり、別作品の材質をそのまま当てはめることはできない。"
+          }
+        ],
+        "choices": [
+          {
+            "choice_label": "ア",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "用語の意味は学習用カードで確認し、作品Dの正式な技法名もカード例の表記に合わせる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 1
+          },
+          {
+            "choice_label": "イ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "色材と支持体は図版の見え方で区別し、作品Dの技法欄は印刷された色から書き起こす。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 2
+          },
+          {
+            "choice_label": "ウ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "用語の意味は学習用カードで説明し、作品Dの正式な技法名は所蔵先の作品情報で確認する。"
+              }
+            ],
+            "is_correct": true,
+            "display_order": 3
+          },
+          {
+            "choice_label": "エ",
+            "content_blocks": [
+              {
+                "type": "text",
+                "text": "用語の意味は画家の別作品のカードで説明し、その別作品の材質を作品Dの技法欄にも用いる。"
+              }
+            ],
+            "is_correct": false,
+            "display_order": 4
+          }
+        ],
+        "source_text": "『改訂版 西洋・日本美術史の基本』p.258・259・264（3.pdf：4・5・10ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nCleveland Museum of Art《Summer Night; Winter Day》作品情報 | https://www.clevelandart.org/art/1973.156"
+      }
+    }
+  ],
+  "groups": []
+}
