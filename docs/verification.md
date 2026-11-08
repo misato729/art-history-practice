@@ -894,3 +894,12 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 - Netlify手動本番deploy 6aefd9bc8f8bcb1cabe1f1abのpublished/readyを確認。既存stop_builds=falseを維持。公開PC1280px/SP390pxで無料170問→古代8問→問1の分野名「西洋美術史 / 古代の美術」を確認。カテゴリ選択から開始までcatalogは1要求で共有し、横はみ出しなし。初期の公開検査はhydration待ち不足のため停止し、networkidle後に操作する最終手順で両画面成功。
 - 公開APIの古代条件は各模試5/3/3/3/4/5/5/5問を返す。静的出力347ファイルで秘密値一致0・source map0・authoring file0。採点/履歴/paid認可は合成データの独立DBとCIで検証し、本番では実ユーザーの回答追加・購入・会員更新を行っていない。全680問の画面を個別目視したという意味ではない。
 - private検証記録はlocal-only/verification/question-classifications-20261108。本文・選択肢・正答・解説・出典の作り直しなし。料金・Stripe・認証方式は変更なし。
+
+
+## 2026-11-08 書籍依存表現の修正：準備・検証
+
+- 全8回680問の本文・選択肢・解説と共通資料を走査し、162問・共通資料2件の306 text文字列を最小改稿。「本書」「教科書」「テキスト」「教材」「公式問題集」への未提示参照を、作品・様式・技法そのものへの記述へ修正。出典欄の書誌情報、受領原稿archive、選択肢順/正答/問題ID/分野を保持する。本文内の実際に提示される図の参照は残す。
+- content/editorial/standalone-wording.jsonに原稿指紋と修正フィールドを分離保存。既存3系統のbuild converterが受領archiveから再現する際にbefore/after指紋を照合して適用する。各模試版・combined版・分類用の原稿指紋を同期。check-wordingで表示6847textフィールドの対象5語0件を確認し、既存series検査に追加。分類コード/1382関連は変更しない。
+- 共通writerにreviewed wording専用操作を追加。本文text以外・source・答え・順・所属・参照・IDの変更を拒否し、確認済みの純粋な文言修正では旧採点versionと履歴を保持。通常writerは不変の資料参照を削除・再生成せずIDを保持する。実際の参照/所属変更時の更新は維持する。専用CLIは接続先正規化、680問照合、加算ではない文言前後のprivate backup、transaction/既存lock、既存履歴/favorite/分類/選択肢ID/採点version照合を備える。
+- 編集担当wording_editorの全問走査・親の置換差分確認・wording_editorによる更新コード独立レビューで重大指摘なし。模試2問54など、書籍限定を外した際の選択肢全体の一意性を確認。模試6問66は《女》《手》という汎用作品名に対象特定の余地があり、作問側への確認事項として残す。制作年/所蔵先は今回勝手に補っていない。
+- 初回local dry-runはgroup passageのJSONBキー順に依存するhash不一致で停止しcanonical hashへ修正。次のdry-runは共通writerによる資料参照ID再生成を不変検査が検出してrollbackし、上記writer条件修正後に162問更新・rollback成功。警告文から原因を推測して進めていない。

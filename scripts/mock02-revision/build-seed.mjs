@@ -1,3 +1,4 @@
+import {applyWording} from '../editorial-wording.mjs'
 import {readFileSync,writeFileSync} from 'node:fs'
 import {fileURLToPath} from 'node:url'
 import {resolve} from 'node:path'
@@ -22,10 +23,12 @@ export function buildSeed(){
  const combined={schema_version:2,exam_sets:parts.flatMap(p=>p.exam_sets),groups:parts.flatMap((p,i)=>i===1?next.groups:p.groups),questions:parts.flatMap((p,i)=>i===1?next.questions:p.questions)}
  parseContentDocument(combined,EXAM_CONFIG)
  for(const q of next.questions)assert.equal(hash(material(q)),hash(material(revision.questions.find(x=>x.question_number===q.question_number))))
- return {standalone:next,combined,revision}
+ const edited=applyWording(next)
+ combined.groups=parts.flatMap((p,i)=>i===1?edited.groups:p.groups);combined.questions=parts.flatMap((p,i)=>i===1?edited.questions:p.questions)
+ return {standalone:edited,combined,revision}
 }
 export function verifySeed(){const built=buildSeed();assert.deepEqual(read(resolve(root,'content/questions.json')),built.combined);assert.deepEqual(read(resolve(root,'content/mock-exams/mock-02/questions.json')),built.standalone);return built}
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  if(process.argv.includes('--write')){const b=buildSeed();writeFileSync(resolve(root,'content/questions.json'),JSON.stringify(b.combined,null,2)+'\n');writeFileSync(resolve(root,'content/mock-exams/mock-02/questions.json'),JSON.stringify(b.standalone,null,2)+'\n')}
- const b=verifySeed();console.log(JSON.stringify({status:'passed',revision_id:b.revision.revision_id,questions:85,choices:340,normal_references:0,application_shared_questions:5,editorial_fields_unchanged:true,other_mocks_unchanged:true}))
+ const b=verifySeed();console.log(JSON.stringify({status:'passed',revision_id:b.revision.revision_id,questions:85,choices:340,normal_references:0,application_shared_questions:5,received_archive_unchanged:true,reviewed_wording_applied:true,other_mocks_unchanged:true}))
 }

@@ -1,3 +1,4 @@
+import {applyWording} from '../editorial-wording.mjs'
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs'
 import {resolve,basename} from 'node:path'
 import {fileURLToPath} from 'node:url'
@@ -22,7 +23,7 @@ export function convert(n){
   const creditText=[...new Set((i>=80?shared.images:q.images).map(x=>x.asset_id))].map(id=>{const c=credits.get(id);assert.ok(c);return [c.credit,c.museum,c.source_page,c.policy_url,c.license_record].filter(Boolean).join('\n')}).join('\n\n')
   return {exam_number:n,question_number:i+1,group_id:group+(i>=80?1:0),group_question_number:i>=80?i-79:i+1,passage_references:i>=80?[{passage_id:passage,anchor_id:null}]:[],major_category_code:code(q.major_category_code),category_code:code(q.category_code),publication_status:'published',content_blocks:[text(q.stem),...q.images.map(image)],explanation_blocks:[text(q.explanation),...q.choices.map(c=>text(`${c.label}：${c.explanation}`)),...(creditText?[text(creditText)]:[])],source_text:q.source_text,choices:q.choices.map(c=>({choice_label:c.label,content_blocks:[text(c.text)],is_correct:c.is_correct,display_order:c.display_order}))}
  })
- const result={schema_version:2,exam_sets:[{exam_number:n,title:`模擬試験${n}`,publication_status:'published'}],groups,questions};parseContentDocument(result,EXAM_CONFIG);return result
+ const result={schema_version:2,exam_sets:[{exam_number:n,title:`模擬試験${n}`,publication_status:'published'}],groups,questions};parseContentDocument(result,EXAM_CONFIG);return applyWording(result)
 }
 export function verify678(){
  for(const [p,h] of Object.entries(read(resolve(dir,'received-sha256.json'))))assert.equal(sha(readFileSync(resolve(root,p))),h)
@@ -40,5 +41,5 @@ if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   for(const n of [6,7,8]){const p=resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`);mkdirSync(resolve(p,'..'),{recursive:true});const part=convert(n);writeFileSync(p,JSON.stringify(part,null,2)+'\n');parts.push(part)}
   const combined={schema_version:2,exam_sets:parts.flatMap(p=>p.exam_sets),groups:parts.flatMap(p=>p.groups),questions:parts.flatMap(p=>p.questions)};parseContentDocument(combined,EXAM_CONFIG);writeFileSync(resolve(root,'content/questions.json'),JSON.stringify(combined,null,2)+'\n')
  }
- verify678();console.log(JSON.stringify({status:'verified',exams:3,questions:255,choices:1020,received_content_unchanged:true}))
+ verify678();console.log(JSON.stringify({status:'verified',exams:3,questions:255,choices:1020,received_archive_unchanged:true,reviewed_wording_applied:true}))
 }

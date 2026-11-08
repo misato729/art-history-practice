@@ -114,7 +114,7 @@ export async function saveQuestion(raw: QuestionInput, options: SaveOptions = {}
         const leadChanged = JSON.stringify(canonical(before.passage_references)) !== JSON.stringify(canonical(references))
         const placementChanged = before.group_id !== groupId || before.group_question_number !== groupNumber
         if (changed || leadChanged || placementChanged || before.publication_status !== input.publication_status) {
-          await db.questionPassageReference.deleteMany({ where: { question_id: before.id } })
+          if (leadChanged || before.group_id !== groupId) await db.questionPassageReference.deleteMany({ where: { question_id: before.id } })
           await db.question.update({ where: { id: before.id }, data: { ...data, updated_at: new Date(), lock_version: { increment: 1 }, ...((changed || leadChanged) ? { content_version: { increment: 1 } } : {}) } })
         }
         id = before.id
@@ -192,4 +192,26 @@ export async function saveQuestionStructure(id: number, raw: QuestionInput, opti
     for (const [index, ref] of refs.entries()) await db.questionPassageReference.create({ data: { question_id: id, group_id: groupId, passage_id: ref.passage_id, anchor_id: ref.anchor_id, display_order: index + 1 } })
     return loadQuestion(id, db)
   }, options.db)
+}
+
+/** Reviewed wording-only patches keep existing grades valid; answer identities and all non-text fields are immutable. */
+export async function saveQuestionWording(id: number, expectedDigest: string, raw: QuestionInput, db: Database): Promise<QuestionRecord> {
+  return runLearningWrite(async connection => {
+    await query('SELECT pg_advisory_xact_lock($1)::text', [QUESTION_WRITE_LOCK], connection)
+    const before = await loadQuestion(id, connection, { lock: true })
+    if (materialDigest(before) !== expectedDigest) fail(409, 'content_conflict', '文言修正の元原稿が一致しません')
+    const input = validateQuestionInput(raw, configuration)
+    const maskText = (value: unknown): unknown => Array.isArray(value) ? value.map(maskText)
+      : value !== null && typeof value === 'object' ? Object.fromEntries(Object.entries(value).map(([key, item]) => [key, key === 'text' && typeof item === 'string' ? '' : maskText(item)])) : value
+    const protectedFields = (q: QuestionInput | QuestionRecord) => ({
+      exam_number:q.exam_number,question_number:q.question_number,major_category_code:q.major_category_code,category_code:q.category_code,
+      source_text:q.source_text,publication_status:q.publication_status,group_id:q.group_id,group_question_number:q.group_question_number,
+      passage_references:q.passage_references,content_blocks:maskText(q.content_blocks),explanation_blocks:maskText(q.explanation_blocks),
+      choices:q.choices.map(c=>({id:c.id,choice_label:c.choice_label,display_order:c.display_order,is_correct:c.is_correct,content_blocks:maskText(c.content_blocks)})),
+    })
+    if (JSON.stringify(canonical(protectedFields(before))) !== JSON.stringify(canonical(protectedFields(input)))) fail(422, 'validation_error', '文言以外の変更はこの操作で保存できません')
+    const saved = await saveQuestion({...input,lock_version:before.lock_version}, {id,db:connection,preserveHistory:true})
+    if (saved.content_version !== before.content_version) await connection.question.update({where:{id},data:{content_version:before.content_version}})
+    return loadQuestion(id, connection)
+  }, db)
 }

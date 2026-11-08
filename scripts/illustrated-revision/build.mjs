@@ -1,3 +1,4 @@
+import {applyWording} from '../editorial-wording.mjs'
 import {readFileSync,writeFileSync,mkdirSync,copyFileSync,readdirSync} from 'node:fs'
 import {resolve,basename} from 'node:path'
 import {fileURLToPath} from 'node:url'
@@ -24,7 +25,7 @@ export function convert(n){
  })
  for(const g of next.groups){g.publication_status=groupCounts.has(g.id)?'published':'private';if(groupCounts.has(g.id))g.planned_question_count=groupCounts.get(g.id);if(g.id===appGroup){g.title=shared.title;g.passages.push({id:passageId,label:`illustrated-${n}-shared`,display_order:g.passages.length+1,content_blocks:blocks})}}
  parseContentDocument(next,EXAM_CONFIG)
- return next
+ return applyWording(next)
 }
 export function verifyIllustrated(){
  const received=read(resolve(dir,'received-sha256.json'))
@@ -38,5 +39,5 @@ export function verifyIllustrated(){
 }
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  if(process.argv.includes('--write')){for(const n of [1,3,4,5])writeFileSync(resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`),JSON.stringify(convert(n),null,2)+'\n');const parts=Array.from({length:EXAM_CONFIG.exam.set_count},(_,i)=>i+1).map(n=>read(resolve(root,`content/mock-exams/mock-${String(n).padStart(2,'0')}/questions.json`)));writeFileSync(resolve(root,'content/questions.json'),JSON.stringify({schema_version:2,exam_sets:parts.flatMap(x=>x.exam_sets),groups:parts.flatMap(x=>x.groups),questions:parts.flatMap(x=>x.questions)},null,2)+'\n')}
- const c=verifyIllustrated();console.log(JSON.stringify({status:'verified',questions:c.questions.length,choices:c.questions.flatMap(q=>q.choices).length,received_content_unchanged:true}))
+ const c=verifyIllustrated();console.log(JSON.stringify({status:'verified',questions:c.questions.length,choices:c.questions.flatMap(q=>q.choices).length,received_archive_unchanged:true,reviewed_wording_applied:true}))
 }

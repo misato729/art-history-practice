@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 169,
-  "updated_at": "2026-11-08T02:12:36.350Z",
+  "revision": 170,
+  "updated_at": "2026-11-08T02:19:50.439Z",
   "workspace_relative_to_repo": ".",
   "active_context": "development",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T02-12-36-350Z-r169.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T02-19-50-439Z-r170.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -2778,6 +2778,45 @@
             "failed_criteria": []
           }
         ]
+      }
+    },
+    {
+      "id": "art_standalone_wording",
+      "context": "development",
+      "title": "全問の書籍依存表現を単独で読める文言へ修正",
+      "status": "doing",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-08 user: 本書の・本書掲載のような表現を全体確認し修正",
+      "next_action": "改稿差分と原稿再生成の整合を確認",
+      "evidence": [],
+      "last_verified_at": null,
+      "verification_scope": "680問を走査し原稿アーカイブを保持。正答・出典・関連分類・履歴保護を検証。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "依頼された変更範囲の検査が成功する",
+          "verification": "対象に必要な既存検査を選び、結果と根拠を記録する",
+          "status": "pending",
+          "evidence": [],
+          "checked_at": null
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "実装担当以外が受入条件と成果物を確認する",
+          "verification": "別担当のレビューで未解決の問題がないことを確認する",
+          "status": "pending",
+          "evidence": [],
+          "checked_at": null,
+          "reviewer": null
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": []
       }
     }
   ]

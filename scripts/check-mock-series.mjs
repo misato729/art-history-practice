@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import assert from 'node:assert/strict'
+import './check-wording.mjs'
 import { readFileSync } from 'node:fs'
 import { verify678 } from './illustrated-678/build.mjs'
 import { verifyIllustrated } from './illustrated-revision/build.mjs'
@@ -118,7 +119,7 @@ function main() {
   for (const [path, digest] of Object.entries(series.preserved_mock01_files)) assert.equal(hash(path.replace('content/mock-exams/mock-01/','content/revisions/illustrated-01345/mock-1/baseline-artifacts/')), digest)
   // This structural comparison does not replace independent semantic or difficulty review.
   console.log(JSON.stringify({ status:'passed', scope:'historical_series_and_source_checked_active_revision', active_revision:'mock02-textbook-v2-20261107', sets:5, questions:425, choices, new_focuses:newFocuses,
-    artwork_assets:assets.size, image_occurrences:occurrences, mock01_preserved:true, calibration:'historical_editorial_only_v2_not_calibrated' }))
+    artwork_assets:assets.size, image_occurrences:occurrences, historical_mock01_preserved:true,reviewed_wording_applied:true, calibration:'historical_editorial_only_v2_not_calibrated' }))
 }
 try { main() } catch {
   console.error('Mock series validation failed. Check set integration, allocation, editorial records, preserved files and PDF hashes.')
