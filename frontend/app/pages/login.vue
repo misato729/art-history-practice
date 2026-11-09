@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { loginFormSchema } from '../../shared/schemas/auth.ts'
 import { apiFormErrors, focusFormError } from '~/utils/apiFormErrors'
-const route = useRoute()
 const { login } = useAuth()
 const state = reactive({ email: '', password: '' })
 const authForm = useTemplateRef('authForm')
@@ -9,7 +8,7 @@ const submitting = ref(false)
 const errorMessage = ref('')
 watch(state, () => { errorMessage.value = '' })
 
-const redirectPath = computed(() => safeRedirectPath(route.query.redirect))
+const redirectPath = '/'
 
 const submit = async (event: { data: typeof state }) => {
   Object.assign(state, event.data)
@@ -19,7 +18,7 @@ const submit = async (event: { data: typeof state }) => {
   errorMessage.value = ''
   try {
     await login({ email: state.email, password: state.password })
-    await navigateTo(redirectPath.value)
+    await navigateTo('/', { replace: true })
   }
   catch (error: any) {
     authForm.value?.setErrors(apiFormErrors(error, { name: 'ユーザー名', email: 'メールアドレス', password: 'パスワード', password_confirmation: '確認用パスワード' }))

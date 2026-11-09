@@ -91,7 +91,7 @@ test('registration, history, favorites, relogin and cross-tab logout stay consis
   await assertFitsViewport(page)
   await logout(page)
 
-  // A direct protected URL must return here after a successful login.
+  // Successful login returns to the homepage even after a protected URL.
   await page.goto('/favorites')
   await expect(page).toHaveURL(/\/login\?redirect=/)
   await page.getByLabel('メールアドレス', { exact: true }).fill(email)
@@ -101,7 +101,8 @@ test('registration, history, favorites, relogin and cross-tab logout stay consis
   await expect(page).toHaveURL(/\/login\?redirect=/)
   await page.getByLabel('パスワード', { exact: true }).fill(password)
   await page.getByRole('button', { name: 'ログイン', exact: true }).click()
-  await expect(page).toHaveURL('/favorites')
+  await expect(page).toHaveURL('/')
+  await page.goto('/favorites')
   await expect(page.locator('.favorite-card')).toHaveCount(1)
   const firstTabSession = page.waitForResponse(response => new URL(response.url()).pathname === '/api/auth/get-session' && response.ok())
   await page.goto('/history')
