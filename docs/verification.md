@@ -979,3 +979,10 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 - 独立PG16に改稿前680問と合成history3/favorite3/分類1382を用意。最終366問dry-run rollback→apply→repeat0→verify680を成功。365採点版前進、1維持、履歴等不変。全510問/2040肢の採点一致、旧履歴outdated/出典だけの互換、有料匿名401、採点tx rollbackを確認。native dump別test DB復元と、同形式before.jsonからの対象行だけのrestore-testで7表指紋完全一致。restore-testはローカル専用ガード付きで本番へは実行不可。
 - writer新optionsは内部CLIだけで使用し既定の出典置換拒否を維持。採点版保持は出典だけの場合に制限し、default置換拒否・本文改変時の版維持拒否を含むserver2/2、source unit3/3、型、series/分類/再生成が成功。PC1280/SP390で6模試×通常図版/活用=24画面の四肢・図版拡大・共通資料・採点・出典・横幅が成功。
 - 本番read-only planは680問が予定before/afterに一致し未更新366問。現時点で本番書込は未実施。private詳細はlocal-only/received-revisions-20261109/verification/report-ja.md。原稿/baseline/OCR/PDF/校正HTMLをGit・公開出力へ含めない。
+
+## 2026-11-09 模試3〜8受領新版：本番完了
+
+- 実装d208594の[CI42620724128](https://github.com/misato729/art-history-practice/actions/runs/42620724128)はharness/verify/browser全成功。新版画面検査はPC/SP計24画面、画像naturalWidth・拡大も確認。Fly deployment-01M7068SA1AHB9RZQ8B3ZWEYPQへ配信しrelease migration成功。
+- 本番read-only planで680問一致後、backup local-only/backups/received-mock36/2026-11-09T13-03-11-345Zへbefore/receipt/committedを保存。366問と共通資料6件を一括確定。365採点版前進/出典だけ1維持、旧履歴/favorite/分類/選択肢ID保持を照合。直後verify680・未更新0、分類680・未分類0・1382関連一致。本番復元は行っていない。
+- 公開health200、無料1/2代表本文保持と正答等の事前漏えいなし、有料3〜8匿名401、各回代表公開画像6SHA一致。PC/SPの有料本文・採点確認は独立検証DBで行い、実ユーザーの回答追加・購入・検証用本番アカウント作成は未実施。UI/画像の変更がなく既存Netlify画面が更新DBを参照するためNetlify再配信は不要で未実施。Stripe/認証/配信設定変更なし。
+- 受領原稿の510問を照合した結果の実更新366問であり、残る144問の原稿が未反映という意味ではない。未改稿16解説は既存の承認済み校正を保持。全史実の独立再校合・全問盲解・難度実測は今回の技術反映で行っていない。詳細はprivate report-ja.md。
