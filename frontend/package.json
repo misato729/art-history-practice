@@ -36,8 +36,8 @@
     "nuxt": "^4.5.1",
     "pg": "^8.16.3",
     "stripe": "^23.0.1",
-    "tailwindcss": "^4.1.18",
-    "vue": "^3.5.42",
+    "tailwindcss": "^4.3.4",
+    "vue": "^3.5.45",
     "zod": "^4.1.12",
     "@prisma/client": "7.10.1",
     "@prisma/adapter-pg": "7.10.1",
@@ -45,7 +45,7 @@
     "@sentry/node": "11.9.0"
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.2.124",
+    "@iconify-json/lucide": "^1.2.151",
     "@playwright/test": "1.64.1",
     "@types/node": "^26.6.5",
     "@types/pg": "^8.15.6",
