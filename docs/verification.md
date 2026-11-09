@@ -971,3 +971,11 @@ delivery_auditの独立ソース監査でも上記4経路と正常通信の区�
 - 公開ページもPC/SPでconfig要求を意図的に待たせ、読み込み中に準備中警告/未設定tableなし→実際の販売者情報へ表示、config1要求を確認。commit/pushは今回未依頼のため行わず、変更差分を保持した。
 
 - 追記: ユーザーの追加依頼により、AdSense追加と特商法ページ修正および対応する検証・完了記録をまとめてcommit/pushする。両変更は上記のとおり本番反映・公開確認済み。
+
+## 2026-11-09 模試3〜8の受領新版：変換と独立検証
+
+- 3ZIPの510問を受領、ユーザー返信でcommit/push/本番反映まで許可。原稿はprivateに格納し、本文を再作問せず現行schemaへ変換。受領baselineの差は既存editorial校正に対応。未改稿16問の解説だけ既存の承認済み値を保持して書籍依存表現の逆戻りを防ぐ。模試1/2・ID・正答位置・分類・公開範囲は維持。
+- 最終更新366問（実質365/出典だけ1=模試4問72）と共通資料6件。図版は既存画像のSHA完全一致で再利用し新規取得なし。外部確認資料9参照を区別して保持。review_received_conversionが510本文/2040肢、通常135/共有24図版とalt/label/共通表/分類/3way校正保持、共通writer/更新/復元の独立レビューを実施し重大な未解決事項なし。独立した全問盲解や新規内容審査の実施を意味しない。
+- 独立PG16に改稿前680問と合成history3/favorite3/分類1382を用意。最終366問dry-run rollback→apply→repeat0→verify680を成功。365採点版前進、1維持、履歴等不変。全510問/2040肢の採点一致、旧履歴outdated/出典だけの互換、有料匿名401、採点tx rollbackを確認。native dump別test DB復元と、同形式before.jsonからの対象行だけのrestore-testで7表指紋完全一致。restore-testはローカル専用ガード付きで本番へは実行不可。
+- writer新optionsは内部CLIだけで使用し既定の出典置換拒否を維持。採点版保持は出典だけの場合に制限し、default置換拒否・本文改変時の版維持拒否を含むserver2/2、source unit3/3、型、series/分類/再生成が成功。PC1280/SP390で6模試×通常図版/活用=24画面の四肢・図版拡大・共通資料・採点・出典・横幅が成功。
+- 本番read-only planは680問が予定before/afterに一致し未更新366問。現時点で本番書込は未実施。private詳細はlocal-only/received-revisions-20261109/verification/report-ja.md。原稿/baseline/OCR/PDF/校正HTMLをGit・公開出力へ含めない。

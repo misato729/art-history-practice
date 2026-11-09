@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 184,
-  "updated_at": "2026-11-08T06:10:25.010Z",
+  "revision": 185,
+  "updated_at": "2026-11-09T12:50:27.866Z",
   "workspace_relative_to_repo": ".",
   "active_context": "development",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-08T06-10-25-010Z-r184.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-09T12-50-27-866Z-r185.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -3097,6 +3097,45 @@
             "failed_criteria": []
           }
         ]
+      }
+    },
+    {
+      "id": "art_received_mock36_revision",
+      "context": "development",
+      "title": "受領新版の模試3〜8を原稿維持で更新・検証・本番反映",
+      "status": "doing",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-09 user: 3ZIP受領。返信でcommit push本番反映まで明示許可",
+      "next_action": "差分をcommit/pushしCI後にバックアップ付き本番更新と公開確認を行う",
+      "evidence": [],
+      "last_verified_at": null,
+      "verification_scope": "510問/画像/共通資料、既存ID・1/2・履歴・favorite・分類保持、変更版採点、反復/復元、PC/SP公開",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "変換/更新/保持/復元/公開検査",
+          "verification": "既存検査と対象DB/UI検証",
+          "status": "pending",
+          "evidence": [],
+          "checked_at": null
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "原稿変換と更新の独立レビュー",
+          "verification": "review_received_conversionが差分を確認",
+          "status": "pending",
+          "evidence": [],
+          "checked_at": null,
+          "reviewer": null
+        }
+      ],
+      "execution": {
+        "worker": "root",
+        "max_attempts": 3,
+        "attempts": []
       }
     }
   ]

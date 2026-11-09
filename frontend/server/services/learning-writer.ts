@@ -222,13 +222,14 @@ export async function saveQuestionWording(id: number, expectedDigest: string, ra
 }
 
 /** A reviewed substantive revision keeps stable IDs/history but advances the grading version. */
-export async function saveQuestionRevision(id: number, expectedDigest: string, raw: QuestionInput, db: Database): Promise<QuestionRecord> {
+export async function saveQuestionRevision(id: number, expectedDigest: string, raw: QuestionInput, db: Database, options: { replaceReviewedSources?: boolean; preserveScoringVersion?: boolean } = {}): Promise<QuestionRecord> {
   return runLearningWrite(async connection => {
     await query('SELECT pg_advisory_xact_lock($1)::text', [QUESTION_WRITE_LOCK], connection)
     const before = await loadQuestion(id, connection, { lock: true })
     if (materialDigest(before) !== expectedDigest) fail(409, 'content_conflict', '改稿元の原稿が一致しません')
     const input = validateQuestionInput(raw, configuration)
-    if (input.source_text !== before.source_text && !(before.source_text && input.source_text?.startsWith(before.source_text + '\n'))) fail(422, 'validation_error', '既存出典を保持した追記だけが可能です')
+    if (!options.replaceReviewedSources && input.source_text !== before.source_text && !(before.source_text && input.source_text?.startsWith(before.source_text + '\n'))) fail(422, 'validation_error', '既存出典を保持した追記だけが可能です')
+    if (options.preserveScoringVersion && JSON.stringify(canonical([input.content_blocks,input.explanation_blocks,input.choices.map(c=>c.content_blocks)])) !== JSON.stringify(canonical([before.content_blocks,before.explanation_blocks,before.choices.map(c=>c.content_blocks)]))) fail(422, 'validation_error', '採点版を維持できるのは出典だけの変更です')
     const protectedFields = (q: QuestionInput | QuestionRecord) => ({
       exam_number:q.exam_number,question_number:q.question_number,major_category_code:q.major_category_code,category_code:q.category_code,
       publication_status:q.publication_status,group_id:q.group_id,group_question_number:q.group_question_number,
@@ -237,7 +238,7 @@ export async function saveQuestionRevision(id: number, expectedDigest: string, r
     })
     if (JSON.stringify(canonical(protectedFields(before))) !== JSON.stringify(canonical(protectedFields(input)))) fail(422, 'validation_error', '改稿では正答位置・ID・出典・分野・所属を変更できません')
     if (materialDigest(before) !== materialDigest(input)) {
-      await connection.question.update({where:{id},data:{content_blocks:json(input.content_blocks),explanation_blocks:json(input.explanation_blocks),source_text:input.source_text,content_version:{increment:1},lock_version:{increment:1},updated_at:new Date()}})
+      await connection.question.update({where:{id},data:{content_blocks:json(input.content_blocks),explanation_blocks:json(input.explanation_blocks),source_text:input.source_text,content_version:{increment:options.preserveScoringVersion ? 0 : 1},lock_version:{increment:1},updated_at:new Date()}})
       for (const choice of input.choices) {
         const old = before.choices.find(c=>c.id===choice.id)!
         if (JSON.stringify(canonical(old.content_blocks)) !== JSON.stringify(canonical(choice.content_blocks))) await connection.questionChoice.update({where:{id:old.id},data:{content_blocks:json(choice.content_blocks),updated_at:new Date()}})
