@@ -538,49 +538,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の中央画面を見て、背景と人物の前後関係を説明したものを選びなさい。"
+          "text": "十字架の足もとで嘆く女性たちと、杯を持って飛ぶ天使を描いた14世紀の板絵である。ビザンティンと西欧の磔刑図の伝統を取り入れたこの工房は、どの海港都市で活動したか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-01.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock05-img-01.jpg",
+          "alt": "金色の背景の前に中央の人物と、その左右や下方の人々を配した宗教画",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "象徴的な金地と、場所や行為を区別する人物配置が共存する。主題名を先に読むのではなく、画面の位置関係を根拠にする。"
+          "text": "パオロ・ヴェネツィアーノの《磔刑》では、キリストの血を受ける天使にビザンティンの系譜があり、気を失う聖母や十字架にすがるマグダラのマリアには西欧の伝統がうかがえる。"
         },
         {
           "type": "text",
-          "text": "ア：母親と幼児は同じ寝台上に並ばず、幼児は奥の飼葉桶に置かれている。"
+          "text": "ア：南イタリアのアマルフィも東地中海と交易した海洋都市だが、この板絵の作者はヴェネツィアで活動した。"
         },
         {
           "type": "text",
-          "text": "イ：中央には屋根があり、母親は玉座に座っていない。"
+          "text": "イ：ピサはトスカーナの海洋都市で、大聖堂や洗礼堂の彫刻で知られるが、この板絵の工房の活動都市とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：背景は透視図的な室内の床ではなく、母親も入口に立っていない。"
+          "text": "ウ：リグーリア海に面するジェノヴァも海上貿易で栄えたが、この磔刑図を制作した工房の本拠はヴェネツィアである。"
         },
         {
           "type": "text",
-          "text": "エ：屋根の内部の幼児、横たわる母親、手前の小人物という配置を画像から確かめられる。"
+          "text": "エ：パオロ・ヴェネツィアーノの工房はヴェネツィアで活動し、サン・マルコ聖堂にも祭壇画を納めた。"
         },
         {
           "type": "text",
-          "text": "Duccio di Buoninsegna《The Nativity with the Prophets Isaiah and Ezekiel》、1308-1311。National Gallery of Art, Washington、1937.1.8。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/10-nativity-prophets-isaiah-and-ezekiel\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Paolo Veneziano《The Crucifixion》、c. 1340/1345。National Gallery of Art, Washington、1939.1.143。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.19・60・61・123（1.pdf：PDF 9・50・51・113ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Crucifixion》 | https://www.nga.gov/artworks/284-crucifixion",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "金色の背景の前に寝台を置き、幼児と母親を同じ寝台の上に並べている。"
+              "text": "アマルフィ"
             }
           ],
           "is_correct": false,
@@ -591,7 +591,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "金色の背景に建物を置かず、玉座の母親と幼児を左右の人物が囲んでいる。"
+              "text": "ピサ"
             }
           ],
           "is_correct": false,
@@ -602,7 +602,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "奥へ続く室内の床を背景とし、幼児を抱く母親を入口の前に立たせている。"
+              "text": "ジェノヴァ"
             }
           ],
           "is_correct": false,
@@ -613,7 +613,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "金色の背景の前に屋根のある空間を設け、幼児の寝る場所と母親、手前の世話の場面を描き分けている。"
+              "text": "ヴェネツィア"
             }
           ],
           "is_correct": true,
@@ -803,55 +803,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図A・Bはいずれも受胎告知に関わる作品である。背景と人物の関係について、二図の観察に合う説明はどれか。"
+          "text": "剣と本を持つ聖人の足もとに、男女が小さくひざまずいている。14世紀のフィレンツェでこの板絵を注文した人々について、有力とされる説明はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-01.jpg",
-          "alt": "設問で参照する作品図版A",
-          "label": "図A"
-        },
-        {
-          "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-02.jpg",
-          "alt": "設問で参照する作品図版B",
-          "label": "図B"
+          "src": "/images/artworks/mock04-img-01.jpg",
+          "alt": "金色の背景に人物を配した縦長の絵画",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "Aの金色の地と衣文、Bの柱・床・開口部の重なりをともに確認できる。"
+          "text": "ベルナルド・ダッディは、聖パウロと同じ時空にいるかのように寄進者を描きながら、大きさを変えて両者の地位を示した。どの信心会の会員だったのかを確定できる記録は残っていない。"
         },
         {
           "type": "text",
-          "text": "ア：Aの金色の地と衣文、Bの柱・床・開口部の重なりをともに確認できる。"
+          "text": "ア：所蔵館は、男女を、守護聖人への祈りや慈善活動に携わる在俗の信心会の寄進者と考えている。"
         },
         {
           "type": "text",
-          "text": "イ：AとBの背景の性質を取り違えている。"
+          "text": "イ：男女を一人の家長を中心とした一族と特定する材料はなく、守護聖人のもとに集う信心会の解釈が有力である。"
         },
         {
           "type": "text",
-          "text": "ウ：Aは薄暗い室内でなく金地、Bは屋外の大気表現ではなく建築の内部である。"
+          "text": "ウ：下方に描かれた祈り手には女性がおり、服装も一つの男子修道会の修道衣にはそろっていない。"
         },
         {
           "type": "text",
-          "text": "エ：Aの人物は大きく示され、Bには柱を挟んで向き合う二人物がいる。"
+          "text": "エ：男女は説教や洗礼の物語を演じるのではなく、正面を向いた聖人に祈りをささげる寄進者と考えられている。"
         },
         {
           "type": "text",
-          "text": "Simone Martini《The Angel of the Annunciation》、c. 1330。National Gallery of Art, Washington、1939.1.216。 CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/357-angel-annunciation\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nFra Filippo Lippi《The Annunciation》、c. 1435/1440。National Gallery of Art, Washington、1943.4.35。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/12133-annunciation\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Bernardo Daddi《Saint Paul and a Group of Worshippers》、1333。National Gallery of Art, Washington、1937.1.3。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.60・61・62・120・123（1.pdf：PDF 50・51・52・110・113ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Saint Paul and a Group of Worshippers》 | https://www.nga.gov/artworks/1-saint-paul-and-group-worshippers",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは金地を背に流れる衣文が目立ち、Bは柱を挟む人物と床・開口部が室内の奥行きをつくる。"
+              "text": "聖パウロを守護聖人と仰いだ、在俗の信徒の会員たち。"
             }
           ],
           "is_correct": true,
@@ -862,7 +856,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは床の線が人物の背後へ集まり、Bは金地の前に二人を同じ平面上へ並べている。"
+              "text": "一人の君主を祖先とする、宮廷の君主一族。"
             }
           ],
           "is_correct": false,
@@ -873,7 +867,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは薄暗い部屋から人物を明暗で浮かせ、Bは屋外の遠景へ人物の輪郭を溶かしている。"
+              "text": "修道院の囲いの中で共同生活を送る、男子修道会の会員たち。"
             }
           ],
           "is_correct": false,
@@ -884,7 +878,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは人物を壁の奥へ小さく置き、Bは正面の一人を左右対称の装飾枠で囲んでいる。"
+              "text": "聖パウロの説教を聞いて洗礼を受けた、古代の改宗者たち。"
             }
           ],
           "is_correct": false,
@@ -993,38 +987,38 @@
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-03.jpg",
-          "alt": "設問で参照する作品図版",
+          "src": "/images/artworks/fig-history-01.jpg",
+          "alt": "円形の画面。幼い子を抱く女性の前に人々がひざまずき、後ろには長い行列が続く。",
           "label": "図1"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "幼児を抱く聖母へ来訪者が跪き、贈り物を捧げる人物群が描かれている。"
+          "text": "フラ・アンジェリコとフラ・フィリッポ・リッピによる《東方三博士の礼拝》。長い行列の先頭で、博士たちが聖母の膝にいる幼子に礼をささげる。幼いキリストを前にした来訪者と贈り物が、この主題を識別する手掛かりとなる。"
         },
         {
           "type": "text",
-          "text": "ア：幼児を抱く聖母へ来訪者が跪き、贈り物を捧げる人物群が描かれている。"
+          "text": "ア：東方から訪れた博士たちが、幼子キリストに贈り物を捧げる場面である。"
         },
         {
           "type": "text",
-          "text": "イ：降誕図の飼葉桶の幼児と横たわる聖母の構成ではない。"
+          "text": "イ：キリストの降誕は誕生そのものを表し、博士たちの来訪を主題とする礼拝図と区別する。"
         },
         {
           "type": "text",
-          "text": "ウ：祭壇を挟んで幼児を祭司へ渡す場面ではない。"
+          "text": "ウ：神殿奉献は、マリアとヨセフが幼いキリストを神殿に連れて行く場面である。"
         },
         {
           "type": "text",
-          "text": "エ：幼児二人と聖母の関係ではなく、聖母子の前に多くの礼拝者が集まっている。"
+          "text": "エ：聖母子と幼児洗礼者ヨハネの図では、キリストとヨハネという二人の幼児を描く。"
         },
         {
           "type": "text",
-          "text": "Sandro Botticelli《The Adoration of the Magi》、c. 1478/1482。National Gallery of Art, Washington、1937.1.22。 CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/24-adoration-magi\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Fra Angelico and Fra Filippo Lippi《The Adoration of the Magi》、c. 1440/1460。National Gallery of Art, Washington、1952.2.2。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.123（1.pdf：PDF 113ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Adoration of the Magi》 | https://www.nga.gov/artworks/41581-adoration-magi",
       "choices": [
         {
           "choice_label": "ア",
@@ -1084,49 +1078,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の女性の顔の近くにある物と、それに関わる人物を観察し、主題との結び付きを選びなさい。"
+          "text": "金襴の外套と、先端が角のように立ち上がる帽子を身に着けたこの人物を、ティツィアーノが描いた。衣装が示す地位はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-04.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock05-img-03.jpg",
+          "alt": "独特の形の帽子と、金色の装飾のある衣服を着けた年老いた人物の肖像画",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "顔を映す鏡と、それを支える翼のある幼児がヴィーナスの主題に結び付く。"
+          "text": "ヴェネツィア共和国では、選挙によって元首ドージェが選ばれた。ティツィアーノはグリッティの堂々とした姿に、金糸を用いた装束と元首の帽子を組み合わせた。"
         },
         {
           "type": "text",
-          "text": "ア：顔を映す鏡と、それを支える翼のある幼児がヴィーナスの主題に結び付く。"
+          "text": "ア：図はアンドレア・グリッティの肖像で、独特の形の帽子はヴェネツィア共和国の元首ドージェのしるしである。"
         },
         {
           "type": "text",
-          "text": "イ：女性の近くの持物は弓でなく鏡である。"
+          "text": "イ：マントヴァの宮廷を治めたゴンザーガ家の公爵は、グリッティが就いたヴェネツィアの元首職とは別である。"
         },
         {
           "type": "text",
-          "text": "ウ：盾や武装した人物はこの図の手掛かりではない。"
+          "text": "ウ：フェラーラを治めたエステ家の公爵は世襲の領主で、ヴェネツィアのドージェの帽子を用いる官職ではない。"
         },
         {
           "type": "text",
-          "text": "エ：麦の穂ではなく鏡があり、翼のある幼児との関係が重要である。"
+          "text": "エ：正義の旗手はフィレンツェの役職で、グリッティの帽子が示す都市と職位とは異なる。"
         },
         {
           "type": "text",
-          "text": "Titian《Venus with a Mirror》、c. 1555。National Gallery of Art, Washington、1937.1.34。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/41-venus-mirror\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Titian《Doge Andrea Gritti》、c. 1546/1550。National Gallery of Art, Washington、1961.9.45。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.65・123（1.pdf：PDF 55・113ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Doge Andrea Gritti》 | https://www.nga.gov/artworks/46144-doge-andrea-gritti\nワシントン・ナショナル・ギャラリー「ティツィアーノ《元首アンドレア・グリッティ》作品研究」 | https://www.nga.gov/research/publications/italian-paintings-sixteenth-century-0/italian-paintings-sixteenth-century-doge-andrea-gritti-c-15461550",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "鏡を支える翼のある幼児 ― 愛と美の女神ヴィーナス"
+              "text": "ヴェネツィア共和国の元首"
             }
           ],
           "is_correct": true,
@@ -1137,7 +1131,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "弓を支える翼のある幼児 ― 狩猟の女神ディアナ"
+              "text": "マントヴァのゴンザーガ家の公爵"
             }
           ],
           "is_correct": false,
@@ -1148,7 +1142,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "盾を差し出す武装した人物 ― 知恵の女神ミネルヴァ"
+              "text": "フェラーラのエステ家の公爵"
             }
           ],
           "is_correct": false,
@@ -1159,7 +1153,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "麦の穂を差し出す幼児 ― 豊穣の女神ケレス"
+              "text": "フィレンツェ共和国の正義の旗手"
             }
           ],
           "is_correct": false,
@@ -1264,49 +1258,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の髪、顔、衣服を見て、人物の描写の特徴として最も適切なものを選びなさい。"
+          "text": "図のようなザクセン選帝侯家の肖像を描いたルーカス・クラーナハ（父）は、宮廷の注文を受ける工房をもち、印刷にも携わった。この工房の拠点となった都市はどこか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-05.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock04-img-05.jpg",
+          "alt": "装飾の多い赤い衣服と首飾りを着けた幼い人物の肖像画",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "細部の線と、顔・衣服の明暗による形を画像から確認できる。"
+          "text": "クラーナハ（父）は1505年にヴィッテンベルクの選帝侯宮廷に仕えた。そこで育てた工房は、君主一族の肖像や宗教画の制作に加え、版画を通じて図像を広く伝える場となった。"
         },
         {
           "type": "text",
-          "text": "ア：顔の輪郭は背景へ大きく溶けず、髪の細部も明瞭である。"
+          "text": "ア：レーゲンスブルクで市政にも携わりながら制作したのはアルトドルファーで、クラーナハの宮廷工房は別の都市にあった。"
         },
         {
           "type": "text",
-          "text": "イ：図の描写は新印象主義的な等大の色点の配列ではない。"
+          "text": "イ：ニュルンベルクはデューラーの工房と版画制作で知られ、クラーナハの選帝侯付き工房はヴィッテンベルクに置かれた。"
         },
         {
           "type": "text",
-          "text": "ウ：細部の線と、顔・衣服の明暗による形を画像から確認できる。"
+          "text": "ウ：クラーナハ（父）はヴィッテンベルクの選帝侯宮廷に仕え、同市に大規模な工房を構えた。"
         },
         {
           "type": "text",
-          "text": "エ：顔には陰影があり、衣服の襞も平らな色面だけで処理されていない。"
+          "text": "エ：アウクスブルクはホルバイン家やブルクマイアーらが活動した都市だが、ザクセン選帝侯に仕えたクラーナハの工房の所在地とは異なる。"
         },
         {
           "type": "text",
-          "text": "Albrecht Dürer《Portrait of a Clergyman (Johann Dorsch?)》、1516。National Gallery of Art, Washington、 1952.2.17。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/41600-portrait-clergyman-johann-dorsch\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Lucas Cranach the Elder《A Prince of Saxony》、c. 1517。National Gallery of Art, Washington、1947.6.1。 Ralph and Mary Booth Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.65・66・121・122・132（1.pdf：PDF 55・56・111・112・122ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《A Prince of Saxony》 | https://www.nga.gov/artworks/33750-prince-saxony\nロンドン・ナショナル・ギャラリー「ルーカス・クラーナハ（父）」 | https://www.nationalgallery.org.uk/artists/lucas-cranach-the-elder\nワシントン・ナショナル・ギャラリー「ルーカス・クラーナハ（父）」 | https://www.nga.gov/artists/1179-lucas-cranach-elder",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "顔を強い明暗で暗い背景へ溶け込ませ、髪と衣服も広い筆触へまとめている。"
+              "text": "レーゲンスブルク"
             }
           ],
           "is_correct": false,
@@ -1317,7 +1311,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "顔の輪郭を色点で分割し、衣服にも同程度の小さな点を並べている。"
+              "text": "ニュルンベルク"
             }
           ],
           "is_correct": false,
@@ -1328,7 +1322,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "髪の細い線や顔の細部を描き分け、衣服の襞と輪郭も比較的明瞭に示している。"
+              "text": "ヴィッテンベルク"
             }
           ],
           "is_correct": true,
@@ -1339,7 +1333,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "顔と衣服を均一な輪郭線で囲み、内部の陰影を抑えた平らな色面にしている。"
+              "text": "アウクスブルク"
             }
           ],
           "is_correct": false,
@@ -1529,49 +1523,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の自画像の顔を、暗い衣服や背景と比較しなさい。レンブラントの人物表現を捉えたものはどれか。"
+          "text": "手前の川岸に荷を扱う商人たちを配し、樹木の先に遠く淡い山並みを望ませた風景である。ローマ周辺の自然に取材し、このような光の中に理想の風景を組み立てた画家は誰か。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-07.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock05-img-08.jpg",
+          "alt": "水辺の舟や人々と、樹木や古風な建物を組み合わせた風景画",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "明るい顔と暗い衣服・背景の対照に、顔に残る絵具の起伏や筆跡が加わる。レンブラントの人物表現を光と物質の両面から読む。"
+          "text": "クロード・ロランはローマを拠点とし、実地で観察した自然をもとに画面を構成した。本作では、船に荷を積む手前の人々から、川の屈曲をたどって淡い遠景まで視線を移せる。"
         },
         {
           "type": "text",
-          "text": "ア：スーラの点描の原理とは異なる。"
+          "text": "ア：ローザもローマで制作したが、荒涼とした山地や荒々しい自然を扱った風景で知られ、この絵の作者とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：図の顔は明るい主要な焦点である。"
+          "text": "イ：プッサンもローマで理想化した風景を描いたが、この《商人のいる風景》はクロード・ロランの作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：明るい顔と暗い衣服・背景の対照に、顔に残る絵具の起伏や筆跡が加わる。レンブラントの人物表現を光と物質の両面から読む。"
+          "text": "ウ：図はクロード・ロランの《商人のいる風景》で、川岸の身近な営みと光の広がる遠景を結ぶ初期の作品である。"
         },
         {
           "type": "text",
-          "text": "エ：強い明暗差や筆触を排した説明になっている。"
+          "text": "エ：ライスダールはハールレムやアムステルダムで活動し、海辺や森林などを描いたオランダの風景画家である。"
         },
         {
           "type": "text",
-          "text": "Rembrandt van Rijn《Self-Portrait》、1659。National Gallery of Art, Washington、1937.1.72。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/79-self-portrait\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Claude Lorrain《Landscape with Merchants》、c. 1629。National Gallery of Art, Washington、1952.5.44。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.70・124（1.pdf：PDF 60・114ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Landscape with Merchants》 | https://www.nga.gov/artworks/41657-landscape-merchants\nワシントン・ナショナル・ギャラリー「クロード・ロラン」 | https://www.nga.gov/artists/1145-claude-lorrain",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "顔と衣服へ同じ厚みの小さな色点を置き、見る距離による混色を主な課題にする。"
+              "text": "サルヴァトル・ローザ"
             }
           ],
           "is_correct": false,
@@ -1582,7 +1576,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "衣服だけを明るく滑らかに仕上げ、顔は暗部に沈めて識別しにくくする。"
+              "text": "ニコラ・プッサン"
             }
           ],
           "is_correct": false,
@@ -1593,7 +1587,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "顔を明るい焦点にし、厚みや筆触のある絵肌を暗い衣服・背景と対比させる。"
+              "text": "クロード・ロラン"
             }
           ],
           "is_correct": true,
@@ -1604,7 +1598,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "顔と背景を均一な細線で区切り、明暗差をなくして装飾的な面にする。"
+              "text": "ヤーコプ・ファン・ライスダール"
             }
           ],
           "is_correct": false,
@@ -1794,49 +1788,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の画面周縁にある建築と、中央の空・人物の配置を説明したものはどれか。"
+          "text": "青年に追われた女性の指先から、葉のついた枝が伸び始めている。この変身をティエポロが描く際に典拠とした古典はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-10.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock05-img-09.jpg",
+          "alt": "複数の男女を描いた絵画",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "周辺の建築、広い空、短縮された身体が下から仰ぐ空間をつくる。"
+          "text": "ティエポロはアポロンの追跡が終わる瞬間を選んだ。水の流れ出す壺を抱えた老人はダフネの父である河神ペネイオスで、娘は父のもとで月桂樹へ姿を変える。"
         },
         {
           "type": "text",
-          "text": "ア：建築と人物は単一の正面壁の構成になっていない。"
+          "text": "ア：『アエネイス』はトロイアを逃れた英雄アエネアスの遍歴とイタリアでの戦いを主に描く。"
         },
         {
           "type": "text",
-          "text": "イ：周辺の建築、広い空、短縮された身体が下から仰ぐ空間をつくる。"
+          "text": "イ：アポロンに追われたダフネが月桂樹に変わる物語は、オウィディウスの『変身物語』に収められている。"
         },
         {
           "type": "text",
-          "text": "ウ：空は小窓に限定されず、画面中央へ大きく開いている。"
+          "text": "ウ：『神統記』は天地の起源とギリシアの神々の系譜を語り、この絵が依拠する叙述とは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：床を上から見る配置ではなく、上方を仰ぐ構想である。"
+          "text": "エ：『オデュッセイア』はトロイア戦争後にオデュッセウスが故国イタケへ帰るまでを語る。"
         },
         {
           "type": "text",
-          "text": "Giovanni Battista Tiepolo《Wealth and Benefits of the Spanish Monarchy under Charles III》、1762。National Gallery of Art, Washington、1943.4.39。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/12137-wealth-and-benefits-spanish-monarchy-under-charles-iii\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Giovanni Battista Tiepolo《Apollo Pursuing Daphne》、c. 1755/1760。National Gallery of Art, Washington、1952.5.78。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.73・126（1.pdf：PDF 63・116ページ）\n『改訂版 西洋・日本美術史の基本』p.261（3.pdf：PDF 7ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Apollo Pursuing Daphne》 | https://www.nga.gov/artworks/41693-apollo-pursuing-daphne",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "周縁の建築が正面の壁となり、人物はその壁の手前で同じ高さに並ぶ。"
+              "text": "ウェルギリウス『アエネイス』"
             }
           ],
           "is_correct": false,
@@ -1847,7 +1841,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "周縁の建築を越えて空が開き、短縮された人物が上方へ広がって見える。"
+              "text": "オウィディウス『変身物語』"
             }
           ],
           "is_correct": true,
@@ -1858,7 +1852,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "中央の空が窓の小さな枠に収まり、人物は建築の外側へ排されている。"
+              "text": "ヘシオドス『神統記』"
             }
           ],
           "is_correct": false,
@@ -1869,7 +1863,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "周縁の建築を上から見下ろし、中央には床面に立つ人物が整列している。"
+              "text": "ホメロス『オデュッセイア』"
             }
           ],
           "is_correct": false,
@@ -2059,55 +2053,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図Aは水彩、図Bは油彩の習作である。空の明暗のつながり方を比較した記録として適切なのはどれか。"
+          "text": "ドーヴァー沖の波間に、煙を引く船を描いた水彩である。この画家は油彩《戦艦テメレール号》で、蒸気船にどのような役割を与えたか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-36.jpg",
-          "alt": "設問で参照する作品図版A",
-          "label": "図A"
-        },
-        {
-          "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-34.jpg",
-          "alt": "設問で参照する作品図版B",
-          "label": "図B"
+          "src": "/images/artworks/mock03-img-36.jpg",
+          "alt": "淡い空と白く波立つ海の間に小さな船が浮かび、煙突から上がる煙が左へ細く流れている。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "異なる画材によって、空や光の状態を捉える方法も異なる。淡さ・厚さだけで完成度を断定せず、提示された二画像の見え方を比較する。"
+          "text": "ターナーは古い帆船と小さな蒸気曳船を夕空の下に並べた。図のドーヴァー沖の定期船とともに、蒸気動力の船がイギリスの海や川の新しい風景となった時代を伝える。"
         },
         {
           "type": "text",
-          "text": "ア：Aの空の境は硬く区切られておらず、Bには雲の明暗と筆触の違いがある。"
+          "text": "ア：テメレール号には海戦に加わった経歴があるが、絵に描かれているのは戦闘終了から何十年も後の姿である。"
         },
         {
           "type": "text",
-          "text": "イ：Aの淡いにじみとBの雲を形づくる筆触を、画像そのものから比較できる。"
+          "text": "イ：ターナーは帆走軍艦を最後の停泊地に向けて曳航する、煙を上げた蒸気曳船を前景に置いた。"
         },
         {
           "type": "text",
-          "text": "ウ：Aは均一な黒線、Bは平坦な輪郭内の塗りという構成ではない。"
+          "text": "ウ：画中の軍艦は新造船ではなく、解体のために売却された帆船である。"
         },
         {
           "type": "text",
-          "text": "エ：Aは淡く、Bには空と雲が大きく描かれている。"
+          "text": "エ：テメレール号は座礁によって救助を待つ場面でなく、退役して解体場へ運ばれる場面で描かれている。"
         },
         {
           "type": "text",
-          "text": "Joseph Mallord William Turner《A Packet Boat off Dover》、c. 1836。National Gallery of Art, Washington、 1986.72.18。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/69409-packet-boat-dover\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nJohn Constable《Cloud Study: Stormy Sunset》、1821-1822。National Gallery of Art, Washington、1998.20.1。 CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/104243-cloud-study-stormy-sunset\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Joseph Mallord William Turner《A Packet Boat off Dover》、c. 1836。National Gallery of Art, Washington、1986.72.18。 Paul Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.129（1.pdf：PDF 119ページ）\n『改訂版 西洋・日本美術史の基本』p.258・259・261（3.pdf：PDF 4・5・7ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《A Packet Boat off Dover》 | https://www.nga.gov/artworks/69409-packet-boat-dover\nロンドン・ナショナル・ギャラリー《戦艦テメレール号》 | https://www.nationalgallery.org.uk/paintings/joseph-mallord-william-turner-the-fighting-temeraire",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは明暗を硬い輪郭で区切り、Bは輪郭のない一様な淡色だけで空を示す。"
+              "text": "海戦に参加する帆走軍艦へ、弾薬を届ける。"
             }
           ],
           "is_correct": false,
@@ -2118,7 +2106,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは淡い色のにじみを広げ、Bは雲の明暗に方向の異なる筆触を残している。"
+              "text": "帆走軍艦を、解体のために河の上流へ曳く。"
             }
           ],
           "is_correct": true,
@@ -2129,7 +2117,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは黒い線を均一に重ね、Bは空と雲を輪郭で囲んだ平らな色面にする。"
+              "text": "造船所から、進水したばかりの帆走軍艦を沖へ導く。"
             }
           ],
           "is_correct": false,
@@ -2140,7 +2128,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは空の細部を濃く描き込み、Bは雲を描かず地面だけを厚く塗っている。"
+              "text": "座礁した帆走軍艦から、乗組員を救い出す。"
             }
           ],
           "is_correct": false,
@@ -2160,49 +2148,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の手前の岩や水面と、奥の樹木を比べ、絵具の扱いがつくる効果を選びなさい。"
+          "text": "低い水平線の上に雲が広がる図の海景を描いた画家は、みずからの芸術上の立場を会場の名に掲げてパリで個展を開いた。その会場名はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-13.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock04-img-13.jpg",
+          "alt": "空と海、岸を描いた風景画",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "岩、水、木々の描き分けと、手前から奥への明暗の違いを画像で確かめられる。"
+          "text": "《静かな海》を描いたギュスターヴ・クールベは、万国博覧会で《画家のアトリエ》などを拒まれたことを受け、近くに自分の展示会場を用意した。「レアリスム」という名を掲げ、展示の仕方でも自らの立場を示した。"
         },
         {
           "type": "text",
-          "text": "ア：輪郭と均一な塗りで模様化した画面ではない。"
+          "text": "ア：1863年の落選展はサロンの審査に落ちた作家たちの作品をまとめて公開した展覧会である。"
         },
         {
           "type": "text",
-          "text": "イ：青一色で手前と奥を均す処理は見られない。"
+          "text": "イ：アンデパンダン展は1884年にパリで始まった無審査の展覧会である。"
         },
         {
           "type": "text",
-          "text": "ウ：岩・木・水は共通の平行線へ置き換えられていない。"
+          "text": "ウ：薔薇十字展はジョゼファン・ペラダンのもとで1892年からパリで開かれた象徴主義に関係する展覧会である。"
         },
         {
           "type": "text",
-          "text": "エ：岩、水、木々の描き分けと、手前から奥への明暗の違いを画像で確かめられる。"
+          "text": "エ：クールベは1855年のパリ万国博覧会の会場のそばにレアリスム館を設け、自作をまとめて展示した。"
         },
         {
           "type": "text",
-          "text": "Gustave Courbet《The Stream (Le Ruisseau du Puits-Noir; vallée de la Loue)》、1855。National Gallery of Art, Washington、1943.15.2。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/30231-stream-le-ruisseau-du-puits-noir-vallee-de-la-loue\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Gustave Courbet《Calm Sea》、1866。National Gallery of Art, Washington、1985.64.10。 Collection of Mr. and Mrs. Paul Mellon。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.130（1.pdf：PDF 120ページ）\n『改訂版 西洋・日本美術史の基本』p.260（3.pdf：PDF 6ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Calm Sea》 | https://www.nga.gov/artworks/66408-calm-sea\nメトロポリタン美術館「ギュスターヴ・クールベ」 | https://www.metmuseum.org/essays/gustave-courbet-1819-1877",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "同じ太さの輪郭で各部分を囲み、内部を均一に塗って模様の連続として見せる。"
+              "text": "落選展"
             }
           ],
           "is_correct": false,
@@ -2213,7 +2201,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "全体を薄い青一色で覆い、手前と奥の形を同じ強さで溶かして見せる。"
+              "text": "アンデパンダン展"
             }
           ],
           "is_correct": false,
@@ -2224,7 +2212,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "岩と樹木を平行な直線に置き換え、水面も同じ方向の線で組み立てて見せる。"
+              "text": "薔薇十字展"
             }
           ],
           "is_correct": false,
@@ -2235,7 +2223,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "岩の明るい面、水面の反射、暗い樹木の塗りを変え、異なる物の質感と前後を見せる。"
+              "text": "レアリスム館"
             }
           ],
           "is_correct": true,
@@ -2340,55 +2328,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図Aはドガ、図Bはルノワールの踊り子である。二図の比較として適切なものはどれか。"
+          "text": "パリ郊外の川辺で舟遊びをする人々を描いた作品である。この絵と同じ画家が、パリの人々の余暇を主題にした作品はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-14.jpg",
-          "alt": "設問で参照する作品図版A",
-          "label": "図A"
-        },
-        {
-          "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-14.jpg",
-          "alt": "設問で参照する作品図版B",
-          "label": "図B"
+          "src": "/images/artworks/mock05-img-14.jpg",
+          "alt": "水辺で舟を囲む人々と、遠い対岸を描いた明るい絵画",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ドガの舞台裏の切取りと、ルノワールの踊り子の全身像を比較する。同じ題材でも、画面内の人の配置や身体の見せ方は異なる。"
+          "text": "ルノワールはシャトゥーを訪れ、舟と行楽客を明るい水辺の光の中に描いた。《舟遊びの人々の昼食》の舞台も同じ町にあったフルネーズ家の店のテラスである。"
         },
         {
           "type": "text",
-          "text": "ア：図の尺度や主役の扱いと合わない。"
+          "text": "ア：船上に並んで座る男女を大きく捉えた《アルジャントゥイユ》はエドゥアール・マネの作品である。"
         },
         {
           "type": "text",
-          "text": "イ：二図の構成を逆にしている。"
+          "text": "イ：ブローニュの森の湖を舞台に、同じボートに乗る二人の女性を描いた《夏の日》はベルト・モリゾの作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：Aは左右対称の等距離配置ではなく、Bも半身像ではない。"
+          "text": "ウ：セーヌ川の島で休日を過ごす人々を描いた《グランド・ジャット島の日曜日の午後》の作者はスーラである。"
         },
         {
           "type": "text",
-          "text": "エ：ドガの舞台裏の切取りと、ルノワールの踊り子の全身像を比較する。同じ題材でも、画面内の人の配置や身体の見せ方は異なる。"
+          "text": "エ：図の《シャトゥーの舟遊び》も、テラスに集まる仲間を描いた《舟遊びの人々の昼食》もルノワールの作である。"
         },
         {
           "type": "text",
-          "text": "Edgar Degas《Dancers Backstage》、1876/1883。National Gallery of Art, Washington、1970.17.25。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/52169-dancers-backstage\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nAuguste Renoir《The Dancer》、1874。National Gallery of Art, Washington、1942.9.72。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/1211-dancer\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Auguste Renoir《Oarsmen at Chatou》、1879。National Gallery of Art, Washington、1951.5.2。 Gift of Sam A. Lewisohn。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.31・131（1.pdf：PDF 21・121ページ）\n『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Oarsmen at Chatou》 | https://www.nga.gov/artworks/39759-oarsmen-chatou\nフィリップス・コレクション《舟遊びの人々の昼食》 | https://www.phillipscollection.org/collection/luncheon-boating-party",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "A：手前の人物を小さくする逆遠近／B：人物を小さく添える風景。"
+              "text": "《アルジャントゥイユ》（舟に腰掛けた男女）"
             }
           ],
           "is_correct": false,
@@ -2399,7 +2381,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "A：一人の全身像の正面性／B：手前で切れる群像と奥の舞台。"
+              "text": "《夏の日》（湖のボートに乗る二人の女性）"
             }
           ],
           "is_correct": false,
@@ -2410,7 +2392,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "A：全員を同じ距離に揃えた左右対称／B：顔だけを切り取る半身肖像。"
+              "text": "《グランド・ジャット島の日曜日の午後》（島に集まる行楽客）"
             }
           ],
           "is_correct": false,
@@ -2421,7 +2403,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "A：近い人物の切断と前後の重なり／B：一人の全身像を中心にしたまとまり。"
+              "text": "《舟遊びの人々の昼食》（川辺のテラスの集い）"
             }
           ],
           "is_correct": true,
@@ -2611,49 +2593,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の木の幹・枝と、その奥の建物について、線と色面の関係を説明したものはどれか。"
+          "text": "図では女性画家が、扇を持って窓辺に座る姉を描いている。姉を描いたこの画家自身がモデルを務めた、エドゥアール・マネの作品はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-16.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock01-img-34.jpg",
+          "alt": "窓の近くに座り、手元へ目を向ける女性の絵画。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "前景の幹と枝、奥の建築に異なる方向の筆触や色面が見られる。"
+          "text": "モリゾは家族をモデルに絵を描き、自身もマネの作品のモデルを務めた。《バルコニー》は、初めてモリゾが登場したマネの絵で、1869年のサロンに出品された。"
         },
         {
           "type": "text",
-          "text": "ア：前景の幹と枝、奥の建築に異なる方向の筆触や色面が見られる。"
+          "text": "ア：《バルコニー》の手前に白いドレス姿で座っている女性が、図の作者ベルト・モリゾである。"
         },
         {
           "type": "text",
-          "text": "イ：幹や建物の形と方向は見分けられ、一様に大気へ溶けてはいない。"
+          "text": "イ：《鉄道》で少女の隣に座り、画面の外を見る女性は、マネが繰り返し描いたヴィクトリーヌ・ムーランである。"
         },
         {
           "type": "text",
-          "text": "ウ：幹・枝は建物に手前から重なり、垂直・水平だけで構成されていない。"
+          "text": "ウ：《温室にて》のベンチに腰掛けているのは、夫とともに描かれたギュメ夫人である。"
         },
         {
           "type": "text",
-          "text": "エ：等大の色点の均一配列ではなく、色面と筆触の方向が働く。"
+          "text": "エ：バーカウンターに立つ女性のモデルを務めたのは、実際にこの店で働いたシュゾンという女性である。"
         },
         {
           "type": "text",
-          "text": "Paul Cezanne《Château Noir》、1900/1904。National Gallery of Art, Washington、1958.10.1。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/45866-chateau-noir\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Berthe Morisot《The Artist's Sister at a Window》、1869。National Gallery of Art, Washington、1970.17.47。 Ailsa Mellon Bruce Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.132（1.pdf：PDF 122ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Artist's Sister at a Window》 | https://www.nga.gov/artworks/52191-artists-sister-window\nオルセー美術館「マネ《バルコニー》」 | https://www.musee-orsay.fr/en/artworks/le-balcon-707\nワシントン・ナショナル・ギャラリー「マネ《鉄道》」 | https://www.nga.gov/artworks/43624-railway",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "傾いた幹や枝が建物へ重なり、色面や筆触の方向を変えて幹・壁・屋根の形を組み立てている。"
+              "text": "《バルコニー》"
             }
           ],
           "is_correct": true,
@@ -2664,7 +2646,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "幹と建物の輪郭を大気へ同じ程度に溶かし、形の方向を目立たなくしている。"
+              "text": "《鉄道》"
             }
           ],
           "is_correct": false,
@@ -2675,7 +2657,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "幹と枝を建物の背後へ置き、すべての形を垂直・水平の細線だけで区切っている。"
+              "text": "《温室にて》"
             }
           ],
           "is_correct": false,
@@ -2686,7 +2668,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "幹・壁・屋根に同じ大きさの色点を規則的に並べ、方向の違いを抑えている。"
+              "text": "《フォリー＝ベルジェールのバー》"
             }
           ],
           "is_correct": false,
@@ -2706,49 +2688,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の頭部の額・頬・口の周囲を観察し、立体の表面の特徴として適切なものを選びなさい。"
+          "text": "図の像は、もとは彫刻で覆われた門の上部から眼下の光景を眺める「詩人」として構想された。ロダンにこの門の最初の着想を与えた文学作品はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-27.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock05-img-15.jpg",
+          "alt": "座る男性の裸体彫刻",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "凹凸とそれが受ける光・影を、画像で具体的に確認できる。"
+          "text": "独立した像として知られる《考える人》は、もとは《地獄の門》の一部だった。ロダンは地獄の場面を上から眺める詩人を、顎に手を当てて身体全体で思索する姿として表した。"
         },
         {
           "type": "text",
-          "text": "ア：顔の表面には凹凸があり、均一に滑らかではない。"
+          "text": "ア：『イリアス』はトロイア戦争におけるアキレウスの怒りを描く古代の叙事詩である。"
         },
         {
           "type": "text",
-          "text": "イ：凹凸とそれが受ける光・影を、画像で具体的に確認できる。"
+          "text": "イ：《地獄の門》の当初の構想はダンテの『神曲』地獄篇に基づき、上部に座る詩人の像が《考える人》へ発展した。"
         },
         {
           "type": "text",
-          "text": "ウ：薄板の輪郭像でなく、量塊のある頭部である。"
+          "text": "ウ：悪魔と契約する学者を主役とする『ファウスト』は、この門の当初の構想の典拠ではない。"
         },
         {
           "type": "text",
-          "text": "エ：不規則な起伏であり、等間隔の平行線ではない。"
+          "text": "エ：『失楽園』はサタンの反逆や人類の堕落を描く叙事詩で、ロダンが当初の門の題材に選んだ作品とは異なる。"
         },
         {
           "type": "text",
-          "text": "Auguste Rodin《Head of Balzac》、model 1897, cast probably early 20th century。National Gallery of Art, Washington、1942.5.14。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/1007-head-balzac\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Auguste Rodin《The Thinker (Le Penseur)》、model 1880, cast 1901。National Gallery of Art, Washington、1942.5.12。 Gift of Mrs. John W. Simpson。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.33・133（1.pdf：PDF 23・123ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Thinker (Le Penseur)》 | https://www.nga.gov/artworks/1005-thinker-le-penseur\nムードンのロダン美術館《考える人》 | https://www.meudon.musee-rodin.fr/en/musee/collections/oeuvres/penseur-meudon\nムードンのロダン美術館《地獄の門》 | https://www.meudon.musee-rodin.fr/en/musee/collections/oeuvres/porte-de-lenfer-meudon",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "顔の各面を滑らかに磨き、細かな起伏を目立たなくすることで静かな均一面をつくっている。"
+              "text": "ホメロス『イリアス』"
             }
           ],
           "is_correct": false,
@@ -2759,7 +2741,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "額や頬の起伏に明暗が生じ、表面の不均一さが顔の量感と強い印象に結び付いている。"
+              "text": "ダンテ『神曲』"
             }
           ],
           "is_correct": true,
@@ -2770,7 +2752,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "顔の輪郭だけを薄い板から切り抜き、内側には平らな面を広げている。"
+              "text": "ゲーテ『ファウスト』"
             }
           ],
           "is_correct": false,
@@ -2781,7 +2763,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "額・頬・口を同じ深さの平行線で刻み、明暗を等間隔の帯へそろえている。"
+              "text": "ミルトン『失楽園』"
             }
           ],
           "is_correct": false,
@@ -4076,49 +4058,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の頭部・衣服・姿勢を確認し、仏像の分類に結び付けたものはどれか。"
+          "text": "片手を上げ、もう一方を下げて蓮華座に立つ図の如来と同じ尊格を、三尺ほどの立像として数多く制作し、「安阿弥様」と呼ばれる型を広めた鎌倉時代の仏師は誰か。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-17.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock01-img-18.jpg",
+          "alt": "蓮華座の上に衣をまとった像が直立し、片手を胸の高さに上げ、もう片方を下にのばす。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "頭上の面、装身具、合掌と坐る姿勢を画像から確かめられる。"
+          "text": "来迎印を結ぶ阿弥陀如来は、臨終に信者を迎える姿として造られた。同じ鎌倉時代に快慶が広めた三尺前後の立像が、安阿弥様として後代の仏師に受け継がれた。図の所蔵館はこの像の作者を特定していない。"
         },
         {
           "type": "text",
-          "text": "ア：像は坐って合掌しており、甲冑や掲げる武器は見られない。"
+          "text": "ア：運慶は慶派を代表し、円成寺の大日如来像や興福寺北円堂の諸像で知られるが、安阿弥様の名は快慶に由来する。"
         },
         {
           "type": "text",
-          "text": "イ：頭上の面、装身具、合掌と坐る姿勢を画像から確かめられる。"
+          "text": "イ：安阿弥陀仏を名のった快慶は、端正な姿で来迎印を結ぶ阿弥陀如来立像を数多く手がけた。"
         },
         {
           "type": "text",
-          "text": "ウ：頭上には小さな面があり、両手は膝上でなく胸前で合わされている。"
+          "text": "ウ：運慶の子の湛慶は三十三間堂の中尊千手観音坐像などで知られ、安阿弥陀仏の号をもつ仏師ではない。"
         },
         {
           "type": "text",
-          "text": "エ：剣・羂索を持つ立像ではない。"
+          "text": "エ：運慶の子の康勝は六波羅蜜寺の空也上人像で知られ、快慶とは別人である。"
         },
         {
           "type": "text",
-          "text": "制作者不詳《Eleven-Headed Kannon (Jūichimen Kannon)》、1100s。Cleveland Museum of Art、1960.279。 CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1960.279\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "制作者不詳《Amida》、1200s。Cleveland Museum of Art、2015.487。 Gift from the Collection of George Gund III。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.178（2.pdf：PDF 32ページ）\n『改訂版 西洋・日本美術史の基本』p.268（3.pdf：PDF 14ページ）",
+      "source_text": "クリーブランド美術館《Amida》 | https://www.clevelandart.org/art/2015.487\n東京国立博物館・文化遺産オンライン《阿弥陀如来立像》 | https://online.bunka.go.jp/heritages/detail/502720\n文化庁《木造阿弥陀如来立像〈快慶作〉》 | https://online.bunka.go.jp/heritages/detail/130244",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "頭を覆う宝冠と甲冑を備え、武器を掲げる天部の立像である。"
+              "text": "運慶"
             }
           ],
           "is_correct": false,
@@ -4129,7 +4111,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "頭上の小さな面を重ね、装身具を伴って合掌する菩薩の坐像である。"
+              "text": "快慶"
             }
           ],
           "is_correct": true,
@@ -4140,7 +4122,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "螺髪のある頭部と簡素な僧衣を備え、手を膝上に組む如来の坐像である。"
+              "text": "湛慶"
             }
           ],
           "is_correct": false,
@@ -4151,7 +4133,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "怒りを示す顔と剣・羂索を備え、片脚を踏み出す明王の立像である。"
+              "text": "康勝"
             }
           ],
           "is_correct": false,
@@ -4256,55 +4238,56 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図A・Bの衣服と持物を観察し、明王・天部の分類との対応が適切なものを選びなさい。"
+          "text": "表のAは奈良時代の興福寺西金堂に安置された、仏法を守る群像である。その一体で、インドの金翅鳥に由来し、鳥のくちばしをもつのはどの尊像か。"
         },
         {
-          "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-18.jpg",
-          "alt": "設問で参照する作品図版A",
-          "label": "図A"
-        },
-        {
-          "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-18.jpg",
-          "alt": "設問で参照する作品図版B",
-          "label": "図B"
+          "type": "table",
+          "headers": [
+            "奈良の寺院",
+            "伝わる守護尊の群像"
+          ],
+          "rows": [
+            [
+              "興福寺",
+              "A（旧西金堂に安置）"
+            ],
+            [
+              "新薬師寺",
+              "薬師如来を囲む十二神将"
+            ]
+          ]
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "Aの剣・輪状の羂索と、Bの甲冑・塔という具体的な特徴が分類に合う。"
+          "text": "興福寺の八部衆と新薬師寺の十二神将は、ともに古代の仏教彫刻を代表する群像である。八部衆にはさまざまな由来の尊格が集まり、鳥の頭と人の体を組み合わせた迦楼羅もここに含まれる。"
         },
         {
           "type": "text",
-          "text": "ア：甲冑と塔はBに見られ、Aとの対応が逆である。"
+          "text": "ア：興福寺の阿修羅は三つの顔と六本の腕をそなえ、胸の前で二手を合わせている。"
         },
         {
           "type": "text",
-          "text": "イ：Aの剣・輪状の羂索と、Bの甲冑・塔という具体的な特徴が分類に合う。"
+          "text": "イ：興福寺の迦楼羅は金翅鳥に由来する八部衆の一体で、人の体に鳥のくちばしを備える。"
         },
         {
           "type": "text",
-          "text": "ウ：Aは頭上の小面や宝冠を備えた菩薩の姿ではない。"
+          "text": "ウ：沙羯羅は龍王に由来し、興福寺の像は頭上に蛇を戴く姿で表されている。"
         },
         {
           "type": "text",
-          "text": "エ：Bは甲冑と持物を備え、簡素な僧衣の如来ではない。"
-        },
-        {
-          "type": "text",
-          "text": "制作者不詳《Fudō Myōō》、early 1300s。Cleveland Museum of Art、1989.267。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1989.267\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）\n\n制作者不詳《Guardian King of the North (Bishamonten)》、1185–1333。Cleveland Museum of Art、1959.135。 CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1959.135\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "エ：乾闥婆は天上の楽神で、興福寺の像は頭に獅子の姿を戴いている。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.178・184・185（2.pdf：PDF 32・38・39ページ）\n『改訂版 西洋・日本美術史の基本』p.268（3.pdf：PDF 14ページ）",
+      "source_text": "興福寺《迦楼羅像（八部衆）》 | https://www.kohfukuji.com/property/b-0010/",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは甲冑と塔を備える天部、Bは僧衣と剣を備える明王である。"
+              "text": "阿修羅"
             }
           ],
           "is_correct": false,
@@ -4315,7 +4298,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは剣と羂索を持つ明王、Bは甲冑を着けて塔を持つ天部である。"
+              "text": "迦楼羅"
             }
           ],
           "is_correct": true,
@@ -4326,7 +4309,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは頭上の小面と宝冠を備える菩薩、Bは甲冑を着けた天部である。"
+              "text": "沙羯羅"
             }
           ],
           "is_correct": false,
@@ -4337,7 +4320,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは剣と羂索を持つ明王、Bは簡素な僧衣をまとう如来である。"
+              "text": "乾闥婆"
             }
           ],
           "is_correct": false,
@@ -4442,49 +4425,60 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1は絵巻から切り離された一片である。見えている範囲の文字と絵の配置を記録する説明として適切なものはどれか。"
+          "text": "表は一つの絵巻を構成する三巻から、それぞれ一場面を抜き出したもの。三巻を通じて霊験を示す僧と、その絵巻の組合せはどれか。"
         },
         {
-          "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-31.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "type": "table",
+          "headers": [
+            "巻の順",
+            "描かれる出来事"
+          ],
+          "rows": [
+            [
+              "第一",
+              "鉢が長者の倉を空中に持ち上げる"
+            ],
+            [
+              "第二",
+              "剣をまとう童子が空を飛ぶ"
+            ],
+            [
+              "第三",
+              "姉の尼が弟を尋ねて山にたどり着く"
+            ]
+          ]
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図の左右の配置は直接観察できる。一方、断簡となる前の巻物での位置や、前後の場面まで、この一片から確定することはできない。"
+          "text": "《信貴山縁起絵巻》は、命蓮が鉢を飛ばす「山崎長者巻」、天皇の病を祈りで癒やす「延喜加持巻」、姉の尼が旅をして弟に会う「尼公巻」からなる。場面のつながりから、寺院に伝わる霊験の物語を読み取れる。"
         },
         {
           "type": "text",
-          "text": "ア：文章は主に左側にあり、人物の衣服へ重ねられてはいない。"
+          "text": "ア：《一遍聖絵》は念仏を広めた一遍の遊行を描き、表の三つの霊験を主題としない。"
         },
         {
           "type": "text",
-          "text": "イ：左の文字と右の人物場面を画像で確かめられる。"
+          "text": "イ：空飛ぶ鉢、病の天皇への加持、姉の尼との再会は、信貴山の僧・命蓮にまつわる三巻の物語である。"
         },
         {
           "type": "text",
-          "text": "ウ：四辺を囲む説明帯ではない。"
+          "text": "ウ：《華厳宗祖師絵伝》は新羅の義湘と元暁の事績を取り上げ、表にある鉢と倉の霊験を描く絵巻とは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：上下二段ではなく、文字と人物の場面が左右に並ぶ。"
-        },
-        {
-          "type": "text",
-          "text": "制作者不詳《The Emperor's Attendance at the Horse Race: Episode from the Tale of Eiga (Eiga Monogatari)》、 c. 1200。Cleveland Museum of Art、1976.164。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1976.164\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "エ：《法然上人絵伝》は浄土宗の祖・法然の生涯と事績をたどる絵伝である。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.188・192（2.pdf：PDF 42・46ページ）\n『改訂版 西洋・日本美術史の基本』p.265・266（3.pdf：PDF 11・12ページ）",
+      "source_text": "奈良国立博物館「国宝 信貴山縁起絵巻」 | https://www.narahaku.go.jp/exhibition/special/201604_shigisan/",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "文字を人物の衣服の上へ重ね、文章と人物を同じ縦列に交互に配置している。"
+              "text": "一遍―《一遍聖絵》"
             }
           ],
           "is_correct": false,
@@ -4495,7 +4489,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "左側に縦書きの文字、右側に人物の場面があり、文字と絵が横方向に隣り合っている。"
+              "text": "命蓮―《信貴山縁起絵巻》"
             }
           ],
           "is_correct": true,
@@ -4506,7 +4500,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "中央の人物を囲む四辺へ文字を置き、額縁状の説明帯をつくっている。"
+              "text": "義湘―《華厳宗祖師絵伝》"
             }
           ],
           "is_correct": false,
@@ -4517,7 +4511,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "上下に文字と絵を重ね、下段の人物を上段の文字の幅へそろえている。"
+              "text": "法然―《法然上人絵伝》"
             }
           ],
           "is_correct": false,
@@ -4707,49 +4701,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の文字の筆跡を見て、線の太さと字の配置について適切な説明を選びなさい。"
+          "text": "淡彩で描かれた女性は籠を手にし、その上に室町の禅僧・一休宗純の賛が書かれている。観音がこの女性に姿を変えたという伝承で、彼女が求婚者に求めたことはどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-19.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock04-img-19.jpg",
+          "alt": "淡い衣の女性が籠を携えて立ち、掛軸の画面上方に墨で書かれた縦長の文字列がある。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "線の濃淡・太細とかすれ、字の大小や間隔を画像で観察できる。"
+          "text": "籠を手にした女性は魚籃観音である。観音が人々に近い姿をとり、経を覚えるきっかけを与えて仏道に導く方便を表す。所蔵館は絵を墨渓采誉の作と伝え、賛を一休宗純の筆としている。"
         },
         {
           "type": "text",
-          "text": "ア：線の濃淡・太細とかすれ、字の大小や間隔を画像で観察できる。"
+          "text": "ア：魚籃観音の伝承では、観音が魚を売る女性となり、求婚する者たちに経文を暗誦するよう求める。"
         },
         {
           "type": "text",
-          "text": "イ：字形も線の太さも均一でなく、等間隔の活字状の反復ではない。"
+          "text": "イ：造像の用材を募るのは勧進に通じる行為だが、魚籃観音が求婚者に提示した課題は経文の暗誦である。"
         },
         {
           "type": "text",
-          "text": "ウ：文字は輪郭の内側を彩色した文様ではない。"
+          "text": "ウ：追善の堂塔建立は仏教の供養の一形式であり、この女性が結婚の条件にした行いとは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：縦方向の書であり、水平の横書きではない。"
+          "text": "エ：出家受戒は僧となるための行いで、魚籃観音の説話で在家の求婚者に求められた条件ではない。"
         },
         {
           "type": "text",
-          "text": "Ikkyū Sōjun (Japanese, 1394–1481) [artist]《Reflections of Priest Foyen》、1400s。Cleveland Museum of Art、 2015.511。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/2015.511\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "attributed to Bokkei Saiyo (Japanese, 1415–1473); Ikkyū Sōjun (Japanese, 1394–1481) [calligraphy by]《Fish Basket Kannon (Gyoran Kannon)》、1400s。Cleveland Museum of Art、2015.465。 Gift from the Collection of George Gund III。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.194・241（2.pdf：PDF 48・95ページ）\n『改訂版 西洋・日本美術史の基本』p.264・265・266（3.pdf：PDF 10・11・12ページ）",
+      "source_text": "クリーブランド美術館《Fish Basket Kannon (Gyoran Kannon)》 | https://www.clevelandart.org/art/2015.465\n国立故宮博物院《宋人畫魚籃觀音　軸》 | https://digitalarchive.npm.gov.tw/Collection/Detail/1359?dep=P",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "太さやかすれの異なる筆線があり、字の大きさや行の間隔にも変化が見られる。"
+              "text": "仏の説いた経文を覚えて唱えること。"
             }
           ],
           "is_correct": true,
@@ -4760,7 +4754,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "同じ太さの線で同形の字を反復し、各行を等間隔の区画へ収めている。"
+              "text": "仏像を造るための用材を寄進すること。"
             }
           ],
           "is_correct": false,
@@ -4771,7 +4765,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "字を輪郭線だけで囲み、内側を彩色した文様として横一列に置いている。"
+              "text": "祖先の追善のために堂塔を建立すること。"
             }
           ],
           "is_correct": false,
@@ -4782,7 +4776,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "細い線を水平にそろえ、文字の重なりを抑えた横書きの構成にしている。"
+              "text": "師僧から戒を受け、寺に入って修行すること。"
             }
           ],
           "is_correct": false,
@@ -4887,49 +4881,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1は寒山・拾得を描いた作品である。画面の外形と二人物の配置を記録したものはどれか。"
+          "text": "一人が巻物を開き、もう一人がその方を向く、室町時代の扇面である。この二人を「四睡図」に描くとき、ともに眠る組合せはどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-20.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock03-img-20.jpg",
+          "alt": "金色の扇形の画面で笑顔の二人が向き合い、一人が横に開いた巻物を手にしている。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "主題の名前を与えたうえで、実際の扇形の画面と人物配置を観察する。同じ寒山・拾得の主題でも、掛幅と扇面などでは構成条件が異なる。"
+          "text": "扇面に描かれたのは、禅画で親しまれた中国の寒山と拾得である。ここでは詩を記した巻物が二人を見分ける手掛かりとなる。別の画題である四睡図では、豊干禅師と虎を加えた眠りの場面となる。"
         },
         {
           "type": "text",
-          "text": "ア：画面は縦長の長方形ではなく扇形である。"
+          "text": "ア：梅と鶴に親しんだ詩人・林和靖は隠逸の画題となるが、寒山・拾得と眠る四者の一員ではない。"
         },
         {
           "type": "text",
-          "text": "イ：二人は背中合わせでなく、左右で関わりを持っている。"
+          "text": "イ：布袋が子どもたちと遊ぶ姿は別の禅画の画題で、四睡図の二者には含まれない。"
         },
         {
           "type": "text",
-          "text": "ウ：一人の反復による連続場面ではない。"
+          "text": "ウ：蝦蟇仙人は蟇を伴って描かれる中国の仙人で、四睡図で寒山・拾得に伴う僧ではない。"
         },
         {
           "type": "text",
-          "text": "エ：扇形の外形と、左右で身振りを交わす二人物を確認できる。"
+          "text": "エ：四睡図は寒山・拾得の二人に豊干禅師と虎を加え、四者が寄り添い眠るところを描く。"
         },
         {
           "type": "text",
-          "text": "Shikibu Terutada (Japanese, active mid-1500s) [artist]《Hanshan and Shide (Kanzan and Jittoku)》、mid-1500s。 Cleveland Museum of Art、2015.592。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/2015.592\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Shikibu Terutada (Japanese, active mid-1500s)《Hanshan and Shide (Kanzan and Jittoku)》、mid-1500s。Cleveland Museum of Art、2015.592。 Gift from the Collection of George Gund III。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『美術検定2級 公式問題集（提供PDF）』p.124・125（2級公式問題集.pdf：PDF 126・127ページ）\n『改訂版 西洋・日本美術史の基本』p.195・241（2.pdf：PDF 49・95ページ）",
+      "source_text": "クリーブランド美術館《Hanshan and Shide (Kanzan and Jittoku)》 | https://www.clevelandart.org/art/2015.592\n東京国立博物館《四睡図》 | https://emuseum.nich.go.jp/detail?content_base_id=100837&langId=ja",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "縦長の長方形の中央に二人を上下に重ね、上の人物を大きくしている。"
+              "text": "林和靖と鶴"
             }
           ],
           "is_correct": false,
@@ -4940,7 +4934,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "円形の画面の中央に二人を背中合わせに置き、同じ方向へ進ませている。"
+              "text": "布袋と唐子"
             }
           ],
           "is_correct": false,
@@ -4951,7 +4945,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "横長の巻物の全幅に二人を反復し、同じ人物の時間の変化を示している。"
+              "text": "蝦蟇仙人と蟇"
             }
           ],
           "is_correct": false,
@@ -4962,7 +4956,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "扇形の画面の左右に二人を置き、一方の身振りをもう一方へ向けている。"
+              "text": "豊干禅師と虎"
             }
           ],
           "is_correct": true,
@@ -5152,49 +5146,64 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の太い幹、花、川のような青い帯を観察し、画面の構成に合う説明を選びなさい。"
+          "text": "表は、同じ二神の構図が江戸時代に受け継がれた過程である。最後に光琳の雷神図の裏へ抱一が描いた景物はどれか。"
         },
         {
-          "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-21.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "type": "table",
+          "headers": [
+            "順",
+            "画家",
+            "二曲一双の屏風に加えた仕事"
+          ],
+          "rows": [
+            [
+              "1",
+              "俵屋宗達",
+              "風神と雷神をそれぞれ一隻に描く"
+            ],
+            [
+              "2",
+              "尾形光琳",
+              "宗達の構図に倣って二神を描く"
+            ],
+            [
+              "3",
+              "酒井抱一",
+              "光琳の屏風の裏に草花を描く"
+            ]
+          ]
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "幹の斜めの方向、金地の余白、青い帯の曲線が画面を組み立てている。"
+          "text": "抱一の《夏秋草図屏風》は、もと光琳《風神雷神図屏風》と表裏一体だった。雷神に夏の驟雨、風神に秋の強風を呼応させ、神の姿を描かずに草の動きと水でその働きを示している。"
         },
         {
           "type": "text",
-          "text": "ア：幹は斜めに入り、左右対称の反復構成ではない。"
+          "text": "ア：驟雨と増水を取り合わせた場面の季節は夏であり、秋草を配したのは風神図に対応する側である。"
         },
         {
           "type": "text",
-          "text": "イ：幹と植物が大きく、中央の遠山や空が主になる構成ではない。"
+          "text": "イ：風にあおられる秋草と野葡萄の葉は対となる画面に描かれ、もとは風神図の裏にあった。"
         },
         {
           "type": "text",
-          "text": "ウ：幹の斜めの方向、金地の余白、青い帯の曲線が画面を組み立てている。"
+          "text": "ウ：雷神の裏面では、抱一は驟雨に濡れた夏草と、そのすぐそばを流れる増水した川を描いた。"
         },
         {
           "type": "text",
-          "text": "エ：植物は均一な格子へ入らず、青い帯も曲線的である。"
-        },
-        {
-          "type": "text",
-          "text": "Sakai Hōitsu (Japanese, 1761–1828) [artist]《Paulownias and Chrysanthemums》、early 1800s。Cleveland Museum of Art、1964.386。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1964.386\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "エ：強風や舞い上がる野葡萄の葉を描いたのは秋草の画面で、光琳の風神図に対応する。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.246（2.pdf：PDF 100ページ）\n『改訂版 西洋・日本美術史の基本』p.264・270（3.pdf：PDF 10・16ページ）",
+      "source_text": "東京国立博物館《風神雷神図屏風・夏秋草図屏風》 | https://emuseum.nich.go.jp/detail?content_base_id=100321&langId=ja",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "幹を中央に直立させ、左右に同じ形の花と水の帯を鏡像のように並べている。"
+              "text": "夕立のあと、増水した流れのそばに茂る秋草。"
             }
           ],
           "is_correct": false,
@@ -5205,7 +5214,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "遠景の山を中央に置き、幹と花を小さく描いて空の奥行きを強調している。"
+              "text": "強い風を受け、野葡萄の葉が舞う秋草。"
             }
           ],
           "is_correct": false,
@@ -5216,7 +5225,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "幹を斜めに大きく配し、花や青い曲線の帯を金地の余白と組み合わせている。"
+              "text": "夕立のあと、増水した流れのそばに茂る夏草。"
             }
           ],
           "is_correct": true,
@@ -5227,7 +5236,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "幹と花を等間隔の区画に収め、水の帯を垂直な直線の連続へ変えている。"
+              "text": "強い風を受け、野葡萄の葉が舞う夏草。"
             }
           ],
           "is_correct": false,
@@ -5332,49 +5341,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の上部の空、傘、人物の衣服に注目し、天候と色の関係を説明したものはどれか。"
+          "text": "図の着流しの人物は、江戸の人気力士・谷風梶之助である。この相撲絵の作者の門下で修業した若い葛飾北斎は、当時どの名で役者絵などを描いていたか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-23.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock05-img-23.jpg",
+          "alt": "縞の羽織姿の体格の大きな男性が、草履を履いて横向きに立つ全身像の版画。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "上部の白い粒と傘、色のある衣服の対照から雪の場面を読める。"
+          "text": "図は勝川春章が力士の谷風を、土俵の外にいるような日常の姿に描いた相撲絵である。春章の門下には「春」の字を画号に用いた複数の絵師がいて、このうち春朗がのちの葛飾北斎にあたる。"
         },
         {
           "type": "text",
-          "text": "ア：この図の降り物は白い粒状で、長い斜線の雨脚ではない。"
+          "text": "ア：勝川春英は春章門下の絵師で、北斎の初名である春朗とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：衣服の色面は空と区別され、人物の輪郭も見える。"
+          "text": "イ：勝川春好は春章の高弟で、師の役者似顔絵の画風を継承した別の絵師である。"
         },
         {
           "type": "text",
-          "text": "ウ：上部の白い粒と傘、色のある衣服の対照から雪の場面を読める。"
+          "text": "ウ：葛飾北斎は勝川春章に入門し、初期に勝川春朗の名で役者絵などを描いた。"
         },
         {
           "type": "text",
-          "text": "エ：空には白い雪の粒が見え、晴天の説明とは合わない。"
+          "text": "エ：勝川春潮は鳥居清長風の美人画でも知られ、若年期の北斎の名ではない。"
         },
         {
           "type": "text",
-          "text": "Suzuki Harunobu (Japanese, 1724–1770) [artist]《Young Woman Standing Under an Umbrella in the Snow》、 1767–68。Cleveland Museum of Art、1985.305。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1985.305\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Katsukawa Shunshō (Japanese, 1726–1792)《Tanikaze Kajinosuke》、c. mid-1780s。Cleveland Museum of Art、1930.209。 Bequest of Edward L. Whittemore。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.248（2.pdf：PDF 102ページ）\n『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+      "source_text": "クリーブランド美術館《Tanikaze Kajinosuke》 | https://www.clevelandart.org/art/1930.209\n太田記念美術館「勝川春章―北斎誕生の系譜」 | https://www.ukiyoe-ota-muse.jp/2015_katsukawashunsho/",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "黒い細線を空から地面へ斜めに通し、雨脚と傘の方向を同じ線でつないでいる。"
+              "text": "勝川春英"
             }
           ],
           "is_correct": false,
@@ -5385,7 +5394,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "衣服と空を同じ濃い色にまとめ、人物の輪郭を背景に沈めて夕闇を表している。"
+              "text": "勝川春好"
             }
           ],
           "is_correct": false,
@@ -5396,7 +5405,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "空や傘の周囲の白い粒と衣服の色面を対照させ、降る雪の中の人物を示している。"
+              "text": "勝川春朗"
             }
           ],
           "is_correct": true,
@@ -5407,7 +5416,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "空を白く抜いたまま雪を示す形を置かず、衣服の模様だけで晴天を示している。"
+              "text": "勝川春潮"
             }
           ],
           "is_correct": false,
@@ -6617,49 +6626,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の植物の形が、布の面にどのように広がっているかを説明したものはどれか。"
+          "text": "図のガラス器を制作したエミール・ガレは、1901年、工芸家や工房主が結んだ団体の初代会長になった。その団体が拠点とした都市はどこか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-26.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock04-img-26.jpg",
+          "alt": "緑と淡紅色が重なる、短い口頸のあるガラス器。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "葉や茎のまとまりが連続し、布の面全体へ反復している。"
+          "text": "アール・ヌーヴォーはヨーロッパの複数の都市に展開した。ガレらはナンシーでガラス、家具、金工などの作り手を結び、装飾芸術の発展を図った。"
         },
         {
           "type": "text",
-          "text": "ア：遠近による縮小の構成ではなく、近い尺度の形が反復している。"
+          "text": "ア：リモージュは磁器の生産や七宝の歴史を持つフランスの工芸都市である。"
         },
         {
           "type": "text",
-          "text": "イ：独立した額形の区画と広い無地で分離されていない。"
+          "text": "イ：パリのアール・ヌーヴォーでは、ギマールが手がけた地下鉄の入口などが知られる。"
         },
         {
           "type": "text",
-          "text": "ウ：葉や茎のまとまりが連続し、布の面全体へ反復している。"
+          "text": "ウ：ガレはロレーヌ地方のナンシーで活動し、ナンシー派の初代会長を務めた。"
         },
         {
           "type": "text",
-          "text": "エ：一列の帯ではなく、面全体に植物の意匠がある。"
+          "text": "エ：リヨンは絹織物の産地として、フランスの装飾芸術を支えた都市である。"
         },
         {
           "type": "text",
-          "text": "William Morris (British, 1834–1896) [designed by]《Tulip 》、1875。Cleveland Museum of Art、1937.579。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1937.579\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Emile Gallé (French, 1846–1904)《Vase》、c. 1900。Cleveland Museum of Art、1979.10。 Andrew R. and Martha Holden Jennings Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.134・135（1.pdf：PDF 124・125ページ）",
+      "source_text": "クリーブランド美術館《Vase》 | https://www.clevelandart.org/art/1979.10\nナンシー派美術館 ナンシー派の成立 | https://musee-ecole-de-nancy.nancy.fr/lart-nouveau/lecole-de-nancy",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "中央の一株から左右へ形を小さくし、遠くの庭へ続く奥行きをつくっている。"
+              "text": "リモージュ"
             }
           ],
           "is_correct": false,
@@ -6670,7 +6679,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "植物を独立した額形の区画へ収め、区画の間を広い無地で切り離している。"
+              "text": "パリ"
             }
           ],
           "is_correct": false,
@@ -6681,7 +6690,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "曲がる葉や茎のまとまりを繰り返し、隣り合う形をつないで面を覆っている。"
+              "text": "ナンシー"
             }
           ],
           "is_correct": true,
@@ -6692,7 +6701,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "一本の水平線上へ植物を並べ、その上下を無地の帯として残している。"
+              "text": "リヨン"
             }
           ],
           "is_correct": false,
@@ -6797,55 +6806,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図A・Bの線と色の見え方を比較した記録として適切なのはどれか。"
+          "text": "デューラーの木版画《犀》が生まれて広まるまでの経緯として、正しいものはどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-23.jpg",
-          "alt": "設問で参照する作品図版A",
-          "label": "図A"
-        },
-        {
-          "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-21.jpg",
-          "alt": "設問で参照する作品図版B",
-          "label": "図B"
+          "src": "/images/artworks/mock05-img-34.jpg",
+          "alt": "横を向いた犀の胴や脚を、硬い板を重ねたように描いた版画。上部に文字がある。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "線があることだけでは制作法を決められない。ここでは画像から観察できる線と色の使い方を記録する。制作法の名称は作品記録と照合して別に確認する。"
+          "text": "1515年にインドからポルトガルへ運ばれた犀の知らせは、ドイツのデューラーにも届いた。実物と異なる細部を含むこの像が長くヨーロッパに流布したのは、木版によって同じ図を多数印刷できたためである。"
         },
         {
           "type": "text",
-          "text": "ア：Aは白地に輪郭や模様の線を示し、Bには衣服の彩色が見られる。"
+          "text": "ア：動物はインドから運ばれたが、画家がインドへ赴いて写生したものではない。"
         },
         {
           "type": "text",
-          "text": "イ：Aに広い多色面はなく、Bには衣服などの色面がある。"
+          "text": "イ：デューラーがこの個体をニュルンベルクで実測したという記録はなく、現地からの報告を用いた。"
         },
         {
           "type": "text",
-          "text": "ウ：両画像の線と彩色の違いを観察できる。"
+          "text": "ウ：デューラーは実物を見ることなく、リスボンから伝わった情報に基づいて犀を図にした。"
         },
         {
           "type": "text",
-          "text": "エ：Aは黒地の白抜きではなく、Bも一色の面にまとめられていない。"
+          "text": "エ：教皇のもとへ送られた犀は航海中に死に、図はローマでの披露を記録したものではない。"
         },
         {
           "type": "text",
-          "text": "Okumura Masanobu (Japanese, 1686–1764) [artist]《Three Courtesans with a Client》、early 1700s。 Cleveland Museum of Art、1985.337。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1985.337\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）\n\nMiyagawa Chōshun (Japanese, 1683–1753) [artist]《Entertainment Scene》、c. 1710–53。Cleveland Museum of Art、1985.17。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1985.17\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Albrecht Dürer《The Rhinoceros》、1515。National Gallery of Art, Washington、1964.8.697。 Rosenwald Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.248（2.pdf：PDF 102ページ）\n『改訂版 西洋・日本美術史の基本』p.262・264（3.pdf：PDF 8・10ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Rhinoceros》 | https://www.nga.gov/artworks/47903-rhinoceros\nワシントン・ナショナル・ギャラリー デューラー《犀》の成立 | https://www.nga.gov/stories/articles/horns-scales-and-armor",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは細線の密な重なりで全体を暗くし、Bは単色の輪郭線だけで衣服を示している。"
+              "text": "インドで犀を観察し、帰国後に自分の旅行記の挿絵として刊行した。"
             }
           ],
           "is_correct": false,
@@ -6856,7 +6859,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは輪郭を広い色面の下へ隠し、Bは線だけで形を示して色面を置いていない。"
+              "text": "ニュルンベルクで犀を写生し、その場で採った寸法を添えて版画にした。"
             }
           ],
           "is_correct": false,
@@ -6867,7 +6870,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは主に黒い線で人物と衣服を示し、Bは線に加えて衣服などの色の違いを描き分けている。"
+              "text": "リスボンに着いた犀について届いた報告をもとに図を作り、版画として広めた。"
             }
           ],
           "is_correct": true,
@@ -6878,7 +6881,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "Aは黒い背景に人物を白く抜き、Bは人物と背景を一色の平らな面へまとめている。"
+              "text": "ローマで犀を教皇に披露する式典に立ち会い、その光景を版画にした。"
             }
           ],
           "is_correct": false,

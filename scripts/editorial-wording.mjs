@@ -2,8 +2,13 @@ import {createHash} from 'node:crypto'
 import {readFileSync} from 'node:fs'
 import {materialDigest} from '../frontend/server/services/learning-writer.ts'
 import assert from 'node:assert/strict'
+
+const revisions = [
+  'standalone-wording', 'sculpture-identification', 'quality-revision-12',
+  'received-revision-36-20261109', 'figure-history-20261111',
+]
 export function wordingPatches(revision='standalone-wording'){
- assert.ok(['standalone-wording','sculpture-identification','quality-revision-12','received-revision-36-20261109'].includes(revision),'Unknown editorial revision')
+ assert.ok(revisions.includes(revision),'Unknown editorial revision')
  const document=JSON.parse(readFileSync(new URL(`../content/editorial/${revision}.json`,import.meta.url),'utf8'))
  for(const patch of document.questions){assert.ok(!patch.change_kind||['substantive','wording'].includes(patch.change_kind),'Unknown revision kind');if(revision==='quality-revision-12')assert.ok(patch.change_kind,'A quality revision must declare its grading version policy')}
  if(revision==='quality-revision-12'){
@@ -16,7 +21,7 @@ export function wordingPatches(revision='standalone-wording'){
 }
 export function applyWording(document){
  const result=structuredClone(document)
- for(const revision of ['standalone-wording','sculpture-identification','quality-revision-12','received-revision-36-20261109']){
+ for(const revision of revisions){
  const patches=wordingPatches(revision)
  for(const patch of patches.questions){
   const q=result.questions.find(q=>q.exam_number===patch.exam_number&&q.question_number===patch.question_number)

@@ -1489,55 +1489,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図Aの床・建築の辺と、図Bの遠景の境界を比べる。各図でとくに確かめやすい空間表現の対応として、最も適切なものはどれか。"
+          "text": "図の左で、毛皮をまとう幼児がもう一人の子に小さな十字架を差し出している。この人物が成人してからの出来事として、福音書に描かれているのはどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-02.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図A"
-        },
-        {
-          "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-36.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図B"
+          "src": "/images/artworks/mock03-img-03.jpg",
+          "alt": "円形の画面に女性と二人の幼児が座り、画面の左で毛皮をまとう幼児が、女性の膝元の幼児へ細い十字架を差し出している。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図Aでは床・柱・戸口の配置が空間をつくり、図Bでは遠景の形が大気の色へなじむ。線遠近法と空気遠近法は併用されうるので、ここでは各図で目立つ手掛かりを比較する。"
+          "text": "ラファエロの《アルバの聖母》に描かれているのは、聖母マリア、幼子キリスト、幼い洗礼者ヨハネである。毛皮の衣と細い十字架は洗礼者ヨハネのしるしで、成長したヨハネはヨルダン川で人々に洗礼を授け、イエスもその洗礼を受けた。"
         },
         {
           "type": "text",
-          "text": "ア：図の建築の前後や、遠景の見え方を説明できない。"
+          "text": "ア：網を投げているときにイエスから呼ばれたのは、漁師のペテロとアンデレである。"
         },
         {
           "type": "text",
-          "text": "イ：Aの建築とBの淡い遠景の差に対応する。"
+          "text": "イ：毛皮をまとう幼児は洗礼者ヨハネで、成人後にヨルダン川でイエスに洗礼を授けた。"
         },
         {
           "type": "text",
-          "text": "ウ：AとBで明確に見える手掛かりを取り違える。"
+          "text": "ウ：刑場へ向かうイエスの十字架を担わされたのは、キレネのシモンである。"
         },
         {
           "type": "text",
-          "text": "エ：Aは地上の室内を横から見た構成で、Bもキュビスムではない。"
+          "text": "エ：イエスが手と脇腹の傷を示して復活を信じるよう促した相手は、使徒トマスである。"
         },
         {
           "type": "text",
-          "text": "Fra Filippo Lippi《The Annunciation》、c. 1435/1440。National Gallery of Art, Washington、1943.4.35。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/12133-annunciation\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nJoseph Mallord William Turner《A Packet Boat off Dover》、c. 1836。National Gallery of Art, Washington、 1986.72.18。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/69409-packet-boat-dover\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Raphael《The Alba Madonna》、c. 1510。National Gallery of Art, Washington、1937.1.24。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.64（1.pdf：PDF 54ページ）\n『改訂版 西洋・日本美術史の基本』p.261・267（3.pdf：PDF 7・13ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Alba Madonna》 | https://www.nga.gov/artworks/26-alba-madonna\nロンドン・ナショナル・ギャラリー《Saint John the Baptist》 | https://www.nationalgallery.org.uk/paintings/italian-saint-john-the-baptist",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "A：人物の重要度だけで決める大小／B：人物と建物を同じ寸法で並べる表現"
+              "text": "ガリラヤ湖で網を投げているとき、弟子としてイエスに招かれた。"
             }
           ],
           "is_correct": false,
@@ -1548,7 +1542,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "A：建築の線と重なりによる奥行き／B：遠景の輪郭や色調を弱める大気の表現"
+              "text": "ヨルダン川のほとりで悔い改めを説き、訪れたイエスに洗礼を授けた。"
             }
           ],
           "is_correct": true,
@@ -1559,7 +1553,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "A：遠景の輪郭を弱める大気の表現／B：すべての辺を一点へ収束させる建築の透視図"
+              "text": "刑場へ向かう途中のイエスに代わって、その十字架を担いだ。"
             }
           ],
           "is_correct": false,
@@ -1570,7 +1564,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "A：屋根を省いて室内を見下ろす吹抜屋台／B：形を複数視点へ分解する表現"
+              "text": "復活したイエスが傷跡を示すのを見て、復活への疑いを解いた。"
             }
           ],
           "is_correct": false,
@@ -2039,44 +2033,44 @@
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-06.jpg",
-          "alt": "設問で参照する作品図版",
+          "src": "/images/artworks/mock05-img-06.jpg",
+          "alt": "雲の間で馬車と人物が落下する場面。",
           "label": "図A"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-08.jpg",
-          "alt": "設問で参照する作品図版",
+          "src": "/images/artworks/mock03-img-08.jpg",
+          "alt": "つばの広い帽子をかぶり、椅子の背に腕をかけた男性の半身像。",
           "label": "図B"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図Aはルーベンスの《ライオンの穴のダニエル》、図Bはハルスの《ウィレム・コイマンス》である。図Aの劇的な身体の動きと獣の群れ、図Bの身構えや軽快な筆触を、17世紀の作家と結び付けて識別する。主題の種類や媒体の違いだけを消去の根拠にしない。"
+          "text": "図Aはルーベンスの《パエトンの墜落》。太陽の馬車を制御できなくなったパエトンが落ちる神話を、交錯する馬や人物の動きで表した。図Bはハルスの《ウィレム・コイマンス》。こちらを向く視線と椅子に腕をかけた姿勢に、肖像画家ハルスの人物の捉え方が表れている。"
         },
         {
           "type": "text",
-          "text": "ア：図Bの作者は合うが、図Aの作者はルーベンスである。"
+          "text": "ア：図Bの作者はハルス。図Aの神話画を描いたのはルーベンスである。"
         },
         {
           "type": "text",
-          "text": "イ：二つの図と作者の対応が正しい。"
+          "text": "イ：図Aはルーベンスの神話画、図Bはハルスが描いたウィレム・コイマンスの肖像である。"
         },
         {
           "type": "text",
-          "text": "ウ：図Aの作者は合うが、図Bはレンブラントではない。"
+          "text": "ウ：図Aの作者は合う。図Bのモデルを描いたのはハルスである。"
         },
         {
           "type": "text",
-          "text": "エ：図A・Bのどちらも作者が異なる。"
+          "text": "エ：レンブラントもヴァン・ダイクも17世紀の画家だが、図A・Bの作者とは対応しない。"
         },
         {
           "type": "text",
-          "text": "Sir Peter Paul Rubens《Daniel in the Lions' Den》、c. 1614/1616。National Gallery of Art, Washington、 1965.13.1。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/50298-daniel-lions-den\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）\n\nFrans Hals《Willem Coymans》、1645。National Gallery of Art, Washington、1937.1.69。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/76-willem-coymans\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "図A　Sir Peter Paul Rubens《The Fall of Phaeton》、c. 1604/1605, probably reworked c. 1606/1608。National Gallery of Art, Washington、1990.1.1。 Patrons' Permanent Fund。 画像ライセンス CC0。\n図B　Frans Hals《Willem Coymans》、1645。National Gallery of Art, Washington、1937.1.69。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.69・70・124・125（1.pdf：PDF 59・60・114・115ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Fall of Phaeton》 | https://www.nga.gov/artworks/71349-fall-phaeton\nワシントン・ナショナル・ギャラリー《Willem Coymans》 | https://www.nga.gov/artworks/76-willem-coymans",
       "choices": [
         {
           "choice_label": "ア",
@@ -3022,49 +3016,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の手前の人物と画面の端、斜めに広がる舞台の関係に注目する。この構図を、近代の視覚表現と結び付ける説明はどれか。"
+          "text": "図の舞台裏を描いた画家が、パリの人々の日常を題材にした別の作品はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-14.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock02-img-14.jpg",
+          "alt": "手前の踊り手が片側を大きく占め、その奥に別の踊り手と舞台の背景が見える絵画",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ドガの踊り子の図では、画面から切れる近い人物や斜めの見方が効果を生む。写真をそのまま写したと断定するのでなく、写真や浮世絵などを含む近代の視覚と関連して構図を読む。"
+          "text": "《舞台裏の踊り子たち》の作者エドガー・ドガは、舞台の袖や稽古場に目を向けた。《カフェにて（アブサント）》では、同じテーブルに並んで座りながら視線を交わさない男女を描いている。"
         },
         {
           "type": "text",
-          "text": "ア：構図の選択を、写真などとの関わりから考えられる。"
+          "text": "ア：パリのカフェに並んで座る男女を描いた、ドガの作品である。"
         },
         {
           "type": "text",
-          "text": "イ：手前と奥の人物の差、斜めの画面と合わない。"
+          "text": "イ：床にひざをついて働く職人を描いたのはギュスターヴ・カイユボットである。"
         },
         {
           "type": "text",
-          "text": "ウ：人物の配置と筆触の双方に合わない。"
+          "text": "ウ：バーカウンターの女性と背後の鏡を描いたのはエドゥアール・マネである。"
         },
         {
           "type": "text",
-          "text": "エ：人物の重なりと奥行きを無視する。"
+          "text": "エ：モンマルトルの屋外舞踏場のにぎわいを描いたのはオーギュスト・ルノワールである。"
         },
         {
           "type": "text",
-          "text": "Edgar Degas《Dancers Backstage》、1876/1883。National Gallery of Art, Washington、1970.17.25。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/52169-dancers-backstage\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Edgar Degas《Dancers Backstage》、1876/1883。National Gallery of Art, Washington、1970.17.25。 Ailsa Mellon Bruce Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.84・131（1.pdf：PDF 74・121ページ）\n『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Dancers Backstage》 | https://www.nga.gov/artworks/52169-dancers-backstage\nオルセー美術館《Dans un café》 | https://www.musee-orsay.fr/en/artworks/dans-un-cafe-1147",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "人物を途中で切る配置や偏った視点によって、舞台の一瞬を捉えたような効果をつくる。"
+              "text": "《カフェにて（アブサント）》"
             }
           ],
           "is_correct": true,
@@ -3075,7 +3069,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "すべての人物を中央軸の左右に同じ大きさで並べ、正面の対称性を固定する。"
+              "text": "《床を削る人々》"
             }
           ],
           "is_correct": false,
@@ -3086,7 +3080,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "人物の輪郭を消して等しい色点へ還元し、構図の偏りをなくす。"
+              "text": "《フォリー＝ベルジェールのバー》"
             }
           ],
           "is_correct": false,
@@ -3097,7 +3091,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "人物の重要度だけで大小を決め、前後関係は一切表さない。"
+              "text": "《ムーラン・ド・ラ・ギャレットの舞踏会》"
             }
           ],
           "is_correct": false,
@@ -3212,49 +3206,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の果物・器・台の関係を観察する。この画面の形と色の組み立て方として、最も適切なものはどれか。"
+          "text": "果物の皿を上から見せながら、水差しの胴や卓の側面も大きく描いている。この静物画の作者による形の探究を受け継ぎ、対象を異なる角度からとらえた面へと分解していった二人は誰か。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-35.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock03-img-35.jpg",
+          "alt": "傾いて見える木の卓に、果物を盛った白い皿と水差し、柄のある布、ひだを寄せた白い布が置かれている。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図はセザンヌの静物画である。台や器には単一の方向へそろわない見え方が含まれ、色の面の関係が物の厚みと画面のつり合いを支える。瞬間の光の印象、規則的な点描、形を透かし合わせる分析的な分割は、それぞれ近代絵画の別の課題と区別する。"
+          "text": "セザンヌは《リンゴとモモのある静物》で、器や果物をそれぞれの量感が伝わる角度からとらえ、一つの画面に組み立てた。ピカソとブラックは、こうした探究を手掛かりに、視点を固定せずに形を分解・再構成するキュビスムを発展させた。"
         },
         {
           "type": "text",
-          "text": "ア：光の瞬間的な印象より、色の面による形と画面の構成がこの図の重要な課題である。"
+          "text": "ア：マティスとドランはコリウールでともに制作し、鮮烈な色彩を用いたフォーヴィスムを担った。"
         },
         {
           "type": "text",
-          "text": "イ：規則的な小色点を並べる点描の説明で、この図の筆触・色面とは異なる。"
+          "text": "イ：スーラとシニャックは色彩の分割を組織的に用いる新印象主義を担った。"
         },
         {
           "type": "text",
-          "text": "ウ：方向のずれと色面の関係を通じて、物の厚みと構成を捉える。"
+          "text": "ウ：ピカソとブラックは形を異なる側面からとらえ直し、キュビスムをともに展開した。"
         },
         {
           "type": "text",
-          "text": "エ：複数の形を鋭い断片へ分割して透かし合わせる画面ではない。"
+          "text": "エ：ボナールとヴュイヤールは、身近な室内などを装飾的な色面にまとめたナビ派の画家である。"
         },
         {
           "type": "text",
-          "text": "Paul Cezanne《Still Life with Apples and Peaches》、c. 1905。National Gallery of Art, Washington、1959.15.1。 CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/45986-still-life-apples-and-peaches\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Paul Cezanne《Still Life with Apples and Peaches》、c. 1905。National Gallery of Art, Washington、1959.15.1。 Gift of Eugene and Agnes E. Meyer。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.132（1.pdf：PDF 122ページ）\n『改訂版 西洋・日本美術史の基本』p.259（3.pdf：PDF 5ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Still Life with Apples and Peaches》 | https://www.nga.gov/artworks/45986-still-life-apples-and-peaches\nメトロポリタン美術館「Cubism」 | https://www.metmuseum.org/fr/essays/cubism",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "大気による色の移り変わりに合わせ、輪郭を弱めながら瞬間の光を捉えている。"
+              "text": "マティスとドラン"
             }
           ],
           "is_correct": false,
@@ -3265,7 +3259,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "対象を小さな色の点に分け、規則的な点の集まりによって形と陰影を示している。"
+              "text": "スーラとシニャック"
             }
           ],
           "is_correct": false,
@@ -3276,7 +3270,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "台や器の方向にずれを含め、色の面の関係で物の厚みと構成を作っている。"
+              "text": "ピカソとブラック"
             }
           ],
           "is_correct": true,
@@ -3287,7 +3281,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "物を鋭い面へ分割して透かし合わせ、複数の視点を示す断片へ変えている。"
+              "text": "ボナールとヴュイヤール"
             }
           ],
           "is_correct": false,
@@ -4412,49 +4406,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の頭部の装飾、装身具、衣の表現を観察する。簡素な僧衣をまとう如来形と比べて、この像を分類する根拠として適切なのはどれか。"
+          "text": "図の立像は、宝冠の正面に小さな仏の姿を表している。この菩薩を脇侍の一尊とする三尊形式で、中尊ともう一方の脇侍にあたるのはどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-17.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock01-img-17.jpg",
+          "alt": "冠を戴き、首飾りをつけた正面向きの立像。冠の中央に小さな仏の姿がある。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "仏像の分類は顔の印象だけでなく、衣服・装身具・持物・姿勢などを合わせて判断する。この像は十一面観音像だが、像の個別名称を知らなくても菩薩形の特徴を判断できる。"
+          "text": "飛鳥時代の観音菩薩像。宝冠の中央にある小像は化仏といい、観音を見分ける手掛かりとなる。阿弥陀三尊として表す場合、観音は勢至と対になる。"
         },
         {
           "type": "text",
-          "text": "ア：この図には甲冑や戦闘の武器が見られない。"
+          "text": "ア：薬師三尊で月光菩薩と対をなすのは日光菩薩である。"
         },
         {
           "type": "text",
-          "text": "イ：装飾を備える姿と分類を結び付ける。"
+          "text": "イ：観音菩薩は宝冠に阿弥陀の化仏を表し、勢至菩薩とともに阿弥陀如来に脇侍する。"
         },
         {
           "type": "text",
-          "text": "ウ：図の穏やかな姿と装飾の構成に合わない。"
+          "text": "ウ：普賢菩薩を配する代表的な釈迦三尊では、もう一方に文殊菩薩を置く。"
         },
         {
           "type": "text",
-          "text": "エ：頭部と身体の装飾を見落としている。"
+          "text": "エ：釈迦の弟子を両脇に置く構成では、阿難尊者の対になるのは迦葉尊者である。"
         },
         {
           "type": "text",
-          "text": "制作者不詳《Eleven-Headed Kannon (Jūichimen Kannon)》、1100s。Cleveland Museum of Art、1960.279。 CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1960.279\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "制作者不詳《Kannon》、mid-600s–early 700s。Cleveland Museum of Art、1950.392。 John L. Severance Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.178・187（2.pdf：PDF 32・41ページ）\n『改訂版 西洋・日本美術史の基本』p.268・269（3.pdf：PDF 14・15ページ）",
+      "source_text": "クリーブランド美術館《Kannon》 | https://www.clevelandart.org/art/1950.392\n文化庁・文化遺産データベース《観音菩薩・勢至菩薩立像》 | https://online.bunka.go.jp/db/heritages/detail/430172\n文化庁《木造阿弥陀如来及両脇侍坐像》 | https://kunishitei.bunka.go.jp/heritage/detail/201/00011774\n文化庁《木造釈迦如来及迦葉阿難立像》 | https://online.bunka.go.jp/heritages/detail/167598",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "甲冑と武器を備えるため、守護を担う天部の特徴が中心である。"
+              "text": "薬師如来と月光菩薩"
             }
           ],
           "is_correct": false,
@@ -4465,7 +4459,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "冠や装身具を備えた菩薩形としての特徴がある。"
+              "text": "阿弥陀如来と勢至菩薩"
             }
           ],
           "is_correct": true,
@@ -4476,7 +4470,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "忿怒の表情と火炎を示すため、明王の特徴が中心である。"
+              "text": "釈迦如来と普賢菩薩"
             }
           ],
           "is_correct": false,
@@ -4487,7 +4481,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "僧衣以外の装飾がないため、如来形の特徴だけが見られる。"
+              "text": "釈迦如来と阿難尊者"
             }
           ],
           "is_correct": false,
@@ -5017,49 +5011,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1は物語を伝える絵巻の一部分である。文字と人物の場面が隣接する構成を、巻子の鑑賞方法と結び付けた説明はどれか。"
+          "text": "仮名の詞書と宮廷の人々が集う場面を残す、この絵巻の断簡は、藤原頼通が天皇を迎えて催した駒競に取材している。典拠となった歴史物語はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-31.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock03-img-31.jpg",
+          "alt": "画面の左に縦書きの仮名が並び、右には装束をつけた人々の集まる小さな場面がある。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "絵巻では、詞書を読み、絵を見、巻き進めるという時間が鑑賞に関わる。掲載画像は全体の一部分なので、写真の横幅を原作全体の長さと取り違えない。"
+          "text": "図は所蔵館が『栄花物語』の駒競の行幸を描いたものとする断簡である。題材となったのは1024年、関白藤原頼通が邸の高陽院に天皇らを迎えた催しで、儀礼を通じて摂関家の繁栄が示される。"
         },
         {
           "type": "text",
-          "text": "ア：文字と絵の配置が巻子の時間的な鑑賞と結び付く。"
+          "text": "ア：藤原氏の栄華を描いた『栄花物語』は、巻二十三「こまくらべの行幸」に頼通の邸での催しを記す。"
         },
         {
           "type": "text",
-          "text": "イ：掲載部分では文字と絵が同じ面で連続する。"
+          "text": "イ：『大鏡』は老人の対話を枠組みとして藤原氏らの歴史を語り、この絵巻の典拠となった巻をもたない。"
         },
         {
           "type": "text",
-          "text": "ウ：屏風の鑑賞と混同する。"
+          "text": "ウ：『今鏡』は『大鏡』が扱った時期の後をたどる歴史物語で、図に描かれた駒競の典拠とは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：掛軸の形式を巻子へ当てはめる。"
+          "text": "エ：『増鏡』は後鳥羽院から後醍醐天皇に至る時代を中心とし、頼通が駒競を催した時期より後を扱う。"
         },
         {
           "type": "text",
-          "text": "制作者不詳《The Emperor's Attendance at the Horse Race: Episode from the Tale of Eiga (Eiga Monogatari)》、 c. 1200。Cleveland Museum of Art、1976.164。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1976.164\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "制作者不詳《The Emperor's Attendance at the Horse Race: Episode from the Tale of Eiga (Eiga Monogatari)》、c. 1200。Cleveland Museum of Art、1976.164。 Gift of Herbert F. Leisy in memory of Helen Leisy。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.188・189・237（2.pdf：PDF 42・43・91ページ）\n『改訂版 西洋・日本美術史の基本』p.265・266（3.pdf：PDF 11・12ページ）",
+      "source_text": "クリーブランド美術館《The Emperor's Attendance at the Horse Race: Episode from the Tale of Eiga (Eiga Monogatari)》 | https://www.clevelandart.org/art/1976.164\n九州国立博物館「海を越えた再会」 | https://www.kyuhaku.jp/exhibition/exhibition_pre121.html\n和泉市久保惣記念美術館《駒競行幸絵巻》 | https://www.ikm-art.jp/degitalmuseum/num/001/0010018000.html",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "巻き進める中で、詞書と絵を関係づけて物語をたどる。"
+              "text": "『栄花物語』"
             }
           ],
           "is_correct": true,
@@ -5070,7 +5064,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "文字の部分は絵と無関係な裏面の記録なので、常に隠して鑑賞する。"
+              "text": "『大鏡』"
             }
           ],
           "is_correct": false,
@@ -5081,7 +5075,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "折り畳む各扇を立て、左右二隻を一度に見渡すことを基本にする。"
+              "text": "『今鏡』"
             }
           ],
           "is_correct": false,
@@ -5092,7 +5086,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "縦に一幅を掛け、上下の表装を柱として物語を読む。"
+              "text": "『増鏡』"
             }
           ],
           "is_correct": false,
@@ -7093,49 +7087,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の織物に見られる文様の構成と、モリスの活動を結び付けた説明として、最も適切なものはどれか。"
+          "text": "図は1875年にデザインされた綿布《チューリップ》である。室内装飾を手がけ、晩年にはケルムスコット・プレスを設けて書物のデザインにも取り組んだのは誰か。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock03-img-26.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock03-img-26.jpg",
+          "alt": "淡い緑の地に、白っぽい花と波打つ葉が繰り返し並ぶ布地。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "モリスの織物では、植物の形を観察し、花・葉・茎が連続する文様へ整える働きを見て取れる。自然をそのまま写すだけでなく、生活で用いる布の面に合わせて構成するという、アーツ・アンド・クラフツの関心と結び付ける。"
+          "text": "身の回りの品に美しいデザインを取り戻そうとしたモリスは、その考えを印刷にも広げた。ケルムスコット版『チョーサー著作集』ではバーン＝ジョーンズが挿絵を担当した。"
         },
         {
           "type": "text",
-          "text": "ア：工業規格の統一を中心とする説明は、モリスの活動と図の植物文様の関係に合わない。"
+          "text": "ア：画家としてモリスと協働し、ケルムスコット版『チョーサー著作集』の挿絵を担当した。"
         },
         {
           "type": "text",
-          "text": "イ：花が遠くへ縮小する一点透視の空間ではなく、面全体へ文様が連続する。"
+          "text": "イ：中世の職人の仕事を評価した批評家で、その著作はモリスの工芸思想に影響を与えた。"
         },
         {
           "type": "text",
-          "text": "ウ：植物の形の整理と、使用する面の構成を結び付けている。"
+          "text": "ウ：モリスは家具や壁紙、布地をデザインし、1891年にケルムスコット・プレスを設立した。"
         },
         {
           "type": "text",
-          "text": "エ：図では複雑な植物の形が反復し、一つの紋章にまとめられてはいない。"
+          "text": "エ：グラスゴーを拠点に、建築のほか家具や室内装飾も手がけた。"
         },
         {
           "type": "text",
-          "text": "William Morris (British, 1834–1896) [designed by]《Tulip 》、1875。Cleveland Museum of Art、1937.579。CC0。\nCleveland Museum of Art\nhttps://www.clevelandart.org/art/1937.579\nhttps://www.clevelandart.org/open-access\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "William Morris (British, 1834–1896)《Tulip》、1875。Cleveland Museum of Art、1937.579。 Gift of Mrs. Philip White。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.134・135（1.pdf：PDF 124・125ページ）",
+      "source_text": "クリーブランド美術館《Tulip》 | https://www.clevelandart.org/art/1937.579\nバーミンガム大学 ケルムスコット・プレス | https://www.birmingham.ac.uk/facilities/cadbury/rarebooks/fine-printing-private-press/kelmscott\n米国議会図書館 モリスとケルムスコット・プレス | https://guides.loc.gov/medievalism/morris",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "植物の各部を部品のように均一化し、工業規格の統一を意匠の中心にした。"
+              "text": "エドワード・バーン＝ジョーンズ"
             }
           ],
           "is_correct": false,
@@ -7146,7 +7140,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "一点透視図法を布に移し、花が奥へ小さくなっていく空間を作った。"
+              "text": "ジョン・ラスキン"
             }
           ],
           "is_correct": false,
@@ -7157,7 +7151,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "自然の形を連続する文様に組み替え、生活の中で使う面として整えた。"
+              "text": "ウィリアム・モリス"
             }
           ],
           "is_correct": true,
@@ -7168,7 +7162,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "花や葉を単純な幾何形に還元し、左右対称の紋章として一つにまとめた。"
+              "text": "チャールズ・レニー・マッキントッシュ"
             }
           ],
           "is_correct": false,
@@ -7273,49 +7267,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1はレンブラントによる銅版技法の作品である。空や樹木の細い線の重なりを、凹版の基本原理へ結び付けた説明はどれか。"
+          "text": "風景版画《三本の木》を制作したレンブラントは、その前年の1642年に市民隊の集団肖像画《夜警》を完成させた。この集団肖像画が市民隊の会館に掲げられた都市はどこか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/illustrated-mock02-img-27.jpg",
-          "alt": "設問で参照する作品図版",
-          "label": "図1"
+          "src": "/images/artworks/mock02-img-27.jpg",
+          "alt": "暗い雲の下、右手の土手に大きな木が並び、左奥に広い平地が続く版画。",
+          "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "この図版には複数の銅版技法が併用されるため、見た目だけから単一技法を断定する問題にはしていない。ここでは線の効果と、凹部を利用する版画の大きな原理を対応させる。"
+          "text": "17世紀のオランダでは、市民隊の隊員たちが集団肖像画を注文した。《夜警》では、アムステルダムのバニング・コック隊長が隊員に出発を命じる場面が描かれている。"
         },
         {
           "type": "text",
-          "text": "ア：孔版の原理との混同。"
+          "text": "ア：レンブラントが生まれ、初期に工房を構えた都市である。"
         },
         {
           "type": "text",
-          "text": "イ：細線の集合と凹版の原理が対応する。"
+          "text": "イ：火縄銃手組合の会館を飾るため、同市の市民隊を描いたのが《夜警》である。"
         },
         {
           "type": "text",
-          "text": "ウ：平版のリトグラフの原理との混同。"
+          "text": "ウ：ハルスが聖ゲオルギウス市民隊などの集団肖像を描いた都市である。"
         },
         {
           "type": "text",
-          "text": "エ：凸版の基本原理との混同。"
+          "text": "エ：フェルメールが活動し、ピーテル・デ・ホーホも市民の暮らしを描いた都市である。"
         },
         {
           "type": "text",
-          "text": "Rembrandt van Rijn《The Three Trees》、1643。National Gallery of Art, Washington、1943.3.9119。CC0。\nNational Gallery of Art, Washington\nhttps://www.nga.gov/artworks/11628-three-trees\nhttps://www.nga.gov/terms-and-notices\nCC0（提供された旧模試の画像クレジット記録）"
+          "text": "Rembrandt van Rijn《The Three Trees》、1643。National Gallery of Art, Washington、1943.3.9119。 Rosenwald Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.262（3.pdf：PDF 8ページ）",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Three Trees》 | https://www.nga.gov/artworks/11628-three-trees\nアムステルダム国立美術館《夜警》 | https://www.rijksmuseum.nl/en/collection/object/The-Night-Watch-Militia-Company-of-District-II-under-the-Command-of-Captain-Frans-Banninck-Cocq--3137deb45cd7765f9a76084a16c99544",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "網の孔を通してインクを押し出す方法だけを、凹版と呼ぶ。"
+              "text": "レイデン"
             }
           ],
           "is_correct": false,
@@ -7326,7 +7320,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "版の凹んだ部分に残るインクを紙へ移し、線やその密度で明暗をつくる。"
+              "text": "アムステルダム"
             }
           ],
           "is_correct": true,
@@ -7337,7 +7331,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "石の面の油と水の反発を使う方法だけを、凹版と呼ぶ。"
+              "text": "ハールレム"
             }
           ],
           "is_correct": false,
@@ -7348,7 +7342,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "彫り残した木の凸部だけにインクを付けることを、凹版と呼ぶ。"
+              "text": "デルフト"
             }
           ],
           "is_correct": false,

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 187,
-  "updated_at": "2026-11-09T13:14:16.950Z",
+  "revision": 189,
+  "updated_at": "2026-11-10T22:16:39.974Z",
   "workspace_relative_to_repo": ".",
-  "active_context": "development",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-09T13-14-16-950Z-r187.json",
+  "active_context": "product",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-10T22-16-39-974Z-r189.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -3148,6 +3148,64 @@
             "outcome": "passed",
             "summary": "受領510問の変換/独立照合、366問+6資料の更新・採点・履歴・復元・PC/SP・CI・本番680照合と公開検査が成功",
             "at": "2026-11-09T13:14:16.254Z",
+            "failed_criteria": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "art_figure_history_rewrite",
+      "context": "product",
+      "title": "全8回の美術史図版124問の改稿と作品重複の解消",
+      "status": "done",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-11 ユーザー依頼：修正推奨119問と再検討5問を改稿し、全8回の通常問題で同じ図版・図表を使い回さない",
+      "next_action": "改稿済みの問題・解説・図版台帳を確認できる",
+      "evidence": [
+        "docs/verification.md",
+        "local-only/figure-history-revision-20261111/verification.json",
+        "local-only/figure-history-revision-20261111/blind-review.json",
+        "local-only/figure-history-revision-20261111/report-ja.md"
+      ],
+      "last_verified_at": "2026-11-10T22:16:03.012Z",
+      "verification_scope": "対象124問の改稿と重複解消3問、固有135作品・6表、全640通常問題、独立盲解、検証DBで508肢採点と旧履歴、PC/SP表示。実受験者測定・公開配信は対象外。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "指定124問を改稿、全通常問題で図版・図表重複0、四肢・正答位置と範囲外データを保護",
+          "verification": "問題データの再構成、作品番号・図表・画像指紋、範囲外差分、表示内容を照合",
+          "status": "passed",
+          "evidence": [
+            "docs/verification.md",
+            "local-only/figure-history-revision-20261111/verification.json"
+          ],
+          "checked_at": "2026-11-10T22:16:03.012Z"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "史実に基づく問い方と四肢について改稿者以外が受験表示で解答・誤肢評価する",
+          "verification": "別担当が解答を記録してから正答と照合し、修正箇所を再評価する",
+          "status": "passed",
+          "evidence": [
+            "local-only/figure-history-revision-20261111/blind-review.json",
+            "local-only/figure-history-revision-20261111/report-ja.md"
+          ],
+          "checked_at": "2026-11-10T22:16:03.012Z",
+          "reviewer": "western_first / western_later / japan_figures（交差盲解、自己担当を除外）"
+        }
+      ],
+      "execution": {
+        "worker": "art_figure_editors",
+        "max_attempts": 3,
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "全8回の通常問題で図版・表の重複0、変更127問の最終盲解一致、508肢採点・履歴保持とPC・スマートフォンの表示を確認",
+            "at": "2026-11-10T22:16:39.552Z",
             "failed_criteria": []
           }
         ]

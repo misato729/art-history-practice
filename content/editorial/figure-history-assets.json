@@ -1,0 +1,105 @@
+{
+  "assets": [
+    {
+      "id": "fig-history-01",
+      "candidate_id": "nga-41581",
+      "provider": "National Gallery of Art, Washington",
+      "src": "/images/artworks/fig-history-01.jpg",
+      "author": "Fra Angelico and Fra Filippo Lippi",
+      "title": "The Adoration of the Magi",
+      "date": "c. 1440/1460",
+      "medium": "tempera on poplar panel",
+      "credit_line": "Samuel H. Kress Collection",
+      "accession_number": "1952.2.2",
+      "source_page": "https://www.nga.gov/artworks/41581-adoration-magi",
+      "image_url": "https://api.nga.gov/iiif/bdb650b1-c025-4f56-8fb3-0d781346fc5f/full/!1400,1400/0/default.jpg",
+      "policy_url": "https://www.nga.gov/terms-and-notices",
+      "license": "CC0-1.0",
+      "checked_on": "2026-11-11",
+      "latest_creator_death": 1469,
+      "creator_death_years": [
+        1455,
+        1469
+      ],
+      "individual_page_rights": "This object’s media is free and in the public domain.",
+      "width": 1400,
+      "height": 1400,
+      "sha256": "1b4de0d58f41c872a610e1b21377d06dd08342aae070960290d5e292c264b5ec"
+    },
+    {
+      "id": "fig-history-02",
+      "candidate_id": "nga-396",
+      "provider": "National Gallery of Art, Washington",
+      "src": "/images/artworks/fig-history-02.jpg",
+      "author": "Gentile da Fabriano",
+      "title": "Madonna and Child Enthroned",
+      "date": "c. 1420",
+      "medium": "tempera on poplar panel",
+      "credit_line": "Samuel H. Kress Collection",
+      "accession_number": "1939.1.255",
+      "source_page": "https://www.nga.gov/artworks/396-madonna-and-child-enthroned",
+      "image_url": "https://api.nga.gov/iiif/ce4d7f93-8bcf-4f88-a9c1-bea5c5a9b425/full/!1400,1400/0/default.jpg",
+      "policy_url": "https://www.nga.gov/terms-and-notices",
+      "license": "CC0-1.0",
+      "checked_on": "2026-11-11",
+      "latest_creator_death": 1427,
+      "creator_death_years": [
+        1427
+      ],
+      "individual_page_rights": "This object’s media is free and in the public domain.",
+      "width": 805,
+      "height": 1400,
+      "sha256": "89f4c7b01e361457ee30b15ffc7e8a6c21462e7af8acefea39cfce391fe347dd"
+    },
+    {
+      "id": "fig-history-03",
+      "candidate_id": "nga-37003",
+      "provider": "National Gallery of Art, Washington",
+      "src": "/images/artworks/fig-history-03.jpg",
+      "author": "Judith Leyster",
+      "title": "Self-Portrait",
+      "date": "c. 1630",
+      "medium": "oil on canvas",
+      "credit_line": "Gift of Mr. and Mrs. Robert Woods Bliss",
+      "accession_number": "1949.6.1",
+      "source_page": "https://www.nga.gov/artworks/37003-self-portrait",
+      "image_url": "https://api.nga.gov/iiif/440fe0d2-b4ca-4afc-a33e-2d4683ece38f/full/!1400,1400/0/default.jpg",
+      "policy_url": "https://www.nga.gov/terms-and-notices",
+      "license": "CC0-1.0",
+      "checked_on": "2026-11-11",
+      "latest_creator_death": 1660,
+      "creator_death_years": [
+        1660
+      ],
+      "individual_page_rights": "This object’s media is free and in the public domain.",
+      "width": 1226,
+      "height": 1400,
+      "sha256": "8709e5275bcfed0bd8e27fca534991cecee9b2ba1c8de8bc0635cd20a6525c59"
+    },
+    {
+      "id": "fig-history-04",
+      "candidate_id": "nga-54386",
+      "provider": "National Gallery of Art, Washington",
+      "src": "/images/artworks/fig-history-04.jpg",
+      "author": "Georges de La Tour",
+      "title": "The Repentant Magdalen",
+      "date": "c. 1635/1640",
+      "medium": "oil on canvas",
+      "credit_line": "Ailsa Mellon Bruce Fund",
+      "accession_number": "1974.52.1",
+      "source_page": "https://www.nga.gov/artworks/54386-repentant-magdalen",
+      "image_url": "https://api.nga.gov/iiif/878b78aa-12f0-4fd2-951b-713f67dba6d4/full/!1400,1400/0/default.jpg",
+      "policy_url": "https://www.nga.gov/terms-and-notices",
+      "license": "CC0-1.0",
+      "checked_on": "2026-11-11",
+      "latest_creator_death": 1652,
+      "creator_death_years": [
+        1652
+      ],
+      "individual_page_rights": "This object’s media is free and in the public domain.",
+      "width": 1162,
+      "height": 1400,
+      "sha256": "6f1713549edc293f16a63d7274b9d7480d3e3b87f4dddb78b4db8da2aca948a9"
+    }
+  ]
+}

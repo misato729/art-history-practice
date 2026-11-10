@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import assert from 'node:assert/strict'
 import './check-wording.mjs'
+import { checkOrdinaryFigures } from './check-ordinary-figures.mjs'
 import { readFileSync } from 'node:fs'
 import { verify678 } from './illustrated-678/build.mjs'
 import { verifyIllustrated } from './illustrated-revision/build.mjs'
@@ -22,6 +23,8 @@ const reading = questions => questions.reduce((counts, question) => {
 function main() {
   const authoringOnly = process.argv.includes('--authoring-only')
   // Original series ratings/PDFs remain historical artifacts; V2 is checked against its supplied source.
+  const figures = checkOrdinaryFigures(read('content/questions.json'))
+  assert.deepEqual(figures.illustrated, [16, 6, 19, 18, 16, 21, 21, 21])
   verify678()
   verifySeed()
   verifyIllustrated()
@@ -118,7 +121,7 @@ function main() {
   assert.equal(occurrences, 180)
   for (const [path, digest] of Object.entries(series.preserved_mock01_files)) assert.equal(hash(path.replace('content/mock-exams/mock-01/','content/revisions/illustrated-01345/mock-1/baseline-artifacts/')), digest)
   // This structural comparison does not replace independent semantic or difficulty review.
-  console.log(JSON.stringify({ status:'passed', scope:'historical_series_and_source_checked_active_revision', active_revision:'mock02-textbook-v2-20261107', sets:5, questions:425, choices, new_focuses:newFocuses,
+  console.log(JSON.stringify({ status:'passed', scope:'historical_series_and_source_checked_active_revision', active_revision:'figure-history-20261111', active_ordinary:figures.ordinary, active_figure_questions:figures.illustrated.reduce((a,b)=>a+b,0), sets:5, questions:425, choices, new_focuses:newFocuses,
     artwork_assets:assets.size, image_occurrences:occurrences, historical_mock01_preserved:true,reviewed_wording_applied:true, calibration:'historical_editorial_only_v2_not_calibrated' }))
 }
 try { main() } catch {

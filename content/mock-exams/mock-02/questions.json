@@ -1052,22 +1052,38 @@
         },
         {
           "type": "image",
-          "src": "/images/artworks/mock02-img-05.jpg",
-          "alt": "教会内部で、翼のある人物と、書物の前に立つ女性が向かい合う絵画。",
+          "src": "/images/artworks/mock03-img-02.jpg",
+          "alt": "柱を隔て、翼のある人物と青い衣の女性が向かい合ってひざまずく。",
           "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "教会の室内で、翼のある大天使が、書物の前にいるマリアに向き合っている。ユリや鳩、天から差す光も、キリストの受肉を告げる《受胎告知》の図像として読み取れる。図版はヤン・ファン・エイクの《受胎告知》である。"
+          "text": "フラ・フィリッポ・リッピの《受胎告知》では、左のガブリエルと右のマリアが、中央の柱を挟んで向かい合う。この二人の対面は、マリアにキリストの誕生が告げられる場面を表す。"
         },
         {
           "type": "text",
-          "text": "各選択肢の確認：\nア：マリアがエリサベトを訪ねる場面で、二人の女性の出会いが中心となる。\nイ：聖母や使徒たちに聖霊が降る場面であり、この二人の対面の場面とは異なる。\nウ：大天使ガブリエルがマリアに受胎を告げる場面で、図版の人物と持物に対応する。\nエ：マリアが天へ上げられる場面であり、室内で知らせを受ける姿とは異なる。"
+          "text": "ア：聖母訪問は、マリアがエリサベトを訪ねる場面である。"
+        },
+        {
+          "type": "text",
+          "text": "イ：聖霊降臨では、集まった使徒たちの上に聖霊が降る。"
+        },
+        {
+          "type": "text",
+          "text": "ウ：受胎告知では、大天使ガブリエルがマリアにキリストの誕生を告げる。"
+        },
+        {
+          "type": "text",
+          "text": "エ：聖母被昇天は、地上での生涯を終えたマリアが天に迎えられる主題である。"
+        },
+        {
+          "type": "text",
+          "text": "Fra Filippo Lippi《The Annunciation》、c. 1435/1440。National Gallery of Art, Washington、1943.4.35。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.123（1.pdf：113ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《受胎告知》作品情報 | https://www.nga.gov/artworks/46-annunciation",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Annunciation》 | https://www.nga.gov/artworks/12133-annunciation",
       "choices": [
         {
           "choice_label": "ア",
@@ -1127,33 +1143,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図版に描かれた鏡の役割について、画面の観察に即した説明はどれか。"
+          "text": "黒い外套に白い十字章をつけた少年は、ローマ教皇の孫としてヴェネツィアに赴いた。ティツィアーノがこの少年に続いて肖像を描いた、その祖父に当たる教皇は誰か。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/mock02-img-04.jpg",
-          "alt": "鏡を支える翼のある幼児と、赤い布や毛皮をまとう女性を描いた絵画。",
+          "src": "/images/artworks/mock01-img-04.jpg",
+          "alt": "暗い外套と赤い衣服を着た少年の肖像画。",
           "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "鏡の中には女性の目や額など、顔の一部が見える。女性の姿を直接示すとともに、その顔の一部を鏡像としても画面に収めている。鏡に何が映っているかを確認し、直接見える人物との関係を捉えることが大切である。"
+          "text": "少年はラヌッチョ・ファルネーゼで、外套の十字章は聖ヨハネ騎士団（マルタ騎士団）と結び付く。ティツィアーノはこの肖像をきっかけに祖父パウルス3世の肖像も描き、ファルネーゼ家から注文を受けた。"
         },
         {
           "type": "text",
-          "text": "各選択肢の確認：\nア：鏡には顔の一部が見え、後頭部や髪形の背面を示す像ではない。\nイ：鏡に見える顔は女性のものであり、鏡を支える幼児の顔ではない。\nウ：鏡には女性の顔の一部が描かれ、室内の窓や壁を奥へ広げる像ではない。\nエ：女性の直接見える姿と、鏡に映った顔の一部が同じ画面に示されている。"
+          "text": "ア：ユリウス2世はデッラ・ローヴェレ家出身で、ラファエロがその肖像を描いた。"
+        },
+        {
+          "type": "text",
+          "text": "イ：ラファエロが二人の枢機卿とともに描いたレオ10世はメディチ家出身である。"
+        },
+        {
+          "type": "text",
+          "text": "ウ：クレメンス7世はメディチ家出身で、父はジュリアーノ・デ・メディチである。"
+        },
+        {
+          "type": "text",
+          "text": "エ：パウルス3世はファルネーゼ家出身で、少年ラヌッチョの祖父に当たる。"
+        },
+        {
+          "type": "text",
+          "text": "Titian《Ranuccio Farnese》、1541-1542。National Gallery of Art, Washington、1952.2.11。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.65・121・132（1.pdf：55・111・122ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《鏡を見るヴィーナス》作品情報 | https://www.nga.gov/artworks/41-venus-mirror",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Ranuccio Farnese》 | https://www.nga.gov/artworks/41593-ranuccio-farnese",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "鏡に女性の後頭部を映し、直接は見えない髪形の背面を見せている。"
+              "text": "ユリウス2世"
             }
           ],
           "is_correct": false,
@@ -1164,7 +1196,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "鏡に手前の幼児の顔を映し、その後ろ姿と正面の表情を同時に見せている。"
+              "text": "レオ10世"
             }
           ],
           "is_correct": false,
@@ -1175,7 +1207,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "鏡に人物の背後の室内を映し、奥へ続く窓や壁の空間を見せている。"
+              "text": "クレメンス7世"
             }
           ],
           "is_correct": false,
@@ -1186,7 +1218,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "鏡に女性の顔の一部を映し、直接見える姿と鏡像とを同時に見せている。"
+              "text": "パウルス3世"
             }
           ],
           "is_correct": true,
@@ -2240,33 +2272,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図版の手前の人物と、左側の奥に見える人物との関係を説明したものとして、最も適切なものはどれか。"
+          "text": "淡い青の舞台衣装を着た少女を、ほぼ一人で画面いっぱいに描いたこの《踊り子》を、ルノワールが出品した展覧会はどれか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/mock02-img-14.jpg",
-          "alt": "舞台上と舞台袖にいる踊り手たちを描いた絵画。",
+          "src": "/images/artworks/mock03-img-14.jpg",
+          "alt": "淡い青のチュチュを着た少女が、片方の足の踵をもう片方のつま先に寄せて立ち、こちらを振り向いている。",
           "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "手前の大きな人物は身体の一部が画面の端で切られ、左側の奥には、こちらに背を向けた小さな人物が離れて置かれている。人物同士を密集させず、大きさの差、舞台装置との重なり、端での切断によって、舞台袖と舞台上との空間の隔たりが表されている。"
+          "text": "ルノワールは1874年の第1回印象派展に、この《踊り子》を含む7点を出品した。全身像の形式でひとりの踊り子に向き合った作品で、会場では少女の生き生きした表情や優雅さにも注目が集まった。"
         },
         {
           "type": "text",
-          "text": "各選択肢の確認：\nア：手前の人物が大きい点は合うが、足元まで収められておらず、身体の一部が画面端で切れている。\nイ：奥の人物が小さい点は合うが、手前の群像とは離れ、重なって密集する配置ではない。\nウ：人物と舞台装置が重なる点は合うが、左奥の人物はこちらに背を向けており、観客へ正面の視線を返していない。\nエ：手前と奥の人物の大きさと隔たり、画面端での切断が、実際の画面に対応する。"
+          "text": "ア：1863年の落選展で物議を醸したのはマネの《草上の昼食》などで、この踊り子はまだ描かれていない。"
+        },
+        {
+          "type": "text",
+          "text": "イ：最終回の第8回展ではスーラの《グランド・ジャット島の日曜日の午後》が注目を集めた。"
+        },
+        {
+          "type": "text",
+          "text": "ウ：第3回展にはルノワールの《ムーラン・ド・ラ・ギャレットの舞踏会》が出品された。"
+        },
+        {
+          "type": "text",
+          "text": "エ：ルノワールはこの全身像を、画家たちがサロンから独立して開いた最初のグループ展に出品した。"
+        },
+        {
+          "type": "text",
+          "text": "Auguste Renoir《The Dancer》、1874。National Gallery of Art, Washington、1942.9.72。 Widener Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.262（3.pdf：8ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\n『改訂版 西洋・日本美術史の基本』p.131・132（1.pdf：121・122ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《舞台袖の踊り子たち》作品情報 | https://www.nga.gov/artworks/52169-dancers-backstage",
+      "source_text": "ワシントン・ナショナル・ギャラリー《The Dancer》 | https://www.nga.gov/artworks/1211-dancer\nオルセー美術館「印象派の展覧会（1874–1886年）」 | https://www.musee-orsay.fr/fr/ressources/parcours-au-temps-des-expositions-impressionnistes-1874-1886-86",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "手前の人物を大きく扱い、顔から足元までを画面内に収めて身体全体の動きを示している。"
+              "text": "1863年の落選展"
             }
           ],
           "is_correct": false,
@@ -2277,7 +2325,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "奥の人物を小さく扱い、手前の人物と重ねることで一つの密集した群像にまとめている。"
+              "text": "1886年の第8回印象派展"
             }
           ],
           "is_correct": false,
@@ -2288,7 +2336,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "手前の人物と舞台装置を重ね、奥の人物も正面を向いて観客に視線を返すように配置している。"
+              "text": "1877年の第3回印象派展"
             }
           ],
           "is_correct": false,
@@ -2299,7 +2347,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "手前の人物を画面端で切り、奥に小さく見える人物と離して置くことで空間の隔たりを示している。"
+              "text": "1874年の第1回印象派展"
             }
           ],
           "is_correct": true,
@@ -2465,33 +2513,49 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図版を拡大して筆触を観察したとき、色彩表現の方法として適切なものはどれか。"
+          "text": "図のセーヌ河畔を描いた画家は、のちに同じ聖堂の正面を、違う時刻や天候のもとで繰り返し描いた。その連作の舞台はどこか。"
         },
         {
           "type": "image",
-          "src": "/images/artworks/mock02-img-16.jpg",
-          "alt": "左側の岸辺と右側の海、遠くの空を描いた海岸風景。",
+          "src": "/images/artworks/mock05-img-30.jpg",
+          "alt": "手前の黄色い草花の向こうに青い川が曲がり、対岸に並ぶ木々の上に雲が広がる。",
           "label": "図版"
         }
       ],
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "画面を拡大すると、色の異なる小さな筆触が隣り合って、岸辺や海、空の色をつくっている。図版はスーラの《ポール＝アン＝ベッサンの海景、ノルマンディー》であり、新印象主義の色彩分割・点描と結び付く。画面上で分けて置かれた色と、見る距離による視覚上のまとまりを区別して理解する。"
+          "text": "クロード・モネは《ヴェトゥイユのセーヌ河畔》で、川面や草地に差す光を短い筆触でとらえた。1890年代にはルーアン大聖堂の西正面をさまざまな光のもとで描き、同じ石の壁面が時間とともに違った色に見える様子を示した。"
         },
         {
           "type": "text",
-          "text": "各選択肢の確認：\nア：図版で確認できる小さな色の筆触と、色を分けて配置する方法に対応する。\nイ：地形に沿う長い連続線を主とする筆触ではなく、小さな筆触の集積が見られる。\nウ：形を一様な濃い輪郭線で囲み、内側を平らに埋める構成ではない。\nエ：筆触を見えなくする方法ではなく、小さく分けた筆触が観察できる。"
+          "text": "ア：モネはルーアンの大聖堂の向かいに制作の場所を取り、西正面に当たる光を追った。"
+        },
+        {
+          "type": "text",
+          "text": "イ：アミアンにも彫刻で飾られたゴシックの西正面があるが、モネがこの連作で描いた聖堂とは所在地が違う。"
+        },
+        {
+          "type": "text",
+          "text": "ウ：シャルトル大聖堂はコローの風景画でも知られるが、モネの大聖堂連作の舞台はルーアンである。"
+        },
+        {
+          "type": "text",
+          "text": "エ：ランスはフランス王の戴冠式で知られる大聖堂で、モネの連作で描かれた建物はノルマンディーにある。"
+        },
+        {
+          "type": "text",
+          "text": "Claude Monet《Banks of the Seine, Vétheuil》、1880。National Gallery of Art, Washington、1963.10.177。 Chester Dale Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "『改訂版 西洋・日本美術史の基本』p.132・138（1.pdf：122・128ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\n『改訂版 西洋・日本美術史の基本』p.257・262・263（3.pdf：3・8・9ページ／本文は添付資料、リンクは書籍案内） | https://www.bijutsukentei.com/coverage\nNational Gallery of Art《ポール＝アン＝ベッサンの海景》作品情報 | https://www.nga.gov/artworks/53139-seascape-port-en-bessin-normandy",
+      "source_text": "ワシントン・ナショナル・ギャラリー《Banks of the Seine, Vétheuil》 | https://www.nga.gov/artworks/46652-banks-seine-vetheuil\nワシントン・ナショナル・ギャラリー《Rouen Cathedral, West Façade》 | https://www.nga.gov/node/856116",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "青・橙・緑などの小さな筆触を並べ、色を分けたまま画面を組み立てている。"
+              "text": "ルーアン大聖堂"
             }
           ],
           "is_correct": true,
@@ -2502,7 +2566,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "地形の起伏に沿う長い線状の筆触を重ね、空と崖を滑らかにつないでいる。"
+              "text": "アミアン大聖堂"
             }
           ],
           "is_correct": false,
@@ -2513,7 +2577,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "濃い褐色の輪郭線で形を区切り、その内側をほぼ均一な色面で塗っている。"
+              "text": "シャルトル大聖堂"
             }
           ],
           "is_correct": false,
@@ -2524,7 +2588,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "滑らかな明暗の移行で筆触を目立たなくし、色の境界をぼかしている。"
+              "text": "ランス大聖堂"
             }
           ],
           "is_correct": false,

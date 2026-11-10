@@ -31,4 +31,13 @@ test('received exams keep images, shared material, four choices and grading on d
   await expect(page.locator('.source-section')).not.toContainText('（')
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBe(true)
  }
+ const tableQuestion=archive.questions.find((q:any)=>q.question_number<=80&&q.content_blocks.some((b:any)=>b.type==='table'))
+ const expectedTable=tableQuestion.content_blocks.find((b:any)=>b.type==='table')
+ await page.goto(`/practice/${tableQuestion.exam_number}/${tableQuestion.question_number}`)
+ const table=page.getByRole('table')
+ await expect(table.getByRole('columnheader')).toHaveText(expectedTable.headers)
+ await expect(table.getByRole('cell')).toHaveText(expectedTable.rows.flat())
+ await expect(page.getByRole('radio')).toHaveCount(4)
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true)
+
 })
