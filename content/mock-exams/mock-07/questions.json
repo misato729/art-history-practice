@@ -538,7 +538,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "十字架の足もとで嘆く女性たちと、杯を持って飛ぶ天使を描いた14世紀の板絵である。ビザンティンと西欧の磔刑図の伝統を取り入れたこの工房は、どの海港都市で活動したか。"
+          "text": "図は、14世紀にヴェネツィアで活動したパオロ・ヴェネツィアーノの《キリストの磔刑》である。東ローマ帝国を中心に発達し、ヴェネツィアを通じて中世の西ヨーロッパにも影響を与えた美術はどれか。"
         },
         {
           "type": "image",
@@ -550,37 +550,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "パオロ・ヴェネツィアーノの《磔刑》では、キリストの血を受ける天使にビザンティンの系譜があり、気を失う聖母や十字架にすがるマグダラのマリアには西欧の伝統がうかがえる。"
+          "text": "ビザンティン美術は東ローマ帝国で発達した。キリストや聖母、聖人のイコンなどで知られ、ローマ、ヴェネツィア、ラヴェンナなどを通して中世西ヨーロッパの美術にも影響を与えた。"
         },
         {
           "type": "text",
-          "text": "ア：南イタリアのアマルフィも東地中海と交易した海洋都市だが、この板絵の作者はヴェネツィアで活動した。"
+          "text": "ア：フランク王国の宮廷を中心に発達した美術で、東ローマ帝国の美術ではない。"
         },
         {
           "type": "text",
-          "text": "イ：ピサはトスカーナの海洋都市で、大聖堂や洗礼堂の彫刻で知られるが、この板絵の工房の活動都市とは異なる。"
+          "text": "イ：西ヨーロッパで11〜12世紀に展開した美術で、東ローマ帝国を中心に発達した美術ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：リグーリア海に面するジェノヴァも海上貿易で栄えたが、この磔刑図を制作した工房の本拠はヴェネツィアである。"
+          "text": "ウ：12世紀後半以降の西ヨーロッパで展開した美術で、東ローマ帝国を中心とするものではない。"
         },
         {
           "type": "text",
-          "text": "エ：パオロ・ヴェネツィアーノの工房はヴェネツィアで活動し、サン・マルコ聖堂にも祭壇画を納めた。"
+          "text": "エ：東ローマ帝国で発達し、ヴェネツィアなどを通じて西ヨーロッパへ伝わった。"
         },
         {
           "type": "text",
           "text": "Paolo Veneziano《The Crucifixion》、c. 1340/1345。National Gallery of Art, Washington、1939.1.143。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Crucifixion》 | https://www.nga.gov/artworks/284-crucifixion",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.56・57（textbook.pdf：PDF 58・59ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Crucifixion》 | https://www.nga.gov/artworks/284-crucifixion",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "アマルフィ"
+              "text": "カロリング美術"
             }
           ],
           "is_correct": false,
@@ -591,7 +591,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ピサ"
+              "text": "ロマネスク美術"
             }
           ],
           "is_correct": false,
@@ -602,7 +602,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ジェノヴァ"
+              "text": "ゴシック美術"
             }
           ],
           "is_correct": false,
@@ -613,7 +613,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヴェネツィア"
+              "text": "ビザンティン美術"
             }
           ],
           "is_correct": true,
@@ -803,7 +803,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "剣と本を持つ聖人の足もとに、男女が小さくひざまずいている。14世紀のフィレンツェでこの板絵を注文した人々について、有力とされる説明はどれか。"
+          "text": "図はベルナルド・ダッディの《聖パウロと礼拝者たち》である。このような宗教画を研究する方法の一つ「イコノグラフィー（図像学）」が中心に扱う作業はどれか。"
         },
         {
           "type": "image",
@@ -815,37 +815,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ベルナルド・ダッディは、聖パウロと同じ時空にいるかのように寄進者を描きながら、大きさを変えて両者の地位を示した。どの信心会の会員だったのかを確定できる記録は残っていない。"
+          "text": "イコノグラフィーは図像学と訳され、描かれた主題や象徴的な意味を読み取り記述する方法である。さらに、その意味内容を社会的・文化的背景から解釈する方法をイコノロジーという。"
         },
         {
           "type": "text",
-          "text": "ア：所蔵館は、男女を、守護聖人への祈りや慈善活動に携わる在俗の信心会の寄進者と考えている。"
+          "text": "ア：イコノグラフィーは、図像の主題や象徴的な意味を読み取り、記述する方法である。"
         },
         {
           "type": "text",
-          "text": "イ：男女を一人の家長を中心とした一族と特定する材料はなく、守護聖人のもとに集う信心会の解釈が有力である。"
+          "text": "イ：材料を特定する作業と、主題や象徴的な意味を読み取るイコノグラフィーとを取り違えている。"
         },
         {
           "type": "text",
-          "text": "ウ：下方に描かれた祈り手には女性がおり、服装も一つの男子修道会の修道衣にはそろっていない。"
+          "text": "ウ：社会的・文化的背景から図像の意味内容を解釈する方法は、イコノロジーに当たる。"
         },
         {
           "type": "text",
-          "text": "エ：男女は説教や洗礼の物語を演じるのではなく、正面を向いた聖人に祈りをささげる寄進者と考えられている。"
+          "text": "エ：寸法や売買記録を調べる作業と、主題や象徴的な意味を読み取るイコノグラフィーとを取り違えている。"
         },
         {
           "type": "text",
           "text": "Bernardo Daddi《Saint Paul and a Group of Worshippers》、1333。National Gallery of Art, Washington、1937.1.3。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Saint Paul and a Group of Worshippers》 | https://www.nga.gov/artworks/1-saint-paul-and-group-worshippers",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.116（textbook.pdf：PDF 118ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Saint Paul and a Group of Worshippers》 | https://www.nga.gov/artworks/1-saint-paul-and-group-worshippers",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖パウロを守護聖人と仰いだ、在俗の信徒の会員たち。"
+              "text": "描かれた人物や持物から、主題や象徴を読み取り記述する。"
             }
           ],
           "is_correct": true,
@@ -856,7 +856,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "一人の君主を祖先とする、宮廷の君主一族。"
+              "text": "作品に使われた素材や顔料から、制作時の材料を特定する。"
             }
           ],
           "is_correct": false,
@@ -867,7 +867,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "修道院の囲いの中で共同生活を送る、男子修道会の会員たち。"
+              "text": "主題の意味を当時の社会や文化に結び付け、背景から解釈する。"
             }
           ],
           "is_correct": false,
@@ -878,7 +878,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖パウロの説教を聞いて洗礼を受けた、古代の改宗者たち。"
+              "text": "画面の寸法や伝来を調べ、作品が売買された記録を整理する。"
             }
           ],
           "is_correct": false,
@@ -983,7 +983,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図1の中央と、その前に集まる人々を観察し、キリスト教の主題を選びなさい。"
+          "text": "図は15世紀イタリアの《東方三博士の礼拝》で、フラ・アンジェリコとフラ・フィリッポ・リッピによる作品である。この時代、画家が工房で学んだ「徒弟制」の説明として適切なものはどれか。"
         },
         {
           "type": "image",
@@ -995,37 +995,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "フラ・アンジェリコとフラ・フィリッポ・リッピによる《東方三博士の礼拝》。長い行列の先頭で、博士たちが聖母の膝にいる幼子に礼をささげる。幼いキリストを前にした来訪者と贈り物が、この主題を識別する手掛かりとなる。"
+          "text": "徒弟制では、弟子が親方の工房に入り、専門の知識と技術を学んだ。職人たちは親方の指導の下で共同制作や分業に加わり、絵画だけでなく彫刻・工芸・建築などの技術も高めた。"
         },
         {
           "type": "text",
-          "text": "ア：東方から訪れた博士たちが、幼子キリストに贈り物を捧げる場面である。"
+          "text": "ア：徒弟制は工房に弟子入りし、親方の指導下で協働・分担しながら技能を身に付ける制度である。"
         },
         {
           "type": "text",
-          "text": "イ：キリストの降誕は誕生そのものを表し、博士たちの来訪を主題とする礼拝図と区別する。"
+          "text": "イ：官立の学校教育の説明であり、親方と弟子による工房の徒弟制とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：神殿奉献は、マリアとヨセフが幼いキリストを神殿に連れて行く場面である。"
+          "text": "ウ：留学を支援する賞の制度の説明で、工房内での徒弟制ではない。"
         },
         {
           "type": "text",
-          "text": "エ：聖母子と幼児洗礼者ヨハネの図では、キリストとヨハネという二人の幼児を描く。"
+          "text": "エ：公開展示の資格や審査を、工房内での技術修業と混同している。"
         },
         {
           "type": "text",
           "text": "Fra Angelico and Fra Filippo Lippi《The Adoration of the Magi》、c. 1440/1460。National Gallery of Art, Washington、1952.2.2。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Adoration of the Magi》 | https://www.nga.gov/artworks/41581-adoration-magi",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.121（textbook.pdf：PDF 123ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Adoration of the Magi》 | https://www.nga.gov/artworks/41581-adoration-magi",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "東方三博士の礼拝"
+              "text": "親方の下で共同制作に携わりながら、専門の知識と技術を学ぶ。"
             }
           ],
           "is_correct": true,
@@ -1036,7 +1036,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "キリストの降誕"
+              "text": "国家の試験で選抜され、官立美術学校で共通の授業を受ける。"
             }
           ],
           "is_correct": false,
@@ -1047,7 +1047,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "キリストの神殿奉献"
+              "text": "展覧会の受賞者に選ばれ、国の費用でローマに留学して学ぶ。"
             }
           ],
           "is_correct": false,
@@ -1058,7 +1058,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖母子と幼児洗礼者ヨハネ"
+              "text": "サロンの出品資格を得て、公開展示の審査員から定期指導を受ける。"
             }
           ],
           "is_correct": false,
@@ -1078,7 +1078,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "金襴の外套と、先端が角のように立ち上がる帽子を身に着けたこの人物を、ティツィアーノが描いた。衣装が示す地位はどれか。"
+          "text": "図はティツィアーノが描いたアンドレア・グリッティの肖像である。同じ画家の作品はどれか。"
         },
         {
           "type": "image",
@@ -1090,37 +1090,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ヴェネツィア共和国では、選挙によって元首ドージェが選ばれた。ティツィアーノはグリッティの堂々とした姿に、金糸を用いた装束と元首の帽子を組み合わせた。"
+          "text": "《ウルビーノのヴィーナス》はティツィアーノの代表作である。彼はジョルジョーネ、ベッリーニらとともに、色彩と光を大切にしたヴェネツィアの絵画を代表する。"
         },
         {
           "type": "text",
-          "text": "ア：図はアンドレア・グリッティの肖像で、独特の形の帽子はヴェネツィア共和国の元首ドージェのしるしである。"
+          "text": "ア：《ウルビーノのヴィーナス》はティツィアーノの作品である。"
         },
         {
           "type": "text",
-          "text": "イ：マントヴァの宮廷を治めたゴンザーガ家の公爵は、グリッティが就いたヴェネツィアの元首職とは別である。"
+          "text": "イ：ジョルジョーネの作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：フェラーラを治めたエステ家の公爵は世襲の領主で、ヴェネツィアのドージェの帽子を用いる官職ではない。"
+          "text": "ウ：ヴェロネーゼの作品である。"
         },
         {
           "type": "text",
-          "text": "エ：正義の旗手はフィレンツェの役職で、グリッティの帽子が示す都市と職位とは異なる。"
+          "text": "エ：この《最後の晩餐》はティントレットの作品であり、ティツィアーノの作品ではない。"
         },
         {
           "type": "text",
           "text": "Titian《Doge Andrea Gritti》、c. 1546/1550。National Gallery of Art, Washington、1961.9.45。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Doge Andrea Gritti》 | https://www.nga.gov/artworks/46144-doge-andrea-gritti\nワシントン・ナショナル・ギャラリー「ティツィアーノ《元首アンドレア・グリッティ》作品研究」 | https://www.nga.gov/research/publications/italian-paintings-sixteenth-century-0/italian-paintings-sixteenth-century-doge-andrea-gritti-c-15461550",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.21・23・65・121（textbook.pdf：PDF 23・25・67・123ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Doge Andrea Gritti》 | https://www.nga.gov/artworks/46144-doge-andrea-gritti",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヴェネツィア共和国の元首"
+              "text": "《ウルビーノのヴィーナス》"
             }
           ],
           "is_correct": true,
@@ -1131,7 +1131,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "マントヴァのゴンザーガ家の公爵"
+              "text": "《嵐》"
             }
           ],
           "is_correct": false,
@@ -1142,7 +1142,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "フェラーラのエステ家の公爵"
+              "text": "《カナの婚礼》"
             }
           ],
           "is_correct": false,
@@ -1153,7 +1153,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "フィレンツェ共和国の正義の旗手"
+              "text": "《最後の晩餐》（サン・ジョルジョ・マッジョーレ聖堂）"
             }
           ],
           "is_correct": false,
@@ -1258,7 +1258,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図のようなザクセン選帝侯家の肖像を描いたルーカス・クラーナハ（父）は、宮廷の注文を受ける工房をもち、印刷にも携わった。この工房の拠点となった都市はどこか。"
+          "text": "図はルーカス・クラーナハ（父）が描いたザクセンの公子の肖像である。同じ画家による聖書主題の作品はどれか。"
         },
         {
           "type": "image",
@@ -1270,37 +1270,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "クラーナハ（父）は1505年にヴィッテンベルクの選帝侯宮廷に仕えた。そこで育てた工房は、君主一族の肖像や宗教画の制作に加え、版画を通じて図像を広く伝える場となった。"
+          "text": "クラーナハ（父）は肖像画のほか、聖書を主題にした絵画も制作した。《エジプトへの逃避途上の休息》はその作例で、北方ルネサンスの図版として紹介されている。"
         },
         {
           "type": "text",
-          "text": "ア：レーゲンスブルクで市政にも携わりながら制作したのはアルトドルファーで、クラーナハの宮廷工房は別の都市にあった。"
+          "text": "ア：ファン・エイク兄弟が制作したヘントの祭壇画の主題である。"
         },
         {
           "type": "text",
-          "text": "イ：ニュルンベルクはデューラーの工房と版画制作で知られ、クラーナハの選帝侯付き工房はヴィッテンベルクに置かれた。"
+          "text": "イ：アルブレヒト・デューラーの作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：クラーナハ（父）はヴィッテンベルクの選帝侯宮廷に仕え、同市に大規模な工房を構えた。"
+          "text": "ウ：《エジプトへの逃避途上の休息》はクラーナハ（父）の作品である。"
         },
         {
           "type": "text",
-          "text": "エ：アウクスブルクはホルバイン家やブルクマイアーらが活動した都市だが、ザクセン選帝侯に仕えたクラーナハの工房の所在地とは異なる。"
+          "text": "エ：マティアス・グリューネヴァルトの作品である。"
         },
         {
           "type": "text",
           "text": "Lucas Cranach the Elder《A Prince of Saxony》、c. 1517。National Gallery of Art, Washington、1947.6.1。 Ralph and Mary Booth Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《A Prince of Saxony》 | https://www.nga.gov/artworks/33750-prince-saxony\nロンドン・ナショナル・ギャラリー「ルーカス・クラーナハ（父）」 | https://www.nationalgallery.org.uk/artists/lucas-cranach-the-elder\nワシントン・ナショナル・ギャラリー「ルーカス・クラーナハ（父）」 | https://www.nga.gov/artists/1179-lucas-cranach-elder",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.22・23（textbook.pdf：PDF 24・25ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《A Prince of Saxony》 | https://www.nga.gov/artworks/33750-prince-saxony",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "レーゲンスブルク"
+              "text": "《神秘の仔羊の礼拝》"
             }
           ],
           "is_correct": false,
@@ -1311,7 +1311,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ニュルンベルク"
+              "text": "《四人の使徒》"
             }
           ],
           "is_correct": false,
@@ -1322,7 +1322,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヴィッテンベルク"
+              "text": "《エジプトへの逃避途上の休息》"
             }
           ],
           "is_correct": true,
@@ -1333,7 +1333,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "アウクスブルク"
+              "text": "《キリストの磔刑》（イーゼンハイム祭壇画）"
             }
           ],
           "is_correct": false,
@@ -1523,7 +1523,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "手前の川岸に荷を扱う商人たちを配し、樹木の先に遠く淡い山並みを望ませた風景である。ローマ周辺の自然に取材し、このような光の中に理想の風景を組み立てた画家は誰か。"
+          "text": "図はクロード・ロランの《商人のいる風景》である。この画家の古典的な風景構成から影響を受け、1815年に《カルタゴを建設するディド》を描いた画家は誰か。"
         },
         {
           "type": "image",
@@ -1535,37 +1535,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "クロード・ロランはローマを拠点とし、実地で観察した自然をもとに画面を構成した。本作では、船に荷を積む手前の人々から、川の屈曲をたどって淡い遠景まで視線を移せる。"
+          "text": "クロード・ロランの古典的な風景構成は、イギリスの風景画家たちにも影響した。ターナーの《カルタゴを建設するディド》は、その影響を示す作品として、ロランの港の風景と比較されている。"
         },
         {
           "type": "text",
-          "text": "ア：ローザもローマで制作したが、荒涼とした山地や荒々しい自然を扱った風景で知られ、この絵の作者とは異なる。"
+          "text": "ア：空の変化の観察で知られる画家で、《カルタゴを建設するディド》の作者ではない。"
         },
         {
           "type": "text",
-          "text": "イ：プッサンもローマで理想化した風景を描いたが、この《商人のいる風景》はクロード・ロランの作品である。"
+          "text": "イ：詩情ある風景画を描いたフランスの画家で、この作品の作者ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：図はクロード・ロランの《商人のいる風景》で、川岸の身近な営みと光の広がる遠景を結ぶ初期の作品である。"
+          "text": "ウ：《カルタゴを建設するディド》はターナーの作品で、クロード・ロランの風景構成の影響を示している。"
         },
         {
           "type": "text",
-          "text": "エ：ライスダールはハールレムやアムステルダムで活動し、海辺や森林などを描いたオランダの風景画家である。"
+          "text": "エ：バルビゾン派の中心となった画家で、この作品の作者ではない。"
         },
         {
           "type": "text",
           "text": "Claude Lorrain《Landscape with Merchants》、c. 1629。National Gallery of Art, Washington、1952.5.44。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Landscape with Merchants》 | https://www.nga.gov/artworks/41657-landscape-merchants\nワシントン・ナショナル・ギャラリー「クロード・ロラン」 | https://www.nga.gov/artists/1145-claude-lorrain",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.127（textbook.pdf：PDF 129ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Landscape with Merchants》 | https://www.nga.gov/artworks/41657-landscape-merchants",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "サルヴァトル・ローザ"
+              "text": "ジョン・コンスタブル"
             }
           ],
           "is_correct": false,
@@ -1576,7 +1576,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ニコラ・プッサン"
+              "text": "ジャン＝バティスト＝カミーユ・コロー"
             }
           ],
           "is_correct": false,
@@ -1587,7 +1587,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "クロード・ロラン"
+              "text": "ジョゼフ・マロード・ウィリアム・ターナー"
             }
           ],
           "is_correct": true,
@@ -1598,7 +1598,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヤーコプ・ファン・ライスダール"
+              "text": "テオドール・ルソー"
             }
           ],
           "is_correct": false,
@@ -1788,7 +1788,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "青年に追われた女性の指先から、葉のついた枝が伸び始めている。この変身をティエポロが描く際に典拠とした古典はどれか。"
+          "text": "図はティエポロの《アポロに追われるダフネ》である。この画家が代表した18世紀イタリア絵画の中心地はどこか。"
         },
         {
           "type": "image",
@@ -1800,37 +1800,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ティエポロはアポロンの追跡が終わる瞬間を選んだ。水の流れ出す壺を抱えた老人はダフネの父である河神ペネイオスで、娘は父のもとで月桂樹へ姿を変える。"
+          "text": "18世紀イタリアの絵画の中心はヴェネツィアであった。ティエポロは、白を基調とする明るい色彩で自由で華やかな絵画を描き、晩年にはスペインでも制作した。"
         },
         {
           "type": "text",
-          "text": "ア：『アエネイス』はトロイアを逃れた英雄アエネアスの遍歴とイタリアでの戦いを主に描く。"
+          "text": "ア：初期ルネサンスの重要な中心だが、18世紀のティエポロと結び付く絵画の中心地はヴェネツィアである。"
         },
         {
           "type": "text",
-          "text": "イ：アポロンに追われたダフネが月桂樹に変わる物語は、オウィディウスの『変身物語』に収められている。"
+          "text": "イ：18世紀イタリア絵画の中心はヴェネツィアで、ティエポロはその代表者の一人である。"
         },
         {
           "type": "text",
-          "text": "ウ：『神統記』は天地の起源とギリシアの神々の系譜を語り、この絵が依拠する叙述とは異なる。"
+          "text": "ウ：バロックや古代美術研究で重要だが、設問のティエポロの絵画の中心地とは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：『オデュッセイア』はトロイア戦争後にオデュッセウスが故国イタケへ帰るまでを語る。"
+          "text": "エ：イタリア南部の重要都市だが、設問で問う18世紀絵画の中心地ではない。"
         },
         {
           "type": "text",
           "text": "Giovanni Battista Tiepolo《Apollo Pursuing Daphne》、c. 1755/1760。National Gallery of Art, Washington、1952.5.78。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Apollo Pursuing Daphne》 | https://www.nga.gov/artworks/41693-apollo-pursuing-daphne",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.73（textbook.pdf：PDF 75ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Apollo Pursuing Daphne》 | https://www.nga.gov/artworks/41693-apollo-pursuing-daphne",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ウェルギリウス『アエネイス』"
+              "text": "フィレンツェ"
             }
           ],
           "is_correct": false,
@@ -1841,7 +1841,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "オウィディウス『変身物語』"
+              "text": "ヴェネツィア"
             }
           ],
           "is_correct": true,
@@ -1852,7 +1852,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヘシオドス『神統記』"
+              "text": "ローマ"
             }
           ],
           "is_correct": false,
@@ -1863,7 +1863,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ホメロス『オデュッセイア』"
+              "text": "ナポリ"
             }
           ],
           "is_correct": false,
@@ -2053,7 +2053,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "ドーヴァー沖の波間に、煙を引く船を描いた水彩である。この画家は油彩《戦艦テメレール号》で、蒸気船にどのような役割を与えたか。"
+          "text": "図はターナーが海上の船を描いた水彩画である。ロマン主義が現れた時期と地域の関係として、適切なものはどれか。"
         },
         {
           "type": "image",
@@ -2065,37 +2065,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ターナーは古い帆船と小さな蒸気曳船を夕空の下に並べた。図のドーヴァー沖の定期船とともに、蒸気動力の船がイギリスの海や川の新しい風景となった時代を伝える。"
+          "text": "ロマン主義は、新古典主義が支配していたフランスよりも、イギリスやドイツなどで早く現れた。イギリスではターナーやコンスタブルらによる風景画も隆盛を迎えた。"
         },
         {
           "type": "text",
-          "text": "ア：テメレール号には海戦に加わった経歴があるが、絵に描かれているのは戦闘終了から何十年も後の姿である。"
+          "text": "ア：ロマン主義は、新古典主義が支配的だったフランスより、イギリスやドイツに早く現れた。"
         },
         {
           "type": "text",
-          "text": "イ：ターナーは帆走軍艦を最後の停泊地に向けて曳航する、煙を上げた蒸気曳船を前景に置いた。"
+          "text": "イ：ロマン主義は、新古典主義が支配するフランスよりも、イギリスやドイツに早く現れた。"
         },
         {
           "type": "text",
-          "text": "ウ：画中の軍艦は新造船ではなく、解体のために売却された帆船である。"
+          "text": "ウ：フランスがドイツより先だったのではなく、イギリスやドイツで早く現れた。"
         },
         {
           "type": "text",
-          "text": "エ：テメレール号は座礁によって救助を待つ場面でなく、退役して解体場へ運ばれる場面で描かれている。"
+          "text": "エ：早い展開として挙げられるのはイギリスとドイツであり、新古典主義が支配するフランスとの比較である。"
         },
         {
           "type": "text",
           "text": "Joseph Mallord William Turner《A Packet Boat off Dover》、c. 1836。National Gallery of Art, Washington、1986.72.18。 Paul Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《A Packet Boat off Dover》 | https://www.nga.gov/artworks/69409-packet-boat-dover\nロンドン・ナショナル・ギャラリー《戦艦テメレール号》 | https://www.nationalgallery.org.uk/paintings/joseph-mallord-william-turner-the-fighting-temeraire",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.78（textbook.pdf：PDF 80ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《A Packet Boat off Dover》 | https://www.nga.gov/artworks/69409-packet-boat-dover",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "海戦に参加する帆走軍艦へ、弾薬を届ける。"
+              "text": "新古典主義が全盛のイギリスに先立ち、フランスやイタリアで早く現れた。"
             }
           ],
           "is_correct": false,
@@ -2106,7 +2106,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "帆走軍艦を、解体のために河の上流へ曳く。"
+              "text": "新古典主義が全盛のフランスに先立ち、イギリスやドイツで早く現れた。"
             }
           ],
           "is_correct": true,
@@ -2117,7 +2117,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "造船所から、進水したばかりの帆走軍艦を沖へ導く。"
+              "text": "新古典主義が全盛のドイツに先立ち、フランスやスペインで早く現れた。"
             }
           ],
           "is_correct": false,
@@ -2128,7 +2128,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "座礁した帆走軍艦から、乗組員を救い出す。"
+              "text": "新古典主義が全盛のイタリアに先立ち、スペインやイギリスで早く現れた。"
             }
           ],
           "is_correct": false,
@@ -2148,7 +2148,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "低い水平線の上に雲が広がる図の海景を描いた画家は、みずからの芸術上の立場を会場の名に掲げてパリで個展を開いた。その会場名はどれか。"
+          "text": "図はクールベの《静かな海》である。1855年のパリ万国博覧会で《オルナンの埋葬》《画家のアトリエ》などの出品を拒まれたこの画家は、どのように自作を発表したか。"
         },
         {
           "type": "image",
@@ -2160,37 +2160,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "《静かな海》を描いたギュスターヴ・クールベは、万国博覧会で《画家のアトリエ》などを拒まれたことを受け、近くに自分の展示会場を用意した。「レアリスム」という名を掲げ、展示の仕方でも自らの立場を示した。"
+          "text": "クールベは1855年のパリ万国博覧会に作品を送ったが、《オルナンの埋葬》《画家のアトリエ》などが拒否された。そこで博覧会と同じ時期に独自の個展を開き、審査の権威に対抗した。"
         },
         {
           "type": "text",
-          "text": "ア：1863年の落選展はサロンの審査に落ちた作家たちの作品をまとめて公開した展覧会である。"
+          "text": "ア：クールベは作品を描き替えて次の審査を待つのでなく、万博と同時期に独自の個展を開いた。"
         },
         {
           "type": "text",
-          "text": "イ：アンデパンダン展は1884年にパリで始まった無審査の展覧会である。"
+          "text": "イ：既存アカデミー内の会員展ではなく、強い審査権への抗議として独自の個展を開いた。"
         },
         {
           "type": "text",
-          "text": "ウ：薔薇十字展はジョゼファン・ペラダンのもとで1892年からパリで開かれた象徴主義に関係する展覧会である。"
+          "text": "ウ：万博の公式審査を指揮したのではなく、その拒否に対抗した。"
         },
         {
           "type": "text",
-          "text": "エ：クールベは1855年のパリ万国博覧会の会場のそばにレアリスム館を設け、自作をまとめて展示した。"
+          "text": "エ：クールベは万博の審査に対抗し、同時期に独自の個展を開いた。"
         },
         {
           "type": "text",
           "text": "Gustave Courbet《Calm Sea》、1866。National Gallery of Art, Washington、1985.64.10。 Collection of Mr. and Mrs. Paul Mellon。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Calm Sea》 | https://www.nga.gov/artworks/66408-calm-sea\nメトロポリタン美術館「ギュスターヴ・クールベ」 | https://www.metmuseum.org/essays/gustave-courbet-1819-1877",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.130（textbook.pdf：PDF 132ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Calm Sea》 | https://www.nga.gov/artworks/66408-calm-sea",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "落選展"
+              "text": "翌年のサロンまで待ち、審査に合わせて主題を描き替えた。"
             }
           ],
           "is_correct": false,
@@ -2201,7 +2201,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "アンデパンダン展"
+              "text": "アカデミーの会員展を組織し、会員資格を得た画家だけで展示した。"
             }
           ],
           "is_correct": false,
@@ -2212,7 +2212,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "薔薇十字展"
+              "text": "万博の公式展示を取りまとめ、出品審査の責任者になった。"
             }
           ],
           "is_correct": false,
@@ -2223,7 +2223,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "レアリスム館"
+              "text": "万博と同じ時期に、自ら個展を開いて作品を公開した。"
             }
           ],
           "is_correct": true,
@@ -2328,7 +2328,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "パリ郊外の川辺で舟遊びをする人々を描いた作品である。この絵と同じ画家が、パリの人々の余暇を主題にした作品はどれか。"
+          "text": "図はルノワールの《シャトゥーの舟遊び》である。同じ画家の作品はどれか。"
         },
         {
           "type": "image",
@@ -2340,37 +2340,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ルノワールはシャトゥーを訪れ、舟と行楽客を明るい水辺の光の中に描いた。《舟遊びの人々の昼食》の舞台も同じ町にあったフルネーズ家の店のテラスである。"
+          "text": "ルノワールの《陽光の中の裸婦》は、木々の間から落ちる光や影による微妙な色彩の変化を人体に表した作品である。こうした新しい色彩表現は、発表当時には批評家の反発も受けた。"
         },
         {
           "type": "text",
-          "text": "ア：船上に並んで座る男女を大きく捉えた《アルジャントゥイユ》はエドゥアール・マネの作品である。"
+          "text": "ア：ドガの作品である。"
         },
         {
           "type": "text",
-          "text": "イ：ブローニュの森の湖を舞台に、同じボートに乗る二人の女性を描いた《夏の日》はベルト・モリゾの作品である。"
+          "text": "イ：モネの作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：セーヌ川の島で休日を過ごす人々を描いた《グランド・ジャット島の日曜日の午後》の作者はスーラである。"
+          "text": "ウ：マネの作品である。"
         },
         {
           "type": "text",
-          "text": "エ：図の《シャトゥーの舟遊び》も、テラスに集まる仲間を描いた《舟遊びの人々の昼食》もルノワールの作である。"
+          "text": "エ：ルノワールの作品で、木々の間から落ちる光と影を描く。"
         },
         {
           "type": "text",
           "text": "Auguste Renoir《Oarsmen at Chatou》、1879。National Gallery of Art, Washington、1951.5.2。 Gift of Sam A. Lewisohn。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Oarsmen at Chatou》 | https://www.nga.gov/artworks/39759-oarsmen-chatou\nフィリップス・コレクション《舟遊びの人々の昼食》 | https://www.phillipscollection.org/collection/luncheon-boating-party",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.82・83・84（textbook.pdf：PDF 84・85・86ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Oarsmen at Chatou》 | https://www.nga.gov/artworks/39759-oarsmen-chatou",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "《アルジャントゥイユ》（舟に腰掛けた男女）"
+              "text": "《観覧席前の出走馬》"
             }
           ],
           "is_correct": false,
@@ -2381,7 +2381,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《夏の日》（湖のボートに乗る二人の女性）"
+              "text": "《印象、日の出》"
             }
           ],
           "is_correct": false,
@@ -2392,7 +2392,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《グランド・ジャット島の日曜日の午後》（島に集まる行楽客）"
+              "text": "《草上の昼食》（1863年）"
             }
           ],
           "is_correct": false,
@@ -2403,7 +2403,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《舟遊びの人々の昼食》（川辺のテラスの集い）"
+              "text": "《陽光の中の裸婦》"
             }
           ],
           "is_correct": true,
@@ -2593,7 +2593,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図では女性画家が、扇を持って窓辺に座る姉を描いている。姉を描いたこの画家自身がモデルを務めた、エドゥアール・マネの作品はどれか。"
+          "text": "図はベルト・モリゾの《窓辺の画家の姉》である。同じ画家が描いた別の作品はどれか。"
         },
         {
           "type": "image",
@@ -2605,37 +2605,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "モリゾは家族をモデルに絵を描き、自身もマネの作品のモデルを務めた。《バルコニー》は、初めてモリゾが登場したマネの絵で、1869年のサロンに出品された。"
+          "text": "《かくれんぼ》はベルト・モリゾが1873年に描いた作品である。モリゾは印象主義の画家として、母と幼い子など家庭的な情景も描いた。"
         },
         {
           "type": "text",
-          "text": "ア：《バルコニー》の手前に白いドレス姿で座っている女性が、図の作者ベルト・モリゾである。"
+          "text": "ア：《かくれんぼ》は、ベルト・モリゾが描いた作品である。"
         },
         {
           "type": "text",
-          "text": "イ：《鉄道》で少女の隣に座り、画面の外を見る女性は、マネが繰り返し描いたヴィクトリーヌ・ムーランである。"
+          "text": "イ：《アブサン》はドガの作品であり、モリゾの作品ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：《温室にて》のベンチに腰掛けているのは、夫とともに描かれたギュメ夫人である。"
+          "text": "ウ：《洪水と小舟》はシスレーの作品であり、モリゾの作品ではない。"
         },
         {
           "type": "text",
-          "text": "エ：バーカウンターに立つ女性のモデルを務めたのは、実際にこの店で働いたシュゾンという女性である。"
+          "text": "エ：《モンフーコーの刈り入れ》はピサロの作品であり、モリゾの作品ではない。"
         },
         {
           "type": "text",
           "text": "Berthe Morisot《The Artist's Sister at a Window》、1869。National Gallery of Art, Washington、1970.17.47。 Ailsa Mellon Bruce Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Artist's Sister at a Window》 | https://www.nga.gov/artworks/52191-artists-sister-window\nオルセー美術館「マネ《バルコニー》」 | https://www.musee-orsay.fr/en/artworks/le-balcon-707\nワシントン・ナショナル・ギャラリー「マネ《鉄道》」 | https://www.nga.gov/artworks/43624-railway",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.31・84・85（textbook.pdf：PDF 33・86・87ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Artist's Sister at a Window》 | https://www.nga.gov/artworks/52191-artists-sister-window",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "《バルコニー》"
+              "text": "《かくれんぼ》"
             }
           ],
           "is_correct": true,
@@ -2646,7 +2646,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《鉄道》"
+              "text": "《アブサン》"
             }
           ],
           "is_correct": false,
@@ -2657,7 +2657,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《温室にて》"
+              "text": "《洪水と小舟》"
             }
           ],
           "is_correct": false,
@@ -2668,7 +2668,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《フォリー＝ベルジェールのバー》"
+              "text": "《モンフーコーの刈り入れ》"
             }
           ],
           "is_correct": false,
@@ -2688,7 +2688,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の像は、もとは彫刻で覆われた門の上部から眼下の光景を眺める「詩人」として構想された。ロダンにこの門の最初の着想を与えた文学作品はどれか。"
+          "text": "図はロダンの《考える人》である。ロダンに先行し、彼にも影響を与えた彫刻家で、《ウゴリーノと息子たち》の作者は誰か。"
         },
         {
           "type": "image",
@@ -2700,37 +2700,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "独立した像として知られる《考える人》は、もとは《地獄の門》の一部だった。ロダンは地獄の場面を上から眺める詩人を、顎に手を当てて身体全体で思索する姿として表した。"
+          "text": "カルポーはロダンに先行した彫刻家で、ロダンにも影響を与えた。《ウゴリーノと息子たち》は、近代彫刻の前後の流れを考える作例として紹介されている。"
         },
         {
           "type": "text",
-          "text": "ア：『イリアス』はトロイア戦争におけるアキレウスの怒りを描く古代の叙事詩である。"
+          "text": "ア：《ウゴリーノと息子たち》の作者はカルポーである。"
         },
         {
           "type": "text",
-          "text": "イ：《地獄の門》の当初の構想はダンテの『神曲』地獄篇に基づき、上部に座る詩人の像が《考える人》へ発展した。"
+          "text": "イ：《ウゴリーノと息子たち》はカルポーの作品で、カルポーはロダンにも影響を与えた。"
         },
         {
           "type": "text",
-          "text": "ウ：悪魔と契約する学者を主役とする『ファウスト』は、この門の当初の構想の典拠ではない。"
+          "text": "ウ：《ウゴリーノと息子たち》の作者はカルポーである。"
         },
         {
           "type": "text",
-          "text": "エ：『失楽園』はサタンの反逆や人類の堕落を描く叙事詩で、ロダンが当初の門の題材に選んだ作品とは異なる。"
+          "text": "エ：バルトルディはニューヨークの《自由の女神像》の作者である。"
         },
         {
           "type": "text",
           "text": "Auguste Rodin《The Thinker (Le Penseur)》、model 1880, cast 1901。National Gallery of Art, Washington、1942.5.12。 Gift of Mrs. John W. Simpson。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Thinker (Le Penseur)》 | https://www.nga.gov/artworks/1005-thinker-le-penseur\nムードンのロダン美術館《考える人》 | https://www.meudon.musee-rodin.fr/en/musee/collections/oeuvres/penseur-meudon\nムードンのロダン美術館《地獄の門》 | https://www.meudon.musee-rodin.fr/en/musee/collections/oeuvres/porte-de-lenfer-meudon",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.85・133（textbook.pdf：PDF 87・135ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Thinker (Le Penseur)》 | https://www.nga.gov/artworks/1005-thinker-le-penseur",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ホメロス『イリアス』"
+              "text": "フランソワ・リュード"
             }
           ],
           "is_correct": false,
@@ -2741,7 +2741,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ダンテ『神曲』"
+              "text": "ジャン＝バティスト・カルポー"
             }
           ],
           "is_correct": true,
@@ -2752,7 +2752,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ゲーテ『ファウスト』"
+              "text": "アントワーヌ＝ルイ・バリー"
             }
           ],
           "is_correct": false,
@@ -2763,7 +2763,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ミルトン『失楽園』"
+              "text": "フレデリック・オーギュスト・バルトルディ"
             }
           ],
           "is_correct": false,
@@ -4058,7 +4058,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "片手を上げ、もう一方を下げて蓮華座に立つ図の如来と同じ尊格を、三尺ほどの立像として数多く制作し、「安阿弥様」と呼ばれる型を広めた鎌倉時代の仏師は誰か。"
+          "text": "図は作者未詳の阿弥陀如来立像である。同じ鎌倉時代に、重源と同じ念仏の集団に属し、東大寺に伝わる端正な《阿弥陀如来立像》（1202年）を造った仏師は誰か。"
         },
         {
           "type": "image",
@@ -4070,30 +4070,30 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "来迎印を結ぶ阿弥陀如来は、臨終に信者を迎える姿として造られた。同じ鎌倉時代に快慶が広めた三尺前後の立像が、安阿弥様として後代の仏師に受け継がれた。図の所蔵館はこの像の作者を特定していない。"
+          "text": "快慶は運慶と並ぶ慶派の仏師である。重源と同じ念仏の集団に属し、東大寺の《阿弥陀如来立像》には端正な造形と精緻な截金文様が見られる。提示図版そのものを快慶作とするものではない。"
         },
         {
           "type": "text",
-          "text": "ア：運慶は慶派を代表し、円成寺の大日如来像や興福寺北円堂の諸像で知られるが、安阿弥様の名は快慶に由来する。"
+          "text": "ア：慶派の代表的仏師だが、ここで挙げる1202年の阿弥陀如来立像は快慶による。"
         },
         {
           "type": "text",
-          "text": "イ：安阿弥陀仏を名のった快慶は、端正な姿で来迎印を結ぶ阿弥陀如来立像を数多く手がけた。"
+          "text": "イ：東大寺の1202年の《阿弥陀如来立像》は快慶の作で、快慶と重源は同じ念仏集団に属した。"
         },
         {
           "type": "text",
-          "text": "ウ：運慶の子の湛慶は三十三間堂の中尊千手観音坐像などで知られ、安阿弥陀仏の号をもつ仏師ではない。"
+          "text": "ウ：同時代の慶派の仏師だが、この東大寺阿弥陀如来立像の作者は快慶である。"
         },
         {
           "type": "text",
-          "text": "エ：運慶の子の康勝は六波羅蜜寺の空也上人像で知られ、快慶とは別人である。"
+          "text": "エ：慶派の仏師だが、重源との関係と1202年の阿弥陀像の条件は快慶に合う。"
         },
         {
           "type": "text",
           "text": "制作者不詳《Amida》、1200s。Cleveland Museum of Art、2015.487。 Gift from the Collection of George Gund III。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Amida》 | https://www.clevelandart.org/art/2015.487\n東京国立博物館・文化遺産オンライン《阿弥陀如来立像》 | https://online.bunka.go.jp/heritages/detail/502720\n文化庁《木造阿弥陀如来立像〈快慶作〉》 | https://online.bunka.go.jp/heritages/detail/130244",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.154・193（textbook.pdf：PDF 156・195ページ）\n図版出典：クリーブランド美術館《Amida》 | https://www.clevelandart.org/art/2015.487",
       "choices": [
         {
           "choice_label": "ア",
@@ -4238,7 +4238,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "表のAは奈良時代の興福寺西金堂に安置された、仏法を守る群像である。その一体で、インドの金翅鳥に由来し、鳥のくちばしをもつのはどの尊像か。"
+          "text": "表のAは興福寺に伝わる八部衆で、阿修羅像などを含む。この群像が表す尊格の由来として適切なのはどれか。"
         },
         {
           "type": "table",
@@ -4261,33 +4261,33 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "興福寺の八部衆と新薬師寺の十二神将は、ともに古代の仏教彫刻を代表する群像である。八部衆にはさまざまな由来の尊格が集まり、鳥の頭と人の体を組み合わせた迦楼羅もここに含まれる。"
+          "text": "興福寺の八部衆は、古代インドの異教の神々を仏法を守る鬼神として表した群像である。釈迦の実在の弟子を表す十大弟子とは由来が異なり、さまざまな姿の守護尊が一組となる。"
         },
         {
           "type": "text",
-          "text": "ア：興福寺の阿修羅は三つの顔と六本の腕をそなえ、胸の前で二手を合わせている。"
+          "text": "ア：菩薩の修行像を集めたものではなく、古代インドの神々に由来する守護尊である。"
         },
         {
           "type": "text",
-          "text": "イ：興福寺の迦楼羅は金翅鳥に由来する八部衆の一体で、人の体に鳥のくちばしを備える。"
+          "text": "イ：八部衆は古代インドの異教の神々を表し、仏法を守る鬼神とされた。"
         },
         {
           "type": "text",
-          "text": "ウ：沙羯羅は龍王に由来し、興福寺の像は頭上に蛇を戴く姿で表されている。"
+          "text": "ウ：興福寺の十大弟子との混同であり、八部衆は古代インドの神々に由来する。"
         },
         {
           "type": "text",
-          "text": "エ：乾闥婆は天上の楽神で、興福寺の像は頭に獅子の姿を戴いている。"
+          "text": "エ：日本の神々を僧形で表す神仏習合の作例と、インド由来の八部衆を混同している。"
         }
       ],
-      "source_text": "興福寺《迦楼羅像（八部衆）》 | https://www.kohfukuji.com/property/b-0010/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.181・182（textbook.pdf：PDF 183・184ページ）",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "阿修羅"
+              "text": "悟りを開く前の菩薩たちが、修行する姿としてまとめられた。"
             }
           ],
           "is_correct": false,
@@ -4298,7 +4298,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "迦楼羅"
+              "text": "古代インドの異教の神々が、仏法の守護者として取り入れられた。"
             }
           ],
           "is_correct": true,
@@ -4309,7 +4309,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "沙羯羅"
+              "text": "釈迦に従った実在の弟子たちが、それぞれの年齢で表された。"
             }
           ],
           "is_correct": false,
@@ -4320,7 +4320,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "乾闥婆"
+              "text": "日本の氏族がまつる神々が、僧侶の姿で組み合わされた。"
             }
           ],
           "is_correct": false,
@@ -4425,7 +4425,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "表は一つの絵巻を構成する三巻から、それぞれ一場面を抜き出したもの。三巻を通じて霊験を示す僧と、その絵巻の組合せはどれか。"
+          "text": "表は、一つの説話絵巻を構成する三巻の主な出来事である。絵巻で、別の時点の出来事を同一画面にまとめ、同じ人物を繰り返して描くことのある表現手法は何というか。"
         },
         {
           "type": "table",
@@ -4452,33 +4452,33 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "《信貴山縁起絵巻》は、命蓮が鉢を飛ばす「山崎長者巻」、天皇の病を祈りで癒やす「延喜加持巻」、姉の尼が旅をして弟に会う「尼公巻」からなる。場面のつながりから、寺院に伝わる霊験の物語を読み取れる。"
+          "text": "絵巻は、巻き広げる動きとともに時間や空間が展開する。さらに異時同図法では、異なる時点の出来事を一つの画面に描き、人物を繰り返して登場させるなどして物語を進める。"
         },
         {
           "type": "text",
-          "text": "ア：《一遍聖絵》は念仏を広めた一遍の遊行を描き、表の三つの霊験を主題としない。"
+          "text": "ア：屋根や天井を省いて室内を見せる方法であり、異なる時間を同一画面へまとめる手法ではない。"
         },
         {
           "type": "text",
-          "text": "イ：空飛ぶ鉢、病の天皇への加持、姉の尼との再会は、信貴山の僧・命蓮にまつわる三巻の物語である。"
+          "text": "イ：異なる時点の出来事を同一画面に描く表現手法を異時同図法という。"
         },
         {
           "type": "text",
-          "text": "ウ：《華厳宗祖師絵伝》は新羅の義湘と元暁の事績を取り上げ、表にある鉢と倉の霊験を描く絵巻とは異なる。"
+          "text": "ウ：高い視点から見下ろす構図に関わり、時間の異なる場面を同一画面に表すこととは区別される。"
         },
         {
           "type": "text",
-          "text": "エ：《法然上人絵伝》は浄土宗の祖・法然の生涯と事績をたどる絵伝である。"
+          "text": "エ：人物の目や鼻を一定の型で描く表現であり、場面の時間の構成を指す語ではない。"
         }
       ],
-      "source_text": "奈良国立博物館「国宝 信貴山縁起絵巻」 | https://www.narahaku.go.jp/exhibition/special/201604_shigisan/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.178・189（textbook.pdf：PDF 180・191ページ）",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "一遍―《一遍聖絵》"
+              "text": "吹抜屋台"
             }
           ],
           "is_correct": false,
@@ -4489,7 +4489,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "命蓮―《信貴山縁起絵巻》"
+              "text": "異時同図法"
             }
           ],
           "is_correct": true,
@@ -4500,7 +4500,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "義湘―《華厳宗祖師絵伝》"
+              "text": "鳥瞰図法"
             }
           ],
           "is_correct": false,
@@ -4511,7 +4511,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "法然―《法然上人絵伝》"
+              "text": "引目鉤鼻"
             }
           ],
           "is_correct": false,
@@ -4701,7 +4701,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "淡彩で描かれた女性は籠を手にし、その上に室町の禅僧・一休宗純の賛が書かれている。観音がこの女性に姿を変えたという伝承で、彼女が求婚者に求めたことはどれか。"
+          "text": "図の《魚籃観音図》には、一休宗純の賛がある。破格の書でも知られ、室町時代後期に京都で再興した一休と深く関わる禅寺はどこか。"
         },
         {
           "type": "image",
@@ -4713,37 +4713,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "籠を手にした女性は魚籃観音である。観音が人々に近い姿をとり、経を覚えるきっかけを与えて仏道に導く方便を表す。所蔵館は絵を墨渓采誉の作と伝え、賛を一休宗純の筆としている。"
+          "text": "室町時代後期には、従来の五山に代わり大徳寺が台頭した。大徳寺を再興した一休宗純の周囲には画僧も集まり、富裕な町衆が寺を支えるなど、美術の担い手にも変化が生まれた。"
         },
         {
           "type": "text",
-          "text": "ア：魚籃観音の伝承では、観音が魚を売る女性となり、求婚する者たちに経文を暗誦するよう求める。"
+          "text": "ア：室町時代後期、五山に代わって台頭した大徳寺を一休宗純が再興した。"
         },
         {
           "type": "text",
-          "text": "イ：造像の用材を募るのは勧進に通じる行為だが、魚籃観音が求婚者に提示した課題は経文の暗誦である。"
+          "text": "イ：如拙や周文など将軍家と結び付く画僧を生んだ寺であり、一休が再興した大徳寺とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：追善の堂塔建立は仏教の供養の一形式であり、この女性が結婚の条件にした行いとは異なる。"
+          "text": "ウ：明兆の仏画などで知られる禅寺だが、一休による再興という条件は大徳寺に合う。"
         },
         {
           "type": "text",
-          "text": "エ：出家受戒は僧となるための行いで、魚籃観音の説話で在家の求婚者に求められた条件ではない。"
+          "text": "エ：蘭渓道隆が鎌倉に開いた禅寺であり、一休が京都で再興した寺ではない。"
         },
         {
           "type": "text",
           "text": "attributed to Bokkei Saiyo (Japanese, 1415–1473); Ikkyū Sōjun (Japanese, 1394–1481) [calligraphy by]《Fish Basket Kannon (Gyoran Kannon)》、1400s。Cleveland Museum of Art、2015.465。 Gift from the Collection of George Gund III。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Fish Basket Kannon (Gyoran Kannon)》 | https://www.clevelandart.org/art/2015.465\n国立故宮博物院《宋人畫魚籃觀音　軸》 | https://digitalarchive.npm.gov.tw/Collection/Detail/1359?dep=P",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.198（textbook.pdf：PDF 200ページ）\n図版出典：クリーブランド美術館《Fish Basket Kannon (Gyoran Kannon)》 | https://www.clevelandart.org/art/2015.465",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "仏の説いた経文を覚えて唱えること。"
+              "text": "大徳寺"
             }
           ],
           "is_correct": true,
@@ -4754,7 +4754,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "仏像を造るための用材を寄進すること。"
+              "text": "相国寺"
             }
           ],
           "is_correct": false,
@@ -4765,7 +4765,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "祖先の追善のために堂塔を建立すること。"
+              "text": "東福寺"
             }
           ],
           "is_correct": false,
@@ -4776,7 +4776,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "師僧から戒を受け、寺に入って修行すること。"
+              "text": "建長寺"
             }
           ],
           "is_correct": false,
@@ -4881,7 +4881,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "一人が巻物を開き、もう一人がその方を向く、室町時代の扇面である。この二人を「四睡図」に描くとき、ともに眠る組合せはどれか。"
+          "text": "図の扇面には、禅画の主題として親しまれた寒山と拾得が描かれている。同じ禅宗絵画の《四睡図》を描き、中国の禅林でも絵を学んだ南北朝時代の画僧は誰か。"
         },
         {
           "type": "image",
@@ -4893,37 +4893,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "扇面に描かれたのは、禅画で親しまれた中国の寒山と拾得である。ここでは詩を記した巻物が二人を見分ける手掛かりとなる。別の画題である四睡図では、豊干禅師と虎を加えた眠りの場面となる。"
+          "text": "南北朝時代にも禅僧の中国留学が続き、中国の禅林で絵を学んだ黙庵のような画僧が現れた。《四睡図》には、中国絵画に近い水墨の技を見ることができる。"
         },
         {
           "type": "text",
-          "text": "ア：梅と鶴に親しんだ詩人・林和靖は隠逸の画題となるが、寒山・拾得と眠る四者の一員ではない。"
+          "text": "ア：14世紀前半の《竹雀図》で知られるが、ここで挙げる《四睡図》の作者は黙庵である。"
         },
         {
           "type": "text",
-          "text": "イ：布袋が子どもたちと遊ぶ姿は別の禅画の画題で、四睡図の二者には含まれない。"
+          "text": "イ：《夢窓疎石像》の作者として知られる画僧であり、《四睡図》の作者ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：蝦蟇仙人は蟇を伴って描かれる中国の仙人で、四睡図で寒山・拾得に伴う僧ではない。"
+          "text": "ウ：東福寺の仏画などで知られるが、ここで挙げる南北朝期の《四睡図》は黙庵による。"
         },
         {
           "type": "text",
-          "text": "エ：四睡図は寒山・拾得の二人に豊干禅師と虎を加え、四者が寄り添い眠るところを描く。"
+          "text": "エ：黙庵は中国の禅林で絵を学んだ画僧で、14世紀前半の《四睡図》を残した。"
         },
         {
           "type": "text",
           "text": "Shikibu Terutada (Japanese, active mid-1500s)《Hanshan and Shide (Kanzan and Jittoku)》、mid-1500s。Cleveland Museum of Art、2015.592。 Gift from the Collection of George Gund III。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Hanshan and Shide (Kanzan and Jittoku)》 | https://www.clevelandart.org/art/2015.592\n東京国立博物館《四睡図》 | https://emuseum.nich.go.jp/detail?content_base_id=100837&langId=ja",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.156・195（textbook.pdf：PDF 158・197ページ）\n図版出典：クリーブランド美術館《Hanshan and Shide (Kanzan and Jittoku)》 | https://www.clevelandart.org/art/2015.592",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "林和靖と鶴"
+              "text": "可翁"
             }
           ],
           "is_correct": false,
@@ -4934,7 +4934,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "布袋と唐子"
+              "text": "無等周位"
             }
           ],
           "is_correct": false,
@@ -4945,7 +4945,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "蝦蟇仙人と蟇"
+              "text": "吉山明兆"
             }
           ],
           "is_correct": false,
@@ -4956,7 +4956,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "豊干禅師と虎"
+              "text": "黙庵霊淵"
             }
           ],
           "is_correct": true,
@@ -5146,7 +5146,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "表は、同じ二神の構図が江戸時代に受け継がれた過程である。最後に光琳の雷神図の裏へ抱一が描いた景物はどれか。"
+          "text": "表は風神・雷神の構図が受け継がれた例である。表の酒井抱一が、出家後に絵や俳諧を楽しみながら光琳の画風の再興に努めた都市はどこか。"
         },
         {
           "type": "table",
@@ -5177,33 +5177,33 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "抱一の《夏秋草図屏風》は、もと光琳《風神雷神図屏風》と表裏一体だった。雷神に夏の驟雨、風神に秋の強風を呼応させ、神の姿を描かずに草の動きと水でその働きを示している。"
+          "text": "酒井抱一は姫路藩主の弟であったが、出家して江戸で絵や俳諧の生活を送った。光琳の画風の再興に努め、光琳の百年忌を盛大に行うなどして、江戸で琳派を継ぐ流れを育てた。"
         },
         {
           "type": "text",
-          "text": "ア：驟雨と増水を取り合わせた場面の季節は夏であり、秋草を配したのは風神図に対応する側である。"
+          "text": "ア：宗達・光琳らとの関わりが深い都市だが、出家後の抱一の拠点として述べられるのは江戸である。"
         },
         {
           "type": "text",
-          "text": "イ：風にあおられる秋草と野葡萄の葉は対となる画面に描かれ、もとは風神図の裏にあった。"
+          "text": "イ：抱一の出家後の制作と光琳再興の拠点という条件は、江戸に合う。"
         },
         {
           "type": "text",
-          "text": "ウ：雷神の裏面では、抱一は驟雨に濡れた夏草と、そのすぐそばを流れる増水した川を描いた。"
+          "text": "ウ：抱一は出家後、江戸で絵や俳諧の生活を送り、光琳の画風の再興に努めた。"
         },
         {
           "type": "text",
-          "text": "エ：強風や舞い上がる野葡萄の葉を描いたのは秋草の画面で、光琳の風神図に対応する。"
+          "text": "エ：この問で挙げた抱一の出家後の生活・制作の拠点は江戸である。"
         }
       ],
-      "source_text": "東京国立博物館《風神雷神図屏風・夏秋草図屏風》 | https://emuseum.nich.go.jp/detail?content_base_id=100321&langId=ja",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.163・208（textbook.pdf：PDF 165・210ページ）",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "夕立のあと、増水した流れのそばに茂る秋草。"
+              "text": "京都"
             }
           ],
           "is_correct": false,
@@ -5214,7 +5214,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "強い風を受け、野葡萄の葉が舞う秋草。"
+              "text": "大坂"
             }
           ],
           "is_correct": false,
@@ -5225,7 +5225,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "夕立のあと、増水した流れのそばに茂る夏草。"
+              "text": "江戸"
             }
           ],
           "is_correct": true,
@@ -5236,7 +5236,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "強い風を受け、野葡萄の葉が舞う夏草。"
+              "text": "名古屋"
             }
           ],
           "is_correct": false,
@@ -5341,7 +5341,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の着流しの人物は、江戸の人気力士・谷風梶之助である。この相撲絵の作者の門下で修業した若い葛飾北斎は、当時どの名で役者絵などを描いていたか。"
+          "text": "図は勝川春章が人気力士・谷風を描いた相撲絵である。同じ江戸の浮世絵で、役者絵により人気を集め、三代豊国とも呼ばれた歌川派の絵師は誰か。"
         },
         {
           "type": "image",
@@ -5353,37 +5353,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図は勝川春章が力士の谷風を、土俵の外にいるような日常の姿に描いた相撲絵である。春章の門下には「春」の字を画号に用いた複数の絵師がいて、このうち春朗がのちの葛飾北斎にあたる。"
+          "text": "幕末の浮世絵では、国貞が役者絵、国芳が武者絵、広重が風景画などで人気を集め、歌川派が隆盛となった。国貞は三代豊国とも呼ばれた。"
         },
         {
           "type": "text",
-          "text": "ア：勝川春英は春章門下の絵師で、北斎の初名である春朗とは異なる。"
+          "text": "ア：武者絵や戯画・風刺画で知られるが、三代豊国という呼称は歌川国貞に当たる。"
         },
         {
           "type": "text",
-          "text": "イ：勝川春好は春章の高弟で、師の役者似顔絵の画風を継承した別の絵師である。"
+          "text": "イ：名所絵・風景画で知られるが、三代豊国ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：葛飾北斎は勝川春章に入門し、初期に勝川春朗の名で役者絵などを描いた。"
+          "text": "ウ：歌川国貞は三代豊国とも呼ばれ、役者絵で人気を集めた。"
         },
         {
           "type": "text",
-          "text": "エ：勝川春潮は鳥居清長風の美人画でも知られ、若年期の北斎の名ではない。"
+          "text": "エ：歌川国貞が継いだ名の初代であり、「三代豊国」という条件は国貞に合う。"
         },
         {
           "type": "text",
           "text": "Katsukawa Shunshō (Japanese, 1726–1792)《Tanikaze Kajinosuke》、c. mid-1780s。Cleveland Museum of Art、1930.209。 Bequest of Edward L. Whittemore。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Tanikaze Kajinosuke》 | https://www.clevelandart.org/art/1930.209\n太田記念美術館「勝川春章―北斎誕生の系譜」 | https://www.ukiyoe-ota-muse.jp/2015_katsukawashunsho/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.165・248・249（textbook.pdf：PDF 167・250・251ページ）\n図版出典：クリーブランド美術館《Tanikaze Kajinosuke》 | https://www.clevelandart.org/art/1930.209",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "勝川春英"
+              "text": "歌川国芳"
             }
           ],
           "is_correct": false,
@@ -5394,7 +5394,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "勝川春好"
+              "text": "歌川広重"
             }
           ],
           "is_correct": false,
@@ -5405,7 +5405,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "勝川春朗"
+              "text": "歌川国貞"
             }
           ],
           "is_correct": true,
@@ -5416,7 +5416,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "勝川春潮"
+              "text": "初代歌川豊国"
             }
           ],
           "is_correct": false,
@@ -6626,7 +6626,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図のガラス器を制作したエミール・ガレは、1901年、工芸家や工房主が結んだ団体の初代会長になった。その団体が拠点とした都市はどこか。"
+          "text": "図はガレのガラス器である。この作家が工芸の代表者となった美術動向の名称は、パリで美術商ビングが開いた店名に由来する。その名称はどれか。"
         },
         {
           "type": "image",
@@ -6638,37 +6638,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "アール・ヌーヴォーはヨーロッパの複数の都市に展開した。ガレらはナンシーでガラス、家具、金工などの作り手を結び、装飾芸術の発展を図った。"
+          "text": "アール・ヌーヴォーは「新しい芸術」を意味し、その名称はパリのビングの店に由来する。ガレは、この動向を代表するガラス工芸家である。"
         },
         {
           "type": "text",
-          "text": "ア：リモージュは磁器の生産や七宝の歴史を持つフランスの工芸都市である。"
+          "text": "ア：1897年にウィーンでクリムトらが結成した団体である。"
         },
         {
           "type": "text",
-          "text": "イ：パリのアール・ヌーヴォーでは、ギマールが手がけた地下鉄の入口などが知られる。"
+          "text": "イ：モリスらがイギリスで展開した手工芸の改革運動である。"
         },
         {
           "type": "text",
-          "text": "ウ：ガレはロレーヌ地方のナンシーで活動し、ナンシー派の初代会長を務めた。"
+          "text": "ウ：パリのビングの店「メゾン・ド・ラール・ヌーヴォー」に由来する。"
         },
         {
           "type": "text",
-          "text": "エ：リヨンは絹織物の産地として、フランスの装飾芸術を支えた都市である。"
+          "text": "エ：ラファエロ以前の美術を規範としたイギリスの美術運動である。"
         },
         {
           "type": "text",
           "text": "Emile Gallé (French, 1846–1904)《Vase》、c. 1900。Cleveland Museum of Art、1979.10。 Andrew R. and Martha Holden Jennings Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Vase》 | https://www.clevelandart.org/art/1979.10\nナンシー派美術館 ナンシー派の成立 | https://musee-ecole-de-nancy.nancy.fr/lart-nouveau/lecole-de-nancy",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.90・134・135（textbook.pdf：PDF 92・136・137ページ）\n図版出典：クリーブランド美術館《Vase》 | https://www.clevelandart.org/art/1979.10",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "リモージュ"
+              "text": "ウィーン分離派"
             }
           ],
           "is_correct": false,
@@ -6679,7 +6679,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "パリ"
+              "text": "アーツ・アンド・クラフツ"
             }
           ],
           "is_correct": false,
@@ -6690,7 +6690,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ナンシー"
+              "text": "アール・ヌーヴォー"
             }
           ],
           "is_correct": true,
@@ -6701,7 +6701,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "リヨン"
+              "text": "ラファエル前派"
             }
           ],
           "is_correct": false,
@@ -6806,7 +6806,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "デューラーの木版画《犀》が生まれて広まるまでの経緯として、正しいものはどれか。"
+          "text": "図は北方ルネサンスのデューラーによる木版画《犀》である。この画家の活動を通じた北方とイタリアの関係について、正しいものはどれか。"
         },
         {
           "type": "image",
@@ -6818,37 +6818,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "1515年にインドからポルトガルへ運ばれた犀の知らせは、ドイツのデューラーにも届いた。実物と異なる細部を含むこの像が長くヨーロッパに流布したのは、木版によって同じ図を多数印刷できたためである。"
+          "text": "デューラーはヴェネツィアで人体比例や遠近法、ルネサンスの思想を学んだ。その制作は北方の精緻な表現を保ちながら発展し、彼の版画はイタリアにも影響を与えた。"
         },
         {
           "type": "text",
-          "text": "ア：動物はインドから運ばれたが、画家がインドへ赴いて写生したものではない。"
+          "text": "ア：デューラーは北方の画家がイタリアを訪れて学んだ例で、移動の出発地と行先が逆である。"
         },
         {
           "type": "text",
-          "text": "イ：デューラーがこの個体をニュルンベルクで実測したという記録はなく、現地からの報告を用いた。"
+          "text": "イ：デューラー自身がヴェネツィアを訪れて学んだ。"
         },
         {
           "type": "text",
-          "text": "ウ：デューラーは実物を見ることなく、リスボンから伝わった情報に基づいて犀を図にした。"
+          "text": "ウ：デューラーはヴェネツィアで学び、その版画はイタリアにも影響を及ぼした。"
         },
         {
           "type": "text",
-          "text": "エ：教皇のもとへ送られた犀は航海中に死に、図はローマでの披露を記録したものではない。"
+          "text": "エ：人体の極端な引き伸ばしはマニエリスムの特徴であり、デューラーが学んだ人間の理想美や人体比例とは区別する。"
         },
         {
           "type": "text",
           "text": "Albrecht Dürer《The Rhinoceros》、1515。National Gallery of Art, Washington、1964.8.697。 Rosenwald Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Rhinoceros》 | https://www.nga.gov/artworks/47903-rhinoceros\nワシントン・ナショナル・ギャラリー デューラー《犀》の成立 | https://www.nga.gov/stories/articles/horns-scales-and-armor",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.66（textbook.pdf：PDF 68ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Rhinoceros》 | https://www.nga.gov/artworks/47903-rhinoceros",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "インドで犀を観察し、帰国後に自分の旅行記の挿絵として刊行した。"
+              "text": "デューラーはイタリアから北方へ移り住み、北方で初めて版画制作を始めた。"
             }
           ],
           "is_correct": false,
@@ -6859,7 +6859,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ニュルンベルクで犀を写生し、その場で採った寸法を添えて版画にした。"
+              "text": "デューラーはイタリアへ赴かず、伝わってきた版画を通してルネサンスを学んだ。"
             }
           ],
           "is_correct": false,
@@ -6870,7 +6870,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "リスボンに着いた犀について届いた報告をもとに図を作り、版画として広めた。"
+              "text": "デューラーはヴェネツィアでルネサンスを学び、その版画は逆にイタリアにも影響を与えた。"
             }
           ],
           "is_correct": true,
@@ -6881,7 +6881,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ローマで犀を教皇に披露する式典に立ち会い、その光景を版画にした。"
+              "text": "デューラーは、細長く引き伸ばした人体表現を、ヴェネツィアでルネサンスの理想として学んだ。"
             }
           ],
           "is_correct": false,

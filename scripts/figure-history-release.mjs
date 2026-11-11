@@ -12,8 +12,8 @@ import {wordingPatches} from './editorial-wording.mjs'
 const {values:v,positionals:[mode]}=parseArgs({options:{env:{type:'string'},confirm:{type:'string'},revision:{type:'string'}},allowPositionals:true})
 assert.ok(['plan','dry-run','apply','verify'].includes(mode));assert.ok(v.env)
 const env=parseEnv(readFileSync(v.env,'utf8')),target=classificationTarget(env.DATABASE_URL),db=createDatabase(target.connectionString)
-assert.equal(v.revision,'figure-history-20261111');const patches=wordingPatches(v.revision),desired=JSON.parse(readFileSync('content/questions.json','utf8')),manifest=JSON.parse(readFileSync('content/question-study-classifications.json','utf8'))
-const dir=resolve('local-only/backups/figure-history',new Date().toISOString().replace(/[:.]/g,'-')),write=(name,x)=>{mkdirSync(dir,{recursive:true,mode:0o700});writeFileSync(resolve(dir,name),JSON.stringify(x,null,2)+'\n',{mode:0o600,flag:'wx'})}
+assert.ok(['figure-history-20261111','figure-textbook-20261111'].includes(v.revision));const patches=wordingPatches(v.revision),desired=JSON.parse(readFileSync('content/questions.json','utf8')),manifest=JSON.parse(readFileSync('content/question-study-classifications.json','utf8'))
+const dir=resolve(v.revision==='figure-textbook-20261111'?'local-only/backups/figure-textbook':'local-only/backups/figure-history',new Date().toISOString().replace(/[:.]/g,'-')),write=(name,x)=>{mkdirSync(dir,{recursive:true,mode:0o700});writeFileSync(resolve(dir,name),JSON.stringify(x,null,2)+'\n',{mode:0o600,flag:'wx'})}
 const canonical=x=>x instanceof Date?x.toISOString():Array.isArray(x)?x.map(canonical):x&&typeof x==='object'?Object.fromEntries(Object.entries(x).sort(([a],[b])=>a.localeCompare(b)).map(([k,v])=>[k,canonical(v)])):x
 const hash=x=>createHash('sha256').update(JSON.stringify(canonical(x))).digest('hex');let rollback=false
 try{await db.$transaction(async connection=>{

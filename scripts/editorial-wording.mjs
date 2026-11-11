@@ -5,7 +5,7 @@ import assert from 'node:assert/strict'
 
 const revisions = [
   'standalone-wording', 'sculpture-identification', 'quality-revision-12',
-  'received-revision-36-20261109', 'figure-history-20261111',
+  'received-revision-36-20261109', 'figure-history-20261111', 'figure-textbook-20261111',
 ]
 export function wordingPatches(revision='standalone-wording'){
  assert.ok(revisions.includes(revision),'Unknown editorial revision')

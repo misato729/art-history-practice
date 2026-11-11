@@ -1489,7 +1489,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の左で、毛皮をまとう幼児がもう一人の子に小さな十字架を差し出している。この人物が成人してからの出来事として、福音書に描かれているのはどれか。"
+          "text": "図の聖母子像を描いた画家は、レオナルド・ダ・ヴィンチとミケランジェロに学び、調和のとれた構成と優美さを備えた絵画を確立した。この画家は誰か。"
         },
         {
           "type": "image",
@@ -1501,37 +1501,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ラファエロの《アルバの聖母》に描かれているのは、聖母マリア、幼子キリスト、幼い洗礼者ヨハネである。毛皮の衣と細い十字架は洗礼者ヨハネのしるしで、成長したヨハネはヨルダン川で人々に洗礼を授け、イエスもその洗礼を受けた。"
+          "text": "図はラファエロの《アルバの聖母》である。ラファエロはレオナルドとミケランジェロの作品から学び、調和のとれた構成と優美な表現を築いた。"
         },
         {
           "type": "text",
-          "text": "ア：網を投げているときにイエスから呼ばれたのは、漁師のペテロとアンデレである。"
+          "text": "ア：自然と人間の探究を絵画の基礎とした巨匠で、設問では学ばれる側に当たる。"
         },
         {
           "type": "text",
-          "text": "イ：毛皮をまとう幼児は洗礼者ヨハネで、成人後にヨルダン川でイエスに洗礼を授けた。"
+          "text": "イ：二人の巨匠に学び、調和と優美さを独自の表現にまとめた画家である。"
         },
         {
           "type": "text",
-          "text": "ウ：刑場へ向かうイエスの十字架を担わされたのは、キレネのシモンである。"
+          "text": "ウ：力強い人体表現や躍動的な構成に特色があり、設問では学ばれる側に当たる。"
         },
         {
           "type": "text",
-          "text": "エ：イエスが手と脇腹の傷を示して復活を信じるよう促した相手は、使徒トマスである。"
+          "text": "エ：ベッリーニから影響を受けたヴェネツィアの画家で、設問の系譜とは異なる。"
         },
         {
           "type": "text",
           "text": "Raphael《The Alba Madonna》、c. 1510。National Gallery of Art, Washington、1937.1.24。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Alba Madonna》 | https://www.nga.gov/artworks/26-alba-madonna\nロンドン・ナショナル・ギャラリー《Saint John the Baptist》 | https://www.nationalgallery.org.uk/paintings/italian-saint-john-the-baptist",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.64・65・121・63（textbook.pdf：PDF 66・67・123・65ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Alba Madonna》 | https://www.nga.gov/artworks/26-alba-madonna",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ガリラヤ湖で網を投げているとき、弟子としてイエスに招かれた。"
+              "text": "レオナルド・ダ・ヴィンチ"
             }
           ],
           "is_correct": false,
@@ -1542,7 +1542,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヨルダン川のほとりで悔い改めを説き、訪れたイエスに洗礼を授けた。"
+              "text": "ラファエロ"
             }
           ],
           "is_correct": true,
@@ -1553,7 +1553,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "刑場へ向かう途中のイエスに代わって、その十字架を担いだ。"
+              "text": "ミケランジェロ"
             }
           ],
           "is_correct": false,
@@ -1564,7 +1564,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "復活したイエスが傷跡を示すのを見て、復活への疑いを解いた。"
+              "text": "ジョルジョーネ"
             }
           ],
           "is_correct": false,
@@ -2029,7 +2029,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図A・Bを描いた画家の組合せとして、正しいものはどれか。"
+          "text": "図Aの作者は、イタリアで学んだ表現と北方の写実を結び付け、動きと色彩に富む画面を作った。図Bの作者は、表情豊かな市民の肖像で知られる。二人の組合せとして正しいものはどれか。"
         },
         {
           "type": "image",
@@ -2047,30 +2047,30 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図Aはルーベンスの《パエトンの墜落》。太陽の馬車を制御できなくなったパエトンが落ちる神話を、交錯する馬や人物の動きで表した。図Bはハルスの《ウィレム・コイマンス》。こちらを向く視線と椅子に腕をかけた姿勢に、肖像画家ハルスの人物の捉え方が表れている。"
+          "text": "図Aはルーベンスの《パエトンの墜落》、図Bはハルスの《ウィレム・コイマンス》。ルーベンスはイタリアの美術と北方の写実を結び付け、ハルスは表情豊かな市民の肖像を描いた。"
         },
         {
           "type": "text",
-          "text": "ア：図Bの作者はハルス。図Aの神話画を描いたのはルーベンスである。"
+          "text": "ア：ヴァン・ダイクはルーベンスのもとで学び、イギリスの宮廷肖像で活躍した。Aの経歴・作風はルーベンスに当たる。"
         },
         {
           "type": "text",
-          "text": "イ：図Aはルーベンスの神話画、図Bはハルスが描いたウィレム・コイマンスの肖像である。"
+          "text": "イ：Aはルーベンス、Bはハルスである。動的な神話画と表情豊かな市民の肖像という活動の違いとも一致する。"
         },
         {
           "type": "text",
-          "text": "ウ：図Aの作者は合う。図Bのモデルを描いたのはハルスである。"
+          "text": "ウ：Aは正しいが、Bはレンブラントではなくハルスである。レンブラントは集団肖像や聖書の主題で劇的な構図と明暗を発展させた。"
         },
         {
           "type": "text",
-          "text": "エ：レンブラントもヴァン・ダイクも17世紀の画家だが、図A・Bの作者とは対応しない。"
+          "text": "エ：Aはフランドルのルーベンス、Bはオランダのハルスであり、両者とも入れ替わっている。"
         },
         {
           "type": "text",
           "text": "図A　Sir Peter Paul Rubens《The Fall of Phaeton》、c. 1604/1605, probably reworked c. 1606/1608。National Gallery of Art, Washington、1990.1.1。 Patrons' Permanent Fund。 画像ライセンス CC0。\n図B　Frans Hals《Willem Coymans》、1645。National Gallery of Art, Washington、1937.1.69。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Fall of Phaeton》 | https://www.nga.gov/artworks/71349-fall-phaeton\nワシントン・ナショナル・ギャラリー《Willem Coymans》 | https://www.nga.gov/artworks/76-willem-coymans",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.69・70・125（textbook.pdf：PDF 71・72・127ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Fall of Phaeton》 | https://www.nga.gov/artworks/71349-fall-phaeton\n図版出典：ワシントン・ナショナル・ギャラリー《Willem Coymans》 | https://www.nga.gov/artworks/76-willem-coymans",
       "choices": [
         {
           "choice_label": "ア",
@@ -3016,7 +3016,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の舞台裏を描いた画家が、パリの人々の日常を題材にした別の作品はどれか。"
+          "text": "図は、舞台裏の踊り子たちを描いたドガの作品である。同じ画家による別の作品はどれか。"
         },
         {
           "type": "image",
@@ -3028,30 +3028,30 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "《舞台裏の踊り子たち》の作者エドガー・ドガは、舞台の袖や稽古場に目を向けた。《カフェにて（アブサント）》では、同じテーブルに並んで座りながら視線を交わさない男女を描いている。"
+          "text": "正答はドガの《カフェにて（アブサント）》である。ドガは踊り子やカフェなど、近代都市の生活を取り上げた。《草上の昼食》はマネ、《ムーラン・ド・ラ・ギャレット》はルノワール、《モンフーコーの刈り入れ》はピサロによる。"
         },
         {
           "type": "text",
-          "text": "ア：パリのカフェに並んで座る男女を描いた、ドガの作品である。"
+          "text": "ア：ドガが描いた作品で、《アブサン》とも呼ばれる。"
         },
         {
           "type": "text",
-          "text": "イ：床にひざをついて働く職人を描いたのはギュスターヴ・カイユボットである。"
+          "text": "イ：マネが1863年の落選展に出した作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：バーカウンターの女性と背後の鏡を描いたのはエドゥアール・マネである。"
+          "text": "ウ：ルノワールがパリの人々の余暇を描いた作品である。"
         },
         {
           "type": "text",
-          "text": "エ：モンマルトルの屋外舞踏場のにぎわいを描いたのはオーギュスト・ルノワールである。"
+          "text": "エ：ピサロが農村の風景を描いた作品である。"
         },
         {
           "type": "text",
           "text": "Edgar Degas《Dancers Backstage》、1876/1883。National Gallery of Art, Washington、1970.17.25。 Ailsa Mellon Bruce Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Dancers Backstage》 | https://www.nga.gov/artworks/52169-dancers-backstage\nオルセー美術館《Dans un café》 | https://www.musee-orsay.fr/en/artworks/dans-un-cafe-1147",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.31・83・84（textbook.pdf：PDF 33・85・86ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Dancers Backstage》 | https://www.nga.gov/artworks/52169-dancers-backstage",
       "choices": [
         {
           "choice_label": "ア",
@@ -3069,7 +3069,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《床を削る人々》"
+              "text": "《草上の昼食》"
             }
           ],
           "is_correct": false,
@@ -3080,7 +3080,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《フォリー＝ベルジェールのバー》"
+              "text": "《ムーラン・ド・ラ・ギャレット》"
             }
           ],
           "is_correct": false,
@@ -3091,7 +3091,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ムーラン・ド・ラ・ギャレットの舞踏会》"
+              "text": "《モンフーコーの刈り入れ》"
             }
           ],
           "is_correct": false,
@@ -3206,7 +3206,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "果物の皿を上から見せながら、水差しの胴や卓の側面も大きく描いている。この静物画の作者による形の探究を受け継ぎ、対象を異なる角度からとらえた面へと分解していった二人は誰か。"
+          "text": "図はセザンヌの静物画である。この画家と、新印象主義のスーラがそれぞれ進めた探究の違いとして、適切なものはどれか。"
         },
         {
           "type": "image",
@@ -3218,37 +3218,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "セザンヌは《リンゴとモモのある静物》で、器や果物をそれぞれの量感が伝わる角度からとらえ、一つの画面に組み立てた。ピカソとブラックは、こうした探究を手掛かりに、視点を固定せずに形を分解・再構成するキュビスムを発展させた。"
+          "text": "セザンヌは対象の本質的な構造を求め、自然を単純な形態に還元して画面を構成した。スーラは色彩対比や補色の理論を学び、点描による明るい画面を作った。"
         },
         {
           "type": "text",
-          "text": "ア：マティスとドランはコリウールでともに制作し、鮮烈な色彩を用いたフォーヴィスムを担った。"
+          "text": "ア：二人の探究が逆である。形態や構造を求めたのがセザンヌ、色彩理論を科学的に進めたのがスーラである。"
         },
         {
           "type": "text",
-          "text": "イ：スーラとシニャックは色彩の分割を組織的に用いる新印象主義を担った。"
+          "text": "イ：強い筆触で内面を示すのはゴッホ、輪郭や色面を強める象徴的な表現はゴーガンに関わる。"
         },
         {
           "type": "text",
-          "text": "ウ：ピカソとブラックは形を異なる側面からとらえ直し、キュビスムをともに展開した。"
+          "text": "ウ：セザンヌは自然を単純な形態に還元して画面を構成し、スーラは色彩対比や補色の理論を点描へ生かした。"
         },
         {
           "type": "text",
-          "text": "エ：ボナールとヴュイヤールは、身近な室内などを装飾的な色面にまとめたナビ派の画家である。"
+          "text": "エ：ゴーガンとゴッホに関わる表現を割り当てており、セザンヌとスーラの探究を示さない。"
         },
         {
           "type": "text",
           "text": "Paul Cezanne《Still Life with Apples and Peaches》、c. 1905。National Gallery of Art, Washington、1959.15.1。 Gift of Eugene and Agnes E. Meyer。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Still Life with Apples and Peaches》 | https://www.nga.gov/artworks/45986-still-life-apples-and-peaches\nメトロポリタン美術館「Cubism」 | https://www.metmuseum.org/fr/essays/cubism",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.87・132（textbook.pdf：PDF 89・134ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Still Life with Apples and Peaches》 | https://www.nga.gov/artworks/45986-still-life-apples-and-peaches",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "マティスとドラン"
+              "text": "セザンヌ：色彩理論による点描／スーラ：対象の本質的な構造"
             }
           ],
           "is_correct": false,
@@ -3259,7 +3259,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "スーラとシニャック"
+              "text": "セザンヌ：強い筆触による内面表現／スーラ：輪郭を強めた象徴表現"
             }
           ],
           "is_correct": false,
@@ -3270,7 +3270,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ピカソとブラック"
+              "text": "セザンヌ：対象の本質的な構造／スーラ：色彩理論による点描"
             }
           ],
           "is_correct": true,
@@ -3281,7 +3281,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ボナールとヴュイヤール"
+              "text": "セザンヌ：輪郭を強めた象徴表現／スーラ：強い筆触による内面表現"
             }
           ],
           "is_correct": false,
@@ -4406,7 +4406,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の立像は、宝冠の正面に小さな仏の姿を表している。この菩薩を脇侍の一尊とする三尊形式で、中尊ともう一方の脇侍にあたるのはどれか。"
+          "text": "図は観音菩薩の立像である。観音を含む「菩薩」の、仏教における位置付けとして適切なのはどれか。"
         },
         {
           "type": "image",
@@ -4418,37 +4418,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "飛鳥時代の観音菩薩像。宝冠の中央にある小像は化仏といい、観音を見分ける手掛かりとなる。阿弥陀三尊として表す場合、観音は勢至と対になる。"
+          "text": "菩薩は悟りを求めて修行する存在であり、如来の働きを助けるともされる。観音菩薩はその代表である。装身具を伴う若い姿は、悟りを開いた如来の姿とは区別される。"
         },
         {
           "type": "text",
-          "text": "ア：薬師三尊で月光菩薩と対をなすのは日光菩薩である。"
+          "text": "ア：悟りを開いた仏陀を指すのは如来であり、菩薩の位置付けとは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：観音菩薩は宝冠に阿弥陀の化仏を表し、勢至菩薩とともに阿弥陀如来に脇侍する。"
+          "text": "イ：菩薩は悟りを開くために修行し、如来の働きを助ける存在である。"
         },
         {
           "type": "text",
-          "text": "ウ：普賢菩薩を配する代表的な釈迦三尊では、もう一方に文殊菩薩を置く。"
+          "text": "ウ：煩悩を打ち砕く怒りの姿は明王に関わる説明である。"
         },
         {
           "type": "text",
-          "text": "エ：釈迦の弟子を両脇に置く構成では、阿難尊者の対になるのは迦葉尊者である。"
+          "text": "エ：如来や菩薩を守る天部と、菩薩そのものとを混同している。"
         },
         {
           "type": "text",
           "text": "制作者不詳《Kannon》、mid-600s–early 700s。Cleveland Museum of Art、1950.392。 John L. Severance Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Kannon》 | https://www.clevelandart.org/art/1950.392\n文化庁・文化遺産データベース《観音菩薩・勢至菩薩立像》 | https://online.bunka.go.jp/db/heritages/detail/430172\n文化庁《木造阿弥陀如来及両脇侍坐像》 | https://kunishitei.bunka.go.jp/heritage/detail/201/00011774\n文化庁《木造釈迦如来及迦葉阿難立像》 | https://online.bunka.go.jp/heritages/detail/167598",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.178（textbook.pdf：PDF 180ページ）\n図版出典：クリーブランド美術館《Kannon》 | https://www.clevelandart.org/art/1950.392",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "薬師如来と月光菩薩"
+              "text": "悟りを開き、仏陀として教えを説く存在。"
             }
           ],
           "is_correct": false,
@@ -4459,7 +4459,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "阿弥陀如来と勢至菩薩"
+              "text": "悟りを求めて修行し、如来の働きも助ける存在。"
             }
           ],
           "is_correct": true,
@@ -4470,7 +4470,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "釈迦如来と普賢菩薩"
+              "text": "怒りの姿で、人々の煩悩を打ち砕く存在。"
             }
           ],
           "is_correct": false,
@@ -4481,7 +4481,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "釈迦如来と阿難尊者"
+              "text": "如来や菩薩を守る、天部に属する存在。"
             }
           ],
           "is_correct": false,
@@ -5011,7 +5011,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "仮名の詞書と宮廷の人々が集う場面を残す、この絵巻の断簡は、藤原頼通が天皇を迎えて催した駒競に取材している。典拠となった歴史物語はどれか。"
+          "text": "図は、『栄花物語』の駒競の場面を描く絵巻の断簡である。仮名の詞書を伴う絵巻や、和歌・物語が発達した平安時代後期の文化を理解する説明として適切なのはどれか。"
         },
         {
           "type": "image",
@@ -5023,37 +5023,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図は所蔵館が『栄花物語』の駒競の行幸を描いたものとする断簡である。題材となったのは1024年、関白藤原頼通が邸の高陽院に天皇らを迎えた催しで、儀礼を通じて摂関家の繁栄が示される。"
+          "text": "遣唐使廃止後の平安時代後期には、仮名文字の普及とともに和歌や物語などが発達した。美術でも唐様に対して和様が育ち、絵巻は文学と絵画が結び付く場となった。"
         },
         {
           "type": "text",
-          "text": "ア：藤原氏の栄華を描いた『栄花物語』は、巻二十三「こまくらべの行幸」に頼通の邸での催しを記す。"
+          "text": "ア：10世紀初めに仮名が普及し、和歌・物語・随筆などが発達した。"
         },
         {
           "type": "text",
-          "text": "イ：『大鏡』は老人の対話を枠組みとして藤原氏らの歴史を語り、この絵巻の典拠となった巻をもたない。"
+          "text": "イ：平安後期は遣唐使廃止後に日本独自の文化が発達した時期であり、派遣の拡大ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：『今鏡』は『大鏡』が扱った時期の後をたどる歴史物語で、図に描かれた駒競の典拠とは異なる。"
+          "text": "ウ：仮名の普及は和歌・物語などと結び付く。漢字による経典の書写を仮名が置き換えたわけではない。"
         },
         {
           "type": "text",
-          "text": "エ：『増鏡』は後鳥羽院から後醍醐天皇に至る時代を中心とし、頼通が駒競を催した時期より後を扱う。"
+          "text": "エ：唐様に対する和様が発達し、物語を含む国風文化が花開いた時期である。"
         },
         {
           "type": "text",
           "text": "制作者不詳《The Emperor's Attendance at the Horse Race: Episode from the Tale of Eiga (Eiga Monogatari)》、c. 1200。Cleveland Museum of Art、1976.164。 Gift of Herbert F. Leisy in memory of Helen Leisy。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《The Emperor's Attendance at the Horse Race: Episode from the Tale of Eiga (Eiga Monogatari)》 | https://www.clevelandart.org/art/1976.164\n九州国立博物館「海を越えた再会」 | https://www.kyuhaku.jp/exhibition/exhibition_pre121.html\n和泉市久保惣記念美術館《駒競行幸絵巻》 | https://www.ikm-art.jp/degitalmuseum/num/001/0010018000.html",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.186・188（textbook.pdf：PDF 188・190ページ）\n図版出典：クリーブランド美術館《The Emperor's Attendance at the Horse Race: Episode from the Tale of Eiga (Eiga Monogatari)》 | https://www.clevelandart.org/art/1976.164",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "『栄花物語』"
+              "text": "仮名文字が普及し、日本独自の文学や美術が育った。"
             }
           ],
           "is_correct": true,
@@ -5064,7 +5064,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "『大鏡』"
+              "text": "遣唐使の派遣が拡大し、漢文の文学が和歌に代わった。"
             }
           ],
           "is_correct": false,
@@ -5075,7 +5075,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "『今鏡』"
+              "text": "仮名が公的な経典の文字となり、漢字の写経に代わった。"
             }
           ],
           "is_correct": false,
@@ -5086,7 +5086,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "『増鏡』"
+              "text": "貴族の文化は唐風へ統一され、日本の物語は衰えた。"
             }
           ],
           "is_correct": false,
@@ -7087,7 +7087,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図は1875年にデザインされた綿布《チューリップ》である。室内装飾を手がけ、晩年にはケルムスコット・プレスを設けて書物のデザインにも取り組んだのは誰か。"
+          "text": "図の布地をデザインしたウィリアム・モリスは、生活を取り巻く工芸の改革を進めた。彼の思想を中心とする運動と、その後に影響を受けた動向の組合せはどれか。"
         },
         {
           "type": "image",
@@ -7099,37 +7099,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "身の回りの品に美しいデザインを取り戻そうとしたモリスは、その考えを印刷にも広げた。ケルムスコット版『チョーサー著作集』ではバーン＝ジョーンズが挿絵を担当した。"
+          "text": "モリスは大量生産品の粗悪なデザインを問題とし、手仕事を重んじる工芸改革に取り組んだ。その活動を受け継ぐアーツ・アンド・クラフツは、アール・ヌーヴォーや分離派にも影響を及ぼした。"
         },
         {
           "type": "text",
-          "text": "ア：画家としてモリスと協働し、ケルムスコット版『チョーサー著作集』の挿絵を担当した。"
+          "text": "ア：ウィーン分離派は1897年に結成され、イギリスで先に進んでいた工芸改革から影響を受けた側である。"
         },
         {
           "type": "text",
-          "text": "イ：中世の職人の仕事を評価した批評家で、その著作はモリスの工芸思想に影響を与えた。"
+          "text": "イ：ラファエル前派は1848年に結成され、1890年代以降のアール・ヌーヴォーに先立つ。"
         },
         {
           "type": "text",
-          "text": "ウ：モリスは家具や壁紙、布地をデザインし、1891年にケルムスコット・プレスを設立した。"
+          "text": "ウ：手仕事を重視したモリスの活動は、アール・ヌーヴォーの工芸や分離派にも影響した。"
         },
         {
           "type": "text",
-          "text": "エ：グラスゴーを拠点に、建築のほか家具や室内装飾も手がけた。"
+          "text": "エ：モリスを中心に手工芸の改革を展開した運動を、この組合せでは特定できない。"
         },
         {
           "type": "text",
           "text": "William Morris (British, 1834–1896)《Tulip》、1875。Cleveland Museum of Art、1937.579。 Gift of Mrs. Philip White。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Tulip》 | https://www.clevelandart.org/art/1937.579\nバーミンガム大学 ケルムスコット・プレス | https://www.birmingham.ac.uk/facilities/cadbury/rarebooks/fine-printing-private-press/kelmscott\n米国議会図書館 モリスとケルムスコット・プレス | https://guides.loc.gov/medievalism/morris",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.134・135（textbook.pdf：PDF 136・137ページ）\n図版出典：クリーブランド美術館《Tulip》 | https://www.clevelandart.org/art/1937.579",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "エドワード・バーン＝ジョーンズ"
+              "text": "ウィーン分離派 ― アーツ・アンド・クラフツ"
             }
           ],
           "is_correct": false,
@@ -7140,7 +7140,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ジョン・ラスキン"
+              "text": "アール・ヌーヴォー ― ラファエル前派"
             }
           ],
           "is_correct": false,
@@ -7151,7 +7151,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ウィリアム・モリス"
+              "text": "アーツ・アンド・クラフツ ― アール・ヌーヴォー"
             }
           ],
           "is_correct": true,
@@ -7162,7 +7162,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "チャールズ・レニー・マッキントッシュ"
+              "text": "ラファエル前派 ― ウィーン分離派"
             }
           ],
           "is_correct": false,
@@ -7267,7 +7267,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "風景版画《三本の木》を制作したレンブラントは、その前年の1642年に市民隊の集団肖像画《夜警》を完成させた。この集団肖像画が市民隊の会館に掲げられた都市はどこか。"
+          "text": "図はレンブラントによる17世紀オランダの風景版画である。同時代のオランダで、風景画・静物画・市民の肖像画などが発達した背景として、適切なものはどれか。"
         },
         {
           "type": "image",
@@ -7279,37 +7279,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "17世紀のオランダでは、市民隊の隊員たちが集団肖像画を注文した。《夜警》では、アムステルダムのバニング・コック隊長が隊員に出発を命じる場面が描かれている。"
+          "text": "17世紀のオランダでは、アムステルダムを中心に貿易が発展した。新教徒の多いこの社会では、風景や静物、市民の姿などを扱う画家が各分野で活動した。"
         },
         {
           "type": "text",
-          "text": "ア：レンブラントが生まれ、初期に工房を構えた都市である。"
+          "text": "ア：教皇や教会の注文を背景とするバロック美術の中心はイタリア、とくにローマだった。"
         },
         {
           "type": "text",
-          "text": "イ：火縄銃手組合の会館を飾るため、同市の市民隊を描いたのが《夜警》である。"
+          "text": "イ：貿易で発展したオランダでは、新教徒の多い社会で風景・静物・肖像など身近な題材が発達した。"
         },
         {
           "type": "text",
-          "text": "ウ：ハルスが聖ゲオルギウス市民隊などの集団肖像を描いた都市である。"
+          "text": "ウ：宮廷美術の隆盛は同時期のフランスやスペインなどの背景である。"
         },
         {
           "type": "text",
-          "text": "エ：フェルメールが活動し、ピーテル・デ・ホーホも市民の暮らしを描いた都市である。"
+          "text": "エ：古代美術への関心を背景とする新古典主義は18世紀後半からの動向である。"
         },
         {
           "type": "text",
           "text": "Rembrandt van Rijn《The Three Trees》、1643。National Gallery of Art, Washington、1943.3.9119。 Rosenwald Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Three Trees》 | https://www.nga.gov/artworks/11628-three-trees\nアムステルダム国立美術館《夜警》 | https://www.rijksmuseum.nl/en/collection/object/The-Night-Watch-Militia-Company-of-District-II-under-the-Command-of-Captain-Frans-Banninck-Cocq--3137deb45cd7765f9a76084a16c99544",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.68・70・128（textbook.pdf：PDF 70・72・130ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Three Trees》 | https://www.nga.gov/artworks/11628-three-trees",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "レイデン"
+              "text": "教皇庁の大規模な注文が集まり、教会の天井を飾る絵画が制作の中心になった。"
             }
           ],
           "is_correct": false,
@@ -7320,7 +7320,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "アムステルダム"
+              "text": "新教徒の多い貿易国で、身近な題材の絵画を求める市民層が育った。"
             }
           ],
           "is_correct": true,
@@ -7331,7 +7331,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ハールレム"
+              "text": "強大な王権のもとで、国王の権威を示す宮廷美術が制作の中心になった。"
             }
           ],
           "is_correct": false,
@@ -7342,7 +7342,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "デルフト"
+              "text": "古代ローマの発掘品が流行し、神話を静かに描く古典復興が制作の中心になった。"
             }
           ],
           "is_correct": false,

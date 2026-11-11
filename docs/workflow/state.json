@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": 189,
-  "updated_at": "2026-11-10T22:16:39.974Z",
+  "revision": 192,
+  "updated_at": "2026-11-11T04:05:08.265Z",
   "workspace_relative_to_repo": ".",
   "active_context": "product",
-  "last_checkpoint": "docs/workflow/handoffs/2026-11-10T22-16-39-974Z-r189.json",
+  "last_checkpoint": "docs/workflow/handoffs/2026-11-11T04-05-08-265Z-r192.json",
   "gate_policy": {
     "version": 1,
     "legacy_task_ids": []
@@ -3206,6 +3206,65 @@
             "outcome": "passed",
             "summary": "全8回の通常問題で図版・表の重複0、変更127問の最終盲解一致、508肢採点・履歴保持とPC・スマートフォンの表示を確認",
             "at": "2026-11-10T22:16:39.552Z",
+            "failed_criteria": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "art_figure_textbook_reground",
+      "context": "product",
+      "title": "図版改稿127問を公式教科書の根拠に戻して再改稿する",
+      "status": "done",
+      "depends_on": [],
+      "authorization": "requested",
+      "request_ref": "2026-11-11 ユーザー：根拠資料は教科書ではないか、では再度改稿してください",
+      "next_action": "依頼済み修正版のGit送信・本番反映を別途記録する。",
+      "evidence": [
+        "local-only/figure-textbook-revision-20261111/report-ja.md",
+        "local-only/figure-textbook-revision-20261111/verification.json"
+      ],
+      "last_verified_at": "2026-11-11T04:04:59.936+00:00",
+      "verification_scope": "127問の教科書実頁照合・版対応、初稿評価105問と変更後再評価22問、680問構造/正答位置/対象外不変、図版一意性、508肢採点・履歴保持・隔離DB復元、PC/SP代表10件。難度実測は未実施。",
+      "acceptance": [
+        {
+          "id": "checks",
+          "kind": "automated",
+          "description": "127問の出題知識・正答・解説が教科書の具体的な該当頁で裏付けられる",
+          "verification": "各頁の実見根拠、頁番号対応、構造・正答位置・対象外不変・図版重複の照合",
+          "status": "passed",
+          "evidence": [
+            "local-only/figure-textbook-revision-20261111/verification.json",
+            "local-only/figure-textbook-revision-20261111/report-ja.md"
+          ],
+          "checked_at": "2026-11-11T04:04:59.936+00:00"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "description": "別担当が該当頁と問題を照合し、採点情報を伏せて解答・誤肢評価を行う",
+          "verification": "正答非表示での解答凍結、一次教科書頁から各出題知識を照合",
+          "status": "passed",
+          "evidence": [
+            "local-only/figure-textbook-revision-20261111/verification.json",
+            "local-only/figure-textbook-revision-20261111/report-ja.md",
+            "local-only/figure-textbook-revision-20261111/source-coverage.json",
+            "local-only/figure-textbook-revision-20261111/review-coverage.json",
+            "local-only/figure-textbook-revision-20261111/release-tool-review.json"
+          ],
+          "checked_at": "2026-11-11T04:04:59.936+00:00",
+          "reviewer": "textbook_west1 / textbook_west2 / textbook_japan（自己担当以外の交差照合・盲解）"
+        }
+      ],
+      "execution": {
+        "worker": "textbook_rewrite_team",
+        "max_attempts": 3,
+        "attempts": [
+          {
+            "number": 1,
+            "outcome": "passed",
+            "summary": "教科書実頁の独立照合127問、最終版対応、全508肢採点・履歴保持・復元、PC/SP10件を確認した。",
+            "at": "2026-11-11T04:05:03.920Z",
             "failed_criteria": []
           }
         ]

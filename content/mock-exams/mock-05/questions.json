@@ -1404,7 +1404,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "この肖像では、女性の顔を縁取るようにネズの木の枝が描かれている。レオナルド・ダ・ヴィンチがモデルを示すためにこの木を用いた仕掛けはどれか。"
+          "text": "図はレオナルド・ダ・ヴィンチの《ジネヴラ・デ・ベンチの肖像》である。同じ画家による別の作品はどれか。"
         },
         {
           "type": "image",
@@ -1416,37 +1416,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "モデルはフィレンツェのジネヴラ・デ・ベンチで、ネズを指すイタリア語「ジネプロ（ginepro）」と名の響きが重なる。緻密に描かれた枝葉は、顔を浮かび上がらせながら肖像主の名をほのめかしている。"
+          "text": "《最後の晩餐》はレオナルド・ダ・ヴィンチの作品である。キリストが十二使徒と最後の食事をしているとき、弟子の裏切りを予告する場面を描いている。"
         },
         {
           "type": "text",
-          "text": "ア：ジネヴラを表す手掛かりは道具やその原材料ではなく、樹木の名の響きにある。"
+          "text": "ア：ティツィアーノの作品である。"
         },
         {
           "type": "text",
-          "text": "イ：この枝はフィレンツェの守護聖人の持物として肖像主を特定する趣向ではない。"
+          "text": "イ：ボッティチェリの作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：ネズを指すジネプロという語が、肖像主の名ジネヴラを連想させる。"
+          "text": "ウ：レオナルド・ダ・ヴィンチがキリストと十二使徒の食事を描いた作品である。"
         },
         {
           "type": "text",
-          "text": "エ：枝を組んで文字を描くモノグラムではなく、植物名と人名を結ぶ言葉遊びである。"
+          "text": "エ：ラファエロの作品である。"
         },
         {
           "type": "text",
           "text": "Leonardo da Vinci《Ginevra de' Benci [obverse]》、c. 1474/1478。National Gallery of Art, Washington、1967.6.1.a。 Ailsa Mellon Bruce Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Ginevra de' Benci [obverse]》 | https://www.nga.gov/artworks/50724-ginevra-de-benci-obverse",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.21・63・65・123（textbook.pdf：PDF 23・65・67・125ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Ginevra de' Benci [obverse]》 | https://www.nga.gov/artworks/50724-ginevra-de-benci-obverse",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "一家の職業を示す道具の材料を描いている。"
+              "text": "《聖愛と俗愛》"
             }
           ],
           "is_correct": false,
@@ -1457,7 +1457,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "出身都市の守護聖人が手にする枝を描いている。"
+              "text": "《ヴィーナスの誕生》"
             }
           ],
           "is_correct": false,
@@ -1468,7 +1468,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "植物のイタリア語名に、肖像主の名を響かせている。"
+              "text": "《最後の晩餐》"
             }
           ],
           "is_correct": true,
@@ -1479,7 +1479,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "肖像主の名の頭文字を、枝で文字どおり組み立てている。"
+              "text": "《アテネの学堂》"
             }
           ],
           "is_correct": false,
@@ -1499,7 +1499,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "白馬の騎士が槍で竜を押さえ、遠くで王女が手を合わせている。ラファエロが描いたこの騎士は誰か。"
+          "text": "図はラファエロの《聖ゲオルギウスと竜》である。ラファエロ、レオナルド・ダ・ヴィンチ、ミケランジェロらが代表する「盛期ルネサンス」の年代の目安として、適切なものはどれか。"
         },
         {
           "type": "image",
@@ -1511,37 +1511,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "《聖ゲオルギウスと竜》は、騎士が王女を救うために竜を退治したという伝説に基づく。竜を討つ図像は大天使ミカエルにもあるが、王女と騎馬の騎士の組合せは聖ゲオルギウスの物語を示す。"
+          "text": "盛期ルネサンスは、おおよそ1500〜1530年を目安とする。レオナルド、ミケランジェロ、ラファエロに加え、ジョルジョーネやティツィアーノらが代表的な作家である。"
         },
         {
           "type": "text",
-          "text": "ア：騎馬のマルティヌスの物語では、自分の外套を剣で切り分けて貧者に与える。"
+          "text": "ア：ジョットらが活躍したプロト・ルネサンスに関わる時期である。"
         },
         {
           "type": "text",
-          "text": "イ：ミカエルは悪に勝利する翼ある大天使として竜と戦うが、王女を救う騎士の伝説とは異なる。"
+          "text": "イ：初期ルネサンスが始まる15世紀初めの時期である。"
         },
         {
           "type": "text",
-          "text": "ウ：猟に出たエウスタキウスの物語では、角の間に十字架が現れた鹿が改宗の契機となる。"
+          "text": "ウ：初期ルネサンスに属する15世紀後半の時期である。"
         },
         {
           "type": "text",
-          "text": "エ：王女を救うために馬上から槍で竜を制するのは、聖ゲオルギウスの伝説である。"
+          "text": "エ：盛期ルネサンスの目安は1500〜1530年で、三人の巨匠やジョルジョーネ、ティツィアーノが挙げられる。"
         },
         {
           "type": "text",
           "text": "Raphael《Saint George and the Dragon》、c. 1506。National Gallery of Art, Washington、1937.1.26。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Saint George and the Dragon》 | https://www.nga.gov/artworks/28-saint-george-and-dragon\nロンドン・ナショナル・ギャラリー「St George」 | https://www.nationalgallery.org.uk/paintings/glossary/st-george",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.120（textbook.pdf：PDF 122ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Saint George and the Dragon》 | https://www.nga.gov/artworks/28-saint-george-and-dragon",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖マルティヌス"
+              "text": "1300〜1330年頃"
             }
           ],
           "is_correct": false,
@@ -1552,7 +1552,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "大天使ミカエル"
+              "text": "1400〜1430年頃"
             }
           ],
           "is_correct": false,
@@ -1563,7 +1563,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖エウスタキウス"
+              "text": "1450〜1480年頃"
             }
           ],
           "is_correct": false,
@@ -1574,7 +1574,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖ゲオルギウス"
+              "text": "1500〜1530年頃"
             }
           ],
           "is_correct": true,
@@ -1679,7 +1679,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "ヨルダン川でキリストの頭に水が注がれるこの絵を、プッサンは友人カッシアーノ・ダル・ポッツォのための連作に含めた。一連の作品に共通する主題はどれか。"
+          "text": "図はプッサンの《キリストの洗礼》である。17世紀フランスの王立絵画・彫刻アカデミーで、プッサンとともに芸術の規範とされたルネサンスの画家は誰か。"
         },
         {
           "type": "image",
@@ -1691,37 +1691,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "プッサンは教会の七つの秘跡を、それぞれ一場面で表した。図は「洗礼」に当たり、キリストに洗礼を授けるヨハネと、川辺でその出来事を見守る人々を描く。"
+          "text": "1648年に創設されたフランスの王立絵画・彫刻アカデミーでは、古代とラファエロ、そしてプッサンが芸術の規範とされた。プッサンは古代ローマの美術を理想とし、優雅さと明晰さを追究した。"
         },
         {
           "type": "text",
-          "text": "ア：洗礼は聖体や婚姻などとともに、カトリック教会の七つの秘跡に数えられる。"
+          "text": "ア：アカデミーでは古代とラファエロ、そしてプッサンが芸術の規範とされた。"
         },
         {
           "type": "text",
-          "text": "イ：飢えた人に食物を与えたり病人を見舞ったりする行いが主題で、洗礼はここに数えない。"
+          "text": "イ：ヴェネツィア派を代表し、色彩や情感を重視した画家だが、設問で挙げられる規範はラファエロである。"
         },
         {
           "type": "text",
-          "text": "ウ：この主題は聖母が経験した苦しみをたどるもので、ヨルダン川でのキリストの洗礼を中心場面には含まない。"
+          "text": "ウ：自然と人間を広く探究した巨匠だが、設問で挙げられる規範はラファエロである。"
         },
         {
           "type": "text",
-          "text": "エ：美徳の図像は信仰・希望・愛などの徳を扱い、洗礼を一つの徳として数えるものではない。"
+          "text": "エ：ダイナミックな人体と複雑な構成で知られる巨匠だが、設問で挙げられる規範はラファエロである。"
         },
         {
           "type": "text",
           "text": "Nicolas Poussin《The Baptism of Christ》、1641/1642。National Gallery of Art, Washington、1946.7.14。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Baptism of Christ》 | https://www.nga.gov/artworks/32692-baptism-christ",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.71・121（textbook.pdf：PDF 73・123ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Baptism of Christ》 | https://www.nga.gov/artworks/32692-baptism-christ",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "七つの秘跡"
+              "text": "ラファエロ"
             }
           ],
           "is_correct": true,
@@ -1732,7 +1732,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "七つの慈善の業"
+              "text": "ティツィアーノ"
             }
           ],
           "is_correct": false,
@@ -1743,7 +1743,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖母の七つの悲しみ"
+              "text": "レオナルド・ダ・ヴィンチ"
             }
           ],
           "is_correct": false,
@@ -1754,7 +1754,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "七つの美徳"
+              "text": "ミケランジェロ"
             }
           ],
           "is_correct": false,
@@ -1859,7 +1859,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "夕光を受ける風車を暗い雲の下に描いたこの作品の作者は、キリストが病人を癒やす場面を表した銅版画《百グルデン版画》も手がけている。誰か。"
+          "text": "図はレンブラントの《風車》である。この画家が活躍した17世紀の美術を表す「バロック」の語源の一説として、特に有力とされる意味はどれか。"
         },
         {
           "type": "image",
@@ -1871,37 +1871,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "《風車》はレンブラントの油彩風景画である。明暗の対照により、塔のように高く見える風車を浮かび上がらせている。レンブラントは版画にも取り組み、《百グルデン版画》ではキリストのもとに集まるさまざまな人々を描いた。"
+          "text": "「バロック」の語源については、ポルトガル語で「ゆがんだ真珠」を意味するバロッコに由来する説が有力とされる。この名称は、劇的な効果や動き、光と影の表現が発達した17世紀の美術を表す。"
         },
         {
           "type": "text",
-          "text": "ア：ロイスダールも風車や劇的な空を描いたが、《百グルデン版画》の作者はレンブラントである。"
+          "text": "ア：岩や貝殻の装飾に由来するのは、ロココの語源のロカイユに関わる説明である。"
         },
         {
           "type": "text",
-          "text": "イ：図の《風車》と、福音書に基づく《百グルデン版画》はともにレンブラントの作品である。"
+          "text": "イ：ポルトガル語でゆがんだ真珠を意味するバロッコを語源とする説が有力とされる。"
         },
         {
           "type": "text",
-          "text": "ウ：ホッベマは樹木の茂る風景や《ミッデルハルニスの並木道》で知られる。"
+          "text": "ウ：再生を意味するのはルネサンスという名称である。"
         },
         {
           "type": "text",
-          "text": "エ：ホイエンは限られた色調で平地や水辺を描いた風景画家で、図の作品とは作者が違う。"
+          "text": "エ：様式や手法を意味するマニエラは、マニエリスムの語源である。"
         },
         {
           "type": "text",
           "text": "Rembrandt van Rijn《The Mill》、1645/1648。National Gallery of Art, Washington、1942.9.62。 Widener Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Mill》 | https://www.nga.gov/artworks/1201-mill\nメトロポリタン美術館《The Hundred Guilder Print》 | https://www.metmuseum.org/art/collection/search/371732",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.62・66・68・124・126（textbook.pdf：PDF 64・68・70・126・128ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Mill》 | https://www.nga.gov/artworks/1201-mill",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヤーコプ・ファン・ロイスダール"
+              "text": "岩や貝殻による装飾"
             }
           ],
           "is_correct": false,
@@ -1912,7 +1912,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "レンブラント・ファン・レイン"
+              "text": "ゆがんだ形の真珠"
             }
           ],
           "is_correct": true,
@@ -1923,7 +1923,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "メインデルト・ホッベマ"
+              "text": "古代の文化の再生"
             }
           ],
           "is_correct": false,
@@ -1934,7 +1934,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヤン・ファン・ホイエン"
+              "text": "作家に固有の手法"
             }
           ],
           "is_correct": false,
@@ -2039,7 +2039,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "ヴァトーが描いたイタリア喜劇の一座で、白くゆったりした衣装の男が中央に立つ。即興喜劇コメディア・デラルテに由来するこの役はどれか。"
+          "text": "図はヴァトーが喜劇の役者たちを描いた作品である。彼が活躍したロココ時代には陶磁器も発達した。代表的な窯と国の対応として、二つとも正しいものはどれか。"
         },
         {
           "type": "image",
@@ -2051,37 +2051,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "《イタリア喜劇の役者たち》では、白い服のピエロを中心に一座が集まる。コメディア・デラルテの役柄は、衣装や仮面、身ぶりを手掛かりに観客が見分けられるようになっていた。"
+          "text": "ロココ時代には絵画だけでなく陶磁器や室内装飾にも優れた作品が生まれた。陶磁器では、ドイツのマイセンとフランスのセーヴルが質と量を高めた。"
         },
         {
           "type": "text",
-          "text": "ア：白い上着とゆったりしたズボンで正面に立つ人物はピエロである。"
+          "text": "ア：ロココ時代の主な陶磁器窯は、ドイツのマイセンとフランスのセーヴルである。"
         },
         {
           "type": "text",
-          "text": "イ：パンタローネはヴェネツィアの年老いた商人で、赤い衣や鉤鼻の仮面などで識別される。"
+          "text": "イ：二つの窯の国が逆である。マイセンはドイツ、セーヴルはフランスである。"
         },
         {
           "type": "text",
-          "text": "ウ：イル・ドットーレは学識をひけらかす学者役で、黒い学者の服が代表的な扮装である。"
+          "text": "ウ：セーヴルは正しいが、マイセンはイギリスではなくドイツにある。"
         },
         {
           "type": "text",
-          "text": "エ：アルレッキーノは身軽な召使で、色とりどりのつぎはぎや菱形模様の衣装、黒い仮面が目印である。"
+          "text": "エ：マイセンは正しいが、セーヴルはイギリスではなくフランスにある。"
         },
         {
           "type": "text",
           "text": "Antoine Watteau《The Italian Comedians》、probably 1720。National Gallery of Art, Washington、1946.7.9。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Italian Comedians》 | https://www.nga.gov/artworks/32687-italian-comedians\nメトロポリタン美術館「Commedia dell’arte」 | https://www.metmuseum.org/ja/essays/commedia-dellarte",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.72・126（textbook.pdf：PDF 74・128ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Italian Comedians》 | https://www.nga.gov/artworks/32687-italian-comedians",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ピエロ"
+              "text": "マイセン：ドイツ／セーヴル：フランス"
             }
           ],
           "is_correct": true,
@@ -2092,7 +2092,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "パンタローネ"
+              "text": "マイセン：フランス／セーヴル：ドイツ"
             }
           ],
           "is_correct": false,
@@ -2103,7 +2103,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "イル・ドットーレ"
+              "text": "マイセン：イギリス／セーヴル：フランス"
             }
           ],
           "is_correct": false,
@@ -2114,7 +2114,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "アルレッキーノ"
+              "text": "マイセン：ドイツ／セーヴル：イギリス"
             }
           ],
           "is_correct": false,
@@ -2304,7 +2304,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "この踊り子の像を彫ったカノーヴァは、ナポレオンの妹ポーリーヌ・ボルゲーゼを、寝台に横たわる古代の女神に見立てて彫った。手にリンゴを持つその女神は誰か。"
+          "text": "図はカノーヴァによる踊り子の像である。古代ギリシア・ローマの理想美を追究した、この彫刻家の作品はどれか。"
         },
         {
           "type": "image",
@@ -2316,37 +2316,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "新古典主義の彫刻家アントニオ・カノーヴァは、古代風の衣をまとう踊り子のほか、同時代人を古代神話の人物に見立てた肖像も制作した。ポーリーヌの手のリンゴは、パリスの審判で最も美しい女神に選ばれたウェヌスを示す。"
+          "text": "《アモールとプシュケ》の作者はカノーヴァである。カノーヴァはギリシア・ローマ彫刻の理想美や永遠性を、近代彫刻の複雑な構成と結び付けた。"
         },
         {
           "type": "text",
-          "text": "ア：狩猟の女神ディアナを代表する持物は弓矢で、パリスがリンゴを贈る相手ではない。"
+          "text": "ア：カノーヴァの後に活躍し、ロダンにも影響を与えたカルポーの作品である。"
         },
         {
           "type": "text",
-          "text": "イ：カノーヴァはポーリーヌを、勝者のリンゴを手にしたウェヌスに見立てた。"
+          "text": "イ：カノーヴァが古代彫刻の理想美を近代彫刻の構成へ結び付けた作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：ユノはパリスの審判で美しさを競った三女神の一人だが、リンゴを得るのはウェヌスである。"
+          "text": "ウ：ロダンが人間の豊かな表情と自由な造形を示した群像である。"
         },
         {
           "type": "text",
-          "text": "エ：ミネルウァもパリスの審判に加わったが、リンゴを授けられた女神ではない。"
+          "text": "エ：マイヨールの作品である。"
         },
         {
           "type": "text",
           "text": "Antonio Canova《Dancer with Finger on Chin》、model 1809/1814, carved 1819/1823。National Gallery of Art, Washington、2003.62.1。 Gift of Lillian Rojtman Berkman。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Dancer with Finger on Chin》 | https://www.nga.gov/artworks/127590-dancer-finger-chin\nボルゲーゼ美術館《Paolina Borghese as Venus Victorious》 | https://galleriaborghese.cultura.gov.it/en/archivio-schede/paolina-borghese-as-venus-victorious/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.28・76・85・133（textbook.pdf：PDF 30・78・87・135ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Dancer with Finger on Chin》 | https://www.nga.gov/artworks/127590-dancer-finger-chin",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ディアナ"
+              "text": "《ウゴリーノと息子たち》"
             }
           ],
           "is_correct": false,
@@ -2357,7 +2357,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ウェヌス（ヴィーナス）"
+              "text": "《アモールとプシュケ》"
             }
           ],
           "is_correct": true,
@@ -2368,7 +2368,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ユノ"
+              "text": "《カレーの市民》"
             }
           ],
           "is_correct": false,
@@ -2379,7 +2379,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ミネルウァ"
+              "text": "《地中海》"
             }
           ],
           "is_correct": false,
@@ -2399,7 +2399,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図のように水辺と草地をよく描いたイギリスの画家が、1824年のパリのサロンに出品し、フランスでも評価を得た大型風景画はどれか。"
+          "text": "図はコンスタブルの《ウィヴンホー・パーク》である。この画家の風景画制作に関わる関心として、適切なものはどれか。"
         },
         {
           "type": "image",
@@ -2411,37 +2411,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図は地主の注文を受けてエセックスの邸宅の庭園と牧場を描いた、コンスタブルの《ウィヴンホー・パーク》。後に《干し草車》がパリのサロンに出品され、イギリスの田園を光や雲の動きとともに描くコンスタブルの風景画がフランスでも知られる機会となった。"
+          "text": "コンスタブルは空のさまざまな変化を丹念に観察した。イギリスの田園風景や大聖堂などを描き、自然そのものの美しさを捉えようとした点は、フランスの風景画家たちにもつながる。"
         },
         {
           "type": "text",
-          "text": "ア：コンスタブルが崩れかけた塔と河口を描いた《ハドリー城》を発表したのは1829年である。"
+          "text": "ア：身近な自然を観察したコンスタブルの関心とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：コンスタブルが閘門近くで障害物を越える馬を描いた《跳ねる馬》は1825年に発表された。"
+          "text": "イ：広大な風景の中に人間を超えた神秘を感じたフリードリヒに関わる説明である。"
         },
         {
           "type": "text",
-          "text": "ウ：虹と大聖堂を描いたこの大作をコンスタブルが発表したのは1831年である。"
+          "text": "ウ：イタリアを旅行し、霧がかかったような詩情を生んだコローに関わる説明である。"
         },
         {
           "type": "text",
-          "text": "エ：浅瀬の荷馬車を描いた《干し草車》などが1824年のパリのサロンに出品され、コンスタブルに金賞が授けられた。"
+          "text": "エ：コンスタブルは空の無限の変化を観察し、自然の姿を捉えようとした。"
         },
         {
           "type": "text",
           "text": "John Constable《Wivenhoe Park, Essex》、1816。National Gallery of Art, Washington、1942.9.10。 Widener Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Wivenhoe Park, Essex》 | https://www.nga.gov/artworks/1147-wivenhoe-park-essex\nロンドン・ナショナル・ギャラリー《The Hay Wain》 | https://www.nationalgallery.org.uk/paintings/john-constable-the-hay-wain",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.78・79・81（textbook.pdf：PDF 80・81・83ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Wivenhoe Park, Essex》 | https://www.nga.gov/artworks/1147-wivenhoe-park-essex",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ハドリー城》"
+              "text": "古代の物語にふさわしい理想の自然を、画面の中に組み立てること。"
             }
           ],
           "is_correct": false,
@@ -2452,7 +2452,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《跳ねる馬》"
+              "text": "人間を超えた神秘を感じさせる、広大で厳しい自然を表すこと。"
             }
           ],
           "is_correct": false,
@@ -2463,7 +2463,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《草地から見たソールズベリー大聖堂》"
+              "text": "イタリアの風景を学び、霧がかかるような詩的な世界を生むこと。"
             }
           ],
           "is_correct": false,
@@ -2474,7 +2474,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《干し草車》"
+              "text": "空のさまざまな変化を観察し、身近な自然の姿を捉えること。"
             }
           ],
           "is_correct": true,
@@ -2664,7 +2664,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の《14歳の小さな踊り子》について、ドガが印象派展で公開した像と、各地の美術館に所蔵されるブロンズ版との関係を正しく述べているのはどれか。"
+          "text": "図はドガの《14歳の小さな踊り子》である。ドガは絵画でも大胆な構図を用いた。《アブサン》などに見られる、遠近法に縛られない構図に影響を与えたとされるのはどれか。"
         },
         {
           "type": "image",
@@ -2676,37 +2676,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "1881年の第6回印象派展でドガが発表したのは、蝋などで少女の身体を形づくり、本物の布の衣装を着せた像である。図はワシントンに残るその原作で、同じ姿のブロンズ像はドガの死後に鋳造された。"
+          "text": "ドガの《アブサン》などに見られる大胆な構図には、日本の浮世絵の影響が指摘される。浮世絵の構図や平面性は、19世紀後半のヨーロッパの画家たちに新しい見方を与えた。"
         },
         {
           "type": "text",
-          "text": "ア：印象派展で最初に公開された像と、死後に制作された像の材質の順序が逆である。"
+          "text": "ア：人体の理想美や比例の規範と関わるが、ドガの大胆な構図への影響として挙げられるのは浮世絵である。"
         },
         {
           "type": "text",
-          "text": "イ：1881年の展示作は衣装を着せた蝋などの像で、生前にブロンズ版が公開されたわけではない。"
+          "text": "イ：一点透視は空間を一つの消失点へ統一する方法で、ここで問う遠近法に縛られない構図の源泉とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：現存する蝋などの原作は生前の出品作で、ブロンズへの鋳造はドガの没後に始まった。"
+          "text": "ウ：ドガの《アブサン》の大胆な構図は、日本の浮世絵から影響を受けたとされる。"
         },
         {
           "type": "text",
-          "text": "エ：印象派展に出した原作は一体で、そこに死後制作のブロンズ版が並ぶことはなかった。"
+          "text": "エ：ゴシック聖堂の大きな窓を飾る宗教的な美術で、ドガの構図への影響として挙げられるものとは異なる。"
         },
         {
           "type": "text",
           "text": "Edgar Degas《Little Dancer Aged Fourteen》、1878-1881。National Gallery of Art, Washington、1999.80.28。 Collection of Mr. and Mrs. Paul Mellon。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Little Dancer Aged Fourteen》 | https://www.nga.gov/artworks/110292-little-dancer-aged-fourteen",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.60・64・82・84・121（textbook.pdf：PDF 62・66・84・86・123ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Little Dancer Aged Fourteen》 | https://www.nga.gov/artworks/110292-little-dancer-aged-fourteen",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "印象派展にはブロンズ像を出し、死後にそれをもとに蝋の像が作られた。"
+              "text": "古代ギリシアの人体彫刻"
             }
           ],
           "is_correct": false,
@@ -2717,7 +2717,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "印象派展には石膏像を出し、生前に衣装を加えたブロンズ像を発表した。"
+              "text": "イタリアの一点透視の理論"
             }
           ],
           "is_correct": false,
@@ -2728,7 +2728,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "印象派展には衣装を着せた蝋の像を出し、死後にブロンズ版が鋳造された。"
+              "text": "日本の浮世絵版画"
             }
           ],
           "is_correct": true,
@@ -2739,7 +2739,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "印象派展には衣装を着せた蝋の像と、自ら鋳造させたブロンズ版を並べた。"
+              "text": "ゴシックのステンドグラス"
             }
           ],
           "is_correct": false,
@@ -2844,7 +2844,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "この花の静物画を描いた画家が、1870年代の初めにポントワーズやオーヴェールで一緒に戸外制作をし、風景の光や色を学んだ相手は誰か。"
+          "text": "図はセザンヌの《花瓶の花》である。セザンヌが自然を観察し、冷静に画面を作ることを学ぶきっかけとなった、印象派の画家との出会いは誰とのものか。"
         },
         {
           "type": "image",
@@ -2856,37 +2856,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "《花瓶の花》の作者はポール・セザンヌ。セザンヌは1870年代初めにカミーユ・ピサロとパリ近郊で制作し、自然を前にして描くことを深く学んだ。晩年の静物でも、花や布の形を色の重なりで組み立てている。"
+          "text": "セザンヌはピサロとの出会いを通じて、自然を観察し、冷静に画面を作ることを学んだ。その後、印象派の形態感覚に不満を持ち、対象の本質的な構造を求めて独自の画風を築いた。"
         },
         {
           "type": "text",
-          "text": "ア：ブーダンがノルマンディーで戸外の光を学ぶよう促した若い画家はモネである。"
+          "text": "ア：積み藁や睡蓮の連作によって、光や水面の変化を追った画家である。"
         },
         {
           "type": "text",
-          "text": "イ：シスレーも戸外制作を重んじたが、ポントワーズでセザンヌを導いたのはピサロである。"
+          "text": "イ：自然を素直に見つめ、新鮮な風景画を描いた画家である。"
         },
         {
           "type": "text",
-          "text": "ウ：クールベは故郷オルナンの風景も描いた写実主義の画家で、ここで問われるパリ近郊の制作の相手とは異なる。"
+          "text": "ウ：幸福な情景を溶け合う色彩で描いた画家である。"
         },
         {
           "type": "text",
-          "text": "エ：ピサロはセザンヌとポントワーズやオーヴェールでともに描き、戸外制作の指導的な役割を果たした。"
+          "text": "エ：セザンヌはピサロとの出会いから、自然の観察と冷静な画面作りを学んだ。"
         },
         {
           "type": "text",
           "text": "Paul Cezanne《Vase of Flowers》、1900/1903。National Gallery of Art, Washington、1958.10.2。 Gift of Eugene and Agnes E. Meyer。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Vase of Flowers》 | https://www.nga.gov/artworks/45867-vase-flowers\nワシントン・ナショナル・ギャラリー《Banks of the Seine at Médan》 | https://www.nga.gov/artworks/52165-banks-seine-medan",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.84・132（textbook.pdf：PDF 86・134ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Vase of Flowers》 | https://www.nga.gov/artworks/45867-vase-flowers",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ウジェーヌ・ブーダン"
+              "text": "クロード・モネ"
             }
           ],
           "is_correct": false,
@@ -2908,7 +2908,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ギュスターヴ・クールベ"
+              "text": "オーギュスト・ルノワール"
             }
           ],
           "is_correct": false,
@@ -4894,7 +4894,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "口を開いてにらむ図の像頭は、口を閉じた像と対をなす尊格の一方である。鎌倉時代初頭の南都復興で、慶派の仏師たちが造った同じ尊格の一対は、どの門に安置されたか。"
+          "text": "図は鎌倉時代の金剛力士像の阿形の頭部である。同時代に南都復興を担った慶派が、京都の仏師と異なって学び直していた古典はどれか。"
         },
         {
           "type": "image",
@@ -4906,37 +4906,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "開口するのが金剛力士の阿形、閉口するのが吽形である。図は13世紀の阿形の頭部で、同じ尊格の鎌倉彫刻を代表する別の作例が、東大寺南大門の巨大な二像である。"
+          "text": "慶派の仏師たちは、奈良に残っていた天平彫刻を学んだ。天平彫刻の理想化された写実性を新時代に発展させる一方、古典として復活させることもできたため、東大寺・興福寺それぞれの復興に対応した。"
         },
         {
           "type": "text",
-          "text": "ア：東大寺南大門には、1203年に運慶・快慶らが制作した一対の金剛力士像が立つ。"
+          "text": "ア：慶派は奈良の天平彫刻に学び、理想化された写実性を発展・復活させた。"
         },
         {
           "type": "text",
-          "text": "イ：法隆寺中門の金剛力士像は奈良時代の作で、13世紀の東大寺復興の造像とは年代が異なる。"
+          "text": "イ：飛鳥の止利様式と、慶派が奈良で学んだ天平彫刻の写実性を混同している。"
         },
         {
           "type": "text",
-          "text": "ウ：吉野の金峯山寺二王門の力士像は、南北朝時代に大仏師康成が造った。"
+          "text": "ウ：定朝様式は平安後期の和様の主流であり、慶派が学び直した奈良の天平彫刻とは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：京都・仁和寺の二王門は江戸時代の伽藍再興に伴う建物で、鎌倉初頭の南都復興の門ではない。"
+          "text": "エ：慶派について強調されるのは京都の院派・円派との差であり、奈良の天平彫刻への学習である。"
         },
         {
           "type": "text",
           "text": "制作者不詳《Head of Ni-o with Open Mouth》、1200s。Cleveland Museum of Art、1970.4.2。 Andrew R. and Martha Holden Jennings Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Head of Ni-o with Open Mouth》 | https://www.clevelandart.org/art/1970.4.2\n東大寺「南大門」 | https://www.todaiji.or.jp/information/nandaimon/\n文化庁《木造金剛力士立像》金峯山寺 | https://kunishitei.bunka.go.jp/heritage/detail/201/00011621",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.191（textbook.pdf：PDF 193ページ）\n図版出典：クリーブランド美術館《Head of Ni-o with Open Mouth》 | https://www.clevelandart.org/art/1970.4.2",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "東大寺南大門"
+              "text": "奈良に残る、写実性を備えた天平彫刻。"
             }
           ],
           "is_correct": true,
@@ -4947,7 +4947,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "法隆寺中門"
+              "text": "法隆寺に見られる、正面性の強い止利様式。"
             }
           ],
           "is_correct": false,
@@ -4958,7 +4958,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "金峯山寺二王門"
+              "text": "平等院に見られる、穏やかな定朝様式。"
             }
           ],
           "is_correct": false,
@@ -4969,7 +4969,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "仁和寺二王門"
+              "text": "京都の院派・円派が継承する、平安の仏像様式。"
             }
           ],
           "is_correct": false,
@@ -5074,7 +5074,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "表の二度の合戦を描く鎌倉時代の絵巻で、自らの戦いぶりに加え、恩賞を求めて鎌倉へ向かう姿も描かれた御家人は誰か。"
+          "text": "表の二度の合戦における自らの奮戦を《蒙古襲来絵詞》に描き、報奨を求める訴えの力を増そうとした武将は誰か。"
         },
         {
           "type": "table",
@@ -5097,26 +5097,26 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "表が示す文永・弘安の役は《蒙古襲来絵詞》の題材である。この絵巻は元軍との戦闘を俯瞰して語るだけでなく、御家人の竹崎季長が自身の働きをどう訴えたかを描く点に特色がある。"
+          "text": "《蒙古襲来絵詞》は、文永・弘安の役における竹崎季長の奮戦を描いた絵巻である。自身の功績を絵で示すことによって、報奨を求める訴えの説得力を高めた点に特色がある。"
         },
         {
           "type": "text",
-          "text": "ア：少弐景資は九州の御家人の側で元軍と戦い、絵巻で季長を迎える武将として描かれる。"
+          "text": "ア：この絵巻で自らの奮戦と報奨の訴えを結び付けた人物は竹崎季長である。"
         },
         {
           "type": "text",
-          "text": "イ：肥後の菊池武房は文永の役に参戦して絵巻にも登場するが、自らの軍功を軸に巻を構成した人物は季長である。"
+          "text": "イ：同時代の武将との混同であり、この絵巻の中心人物は竹崎季長である。"
         },
         {
           "type": "text",
-          "text": "ウ：《蒙古襲来絵詞》は肥後の御家人・竹崎季長の視点から戦闘と恩賞をめぐる経緯を描く。"
+          "text": "ウ：《蒙古襲来絵詞》は、文永・弘安の役における竹崎季長の奮戦を描く。"
         },
         {
           "type": "text",
-          "text": "エ：安達泰盛は季長が鎌倉で軍功を訴えた相手として絵巻に描かれる。"
+          "text": "エ：この絵巻で自己の戦功を描かせた人物という条件に合うのは竹崎季長である。"
         }
       ],
-      "source_text": "皇居三の丸尚蔵館《蒙古襲来絵詞》 | https://collection.shozokan.nich.go.jp/object/SZK002942\n文化庁《紙本著色蒙古襲来絵詞》 | https://kunishitei.bunka.go.jp/heritage/detail/201/00011961",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.192（textbook.pdf：PDF 194ページ）",
       "choices": [
         {
           "choice_label": "ア",
@@ -5431,7 +5431,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "金雲の間に京都の社寺や人々を配した図の屏風と、同じ都市を描く系譜に属する国宝「上杉本」がある。上杉本の作者は誰か。"
+          "text": "図のように、京都の市街と郊外を広く見渡し、社寺や町並みと人々の暮らしを描く画題は何というか。"
         },
         {
           "type": "image",
@@ -5443,37 +5443,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図は17世紀の京都を表した作者不詳の屏風である。都市の内外と人々の暮らしを一望するこの画題を洛中洛外図という。先行する上杉本は狩野永徳の作で、織田信長から上杉謙信に贈られたと伝わる。"
+          "text": "洛中洛外図は、京都の市街と郊外を広く描く画題である。近世初期には町並みだけでなく、その中に暮らす人々の風俗へも関心が強まり、都市の活気が題材となった。"
         },
         {
           "type": "text",
-          "text": "ア：岩佐又兵衛の作として知られる《洛中洛外図屏風》は、東京国立博物館の舟木本である。"
+          "text": "ア：豊国祭礼という特定の祭礼を主題とする画題であり、京都の都市全体を描く画題名とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：米沢に伝わる上杉本《洛中洛外図屏風》は、狩野永徳が京都の市中と郊外を描いた作品である。"
+          "text": "イ：京都の市街である洛中と、その外の洛外を広く描く画題を洛中洛外図という。"
         },
         {
           "type": "text",
-          "text": "ウ：探幽は江戸幕府の御用絵師として二条城などの障壁画を担当し、上杉本を描いた永徳の孫にあたる。"
+          "text": "ウ：賀茂の競馬という特定の神事を描く画題であり、京都の市街と郊外を広く描く呼称ではない。"
         },
         {
           "type": "text",
-          "text": "エ：桃山時代に永徳と活動時期が重なる等伯の代表作には《松林図屏風》がある。"
+          "text": "エ：祇園の祭礼を主題とする画題であり、市街と郊外をまとめる洛中洛外図とは範囲が異なる。"
         },
         {
           "type": "text",
           "text": "制作者不詳《Views of Kyoto》、1600s。Cleveland Museum of Art、1997.119。 Bequest of Mrs. A. Dean Perry。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Views of Kyoto》 | https://www.clevelandart.org/art/1997.119\n米沢市「国宝 上杉本洛中洛外図屏風の修理について」 | https://www.city.yonezawa.yamagata.jp/soshiki/18/2/5/10392.html",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.202・203・270（textbook.pdf：PDF 204・205・272ページ）\n図版出典：クリーブランド美術館《Views of Kyoto》 | https://www.clevelandart.org/art/1997.119",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "岩佐又兵衛"
+              "text": "豊国祭礼図"
             }
           ],
           "is_correct": false,
@@ -5484,7 +5484,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "狩野永徳"
+              "text": "洛中洛外図"
             }
           ],
           "is_correct": true,
@@ -5495,7 +5495,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "狩野探幽"
+              "text": "賀茂競馬図"
             }
           ],
           "is_correct": false,
@@ -5506,7 +5506,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "長谷川等伯"
+              "text": "祇園祭礼図"
             }
           ],
           "is_correct": false,
@@ -5696,7 +5696,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "団扇にもたれた遊女が、婚礼の行列を夢に見る。こうした遊女の日常の所作を描き、寛政期には《婦女人相十品》を刊行した、この版画の絵師は誰か。"
+          "text": "図は喜多川歌麿の美人画である。歌麿や写楽を見いだし、浮世絵制作で出版の企画を担った版元は誰か。"
         },
         {
           "type": "image",
@@ -5708,37 +5708,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "喜多川歌麿は、人物の内面をうかがわせる美人画を描いた。この版画では、目の前にいる女性の日常と、雲形の中の婚礼行列とを対照させ、彼女の夢を一枚の画面に表している。"
+          "text": "浮世絵は絵師・彫師・摺師などの共同制作であり、出版を企画する版元も大きな役割を果たした。蔦屋重三郎は歌麿や写楽を見いだした版元として知られる。"
         },
         {
           "type": "text",
-          "text": "ア：鳥文斎栄之も寛政期に活躍し、すらりとした全身の美人像を多く描いたが、この作品の作者ではない。"
+          "text": "ア：この問の「歌麿や写楽を見いだした版元」という条件に合うのは蔦屋重三郎である。"
         },
         {
           "type": "text",
-          "text": "イ：鳥居清長は天明期の美人画や続絵の群像で知られ、《婦女人相十品》の絵師とは異なる。"
+          "text": "イ：この問で示す歌麿・写楽との出版の関係は蔦屋重三郎に結び付く。"
         },
         {
           "type": "text",
-          "text": "ウ：喜多川歌麿はこの遊女の夢の一図を描き、《婦女人相十品》でも女性の表情や仕草を取り上げた。"
+          "text": "ウ：歌麿や写楽を見いだした版元として蔦屋重三郎が挙げられる。"
         },
         {
           "type": "text",
-          "text": "エ：栄松斎長喜は歌麿と同時期に美人の大首絵を描いた別の絵師である。"
+          "text": "エ：歌麿や写楽を見いだした出版人として挙げられる蔦屋重三郎とは異なる。"
         },
         {
           "type": "text",
           "text": "Kitagawa Utamaro (Japanese, c. 1754–1806)《Courtesan Dreaming of a Marriage Procession》、late 1790s。Cleveland Museum of Art、1916.1130。 Gift of Mr. and Mrs. J. H. Wade。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Courtesan Dreaming of a Marriage Procession》 | https://www.clevelandart.org/art/1916.1130\n国立国会図書館・ジャパンサーチ「喜多川歌麿」 | https://jpsearch.go.jp/gallery/ndl-3nKpkM2gnoD",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.210（textbook.pdf：PDF 212ページ）\n図版出典：クリーブランド美術館《Courtesan Dreaming of a Marriage Procession》 | https://www.clevelandart.org/art/1916.1130",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "鳥文斎栄之"
+              "text": "西村屋与八"
             }
           ],
           "is_correct": false,
@@ -5749,7 +5749,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "鳥居清長"
+              "text": "竹内孫八"
             }
           ],
           "is_correct": false,
@@ -5760,7 +5760,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "喜多川歌麿"
+              "text": "蔦屋重三郎"
             }
           ],
           "is_correct": true,
@@ -5771,7 +5771,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "栄松斎長喜"
+              "text": "鶴屋喜右衛門"
             }
           ],
           "is_correct": false,
@@ -6811,7 +6811,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の《江村漁楽図》を描いた趙孟頫は、書と絵画の両方で後世に影響を与えた。この画家の活動を当時の中国史と結び付けた説明はどれか。"
+          "text": "図は中国の文人画家・趙孟頫による山水画である。中国の文人画の系譜を「南宗画」として理論化した明の画家は誰か。"
         },
         {
           "type": "image",
@@ -6823,37 +6823,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "趙孟頫の復古は、古い作品の外形を写すだけにとどまらない。過去の画家や書家の筆法を学び、元の文人画に新たな手本を示した。"
+          "text": "中国の文人画は、自分の理想や精神、詩の世界を描く絵画として発展した。その流れは明の董其昌によって「南宗画」として理論化された。"
         },
         {
           "type": "text",
-          "text": "ア：夏珪とともに南宋画院を代表したのは馬遠である。"
+          "text": "ア：元末四大家の一人で、董其昌より前の時代に活動した。"
         },
         {
           "type": "text",
-          "text": "イ：画院を保護し、自ら花鳥画や書を手がけた北宋皇帝は徽宗である。"
+          "text": "イ：北宋の文人画の始まりに位置づけられる人物で、明の画家ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：趙孟頫は南宋の皇族の家系に生まれ、元の朝廷に仕えながら古画と書を学んだ。"
+          "text": "ウ：明の董其昌が文人画の系譜を南宗画として理論化した。"
         },
         {
           "type": "text",
-          "text": "エ：南北二宗の考えを説いて後代の文人画に影響を与えたのは董其昌である。"
+          "text": "エ：元末四大家の一人で、明の董其昌による理論化とは区別する。"
         },
         {
           "type": "text",
           "text": "Zhao Mengfu (Chinese, 1254–1322)《River Village:  Fisherman's Joy》、c. 1302–3。Cleveland Museum of Art、1978.66。 Leonard C. Hanna Jr. Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《River Village:  Fisherman's Joy》 | https://www.clevelandart.org/art/1978.66\nメトロポリタン美術館 元時代の美術と趙孟頫 | https://www.metmuseum.org/exhibitions/listings/2010/yuan-revolution",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.246（textbook.pdf：PDF 248ページ）\n図版出典：クリーブランド美術館《River Village:  Fisherman's Joy》 | https://www.clevelandart.org/art/1978.66",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "南宋の宮廷画家として臨安の画院に仕え、夏珪と並び称された。"
+              "text": "倪瓚"
             }
           ],
           "is_correct": false,
@@ -6864,7 +6864,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "北宋の皇帝として画院を保護し、花鳥の姿を精緻に描いた。"
+              "text": "蘇軾"
             }
           ],
           "is_correct": false,
@@ -6875,7 +6875,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "宋の皇族の子孫として元に仕え、古い絵画と書の筆法を学び直した。"
+              "text": "董其昌"
             }
           ],
           "is_correct": true,
@@ -6886,7 +6886,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "明末の官僚として書画を論じ、南宗画と北宗画の系譜を説いた。"
+              "text": "王蒙"
             }
           ],
           "is_correct": false,
@@ -7246,7 +7246,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "デューラーの銅版画《メレンコリアⅠ》は「三大銅版画」の一点に数えられる。これと《騎士と死と悪魔》に加わるもう一点はどれか。"
+          "text": "図はデューラーの版画《メレンコリアⅠ》である。同じ画家が描いた絵画はどれか。"
         },
         {
           "type": "image",
@@ -7258,37 +7258,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "「三大銅版画」はデューラーが1513～1514年に制作した三点の総称である。《書斎の聖ヒエロニムス》では、翻訳に打ち込む聖人を光の差す書斎に置いている。"
+          "text": "デューラーは版画のほか絵画でも活動した。《四人の使徒》はその代表作で、ヴェネツィアで学んだルネサンスの人間の理想美と、北方の精緻な表現が結び付く。"
         },
         {
           "type": "text",
-          "text": "ア：デューラーの1497年の銅版画で、《四人の魔女》の名でも知られる。"
+          "text": "ア：ブリューゲル（父）による風景画である。"
         },
         {
           "type": "text",
-          "text": "イ：デューラーの木版画連作《黙示録》に含まれる。"
+          "text": "イ：《ルターの肖像》はクラーナハ（父）が宗教改革者を描いた作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：デューラーが1504年に制作した銅版画だが、三大銅版画には含まれない。"
+          "text": "ウ：1532年の《エラスムス》はホルバイン（子）の作品である。"
         },
         {
           "type": "text",
-          "text": "エ：1514年の銅版画で、《メレンコリアⅠ》と同年に制作された。"
+          "text": "エ：デューラーは《四人の使徒》を描き、北方の精緻な表現とルネサンスの人間観を結び付けた。"
         },
         {
           "type": "text",
           "text": "Albrecht Dürer《Melencolia I》、1514。National Gallery of Art, Washington、1943.3.3522。 Rosenwald Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Melencolia I》 | https://www.nga.gov/artworks/6640-melencolia-i\nメトロポリタン美術館《メレンコリアⅠ》と三大銅版画 | https://www.metmuseum.org/art/collection/search/336228",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.66・122（textbook.pdf：PDF 68・124ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Melencolia I》 | https://www.nga.gov/artworks/6640-melencolia-i",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "《四人の裸婦》"
+              "text": "《雪中の狩人》"
             }
           ],
           "is_correct": false,
@@ -7299,7 +7299,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《黙示録の四騎士》"
+              "text": "《ルターの肖像》"
             }
           ],
           "is_correct": false,
@@ -7310,7 +7310,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《アダムとエヴァ》"
+              "text": "《エラスムス》"
             }
           ],
           "is_correct": false,
@@ -7321,7 +7321,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《書斎の聖ヒエロニムス》"
+              "text": "《四人の使徒》"
             }
           ],
           "is_correct": true,
@@ -7341,7 +7341,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図は江戸時代に肥前の大川内山で作られた《色絵椿文皿》である。この系統の磁器の名称と、その主な用途の組合せはどれか。"
+          "text": "図は江戸時代に日本で作られた《色絵椿文皿》である。日本で初めて磁器が生産された地域と、その後に色絵の技術が導入された国の組合せはどれか。"
         },
         {
           "type": "image",
@@ -7353,37 +7353,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "肥前では用途の異なる色絵磁器が作られた。佐賀藩は大川内山に藩窯を置き、将軍家などに贈る鍋島を焼かせた。一方、柿右衛門様式の磁器は海外にも輸出された。"
+          "text": "江戸期、肥前で日本初の磁器生産が始まり、中国から導入された色絵の技術によって、柿右衛門・鍋島などの色豊かな磁器が発展した。"
         },
         {
           "type": "text",
-          "text": "ア：大川内山の藩窯で作られた鍋島様式の磁器は、将軍家への献上や大名間の贈答に用いられた。"
+          "text": "ア：日本で最初の磁器生産は肥前で行われ、中国から色絵の技術が導入された。"
         },
         {
           "type": "text",
-          "text": "イ：鍋島様式という名称は合うが、藩窯が力を注いだのは献上・贈答品の制作だった。"
+          "text": "イ：生産地域は合うが、色絵の技術の導入元は中国である。"
         },
         {
           "type": "text",
-          "text": "ウ：献上という用途は合うが、図の皿は柿右衛門様式ではなく鍋島様式に分類される。"
+          "text": "ウ：京都では京焼が発展したが、日本初の磁器生産の地域は肥前である。"
         },
         {
           "type": "text",
-          "text": "エ：柿右衛門様式の磁器はヨーロッパで珍重されたが、図の皿は大川内山の藩窯に結び付く。"
+          "text": "エ：京都の京焼と肥前の磁器を区別する。色絵の技術は中国から導入された。"
         },
         {
           "type": "text",
           "text": "制作者不詳《Dish with Camellia》、c. 1688–1716。Cleveland Museum of Art、1964.267。 Severance and Greta Millikin Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Dish with Camellia》 | https://www.clevelandart.org/art/1964.267\n佐賀県立九州陶磁文化館 九州の古陶磁 | https://saga-museum.jp/ceramic/exhibition/collection/kyushu/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.249（textbook.pdf：PDF 251ページ）\n図版出典：クリーブランド美術館《Dish with Camellia》 | https://www.clevelandart.org/art/1964.267",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "鍋島様式 ― 将軍家への献上"
+              "text": "肥前 ― 中国"
             }
           ],
           "is_correct": true,
@@ -7394,7 +7394,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "鍋島様式 ― ヨーロッパ市場への輸出"
+              "text": "肥前 ― オランダ"
             }
           ],
           "is_correct": false,
@@ -7405,7 +7405,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "柿右衛門様式 ― 将軍家への献上"
+              "text": "京都 ― 中国"
             }
           ],
           "is_correct": false,
@@ -7416,7 +7416,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "柿右衛門様式 ― ヨーロッパ市場への輸出"
+              "text": "京都 ― オランダ"
             }
           ],
           "is_correct": false,

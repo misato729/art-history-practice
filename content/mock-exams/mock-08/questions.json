@@ -619,7 +619,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の聖母子像には、衣の文様を細やかに描き、身振りを優美に見せる国際ゴシックの特徴がある。15世紀初めの宮廷で育った同じ美術の流れに属する作例はどれか。"
+          "text": "図はジェンティーレ・ダ・ファブリアーノの聖母子像で、国際ゴシックの流れに属する。この様式が西ヨーロッパの宮廷に広まった頃の、同じ流れを代表する作品はどれか。"
         },
         {
           "type": "image",
@@ -631,37 +631,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ジェンティーレ・ダ・ファブリアーノは、ヨーロッパの宮廷の間に広まった国際ゴシックをイタリアで代表する画家である。この聖母子の金色の衣と繊細な輪郭には、宮廷で好まれた洗練が表れている。"
+          "text": "国際ゴシックは、14世紀後半以降の西ヨーロッパの宮廷に広がった華やかな宮廷趣味を持つ様式である。ランブール兄弟の《ベリー公のいとも豪華なる時祷書》は、月暦画などを含む代表作である。"
         },
         {
           "type": "text",
-          "text": "ア：14世紀初めのジョットの壁画では、量感ある身体と人物同士の身振りによって聖書の物語が明快に展開する。"
+          "text": "ア：人物の人間らしい表情などによってルネサンスを準備した画家の壁画で、国際ゴシックの宮廷写本の作例ではない。"
         },
         {
           "type": "text",
-          "text": "イ：ベリー公に仕えたリンブルク兄弟は、宮廷の衣装や自然を精緻に描き込んだ国際ゴシックの写本挿絵を残した。"
+          "text": "イ：14世紀後半以降の華やかな宮廷趣味を示す国際ゴシックの代表例である。"
         },
         {
           "type": "text",
-          "text": "ウ：1434年の《アルノルフィーニ夫妻像》は、油彩で室内と人物を緻密に表した初期ネーデルラント絵画の作例である。"
+          "text": "ウ：油彩の精密な描写による北方ルネサンスの作例である。"
         },
         {
           "type": "text",
-          "text": "エ：フィレンツェの《聖三位一体》は透視図法を駆使する初期ルネサンスの壁画である。"
+          "text": "エ：透視図法を用いるフィレンツェの初期ルネサンスの作例である。"
         },
         {
           "type": "text",
           "text": "Gentile da Fabriano《Madonna and Child Enthroned》、c. 1420。National Gallery of Art, Washington、1939.1.255。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Madonna and Child Enthroned》 | https://www.nga.gov/artworks/396-madonna-and-child-enthroned\nメトロポリタン美術館「ベリー公ジャンの美術保護」 | https://www.metmuseum.org/essays/patronage-of-jean-de-berry-1340-1416",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.18・61・63・65・121（textbook.pdf：PDF 20・63・65・67・123ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Madonna and Child Enthroned》 | https://www.nga.gov/artworks/396-madonna-and-child-enthroned",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ジョットによるスクロヴェーニ礼拝堂の壁画"
+              "text": "ジョット《ユダの接吻》"
             }
           ],
           "is_correct": false,
@@ -672,7 +672,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "リンブルク兄弟による《ベリー公のいとも豪華なる時祷書》の挿絵"
+              "text": "ランブール兄弟《ベリー公のいとも豪華なる時祷書》"
             }
           ],
           "is_correct": true,
@@ -683,7 +683,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヤン・ファン・エイクによる《アルノルフィーニ夫妻像》"
+              "text": "ヤン・ファン・エイク《アルノルフィーニ夫妻の肖像》"
             }
           ],
           "is_correct": false,
@@ -694,7 +694,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "マザッチョによる《聖三位一体》の壁画"
+              "text": "マザッチョ《三位一体》"
             }
           ],
           "is_correct": false,
@@ -884,7 +884,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "横顔をくっきりと描いたこの肖像の作者は、マントヴァの城の一室《夫婦の間》にも、宮廷の人々の肖像を描いた。その装飾を依頼したのはどの一族か。"
+          "text": "図は15世紀イタリアの画家マンテーニャの肖像画である。この時代のルネサンス文化で、自然の美や現実世界の価値を見直し、人間を尊重する新しい精神を何と呼ぶか。"
         },
         {
           "type": "image",
@@ -896,37 +896,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "アンドレア・マンテーニャはイタリアの宮廷で肖像画と壁画を手がけた。《夫婦の間》では、宮廷の一同が実際の部屋に連なる空間に集まっているように見せている。"
+          "text": "ルネサンスでは、古代文化を見直すとともに、自然の美や現実世界の価値が再発見された。「人文主義」は、人間を尊重し、その可能性に自信を持つ新しい精神を表す。"
         },
         {
           "type": "text",
-          "text": "ア：スフォルツァ家はミラノを治め、レオナルド・ダ・ヴィンチらを庇護した一族である。"
+          "text": "ア：設問の、人間や自然・現実世界の価値を見直す精神を指す語は、人文主義である。"
         },
         {
           "type": "text",
-          "text": "イ：マントヴァを治めたゴンザーガ家はマンテーニャを宮廷に迎え、《夫婦の間》には一族と宮廷の人々が描かれた。"
+          "text": "イ：自然や現実世界の価値を見直し、人間を尊重する新しい精神を人文主義という。"
         },
         {
           "type": "text",
-          "text": "ウ：モンテフェルトロ家はウルビーノの宮廷でピエロ・デッラ・フランチェスカらを庇護した。"
+          "text": "ウ：設問の、人間や自然・現実世界の価値を見直す精神を指す語は、人文主義である。"
         },
         {
           "type": "text",
-          "text": "エ：エステ家は近隣のフェラーラに宮廷を構え、スキファノイア宮殿などの装飾を後援した。"
+          "text": "エ：設問の、人間や自然・現実世界の価値を見直す精神を指す語は、人文主義である。"
         },
         {
           "type": "text",
           "text": "Andrea Mantegna《Portrait of a Man》、c. 1470。National Gallery of Art, Washington、1952.2.5。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Portrait of a Man》 | https://www.nga.gov/artworks/41584-portrait-man\nマントヴァ・ドゥカーレ宮殿「Camera Picta」 | https://mantovaducale.cultura.gov.it/camera-picta/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.62（textbook.pdf：PDF 64ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Portrait of a Man》 | https://www.nga.gov/artworks/41584-portrait-man",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "スフォルツァ家"
+              "text": "スコラ哲学"
             }
           ],
           "is_correct": false,
@@ -937,7 +937,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ゴンザーガ家"
+              "text": "人文主義"
             }
           ],
           "is_correct": true,
@@ -948,7 +948,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "モンテフェルトロ家"
+              "text": "宗教改革"
             }
           ],
           "is_correct": false,
@@ -959,7 +959,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "エステ家"
+              "text": "神秘主義"
             }
           ],
           "is_correct": false,
@@ -979,7 +979,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "岩場で本を読む老人の傍らに、獅子が横たわっている。この聖人がキリスト教の歴史に残した仕事はどれか。"
+          "text": "図はジョヴァンニ・ベッリーニの《読書する聖ヒエロニムス》である。ベッリーニの光に満ちた風景表現から影響を受け、ヴェネツィアで《嵐》を描いた画家は誰か。"
         },
         {
           "type": "image",
@@ -991,37 +991,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ベッリーニは、荒野での隠修生活と読書に没頭する学者の姿を一つの風景に描き込んだ。獅子は、ヒエロニムスが足の棘を抜いてやったという伝説に由来する。"
+          "text": "ベッリーニは油彩で光に満ちた風景を描き、ジョルジョーネらに影響を与えた。ジョルジョーネの《嵐》は、ヴェネツィアの色彩や光への関心を考える代表作である。"
         },
         {
           "type": "text",
-          "text": "ア：図の聖ヒエロニムスは聖書をラテン語に訳した学識ある教父で、獅子はその聖人伝の持物である。"
+          "text": "ア：ベッリーニはジョルジョーネに影響を与え、《嵐》はジョルジョーネが描いた。"
         },
         {
           "type": "text",
-          "text": "イ：モンテ・カッシーノに修道院を築き、修道士の会則を定めたのはヌルシアのベネディクトゥスである。"
+          "text": "イ：《嵐》を描いたのは、ジョルジョーネである。"
         },
         {
           "type": "text",
-          "text": "ウ：『黄金伝説』を編んだのは中世のドミニコ会士ヤコブス・デ・ウォラギネである。"
+          "text": "ウ：《嵐》を描いたのは、ジョルジョーネである。"
         },
         {
           "type": "text",
-          "text": "エ：自分の信仰への歩みを『告白』に記したのはアウグスティヌスである。"
+          "text": "エ：《嵐》を描いたのは、ジョルジョーネである。"
         },
         {
           "type": "text",
           "text": "Giovanni Bellini《Saint Jerome Reading》、1505。National Gallery of Art, Washington、1939.1.217。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Saint Jerome Reading》 | https://www.nga.gov/artworks/358-saint-jerome-reading\nロンドン・ナショナル・ギャラリー「聖ヒエロニムス」 | https://www.nationalgallery.org.uk/paintings/glossary/st-jerome",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.21・63・65（textbook.pdf：PDF 23・65・67ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Saint Jerome Reading》 | https://www.nga.gov/artworks/358-saint-jerome-reading",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖書のラテン語訳を進め、ウルガタ聖書の基礎を築いた。"
+              "text": "ジョルジョーネ"
             }
           ],
           "is_correct": true,
@@ -1032,7 +1032,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "モンテ・カッシーノの共同生活のために、修道会則をまとめた。"
+              "text": "ティツィアーノ"
             }
           ],
           "is_correct": false,
@@ -1043,7 +1043,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖人の生涯を教会暦に沿って並べ、『黄金伝説』に編んだ。"
+              "text": "ティントレット"
             }
           ],
           "is_correct": false,
@@ -1054,7 +1054,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "自身の回心に至る歩みを、『告白』という著作にまとめた。"
+              "text": "アントネッロ・ダ・メッシーナ"
             }
           ],
           "is_correct": false,
@@ -1074,7 +1074,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "赤い帽子をかぶり、胸に手を当てたこの若者を描いたのと同じ画家による神話画はどれか。"
+          "text": "図はボッティチェリが描いた青年の肖像である。同じ画家が古代神話に着想を得て描いた作品はどれか。"
         },
         {
           "type": "image",
@@ -1086,37 +1086,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ボッティチェリは15世紀後半のフィレンツェで肖像や宗教画のほか、古代神話に着想を得た絵を描いた。《春》ではオレンジの木立を背景に、ヴィーナスや三美神などの人物を並べている。"
+          "text": "ボッティチェリは《春（プリマヴェーラ）》や《ヴィーナスの誕生》で、古代神話への憧れを優美な表現で絵画化した。ルネサンスには、宗教画と並んで古代神話が重要な主題となった。"
         },
         {
           "type": "text",
-          "text": "ア：この青年像と、花々の咲く庭にヴィーナスたちを配した《春》はともにボッティチェリの作である。"
+          "text": "ア：《春》は《ヴィーナスの誕生》と並ぶ、ボッティチェリの神話画である。"
         },
         {
           "type": "text",
-          "text": "イ：イザベラ・デステのために、マルスやヴィーナス、踊るムーサたちを配した《パルナッソス》を描いたのはマンテーニャである。"
+          "text": "イ：ティツィアーノの作品であり、ボッティチェリの作品ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：ローマのヴィラ・ファルネジーナで海のニンフを描いた《ガラテイアの勝利》はラファエロの作である。"
+          "text": "ウ：エル・グレコの作品であり、ボッティチェリの作品ではない。"
         },
         {
           "type": "text",
-          "text": "エ：フェラーラ公のためにバッカスとアリアドネの出会いを描いたのはティツィアーノである。"
+          "text": "エ：アンニバレ・カラッチの作品であり、ボッティチェリの作品ではない。"
         },
         {
           "type": "text",
           "text": "Sandro Botticelli《Portrait of a Youth》、c. 1482/1485。National Gallery of Art, Washington、1937.1.19。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Portrait of a Youth》 | https://www.nga.gov/artworks/21-portrait-youth\nウフィツィ美術館《春》 | https://www.uffizi.it/en/artworks/botticelli-spring",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.21・23・24・63（textbook.pdf：PDF 23・25・26・65ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Portrait of a Youth》 | https://www.nga.gov/artworks/21-portrait-youth",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "《春（プリマヴェーラ）》（ウフィツィ美術館）"
+              "text": "《春（プリマヴェーラ）》"
             }
           ],
           "is_correct": true,
@@ -1127,7 +1127,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《パルナッソス》（ルーヴル美術館）"
+              "text": "《ウルビーノのヴィーナス》"
             }
           ],
           "is_correct": false,
@@ -1138,7 +1138,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ガラテイアの勝利》（ヴィラ・ファルネジーナ）"
+              "text": "《ラオコーン》"
             }
           ],
           "is_correct": false,
@@ -1149,7 +1149,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《バッカスとアリアドネ》（ロンドン・ナショナル・ギャラリー）"
+              "text": "《バッカスとアリアドネの勝利》"
             }
           ],
           "is_correct": false,
@@ -1169,7 +1169,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "ラファエロが肩越しに振り向く姿で描いたこの青年は、後年、チェッリーニの肖像胸像にもなった。ローマで美術を庇護したこの人物は、どのような仕事で財を築いたか。"
+          "text": "図はラファエロの《ビンド・アルトヴィティの肖像》である。ラファエロらが活躍した16世紀初めのローマで、強い権力をもって盛期ルネサンスの芸術事業を進めた教皇は誰か。"
         },
         {
           "type": "image",
@@ -1181,37 +1181,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ビンド・アルトヴィティはフィレンツェ出身の一族の銀行家で、ローマで財を築き、美術家たちを支えた。若い姿を描いたラファエロの肖像画と、年齢を重ねた姿を示すチェッリーニのブロンズ胸像が伝わる。"
+          "text": "16世紀初めには、イタリア美術の中心がフィレンツェからローマやヴェネツィアへ移った。ローマではユリウス2世に代表される強力な教皇が現れ、盛期ルネサンスの芸術が展開した。"
         },
         {
           "type": "text",
-          "text": "ア：金細工師としても各地の宮廷で仕事をしたのは、後にこの人物を彫刻に表したチェッリーニの方である。"
+          "text": "ア：盛期ルネサンスのローマを代表する強力な教皇として挙げられるのは、ユリウス2世である。"
         },
         {
           "type": "text",
-          "text": "イ：ウルビーノ公フェデリーコ・ダ・モンテフェルトロのような傭兵隊長にも芸術の庇護者はいたが、この青年の職業は銀行家である。"
+          "text": "イ：盛期ルネサンスのローマを代表する強力な教皇として挙げられるのは、ユリウス2世である。"
         },
         {
           "type": "text",
-          "text": "ウ：モデルのビンド・アルトヴィティはローマで教皇のためにも働いた銀行家で、美術品の収集家・庇護者として活動した。"
+          "text": "ウ：ユリウス2世は、16世紀初めに盛期ルネサンスの中心となったローマを代表する強力な教皇である。"
         },
         {
           "type": "text",
-          "text": "エ：アルド・マヌーツィオのような人文主義の出版人も活躍したが、アルトヴィティがローマで築いた富は金融業による。"
+          "text": "エ：盛期ルネサンスのローマを代表する強力な教皇として挙げられるのは、ユリウス2世である。"
         },
         {
           "type": "text",
           "text": "Raphael《Bindo Altoviti》、c. 1515。National Gallery of Art, Washington、1943.4.33。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Bindo Altoviti》 | https://www.nga.gov/artworks/12131-bindo-altoviti\nイザベラ・スチュワート・ガードナー美術館「チェッリーニ《ビンド・アルトヴィティ》」 | https://www.gardnermuseum.org/isgm-rooms/modals/art-object/6833/nojs",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.64（textbook.pdf：PDF 66ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Bindo Altoviti》 | https://www.nga.gov/artworks/12131-bindo-altoviti",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "諸宮廷に金銀の器を納めた金細工師"
+              "text": "アレクサンデル6世"
             }
           ],
           "is_correct": false,
@@ -1222,7 +1222,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "各地の君主と契約を結んだ傭兵隊長"
+              "text": "パウルス3世"
             }
           ],
           "is_correct": false,
@@ -1233,7 +1233,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "教皇庁にも資金を融通した銀行家"
+              "text": "ユリウス2世"
             }
           ],
           "is_correct": true,
@@ -1244,7 +1244,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "古典の校訂本を刊行した印刷出版業者"
+              "text": "クレメンス7世"
             }
           ],
           "is_correct": false,
@@ -1519,7 +1519,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "画架には弦楽器を弾く男が描かれ、画家自身が椅子からこちらへ振り向いている。この自画像の作者が親方として認められた聖ルカ組合は、どの都市にあったか。"
+          "text": "図は17世紀オランダの画家ユディト・レイステルの《自画像》である。同時代に《陽気な酒飲み》を描き、市民の表情豊かな肖像で知られる画家は誰か。"
         },
         {
           "type": "image",
@@ -1531,37 +1531,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "17世紀オランダの都市には、画家などが参加する同業者の組合があった。レイステルはハールレムで仕事をし、筆とパレットを手に、風俗画を得意とする画家として自分を描いている。"
+          "text": "ハルスは17世紀オランダで表情豊かな市民の肖像を描いた。《陽気な酒飲み》は、その作例として紹介されている。"
         },
         {
           "type": "text",
-          "text": "ア：ライデンにも17世紀に画家の組合が設けられたが、この自画像の作者が親方となった組合とは都市が異なる。"
+          "text": "ア：イギリスの宮廷で肖像画を手がけた画家で、《陽気な酒飲み》の作者ではない。"
         },
         {
           "type": "text",
-          "text": "イ：ユディト・レイステルはハールレムの聖ルカ組合で親方として認められ、自らの工房で弟子を育てた。"
+          "text": "イ：《陽気な酒飲み》の作者で、表情豊かな市民肖像で知られる。"
         },
         {
           "type": "text",
-          "text": "ウ：デルフトの聖ルカ組合にはフェルメールが加入したが、レイステルが親方となったのはハールレムの組合である。"
+          "text": "ウ：《夜警》などを描いたオランダの画家だが、《陽気な酒飲み》の作者ではない。"
         },
         {
           "type": "text",
-          "text": "エ：アントウェルペンの聖ルカ組合で親方となった著名な画家の一人にルーベンスがいる。"
+          "text": "エ：フランドルを代表し宮廷や教会で制作した画家だが、《陽気な酒飲み》の作者ではない。"
         },
         {
           "type": "text",
           "text": "Judith Leyster《Self-Portrait》、c. 1630。National Gallery of Art, Washington、1949.6.1。 Gift of Mr. and Mrs. Robert Woods Bliss。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Self-Portrait》 | https://www.nga.gov/artworks/37003-self-portrait",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.25・69・70（textbook.pdf：PDF 27・71・72ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Self-Portrait》 | https://www.nga.gov/artworks/37003-self-portrait",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ライデン"
+              "text": "アンソニー・ヴァン・ダイク"
             }
           ],
           "is_correct": false,
@@ -1572,7 +1572,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ハールレム"
+              "text": "フランス・ハルス"
             }
           ],
           "is_correct": true,
@@ -1583,7 +1583,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "デルフト"
+              "text": "レンブラント・ファン・レイン"
             }
           ],
           "is_correct": false,
@@ -1594,7 +1594,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "アントウェルペン"
+              "text": "ピーテル・パウル・ルーベンス"
             }
           ],
           "is_correct": false,
@@ -1614,7 +1614,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図のマグダラのマリアが指を置いた品と、鏡に映るその姿は、17世紀のある静物画と同じ観念を表している。該当する静物画はどれか。"
+          "text": "図はジョルジュ・ド・ラ・トゥールの《悔悛するマグダラのマリア》である。同じ画家が光の効果を用い、幼い人物と老人を描いた作品はどれか。"
         },
         {
           "type": "image",
@@ -1626,37 +1626,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ジョルジュ・ド・ラ・トゥールは、ろうそくの光を受けて黙考するマグダラのマリアを描いた。鏡は身を飾るための品でもあるが、ここでは頭蓋骨を映し、現世の美しさや生がいつまでも続かないことを示す。"
+          "text": "ラ・トゥールは光の効果を巧みに使い、明暗の対比を強調した。《大工聖ヨセフ》も、暗い室内で光を受ける人物を描く代表作である。"
         },
         {
           "type": "text",
-          "text": "ア：花卉静物画にもはかなさを表す作例はあるが、この絵の鏡に映るのは花ではなく死を示す頭蓋骨である。"
+          "text": "ア：カラヴァッジョの作品である。"
         },
         {
           "type": "text",
-          "text": "イ：女性が手を置く頭蓋骨と、それを映す鏡は、生命の短さを示すヴァニタスの象徴である。"
+          "text": "イ：ラ・トゥールがろうそくの光と明暗を生かして描いた作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：狩猟静物画の中心は鳥獣の獲物で、人間の頭蓋骨を通して悔悛を促すこの場面とは異なる。"
+          "text": "ウ：プッサンの作品である。"
         },
         {
           "type": "text",
-          "text": "エ：朝食静物画を特徴づけるのは卓上の食べ物や器であり、この机に置かれた頭蓋骨の意味を言い表す名称ではない。"
+          "text": "エ：ルーベンスの作品である。"
         },
         {
           "type": "text",
           "text": "Georges de La Tour《The Repentant Magdalen》、c. 1635/1640。National Gallery of Art, Washington、1974.52.1。 Ailsa Mellon Bruce Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Repentant Magdalen》 | https://www.nga.gov/artworks/54386-repentant-magdalen",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.24・25・70・71（textbook.pdf：PDF 26・27・72・73ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Repentant Magdalen》 | https://www.nga.gov/artworks/54386-repentant-magdalen",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "花の種類を取り合わせ、咲く盛りの姿を見せる花卉静物画"
+              "text": "《聖マタイの召出し》"
             }
           ],
           "is_correct": false,
@@ -1667,7 +1667,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "死と現世のはかなさを思い起こさせるヴァニタス静物画"
+              "text": "《大工聖ヨセフ》"
             }
           ],
           "is_correct": true,
@@ -1678,7 +1678,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "狩りで得た鳥や獣を並べ、獲物を披露する狩猟静物画"
+              "text": "《アルカディアの牧人たち》"
             }
           ],
           "is_correct": false,
@@ -1689,7 +1689,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "食卓にパンや酒器を置き、簡素な一食を示す朝食静物画"
+              "text": "《キリスト昇架》"
             }
           ],
           "is_correct": false,
@@ -1794,7 +1794,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "水辺の女神の足もとに鳩が寄り、矢筒を帯びた子どもが手を伸ばす。この絵と対作品《ヴィーナスの化粧》が飾ったベルヴュ城を築き、ブーシェを後援したのは誰か。"
+          "text": "図はブーシェの《ヴィーナスの水浴》である。ブーシェが18世紀フランスで代表した、貴族の館などの親密な空間と関わる美術の流れはどれか。"
         },
         {
           "type": "image",
@@ -1806,37 +1806,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ブーシェの《ヴィーナスの水浴》は、ロココの室内装飾と関係の深い作品である。対となる二枚の絵は、ポンパドゥール夫人のベルヴュ城の装飾に合わせてつくられた。"
+          "text": "ブーシェはロココを代表する画家である。18世紀フランスでは、貴族や裕福な市民の館を舞台に、親しみやすく感覚的で優美な美術が好まれた。"
         },
         {
           "type": "text",
-          "text": "ア：ルイ15世の王妃マリー・レクザンスカも美術を後援したが、ベルヴュ城を築いたのはポンパドゥール夫人である。"
+          "text": "ア：古代を規範に厳しい理想や構成を追求した流れで、ブーシェの位置づけではない。"
         },
         {
           "type": "text",
-          "text": "イ：デュ・バリー夫人がフラゴナールに《恋の成り行き》を注文したのはルーヴシエンヌの館のためである。"
+          "text": "イ：自由な想像力や激しい感情を重視した主に19世紀の流れで、ブーシェの位置づけではない。"
         },
         {
           "type": "text",
-          "text": "ウ：マリー・アントワネットはヴィジェ・ルブランらを後援したルイ16世の王妃で、ベルヴュ城の建て主ではない。"
+          "text": "ウ：17世紀を中心に劇的な構成や効果を展開した流れで、設問の18世紀フランスの位置づけとは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：ルイ15世の寵姫ポンパドゥール夫人はパリ郊外のベルヴュ城を築き、ブーシェにその装飾を依頼した。"
+          "text": "エ：巨大な宮殿に代わって貴族や裕福な市民の館を舞台に、親密で優美な美術が好まれた。"
         },
         {
           "type": "text",
           "text": "François Boucher《The Bath of Venus》、1751。National Gallery of Art, Washington、1943.7.2。 Chester Dale Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Bath of Venus》 | https://www.nga.gov/artworks/12200-bath-venus\nワシントン・ナショナル・ギャラリー「ブーシェ《ヴィーナスの水浴》作品研究」 | https://www.nga.gov/research/publications/french-paintings-fifteenth-through-eighteenth-centuries/french-paintings-fifteenth-through-eighteenth-centuries-bath-venus-1751",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.71・72（textbook.pdf：PDF 73・74ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Bath of Venus》 | https://www.nga.gov/artworks/12200-bath-venus",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "マリー・レクザンスカ"
+              "text": "新古典主義"
             }
           ],
           "is_correct": false,
@@ -1847,7 +1847,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "デュ・バリー夫人"
+              "text": "ロマン主義"
             }
           ],
           "is_correct": false,
@@ -1858,7 +1858,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "マリー・アントワネット"
+              "text": "バロック"
             }
           ],
           "is_correct": false,
@@ -1869,7 +1869,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ポンパドゥール夫人"
+              "text": "ロココ"
             }
           ],
           "is_correct": true,
@@ -2059,7 +2059,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "机に顔を伏せた人物の背後に、フクロウやコウモリが群がっている。この一枚を含み、迷信や社会の愚かさを風刺したゴヤの版画集はどれか。"
+          "text": "図はゴヤの版画《理性の眠りは怪物を生む》である。この画家が1800年頃から傾向を強め、ドラマティックな表現や人間の不安にも目を向けた美術の流れはどれか。"
         },
         {
           "type": "image",
@@ -2071,37 +2071,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "《ロス・カプリーチョス》は全80点からなる。ゴヤは図の一枚で、眠り込んだ人間に夜の生き物が迫る光景を通じて、理性を失った想像力が生む脅威を表した。"
+          "text": "ゴヤは初期には明るいロココの色彩で制作したが、後には人間の内面や社会の不安、戦争の不条理にも目を向けた。1800年頃以降のこうした傾向は、ロマン主義の流れに位置づけられる。"
         },
         {
           "type": "text",
-          "text": "ア：《戦争の惨禍》はスペイン独立戦争とその前後の暴力、飢えや苦痛を扱う連作である。"
+          "text": "ア：古代の理想美や安定した構図を重んじる流れで、1800年頃以降のゴヤの内面的・劇的な方向とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：図の《理性の眠りは怪物を生む》は、1799年刊行の《ロス・カプリーチョス》の第43番である。"
+          "text": "イ：1800年頃以降のゴヤの内面や劇的な表現への関心は、ロマン主義の方向と結び付く。"
         },
         {
           "type": "text",
-          "text": "ウ：《ロス・ディスパラテス》は謎めいた幻想的な場面を収める晩年の連作で、この第43番が属する版画集とは異なる。"
+          "text": "ウ：19世紀半ばに身近な現実と社会を主要な主題にした運動で、設問の1800年頃の位置づけとは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：《闘牛技》はスペインの闘牛の歴史や闘牛場での危険な場面を題材とする連作である。"
+          "text": "エ：19世紀後半に夢や神秘的な世界を展開した流れで、設問の1800年頃のゴヤの分類ではない。"
         },
         {
           "type": "text",
           "text": "Francisco Goya《El sueño de la razon produce monstruos (The Sleep of Reason Produces Monsters)》、published 1799。National Gallery of Art, Washington、1943.3.4711.qq。 Rosenwald Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《El sueño de la razon produce monstruos (The Sleep of Reason Produces Monsters)》 | https://www.nga.gov/artworks/7502-el-sueno-de-la-razon-produce-monstruos-sleep-reason-produces-monsters\nメトロポリタン美術館《ロス・カプリーチョス》第43番 | https://www.metmuseum.org/art/collection/search/338473",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.127・128（textbook.pdf：PDF 129・130ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《El sueño de la razon produce monstruos (The Sleep of Reason Produces Monsters)》 | https://www.nga.gov/artworks/7502-el-sueno-de-la-razon-produce-monstruos-sleep-reason-produces-monsters",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "《戦争の惨禍》"
+              "text": "新古典主義"
             }
           ],
           "is_correct": false,
@@ -2112,7 +2112,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ロス・カプリーチョス（気まぐれ）》"
+              "text": "ロマン主義"
             }
           ],
           "is_correct": true,
@@ -2123,7 +2123,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ロス・ディスパラテス（妄）》"
+              "text": "写実主義"
             }
           ],
           "is_correct": false,
@@ -2134,7 +2134,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《闘牛技》"
+              "text": "象徴主義"
             }
           ],
           "is_correct": false,
@@ -2154,7 +2154,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "旅の途中にこの修道院をスケッチした画家と、のちにその風景画における自然の観察を『近代画家論』で擁護した批評家の組合せはどれか。"
+          "text": "図はターナーによるテュークスベリー修道院の素描である。この画家が風景画で追求した光と水の表現が、後に影響を与えた美術の流れはどれか。"
         },
         {
           "type": "image",
@@ -2166,37 +2166,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "若いターナーは実在する建物や土地を詳しく描いた。後年、風景の輪郭を光や霧の中に溶け込ませる絵が批判されたとき、ラスキンはその絵にこそ自然をよく観察した成果があると考えた。"
+          "text": "ターナーは、光と色の関係を研究し、水や大気、自然の力を絵画に表した。その光と水の表現は、後の印象派の画家たちにも影響を与えた。"
         },
         {
           "type": "text",
-          "text": "ア：イングランドの風景を描いたコンスタブルはこの修道院の素描の作者ではなく、ボードレールも『近代画家論』の著者ではない。"
+          "text": "ア：古代の理想美や安定した構図を重視する流れで、ターナーから後世への光や水の表現の継承先とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：ラスキンは『近代画家論』の著者だが、執筆の出発点となったのはコンスタブルではなくターナーの擁護である。"
+          "text": "イ：中世や文学を題材に細密な描写を重視した流れで、ターナーの光と水の表現の影響先として問う印象主義とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：ボードレールはフランスのサロンやドラクロワを論じた詩人・批評家で、『近代画家論』の著者はラスキンである。"
+          "text": "ウ：フランスの自然に基づく風景画を展開した流れであるが、設問の光と水の表現を受け継ぐものは印象主義である。"
         },
         {
           "type": "text",
-          "text": "エ：図はターナーによるテュークスベリー修道院の素描で、ラスキンはターナーへの批判に応じて『近代画家論』を書いた。"
+          "text": "エ：ターナーの光と水の表現は、後の印象派にも影響を与えた。"
         },
         {
           "type": "text",
           "text": "Joseph Mallord William Turner《Tewkesbury Abbey No. 2》、1793。National Gallery of Art, Washington、2022.40.15。 Gift of Donald Stone。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Tewkesbury Abbey No. 2》 | https://www.nga.gov/artworks/136749-tewkesbury-abbey-no-2\nメトロポリタン美術館「J・M・W・ターナー」 | https://www.metmuseum.org/essays/joseph-mallord-william-turner-1775-1851",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.78（textbook.pdf：PDF 80ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Tewkesbury Abbey No. 2》 | https://www.nga.gov/artworks/136749-tewkesbury-abbey-no-2",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "コンスタブル ― シャルル・ボードレール"
+              "text": "新古典主義"
             }
           ],
           "is_correct": false,
@@ -2207,7 +2207,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "コンスタブル ― ジョン・ラスキン"
+              "text": "ラファエル前派"
             }
           ],
           "is_correct": false,
@@ -2218,7 +2218,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ターナー ― シャルル・ボードレール"
+              "text": "バルビゾン派"
             }
           ],
           "is_correct": false,
@@ -2229,7 +2229,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ターナー ― ジョン・ラスキン"
+              "text": "印象主義"
             }
           ],
           "is_correct": true,
@@ -2334,7 +2334,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図のように礼拝中の人々を描く一方、政治風刺の石版画でも知られる画家が、巨人《ガルガンチュア》の姿に見立てて風刺した君主は誰か。"
+          "text": "図はドーミエの《教会の中》である。政治や社会を風刺する挿絵でも知られるこの画家が、油彩で庶民の日常生活を描いた作品はどれか。"
         },
         {
           "type": "image",
@@ -2346,37 +2346,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ドーミエは人物の姿勢や顔つきを鋭く捉え、教会や法廷、鉄道など同時代の生活を描いた。七月王政下の石版画では、民衆から富を吸い上げる巨人に国王の姿を重ねた。"
+          "text": "ドーミエは政治や社会を風刺する挿絵の作者として活躍するとともに、油彩画でも優れた作品を残した。《三等車》には、庶民の日常生活を見つめる共感が表れている。"
         },
         {
           "type": "text",
-          "text": "ア：ルイ18世はナポレオンの帝政の後に復位した国王で、七月王政のもとで描かれたこの風刺画の標的とは異なる。"
+          "text": "ア：クールベの作品で、労働者を主題にしている。"
         },
         {
           "type": "text",
-          "text": "イ：ドーミエは七月王政の国王ルイ＝フィリップを《ガルガンチュア》で巨人に見立て、禁錮刑を受けた。"
+          "text": "イ：ドーミエの油彩作品で、庶民の日常生活への共感が表れている。"
         },
         {
           "type": "text",
-          "text": "ウ：ナポレオン3世が第二帝政を始めたのは1852年で、1831年の《ガルガンチュア》が標的とした君主ではない。"
+          "text": "ウ：農民の生活を主題にしたミレーの作品である。"
         },
         {
           "type": "text",
-          "text": "エ：シャルル10世は七月革命で退位した復古王政の国王で、《ガルガンチュア》が風刺したのはその後に即位した国王である。"
+          "text": "エ：農民の祈る姿を描いたミレーの作品である。"
         },
         {
           "type": "text",
           "text": "Honoré Daumier《In Church》、1855/1857。National Gallery of Art, Washington、1943.11.1。 Rosenwald Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《In Church》 | https://www.nga.gov/artworks/30211-church\nオルセー美術館「ドーミエ」 | https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/daumier",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.80（textbook.pdf：PDF 82ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《In Church》 | https://www.nga.gov/artworks/30211-church",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ルイ18世"
+              "text": "《石割人夫》"
             }
           ],
           "is_correct": false,
@@ -2387,7 +2387,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ルイ＝フィリップ"
+              "text": "《三等車》"
             }
           ],
           "is_correct": true,
@@ -2398,7 +2398,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ナポレオン3世"
+              "text": "《種まく人》"
             }
           ],
           "is_correct": false,
@@ -2409,7 +2409,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "シャルル10世"
+              "text": "《晩鐘》"
             }
           ],
           "is_correct": false,
@@ -2514,7 +2514,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "封筒を口もとに上げる女性を描いた図のカラー銅版画は、1890年にパリで開かれた日本の版画展をきっかけに制作された十点組の一点である。この作者は誰か。"
+          "text": "図はメアリー・カサットの版画《手紙》である。カサットに印象主義の画家たちの仲間へ加わることを勧めた画家は誰か。"
         },
         {
           "type": "image",
@@ -2526,37 +2526,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "カサットは浮世絵に見た平らな色と輪郭線を、銅版による多色刷りに応用した。図の《手紙》では、封をする日常のしぐさを、花模様の衣服や壁紙の平面的な模様と組み合わせている。"
+          "text": "カサットは、ドガの勧めで印象主義の画家たちの仲間に加わった。子どもや母子の姿を多く描き、印象主義の画家たちを経済的にも支えた。"
         },
         {
           "type": "text",
-          "text": "ア：ヴァロットンはナビ派に属し、室内の男女の関係を強い白黒の対比で示す木版画連作《アンティミテ》などを制作した。"
+          "text": "ア：カサットが印象主義の仲間に加わるよう勧めた人物は、ピサロではなくドガである。"
         },
         {
           "type": "text",
-          "text": "イ：モリゾはカサットが日本の版画展に誘った画家仲間であり、この十点組を制作した本人とは異なる。"
+          "text": "イ：カサットが印象主義の仲間に加わるよう勧めた人物は、モネではなくドガである。"
         },
         {
           "type": "text",
-          "text": "ウ：カサットは日本の多色木版画で見た平らな色面と明快な線を、女性の日常を描くカラー銅版画に取り入れた。"
+          "text": "ウ：ドガの勧めで、カサットは印象主義の画家たちの仲間に加わった。"
         },
         {
           "type": "text",
-          "text": "エ：ロートレックは色刷りの石版ポスターや連作《彼女たち》を制作したが、この手紙を扱う女性の銅版画はカサットの作である。"
+          "text": "エ：カサットが印象主義の仲間に加わるよう勧めた人物は、ルノワールではなくドガである。"
         },
         {
           "type": "text",
           "text": "Mary Cassatt《The Letter》、1890-1891。National Gallery of Art, Washington、1943.3.2763。 Rosenwald Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Letter》 | https://www.nga.gov/artworks/5938-letter\nワシントン・ナショナル・ギャラリー「Mary Cassatt, the Daring Printmaker」 | https://www.nga.gov/stories/articles/mary-cassatt-daring-printmaker",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.85（textbook.pdf：PDF 87ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Letter》 | https://www.nga.gov/artworks/5938-letter",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "フェリックス・ヴァロットン"
+              "text": "カミーユ・ピサロ"
             }
           ],
           "is_correct": false,
@@ -2567,7 +2567,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ベルト・モリゾ"
+              "text": "クロード・モネ"
             }
           ],
           "is_correct": false,
@@ -2578,7 +2578,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "メアリー・カサット"
+              "text": "エドガー・ドガ"
             }
           ],
           "is_correct": true,
@@ -2589,7 +2589,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "アンリ・ド・トゥールーズ＝ロートレック"
+              "text": "オーギュスト・ルノワール"
             }
           ],
           "is_correct": false,
@@ -3969,7 +3969,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "表の二つの出来事に関わった唐出身の僧の肖像は、目を閉じて座る姿で、彼が開いた寺に伝わる。この国宝の制作技法はどれか。"
+          "text": "表は鑑真の来日と唐招提寺の成立に関わる出来事である。鑑真和上像も制作された奈良・天平時代の彫刻の傾向として、適切なのはどれか。"
         },
         {
           "type": "table",
@@ -3992,33 +3992,33 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "表は唐の僧・鑑真の足跡を示す。来日して戒律を伝えた鑑真の肖像は、まぶたや頬の起伏を穏やかに表し、奈良時代の脱活乾漆による肖像彫刻を代表する。"
+          "text": "奈良・天平の彫刻は、盛唐の様式に学び、人間味や動きのある写実的な表現を進めた。造形を細やかに表すため、乾漆造や塑造の技法も多く用いられた。"
         },
         {
           "type": "text",
-          "text": "ア：木心乾漆造は木の芯を残し、その表面に木屎漆などを盛って形を整える技法である。"
+          "text": "ア：主に飛鳥の止利様式に関わる説明であり、天平の写実的な傾向とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：《鑑真和上坐像》は、漆で麻布を貼り重ねた殻から原型を抜く脱活乾漆造である。"
+          "text": "イ：天平彫刻は盛唐様式の影響の下、動きのある写実的表現を特徴とした。"
         },
         {
           "type": "text",
-          "text": "ウ：一木造は頭体の主要部を一本の材から彫る方法で、この肖像の構造とは異なる。"
+          "text": "ウ：平安時代前期の傾向を奈良・天平時代へ置き換えている。"
         },
         {
           "type": "text",
-          "text": "エ：塑造は芯の周囲などに土を盛って形を作る方法で、鑑真の肖像に用いられた技法とは異なる。"
+          "text": "エ：定朝様式の完成は平安時代後期であり、奈良・天平時代の傾向ではない。"
         }
       ],
-      "source_text": "奈良国立博物館《鑑真和上坐像》 | https://imagedb.narahaku.go.jp/002979-000-000.html\n奈良国立博物館「国宝 鑑真和上展」 | https://www.narahaku.go.jp/exhibition/special/200904_ganjin/\n唐招提寺「概要」 | https://www.toshodaiji.jp/s/about-j.html",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.181・234・236（textbook.pdf：PDF 183・236・238ページ）",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "木心乾漆造"
+              "text": "北魏系の様式の影響のもと、正面性と定型的な微笑が重視された。"
             }
           ],
           "is_correct": false,
@@ -4029,7 +4029,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "脱活乾漆造"
+              "text": "盛唐の様式の影響のもと、動きのある写実的な表現が進んだ。"
             }
           ],
           "is_correct": true,
@@ -4040,7 +4040,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "一木造"
+              "text": "晩唐の様式の影響のもと、神秘的で重厚な表現が広がった。"
             }
           ],
           "is_correct": false,
@@ -4051,7 +4051,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "塑造"
+              "text": "定朝様式が完成し、穏やかな和様の優美さが主流となった。"
             }
           ],
           "is_correct": false,
@@ -4241,7 +4241,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "椅子に姿勢を正して座る図の人物は、鎌倉時代の禅僧・無本覚心である。こうした僧の肖像のうち、師が弟子に与える画像が禅宗で果たした役割はどれか。"
+          "text": "図は鎌倉時代の禅僧・無本覚心の木彫像である。禅僧の肖像は絵画にも制作された。14世紀の《夢窓疎石像》を描いた画僧は誰か。"
         },
         {
           "type": "image",
@@ -4253,37 +4253,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "禅僧の肖像は頂相と呼ばれ、絵画にも彫刻にも作例がある。図は無本覚心の木彫の肖像。絵画では、師が賛を書き加えて弟子に与え、教えを継ぐ師弟の関係を示す例が伝わる。"
+          "text": "無等周位の《夢窓疎石像》は、14世紀の禅僧の肖像画を代表する作例である。中国風を保つ流れとともに表現の日本化も進み、禅宗絵画は一様な様式にはとどまらなかった。"
         },
         {
           "type": "text",
-          "text": "ア：霊場での参詣は納経帳などに記録され、師が弟子に画像を与えることとは結び付かない。"
+          "text": "ア：《四睡図》を残した画僧であり、この《夢窓疎石像》の作者ではない。"
         },
         {
           "type": "text",
-          "text": "イ：僧になった身分を証明するのは度牒などの文書で、頂相を伝える目的とは異なる。"
+          "text": "イ：《竹雀図》の作者として掲げられるが、《夢窓疎石像》は無等周位による。"
         },
         {
           "type": "text",
-          "text": "ウ：受戒の事実や戒師などを記して証するのは戒牒であり、師の肖像とは役割が異なる。"
+          "text": "ウ：東福寺の仏画などで知られるが、ここで挙げた《夢窓疎石像》の作者ではない。"
         },
         {
           "type": "text",
-          "text": "エ：師が賛を記した頂相を弟子に与えることには、師弟の間で法が受け継がれたことを示す意味があった。"
+          "text": "エ：14世紀の《夢窓疎石像》の作者は無等周位である。"
         },
         {
           "type": "text",
           "text": "制作者不詳《Portrait of Hottō Enmyō Kokushi》、c. 1295–1315。Cleveland Museum of Art、1970.67。 Leonard C. Hanna Jr. Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Portrait of Hottō Enmyō Kokushi》 | https://www.clevelandart.org/art/1970.67\n京都国立博物館「禅僧の肖像画―頂相」 | https://www.kyohaku.go.jp/old/jp/theme/floor2_3/f2_3_koremade/cyuse_20150811.html",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.156・195・196（textbook.pdf：PDF 158・197・198ページ）\n図版出典：クリーブランド美術館《Portrait of Hottō Enmyō Kokushi》 | https://www.clevelandart.org/art/1970.67",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "諸国の霊場を巡り、どの寺社に参詣したかを示す。"
+              "text": "黙庵霊淵"
             }
           ],
           "is_correct": false,
@@ -4294,7 +4294,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "得度を認められた者が僧籍に入ったことを示す。"
+              "text": "可翁"
             }
           ],
           "is_correct": false,
@@ -4305,7 +4305,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "定められた戒を受けた期日と戒師の名を示す。"
+              "text": "吉山明兆"
             }
           ],
           "is_correct": false,
@@ -4316,7 +4316,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "弟子が師の教えを正式に受け継いだことを示す。"
+              "text": "無等周位"
             }
           ],
           "is_correct": true,
@@ -4591,7 +4591,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "一本の葦に乗って水を渡る人物は、中国禅の初祖と伝えられる。同じ人物を描いた雪舟の祖師図に登場し、腕を切って入門の決意を示すのは誰か。"
+          "text": "図は、中国禅の祖師・達磨が一本の葦に乗る場面を描いたものである。鎌倉時代には来日した中国の禅僧が祖師像などの絵画文化も伝えた。蘭渓道隆が北条時頼の帰依を受けて開いた寺はどこか。"
         },
         {
           "type": "image",
@@ -4603,37 +4603,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図は達磨が一葦に乗って川を渡ったという伝説を描く。同じ達磨を題材にした雪舟の《慧可断臂図》では、壁に向かう達磨と、弟子入りの決意を示す慧可とを対置する。"
+          "text": "蘭渓道隆は中国から来日した禅僧で、北条時頼の帰依を受けて鎌倉に建長寺を開いた。禅宗とともに、中国風の寺院建築や肖像・祖師図などの絵画文化も受け入れられた。"
         },
         {
           "type": "text",
-          "text": "ア：臨済義玄は唐代に活動した臨済宗の祖で、達磨に腕を差し出す人物ではない。"
+          "text": "ア：無学祖元が北条時宗の帰依を受けて開いた寺で、蘭渓道隆の建長寺とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：慧能は中国禅の第六祖とされ、初祖達磨に入門するこの場面の弟子とは異なる。"
+          "text": "イ：室町将軍家や如拙・周文らに関係する京都の禅寺で、蘭渓が鎌倉に開いた寺ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：雪舟の《慧可断臂図》は、達磨に弟子入りしようとする慧可が自らの腕を差し出す場面を描く。"
+          "text": "ウ：蘭渓道隆は北条時頼の帰依を受けて鎌倉に建長寺を開いた。"
         },
         {
           "type": "text",
-          "text": "エ：百丈懐海は唐代の禅僧で、禅院の規範である清規に名を残す人物である。"
+          "text": "エ：京都の禅寺であり、蘭渓道隆が北条時頼の帰依を受けて鎌倉に開いた寺ではない。"
         },
         {
           "type": "text",
           "text": "Shingo (Japanese)《Bodhidharma on a Reed》、1500s。Cleveland Museum of Art、1983.21。 Purchase from the J. H. Wade Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Bodhidharma on a Reed》 | https://www.clevelandart.org/art/1983.21\n京都国立博物館《慧可断臂図》 | https://www.kyohaku.go.jp/jp/collection/meihin/suibokuga/item06/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.193・194（textbook.pdf：PDF 195・196ページ）\n図版出典：クリーブランド美術館《Bodhidharma on a Reed》 | https://www.clevelandart.org/art/1983.21",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "臨済義玄"
+              "text": "円覚寺"
             }
           ],
           "is_correct": false,
@@ -4644,7 +4644,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "慧能"
+              "text": "相国寺"
             }
           ],
           "is_correct": false,
@@ -4655,7 +4655,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "慧可"
+              "text": "建長寺"
             }
           ],
           "is_correct": true,
@@ -4666,7 +4666,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "百丈懐海"
+              "text": "東福寺"
             }
           ],
           "is_correct": false,
@@ -4771,7 +4771,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "夏と冬の景を金霞と余白の広い二隻に描いた作者は、探幽とともに二条城の仕事に携わり、1630年に幕府の招きで京都から江戸へ移った。のちの木挽町狩野家の基礎を築いたこの絵師は誰か。"
+          "text": "図は狩野尚信の《夏冬山水図》である。尚信は兄の探幽、弟の安信とともに江戸へ出た。幕府の御用絵師のうち、彼らが就いた最高位の地位は何というか。"
         },
         {
           "type": "image",
@@ -4783,37 +4783,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図は狩野尚信の《夏冬山水図》。江戸幕府の仕事を担った狩野家は一つの家に限られず、探幽の鍛冶橋、弟の尚信に始まる木挽町、安信の中橋などの家に分かれて画業を継承した。"
+          "text": "探幽とその弟の尚信・安信は江戸へ進出し、幕府の奥絵師という最高の地位についた。幕府の大きな制作を担う狩野派の体制は、江戸時代にさらに強められた。"
         },
         {
           "type": "text",
-          "text": "ア：山雪は江戸に移った尚信とは別の系統で、山楽を継いで京都の京狩野を率いた。"
+          "text": "ア：幕府絵師の区分だが、ここで問う最高位の地位は奥絵師である。"
         },
         {
           "type": "text",
-          "text": "イ：探幽・尚信の弟にあたる安信が担ったのは、中橋狩野家の系譜である。"
+          "text": "イ：町場で顧客に絵を提供する絵師であり、幕府御用絵師の最高位の呼称ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：常信は尚信の子で木挽町狩野家を継いだ次代の絵師であり、1630年に移った本人ではない。"
+          "text": "ウ：宮廷の絵画制作に関わる役職であり、幕府の御用絵師の最高位を指す語ではない。"
         },
         {
           "type": "text",
-          "text": "エ：図を描いた尚信は探幽の弟で、江戸でのちの木挽町狩野家につながる家を興した。"
+          "text": "エ：探幽・尚信・安信は、江戸幕府の御用絵師の最高位である奥絵師についた。"
         },
         {
           "type": "text",
           "text": "Kano Naonobu (Japanese, 1607–1650)《Summer and Winter Landscapes》、1600s。Cleveland Museum of Art、2015.481。 Gift from the Collection of George Gund III。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Summer and Winter Landscapes》 | https://www.clevelandart.org/art/2015.481\n静岡県立美術館「狩野尚信」 | https://jmapps.ne.jp/spmoa/sakka_det.html?list_count=10&person_id=368",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.204・245（textbook.pdf：PDF 206・247ページ）\n図版出典：クリーブランド美術館《Summer and Winter Landscapes》 | https://www.clevelandart.org/art/2015.481",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "狩野山雪"
+              "text": "表絵師"
             }
           ],
           "is_correct": false,
@@ -4824,7 +4824,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "狩野安信"
+              "text": "町絵師"
             }
           ],
           "is_correct": false,
@@ -4835,7 +4835,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "狩野常信"
+              "text": "絵所預"
             }
           ],
           "is_correct": false,
@@ -4846,7 +4846,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "狩野尚信"
+              "text": "奥絵師"
             }
           ],
           "is_correct": true,
@@ -4951,7 +4951,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "仔犬の遊ぶ一群から雀が飛び立つ空間へ、襖の面を越えて場面が広がる。この襖絵を描き、紀州・無量寺では巨大な龍と虎の障壁画を手がけた画家は誰か。"
+          "text": "図で仔犬や雀、菊を描いた長沢芦雪は、円山応挙に学んだ画家である。応挙の画風をすっきりとアレンジし、京都で応挙とともに円山・四条派の流れをつくったのは誰か。"
         },
         {
           "type": "image",
@@ -4963,30 +4963,30 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "仔犬と雀を描いた図は長沢芦雪の作で、もとは建物の襖絵だった。芦雪は師・応挙の写生を学び、紀州では無量寺の龍や虎のように、建築の大画面に動物を大胆に配する仕事を残した。"
+          "text": "円山応挙は写生を基礎に立体感のある絵画を展開した。呉春はその画風をすっきりとアレンジし、応挙・呉春の両者は多数の弟子を育て、京都の絵画の主流となる円山・四条派へつながった。"
         },
         {
           "type": "text",
-          "text": "ア：花鳥や動物を描いた若冲の代表的な連作は《動植綵絵》で、この襖絵の作者ではない。"
+          "text": "ア：同時代の京都で活躍したが、応挙の画風をアレンジして四条派を形成したのは呉春である。"
         },
         {
           "type": "text",
-          "text": "イ：呉春は与謝蕪村と円山応挙に学んで四条派を開いたが、無量寺の龍虎の作者とは異なる。"
+          "text": "イ：中国文人画を理想とする南画の代表であり、この問の応挙の画風の継承とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：芦雪はこの仔犬と雀の図を描き、無量寺では襖を広く使って巨大な龍と虎を描いた。"
+          "text": "ウ：呉春は応挙の画風をすっきりとアレンジし、円山・四条派の展開を担った。"
         },
         {
           "type": "text",
-          "text": "エ：蕭白は《群仙図屏風》など大胆な人物や龍の表現で知られるが、無量寺の龍と虎を描いたのは芦雪である。"
+          "text": "エ：強い個性で知られる画家だが、ここで問う円山・四条派の流れの担い手は呉春である。"
         },
         {
           "type": "text",
           "text": "Nagasawa Rosetsu (Japanese, 1754–1799)《Puppies, Sparrows, and Chrysanthemums》、c. 1792–94。Cleveland Museum of Art、1970.71。 John L. Severance Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Puppies, Sparrows, and Chrysanthemums》 | https://www.clevelandart.org/art/1970.71\n和歌山県立博物館「蘆雪生動―南紀 無量寺への旅―」 | https://hakubutu.wakayama.jp/exhibit/rosetu2026/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.162・208（textbook.pdf：PDF 164・210ページ）\n図版出典：クリーブランド美術館《Puppies, Sparrows, and Chrysanthemums》 | https://www.clevelandart.org/art/1970.71",
       "choices": [
         {
           "choice_label": "ア",
@@ -5004,7 +5004,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "呉春"
+              "text": "池大雅"
             }
           ],
           "is_correct": false,
@@ -5015,7 +5015,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "長沢芦雪"
+              "text": "呉春"
             }
           ],
           "is_correct": true,
@@ -5026,7 +5026,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "曽我蕭白"
+              "text": "曾我蕭白"
             }
           ],
           "is_correct": false,
@@ -5131,7 +5131,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "三つの升を重ねた紋をつけた市川鰕蔵が、役に扮して手を組む。寛政六年（1794）に江戸三座の役者を大首絵で紹介したこの作品群を刊行した版元は誰か。"
+          "text": "図は東洲斎写楽の役者絵である。この画家の活動時期を、浮世絵の発展の流れに位置付けたものはどれか。"
         },
         {
           "type": "image",
@@ -5143,37 +5143,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図は写楽が四代目市川鰕蔵の竹村定之進を描いたもの。三升の紋が役者の家を示す。写楽が寛政六年から翌年にかけて残した版画は、蔦屋重三郎の出版活動と結び付いている。"
+          "text": "写楽の代表的な役者絵は1794年の作品で、18世紀末に位置付けられる。同じ頃には歌麿が美人画で活躍した。浮世絵史では、師宣による浮世絵版画の出現や春信の錦絵成立への関与より後、北斎・広重の風景版画の展開より前に当たる。"
         },
         {
           "type": "text",
-          "text": "ア：写楽の役者大首絵は蔦屋重三郎の店から刊行され、蔦屋は歌麿の絵本や美人画の版元でもあった。"
+          "text": "ア：写楽の代表的な役者絵は1794年の作品で、歌麿の美人画と同じ18世紀末に位置付けられる。"
         },
         {
           "type": "text",
-          "text": "イ：永寿堂の西村屋与八は北斎の《冨嶽三十六景》を刊行した版元として知られる。"
+          "text": "イ：師宣による浮世絵版画の出現は、写楽より前の段階に当たる。"
         },
         {
           "type": "text",
-          "text": "ウ：保永堂の竹内孫八は広重の《東海道五拾三次之内》の出版に関わった版元である。"
+          "text": "ウ：春信が関わった錦絵の成立は、写楽が活躍するより前の段階に当たる。"
         },
         {
           "type": "text",
-          "text": "エ：鶴屋喜右衛門は草双紙の版元として活動したが、この写楽の役者絵を出版したのは蔦屋である。"
+          "text": "エ：北斎や広重の代表的な風景版画は、写楽の役者絵より後の段階に当たる。"
         },
         {
           "type": "text",
           "text": "Tōshūsai Sharaku (Japanese, active 1794–95)《Ichikawa Ebizō IV (Danjurō) as Takemura Sadanoshin in The Loving Wife's Parti-Colored Reins》、1794。Cleveland Museum of Art、1930.205。 Bequest of Edward L. Whittemore。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Ichikawa Ebizō IV (Danjurō) as Takemura Sadanoshin in The Loving Wife's Parti-Colored Reins》 | https://www.clevelandart.org/art/1930.205\n東京国立博物館《江戸三座役者似顔絵》 | https://emuseum.nich.go.jp/detail?content_base_id=100297&langId=ja\n静岡市東海道広重美術館「蔦屋重三郎と版元の仕事」 | https://tokaido-hiroshige.jp/exhibition/2025/edos_trend-setters.html",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.165・210・248（textbook.pdf：PDF 167・212・250ページ）\n図版出典：クリーブランド美術館《Ichikawa Ebizō IV (Danjurō) as Takemura Sadanoshin in The Loving Wife's Parti-Colored Reins》 | https://www.clevelandart.org/art/1930.205",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "蔦屋重三郎"
+              "text": "18世紀末、歌麿が美人画で活躍していた頃。"
             }
           ],
           "is_correct": true,
@@ -5184,7 +5184,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "西村屋与八"
+              "text": "17世紀後半、師宣が浮世絵版画の世界を開いた頃。"
             }
           ],
           "is_correct": false,
@@ -5195,7 +5195,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "竹内孫八"
+              "text": "18世紀中頃、春信が錦絵の成立に関わっていた頃。"
             }
           ],
           "is_correct": false,
@@ -5206,7 +5206,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "鶴屋喜右衛門"
+              "text": "19世紀前半、北斎や広重が風景版画を展開した頃。"
             }
           ],
           "is_correct": false,
@@ -5226,7 +5226,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "刺青を入れた男が、刀をくわえ、矢の飛び交う水門をよじ登る。この豪傑を描いた錦絵は、歌川国芳が武者絵師として名を上げた揃物の一枚である。典拠となった中国小説はどれか。"
+          "text": "図は歌川国芳の《通俗水滸伝豪傑百八人之一人》の一図である。国芳を論じた1969年の『奇想の系譜』が、ほかに取り上げた18世紀の画家の組合せはどれか。"
         },
         {
           "type": "image",
@@ -5238,37 +5238,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "国芳の出世作《通俗水滸伝豪傑百八人之一人》は、中国の長編小説の人物を躍動的な一枚絵にした。図では浪裡白跳張順が門を登る姿を描き、水の渦や飛ぶ矢が動きを強めている。"
+          "text": "『奇想の系譜』は、岩佐又兵衛・狩野山雪・伊藤若冲・曾我蕭白・長沢芦雪・歌川国芳を論じた。流派だけでは捉えにくい個性や前衛的な側面を評価し、江戸絵画を見る視点に影響を与えた。"
         },
         {
           "type": "text",
-          "text": "ア：『西遊記』は三蔵法師と孫悟空らの取経の旅を物語り、張順が属する豪傑の集団を描かない。"
+          "text": "ア：写生画や円山・四条派を代表する組合せであり、この著書が取り上げた画家の組合せではない。"
         },
         {
           "type": "text",
-          "text": "イ：『三国志演義』は劉備・関羽・張飛らが活躍する三国時代を描き、梁山泊の豪傑譚とは異なる。"
+          "text": "イ：日本の南画を代表する組合せであり、この著書の対象として挙げられる若冲・蕭白とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：国芳は『水滸伝』の梁山泊の豪傑を一人ずつ取り上げ、図では水中の戦いに秀でた張順を描いた。"
+          "text": "ウ：『奇想の系譜』は若冲・蕭白・芦雪などとともに国芳を論じ、既成の分類を越えた個性を評価した。"
         },
         {
           "type": "text",
-          "text": "エ：『封神演義』は殷から周への王朝交代をめぐる神仙・武将の物語で、図の豪傑譚とは舞台が異なる。"
+          "text": "エ：琳派に関わる兄弟の組合せであり、この著書の対象として挙げられる画家の組合せではない。"
         },
         {
           "type": "text",
           "text": "Utagawa Kuniyoshi (Japanese, 1797–1861)《Rori Hakucho Chojun (from the series 108 Heroes of the Novel Shui Hu Chuan)》、late 1820s。Cleveland Museum of Art、1980.85。 Edward L. Whittemore Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Rori Hakucho Chojun (from the series 108 Heroes of the Novel Shui Hu Chuan)》 | https://www.clevelandart.org/art/1980.85\n太田記念美術館「国芳ヒーローズ～水滸伝豪傑勢揃」 | https://www.ukiyoe-ota-muse.jp/kuniyoshi-heroes/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.247（textbook.pdf：PDF 249ページ）\n図版出典：クリーブランド美術館《Rori Hakucho Chojun (from the series 108 Heroes of the Novel Shui Hu Chuan)》 | https://www.clevelandart.org/art/1980.85",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "『西遊記』"
+              "text": "円山応挙と呉春"
             }
           ],
           "is_correct": false,
@@ -5279,7 +5279,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "『三国志演義』"
+              "text": "池大雅と与謝蕪村"
             }
           ],
           "is_correct": false,
@@ -5290,7 +5290,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "『水滸伝』"
+              "text": "伊藤若冲と曾我蕭白"
             }
           ],
           "is_correct": true,
@@ -5301,7 +5301,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "『封神演義』"
+              "text": "尾形光琳と尾形乾山"
             }
           ],
           "is_correct": false,
@@ -6426,7 +6426,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "清初の花卉画を代表し、輪郭線を立てず色の濃淡で花を描く没骨法で知られる。図の《芍薬図》の作者は誰か。"
+          "text": "図は中国の文人画の一例である。中国の文人画を受け継いだ、江戸時代の日本での展開を説明したものはどれか。"
         },
         {
           "type": "image",
@@ -6438,37 +6438,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "惲寿平は中国の花卉画の伝統を学び、色の調子で花びらや葉を描き分けた。図は1685年の作である。"
+          "text": "中国の文人画は江戸中期に日本へ移入された。池大雅・与謝蕪村らが日本的な情趣を加えて発展させ、南画と呼ばれる流れになった。"
         },
         {
           "type": "text",
-          "text": "ア：惲寿平は没骨法による花卉画で名を知られ、芍薬や牡丹を描いた。"
+          "text": "ア：中国の文人画は江戸中期に日本へ移り、池大雅や与謝蕪村らによって独自に発展した。"
         },
         {
           "type": "text",
-          "text": "イ：王時敏は古人の山水画に学んだ清初の「四王」の一人である。"
+          "text": "イ：宗達から光琳・抱一への私淑の流れは琳派の系譜に当たる。"
         },
         {
           "type": "text",
-          "text": "ウ：石濤は独自の山水画を描き、画論に「一画」を説いた。"
+          "text": "ウ：応挙や呉春は写生画の流れとして整理される。"
         },
         {
           "type": "text",
-          "text": "エ：八大山人は鳥や魚を簡潔な筆墨で表した作品で知られる。"
+          "text": "エ：北斎や広重による風景画の展開は浮世絵の系譜に当たる。"
         },
         {
           "type": "text",
           "text": "Yun Shouping (Chinese, 1633–1690)《Herbaceous Peony》、1685。Cleveland Museum of Art、1967.192。 Gift of the American Foundation for the Maud E. and Warren H. Corning Botanical Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Herbaceous Peony》 | https://www.clevelandart.org/art/1967.192\n国立故宮博物院 惲寿平の花卉画と没骨法 | https://digitalarchive.npm.gov.tw/Collection/Detail/4649?dep=P",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.246・247・248（textbook.pdf：PDF 248・249・250ページ）\n図版出典：クリーブランド美術館《Herbaceous Peony》 | https://www.clevelandart.org/art/1967.192",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "惲寿平"
+              "text": "池大雅や与謝蕪村らが、日本的な情趣も加えて発展させた。"
             }
           ],
           "is_correct": true,
@@ -6479,7 +6479,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "王時敏"
+              "text": "尾形光琳や酒井抱一らが、宗達の画風を私淑して発展させた。"
             }
           ],
           "is_correct": false,
@@ -6490,7 +6490,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "石濤"
+              "text": "円山応挙や呉春らが、京都で写生を重視する流れとして発展させた。"
             }
           ],
           "is_correct": false,
@@ -6501,7 +6501,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "八大山人"
+              "text": "葛飾北斎や歌川広重らが、多色摺の風景版画として発展させた。"
             }
           ],
           "is_correct": false,
@@ -6861,7 +6861,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図は室町時代の《松椿竹蒔絵硯箱》である。これより後、和歌を意匠に取り入れた《舟橋蒔絵硯箱》で知られる人物は誰か。"
+          "text": "図は室町時代の硯箱である。後に江戸時代の工芸を担った人々のうち、尾形光琳の弟として共同制作を行った陶芸家は誰か。"
         },
         {
           "type": "image",
@@ -6873,37 +6873,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "硯箱は筆記具を納める道具であるとともに、蓋や身に絵や文学の主題を表す場でもあった。室町の図の作と、桃山から江戸初期に活躍した光悦の作を区別したい。"
+          "text": "琳派の意匠は絵画から工芸にも展開した。尾形光琳は陶芸家の弟・乾山と共同制作を行った。図の硯箱はそれ以前の作例で、光琳の制作した硯箱とは区別する。"
         },
         {
           "type": "text",
-          "text": "ア：《舟橋蒔絵硯箱》は光悦を代表する作で、『後撰和歌集』の歌の文字と舟橋の図を組み合わせた。"
+          "text": "ア：光琳と乾山は兄弟で、共同制作も行った。"
         },
         {
           "type": "text",
-          "text": "イ：光琳の《八橋蒔絵螺鈿硯箱》は『伊勢物語』の八橋の場面を題材とする。"
+          "text": "イ：京焼の発展を準備した陶工で、光琳の弟は乾山である。"
         },
         {
           "type": "text",
-          "text": "ウ：江戸後期の蒔絵師で、酒井抱一の下絵による蒔絵を手がけた。"
+          "text": "ウ：光琳より前の世代に当たり、宗達と共同制作を行った。"
         },
         {
           "type": "text",
-          "text": "エ：幕末から明治にかけて、漆工と絵画の双方で活動した。"
+          "text": "エ：利休の好みによる楽茶碗を制作した桃山時代の陶工である。"
         },
         {
           "type": "text",
           "text": "制作者不詳《Writing Box (Suzuribako) with Pine, Camellia, and Bamboo》、1400s。Cleveland Museum of Art、1969.124。 John L. Severance Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Writing Box (Suzuribako) with Pine, Camellia, and Bamboo》 | https://www.clevelandart.org/art/1969.124\n東京国立博物館《舟橋蒔絵硯箱》 | https://emuseum.nich.go.jp/detail?content_base_id=100195&langId=ja",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.207・246・249・202（textbook.pdf：PDF 209・248・251・204ページ）\n図版出典：クリーブランド美術館《Writing Box (Suzuribako) with Pine, Camellia, and Bamboo》 | https://www.clevelandart.org/art/1969.124",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "本阿弥光悦"
+              "text": "乾山"
             }
           ],
           "is_correct": true,
@@ -6914,7 +6914,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "尾形光琳"
+              "text": "仁清"
             }
           ],
           "is_correct": false,
@@ -6925,7 +6925,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "原羊遊斎"
+              "text": "光悦"
             }
           ],
           "is_correct": false,
@@ -6936,7 +6936,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "柴田是真"
+              "text": "長次郎"
             }
           ],
           "is_correct": false,

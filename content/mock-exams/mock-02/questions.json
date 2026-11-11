@@ -1060,37 +1060,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "フラ・フィリッポ・リッピの《受胎告知》では、左のガブリエルと右のマリアが、中央の柱を挟んで向かい合う。この二人の対面は、マリアにキリストの誕生が告げられる場面を表す。"
+          "text": "図はフラ・フィリッポ・リッピの《受胎告知》。大天使ガブリエルとマリアが向かい合う場面は、マリアに神の子の懐胎が告げられる出来事を表す。"
         },
         {
           "type": "text",
-          "text": "ア：聖母訪問は、マリアがエリサベトを訪ねる場面である。"
+          "text": "ア：キリストと十二使徒が食卓を囲む場面であり、図の天使とマリアの対面とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：聖霊降臨では、集まった使徒たちの上に聖霊が降る。"
+          "text": "イ：キリストの死後、その亡骸を十字架から降ろす場面である。"
         },
         {
           "type": "text",
-          "text": "ウ：受胎告知では、大天使ガブリエルがマリアにキリストの誕生を告げる。"
+          "text": "ウ：大天使ガブリエルがマリアのもとへ来て、神の子を身ごもることを告げる場面である。"
         },
         {
           "type": "text",
-          "text": "エ：聖母被昇天は、地上での生涯を終えたマリアが天に迎えられる主題である。"
+          "text": "エ：母マリアと幼子キリストの情愛を示す主題で、図は母と幼子を描いていない。"
         },
         {
           "type": "text",
           "text": "Fra Filippo Lippi《The Annunciation》、c. 1435/1440。National Gallery of Art, Washington、1943.4.35。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Annunciation》 | https://www.nga.gov/artworks/12133-annunciation",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.123（textbook.pdf：PDF 125ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Annunciation》 | https://www.nga.gov/artworks/12133-annunciation",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖母訪問"
+              "text": "最後の晩餐"
             }
           ],
           "is_correct": false,
@@ -1101,7 +1101,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖霊降臨"
+              "text": "十字架降下"
             }
           ],
           "is_correct": false,
@@ -1123,7 +1123,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖母被昇天"
+              "text": "聖母子像"
             }
           ],
           "is_correct": false,
@@ -1143,7 +1143,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "黒い外套に白い十字章をつけた少年は、ローマ教皇の孫としてヴェネツィアに赴いた。ティツィアーノがこの少年に続いて肖像を描いた、その祖父に当たる教皇は誰か。"
+          "text": "図はティツィアーノが描いた少年の肖像である。この画家を含む16世紀のヴェネツィア派が、15世紀のフィレンツェ派と比較して特に重視したものはどれか。"
         },
         {
           "type": "image",
@@ -1155,37 +1155,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "少年はラヌッチョ・ファルネーゼで、外套の十字章は聖ヨハネ騎士団（マルタ騎士団）と結び付く。ティツィアーノはこの肖像をきっかけに祖父パウルス3世の肖像も描き、ファルネーゼ家から注文を受けた。"
+          "text": "ヴェネツィア派は、色彩や筆触、情感表現といった感覚的な魅力を重視した。ティツィアーノらは油絵具の特徴を生かした。一方、15世紀のフィレンツェ派では、遠近法や人体の研究を通じた構成と素描が重んじられた。"
         },
         {
           "type": "text",
-          "text": "ア：ユリウス2世はデッラ・ローヴェレ家出身で、ラファエロがその肖像を描いた。"
+          "text": "ア：フィレンツェ派が遠近法・解剖学の研究を通じ、素描を重視した説明に当たる。"
         },
         {
           "type": "text",
-          "text": "イ：ラファエロが二人の枢機卿とともに描いたレオ10世はメディチ家出身である。"
+          "text": "イ：フレスコやテンペラを用いたフィレンツェの計画的な描画と関わり、ヴェネツィア派の特色ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：クレメンス7世はメディチ家出身で、父はジュリアーノ・デ・メディチである。"
+          "text": "ウ：均衡や調和を重視する立場で、ヴェネツィア派が比較上優先した色彩や情感を示さない。"
         },
         {
           "type": "text",
-          "text": "エ：パウルス3世はファルネーゼ家出身で、少年ラヌッチョの祖父に当たる。"
+          "text": "エ：ヴェネツィア派は色彩・筆触・情感の魅力を重視し、油絵具の塗り重ねなどを生かした。"
         },
         {
           "type": "text",
           "text": "Titian《Ranuccio Farnese》、1541-1542。National Gallery of Art, Washington、1952.2.11。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Ranuccio Farnese》 | https://www.nga.gov/artworks/41593-ranuccio-farnese",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.65・121（textbook.pdf：PDF 67・123ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Ranuccio Farnese》 | https://www.nga.gov/artworks/41593-ranuccio-farnese",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ユリウス2世"
+              "text": "一点透視と人体研究に基づき、下描きで構成を定めること。"
             }
           ],
           "is_correct": false,
@@ -1196,7 +1196,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "レオ10世"
+              "text": "卵テンペラの乾きの速さを生かし、素描を厳密に写すこと。"
             }
           ],
           "is_correct": false,
@@ -1207,7 +1207,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "クレメンス7世"
+              "text": "理想的な比例と左右の均衡を、構図の中心に置くこと。"
             }
           ],
           "is_correct": false,
@@ -1218,7 +1218,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "パウルス3世"
+              "text": "色彩や筆触によって、情感を伴う感覚的な魅力を生むこと。"
             }
           ],
           "is_correct": true,
@@ -2272,7 +2272,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "淡い青の舞台衣装を着た少女を、ほぼ一人で画面いっぱいに描いたこの《踊り子》を、ルノワールが出品した展覧会はどれか。"
+          "text": "図はルノワールの《踊り子》である。この画家の制作全体に関わる特徴として、適切なものはどれか。"
         },
         {
           "type": "image",
@@ -2284,37 +2284,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ルノワールは1874年の第1回印象派展に、この《踊り子》を含む7点を出品した。全身像の形式でひとりの踊り子に向き合った作品で、会場では少女の生き生きした表情や優雅さにも注目が集まった。"
+          "text": "ルノワールは人々の幸福な情景を、色が溶け合うような表現で描いた。肖像や踊り子を描く一方、《ムーラン・ド・ラ・ギャレット》のように近代の人々が楽しむ場面も取り上げた。"
         },
         {
           "type": "text",
-          "text": "ア：1863年の落選展で物議を醸したのはマネの《草上の昼食》などで、この踊り子はまだ描かれていない。"
+          "text": "ア：積み藁や睡蓮の連作で光の変化を追ったモネの探究である。"
         },
         {
           "type": "text",
-          "text": "イ：最終回の第8回展ではスーラの《グランド・ジャット島の日曜日の午後》が注目を集めた。"
+          "text": "イ：農民の生活と労働に主題を見いだしたミレーに当たる。"
         },
         {
           "type": "text",
-          "text": "ウ：第3回展にはルノワールの《ムーラン・ド・ラ・ギャレットの舞踏会》が出品された。"
+          "text": "ウ：空の変化を観察したイギリスのコンスタブルに当たる。"
         },
         {
           "type": "text",
-          "text": "エ：ルノワールはこの全身像を、画家たちがサロンから独立して開いた最初のグループ展に出品した。"
+          "text": "エ：ルノワールは戸外の人々の幸福な情景を、溶け合う色彩で描いた。"
         },
         {
           "type": "text",
           "text": "Auguste Renoir《The Dancer》、1874。National Gallery of Art, Washington、1942.9.72。 Widener Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Dancer》 | https://www.nga.gov/artworks/1211-dancer\nオルセー美術館「印象派の展覧会（1874–1886年）」 | https://www.musee-orsay.fr/fr/ressources/parcours-au-temps-des-expositions-impressionnistes-1874-1886-86",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.78・80・84（textbook.pdf：PDF 80・82・86ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Dancer》 | https://www.nga.gov/artworks/1211-dancer",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "1863年の落選展"
+              "text": "同じ対象を繰り返し描き、移り変わる光の変化を追い続けた。"
             }
           ],
           "is_correct": false,
@@ -2325,7 +2325,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "1886年の第8回印象派展"
+              "text": "田畑で働く農民の生活を、重みのある人物像によって描いた。"
             }
           ],
           "is_correct": false,
@@ -2336,7 +2336,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "1877年の第3回印象派展"
+              "text": "空の大きな変化を観察し、イギリスの田園風景を描いた。"
             }
           ],
           "is_correct": false,
@@ -2347,7 +2347,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "1874年の第1回印象派展"
+              "text": "人々の幸福な情景を、色が溶け合うような表現で描いた。"
             }
           ],
           "is_correct": true,
@@ -2513,7 +2513,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図のセーヌ河畔を描いた画家は、のちに同じ聖堂の正面を、違う時刻や天候のもとで繰り返し描いた。その連作の舞台はどこか。"
+          "text": "図はモネがセーヌ河畔を描いた作品である。この画家が《積み藁》とともに連作に取り組み、光や水面の微妙な変化を追った主題はどれか。"
         },
         {
           "type": "image",
@@ -2525,37 +2525,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "クロード・モネは《ヴェトゥイユのセーヌ河畔》で、川面や草地に差す光を短い筆触でとらえた。1890年代にはルーアン大聖堂の西正面をさまざまな光のもとで描き、同じ石の壁面が時間とともに違った色に見える様子を示した。"
+          "text": "モネは《積み藁》や《睡蓮》の連作で、刻々と変化する光や水面の微妙な表情を追い続けた。同じ対象を異なる条件で描くことで、見え方の変化を探究した。"
         },
         {
           "type": "text",
-          "text": "ア：モネはルーアンの大聖堂の向かいに制作の場所を取り、西正面に当たる光を追った。"
+          "text": "ア：モネは積み藁や睡蓮の連作で、刻々と変わる光や水面の微妙な表情を追った。"
         },
         {
           "type": "text",
-          "text": "イ：アミアンにも彫刻で飾られたゴシックの西正面があるが、モネがこの連作で描いた聖堂とは所在地が違う。"
+          "text": "イ：農民の祈りを描いたミレーの作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：シャルトル大聖堂はコローの風景画でも知られるが、モネの大聖堂連作の舞台はルーアンである。"
+          "text": "ウ：セザンヌが人体と風景を構成した作品である。"
         },
         {
           "type": "text",
-          "text": "エ：ランスはフランス王の戴冠式で知られる大聖堂で、モネの連作で描かれた建物はノルマンディーにある。"
+          "text": "エ：モローの象徴主義的な作品である。"
         },
         {
           "type": "text",
           "text": "Claude Monet《Banks of the Seine, Vétheuil》、1880。National Gallery of Art, Washington、1963.10.177。 Chester Dale Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Banks of the Seine, Vétheuil》 | https://www.nga.gov/artworks/46652-banks-seine-vetheuil\nワシントン・ナショナル・ギャラリー《Rouen Cathedral, West Façade》 | https://www.nga.gov/node/856116",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.80・84・87・88・132（textbook.pdf：PDF 82・86・89・90・134ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Banks of the Seine, Vétheuil》 | https://www.nga.gov/artworks/46652-banks-seine-vetheuil",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ルーアン大聖堂"
+              "text": "《睡蓮》"
             }
           ],
           "is_correct": true,
@@ -2566,7 +2566,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "アミアン大聖堂"
+              "text": "《晩鐘》"
             }
           ],
           "is_correct": false,
@@ -2577,7 +2577,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "シャルトル大聖堂"
+              "text": "《大水浴》"
             }
           ],
           "is_correct": false,
@@ -2588,7 +2588,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ランス大聖堂"
+              "text": "《出現》"
             }
           ],
           "is_correct": false,

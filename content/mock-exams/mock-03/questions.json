@@ -894,7 +894,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "金地の聖母子像で、幼子が母マリアの手にある白いバラへ手を伸ばしている。この花が聖母自身について表す意味はどれか。"
+          "text": "図はジョットが描いた聖母子像である。人物を生き生きと表し、初期ルネサンスへつながる役割を果たしたこの画家の師として知られるのは誰か。"
         },
         {
           "type": "image",
@@ -906,37 +906,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ジョットは金地に光輪のある聖母子を表しながら、母の指を握り花に手を伸ばす赤子のしぐさを加えた。白いバラはマリアの純潔を表す伝統的なしるしであり、母子を身近に感じさせる小道具も兼ねている。"
+          "text": "ジョットはチマブーエの弟子である。ジョットが人物に生き生きとした表情と量感を与えた仕事は、初期ルネサンスへつながった。"
         },
         {
           "type": "text",
-          "text": "ア：天の女王としての栄光を表す図像には聖母の戴冠があり、白いバラとはしるしが異なる。"
+          "text": "ア：金地の聖母像などを描いた同時代の画家だが、ジョットの師として挙げられるのはチマブーエである。"
         },
         {
           "type": "text",
-          "text": "イ：悲しみの聖母には胸を貫く剣が結び付けられる。"
+          "text": "イ：《受胎告知》などで知られる画家だが、ジョットの師ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：この聖母子像の白いバラは、マリアの純潔を表す。"
+          "text": "ウ：ジョットはチマブーエの弟子で、人間らしい生き生きとした表現を発展させた。"
         },
         {
           "type": "text",
-          "text": "エ：慈悲の聖母の図像では、広げた外套の下に人々をかくまう姿がよく用いられる。"
+          "text": "エ：ジョットの次の世代に初期ルネサンスの絵画を発展させた画家である。"
         },
         {
           "type": "text",
           "text": "Giotto《Madonna and Child》、c. 1310/1315。National Gallery of Art, Washington、1939.1.256。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Madonna and Child》 | https://www.nga.gov/artworks/397-madonna-and-child",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.19・63（textbook.pdf：PDF 21・65ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Madonna and Child》 | https://www.nga.gov/artworks/397-madonna-and-child",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "天の女王としての聖母の栄光"
+              "text": "ドゥッチョ"
             }
           ],
           "is_correct": false,
@@ -947,7 +947,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "息子の受難を見届ける聖母の悲しみ"
+              "text": "シモーネ・マルティーニ"
             }
           ],
           "is_correct": false,
@@ -958,7 +958,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖母マリアの純潔"
+              "text": "チマブーエ"
             }
           ],
           "is_correct": true,
@@ -969,7 +969,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "信徒を包んで守る聖母の慈悲"
+              "text": "マザッチョ"
             }
           ],
           "is_correct": false,
@@ -1074,7 +1074,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "病床を訪ねた医師の聖人コスマスとダミアヌスを描くこの板絵は、フィレンツェのサン・マルコ聖堂の主祭壇画に組み込まれていた。この祭壇画を注文したのはどの一族か。"
+          "text": "図はフラ・アンジェリコが描いた、聖人の物語を表す板絵である。彼がマザッチョから取り入れた新しい絵画表現に関わる説明はどれか。"
         },
         {
           "type": "image",
@@ -1086,37 +1086,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "フラ・アンジェリコの《サン・マルコ祭壇画》はメディチ家の依頼で制作された。祭壇画の下部には一族が守護聖人として敬った医師の兄弟の物語が連なり、図は二人がパラディアを治す場面に当たる。"
+          "text": "マザッチョは生きた人間の動きや人体を研究し、一点透視による空間表現を用いた。フラ・アンジェリコはその新しい様式を取り入れ、敬虔な宗教画を描いた。"
         },
         {
           "type": "text",
-          "text": "ア：フィレンツェの有力家門でサンタ・トリニタ聖堂などに礼拝堂を構えたが、この主祭壇画の注文主はメディチ家である。"
+          "text": "ア：空気遠近法を生かす油彩の説明で、マザッチョの人体と一点透視の革新とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：フィレンツェでアルベルティの建築事業を支援した家門で、このサン・マルコの祭壇画の注文主とは異なる。"
+          "text": "イ：16世紀のマニエリスムに関わる人物表現である。"
         },
         {
           "type": "text",
-          "text": "ウ：サンタ・クローチェ聖堂のパッツィ礼拝堂と結び付く家門で、図の主祭壇画を依頼した一族ではない。"
+          "text": "ウ：16世紀のヴェネツィア派が重視した色彩や情感の説明である。"
         },
         {
           "type": "text",
-          "text": "エ：コジモとロレンツォ・デ・メディチがサン・マルコ聖堂主礼拝堂の保護権を得て、新しい祭壇画を依頼した。"
+          "text": "エ：マザッチョは人体の量感と一点透視による空間を研究し、その新しい様式をフラ・アンジェリコも取り入れた。"
         },
         {
           "type": "text",
           "text": "Fra Angelico《The Healing of Palladia by Saint Cosmas and Saint Damian》、c. 1438/1440。National Gallery of Art, Washington、1952.5.3。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Healing of Palladia by Saint Cosmas and Saint Damian》 | https://www.nga.gov/artworks/41613-healing-palladia-saint-cosmas-and-saint-damian\nイタリア文化省「修復を終えたサン・マルコ祭壇画」 | https://cultura.gov.it/comunicato/firenze-la-pala-di-san-marco-restaurata-ritorna-al-suo-museo",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.63・64・66・121（textbook.pdf：PDF 65・66・68・123ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Healing of Palladia by Saint Cosmas and Saint Damian》 | https://www.nga.gov/artworks/41613-healing-palladia-saint-cosmas-and-saint-damian",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ストロッツィ家"
+              "text": "油絵具の層を重ね、遠くの風景を青くかすませて見せる。"
             }
           ],
           "is_correct": false,
@@ -1127,7 +1127,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ルチェッライ家"
+              "text": "人物を細長く引き伸ばし、複雑にねじれた姿勢を組み合わせる。"
             }
           ],
           "is_correct": false,
@@ -1138,7 +1138,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "パッツィ家"
+              "text": "色彩や筆触の情感を優先し、ヴェネツィアの華やかさを示す。"
             }
           ],
           "is_correct": false,
@@ -1149,7 +1149,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "メディチ家"
+              "text": "人体を量感ある存在として捉え、遠近法で奥行きのある空間を作る。"
             }
           ],
           "is_correct": true,
@@ -1264,7 +1264,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "風景を背景に、幼子が母の首に腕を回すこの聖母子像を描いた画家が、ヴァチカン宮殿に制作した壁画はどれか。"
+          "text": "図はラファエロの《小カウパーの聖母》である。同じ画家が描いた壁画はどれか。"
         },
         {
           "type": "image",
@@ -1276,30 +1276,30 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図はラファエロの板絵《小カウパーの聖母》である。ラファエロはローマでは教皇の居室の装飾を担い、「署名の間」の《アテネの学堂》にプラトンやアリストテレスら古代の思想家を描いた。"
+          "text": "《アテネの学堂》はラファエロの壁画である。《ユダの接吻》はジョット、《アダムの創造》はミケランジェロ、《貢の銭》はマザッチョによる。"
         },
         {
           "type": "text",
-          "text": "ア：ラファエロはヴァチカン宮殿の「署名の間」にこの壁画を描いた。"
+          "text": "ア：ラファエロが描いた、古代の思想家たちを配する壁画である。"
         },
         {
           "type": "text",
-          "text": "イ：システィーナ礼拝堂の側壁にこの主題を描いたのはペルジーノである。"
+          "text": "イ：ジョットがスクロヴェーニ礼拝堂に描いた壁画である。"
         },
         {
           "type": "text",
-          "text": "ウ：システィーナ礼拝堂の祭壇壁にこの主題を描いたのはミケランジェロである。"
+          "text": "ウ：ミケランジェロがシスティナ礼拝堂の天井に描いた場面である。"
         },
         {
           "type": "text",
-          "text": "エ：システィーナ礼拝堂の側壁にキリストの試練を描いたのはボッティチェリである。"
+          "text": "エ：マザッチョが描いた初期ルネサンスの壁画である。"
         },
         {
           "type": "text",
           "text": "Raphael《The Small Cowper Madonna》、c. 1505。National Gallery of Art, Washington、1942.9.57。 Widener Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Small Cowper Madonna》 | https://www.nga.gov/artworks/1196-small-cowper-madonna\nヴァチカン美術館《School of Athens》 | https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/scuola-di-atene.html",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.20・21・62・64（textbook.pdf：PDF 22・23・64・66ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Small Cowper Madonna》 | https://www.nga.gov/artworks/1196-small-cowper-madonna",
       "choices": [
         {
           "choice_label": "ア",
@@ -1317,7 +1317,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ペテロへの鍵の授与》"
+              "text": "《ユダの接吻》"
             }
           ],
           "is_correct": false,
@@ -1328,7 +1328,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《最後の審判》"
+              "text": "《アダムの創造》"
             }
           ],
           "is_correct": false,
@@ -1339,7 +1339,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《キリストの試練》"
+              "text": "《貢の銭》"
             }
           ],
           "is_correct": false,
@@ -1359,7 +1359,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "この聖職者の肖像を描いた画家は、版画家としても活動し、木版の連作《黙示録》を刊行した。誰か。"
+          "text": "図はデューラーによる聖職者の肖像である。同時代の北方の画家のうち、エラスムスの著書『愚神礼讃』の挿絵や、彼の肖像画を描いたのは誰か。"
         },
         {
           "type": "image",
@@ -1371,37 +1371,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図はアルブレヒト・デューラーが1516年に描いた聖職者の肖像である。ニュルンベルクで活動したデューラーは、木版連作《黙示録》では四人の騎士が地上を駆け抜ける場面などを表した。"
+          "text": "ホルバイン（子）は、エラスムスの著書『愚神礼讃』の挿絵や、エラスムスの肖像に優れた人物描写を示した。宗教改革の時代の北方では、宗教改革者や人文学者のように、それ以前とは異なる人物の肖像も描かれた。"
         },
         {
           "type": "text",
-          "text": "ア：デューラーはこの肖像の作者で、《黙示録》を木版挿絵の連作として刊行した。"
+          "text": "ア：ホルバイン（子）は『愚神礼讃』の挿絵とエラスムスの肖像を描いた。"
         },
         {
           "type": "text",
-          "text": "イ：ホルバインはイングランド宮廷の肖像や、木版の《死の舞踏》の原画で知られる。"
+          "text": "イ：宗教改革者ルターの肖像で知られるが、『愚神礼讃』の挿絵を描いた画家とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：クラーナハはザクセン選帝侯に仕え、宗教改革者ルターの肖像を繰り返し描いた。"
+          "text": "ウ：人体比例や遠近法を学び版画でも影響を与えた画家で、『愚神礼讃』の挿絵を描いたホルバイン（子）とは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：グリューネヴァルトは磔刑図を含む《イーゼンハイムの祭壇画》の絵画を手がけた。"
+          "text": "エ：農民の風俗や風景画で知られ、『愚神礼讃』の挿絵を描いた画家とは異なる。"
         },
         {
           "type": "text",
           "text": "Albrecht Dürer《Portrait of a Clergyman (Johann Dorsch?)》、1516。National Gallery of Art, Washington、1952.2.17。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Portrait of a Clergyman (Johann Dorsch?)》 | https://www.nga.gov/artworks/41600-portrait-clergyman-johann-dorsch\nメトロポリタン美術館《The Four Horsemen, from The Apocalypse》 | https://www.metmuseum.org/art/collection/search/336215",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.66・122（textbook.pdf：PDF 68・124ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Portrait of a Clergyman (Johann Dorsch?)》 | https://www.nga.gov/artworks/41600-portrait-clergyman-johann-dorsch",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "アルブレヒト・デューラー"
+              "text": "ハンス・ホルバイン（子）"
             }
           ],
           "is_correct": true,
@@ -1412,7 +1412,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ハンス・ホルバイン（子）"
+              "text": "ルーカス・クラーナハ（父）"
             }
           ],
           "is_correct": false,
@@ -1423,7 +1423,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ルーカス・クラーナハ（父）"
+              "text": "アルブレヒト・デューラー"
             }
           ],
           "is_correct": false,
@@ -1434,7 +1434,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "マティアス・グリューネヴァルト"
+              "text": "ピーテル・ブリューゲル（父）"
             }
           ],
           "is_correct": false,
@@ -1624,7 +1624,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "画面中央の男は、縛られた聖人の前で刃物を研いでいる。この道具を殉教のしるしとする使徒は誰か。"
+          "text": "図はリベーラの《聖バルトロマイの殉教》である。同じ17世紀スペインで宮廷画家として活動し、《ラス・メニーナス》を描いたのは誰か。"
         },
         {
           "type": "image",
@@ -1636,37 +1636,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ホセ・デ・リベーラの《聖バルトロマイの殉教》は、処刑の直前を描く。生きたまま皮をはがされたと伝わる使徒バルトロマイは、ナイフやはがされた皮によって識別される。"
+          "text": "《ラス・メニーナス》の作者は、スペインの宮廷画家ベラスケスである。17世紀のスペインでは、リベーラやスルバランの宗教画、ムリーリョの聖母像なども描かれた。"
         },
         {
           "type": "text",
-          "text": "ア：聖アンデレの殉教を示す持物としては、斜めに交差するX字形の十字架が知られる。"
+          "text": "ア：迫力のある宗教画で知られ、図の作者である。宮廷画家として《ラス・メニーナス》を描いたのはベラスケスである。"
         },
         {
           "type": "text",
-          "text": "イ：聖ペテロは天国の鍵と結び付き、殉教の場面では逆さに十字架にかけられる。"
+          "text": "イ：リベーラとともに優れた宗教画を描き、静物画も残した画家である。"
         },
         {
           "type": "text",
-          "text": "ウ：皮をはがされたという伝承があり、ナイフがこの使徒の持物となった。"
+          "text": "ウ：スペイン絵画の黄金時代に登場した宮廷画家で、《ラス・メニーナス》を描いた。"
         },
         {
           "type": "text",
-          "text": "エ：聖パウロの殉教を示す刃物は、斬首に用いられた剣である。"
+          "text": "エ：美しい聖母像を描いたスペインの画家である。"
         },
         {
           "type": "text",
           "text": "Jusepe de Ribera《The Martyrdom of Saint Bartholomew》、1634。National Gallery of Art, Washington、1990.137.1。 Gift of the 50th Anniversary Gift Committee。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《The Martyrdom of Saint Bartholomew》 | https://www.nga.gov/artworks/72037-martyrdom-saint-bartholomew\nロンドン・ナショナル・ギャラリー「St Bartholomew」 | https://www.nationalgallery.org.uk/paintings/glossary/st-bartholomew",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.24・70・71（textbook.pdf：PDF 26・72・73ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《The Martyrdom of Saint Bartholomew》 | https://www.nga.gov/artworks/72037-martyrdom-saint-bartholomew",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖アンデレ"
+              "text": "リベーラ"
             }
           ],
           "is_correct": false,
@@ -1677,7 +1677,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖ペテロ"
+              "text": "スルバラン"
             }
           ],
           "is_correct": false,
@@ -1688,7 +1688,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖バルトロマイ"
+              "text": "ベラスケス"
             }
           ],
           "is_correct": true,
@@ -1699,7 +1699,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "聖パウロ"
+              "text": "ムリーリョ"
             }
           ],
           "is_correct": false,
@@ -1719,7 +1719,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "豪華な衣装の侯爵夫人を椅子に配したこの全身肖像は、ジェノヴァの貴族のために描かれた。作者をのちにロンドンへ迎え、首席宮廷画家とした王は誰か。"
+          "text": "図はヴァン・ダイクが貴族の女性を描いた肖像である。ルーベンスのもとで学んだこの画家の、その後の活動として適切なものはどれか。"
         },
         {
           "type": "image",
@@ -1731,37 +1731,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "図はアンソニー・ヴァン・ダイクの《バルビ侯爵夫人》。ヴァン・ダイクはジェノヴァで貴族の肖像を制作し、1632年からはチャールズ1世に仕え、王とその家族、廷臣の肖像を数多く残した。"
+          "text": "ヴァン・ダイクはルーベンスのもとで学び、その後イギリスの宮廷画家として肖像画で活躍した。彼の肖像は後のイギリスの風俗画や肖像画にも影響を与えた。"
         },
         {
           "type": "text",
-          "text": "ア：ジェームズ1世はチャールズ1世の父で、ヴァン・ダイクの首席宮廷画家就任に先立って没した。"
+          "text": "ア：フランスのジョルジュ・ド・ラ・トゥールに関わる活動である。"
         },
         {
           "type": "text",
-          "text": "イ：ウィリアム3世の時代は、ヴァン・ダイク没後の名誉革命を経た時期に当たる。"
+          "text": "イ：オランダのレンブラントに関わる活動である。"
         },
         {
           "type": "text",
-          "text": "ウ：チャールズ2世が王政復古後の宮廷で首席画家に任じたのはピーター・レーリーである。"
+          "text": "ウ：ローマで活躍したプッサンに関わる活動である。"
         },
         {
           "type": "text",
-          "text": "エ：チャールズ1世は1632年にヴァン・ダイクを首席宮廷画家に任命した。"
+          "text": "エ：ヴァン・ダイクはイギリスに渡って宮廷画家として活躍し、肖像画に優れた仕事を残した。"
         },
         {
           "type": "text",
           "text": "Sir Anthony van Dyck《Marchesa Balbi》、c. 1623。National Gallery of Art, Washington、1937.1.49。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Marchesa Balbi》 | https://www.nga.gov/artworks/56-marchesa-balbi\nロンドン・ナショナル・ギャラリー「Anthony van Dyck」 | https://www.nationalgallery.org.uk/artists/anthony-van-dyck",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.69・70・71（textbook.pdf：PDF 71・72・73ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Marchesa Balbi》 | https://www.nga.gov/artworks/56-marchesa-balbi",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ジェームズ1世"
+              "text": "フランスで、ろうそくの光を生かした静かな宗教画を描いた。"
             }
           ],
           "is_correct": false,
@@ -1772,7 +1772,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ウィリアム3世"
+              "text": "オランダで、市民の集団肖像に劇的な構図と明暗を取り入れた。"
             }
           ],
           "is_correct": false,
@@ -1783,7 +1783,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "チャールズ2世"
+              "text": "ローマで、古代の美術に学んだ明晰な構成の絵画を描いた。"
             }
           ],
           "is_correct": false,
@@ -1794,7 +1794,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "チャールズ1世"
+              "text": "イギリスで、宮廷画家として王や宮廷の人々の肖像を描いた。"
             }
           ],
           "is_correct": true,
@@ -1984,7 +1984,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図は、船上のコロンブスや各地の人々が、雲上の王座を囲む天井画のための下絵である。ティエポロのこの構想は、どこの天井に描かれたか。"
+          "text": "図はティエポロが大規模な天井画のために描いた下絵である。彼が晩年に訪れ、王宮に華やかな天井画を残した都市はどこか。"
         },
         {
           "type": "image",
@@ -1996,37 +1996,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ティエポロはカルロス3世の宮廷で、マドリード王宮の「玉座の間」のためにこの下絵を制作した。中央で王座につくのはスペインの擬人像で、周囲に各地の人々を配して王権の広がりを表した。"
+          "text": "ティエポロは晩年にスペインを訪れ、マドリード王宮に《スペインの栄光》を描いた。バロックの重厚な色彩を白を基調とする明るいものへ変え、歴史の枠に縛られない自由で華やかな絵画を作った。"
         },
         {
           "type": "text",
-          "text": "ア：ティエポロが大階段の天井に描いたのは、アポロンと四大陸を組み合わせた別の構想である。"
+          "text": "ア：この時代にはピラネージが古代遺跡を銅版画で表した都市だが、設問の王宮はマドリードにある。"
         },
         {
           "type": "text",
-          "text": "イ：ラビア宮の大広間には、ティエポロによるアントニウスとクレオパトラの物語がある。"
+          "text": "イ：この時代のイタリア絵画の中心でティエポロも活躍したが、設問は晩年のスペインでの仕事を指す。"
         },
         {
           "type": "text",
-          "text": "ウ：スペインをたたえるこの寓意画は、カルロス3世の王宮の玉座の間を飾った。"
+          "text": "ウ：ティエポロは晩年にスペインを訪れ、マドリード王宮に《スペインの栄光》を描いた。"
         },
         {
           "type": "text",
-          "text": "エ：バルベリーニ宮の広間で一族の栄光をたたえる天井画を描いたのはピエトロ・ダ・コルトーナである。"
+          "text": "エ：イギリスではレノルズやゲインズバラが肖像画などで活躍したが、設問の王宮はロンドンではない。"
         },
         {
           "type": "text",
           "text": "Giovanni Battista Tiepolo《Wealth and Benefits of the Spanish Monarchy under Charles III》、1762。National Gallery of Art, Washington、1943.4.39。 Samuel H. Kress Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Wealth and Benefits of the Spanish Monarchy under Charles III》 | https://www.nga.gov/artworks/12137-wealth-and-benefits-spanish-monarchy-under-charles-iii\nバイエルン州宮殿管理局「ヴュルツブルク司教館の大階段」 | https://www.residenz-wuerzburg.de/englisch/residenz/treppe.htm",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.72・73（textbook.pdf：PDF 74・75ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Wealth and Benefits of the Spanish Monarchy under Charles III》 | https://www.nga.gov/artworks/12137-wealth-and-benefits-spanish-monarchy-under-charles-iii",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヴュルツブルク司教館の大階段"
+              "text": "ローマ"
             }
           ],
           "is_correct": false,
@@ -2037,7 +2037,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヴェネツィアのラビア宮の大広間"
+              "text": "ヴェネツィア"
             }
           ],
           "is_correct": false,
@@ -2048,7 +2048,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "マドリード王宮の玉座の間"
+              "text": "マドリード"
             }
           ],
           "is_correct": true,
@@ -2059,7 +2059,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ローマのバルベリーニ宮の大広間"
+              "text": "ロンドン"
             }
           ],
           "is_correct": false,
@@ -2249,7 +2249,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "コンスタブルが、木立の向こうに立つ尖塔を草地から眺めた作品である。この場所を何度も訪れた画家が、繰り返し描いた大聖堂はどれか。"
+          "text": "図はコンスタブルが、草地の向こうに大聖堂を描いた作品である。この画家が主教館の庭から描いた作例でも知られる、この大聖堂はどれか。"
         },
         {
           "type": "image",
@@ -2261,37 +2261,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "コンスタブルは友人フィッシャーの一族との交流を通じてソールズベリーを訪れ、大聖堂を異なる場所や天候のもとで描いた。1820年の図では、ロウアー・マーシュ・クローズの草地越しに中央の尖塔を望んでいる。"
+          "text": "正答はソールズベリー大聖堂。コンスタブルはイギリスの風景画家で、《主教館の庭から見たソールズベリー大聖堂》のように、身近な自然の中にある建物も描いた。"
         },
         {
           "type": "text",
-          "text": "ア：カンタベリー大聖堂はカンタベリー大主教座の聖堂で、ここに描かれたウィルトシャーの大聖堂とは異なる。"
+          "text": "ア：シャルトルはフランスのゴシック大聖堂で、設問のコンスタブルの作例はソールズベリーを描く。"
         },
         {
           "type": "text",
-          "text": "イ：ダラム大聖堂はイングランド北東部にあり、コンスタブルがこの草地越しに描いた南部の聖堂とは異なる。"
+          "text": "イ：アミアンはフランスのゴシック大聖堂で、設問のコンスタブルの作例とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：ヨーク・ミンスターはイングランド北部のヨークにあり、この作品で描かれたフィッシャー家ゆかりの聖堂とは異なる。"
+          "text": "ウ：ケルンはドイツのゴシック大聖堂で、設問のコンスタブルの作例とは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：高い尖塔が田園の上に突き出るソールズベリー大聖堂は、コンスタブルが繰り返し描いた主題である。"
+          "text": "エ：コンスタブルの代表的な大聖堂の風景として《主教館の庭から見たソールズベリー大聖堂》がある。"
         },
         {
           "type": "text",
           "text": "John Constable《Salisbury Cathedral from Lower Marsh Close》、1820。National Gallery of Art, Washington、1937.1.108。 Andrew W. Mellon Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Salisbury Cathedral from Lower Marsh Close》 | https://www.nga.gov/artworks/115-salisbury-cathedral-lower-marsh-close\nスコットランド国立美術館「Constable & McTaggart」 | https://www.nationalgalleries.org/art-and-artists/features/constable-mctaggart",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.18・19・61・78・129（textbook.pdf：PDF 20・21・63・80・131ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Salisbury Cathedral from Lower Marsh Close》 | https://www.nga.gov/artworks/115-salisbury-cathedral-lower-marsh-close",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "カンタベリー大聖堂"
+              "text": "シャルトル大聖堂"
             }
           ],
           "is_correct": false,
@@ -2302,7 +2302,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ダラム大聖堂"
+              "text": "アミアン大聖堂"
             }
           ],
           "is_correct": false,
@@ -2313,7 +2313,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "ヨーク・ミンスター"
+              "text": "ケルン大聖堂"
             }
           ],
           "is_correct": false,
@@ -2514,7 +2514,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "ナポレオンの親衛隊に属する騎馬の喇叭手を描いたこの画家が、のちに生存者から話を聞き、大画面に表した同時代の事件はどれか。"
+          "text": "図はジェリコーが騎兵を描いた作品である。この画家の代表作《メデュース号の筏》が扱った同時代の出来事はどれか。"
         },
         {
           "type": "image",
@@ -2526,37 +2526,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "ジェリコーは馬や騎兵に強い関心を寄せた。代表作《メデュース号の筏》では、1816年に西アフリカ沖で座礁したフランス艦の乗員らが筏で漂流した事件を取り上げ、生存者に取材して構想を練った。"
+          "text": "ジェリコーの《メデュース号の筏》は、西アフリカ海岸でフランスの軍艦が難破した実際の事件を扱う。遭難者の苦境と生への動きを大画面に描き、フランスのロマン主義の出発を告げた。"
         },
         {
           "type": "text",
-          "text": "ア：ジェリコーはメデュース号の遭難を取材し、救いを求めて合図する漂流者たちを描いた。"
+          "text": "ア：《メデュース号の筏》は、フランスの軍艦が西アフリカ海岸で難破した実際の事件を扱った。"
         },
         {
           "type": "text",
-          "text": "イ：この鎮圧を《1808年5月3日》に描いたのはスペインのゴヤである。"
+          "text": "イ：ゴヤの《1808年5月3日》が扱う出来事である。"
         },
         {
           "type": "text",
-          "text": "ウ：1830年の七月革命を《民衆を導く自由の女神》に描いたのはドラクロワである。"
+          "text": "ウ：ドラクロワの《キオス島の虐殺》に関わる出来事である。"
         },
         {
           "type": "text",
-          "text": "エ：ギリシア独立戦争中のこの事件を《キオス島の虐殺》に描いたのはドラクロワである。"
+          "text": "エ：グロが《アイラウの戦場のナポレオン》に描いた場面である。"
         },
         {
           "type": "text",
           "text": "Théodore Gericault《Mounted Trumpeters of Napoleon's Imperial Guard》、1813/1814。National Gallery of Art, Washington、1972.25.1。 Chester Dale Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Mounted Trumpeters of Napoleon's Imperial Guard》 | https://www.nga.gov/artworks/53161-mounted-trumpeters-napoleons-imperial-guard\nルーヴル美術館《Le radeau de la Méduse》 | https://collections.louvre.fr/en/ark:/53355/cl010059199",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.29・75・77・127・128（textbook.pdf：PDF 31・77・79・129・130ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Mounted Trumpeters of Napoleon's Imperial Guard》 | https://www.nga.gov/artworks/53161-mounted-trumpeters-napoleons-imperial-guard",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "西アフリカ沖で座礁した軍艦の乗員らが筏で漂流した事件"
+              "text": "西アフリカ沿岸で難破した軍艦の乗員たちの漂流。"
             }
           ],
           "is_correct": true,
@@ -2567,7 +2567,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "マドリードで蜂起した市民がフランス軍に銃殺された事件"
+              "text": "ナポレオンの軍によるマドリードの市民の処刑。"
             }
           ],
           "is_correct": false,
@@ -2578,7 +2578,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "パリで市民が蜂起し、シャルル10世が退位した七月革命"
+              "text": "ギリシア独立戦争のさなかに起こった住民の虐殺。"
             }
           ],
           "is_correct": false,
@@ -2589,7 +2589,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "オスマン帝国下のキオス島で住民が虐殺された事件"
+              "text": "アイラウの戦場を進むナポレオンとその軍隊。"
             }
           ],
           "is_correct": false,
@@ -2864,7 +2864,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "画家は、木立に隠れるこの建物《シャトー・ノワール》を何度も描いた。建物が郊外にあり、作者が晩年の制作の拠点とした町はどこか。"
+          "text": "図はセザンヌの《シャトー・ノワール》である。同じ画家による別の作品はどれか。"
         },
         {
           "type": "image",
@@ -2876,37 +2876,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "セザンヌは故郷のエクス＝アン＝プロヴァンスとその近辺で制作を続けた。《シャトー・ノワール》はサント＝ヴィクトワール山への道沿いにある建物で、セザンヌはここで建物や周囲の林を繰り返し描いた。"
+          "text": "《大水浴》の作者はセザンヌ。セザンヌは一瞬の光の印象よりも堅固な画面構成を重視し、風景や静物、人体を探究した。他の三作品は、それぞれゴッホ、モロー、セリュジエによる。"
         },
         {
           "type": "text",
-          "text": "ア：シャトー・ノワールはセザンヌの故郷エクスの近郊に位置する。"
+          "text": "ア：セザンヌが描いた作品で、人体と周囲の風景を画面の構成としてまとめている。"
         },
         {
           "type": "text",
-          "text": "イ：コリウールはマティスとドランが1905年の夏にともに制作した地中海沿岸の町である。"
+          "text": "イ：ゴッホが描いた作品である。"
         },
         {
           "type": "text",
-          "text": "ウ：カーニュ＝シュル＝メールはルノワールが晩年にレ・コレットの邸宅を構えた町である。"
+          "text": "ウ：神話や文学などを神秘的な絵画に表したモローの作品である。"
         },
         {
           "type": "text",
-          "text": "エ：アルルはゴッホが「黄色い家」に住み、ゴーガンと一時期共同生活を送った町である。"
+          "text": "エ：セリュジエが描いた作品である。"
         },
         {
           "type": "text",
           "text": "Paul Cezanne《Château Noir》、1900/1904。National Gallery of Art, Washington、1958.10.1。 Gift of Eugene and Agnes E. Meyer。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Château Noir》 | https://www.nga.gov/artworks/45866-chateau-noir\nワシントン・ナショナル・ギャラリー「Cézanne in Provence」 | https://www.nga.gov/exhibitions/cezanne-provence",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.87・88・132（textbook.pdf：PDF 89・90・134ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Château Noir》 | https://www.nga.gov/artworks/45866-chateau-noir",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "エクス＝アン＝プロヴァンス"
+              "text": "《大水浴》"
             }
           ],
           "is_correct": true,
@@ -2917,7 +2917,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "コリウール"
+              "text": "《ひまわり》"
             }
           ],
           "is_correct": false,
@@ -2928,7 +2928,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "カーニュ＝シュル＝メール"
+              "text": "《出現》"
             }
           ],
           "is_correct": false,
@@ -2939,7 +2939,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "アルル"
+              "text": "《護符》"
             }
           ],
           "is_correct": false,
@@ -4489,7 +4489,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の坐像と同じ尊名をもつ、奈良時代の立像が伝わるのはどこか。坐像の頭上に重なる小さな顔に注目しなさい。"
+          "text": "図は、頭上に小さな顔を重ねる十一面観音像である。密教の造像で手本とされた「図像」は、どのような情報を伝えるものか。"
         },
         {
           "type": "image",
@@ -4501,37 +4501,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "頭上の小面を重ねる姿が十一面観音を示す。図は12世紀の銅造坐像である。奈良時代の作例として著名な聖林寺の十一面観音は立像で、大御輪寺から聖林寺へ移された。"
+          "text": "空海・最澄らの密教受容に際して、密教画とともに白描の図像がもたらされた。図像は、尊像の姿や持物、乗り物などの決まりを伝え、日本での密教の絵画・彫刻制作の手本となった。"
         },
         {
           "type": "text",
-          "text": "ア：東大寺法華堂の本尊は、羂索を持つ奈良時代の不空羂索観音立像である。"
+          "text": "ア：経典の注釈は文章の解釈に関わる。尊像の姿の決まりを伝える図像とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：観心寺金堂の本尊は、六本の腕をもつ平安時代の如意輪観音坐像である。"
+          "text": "イ：寺社縁起が主に伝える情報であり、図像が示す造像の規則とは異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：聖林寺に伝わる大御輪寺旧蔵の立像は、図と同じ十一面観音である。"
+          "text": "ウ：密教の図像は尊像の姿・持物・乗り物など、造形上の決まりを伝える。"
         },
         {
           "type": "text",
-          "text": "エ：中宮寺の本尊は飛鳥時代の菩薩半跏像で、寺伝では如意輪観音とされる。"
+          "text": "エ：高僧伝に関わる内容であり、尊像の姿や持物を定める図像の情報ではない。"
         },
         {
           "type": "text",
           "text": "制作者不詳《Eleven-Headed Kannon (Jūichimen Kannon)》、1100s。Cleveland Museum of Art、1960.279。 Gift of Mrs. John Lyon Collyer in memory of her mother, Mrs. G. M. G. Forman。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Eleven-Headed Kannon (Jūichimen Kannon)》 | https://www.clevelandart.org/art/1960.279\n聖林寺「国宝 十一面観音」 | https://www.shorinji-temple.jp/about/kokuho-juichimenkannon/",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.184（textbook.pdf：PDF 186ページ）\n図版出典：クリーブランド美術館《Eleven-Headed Kannon (Jūichimen Kannon)》 | https://www.clevelandart.org/art/1960.279",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "奈良・東大寺の法華堂"
+              "text": "経典の本文を読み解くための、語句ごとの注釈。"
             }
           ],
           "is_correct": false,
@@ -4542,7 +4542,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "大阪・観心寺の金堂"
+              "text": "寺院が建てられた由来や、霊験の物語の筋。"
             }
           ],
           "is_correct": false,
@@ -4553,7 +4553,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "奈良・聖林寺の観音堂"
+              "text": "尊像の姿や持物、乗り物などの決まり。"
             }
           ],
           "is_correct": true,
@@ -4564,7 +4564,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "奈良・中宮寺の本堂"
+              "text": "高僧が歩んだ生涯や、布教した土地の記録。"
             }
           ],
           "is_correct": false,
@@ -4839,7 +4839,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "片手に小さな塔を載せ、足もとで邪鬼を踏みつける図の尊像を、四天王の一体として安置する場合の名と守護の方角はどれか。"
+          "text": "図は毘沙門天の立像である。四天王や十二神将とともに、如来や菩薩を守る尊像の分類はどれか。"
         },
         {
           "type": "image",
@@ -4851,37 +4851,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "鎌倉時代の毘沙門天像。独尊の場合に多い毘沙門天という名と、四天王の多聞天という名は、同じ尊格を指す。手の宝塔は仏の遺骨や教えを守ることと結び付く。"
+          "text": "仏像は役割により如来・菩薩・明王・天部などに分けられる。四天王や十二神将は、如来や菩薩を守る天部に属する。毘沙門天も仏法を守る尊像として表される。"
         },
         {
           "type": "text",
-          "text": "ア：増長天が守るのは南方で、図に見える宝塔は多聞天の識別に用いる。"
+          "text": "ア：如来は悟りを開いた仏陀であり、守護する天部とは分類が異なる。"
         },
         {
           "type": "text",
-          "text": "イ：持国天は東方の守護者であり、宝塔を捧げて立つ図の尊像とは異なる。"
+          "text": "イ：菩薩は悟りを求めて修行し、如来の働きを助ける存在である。"
         },
         {
           "type": "text",
-          "text": "ウ：宝塔を捧げる毘沙門天は、四天王としては多聞天と呼ばれ、北方を守る。"
+          "text": "ウ：如来や菩薩を守る者として、四天王や十二神将などの天部が挙げられる。"
         },
         {
           "type": "text",
-          "text": "エ：西方の広目天には筆と巻物を携える作例があり、図の宝塔を捧げる尊像には当たらない。"
+          "text": "エ：明王は煩悩を打ち砕く怒りの姿をとる尊格で、四天王や十二神将の分類ではない。"
         },
         {
           "type": "text",
           "text": "制作者不詳《Guardian King of the North (Bishamonten)》、1185–1333。Cleveland Museum of Art、1959.135。 James Parmelee and Cornelia Blakemore Warner Funds。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Guardian King of the North (Bishamonten)》 | https://www.clevelandart.org/art/1959.135",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.178（textbook.pdf：PDF 180ページ）\n図版出典：クリーブランド美術館《Guardian King of the North (Bishamonten)》 | https://www.clevelandart.org/art/1959.135",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "増長天―南方"
+              "text": "如来"
             }
           ],
           "is_correct": false,
@@ -4892,7 +4892,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "持国天―東方"
+              "text": "菩薩"
             }
           ],
           "is_correct": false,
@@ -4903,7 +4903,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "多聞天―北方"
+              "text": "天部"
             }
           ],
           "is_correct": true,
@@ -4914,7 +4914,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "広目天―西方"
+              "text": "明王"
             }
           ],
           "is_correct": false,
@@ -5019,7 +5019,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の掛軸には、室町時代の僧が漢字を連ねた三行の句と、自筆の署名がある。こうした僧の筆跡について、茶の湯の掛物にも用いられる書の呼び名はどれか。"
+          "text": "図は禅僧・一休宗純の書である。禅僧の漢文学の教養と結び付いて室町時代に流行した詩画軸で、「書斎図」が表したものはどれか。"
         },
         {
           "type": "image",
@@ -5031,37 +5031,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "一休宗純が、中国の禅僧・仏眼清遠の語にちなむ句をしたためた墨蹟である。禅僧の書は筆跡を通じて筆者の人柄や修行をしのぶものとして珍重された。"
+          "text": "室町時代の詩画軸は、絵と詩文を組み合わせた禅僧たちの文化である。その主題の一つである書斎図では、現実の建物の記録を越えて、自然の中で隠逸する理想の書斎が描かれた。"
         },
         {
           "type": "text",
-          "text": "ア：禅宗で僧の筆跡を尊んで墨蹟と呼び、茶の湯でも掛物に用いた。"
+          "text": "ア：書斎図は、禅僧の書斎を大自然の中に理想化して描いた主題である。"
         },
         {
           "type": "text",
-          "text": "イ：歌仙切は歌人の肖像や和歌を収めた歌仙絵などの巻物・冊子が分割された断片を指す。"
+          "text": "イ：友との別れを主題とするのは送別図であり、書斎図とは主題が異なる。"
         },
         {
           "type": "text",
-          "text": "ウ：詠草は和歌を詠み記したもので、禅の語句を漢字で揮毫したこの書とは性格が異なる。"
+          "text": "ウ：中国古典詩を絵画化するのは詩意図であり、書斎図の説明ではない。"
         },
         {
           "type": "text",
-          "text": "エ：願文は施主などが仏事の趣旨や願いを述べる文書で、この軸が伝える禅の語句とは内容が異なる。"
+          "text": "エ：禅の公案を描く禅機図の説明であり、書斎図の主題とは異なる。"
         },
         {
           "type": "text",
           "text": "Ikkyū Sōjun (Japanese, 1394–1481)《Reflections of Priest Foyen》、1400s。Cleveland Museum of Art、2015.511。 Gift from the Collection of George Gund III。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Reflections of Priest Foyen》 | https://www.clevelandart.org/art/2015.511\n根津美術館「はじめての古美術鑑賞　写経と墨蹟」 | https://www.nezu-muse.or.jp/jp/nezunet/nezunet_page162.html",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.197・241・266（textbook.pdf：PDF 199・243・268ページ）\n図版出典：クリーブランド美術館《Reflections of Priest Foyen》 | https://www.clevelandart.org/art/2015.511",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "墨蹟"
+              "text": "山水の中に庵を営み、俗世を離れて暮らす理想。"
             }
           ],
           "is_correct": true,
@@ -5072,7 +5072,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "歌仙切"
+              "text": "旅立つ友に惜別の思いを寄せる、送別の場面。"
             }
           ],
           "is_correct": false,
@@ -5083,7 +5083,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "詠草"
+              "text": "中国の古典詩が語る情景を絵にした、詩の世界。"
             }
           ],
           "is_correct": false,
@@ -5094,7 +5094,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "願文"
+              "text": "禅問答の問いを具体的な場面にした、修行の課題。"
             }
           ],
           "is_correct": false,
@@ -5199,7 +5199,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "雪のなかを進む騎馬の貴人と従者を、金の散る地に描いている。藤原定家の和歌に取材したこの《佐野の渡り》を制作した工房は、誰の名で知られるか。"
+          "text": "図は、宗達工房の《佐野の渡り》である。古い和歌や絵画を新たな造形へ生かした俵屋宗達の活動について、適切なのはどれか。"
         },
         {
           "type": "image",
@@ -5211,37 +5211,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "宗達の工房は、古い絵画や和歌の題材を近世の画面によみがえらせた。この作品では、雪の夕暮れ、馬を止めても袖を払う物陰がないという定家の「佐野の渡り」の歌が、騎馬の一行に託されている。"
+          "text": "宗達は俵屋という絵屋を営んだ町場の絵師とされる。『源氏物語』『伊勢物語』などの古典を、古い絵巻の図様を取り入れながら、単純な形と色の均衡によって描き直した。"
         },
         {
           "type": "text",
-          "text": "ア：光琳は宗達に学んだ後代の絵師で、この作品が作られた17世紀初めにはまだ生まれていない。"
+          "text": "ア：幕府の奥絵師や規範を重視する教育は江戸狩野派に結び付く。宗達の町絵師としての活動とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：所蔵館は古典の和歌を題材とするこの作品を、京都の俵屋宗達の工房に帰属させている。"
+          "text": "イ：宗達は俵屋という絵屋を営み、古い絵巻の図様を転用して古典的な主題を新しく表した。"
         },
         {
           "type": "text",
-          "text": "ウ：同時期の京都で活動した山楽は京狩野の画系に属し、俵屋の工房を率いた人物ではない。"
+          "text": "ウ：宮廷の絵所預を担った土佐派と、町場の絵屋を営んだ宗達を混同している。"
         },
         {
           "type": "text",
-          "text": "エ：等伯は長谷川派の画家で、《松林図屏風》などを残したが、この歌絵の工房主とは異なる。"
+          "text": "エ：中国文人画を理想とする南画の活動であり、古典の図様を転用した宗達の活動を説明していない。"
         },
         {
           "type": "text",
           "text": "俵屋宗達工房《Crossing at Sano》、c. 1600–1640。Cleveland Museum of Art、1949.554。 John L. Severance Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Crossing at Sano》 | https://www.clevelandart.org/art/1949.554",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.205（textbook.pdf：PDF 207ページ）\n図版出典：クリーブランド美術館《Crossing at Sano》 | https://www.clevelandart.org/art/1949.554",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "尾形光琳"
+              "text": "幕府の奥絵師となり、過去の名画を門人の規範として教えた。"
             }
           ],
           "is_correct": false,
@@ -5252,7 +5252,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "俵屋宗達"
+              "text": "絵屋を営み、古い絵巻の図様を取り入れて古典を描き直した。"
             }
           ],
           "is_correct": true,
@@ -5263,7 +5263,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "狩野山楽"
+              "text": "宮廷の絵所預として、やまと絵の伝統を一つの家に継承した。"
             }
           ],
           "is_correct": false,
@@ -5274,7 +5274,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "長谷川等伯"
+              "text": "中国の画譜を学び、文人の詩書画の理想に沿う山水を描いた。"
             }
           ],
           "is_correct": false,
@@ -5379,7 +5379,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "一双の片方に月夜を、もう片方に積雪の山野を描いた京都の画家は、松に降り積もった雪も紙の白を生かして屏風に描いた。その画家は誰か。"
+          "text": "図は円山応挙が、夏の夜と冬の昼の山水を描いた一双である。応挙が若い頃に手がけ、立体感のある表現を磨く契機ともなった、西洋の正遠近法による見世物の絵は何と呼ばれるか。"
         },
         {
           "type": "image",
@@ -5391,37 +5391,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "円山応挙は、写生を基礎に、少ない色や紙地を利用して光と空気の変化を描いた。図は1784年に描いた一双で、別作の《雪松図屏風》では枝に積もる雪に紙の白を用いている。"
+          "text": "応挙は写生画で人気を得る前に、西洋の正遠近法を使った眼鏡絵を描いた。見世物の絵で培った経験を生かし、実物を見るような立体感のある表現をつくり出した。"
         },
         {
           "type": "text",
-          "text": "ア：与謝蕪村も《夜色楼台図》などの雪景を描いたが、ここに示された季節を対にした屏風の作者ではない。"
+          "text": "ア：実際に見た各地の風景を描く真景図と、覗き機関などの見世物に用いる眼鏡絵とは異なる。"
         },
         {
           "type": "text",
-          "text": "イ：池大雅は文人画の山水や《十便図》を描いたが、この一双や《雪松図屏風》の作者ではない。"
+          "text": "イ：中国の古典詩の情景を絵にしたものを指し、正遠近法を用いる見世物の呼称ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：伊藤若冲の代表的な連作は《動植綵絵》で、この二つの雪景を描いた画家とは異なる。"
+          "text": "ウ：理想的な隠逸の書斎を描く主題で、見世物の仕組みや眼鏡絵の画法とは異なる。"
         },
         {
           "type": "text",
-          "text": "エ：この夏と冬の景観と、三井記念美術館の《雪松図屏風》は、ともに円山応挙の作品である。"
+          "text": "エ：応挙は西洋の正遠近法を使う眼鏡絵を描き、その経験を立体感のある表現に生かした。"
         },
         {
           "type": "text",
           "text": "Maruyama Ōkyo (Japanese, 1733–1795)《Summer Night; Winter Day》、1784。Cleveland Museum of Art、1973.156。 Leonard C. Hanna Jr. Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Summer Night; Winter Day》 | https://www.clevelandart.org/art/1973.156\n三井記念美術館《雪松図屏風》 | https://jmapps.ne.jp/mitsui_museum/det.html?data_id=1241",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.208・247（textbook.pdf：PDF 210・249ページ）\n図版出典：クリーブランド美術館《Summer Night; Winter Day》 | https://www.clevelandart.org/art/1973.156",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "与謝蕪村"
+              "text": "真景図"
             }
           ],
           "is_correct": false,
@@ -5432,7 +5432,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "池大雅"
+              "text": "詩意図"
             }
           ],
           "is_correct": false,
@@ -5443,7 +5443,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "伊藤若冲"
+              "text": "書斎図"
             }
           ],
           "is_correct": false,
@@ -5454,7 +5454,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "円山応挙"
+              "text": "眼鏡絵"
             }
           ],
           "is_correct": true,
@@ -5644,7 +5644,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "女性の夢を縦長の画面に置き、衣の柄まで柔らかな色で摺り分けた、1770年頃の江戸の版画である。この時期にこうした多色摺の発達を促した催しはどれか。"
+          "text": "図は鈴木春信の多色摺の浮世絵である。錦絵の成立に先立って発達した「紅摺絵」の説明として、適切なのはどれか。"
         },
         {
           "type": "image",
@@ -5656,37 +5656,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "柱に掛けるための縦長の版画に、夢と現実の二場面を収めた春信の作例である。1765年ごろ、絵暦を交換する人々が摺りや色の美しさを競い、春信らが錦絵の発展を担った。"
+          "text": "初めは墨一色だった浮世絵版画は、墨の版に紅や草色などを重ねる紅摺絵を経て、完全な多色摺の錦絵へ進んだ。春信はその錦絵の成立に関わった画家である。"
         },
         {
           "type": "text",
-          "text": "ア：団扇絵は団扇に貼るための版画で、大小の月を工夫して示した絵暦とは別の出版物である。"
+          "text": "ア：色版を重ねて摺る紅摺絵の工程を、筆による後彩色に置き換えている。"
         },
         {
           "type": "text",
-          "text": "イ：狂歌連の摺物では多色摺が活用されたが、春信期の錦絵成立の直接の契機は絵暦交換である。"
+          "text": "イ：紅摺絵は墨の版に少数の色を重ねる。墨版を用いない多数の色版という説明ではない。"
         },
         {
           "type": "text",
-          "text": "ウ：絵本番付は歌舞伎の演目や役者を紹介する印刷物で、明和の絵暦交換とは用途が異なる。"
+          "text": "ウ：完全な多色摺へ進んだ錦絵の説明に近く、その前段階の紅摺絵を区別できていない。"
         },
         {
           "type": "text",
-          "text": "エ：絵暦の意匠を競う交換会が精巧な多色摺を促し、春信らによる錦絵の成立を支えた。"
+          "text": "エ：紅摺絵は墨版に紅と草色などを重ねる、錦絵に先立つ二〜三色の摺りである。"
         },
         {
           "type": "text",
           "text": "Suzuki Harunobu (Japanese, 1724–1770)《Courtesan Dreaming of her Childhood》、c. 1770。Cleveland Museum of Art、1920.516。 Gift of J. H. Wade。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Courtesan Dreaming of her Childhood》 | https://www.clevelandart.org/art/1920.516\n国立国会図書館・ジャパンサーチ「鈴木春信」 | https://jpsearch.go.jp/gallery/ndl-Pm670ra6BjP",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.210・248（textbook.pdf：PDF 212・250ページ）\n図版出典：クリーブランド美術館《Courtesan Dreaming of her Childhood》 | https://www.clevelandart.org/art/1920.516",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "版元が、芝居や名所を描いた団扇絵を夏に売り出した。"
+              "text": "墨一色で摺った線の上へ、完成後に筆で色を塗る。"
             }
           ],
           "is_correct": false,
@@ -5697,7 +5697,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "狂歌の仲間が、歌を添えた私家版の摺物を配った。"
+              "text": "輪郭線の版を使わず、多くの色版だけを重ねて摺る。"
             }
           ],
           "is_correct": false,
@@ -5708,7 +5708,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "芝居小屋が、出演する役者を載せた絵本番付を頒った。"
+              "text": "墨の版に、多数の色版を重ねて中間色まで摺り分ける。"
             }
           ],
           "is_correct": false,
@@ -5719,7 +5719,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "大小の月を絵に隠した暦を、愛好家が交換した。"
+              "text": "墨の版に、紅や草色などの少数の色版を重ねて摺る。"
             }
           ],
           "is_correct": true,
@@ -6929,7 +6929,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図の《竹溪試浴図》を描いた馬遠と並び、南宋の画院で山水画を代表した画家は誰か。"
+          "text": "図は馬遠の《竹溪試浴図》である。夏珪・馬遠・牧谿の作品は日本で尊重され、水墨画の手本となった。この三人が活動した中国の時代はどれか。"
         },
         {
           "type": "image",
@@ -6941,37 +6941,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "南宋の都・臨安（杭州）の宮廷では、馬遠と夏珪が活躍した。二人の画風はのちに日本の水墨画にも受け継がれた。"
+          "text": "室町将軍家などで重んじられた中国の絵画には、南宋の夏珪・馬遠・牧谿の作があった。それらは日本の水墨画を制作する際の規範となった。"
         },
         {
           "type": "text",
-          "text": "ア：元末の文人画家で、元末四大家に数えられる。"
+          "text": "ア：設問に挙げた三人は南宋の画家であり、清の画家ではない。"
         },
         {
           "type": "text",
-          "text": "イ：《早春図》の作者で、北宋の宮廷に仕えた。"
+          "text": "イ：元の作品も日本の水墨画に影響したが、設問の三人は南宋に位置づけられる。"
         },
         {
           "type": "text",
-          "text": "ウ：北宋初期の山水画家で、《谿山行旅図》で知られる。"
+          "text": "ウ：明の絵画も日本へ渡ったが、三人の活動期より後の時代である。"
         },
         {
           "type": "text",
-          "text": "エ：馬遠と夏珪は南宋の画院を代表し、「馬夏」と並び称された。"
+          "text": "エ：南宋の夏珪・馬遠・牧谿らの作品は、日本でとくに高く評価された。"
         },
         {
           "type": "text",
           "text": "馬遠《Bamboo and Ducks by a Rushing Stream》、1127–1279。Cleveland Museum of Art、1967.145。 Purchase from the J. H. Wade Fund。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "クリーブランド美術館《Bamboo and Ducks by a Rushing Stream》 | https://www.clevelandart.org/art/1967.145\n東京国立博物館《山水図》 | https://emuseum.nich.go.jp/detail?content_base_id=100845&content_part_id=8&langId=ja\nメトロポリタン美術館 馬遠と南宋の画院 | https://www.metmuseum.org/art/collection/search/40086",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.241・242（textbook.pdf：PDF 243・244ページ）\n図版出典：クリーブランド美術館《Bamboo and Ducks by a Rushing Stream》 | https://www.clevelandart.org/art/1967.145",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "倪瓚"
+              "text": "清"
             }
           ],
           "is_correct": false,
@@ -6982,7 +6982,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "郭熙"
+              "text": "元"
             }
           ],
           "is_correct": false,
@@ -6993,7 +6993,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "范寛"
+              "text": "明"
             }
           ],
           "is_correct": false,
@@ -7004,7 +7004,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "夏珪"
+              "text": "南宋"
             }
           ],
           "is_correct": true,
@@ -7364,7 +7364,7 @@
       "content_blocks": [
         {
           "type": "text",
-          "text": "図は踊り子ジャンヌ・アヴリルを描いたポスターである。19世紀末のパリで、同じ画家が手がけたポスターはどれか。"
+          "text": "図の《ジャンヌ・アヴリル》のように、ロートレックは舞台にかかわるポスターを制作した。世紀末の美術家と活動の対応として、正しいものはどれか。"
         },
         {
           "type": "image",
@@ -7376,37 +7376,37 @@
       "explanation_blocks": [
         {
           "type": "text",
-          "text": "19世紀末のモンマルトルで、トゥールーズ＝ロートレックは劇場やダンスホールに通い、そこに出演する人々をポスターの主役にした。"
+          "text": "ロートレックやミュシャは、世紀末のポスターを美術の表現として発展させた。一方、イギリスのビアズリーは戯曲『サロメ』の挿絵を手がけ、フランスのギマールは建築に装飾的な曲線を用いた。"
         },
         {
           "type": "text",
-          "text": "ア：ミュシャが俳優サラ・ベルナールの舞台のために制作したポスターである。"
+          "text": "ア：植物文様を用いるパリの地下鉄入口の設計はギマールの仕事である。"
         },
         {
           "type": "text",
-          "text": "イ：ロートレックはムーラン・ルージュの依頼を受け、踊るラ・グーリュをポスターにした。"
+          "text": "イ：ビアズリーは洗練された線による『サロメ』の挿絵で知られる。"
         },
         {
           "type": "text",
-          "text": "ウ：黒い猫を大きく描いたこのポスターはスタンランによる。"
+          "text": "ウ：《接吻》はウィーンの画家クリムトの作品である。"
         },
         {
           "type": "text",
-          "text": "エ：巻きたばこ用紙「ジョブ」のためにミュシャが手がけた広告ポスターである。"
+          "text": "エ：《ディヴァン・ジャポネ》のポスターはロートレックの作品である。"
         },
         {
           "type": "text",
           "text": "Henri de Toulouse-Lautrec《Jane Avril》、1899。National Gallery of Art, Washington、1953.6.137。 Rosenwald Collection。 画像ライセンス CC0。"
         }
       ],
-      "source_text": "ワシントン・ナショナル・ギャラリー《Jane Avril》 | https://www.nga.gov/artworks/42691-jane-avril\nメトロポリタン美術館 ロートレックと舞台ポスター | https://www.metmuseum.org/art/collection/search/333993",
+      "source_text": "『改訂版 西洋・日本美術史の基本』p.89・90・135（textbook.pdf：PDF 91・92・137ページ）\n図版出典：ワシントン・ナショナル・ギャラリー《Jane Avril》 | https://www.nga.gov/artworks/42691-jane-avril",
       "choices": [
         {
           "choice_label": "ア",
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ジスモンダ》"
+              "text": "ミュシャ ― パリの地下鉄入口の設計"
             }
           ],
           "is_correct": false,
@@ -7417,7 +7417,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ムーラン・ルージュ、ラ・グーリュ》"
+              "text": "ビアズリー ― ワイルドの戯曲『サロメ』の挿絵"
             }
           ],
           "is_correct": true,
@@ -7428,7 +7428,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ル・シャ・ノワールの巡業》"
+              "text": "ギマール ― 絵画《接吻》"
             }
           ],
           "is_correct": false,
@@ -7439,7 +7439,7 @@
           "content_blocks": [
             {
               "type": "text",
-              "text": "《ジョブ》"
+              "text": "クリムト ― 《ディヴァン・ジャポネ》のポスター"
             }
           ],
           "is_correct": false,
