@@ -15,12 +15,15 @@ test('published legal pages are accessible without application login and omit in
   }
 })
 
-test('commercial disclosure retains seller readiness checks and request-based contact disclosure', () => {
+test('commercial disclosure is static and publishes the seller phone number', () => {
   const page = source('commercial-disclosure')
-  assert.match(page, /isSellerInformationComplete\(seller.value\)/)
+  const nuxtConfig = readFileSync(new URL('../nuxt.config.ts', import.meta.url), 'utf8')
+  assert.match(page, /SELLER_PHONE = '050-6870-0005'/)
+  assert.match(page, /SELLER_NAME = '大野佳樹'/)
   assert.match(page, /請求があった場合に遅滞なく開示/)
   assert.match(page, /購入前の請求にも/)
   assert.match(page, /申込みの意思決定に先立って十分な時間的余裕/)
   assert.match(page, /PRICE_LABEL/)
-  assert.match(page, /immediate: PAYMENTS_ENABLED/)
+  assert.doesNotMatch(page, /useFetch|\/api\/v1\/payments\/config/)
+  assert.match(nuxtConfig, /'\/commercial-disclosure': \{ prerender: true \}/)
 })

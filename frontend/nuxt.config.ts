@@ -25,6 +25,7 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
+    '/commercial-disclosure': { prerender: true },
     // User-specific application screens do not benefit from server rendering.
     '/practice/**': { ssr: false, headers: { 'X-Robots-Tag': 'noindex, nofollow' } },
     '/history': { ssr: false, headers: { 'X-Robots-Tag': 'noindex, nofollow' } },
